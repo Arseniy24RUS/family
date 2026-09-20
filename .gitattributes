@@ -13,3 +13,4 @@
 public/downloads/** -text
 docs/downloads/** -text
 inputs/upstream/** -text
+*.sh text eol=lf
