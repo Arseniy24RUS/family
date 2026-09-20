@@ -1,0 +1,21 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { simulateCohort,validateCohortInput,fertilityProfile,migrationProfile,mortalityFromE0 } from '../src/core/cohort.js';
+const fixture=()=>JSON.parse(fs.readFileSync(new URL('./fixtures/cohort_input.json',import.meta.url),'utf8'));
+const noChange=()=>{let d=fixture();d.base_date='2030-01-01';d.scenario_start=d.base_date;d.fertility.annual_tfr={'2030':0};for(const s of ['male','female']){d.mortality[s]={qx:Array(101).fill(0)};d.migration[s].annual_net={'2030':0};}return d;};
+const close=(a,b)=>assert.ok(Math.abs(a-b)<=Math.max(1e-7,Math.abs(a)*1e-10),`${a} != ${b}`);
+test('all monthly cohort balances and cells are finite and nonnegative',()=>{const r=simulateCohort(fixture());assert.equal(r.months.length,72);assert.equal(r.months.at(-1).stock_date,'2031-01-01');for(const p of r.months){for(const x of [...p.age.male,...p.age.female])assert.ok(Number.isFinite(x)&&x>=0);close(p.population,p.male+p.female);close(p.balance_residual,0);} });
+test('zero components conserve stock and correctly advance a full year',()=>{const d=noChange(),r=simulateCohort(d);for(const s of ['male','female']){close(r.months.at(-1).age[s][0],0);for(let a=1;a<100;a++)close(r.months.at(-1).age[s][a],d.population[s][a-1]);close(r.months.at(-1).age[s][100],d.population[s][99]+d.population[s][100]);}close(r.months[0].population,r.months.at(-1).population);});
+test('monthly shift is exactly one of twelve base subcohorts',()=>{const d=noChange(),r=simulateCohort(d);close(r.months[0].age.male[0],d.population.male[0]*11/12);close(r.months[0].age.male[1],d.population.male[1]*11/12+d.population.male[0]/12);});
+test('life table reproduces requested e0',()=>{for(const s of ['male','female'])for(const e of [45,65,80,95])close(mortalityFromE0(e,s).e0,e);});
+test('fertility and migration profiles are normalized',()=>{for(const w of [fertilityProfile(),migrationProfile()]){assert.equal(w.length,101);close(w.reduce((a,b)=>a+b),1);}assert.equal(fertilityProfile()[14],0);assert.equal(fertilityProfile()[50],0);});
+test('no-migration scenario changes only months after its stated start',()=>{const d=fixture(),a=simulateCohort(d),b=simulateCohort(d,{migration_scale:0});for(let i=0;i<15;i++)assert.deepEqual(a.months[i],b.months[i]);assert.equal(b.months[15].net_migration,0);assert.notEqual(a.months[15].population,b.months[15].population);});
+test('sex-specific births reconcile at declared sex ratio',()=>{const d=noChange();d.base_date=d.scenario_start='2030-12-01';d.fertility.annual_tfr={'2030':1.5};const r=simulateCohort(d).months[0];close(r.age.male[0]-d.population.male[0]*11/12,(r.age.female[0]-d.population.female[0]*11/12)*1.056);});
+test('missing age rejected',()=>{const d=fixture();d.population.male.pop();assert.throws(()=>validateCohortInput(d));});
+test('invalid future annual values rejected before simulation',()=>{for(const bad of [null,NaN,-1]){let d=fixture();d.fertility.annual_tfr['2028']=bad;assert.throws(()=>simulateCohort(d));}});
+test('impossible emigration is not silently clipped',()=>{const d=fixture();d.migration.male.annual_net={'2025':-1e9};assert.throws(()=>simulateCohort(d),/отток/);});
+test('invalid qx, date, scenario controls rejected',()=>{let d=fixture();d.mortality.male={qx:Array(101).fill(1.1)};assert.throws(()=>simulateCohort(d));d=fixture();d.scenario_start='2024-01-01';assert.throws(()=>simulateCohort(d));for(const options of [{migration_scale:-1},{fertility_scale_end:NaN},{e0_delta_end:16}])assert.throws(()=>simulateCohort(fixture(),options));});
+test('supplied qx cannot be relabelled through an e0 change',()=>{assert.throws(()=>simulateCohort(noChange(),{e0_delta_end:1}));});
+
+test('finite but extreme inputs cannot produce infinite or null output',()=>{const d=noChange();d.fertility.annual_tfr={'2030':1e308};assert.throws(()=>simulateCohort(d),/Переполнение/);});

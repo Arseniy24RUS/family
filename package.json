@@ -1,0 +1,21 @@
+{
+  "name": "semya-research-platform",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Воспроизводимая исследовательская платформа экспертизы национального проекта Семья",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "python -m http.server 8080 --directory docs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm test && npm run build",
+    "validate": "node scripts/validate.mjs",
+    "serve": "python3 -m http.server 8080 --directory docs",
+    "forecast": "python3 scripts/build_indicator_forecasts.py",
+    "demography": "python3 scripts/refresh_demography.py --fetch",
+    "test:python": "python3 -m unittest discover -s tests -p 'test_*.py' -v"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

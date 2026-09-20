@@ -1,0 +1,104 @@
+name: Refresh EMISS and deploy
+on:
+  schedule:
+    # Deliberate platform schedule, not an assertion of EMISS publication day.
+    - cron: '23 4 8 * *'
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Optional source_id (data_20 ... data_35); empty = all'
+        required: false
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: semya-pages
+  cancel-in-progress: false
+env:
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+jobs:
+  refresh:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: scripts/requirements-refresh.txt
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Install isolated refresh dependencies
+        run: python -m pip install -r scripts/requirements-refresh.txt
+      - name: Test parser and retention contracts without live requests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Fetch and validate EMISS
+        env:
+          EMISS_PROXY_URL: ${{ secrets.EMISS_PROXY_URL }}
+          SELECTED_SOURCE: ${{ inputs.source }}
+        run: |
+          if [ -n "$SELECTED_SOURCE" ]; then
+            python scripts/refresh_emiss.py --source "$SELECTED_SOURCE"
+          else
+            python scripts/refresh_emiss.py
+          fi
+      - name: Recompute monthly TFR and TFR3+ forecasts
+        run: python scripts/build_indicator_forecasts.py
+      - name: Refresh observed age inputs and cohort projections
+        run: python scripts/refresh_demography.py --fetch
+      - name: Cache official author portraits when available
+        run: python scripts/cache_author_images.py
+      - name: Validate complete candidate site before committing any update
+        run: npm test && npm run build && npm run validate
+      - name: Write readable job summary
+        run: |
+          python scripts/update_summary.py >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit checked series and diagnostics
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/latest public/data/projections public/data/authors.json public/data/author_images_status.json inputs/upstream
+          if [ -d public/assets/authors ]; then git add public/assets/authors; fi
+          if [ -d public/downloads/demography/upstream ]; then git add public/downloads/demography/upstream; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: validated EMISS and monthly demographic projections'
+            # Do not rebase computed snapshots onto changed code or overwrite another run.
+            git fetch origin "$DEFAULT_BRANCH"
+            if [ "$(git rev-parse HEAD^)" != "$(git rev-parse origin/"$DEFAULT_BRANCH")" ]; then
+              echo 'Default branch changed while computing. Rerun on the new revision.' >&2
+              exit 1
+            fi
+            git push origin "HEAD:$DEFAULT_BRANCH"
+          fi
+      # A GITHUB_TOKEN commit does not by itself trigger the push deployment.
+      # Build and deploy in this workflow instead of relying on recursive triggers.
+      - name: Verify and build published site
+        run: npm test && npm run build && npm run validate
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - id: publish
+        uses: actions/deploy-pages@v4

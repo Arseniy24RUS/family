@@ -1,0 +1,11 @@
+*.js text eol=lf
+*.mjs text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.docx binary
+*.pdf binary
+*.zip binary
+*.png binary

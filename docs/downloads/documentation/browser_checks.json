@@ -1,0 +1,384 @@
+{
+  "mode": "virtual_files_no_hosting_test",
+  "checks": [
+    {
+      "check": "desktop_route",
+      "route": "overview",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "framework",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "logic",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "audit",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "targets",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "map",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "map?source=data_21&r=77&compare=50",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "regions",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "regions?tab=spatial",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "regions?tab=network",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "regions?tab=outliers",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "finance",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "network",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "network?tab=matrix",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "network?tab=table",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "network?tab=metrics",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "texts",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "texts?tab=similarity",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "texts?tab=corpus",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "texts?tab=narrative",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "domains",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "causal",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "proposals",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "explorer",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "library",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "library?tab=code",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "library?tab=documents",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "library?tab=methods",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "updates",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "lab",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "lab?tab=cluster",
+      "pass": true
+    },
+    {
+      "check": "desktop_route",
+      "route": "lab?tab=moran",
+      "pass": true
+    },
+    {
+      "check": "map_keyboard_tooltip_89_polygons",
+      "pass": true
+    },
+    {
+      "check": "same_period_birth_order_share",
+      "pass": true
+    },
+    {
+      "check": "region_selector_and_tile_map",
+      "pass": true
+    },
+    {
+      "check": "map_svg_png_exports_with_source_and_legend",
+      "pass": true
+    },
+    {
+      "check": "network_node_focus_and_full_54_nodes",
+      "pass": true
+    },
+    {
+      "check": "table_search_filtered_csv",
+      "pass": true
+    },
+    {
+      "check": "browser_python_parity",
+      "file": "correlation_result.json",
+      "pass": true
+    },
+    {
+      "check": "browser_python_parity",
+      "file": "new_clusters.json",
+      "pass": true
+    },
+    {
+      "check": "browser_python_parity",
+      "file": "moran_result.json",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "overview",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "framework",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "logic",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "audit",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "targets",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "map",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "map?source=data_21&r=77&compare=50",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "regions",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "regions?tab=spatial",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "regions?tab=network",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "regions?tab=outliers",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "finance",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "network",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "network?tab=matrix",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "network?tab=table",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "network?tab=metrics",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "texts",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "texts?tab=similarity",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "texts?tab=corpus",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "texts?tab=narrative",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "domains",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "causal",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "proposals",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "explorer",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "library",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "library?tab=code",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "library?tab=documents",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "library?tab=methods",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "updates",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "lab",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "lab?tab=cluster",
+      "pass": true
+    },
+    {
+      "check": "mobile_route",
+      "route": "lab?tab=moran",
+      "pass": true
+    },
+    {
+      "check": "latest_layer_archive_fallback",
+      "route": "map?mode=latest",
+      "pass": true
+    },
+    {
+      "check": "latest_layer_archive_fallback",
+      "route": "explorer?mode=latest",
+      "pass": true
+    },
+    {
+      "check": "latest_layer_archive_fallback",
+      "route": "lab?mode=latest",
+      "pass": true
+    },
+    {
+      "check": "mobile_menu_escape",
+      "pass": true
+    }
+  ],
+  "page_errors": []
+}

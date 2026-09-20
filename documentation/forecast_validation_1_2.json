@@ -1,0 +1,73 @@
+{
+  "model_version": "monthly-nonlinear-ensemble/1.2.0",
+  "series": 172,
+  "checks_failed": [],
+  "validation_comparison": {
+    "data_21": {
+      "ensemble_lower_mae": 46,
+      "persistence_lower_mae": 40,
+      "tie": 0,
+      "nonlinear_paths": 86
+    },
+    "data_22": {
+      "ensemble_lower_mae": 41,
+      "persistence_lower_mae": 45,
+      "tie": 0,
+      "nonlinear_paths": 86
+    }
+  },
+  "national": [
+    {
+      "indicator": "data_21",
+      "prequential_tests": 14,
+      "ensemble_mae": 0.008109425117022792,
+      "persistence_mae": 0.007571428571428515,
+      "forecast_2030": 1.281713440425602,
+      "conditional95": [
+        1.1488721576519376,
+        1.4299148364124017
+      ]
+    },
+    {
+      "indicator": "data_22",
+      "prequential_tests": 14,
+      "ensemble_mae": 0.002293250194145387,
+      "persistence_mae": 0.0027857142857142963,
+      "forecast_2030": 0.3165299328088735,
+      "conditional95": [
+        0.2667808584700658,
+        0.3755561734772361
+      ]
+    }
+  ],
+  "archive_files_byte_identical": [
+    "public/data/baseline/data_20.json",
+    "public/data/baseline/data_21.json",
+    "public/data/baseline/data_22.json",
+    "public/data/baseline/data_23.json",
+    "public/data/baseline/data_24.json",
+    "public/data/baseline/data_25.json",
+    "public/data/baseline/data_26.json",
+    "public/data/baseline/data_27.json",
+    "public/data/baseline/data_28.json",
+    "public/data/baseline/data_29.json",
+    "public/data/baseline/data_30.json",
+    "public/data/baseline/data_31.json",
+    "public/data/baseline/data_32.json",
+    "public/data/baseline/data_33.json",
+    "public/data/baseline/data_34.json",
+    "public/data/baseline/data_35.json",
+    "public/data/forecasts.json",
+    "public/data/research.json",
+    "public/downloads/code/original/add_advanced_analysis_v2.py",
+    "public/downloads/code/original/build_v2_full.py",
+    "public/downloads/code/original/fix_figures_and_report_v5.py",
+    "public/downloads/code/original/fix_figures_and_report_v6.py",
+    "public/downloads/code/original/fix_projected_geo_maps_v3.py",
+    "public/downloads/code/original/np_family_analysis_pipeline.py",
+    "public/downloads/code/original/requirements.txt",
+    "public/downloads/expertise_2026-05-14.docx"
+  ],
+  "archive_files_changed": [],
+  "meaning": "1/3-month prequential comparison on current historical vintages; not 2030 validation."
+}

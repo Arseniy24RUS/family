@@ -1,0 +1,6 @@
+metric,value
+n_reference_regions,89
+n_polygon_regions,89
+n_joined_regions,89
+n_missing_geometries,0
+display_crs,+proj=laea +lat_0=60 +lon_0=100 +datum=WGS84 +units=m +no_defs

@@ -1,0 +1,7 @@
+# Validated with Python 3.13 in the preparation environment.
+httpx==0.28.1
+json5==0.14.0
+lxml==6.1.1
+
+# Numerical implementation of the nonlinear indicator forecasts.
+numpy==2.3.5
