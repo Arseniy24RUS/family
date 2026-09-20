@@ -19,8 +19,8 @@
       "path": "code/frontend/components/charts.js",
       "title": "charts.js",
       "category": "frontend_code",
-      "bytes": 13392,
-      "sha256": "30903a974b665bfbcb111196a93663266623cdb8cf8ea53e54a5fc076ba21099"
+      "bytes": 13757,
+      "sha256": "d953f2c923d9825ef17a0814590091138fc242e18702e3e512a68cb5c06f218f"
     },
     {
       "path": "code/frontend/components/map.js",
@@ -124,8 +124,8 @@
       "path": "code/frontend/pages/population.js",
       "title": "population.js",
       "category": "frontend_code",
-      "bytes": 21406,
-      "sha256": "6e6ac4f9fc40f9dd3f902483581a695347f7885f546c27a42768b083dbc7027a"
+      "bytes": 21937,
+      "sha256": "2e6faebeb44fa465c9cbf54d8d82ac4677a8872066c519a41aaf53e87c1c643d"
     },
     {
       "path": "code/frontend/pages/projections.js",
@@ -1112,7 +1112,7 @@
       "title": "projections_python.zip",
       "category": "raw",
       "bytes": 19515,
-      "sha256": "2f66d29c750307beb442fa6cb7788778a4ba6284ed8933471bba7aedce6b5f30"
+      "sha256": "3ffdf3847bd8c3d37c6c3129b98c0e7cc5151e5e685228cd207e81402f1c47de"
     },
     {
       "path": "ru_regions.geojson",

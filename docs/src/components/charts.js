@@ -16,22 +16,27 @@ export function extent(values) { const a = values.filter(Number.isFinite); if (!
 } return [lo, hi]; }
 export function base(w = 1000, ht = 400, label = 'Диаграмма') { return svg('svg', { viewBox: `0 0 ${w} ${ht}`, class: 'chart-svg', role: 'img', 'aria-label': label, style: 'font-family:Onest,Segoe UI,Arial,sans-serif' }, svg('title', {}, label)); }
 function text(x, y, t, opts = {}) { return svg('text', { x, y, 'font-size': 12, fill: '#3D4A60', ...opts }, t); }
+const compactAxis = new Intl.NumberFormat('ru-RU', { notation:'compact', maximumFractionDigits:2 });
+const axisValue = value => Math.abs(value)>=10000 ? compactAxis.format(value) : fmt(value,3);
 function grid(root, x, y, w, ht, lo, hi, n = 4) { for (let i = 0; i <= n; i++) {
     let yy = y + ht - ht * i / n;
-    root.append(svg('line', { x1: x, x2: x + w, y1: yy, y2: yy, stroke: '#F4F6FA' }), text(x - 12, yy + 4, fmt(lo + (hi - lo) * i / n, 3), { 'text-anchor': 'end' }));
+    root.append(svg('line', { x1: x, x2: x + w, y1: yy, y2: yy, stroke: '#F4F6FA' }), text(x - 12, yy + 4, axisValue(lo + (hi - lo) * i / n), { 'text-anchor': 'end', class:'axis-y-label' }));
 } }
 export function lineChart(series, {
     height=380, width=1000, unit='', label='Динамика показателя', band=null,
     xLabel='Период', zero=false, tickPlacement='end', forecastStart=null, monthlyTicks=false
 }={}) {
     const root=base(width,height,label);
-    const m={l:width<440?52:64,r:width<440?15:24,t:38,b:54}, W=width-m.l-m.r,H=height-m.t-m.b;
+    const m={l:width<440?52:64,r:width<440?15:24,t:38,b:54},H=height-m.t-m.b;
     const all=series.flatMap(s=>s.points).filter(p=>Number.isFinite(p.y)&&Number.isFinite(p.x));
     if(!all.length){root.append(text(width/2,height/2,'Нет сопоставимых наблюдений',{'text-anchor':'middle'}));return root;}
     const [x0,x1]=extent(all.map(p=>p.x)),ys=all.map(p=>p.y);
     if(band)ys.push(...band.flatMap(p=>[p.lo,p.hi]).filter(Number.isFinite));
     let [y0,y1]=extent(ys);if(zero&&y0>0)y0=0;
     const pad=(y1-y0)*.1;y0-=pad;y1+=pad;
+    const ticks=width<440?3:4;
+    m.l=Math.max(m.l,...Array.from({length:ticks+1},(_,i)=>axisValue(y0+(y1-y0)*i/ticks).length*7+18));
+    const W=width-m.l-m.r;
     const X=x=>m.l+(x-x0)/(x1-x0)*W,Y=y=>m.t+H-(y-y0)/(y1-y0)*H;
     if(Number.isFinite(forecastStart)&&forecastStart>=x0&&forecastStart<=x1){
         const x=X(forecastStart);

@@ -106,6 +106,8 @@ async def execute(args):
             await go('population?r='+region['region_id'])
             assert await page.locator('.chart-svg').count() > 0, region['region_id']
             assert 'Расчёт остановлен' not in await page.locator('#main').inner_text(), region['region_id']
+            clipped = await page.locator('.axis-y-label').evaluate_all('(xs)=>xs.filter(x=>x.getBBox().x<0).map(x=>x.textContent)')
+            assert not clipped, (region['region_id'], clipped)
             checks.append({'check': 'observed_cohort_worker', 'region': region['region_id']})
         print('Observed cohort workers verified:', len(ready), flush=True)
         if ready:
@@ -121,6 +123,7 @@ async def execute(args):
             await (await download.value).save_as(saved)
             subprocess.run([sys.executable, '-X', 'utf8', str(ROOT/'scripts/reproduce_projection.py'), 'cohort', str(saved)], check=True, capture_output=True)
             checks.append({'check': 'observed_custom_scenario_export_python_parity'})
+            await page.evaluate('window.scrollTo(0,0)')
             await page.screenshot(path=str(out/'observed_cohort_desktop.png'))
             await page.get_by_text('Загрузить свой расчётный файл', exact=True).click()
             await page.get_by_label('Загрузить входной JSON').set_input_files(saved)
