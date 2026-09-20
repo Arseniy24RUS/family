@@ -19,10 +19,10 @@ def atomic(path,obj):
     temp=path.with_suffix(path.suffix+'.tmp');temp.write_text(content,encoding='utf-8');temp.replace(path)
 
 def run(root=ROOT,only=None,client=None):
-    config=json.loads((root/'scripts/emiss_sources.json').read_text())
-    catalog=json.loads((root/'public/data/catalog.json').read_text())
+    config=json.loads((root/'scripts/emiss_sources.json').read_text(encoding='utf-8'))
+    catalog=json.loads((root/'public/data/catalog.json').read_text(encoding='utf-8'))
     latest=root/'public/data/latest';latest.mkdir(exist_ok=True,parents=True)
-    old=json.loads((latest/'manifest.json').read_text()) if (latest/'manifest.json').exists() else {}
+    old=json.loads((latest/'manifest.json').read_text(encoding='utf-8')) if (latest/'manifest.json').exists() else {}
     now=datetime.now(timezone.utc).isoformat(timespec='seconds');client=client or Client(config)
     previous={s['source_id']:s for s in old.get('sources',[])};results=[];items=None;catalog_error=None;success=0;updated=0
     # Exact name matching; unresolved names remain in the per-source report.
@@ -42,7 +42,7 @@ def run(root=ROOT,only=None,client=None):
             entry['indicator_id']=str(remote_id)
             meta=client.metadata(remote_id);roles,selected=query_plan(meta,source,config['max_cells'])
             aliases={territory_key(r['name']):r['id'] for r in catalog['regions']}
-            base=json.loads((root/'public/data/baseline'/f'{sid}.json').read_text())
+            base=json.loads((root/'public/data/baseline'/f'{sid}.json').read_text(encoding='utf-8'))
             base_rows=unpack(base)
             for r in base_rows:
                 if r.get('r'):aliases[territory_key(r['territory'])]=r['r']
@@ -58,7 +58,7 @@ def run(root=ROOT,only=None,client=None):
                     part,_,digest,part_raw=client.export(meta,single);raw_hashes.append(digest);raw_files.append((f'period_{len(raw_files):03d}.xml',part_raw))
                     incoming.extend(convert(part,meta,roles,single,source,aliases,now))
             prev_file=prior.get('published_file')
-            packet=json.loads((root/'public'/prev_file).read_text()) if prev_file and (root/'public'/prev_file).exists() else base
+            packet=json.loads((root/'public'/prev_file).read_text(encoding='utf-8')) if prev_file and (root/'public'/prev_file).exists() else base
             merged,n_new,revisions=merge(unpack(packet),incoming)
             target=f'data/latest/{sid}.json';payload={'schema':'semya.series/1','source_id':sid,'columns':COLS,'rows':[[r.get(k) for k in COLS] for r in merged],'basis':'validated_emiss_merged_with_history','snapshot':now,'emiss_id':str(remote_id),'source_url':config['base_url']+'/indicator/'+str(remote_id),'unit':source['unit']}
             raw_path = latest/f'{sid}_raw_sdmx.zip'

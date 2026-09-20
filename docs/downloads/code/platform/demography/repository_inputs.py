@@ -38,7 +38,9 @@ def get_bytes(url, limit=32_000_000):
 
 def xlsx_sheets(path):
     """Return sheet-name -> worksheet path; reject ZIP bombs before parsing."""
-    z=zipfile.ZipFile(path)
+    # Detach the archive from its file handle, including on malformed XML or
+    # early generator termination (Windows otherwise locks cache replacement).
+    z=zipfile.ZipFile(io.BytesIO(Path(path).read_bytes()))
     if sum(i.file_size for i in z.infolist())>350_000_000:raise ValueError('Слишком большой распакованный XLSX')
     rels=ET.fromstring(z.read('xl/_rels/workbook.xml.rels'));targets={r.attrib['Id']:r.attrib['Target'] for r in rels}
     sheets={}
@@ -141,7 +143,7 @@ def aliases_for(catalog,root):
     aliases={norm(r['name']):r['id'] for r in catalog['regions']}
     aliases.update({norm('Российская Федерация'):'RU',norm('Россия'):'RU'})
     for sid in ['data_21','data_22']:
-        packet=json.loads((root/f'public/data/baseline/{sid}.json').read_text())
+        packet=json.loads((root/f'public/data/baseline/{sid}.json').read_text(encoding='utf-8'))
         for r in (dict(zip(packet['columns'],x)) for x in packet['rows']):
             rid=r.get('r')
             if rid:aliases[norm(r['territory'])]=rid
@@ -152,6 +154,20 @@ def aliases_for(catalog,root):
 
 def resolve_name(name,aliases):
     return aliases.get(norm(name))
+
+def scope_rows(group,rid,name):
+    """Use the full national series, or exclude nested autonomous districts."""
+    if rid=='RU':
+        exact=[r for r in group if norm(name(r)) in {'россия','российскаяфедерация'}]
+        return exact or group
+    parts=[r for r in group if re.search(r'кроме|без.*автоном',name(r),re.I)]
+    return parts or group
+
+def relevant_years(values,base):
+    """Only pass values used by this projection, keeping the base-year anchor."""
+    prior=[int(y) for y in values if int(y)<=base]
+    anchor=max(prior) if prior else base
+    return {y:v for y,v in values.items() if int(y)>=anchor}
 
 def annual_components(rows,aliases,value_candidates,sexed=True):
     if not rows:raise ValueError('Пустой CSV компонент')
@@ -165,18 +181,22 @@ def annual_components(rows,aliases,value_candidates,sexed=True):
         if sexed and sex is None:continue
         year=int(number(row[yk]))
         if year>2030:continue
+        # Historical source tables contain explicitly missing observations.
+        # Leave these years absent; annual_value still requires a usable value
+        # at or before the base year and never fills from a future year.
+        if row.get(vk) is None or not str(row[vk]).strip():continue
         v=number(row[vk]);key=(rid,sex or 'all',year)
         staged.setdefault(key,[]).append((str(row[rk]),v,row.get('Статус') or row.get('status')))
     out={}
     for (rid,sex,year),group in staged.items():
-        parts=[r for r in group if re.search(r'кроме|без.*автоном',r[0],re.I)];pool=parts or group
+        pool=scope_rows(group,rid,lambda r:r[0])
         if len({p[1] for p in pool})!=1:raise ValueError(f'Несогласованные компоненты: {rid}, {sex}, {year}')
         out.setdefault((rid,sex),{})[str(year)]={'value':pool[0][1],'status':pool[0][2],'territory':pool[0][0]}
     return out
 
 def fetch_repository(cache):
     cache.mkdir(parents=True,exist_ok=True);now=datetime.now(timezone.utc).isoformat(timespec='seconds')
-    old=json.loads((cache/'manifest.json').read_text()) if (cache/'manifest.json').exists() else {};report={'checked_at':now,'repository':REPO,'files':[]}
+    old=json.loads((cache/'manifest.json').read_text(encoding='utf-8')) if (cache/'manifest.json').exists() else {};report={'checked_at':now,'repository':REPO,'files':[]}
     try:
         info=json.loads(get_bytes(f'https://api.github.com/repos/{REPO}/commits/main',1_500_000));sha=info['sha']
         if not re.fullmatch('[0-9a-f]{40}',sha):raise ValueError('Не получена SHA ревизии')
@@ -204,7 +224,7 @@ def fetch_repository(cache):
     return report
 
 def build_inputs(root,cache):
-    catalog=json.loads((root/'public/data/catalog.json').read_text());aliases=aliases_for(catalog,root)
+    catalog=json.loads((root/'public/data/catalog.json').read_text(encoding='utf-8'));aliases=aliases_for(catalog,root)
     stocks={s:observed_stocks(cache/f'POP_wide_{s}_noMIG.xlsx') for s in ['male','female']}
     grouped={}
     for sex in stocks:
@@ -213,13 +233,13 @@ def build_inputs(root,cache):
             if rid:grouped.setdefault((rid,year,sex),[]).append(item)
     chosen={}
     for key,group in grouped.items():
-        parts=[g for g in group if re.search('кроме|без.*автоном',g['name'],re.I)];pool=parts or group
+        pool=scope_rows(group,key[0],lambda g:g['name'])
         if len({tuple(g['population']) for g in pool})>1:continue  # Ambiguity is unavailable, not an arbitrary average.
         chosen[key]=pool[0]
     e0=annual_components(csv_rows(cache/'LE_Russia_subjects_forecast_2100_long.csv'),aliases,{'e0','опж'})
     mig=annual_components(csv_rows(cache/'MIG_cyclic_tidy.csv'),aliases,{'сальдо','net','netmigration'})
     tfr=annual_components(csv_rows(cache/'TFR_Russia_subjects_ML_GP_UCM_tidy.csv'),aliases,{'median','tfr','скр'},False)
-    source_manifest=json.loads((cache/'manifest.json').read_text()) if (cache/'manifest.json').exists() else {'state':'local','files':[{'name':f,'sha256':hashlib.sha256((cache/f).read_bytes()).hexdigest()} for f in FILES]}
+    source_manifest=json.loads((cache/'manifest.json').read_text(encoding='utf-8')) if (cache/'manifest.json').exists() else {'state':'local','files':[{'name':f,'sha256':hashlib.sha256((cache/f).read_bytes()).hexdigest()} for f in FILES]}
     result=[];unavailable=[]
     for rid,name in [('RU','Российская Федерация')]+[(r['id'],r['name']) for r in catalog['regions']]:
         try:
@@ -229,22 +249,28 @@ def build_inputs(root,cache):
             for sex in ['male','female']:
                 if (rid,sex) not in e0 or (rid,sex) not in mig:raise ValueError('Отсутствует компонент ОПЖ или миграции для '+sex)
             if (rid,'all') not in tfr:raise ValueError('Отсутствует стартовая траектория СКР')
-            indpath=root/f'public/data/projections/indicators/data_21/{rid}.json';model=json.loads(indpath.read_text()) if indpath.exists() else None
+            indpath=root/f'public/data/projections/indicators/data_21/{rid}.json';model=json.loads(indpath.read_text(encoding='utf-8')) if indpath.exists() else None
             monthly={r['date'][:7]:r['value'] for r in model['observations']+model['forecast']} if model else {}
             # Annual national-project observations override the older project's annual driver only on their exact years.
             tf={y:v['value'] for y,v in tfr[(rid,'all')].items()}
-            latest=json.loads((root/'public/data/latest/manifest.json').read_text());source=next((s for s in latest.get('sources',[]) if s['source_id']=='data_21'),{})
-            packet=json.loads((root/'public'/(source.get('published_file') or 'data/baseline/data_21.json')).read_text())
+            latest=json.loads((root/'public/data/latest/manifest.json').read_text(encoding='utf-8'));source=next((s for s in latest.get('sources',[]) if s['source_id']=='data_21'),{})
+            packet=json.loads((root/'public'/(source.get('published_file') or 'data/baseline/data_21.json')).read_text(encoding='utf-8'))
             annual_groups={}
             for rr in (dict(zip(packet['columns'],x)) for x in packet['rows']):
                 rrid=rr.get('r') or ('RU' if re.match('Российская Федерация',rr['territory']) else None)
                 if rrid==rid and rr['type']=='год':annual_groups.setdefault(str(rr['year']),[]).append(rr)
             for year,group in annual_groups.items():
-                scoped=[r for r in group if re.search(r'кроме|без.*автоном',r['territory'],re.I)];pool=scoped or group
+                pool=scope_rows(group,rid,lambda r:r['territory'])
                 vals={r['value'] for r in pool if isinstance(r.get('value'),(int,float)) and not isinstance(r.get('value'),bool) and math.isfinite(r['value'])}
                 if len(vals)>1:raise ValueError('Противоречие территориального охвата годового СКР '+year)
                 if len(vals)==1:tf[year]=next(iter(vals))
             obj={'schema':'semya.cohort-input/1','region_id':rid,'region_name':name,'base_date':f'{base}-01-01','population':{s:chosen[(rid,base,s)]['population'] for s in ['male','female']},'sex_ratio':105.6,'fertility':{'annual_tfr':tf,'monthly_tfr':monthly,'weights':fertility_profile()},'mortality':{s:{'annual_e0':{y:v['value'] for y,v in e0[(rid,s)].items()}} for s in ['male','female']},'migration':{s:{'annual_net':{y:v['value'] for y,v in mig[(rid,s)].items()},'weights':migration_profile()} for s in ['male','female']},'provenance':[{'role':'observed age-sex baseline','repository':REPO,'year':base,'territories':{s:chosen[(rid,base,s)]['name'] for s in ['male','female']},'commit':source_manifest.get('commit'),'files':source_manifest.get('files',[])},{'role':'fertility monthly driver','model_version':model.get('model_version') if model else None,'input_sha256':model.get('input_sha256') if model else None,'as_of':model.get('source_as_of') if model else None},{'role':'mortality and migration drivers','source':'Авторский репозиторий, наблюдения и явно помеченные прогнозные траектории','mortality':{s:e0[(rid,s)] for s in ['male','female']},'migration':{s:mig[(rid,s)] for s in ['male','female']}}],'assumptions':['Базовая численность: только наблюдения из листов by_age/status; общий год для обоих полов.','Однолетние возраста разделены на 12 равных месячных подкогорт. Внутригодовое распределение — модельное предположение.','Месячный СКР используется как годовая интенсивность; число рождений определяется женской экспозицией и возрастным профилем.','Возрастная форма рождаемости — фиксированный гладкий профиль (центр 28 лет, sd 6), не наблюдаемые региональные ASFR.','Возрастная смертность — модельная таблица, калиброванная к ОПЖ. ОПЖ сама по себе не определяет фактическую возрастную смертность.','ОПЖ и годовое миграционное сальдо — входные траектории из авторского репозитория, включая его прогнозные годы; обновление файла не превращает прогноз в наблюдение.','Годовая миграция делится равномерно по месяцам и распределяется по объявленному гладкому возрастному профилю.','Месяцы без нового значения годовой компоненты используют последнее значение данного региона и пола; межрегиональное заполнение не применяется.','Российская серия рассчитывается независимо, не как сумма региональных коэффициентов; общий итог регионов может отличаться из-за охвата и несогласованных предпосылок.']}
+            obj['migration_allocation']='stock_weighted_outflow'
+            obj['fertility']['annual_tfr']=relevant_years(obj['fertility']['annual_tfr'],base)
+            for sex in ['male','female']:
+                obj['mortality'][sex]['annual_e0']=relevant_years(obj['mortality'][sex]['annual_e0'],base)
+                obj['migration'][sex]['annual_net']=relevant_years(obj['migration'][sex]['annual_net'],base)
+            obj['assumptions'].append('При отрицательном сальдо возрастной профиль задаёт относительную склонность к оттоку: веса умножаются на текущую численность месячных подкогорт и нормируются. Из пустых ячеек никто не выбывает; полное сальдо сохраняется. Превышение доступной численности останавливает расчёт.')
             validate_input(obj);result.append(obj)
         except Exception as exc:unavailable.append({'region_id':rid,'region_name':name,'message':str(exc)})
     return result,unavailable

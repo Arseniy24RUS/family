@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Reproduce a downloaded individual forecast or cohort package using Python 3.11+."""
-import argparse,json,math
+import argparse,json,math,sys
 from pathlib import Path
 from demography.indicator import forecast, VERSION
 from demography.indicator_v11 import forecast as legacy_forecast, VERSION as LEGACY_VERSION
@@ -39,4 +39,8 @@ def main():
             print('Проверены все месяцы, возрастные ячейки и демографический баланс.')
         else:print('Входной файл рассчитан; эталонный результат не приложен.')
     if args.output:args.output.write_text(json.dumps(fresh,ensure_ascii=False,allow_nan=False,indent=2),encoding='utf-8')
-if __name__=='__main__':main()
+if __name__=='__main__':
+    # Downloaded portable scripts also run in redirected Windows consoles.
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+    main()

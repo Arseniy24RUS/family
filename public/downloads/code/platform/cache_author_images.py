@@ -10,7 +10,7 @@ from build_indicator_forecasts import write
 ROOT=Path(__file__).resolve().parents[1]
 ALLOWED=('https://cloud.idrras.ru/','https://xn--h1aauh.xn--p1ai/')
 def run(root=ROOT):
-    p=root/'public/data/authors.json';data=json.loads(p.read_text());results=[]
+    p=root/'public/data/authors.json';data=json.loads(p.read_text(encoding='utf-8'));results=[]
     authors=data['authors'] if isinstance(data,dict) else data
     for a in authors:
         try:

@@ -15,6 +15,7 @@ concurrency:
   group: semya-pages
   cancel-in-progress: false
 env:
+  PYTHONUTF8: '1'
   OPENBLAS_NUM_THREADS: '1'
   OMP_NUM_THREADS: '1'
 jobs:
@@ -63,6 +64,18 @@ jobs:
       - name: Write readable job summary
         run: |
           python scripts/update_summary.py >> "$GITHUB_STEP_SUMMARY"
+      - name: Install browser QA dependencies
+        run: |
+          python -m pip install -r scripts/requirements-browser.txt
+          python -m playwright install --with-deps chromium
+      - name: Test refreshed site through real HTTP before committing data
+        run: python tests/run_browser.py --output "$RUNNER_TEMP/semya-qa"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-refresh-qa
+          path: ${{ runner.temp }}/semya-qa
+          retention-days: 14
       - name: Commit checked series and diagnostics
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}

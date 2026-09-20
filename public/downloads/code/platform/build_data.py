@@ -94,10 +94,10 @@ def build():
     dump(OUT/'forecasts.json',{'points':rows('national_forecast_ensemble_points'),'actuals':rows('national_forecast_input_actuals'),'targets':targets,'status':'archived_diagnostic_not_causal','band':'approximate_residual_band_not_calibrated_probability'})
     nlp={n:rows(n) for n in ['nlp_document_texts_extracted','nlp_frame_scores_by_document','nlp_document_similarity_tfidf','nlp_top_terms_all_documents','nlp_top_terms_by_document','nlp_concept_cooccurrence_by_page','nlp_narrative_blocks_dictionary']}
     fp=ROOT/'public/downloads/data/frames_original.json'
-    if fp.exists():nlp['frame_dictionary']=json.loads(fp.read_text())
+    if fp.exists():nlp['frame_dictionary']=json.loads(fp.read_text(encoding='utf-8'))
     dump(OUT/'texts.json',nlp)
     # Equal-area map from the user-supplied GeoJSON; no external tiles or CDN needed.
-    geo=json.loads((ROOT/'public/downloads/ru_regions.geojson').read_text())
+    geo=json.loads((ROOT/'public/downloads/ru_regions.geojson').read_text(encoding='utf-8'))
     lookup={norm(r['name']):r for r in ref};lookup.update({norm('Чувашская Республика'):lookup[norm('Чувашская Республика - Чувашия')]})
     project=Transformer.from_crs('EPSG:4326','+proj=laea +lat_0=62 +lon_0=100 +datum=WGS84 +units=m +no_defs',always_xy=True).transform
     geos=[]

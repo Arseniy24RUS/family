@@ -8,7 +8,7 @@ from demography.indicator import forecast
 from demography.repository_inputs import observed_stocks,annual_components,fetch_repository,norm
 from reproduce_projection import same
 
-def fixture():return json.loads((ROOT/'tests/fixtures/cohort_input.json').read_text())
+def fixture():return json.loads((ROOT/'tests/fixtures/cohort_input.json').read_text(encoding='utf-8'))
 def months(n=15):return [{'date':f'{2025+i//12}-{i%12+1:02d}-01','value':1.5-i*.001} for i in range(n)]
 def xlsx(path,sheets):
     ns='http://schemas.openxmlformats.org/spreadsheetml/2006/main';rel='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
@@ -31,6 +31,13 @@ def xlsx(path,sheets):
             z.writestr(f'xl/worksheets/sheet{i}.xml',text+'</sheetData></worksheet>')
 
 class IndicatorTests(unittest.TestCase):
+    def test_future_placeholders_are_not_internal_history_gaps(self):
+        from build_indicator_forecasts import observations_for
+        rows=[{'r':'77','territory':'Москва','type':'месяц','end':f'2026-0{i}-28','value':v}
+              for i,v in enumerate([1.4,1.3,None,None],1)]
+        self.assertEqual(len(observations_for(rows,'77')),2)
+        rows[-1]['value']=1.2
+        with self.assertRaisesRegex(ValueError,'Пропуск'):observations_for(rows,'77')
     def test_reproducible(self):self.assertEqual(forecast(months()),forecast(months()))
     def test_end_and_weights(self):
         d=forecast(months());self.assertEqual(d['forecast'][-1]['date'],'2030-12-31');self.assertAlmostEqual(sum(m['weight'] for m in d['models']),1);self.assertEqual(len(d['forecast']),57)
@@ -51,7 +58,7 @@ class IndicatorTests(unittest.TestCase):
             o=months();o[0]['value']=v
             with self.assertRaises(ValueError):forecast(o)
     def test_archive_packet_reproduces(self):
-        o=json.loads((ROOT/'public/data/projections/indicators/data_21/RU.json').read_text());fresh=forecast(o['observations'],o['end_date']);same(fresh['forecast'],o['forecast']);self.assertEqual(fresh['input_sha256'],o['input_sha256'])
+        o=json.loads((ROOT/'public/data/projections/indicators/data_21/RU.json').read_text(encoding='utf-8'));fresh=forecast(o['observations'],o['end_date']);same(fresh['forecast'],o['forecast']);self.assertEqual(fresh['input_sha256'],o['input_sha256'])
 
 class CohortTests(unittest.TestCase):
     def test_all_balances(self):
@@ -62,7 +69,7 @@ class CohortTests(unittest.TestCase):
             for e in [45,65,80,95]:self.assertAlmostEqual(mortality_from_e0(e,s)['e0'],e,places=7)
     def test_js_parity(self):
         script="import fs from 'node:fs'; import {simulateCohort} from './src/core/cohort.js';const d=JSON.parse(fs.readFileSync('./tests/fixtures/cohort_input.json','utf8'));console.log(JSON.stringify(simulateCohort(d,{fertility_scale_end:1.2,e0_delta_end:2,migration_scale:0.6})));"
-        value=json.loads(subprocess.check_output(['node','--input-type=module','-e',script],cwd=ROOT,text=True));fresh=simulate(fixture(),{'fertility_scale_end':1.2,'e0_delta_end':2,'migration_scale':.6});same(fresh['months'],value['months'])
+        value=json.loads(subprocess.check_output(['node','--input-type=module','-e',script],cwd=ROOT,text=True,encoding="utf-8"));fresh=simulate(fixture(),{'fertility_scale_end':1.2,'e0_delta_end':2,'migration_scale':.6});same(fresh['months'],value['months'])
     def test_historical_scenario_invariance(self):
         a,b=simulate(fixture()),simulate(fixture(),{'migration_scale':0});self.assertEqual(a['months'][:15],b['months'][:15]);self.assertEqual(b['months'][15]['net_migration'],0)
     def test_invalid_input(self):
@@ -75,6 +82,24 @@ class CohortTests(unittest.TestCase):
     def test_no_silent_clip(self):
         d=fixture();d['migration']['male']['annual_net']={'2025':-1e9}
         with self.assertRaisesRegex(ValueError,'отток'):simulate(d)
+    def test_stock_weighted_outflow_preserves_total_with_empty_old_ages(self):
+        d=fixture();d['migration_allocation']='stock_weighted_outflow'
+        for sex in ['male','female']:
+            d['population'][sex][90:]=[0]*11
+            d['migration'][sex]['annual_net']={'2025':-1200}
+        result=simulate(d)
+        for month in result['months']:
+            self.assertAlmostEqual(month['net_migration'],-200)
+            self.assertLess(abs(month['balance_residual']),1e-6)
+            self.assertGreaterEqual(min(month['age']['male']+month['age']['female']),0)
+        script="import {simulateCohort} from './src/core/cohort.js'; console.log(JSON.stringify(simulateCohort("+json.dumps(d)+")));"
+        js=json.loads(subprocess.check_output(['node','--input-type=module','-e',script],cwd=ROOT,text=True,encoding='utf-8'))
+        same(result['months'],js['months'])
+        d['migration']['male']['annual_net']={'2025':-1e9}
+        with self.assertRaisesRegex(ValueError,'отток'):simulate(d)
+    def test_unknown_migration_allocation_rejected(self):
+        d=fixture();d['migration_allocation']='unknown'
+        with self.assertRaises(ValueError):validate_input(d)
 
 class InputReaderTests(unittest.TestCase):
     def book(self,path,long=False,missing=False):
@@ -102,6 +127,14 @@ class InputReaderTests(unittest.TestCase):
     def test_ambiguous_component_rejected(self):
         rows=[{'Территория':'Россия','Год':'2025','Пол':'Мужчины','e0':x} for x in [70,71]]
         with self.assertRaises(ValueError):annual_components(rows,{'россия':'RU'},{'e0'})
+    def test_missing_historical_component_does_not_block_valid_years(self):
+        rows=[{'Территория':'Россия','Год':str(y),'Пол':'Мужчины','e0':v}
+              for y,v in [(1990,''),(2022,'70'),(2023,'')]]
+        result=annual_components(rows,{'россия':'RU'},{'e0'})
+        self.assertEqual(set(result['RU','male']),{'2022'})
+        self.assertEqual(result['RU','male']['2022']['value'],70)
+        from demography.cohort import annual_value
+        with self.assertRaises(ValueError):annual_value({'2022':70},2021)
     def test_failed_fetch_does_not_create_files(self):
         with tempfile.TemporaryDirectory() as td,patch('demography.repository_inputs.get_bytes',side_effect=RuntimeError('offline')):
             r=fetch_repository(Path(td));self.assertEqual(r['state'],'unavailable');self.assertFalse((Path(td)/'POP_wide_female_noMIG.xlsx').exists())
@@ -119,21 +152,21 @@ class BatchIntegrationTests(unittest.TestCase):
             for name in ['Россия','Москва']:
                 age.extend([[name,2025,*([1000]*101)],[name,2026,*([9999]*101)]])
             xlsx(cache/f'POP_wide_{sex}_noMIG.xlsx',{'by_age':age,'status':[['Год','Россия','Москва'],[2025,'наблюдение','наблюдение'],[2026,'прогноз','прогноз']]})
-        (cache/'LE_Russia_subjects_forecast_2100_long.csv').write_text('Территория,Пол,Год,e0,Статус\n'+''.join(f'{r},{s},2025,{v},прогноз\n' for r in ['Россия','Москва'] for s,v in [('Мужчины',70),('Женщины',79)]))
-        (cache/'MIG_cyclic_tidy.csv').write_text('Территория,Пол,Год,Сальдо,Статус\n'+''.join(f'{r},{s},2025,120,прогноз\n' for r in ['Россия','Москва'] for s in ['Мужчины','Женщины']))
-        (cache/'TFR_Russia_subjects_ML_GP_UCM_tidy.csv').write_text('Территория,Год,median,Статус\nРоссия,2025,1.4,прогноз\nМосква,2025,1.3,прогноз\n')
+        (cache/'LE_Russia_subjects_forecast_2100_long.csv').write_text('Территория,Пол,Год,e0,Статус\n'+''.join(f'{r},{s},2025,{v},прогноз\n' for r in ['Россия','Москва'] for s,v in [('Мужчины',70),('Женщины',79)]), encoding='utf-8')
+        (cache/'MIG_cyclic_tidy.csv').write_text('Территория,Пол,Год,Сальдо,Статус\n'+''.join(f'{r},{s},2025,120,прогноз\n' for r in ['Россия','Москва'] for s in ['Мужчины','Женщины']), encoding='utf-8')
+        (cache/'TFR_Russia_subjects_ML_GP_UCM_tidy.csv').write_text('Территория,Год,median,Статус\nРоссия,2025,1.4,прогноз\nМосква,2025,1.3,прогноз\n', encoding='utf-8')
         return cache
     def test_book_to_inputs_to_monthly_projection(self):
         from refresh_demography import run
         with tempfile.TemporaryDirectory() as td:
             r=Path(td);self.scaffold(r);m=run(r);self.assertEqual(m['ready'],2)
-            out=json.loads((r/'public/data/projections/population/RU/with_migration.json').read_text());self.assertEqual(out['base_date'],'2025-01-01');self.assertEqual(len(out['months']),72);self.assertEqual(sum(out['baseline']['male']),101000)
+            out=json.loads((r/'public/data/projections/population/RU/with_migration.json').read_text(encoding='utf-8'));self.assertEqual(out['base_date'],'2025-01-01');self.assertEqual(len(out['months']),72);self.assertEqual(sum(out['baseline']['male']),101000)
             # The following year is a projection and must not be used as a newer observed base.
             self.assertNotEqual(sum(out['baseline']['male']),9999*101)
     def test_invalid_local_override_retains_last_valid_output(self):
         from refresh_demography import run
         with tempfile.TemporaryDirectory() as td:
-            r=Path(td);self.scaffold(r);run(r);path=r/'public/data/projections/population/RU/with_migration.json';old=path.read_bytes();(r/'inputs/cohort').mkdir();(r/'inputs/cohort/RU.json').write_text('{"schema":"wrong", "region_id":"RU"}')
+            r=Path(td);self.scaffold(r);run(r);path=r/'public/data/projections/population/RU/with_migration.json';old=path.read_bytes();(r/'inputs/cohort').mkdir();(r/'inputs/cohort/RU.json').write_text('{"schema":"wrong", "region_id":"RU"}', encoding='utf-8')
             m=run(r);self.assertEqual(m['retained'],1);self.assertEqual(path.read_bytes(),old);self.assertEqual(len(m['local_input_errors']),1)
 
 if __name__=='__main__':unittest.main()

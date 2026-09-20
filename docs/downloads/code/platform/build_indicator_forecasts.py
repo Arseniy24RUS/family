@@ -23,8 +23,11 @@ def observations_for(rows,region):
         pool=parts or g
         values={r['value'] for r in pool if isinstance(r.get('value'),(int,float))}
         if len(values)>1: raise ValueError('Противоречивые значения для одной территории и месяца: '+d)
-        if not values: raise ValueError('Пропуск в месячном ряду: '+d)
-        obs.append({'date':d,'value':next(iter(values)),'territory':pool[0]['territory']})
+        obs.append({'date':d,'value':next(iter(values)) if values else None,'territory':pool[0]['territory']})
+    # Live exports include empty cells for periods not yet released. Do not
+    # mistake those trailing placeholders for gaps inside observed history.
+    while obs and obs[-1]['value'] is None:obs.pop()
+    if any(r['value'] is None for r in obs):raise ValueError('Пропуск внутри месячного ряда.')
     return obs
 
 def run(root=ROOT):

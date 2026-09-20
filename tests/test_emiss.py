@@ -70,6 +70,18 @@ class Contract(unittest.TestCase):
         a=self.convert();m=self.convert(xml('1'))
         self.assertEqual(a[0]['type'],'год');self.assertEqual(m[0]['type'],'месяц')
         merged,new,rev=merge(a,m);self.assertEqual(new,2);self.assertEqual(len(merged),4)
+    def test_live_style_period_and_unit_attributes(self):
+        raw=xml('1').replace(b'<Value concept="3" value="1"/>',b'')
+        raw=raw.replace(b'<Value concept="4" value="u"/>',b'')
+        raw=raw.replace(b'</Obs>', '<Attributes><Value concept="PERIOD" value="февраль"/><Value concept="EI" value="единица"/></Attributes></Obs>'.encode())
+        self.assertEqual(self.convert(raw)[0]['label'],'февраль')
+        wrong=raw.replace('единица'.encode(),'процент'.encode())
+        self.assertCategory('unit_mismatch',lambda:self.convert(wrong))
+    def test_period_default_limits_annual_only_source(self):
+        src={**SOURCE,'dimension_defaults':{'3':['0']},'expected_period_types':['год']}
+        roles,selected=query_plan(META,src)
+        self.assertEqual(roles['month'],'3')
+        self.assertEqual([v['id'] for v in selected['3']],['0'])
     def test_cumulative_and_annual_not_mixed(self):
         self.assertEqual(decode_period(2025,'январь-декабрь')[0],'накопительно с января')
         self.assertEqual(decode_period(2025,'значение показателя за год')[0],'год')
@@ -111,11 +123,13 @@ class Contract(unittest.TestCase):
     def test_transport_keeps_repeated_keys(self):
         seen={}
         def handle(req):
+            self.assertEqual(req.url.path,'/indicator/downloadData')
+            self.assertEqual(req.url.params.get('format'),'sdmx')
             seen.update(parse_qs(req.content.decode()));return httpx.Response(200,content=xml())
         c=Client(CONFIG,transport=httpx.MockTransport(handle))
         try: c.export(META,self.selected)
         finally:c.close()
-        self.assertEqual(seen['format'],['sdmx']);self.assertIn('0_999',seen['selectedFilterIds'])
+        self.assertNotIn('format',seen);self.assertIn('0_999',seen['selectedFilterIds'])
         self.assertIn('1_77',seen['selectedFilterIds']);self.assertIn('1_78',seen['selectedFilterIds'])
         self.assertEqual(seen['columnObjectIds'],['2','3'])
     def test_transport_cookie_session(self):
@@ -127,10 +141,41 @@ class Contract(unittest.TestCase):
         try:c.metadata('999');c.metadata('999')
         finally:c.close()
         self.assertIn('JSESSIONID=fixture',calls[1])
+    def test_download_form_token_is_sent_once_and_not_published(self):
+        gets=[];posts=[]
+        def handle(req):
+            if req.method=='GET':
+                token='fixture-'+str(len(gets));gets.append(token)
+                body=HTML.replace('</html>', '<div id="downloadTokenHolder"><input name="struts.token.name" value="token"><input name="token" value="'+token+'"></div></html>')
+                return httpx.Response(200,text=body)
+            posts.append(parse_qs(req.content.decode()));return httpx.Response(200,content=xml())
+        c=Client(CONFIG,transport=httpx.MockTransport(handle))
+        try:
+            meta=c.metadata('999');c.export(meta,self.selected);c.export(meta,self.selected)
+        finally:c.close()
+        self.assertEqual([x['token'][0] for x in posts],gets)
+        self.assertNotIn('fixture-',json.dumps(meta))
     def test_untrusted_redirect(self):
         c=Client(CONFIG,transport=httpx.MockTransport(lambda req:httpx.Response(302,headers={'location':'https://example.org/'})))
         try:self.assertCategory('unsafe_url',lambda:c.request('GET','/indicator/999'))
         finally:c.close()
+    def test_temporary_download_failure_renews_one_use_token(self):
+        from unittest.mock import patch
+        tokens=[];sent=[]
+        def handle(req):
+            if req.method=='GET':
+                token=str(len(tokens));tokens.append(token)
+                body=HTML.replace('</html>', '<div id="downloadTokenHolder"><input name="struts.token.name" value="token"><input name="token" value="'+token+'"></div></html>')
+                return httpx.Response(200,text=body)
+            sent.append(parse_qs(req.content.decode())['token'][0])
+            return httpx.Response(503) if len(sent)==1 else httpx.Response(200,content=xml())
+        c=Client({**CONFIG,'retries':1},transport=httpx.MockTransport(handle))
+        try:
+            with patch('emiss_adapter.client.time.sleep'):
+                meta=c.metadata('999');rows,*_=c.export(meta,self.selected)
+        finally:c.close()
+        self.assertEqual(len(rows),2)
+        self.assertEqual(sent,['0','1'])
     def test_challenge_not_bypassed(self):
         c=Client(CONFIG,transport=httpx.MockTransport(lambda req:httpx.Response(200,text='<html>CAPTCHA</html>')))
         try:self.assertCategory('access_challenge',lambda:c.request('GET','/indicator/999'))
@@ -151,10 +196,10 @@ class Contract(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory)
             for p in ['scripts','public/data/baseline','public/data/latest']:(root/p).mkdir(parents=True)
-            (root/'scripts/emiss_sources.json').write_text(json.dumps(CONFIG))
-            (root/'public/data/catalog.json').write_text(json.dumps({'regions':[{'id':'77','name':'Москва'},{'id':'78','name':'Санкт-Петербург'}]}))
+            (root/'scripts/emiss_sources.json').write_text(json.dumps(CONFIG), encoding='utf-8')
+            (root/'public/data/catalog.json').write_text(json.dumps({'regions':[{'id':'77','name':'Москва'},{'id':'78','name':'Санкт-Петербург'}]}), encoding='utf-8')
             base={'columns':COLS,'rows':[[r.get(k) for k in COLS] for r in self.convert()]}
-            (root/'public/data/baseline/data_21.json').write_text(json.dumps(base))
+            (root/'public/data/baseline/data_21.json').write_text(json.dumps(base), encoding='utf-8')
             client=Fake();one=run(root,client=client)
             self.assertEqual(one['state'],'success');self.assertEqual(one['sources'][0]['revisions'],1)
             data_path=root/'public/data/latest/data_21.json';before=data_path.read_bytes()

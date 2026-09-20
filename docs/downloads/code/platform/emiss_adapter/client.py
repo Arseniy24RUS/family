@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib,json,math,os,re,time
 from urllib.parse import urljoin,urlsplit,urlencode
 import httpx
+from lxml import html
 from .errors import EmissConnectorError
 from .metadata import parse_indicator_metadata,infer_field_map
 from .catalog import parse_organizations_catalog
@@ -34,6 +35,7 @@ def redact(text):
 class Client:
     def __init__(self,config,transport=None):
         self.config=config;self.base=config['base_url'].rstrip('/')
+        self._download_tokens={};self._token_required=set()
         self.allowed=set(config['allowed_hosts']);self.last_request=0
         timeout=float(config.get('timeout_seconds',35))
         proxy=os.environ.get('EMISS_PROXY_URL') or None
@@ -44,7 +46,10 @@ class Client:
     def close(self):self.http.close()
     def request(self,method,path,form=None):
         url=urljoin(self.base+'/',path);last=None
-        for attempt in range(int(self.config.get('retries',2))+1):
+        # POST download tokens are single-use. Retry a failed POST only at the
+        # export level, after obtaining a fresh token in the same session.
+        retries=int(self.config.get('retries',2)) if method=='GET' else 0
+        for attempt in range(retries+1):
             try:
                 for redirect in range(5):
                     parsed=urlsplit(url)
@@ -75,8 +80,8 @@ class Client:
             except (httpx.HTTPError,EmissConnectorError) as exc:
                 last=exc
                 if isinstance(exc,EmissConnectorError) and exc.category not in {'temporary_http'}:raise
-                if attempt<int(self.config.get('retries',2)):time.sleep(2**attempt)
-        raise EmissConnectorError('Сетевая ошибка: '+redact(last),category='network_error')
+                if attempt<retries:time.sleep(2**attempt)
+        raise EmissConnectorError('Сетевая ошибка '+method+' '+urlsplit(url).path+': '+redact(last),category='network_error')
     def catalog(self):
         body=self.request('GET','/organizations/')
         items=parse_organizations_catalog(body.decode('utf-8',errors='replace'))
@@ -84,14 +89,35 @@ class Client:
         return items
     def metadata(self,indicator_id):
         if not re.fullmatch(r'\d{1,12}',str(indicator_id)):raise EmissConnectorError('Некорректный ID',category='invalid_id')
-        return parse_indicator_metadata(self.request('GET','/indicator/'+str(indicator_id)).decode('utf-8',errors='replace'),str(indicator_id))
+        page=self.request('GET','/indicator/'+str(indicator_id)).decode('utf-8',errors='replace')
+        # Ordinary one-use download form token, bound to this HTTP cookie
+        # session. Never include it in the published metadata/provenance.
+        fields={e.get('name'):e.get('value','') for e in html.fromstring(page).xpath('//*[@id="downloadTokenHolder"]//input[@name]')}
+        tokens={k:v for k,v in fields.items() if k in {'struts.token.name','token'} and v}
+        if tokens:self._download_tokens[str(indicator_id)]=tokens;self._token_required.add(str(indicator_id))
+        return parse_indicator_metadata(page,str(indicator_id))
     def export(self,meta,selected):
-        form=[('format','sdmx'),('id',str(meta['indicator_id'])),('indicator_title',meta['indicator_title']),('filterObjectIds','0')]
+        for attempt in range(int(self.config.get('retries',2))+1):
+            try:return self._export_once(meta,selected)
+            except EmissConnectorError as exc:
+                if exc.category not in {'network_error','temporary_http','source_redirect'} or attempt>=int(self.config.get('retries',2)):raise
+                time.sleep(2**attempt)
+                fresh=self.metadata(str(meta['indicator_id']))
+                if fresh!=meta:raise EmissConnectorError('Метаданные изменились между попытками выгрузки.',category='metadata_contract_changed')
+
+    def _export_once(self,meta,selected):
+        form=[('id',str(meta['indicator_id'])),('filterObjectIds','0')]
+        iid=str(meta['indicator_id'])
+        if iid in self._token_required and iid not in self._download_tokens:self.metadata(iid)
+        form.extend(self._download_tokens.pop(iid,{}).items())
+        form.append(('title',meta['indicator_title']))
         for f in meta['filters']:
             field=str(f['field_id'])
             if field!='0':form.append((f.get('object_parameter') or 'lineObjectIds',field))
             for value in selected.get(field,[]):form.append(('selectedFilterIds',field+'_'+str(value['id'])))
-        raw=self.request('POST','/indicator/data.do',form)
+        # This is the download action used by fedstat's FGrid.downloadFile.
+        # /indicator/data.do renders HTML and is not the SDMX export endpoint.
+        raw=self.request('POST','/indicator/downloadData?format=sdmx',form)
         observations,structure=parse_sdmx(raw)
         if not observations:raise EmissConnectorError('Пустая SDMX-выгрузка.',category='empty_export')
         return observations,structure,hashlib.sha256(raw).hexdigest(),raw
@@ -109,11 +135,11 @@ def query_plan(meta,source,max_cells=300000):
         if fid=='0':selected[fid]=[v for v in values if str(v['id'])==str(meta['indicator_id'])] or [{'id':str(meta['indicator_id']),'title':meta['indicator_title']}]
         elif fid==roles.get('year'):
             selected[fid]=[v for v in values if re.fullmatch(r'(19|20|21)\d{2}',str(v['title'])) and int(v['title'])>=source['first_year']]
-        elif fid in roles.values():selected[fid]=values
         elif fid in defaults or f['title'] in defaults:
             ids=[str(x) for x in defaults.get(fid,defaults.get(f['title'],[]))]
             selected[fid]=[v for v in values if str(v['id']) in ids]
             if len(selected[fid])!=len(ids):raise EmissConnectorError('Подтверждённая категория исчезла из метаданных.',category='dimension_schema_changed')
+        elif fid in roles.values():selected[fid]=values
         elif len(values)==1:selected[fid]=values
         else:
             raise EmissConnectorError(f"Требуется явный выбор измерения «{f['title']}» ({len(values)} категорий). Первая категория автоматически не выбирается.",category='dimension_requires_confirmation')

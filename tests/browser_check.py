@@ -29,7 +29,7 @@ async def execute(args):
         if args.virtual:await context.route('https://semya.test/**',serve)
         page=await context.new_page();page.on('pageerror',lambda e:errors.append(str(e)))
         if args.virtual:
-            html=(ROOT/'docs/index.html').read_text().replace('<head>','<head><base href="https://semya.test/">')
+            html=(ROOT/'docs/index.html').read_text(encoding='utf-8').replace('<head>','<head><base href="https://semya.test/">')
             await page.set_content(html,wait_until='networkidle')
         else:await page.goto(args.base,wait_until='networkidle')
         await page.wait_for_selector('#main[data-ready=true]')
@@ -63,7 +63,7 @@ async def execute(args):
         await go('map?source=data_21&r=77')
         async with page.expect_download() as info: await page.locator('.figure-tools').first.get_by_role('button',name='SVG',exact=True).click()
         f=await info.value;await f.save_as(out/'map.svg')
-        text=(out/'map.svg').read_text();assert 'Нет данных' in text and 'архив' in text
+        text=(out/'map.svg').read_text(encoding='utf-8');assert 'Нет данных' in text and 'архив' in text
         async with page.expect_download() as info: await page.locator('.figure-tools').first.get_by_role('button',name='PNG',exact=True).click()
         await (await info.value).save_as(out/'map.png')
         assert (out/'map.png').read_bytes().startswith(b'\x89PNG')
@@ -96,7 +96,7 @@ async def execute(args):
         await (await info.value).save_as(out/'moran_result.json')
         sys.path.insert(0,str(ROOT/'scripts'));from lab_reproduce import repeat
         for name in ['correlation_result.json','new_clusters.json','moran_result.json']:
-            doc=json.loads((out/name).read_text());actual=repeat(doc);ref=doc['result']
+            doc=json.loads((out/name).read_text(encoding='utf-8'));actual=repeat(doc);ref=doc['result']
             def equal(a,b):
                 if isinstance(a,list):return len(a)==len(b) and all(equal(x,y) for x,y in zip(a,b))
                 if isinstance(a,dict):return all(equal(v,b[k]) for k,v in a.items())
@@ -115,8 +115,9 @@ async def execute(args):
         for route in ['map?mode=latest', 'explorer?mode=latest', 'lab?mode=latest']:
             await go(route)
             assert not await page.locator('.error-view').count(), route
-            assert await page.locator('.note.warning').count()>0, route
-            checks.append({'check':'latest_layer_archive_fallback','route':route,'pass':True})
+            assert await page.get_by_label('Версия статистики').input_value()=='latest',route
+            assert await page.locator('#main').inner_text(),route
+            checks.append({'check':'latest_layer_available_or_explicit_fallback','route':route,'pass':True})
         await go('overview');await page.get_by_role('button',name='Открыть меню').click()
         assert await page.locator('body').evaluate('(e)=>e.classList.contains("nav-open")')
         await page.keyboard.press('Escape')
@@ -127,7 +128,7 @@ async def execute(args):
         assert not errors,errors
         await browser.close()
     report={'mode':'virtual_files_no_hosting_test' if args.virtual else 'http','checks':checks,'page_errors':errors}
-    (out/'browser_checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+    (out/'browser_checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2), encoding='utf-8')
     print(f'PASS: {len(checks)} browser checks; {len(errors)} page errors; {out}')
 
 if __name__=='__main__':

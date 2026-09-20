@@ -42,6 +42,15 @@ def values_for_field(item,fid,meta,selected):
     aliases={norm(field['title']),fid}
     for k,v in item.dimensions.items():
         if norm(k) in aliases:return v
+        if norm(field['title']) in {'окато','октмо','оксм'} and re.search(r'\b'+norm(field['title'])+r'\b',norm(k)):return v
+    # The live GenericData transport puts period and unit labels in Obs
+    # attributes, not SeriesKey. These explicit labels take precedence over
+    # restoring a single requested filter value.
+    title=norm(field['title'])
+    if title in {'период','период времени','месяц'} and item.attributes.get('PERIOD') is not None:
+        return item.attributes['PERIOD']
+    if ('единиц' in title or 'ед. измер' in title) and item.attributes.get('EI') is not None:
+        return item.attributes['EI']
     # A single explicitly requested value may be restored; ordering never may.
     if len(selected.get(fid,[]))==1:return selected[fid][0]['title']
     return None

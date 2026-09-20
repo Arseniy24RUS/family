@@ -128,14 +128,14 @@ class LearnedCurvature(unittest.TestCase):
     def test_cli_reproduces_new_and_old_packets(self):
         for maker in [forecast,legacy_forecast]:
             with tempfile.TemporaryDirectory() as td:
-                f=Path(td)/'saved.json';f.write_text(json.dumps(maker(observations())))
-                p=subprocess.run([sys.executable,str(ROOT/'scripts/reproduce_projection.py'),'indicator',str(f)],capture_output=True,text=True)
+                f=Path(td)/'saved.json';f.write_text(json.dumps(maker(observations())), encoding='utf-8')
+                p=subprocess.run([sys.executable,str(ROOT/'scripts/reproduce_projection.py'),'indicator',str(f)],capture_output=True,text=True,encoding="utf-8")
                 self.assertEqual(p.returncode,0,p.stderr)
 
     def test_unknown_future_model_is_not_silently_reinterpreted(self):
         with tempfile.TemporaryDirectory() as td:
-            f=Path(td)/'saved.json';o=forecast(observations());o['model_version']='different/9';f.write_text(json.dumps(o))
-            p=subprocess.run([sys.executable,str(ROOT/'scripts/reproduce_projection.py'),'indicator',str(f)],capture_output=True,text=True)
+            f=Path(td)/'saved.json';o=forecast(observations());o['model_version']='different/9';f.write_text(json.dumps(o), encoding='utf-8')
+            p=subprocess.run([sys.executable,str(ROOT/'scripts/reproduce_projection.py'),'indicator',str(f)],capture_output=True,text=True,encoding="utf-8")
             self.assertNotEqual(p.returncode,0)
 
     def test_portable_archive_has_all_imports_and_requirement(self):

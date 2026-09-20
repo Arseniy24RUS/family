@@ -3,7 +3,7 @@
 Run: python tests/browser_upgrade.py --virtual --browser /usr/bin/chromium --output /tmp/semya-qa
 Virtual mode is not a verification of GitHub Pages, network fetch or upstream XLSX.
 """
-import argparse,asyncio,json,mimetypes,subprocess
+import argparse,asyncio,json,mimetypes,subprocess,sys
 from pathlib import Path
 from urllib.parse import urlparse,unquote
 from playwright.async_api import async_playwright
@@ -22,8 +22,9 @@ async def execute(args):
   # Explicitly test graceful portrait failure, not invent a successful remote download.
   async def portrait_failure(route):external.append(route.request.url);await route.abort()
   await context.route('https://cloud.idrras.ru/**',portrait_failure);await context.route('https://xn--h1aauh.xn--p1ai/**',portrait_failure)
+  await context.route('**/assets/authors/**',portrait_failure)
   page=await context.new_page();page.on('pageerror',lambda e:errors.append(str(e)))
-  if args.virtual:await page.set_content((ROOT/'docs/index.html').read_text().replace('<head>','<head><base href="https://semya.test/">'),wait_until='networkidle')
+  if args.virtual:await page.set_content((ROOT/'docs/index.html').read_text(encoding='utf-8').replace('<head>','<head><base href="https://semya.test/">'),wait_until='networkidle')
   else:await page.goto(args.base)
   await page.wait_for_selector('#main[data-ready=true]')
   async def go(route):
@@ -62,13 +63,13 @@ async def execute(args):
   await go('projections')
   async with page.expect_download() as d:await page.get_by_role('button',name='Расчёт, входы и параметры JSON',exact=True).click()
   await (await d.value).save_as(out/'indicator.json')
-  subprocess.run(['python',str(ROOT/'scripts/reproduce_projection.py'),'indicator',str(out/'indicator.json')],check=True,capture_output=True)
+  subprocess.run([sys.executable,'-X','utf8',str(ROOT/'scripts/reproduce_projection.py'),'indicator',str(out/'indicator.json')],check=True,capture_output=True)
   checks.append({'check':'indicator_export_reproduced_by_python','pass':True})
   for ext in ['SVG','PNG']:
    async with page.expect_download() as d:await page.locator('.figure-tools').first.get_by_role('button',name=ext,exact=True).click()
    f=out/('forecast.'+ext.lower());await (await d.value).save_as(f);assert f.stat().st_size>100
   checks.append({'check':'indicator_svg_png_download','pass':True})
-  await go('population')
+  await go('population?r=90')
   assert 'Возрастная база' in await page.locator('#main').inner_text()
   await page.get_by_role('button',name='Открыть учебный пример').click();await page.wait_for_timeout(300)
   assert 'УЧЕБНЫЙ ПРИМЕР' in await page.locator('#main').inner_text()
@@ -83,8 +84,8 @@ async def execute(args):
   after=await page.locator('.stat strong').nth(1).inner_text();assert before!=after
   assert not await page.locator('.note.warning').filter(has_text='Расчёт остановлен').count()
   async with page.expect_download() as d:await page.get_by_role('button',name='Скачать воспроизводимый JSON').click()
-  await (await d.value).save_as(out/'cohort.json');o=json.loads((out/'cohort.json').read_text());assert o['options']['fertility_scale_end']==1.3 and len(o['result']['months'])==72
-  subprocess.run(['python',str(ROOT/'scripts/reproduce_projection.py'),'cohort',str(out/'cohort.json')],check=True,capture_output=True)
+  await (await d.value).save_as(out/'cohort.json');o=json.loads((out/'cohort.json').read_text(encoding='utf-8'));assert o['options']['fertility_scale_end']==1.3 and len(o['result']['months'])==72
+  subprocess.run([sys.executable,'-X','utf8',str(ROOT/'scripts/reproduce_projection.py'),'cohort',str(out/'cohort.json')],check=True,capture_output=True)
   checks.append({'check':'custom_scenario_worker_export_full_python_parity','pass':True})
   await go('population?r=demo&tab=pyramid')
   await page.get_by_label('Месяц возрастной структуры',exact=True).select_option('2026-01');await page.wait_for_timeout(200)
@@ -93,7 +94,7 @@ async def execute(args):
   await page.locator('.pyramid-wrap rect[tabindex]').first.focus();assert 'Базовая дата' in await page.locator('#tooltip').inner_text()
   checks.append({'check':'pyramid_month_selection_and_accessible_values','pass':True})
   async with page.expect_download() as d:await page.get_by_role('button',name='Все возраста и месяцы CSV',exact=True).click()
-  await (await d.value).save_as(out/'ages.csv');assert len((out/'ages.csv').read_text().splitlines())==7273
+  await (await d.value).save_as(out/'ages.csv');assert len((out/'ages.csv').read_text(encoding='utf-8').splitlines())==7273
   checks.append({'check':'age_export_all_101_ages_72_months','pass':True})
   await page.get_by_text('Загрузить свой расчётный файл',exact=True).click()
   await page.get_by_label('Загрузить входной JSON',exact=True).set_input_files(out/'cohort.json');await page.wait_for_timeout(300)
@@ -117,6 +118,6 @@ async def execute(args):
   assert not errors,errors
   await browser.close()
  report={'mode':'virtual_files' if args.virtual else 'http','browser':'Chromium/Playwright','checks':checks,'page_errors':errors,'portrait_requests_forced_unavailable':len(external),'not_tested':['GitHub-hosted deployment','live EMISS','live upstream XLSX/CSV retrieval','actual author photo pixels']}
- (out/'checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print('PASS upgrade:',len(checks),'checks; page errors:',len(errors))
+ (out/'checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2), encoding='utf-8');print('PASS upgrade:',len(checks),'checks; page errors:',len(errors))
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--virtual',action='store_true');p.add_argument('--browser',default='/usr/bin/chromium');p.add_argument('--base',default='http://localhost:8080/');p.add_argument('--output',default='/tmp/semya-upgrade-qa');asyncio.run(execute(p.parse_args()))
+ p=argparse.ArgumentParser();p.add_argument('--virtual',action='store_true');p.add_argument('--browser');p.add_argument('--base',default='http://localhost:8080/');p.add_argument('--output',default='/tmp/semya-upgrade-qa');asyncio.run(execute(p.parse_args()))

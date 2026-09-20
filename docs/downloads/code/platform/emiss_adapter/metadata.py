@@ -236,7 +236,9 @@ def _role_scores(field: dict[str, Any]) -> dict[str, float]:
     if "месяц" in title:
         scores["month"] += 100
     elif title in {"период", "период времени"}:
-        scores["month"] += 45
+        # Period is also the dimension for annual, quarterly and cumulative
+        # labels. decode_period validates which types the source may publish.
+        scores["month"] += 100
     scores["month"] += 75 * (months / count)
 
     if title in {
@@ -245,6 +247,9 @@ def _role_scores(field: dict[str, Any]) -> dict[str, float]:
         "регион",
         "муниципальное образование",
         "федеральный округ",
+        "окато",
+        "октмо",
+        "оксм",
     }:
         scores["territory"] += 120
     elif any(token in title for token in ("территор", "субъект российской", "муниципаль", "регион")):
@@ -292,5 +297,4 @@ def infer_field_map(metadata: dict[str, Any], overrides: dict[str, str] | None =
             result[role] = ranked[0][1]
             used.add(ranked[0][1])
     return result
-
 

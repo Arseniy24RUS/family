@@ -3,7 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 const root=path.resolve(import.meta.dirname,'..');
-execFileSync(process.env.PYTHON || (process.platform==='win32'?'python':'python3'),[path.join(root,'scripts/build_projection_downloads.py')],{cwd:root,stdio:'inherit'});
+execFileSync(process.env.PYTHON || (process.platform==='win32'?'python':'python3'),['-X','utf8',path.join(root,'scripts/build_projection_downloads.py')],{cwd:root,stdio:'inherit'});
 const copy=async(a,b)=>{await fs.mkdir(path.dirname(b),{recursive:true});await fs.cp(a,b,{recursive:true});};
 async function walk(dir){const all=[];for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())all.push(...await walk(p));else all.push(p);}return all;}
 // Bundle the tiny local worker without a third-party build tool or runtime import.

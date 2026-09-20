@@ -9,3 +9,7 @@
 *.pdf binary
 *.zip binary
 *.png binary
+# Preserve byte-for-byte downloadable artifacts and upstream checksum evidence.
+public/downloads/** -text
+docs/downloads/** -text
+inputs/upstream/** -text

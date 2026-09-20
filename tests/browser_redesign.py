@@ -17,9 +17,10 @@ async def execute(args):
    f=(ROOT/'docs'/unquote(urlparse(route.request.url).path.lstrip('/'))).resolve()
    if (ROOT/'docs').resolve() not in f.parents or not f.is_file():await route.fulfill(status=404,body='Missing');return
    await route.fulfill(body=f.read_bytes(),content_type=mimetypes.guess_type(str(f))[0] or 'application/octet-stream')
-  await ctx.route('https://semya.test/**',serve)
+  if args.virtual:await ctx.route('https://semya.test/**',serve)
   page=await ctx.new_page();page.on('pageerror',lambda e:errors.append(str(e)))
-  await page.set_content((ROOT/'docs/index.html').read_text().replace('<head>','<head><base href="https://semya.test/">'),wait_until='networkidle')
+  if args.virtual:await page.set_content((ROOT/'docs/index.html').read_text(encoding='utf-8').replace('<head>','<head><base href="https://semya.test/">'),wait_until='networkidle')
+  else:await page.goto(args.base,wait_until='networkidle')
   await page.wait_for_selector('#main[data-ready=true]')
   async def go(route):
    await page.evaluate('(r)=>location.hash="#/"+r',route);await page.wait_for_timeout(170)
@@ -42,11 +43,11 @@ async def execute(args):
    checks.append({'check':'forecast_axis_unit_and_boundary_labels_do_not_overlap','width':w})
    await page.screenshot(path=str(out/f'forecast_{w}.png'))
   await page.set_viewport_size({'width':1440,'height':1000});await go('projections')
-  o=json.loads((ROOT/'docs/data/projections/indicators/data_21/RU.json').read_text())
+  o=json.loads((ROOT/'docs/data/projections/indicators/data_21/RU.json').read_text(encoding='utf-8')) if args.virtual else await (await ctx.request.get(args.base.rstrip('/')+'/data/projections/indicators/data_21/RU.json')).json()
   line=page.locator('.data-line[data-series="Прогноз · ансамбль"]')
   coords=await line.evaluate('(x)=>x.getAttribute("d").slice(1).split("L").map(p=>p.split(",").map(Number))')
   data=[o['observations'][-1],*o['forecast']]
-  assert len(coords)==len(data)==58
+  assert len(coords)==len(data)==len(o['forecast'])+1
   k=(coords[-1][1]-coords[0][1])/(data[-1]['value']-data[0]['value']);b=coords[0][1]-k*data[0]['value']
   assert all(abs(p[1]-k*r['value']-b)<1e-8 for p,r in zip(coords,data))
   assert max(abs(data[i+1]['value']-2*data[i]['value']+data[i-1]['value']) for i in range(1,len(data)-1))>1e-6
@@ -73,7 +74,7 @@ async def execute(args):
   text=await page.locator('#main').inner_text()
   formatted=lambda v:format(v,'.5f').rstrip('0').rstrip('.').replace('.',',')
   assert formatted(o['validation']['mae']) in text and formatted(o['validation']['last_value_mae']) in text,text[:1800]
-  assert 'гауссовский процесс' in text and '14' in text
+  assert 'гауссовский процесс' in text and str(o['validation']['n_tests']) in text
   checks.append({'check':'validation_discloses_ensemble_and_same_pair_baseline_error'})
   await page.screenshot(path=str(out/'validation_1440.png'))
   await go('projections?source=data_22&r=77&compare=78&tab=structure');assert await page.locator('.chart-svg').count()==2
@@ -97,7 +98,7 @@ async def execute(args):
     assert not await page.evaluate('document.documentElement.scrollWidth>innerWidth+2')
   assert not errors,errors
   await browser.close()
- report={'mode':'Playwright virtual transport; real repository modules and JSON','checks':checks,'page_errors':errors,'not_tested':['live GitHub Pages','live EMISS','external age-input downloads']}
- (out/'redesign_checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print('PASS redesign:',len(checks),'checks')
+ report={'mode':'virtual_files' if args.virtual else 'http','url':args.base,'checks':checks,'page_errors':errors}
+ (out/'redesign_checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2), encoding='utf-8');print('PASS redesign:',len(checks),'checks')
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--browser',default='/usr/bin/chromium');p.add_argument('--output',default='/tmp/semya-redesign');asyncio.run(execute(p.parse_args()))
+ p=argparse.ArgumentParser();p.add_argument('--browser');p.add_argument('--base',default='http://localhost:8080/');p.add_argument('--virtual',action='store_true');p.add_argument('--output',default='/tmp/semya-redesign');asyncio.run(execute(p.parse_args()))

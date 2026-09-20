@@ -16,6 +16,6 @@ print('\nОшибка загрузки не удаляет последний п
 for rel,title in [('indicators','Прогнозы СКР/СКР3+'),('population','Передвижка возрастов')]:
     p=root/f'public/data/projections/{rel}/manifest.json'
     if p.exists():
-        m=json.loads(p.read_text());print('\n## '+title+'\n');print('Рассчитано: '+safe(m.get('ready'))+'. Проверка: '+safe(m.get('checked_at'))+'.')
+        m=json.loads(p.read_text(encoding='utf-8'));print('\n## '+title+'\n');print('Рассчитано: '+safe(m.get('ready'))+'. Проверка: '+safe(m.get('checked_at'))+'.')
         if rel=='population':print('Сохранено: '+safe(m.get('retained'))+'. Без полных входов: '+safe(m.get('unavailable'))+'. '+safe(m.get('source',{}).get('message')))
 print('\nПрогнозные значения и авторские сценарии не маркируются как наблюдения; исходная экспертиза остаётся неизменной.')

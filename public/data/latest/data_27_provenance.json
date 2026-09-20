@@ -1,0 +1,208 @@
+{
+  "checked_at": "2026-09-20T16:58:59+00:00",
+  "indicator_id": "63037",
+  "source_url": "https://www.fedstat.ru/indicator/63037",
+  "metadata": {
+    "indicator_id": "63037",
+    "indicator_title": "Доля зданий дошкольных образовательных организаций, в которых проведен капитальный ремонт, от общего количества зданий дошкольных образовательных организаций",
+    "filters": [
+      {
+        "field_id": "0",
+        "title": "Показатель",
+        "object_parameter": "filterObjectIds",
+        "values": [
+          {
+            "id": "63037",
+            "title": "Доля зданий дошкольных образовательных организаций, в которых проведен капитальный ремонт, от общего количества зданий дошкольных образовательных организаций"
+          }
+        ]
+      },
+      {
+        "field_id": "3",
+        "title": "Год",
+        "object_parameter": "columnObjectIds",
+        "values": [
+          {
+            "id": "2025",
+            "title": "2025"
+          },
+          {
+            "id": "2026",
+            "title": "2026"
+          }
+        ]
+      },
+      {
+        "field_id": "3301",
+        "title": "ОКАТО",
+        "object_parameter": "lineObjectIds",
+        "values": [
+          {
+            "id": "1678127",
+            "title": "Российская Федерация"
+          }
+        ]
+      },
+      {
+        "field_id": "30611",
+        "title": "Единица измерения",
+        "object_parameter": "lineObjectIds",
+        "values": [
+          {
+            "id": "950473",
+            "title": "процент"
+          }
+        ]
+      },
+      {
+        "field_id": "33560",
+        "title": "Период",
+        "object_parameter": "columnObjectIds",
+        "values": [
+          {
+            "id": "1540283",
+            "title": "январь"
+          },
+          {
+            "id": "1540282",
+            "title": "февраль"
+          },
+          {
+            "id": "1540236",
+            "title": "март"
+          },
+          {
+            "id": "1540229",
+            "title": "апрель"
+          },
+          {
+            "id": "1540235",
+            "title": "май"
+          },
+          {
+            "id": "1540234",
+            "title": "июнь"
+          },
+          {
+            "id": "1540233",
+            "title": "июль"
+          },
+          {
+            "id": "1540228",
+            "title": "август"
+          },
+          {
+            "id": "1540276",
+            "title": "сентябрь"
+          },
+          {
+            "id": "1540273",
+            "title": "октябрь"
+          },
+          {
+            "id": "1540272",
+            "title": "ноябрь"
+          },
+          {
+            "id": "1540230",
+            "title": "декабрь"
+          }
+        ]
+      }
+    ],
+    "parser_version": 3,
+    "connector_version": "semya-cdo-adapter-1"
+  },
+  "roles": {
+    "territory": "3301",
+    "year": "3",
+    "month": "33560"
+  },
+  "requested_filters": {
+    "0": [
+      {
+        "id": "63037",
+        "title": "Доля зданий дошкольных образовательных организаций, в которых проведен капитальный ремонт, от общего количества зданий дошкольных образовательных организаций"
+      }
+    ],
+    "3": [
+      {
+        "id": "2025",
+        "title": "2025"
+      },
+      {
+        "id": "2026",
+        "title": "2026"
+      }
+    ],
+    "3301": [
+      {
+        "id": "1678127",
+        "title": "Российская Федерация"
+      }
+    ],
+    "30611": [
+      {
+        "id": "950473",
+        "title": "процент"
+      }
+    ],
+    "33560": [
+      {
+        "id": "1540283",
+        "title": "январь"
+      },
+      {
+        "id": "1540282",
+        "title": "февраль"
+      },
+      {
+        "id": "1540236",
+        "title": "март"
+      },
+      {
+        "id": "1540229",
+        "title": "апрель"
+      },
+      {
+        "id": "1540235",
+        "title": "май"
+      },
+      {
+        "id": "1540234",
+        "title": "июнь"
+      },
+      {
+        "id": "1540233",
+        "title": "июль"
+      },
+      {
+        "id": "1540228",
+        "title": "август"
+      },
+      {
+        "id": "1540276",
+        "title": "сентябрь"
+      },
+      {
+        "id": "1540273",
+        "title": "октябрь"
+      },
+      {
+        "id": "1540272",
+        "title": "ноябрь"
+      },
+      {
+        "id": "1540230",
+        "title": "декабрь"
+      }
+    ]
+  },
+  "response_sha256": [
+    "7df9e778981fdca56bdbd77a4d6aab317ab00bd1bff7ad8998a6f91cb9dfbffb"
+  ],
+  "source_observations_received": 20,
+  "new_rows": 5,
+  "revisions": [],
+  "note": "Previously observed numbers are retained when a new export contains missing values. No arbitrary category or sequential-month imputation."
+}

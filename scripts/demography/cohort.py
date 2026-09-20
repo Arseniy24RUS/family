@@ -9,7 +9,7 @@ from __future__ import annotations
 import math
 from datetime import date
 
-VERSION = 'cohort-monthly/1.1.1'
+VERSION = 'cohort-monthly/1.2.1'
 SEXES = ('male','female')
 N_AGE = 101
 END = '2030-12-31'
@@ -77,6 +77,8 @@ def annual_value(values, year):
 
 
 def validate_input(data):
+    if data.get('migration_allocation') not in (None,'stock_weighted_outflow'):
+        raise ValueError('Неизвестное правило распределения миграции.')
     if data.get('schema')!='semya.cohort-input/1':
         raise ValueError('Ожидается схема semya.cohort-input/1.')
     start=date.fromisoformat(data['base_date'])
@@ -167,6 +169,12 @@ def simulate(data, options=None):
             born=births*sex_share;surviving=born*math.sqrt(monthly_survival[s][0])
             next_stocks[s][0]+=surviving;deaths[s]+=born-surviving
             net[s]=annual_value(data['migration'][s]['annual_net'],year)/12*(opt['migration_scale'] if n>=scenario_n else 1.)
+            if net[s]<0 and data.get('migration_allocation')=='stock_weighted_outflow':
+                weights=normalized([v*mw[s][min(j//12,100)] for j,v in enumerate(next_stocks[s])])
+                for j,w in enumerate(weights):
+                    next_stocks[s][j]+=net[s]*w
+                    if next_stocks[s][j]<0:raise ValueError(f'{key}, {s}: заданный отток превышает доступную численность.')
+                continue
             for a in range(100):
                 added=net[s]*mw[s][a]/12
                 for j in range(a*12,a*12+12):
@@ -192,7 +200,7 @@ def simulate(data, options=None):
             'age_65_plus':sum(age['male'][65:])+sum(age['female'][65:]),
             'women_15_49':sum(age['female'][15:50]),'balance_residual':residual,
             'age':age})
-    return {'schema':'semya.cohort-result/1','model_version':VERSION,'region_id':data.get('region_id'),
+    return {'schema':'semya.cohort-result/1','model_version':VERSION if data.get('migration_allocation') else 'cohort-monthly/1.1.1','region_id':data.get('region_id'),
         'region_name':data.get('region_name'),'base_date':data['base_date'],'scenario_start':data.get('scenario_start',data['base_date']),'end_date':END,
         'baseline':data['population'],'options':opt,'months':monthly,'max_balance_residual':max_balance,
         'provenance':data.get('provenance',[]),'assumptions':data.get('assumptions',[]),

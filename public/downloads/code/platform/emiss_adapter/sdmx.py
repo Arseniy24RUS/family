@@ -56,6 +56,7 @@ def _number(value: str | None) -> tuple[float | None, ValueStatus]:
         "...",
         "-",
         "—",
+        "–",
         "na",
         "n/a",
         "nan",

@@ -68,8 +68,8 @@
       "path": "code/frontend/core/cohort.js",
       "title": "cohort.js",
       "category": "frontend_code",
-      "bytes": 9535,
-      "sha256": "d54b889dd2db46dbc63a84816a1d418bf0d9553da7f03d00387aad331bed9832"
+      "bytes": 10181,
+      "sha256": "6d2f4d2127c487c91e44d03462eb34e59261377c7083ec2860d7d47bdf2d31da"
     },
     {
       "path": "code/frontend/core/data.js",
@@ -124,8 +124,8 @@
       "path": "code/frontend/pages/population.js",
       "title": "population.js",
       "category": "frontend_code",
-      "bytes": 21330,
-      "sha256": "15eb81031a17c13cff3b38e4fe04021c64c7d1e99e367b7040527fc98729e021"
+      "bytes": 21406,
+      "sha256": "6e6ac4f9fc40f9dd3f902483581a695347f7885f546c27a42768b083dbc7027a"
     },
     {
       "path": "code/frontend/pages/projections.js",
@@ -159,8 +159,8 @@
       "path": "code/frontend/pages/tools.js",
       "title": "tools.js",
       "category": "frontend_code",
-      "bytes": 16278,
-      "sha256": "5979d7c5684c1365aeedc834632db37e54b92f583e440ce85f0b8dd4ff11e479"
+      "bytes": 16385,
+      "sha256": "a5b421330aea1365882bbad3334f4c7728954a7d205732bda75ad408845808ee"
     },
     {
       "path": "code/frontend/styles.css",
@@ -222,36 +222,36 @@
       "path": "code/platform/build_data.py",
       "title": "build_data.py",
       "category": "platform_code",
-      "bytes": 10839,
-      "sha256": "f5bbcff57c2141e5f748c552a426229ba44329ae88f704893fefe3a1f9d85b2a"
+      "bytes": 10871,
+      "sha256": "dda71f26529a3e4f910b551bde7f9f7708a7b5142eba8243cf6d933809f7dfaa"
     },
     {
       "path": "code/platform/build_indicator_forecasts.py",
       "title": "build_indicator_forecasts.py",
       "category": "platform_code",
-      "bytes": 4800,
-      "sha256": "eb38081e1c19e6b9bf603f1518eb5ecad59ddf866a2c8ee472f58b43e5993d83"
+      "bytes": 5055,
+      "sha256": "f464f98495597c06a11243b7f18565149543c1333a8930a1aaca74906686c2ad"
     },
     {
       "path": "code/platform/build_projection_downloads.py",
       "title": "build_projection_downloads.py",
       "category": "platform_code",
-      "bytes": 7372,
-      "sha256": "4e52610a45cdcea35f1e610b71c4cd4d2c95ef7248b71b796f2c514a4604819b"
+      "bytes": 7513,
+      "sha256": "2871c8814e14f4adc3efd079a3e5f2a495f95a877a57c55548558fa8fdf0b23f"
     },
     {
       "path": "code/platform/build.mjs",
       "title": "build.mjs",
       "category": "platform_code",
-      "bytes": 4139,
-      "sha256": "1a44b1da5830895849df1237469cdc5bdffefedca65842cc099c9e157e808f36"
+      "bytes": 4151,
+      "sha256": "c011e058f42c5f8bc04fd32d98104946d48654e447acf341841e7c8d1e23b826"
     },
     {
       "path": "code/platform/cache_author_images.py",
       "title": "cache_author_images.py",
       "category": "platform_code",
-      "bytes": 2087,
-      "sha256": "4a0dad844333c698f9dcba56c78f9433bd68bbe28dde3f4f641e791937abe4df"
+      "bytes": 2103,
+      "sha256": "2f8eae0fc5d151044dade77a359c6638b0bccd64dad4c6b347a107155e8ed67e"
     },
     {
       "path": "code/platform/demography/__init__.py",
@@ -264,8 +264,8 @@
       "path": "code/platform/demography/cohort.py",
       "title": "cohort.py",
       "category": "platform_code",
-      "bytes": 13148,
-      "sha256": "9636680cf9aa5daa6ba17f33ab4b911b010d135c85d9b9a4c5eee5064a02fff7"
+      "bytes": 13876,
+      "sha256": "f66859913483cd6db64bacca611c33b68a944687d6271a70da43070aebfd3db0"
     },
     {
       "path": "code/platform/demography/indicator_v11.py",
@@ -285,8 +285,8 @@
       "path": "code/platform/demography/repository_inputs.py",
       "title": "repository_inputs.py",
       "category": "platform_code",
-      "bytes": 19754,
-      "sha256": "56a0b7079374d7da2a5a5325014ef4107c6a7a6990034189268265236991983d"
+      "bytes": 21789,
+      "sha256": "880f67e48df046af1eec018b07d3ad87ee73f583029c3ced37ea9b1e1009bb1e"
     },
     {
       "path": "code/platform/emiss_adapter/__init__.py",
@@ -306,8 +306,8 @@
       "path": "code/platform/emiss_adapter/client.py",
       "title": "client.py",
       "category": "platform_code",
-      "bytes": 9631,
-      "sha256": "0de0ef521ec6874435c316d27b48eeb6913efc3f32354a52439134228343d14a"
+      "bytes": 11431,
+      "sha256": "4c0b4da455aa4f522ddf3227f497d9c3ac3d6baf862b63c9c675e2417a89300a"
     },
     {
       "path": "code/platform/emiss_adapter/errors.py",
@@ -320,29 +320,29 @@
       "path": "code/platform/emiss_adapter/metadata.py",
       "title": "metadata.py",
       "category": "platform_code",
-      "bytes": 11522,
-      "sha256": "1039b895b8f3689ec159b65e4cd80a2e84060fa94646352854672cc41e052912"
+      "bytes": 11740,
+      "sha256": "e0d5de48bc46c37db708efa459d41aa93e515193f68f4b568d28f2ce5ce1d5cd"
     },
     {
       "path": "code/platform/emiss_adapter/normalize.py",
       "title": "normalize.py",
       "category": "platform_code",
-      "bytes": 8913,
-      "sha256": "b774c5688f58cbd489dc6057ad75831973834fa02fbe064458ca67dd31cac66e"
+      "bytes": 9588,
+      "sha256": "4beef510ca07d9a2cc9beda86b23a756f22d2eb6f6a3a24246ca3975a0728994"
     },
     {
       "path": "code/platform/emiss_adapter/sdmx.py",
       "title": "sdmx.py",
       "category": "platform_code",
-      "bytes": 7681,
-      "sha256": "167e85deeedc8973612f425ee3af89548f0b547ff98998cd3eedfe3f2ae18a95"
+      "bytes": 7696,
+      "sha256": "c9e464a648905585dd594c78da45f6388ea16407ab7807c56c946669a7ef0ca3"
     },
     {
       "path": "code/platform/emiss_sources.json",
       "title": "emiss_sources.json",
       "category": "platform_code",
-      "bytes": 14037,
-      "sha256": "5ccd915aae4ecd83deac29e7905201b5e3888683821afba6c63c0185e518e472"
+      "bytes": 14459,
+      "sha256": "fb753586fac3165849ccb5e1c04b8fcfd3ac4b3b5df205e784efbe5f6c7fd89f"
     },
     {
       "path": "code/platform/lab_reproduce.py",
@@ -362,15 +362,22 @@
       "path": "code/platform/refresh_emiss.py",
       "title": "refresh_emiss.py",
       "category": "platform_code",
-      "bytes": 8019,
-      "sha256": "e6a14f0c2ad86e8d80987344836c67a8c277cec945dd2b458e5b65436b75823f"
+      "bytes": 8099,
+      "sha256": "a10c8b6508e40c8f10a122ef58aacafcc89abb3f316de8b1e568869a88bcd416"
     },
     {
       "path": "code/platform/reproduce_projection.py",
       "title": "reproduce_projection.py",
       "category": "platform_code",
-      "bytes": 3045,
-      "sha256": "86a999e5a6d3f260da9dec066b2369401664b7e5cd6de181e74dcd93721e821d"
+      "bytes": 3219,
+      "sha256": "0d643e83e6d7acfe464c5e038436f49c44f903d7cf858dd196f189f54891b989"
+    },
+    {
+      "path": "code/platform/requirements-browser.txt",
+      "title": "requirements-browser.txt",
+      "category": "platform_code",
+      "bytes": 19,
+      "sha256": "1275e2cd682da90f5df2dd2094aa09aaeb19a2397e2c258b6fc4aac0a08256c8"
     },
     {
       "path": "code/platform/requirements-refresh.txt",
@@ -390,8 +397,8 @@
       "path": "code/platform/update_summary.py",
       "title": "update_summary.py",
       "category": "platform_code",
-      "bytes": 1877,
-      "sha256": "c0507b9ff70907b5e84dce50b47db756fd93adb19d8c60dc8aff9804aa108226"
+      "bytes": 1893,
+      "sha256": "dba288ec726b759d07dcb1002b5e1abcda4fb87a8b8ed4ebdb92c76cf84d9c04"
     },
     {
       "path": "code/platform/validate.mjs",
@@ -793,6 +800,48 @@
       "sha256": "14629252ab73dbd7791179a22e2fd8cc7a95ca737e1a446dfbd7131043579b35"
     },
     {
+      "path": "demography/upstream/LE_Russia_subjects_forecast_2100_long.csv",
+      "title": "LE_Russia_subjects_forecast_2100_long.csv",
+      "category": "data",
+      "bytes": 1993579,
+      "sha256": "ab13cc23001ca0aa756db08f7b18551ab9671f37f6b3e5ecec8038ffda077382"
+    },
+    {
+      "path": "demography/upstream/manifest.json",
+      "title": "manifest.json",
+      "category": "data",
+      "bytes": 1764,
+      "sha256": "acaf15779b0e00d6b479b5993877f1600afd033754dc2d73e70aa7746fe32e17"
+    },
+    {
+      "path": "demography/upstream/MIG_cyclic_tidy.csv",
+      "title": "MIG_cyclic_tidy.csv",
+      "category": "data",
+      "bytes": 2380125,
+      "sha256": "b9ed7213537a9f3bd2456444bd1edaea0d4b597bb421a73be3a676a358067937"
+    },
+    {
+      "path": "demography/upstream/POP_wide_female_noMIG.xlsx",
+      "title": "POP_wide_female_noMIG.xlsx",
+      "category": "data",
+      "bytes": 4120434,
+      "sha256": "56716a7a74b494265a53a72dab92a103d298224fdda043958d125d588d345a7d"
+    },
+    {
+      "path": "demography/upstream/POP_wide_male_noMIG.xlsx",
+      "title": "POP_wide_male_noMIG.xlsx",
+      "category": "data",
+      "bytes": 4093375,
+      "sha256": "09199094ee8ae4440eab30e472d4808c6a0d923ab99d4176f70950f2fa167e50"
+    },
+    {
+      "path": "demography/upstream/TFR_Russia_subjects_ML_GP_UCM_tidy.csv",
+      "title": "TFR_Russia_subjects_ML_GP_UCM_tidy.csv",
+      "category": "data",
+      "bytes": 1733213,
+      "sha256": "c1b5a1c5752bdb5c10ffe63f1d126a531f10a00dbc4138347e2b4fe3a6c23aa9"
+    },
+    {
       "path": "documentation/ARCHITECTURE.md",
       "title": "ARCHITECTURE.md",
       "category": "platform_code",
@@ -810,15 +859,15 @@
       "path": "documentation/CHANGELOG.md",
       "title": "CHANGELOG.md",
       "category": "platform_code",
-      "bytes": 2642,
-      "sha256": "16a5b1225341dec38daf398cf10397c9baf8d81bc16b78c3442bf9aeb796d2df"
+      "bytes": 4421,
+      "sha256": "5f6c6907bf7f7a0b74b541c5e9c50257422d4b532584f2fea8c03620a90ca564"
     },
     {
       "path": "documentation/COHORT_INPUTS.md",
       "title": "COHORT_INPUTS.md",
       "category": "platform_code",
-      "bytes": 8481,
-      "sha256": "37769fd2d4ad95adda5038a37a53680964c1d0360c57f8099cc7ec86e5268818"
+      "bytes": 9674,
+      "sha256": "48cba7e5a9d6984c0f3caeb38ffc88dc70ba317bc38d5a5036e34367509e589b"
     },
     {
       "path": "documentation/DATA_CONTRACT.md",
@@ -887,8 +936,8 @@
       "path": "documentation/README.md",
       "title": "README.md",
       "category": "platform_code",
-      "bytes": 26887,
-      "sha256": "ecabee2e44a89b11c8dc417f1756effb1b3a745a5f7b9572ad9f8348cdb75a76"
+      "bytes": 30451,
+      "sha256": "d93d703b8ea34a10b9336f49596c2c810bc769f48787eb194ab575e9628db965"
     },
     {
       "path": "documentation/VALIDATION_1_1.md",
@@ -1027,43 +1076,43 @@
       "path": "projections/indicator_manifest.json",
       "title": "indicator_manifest.json",
       "category": "data",
-      "bytes": 112184,
-      "sha256": "6fd409f77722235c27cd8e3017e0e790b1923e6083bd27d56fff206cb7dee6b7"
+      "bytes": 114664,
+      "sha256": "2ecf964a9768d02f6fe88ef63f3b37cfeb5146a3cdf4b42429b2f15a6243c759"
     },
     {
       "path": "projections/model_weights_validation.csv",
       "title": "model_weights_validation.csv",
       "category": "data",
-      "bytes": 262298,
-      "sha256": "141d854fa65c41ed286997bf58273c2bfde4beb11cb139326b44e1fa719460a7"
+      "bytes": 262746,
+      "sha256": "2a85f4560ab2d6bd46e8e535a86ef2d3064c2f08ae580eb4536cac441084a393"
     },
     {
       "path": "projections/monthly_indicators.csv",
       "title": "monthly_indicators.csv",
       "category": "data",
-      "bytes": 4950672,
-      "sha256": "e57fb633b82bd73909c4d03d5ab21715ba9fa08f5af1f55a8ce82a30e99183d6"
+      "bytes": 4734542,
+      "sha256": "b738b2b8a03ee37d42693de06f6ba5390b6756d4fe8e27ec1e6b38026f1a2703"
     },
     {
       "path": "projections/population_manifest.json",
       "title": "population_manifest.json",
       "category": "data",
-      "bytes": 27952,
-      "sha256": "44c4e68451f085c0d769e479a125ca06f57c184c6e72ca1cd0df9e16d65d9a2d"
+      "bytes": 70927,
+      "sha256": "4bd676530f1ce6dfe56c3202e3fb1f4ef819ef913f2c084a89fe64863adca087"
     },
     {
       "path": "projections/projections_colab.ipynb",
       "title": "projections_colab.ipynb",
       "category": "notebook",
-      "bytes": 50116,
-      "sha256": "f2e5bb672f0cfcac37dddd060970c4021f2a9c877018b5726c155df823fed09c"
+      "bytes": 51200,
+      "sha256": "88ac1374ad39bb75cd554ee8a28c041a61540707cfa6694e1bdce29d54e88f5d"
     },
     {
       "path": "projections/projections_python.zip",
       "title": "projections_python.zip",
       "category": "raw",
-      "bytes": 19274,
-      "sha256": "69d1ba26e74db0f770c753890663718ae772dc7f8e91aa5f93fca3ce2a6e357c"
+      "bytes": 19515,
+      "sha256": "2f66d29c750307beb442fa6cb7788778a4ba6284ed8933471bba7aedce6b5f30"
     },
     {
       "path": "ru_regions.geojson",
