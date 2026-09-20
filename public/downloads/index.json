@@ -159,8 +159,8 @@
       "path": "code/frontend/pages/tools.js",
       "title": "tools.js",
       "category": "frontend_code",
-      "bytes": 16385,
-      "sha256": "a5b421330aea1365882bbad3334f4c7728954a7d205732bda75ad408845808ee"
+      "bytes": 16423,
+      "sha256": "fc11b3a0d0161cae70e9a32278395009fd0b0759b060e7fcb97a7c8ec9841cf0"
     },
     {
       "path": "code/frontend/styles.css",
@@ -306,8 +306,8 @@
       "path": "code/platform/emiss_adapter/client.py",
       "title": "client.py",
       "category": "platform_code",
-      "bytes": 11431,
-      "sha256": "4c0b4da455aa4f522ddf3227f497d9c3ac3d6baf862b63c9c675e2417a89300a"
+      "bytes": 11794,
+      "sha256": "97c2f68ada1e2347d2b02cc1cc9a1fd32edab2f9a899831671352a3e4c602dbc"
     },
     {
       "path": "code/platform/emiss_adapter/errors.py",
@@ -341,8 +341,8 @@
       "path": "code/platform/emiss_sources.json",
       "title": "emiss_sources.json",
       "category": "platform_code",
-      "bytes": 14459,
-      "sha256": "fb753586fac3165849ccb5e1c04b8fcfd3ac4b3b5df205e784efbe5f6c7fd89f"
+      "bytes": 14537,
+      "sha256": "f462c694f81082262833df8fa4413d47c22dc80877a2842db182fb2d692546fd"
     },
     {
       "path": "code/platform/lab_reproduce.py",
@@ -811,7 +811,7 @@
       "title": "manifest.json",
       "category": "data",
       "bytes": 1764,
-      "sha256": "acaf15779b0e00d6b479b5993877f1600afd033754dc2d73e70aa7746fe32e17"
+      "sha256": "a4c2b2c0c59e159af06b9e006f0ba221f20a3d283f9610df7997b57bfd8819ab"
     },
     {
       "path": "demography/upstream/MIG_cyclic_tidy.csv",
@@ -936,8 +936,8 @@
       "path": "documentation/README.md",
       "title": "README.md",
       "category": "platform_code",
-      "bytes": 30451,
-      "sha256": "d93d703b8ea34a10b9336f49596c2c810bc769f48787eb194ab575e9628db965"
+      "bytes": 32852,
+      "sha256": "99e150f2b2cbaff8a5559c4a383da6dcd9a1747eb8fb2617d05a343f938080b5"
     },
     {
       "path": "documentation/VALIDATION_1_1.md",
@@ -1076,29 +1076,29 @@
       "path": "projections/indicator_manifest.json",
       "title": "indicator_manifest.json",
       "category": "data",
-      "bytes": 114664,
-      "sha256": "2ecf964a9768d02f6fe88ef63f3b37cfeb5146a3cdf4b42429b2f15a6243c759"
+      "bytes": 114678,
+      "sha256": "aef66f2b8617285a3dbda72937c5fb28f6a114bbb4901337aa4ce0234172827f"
     },
     {
       "path": "projections/model_weights_validation.csv",
       "title": "model_weights_validation.csv",
       "category": "data",
-      "bytes": 262746,
-      "sha256": "2a85f4560ab2d6bd46e8e535a86ef2d3064c2f08ae580eb4536cac441084a393"
+      "bytes": 262714,
+      "sha256": "88bfbc4fe91f94b7ddbc251911f23c7f668eb104e992e41de34fd57331c3ad2d"
     },
     {
       "path": "projections/monthly_indicators.csv",
       "title": "monthly_indicators.csv",
       "category": "data",
-      "bytes": 4734542,
-      "sha256": "b738b2b8a03ee37d42693de06f6ba5390b6756d4fe8e27ec1e6b38026f1a2703"
+      "bytes": 4734371,
+      "sha256": "a8cc5ed47bf4c32bcbbf29e7e7a7a331e3644492dc06169977cbf20e4802b324"
     },
     {
       "path": "projections/population_manifest.json",
       "title": "population_manifest.json",
       "category": "data",
-      "bytes": 70927,
-      "sha256": "4bd676530f1ce6dfe56c3202e3fb1f4ef819ef913f2c084a89fe64863adca087"
+      "bytes": 70929,
+      "sha256": "530f9d729079950a7b49d5a87cf014556e3c84d6646cf392a5364515ebb3ea50"
     },
     {
       "path": "projections/projections_colab.ipynb",
@@ -1112,7 +1112,7 @@
       "title": "projections_python.zip",
       "category": "raw",
       "bytes": 19515,
-      "sha256": "3ffdf3847bd8c3d37c6c3129b98c0e7cc5151e5e685228cd207e81402f1c47de"
+      "sha256": "a616a84872a232a70fc06ba321950a18ff7f63195fc82e3a8f3dc8b770c3f969"
     },
     {
       "path": "ru_regions.geojson",

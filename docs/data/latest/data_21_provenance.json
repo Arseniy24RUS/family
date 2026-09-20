@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-20T16:58:59+00:00",
+  "checked_at": "2026-09-20T17:54:32+00:00",
   "indicator_id": "62852",
   "source_url": "https://www.fedstat.ru/indicator/62852",
   "metadata": {
@@ -975,7 +975,7 @@
     ]
   },
   "response_sha256": [
-    "a5b97d67df7a8eff2f134a54e063728f2146e7d538e168a3a986f08a30fc5f56"
+    "274d7b3285d78969fbec6e7eed57d308079a4ed9e10eda07a22c84006c3c5a7e"
   ],
   "source_observations_received": 2016,
   "new_rows": 0,

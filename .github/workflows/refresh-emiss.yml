@@ -2,7 +2,7 @@ name: Refresh EMISS and deploy
 on:
   schedule:
     # Deliberate platform schedule, not an assertion of EMISS publication day.
-    - cron: '23 4 8 * *'
+    - cron: '23 6 8 * *'
   workflow_dispatch:
     inputs:
       source:
@@ -28,7 +28,7 @@ jobs:
         shell: bash
     outputs:
       emiss_state: ${{ steps.emiss_status.outputs.state }}
-    timeout-minutes: 40
+    timeout-minutes: 60
     permissions:
       contents: write
       pages: read

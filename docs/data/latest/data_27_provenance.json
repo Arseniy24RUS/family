@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-20T16:58:59+00:00",
+  "checked_at": "2026-09-20T17:54:32+00:00",
   "indicator_id": "63037",
   "source_url": "https://www.fedstat.ru/indicator/63037",
   "metadata": {
@@ -199,10 +199,10 @@
     ]
   },
   "response_sha256": [
-    "7df9e778981fdca56bdbd77a4d6aab317ab00bd1bff7ad8998a6f91cb9dfbffb"
+    "d10769e581c2c225c1ded18b8baa34e324c99ee8704fc1ecc8f410b1a050a70a"
   ],
   "source_observations_received": 20,
-  "new_rows": 5,
+  "new_rows": 0,
   "revisions": [],
   "note": "Previously observed numbers are retained when a new export contains missing values. No arbitrary category or sequential-month imputation."
 }

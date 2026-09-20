@@ -180,6 +180,24 @@ class Contract(unittest.TestCase):
         c=Client(CONFIG,transport=httpx.MockTransport(lambda req:httpx.Response(200,text='<html>CAPTCHA</html>')))
         try:self.assertCategory('access_challenge',lambda:c.request('GET','/indicator/999'))
         finally:c.close()
+    def test_export_spacing_survives_metadata_and_failed_download(self):
+        from unittest.mock import patch
+        clock=[100.0];posts=[];tokens=[]
+        def sleep(seconds):clock[0]+=seconds
+        def handle(req):
+            if req.method=='GET':
+                token=str(len(tokens));tokens.append(token)
+                body=HTML.replace('</html>', '<div id="downloadTokenHolder"><input name="struts.token.name" value="token"><input name="token" value="'+token+'"></div></html>')
+                return httpx.Response(200,text=body)
+            posts.append((clock[0],parse_qs(req.content.decode())['token'][0]))
+            return httpx.Response(503) if len(posts)==1 else httpx.Response(200,content=xml())
+        c=Client({**CONFIG,'retries':1,'min_download_interval_seconds':45,'export_retry_delay_seconds':15},transport=httpx.MockTransport(handle))
+        try:
+            with patch('emiss_adapter.client.time.monotonic',side_effect=lambda:clock[0]),patch('emiss_adapter.client.time.sleep',side_effect=sleep):
+                meta=c.metadata('999');c.export(meta,self.selected)
+                meta=c.metadata('999');c.export(meta,self.selected)
+        finally:c.close()
+        self.assertEqual(posts,[(100.0,'0'),(145.0,'1'),(190.0,'2')])
     def test_redaction(self):self.assertNotIn('user:pass',redact('http://user:pass@proxy.test:80 failed'))
     def test_fixture_pipeline_publish_and_retain(self):
         outer=self

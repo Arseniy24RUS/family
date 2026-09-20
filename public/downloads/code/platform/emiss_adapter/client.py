@@ -36,7 +36,7 @@ class Client:
     def __init__(self,config,transport=None):
         self.config=config;self.base=config['base_url'].rstrip('/')
         self._download_tokens={};self._token_required=set()
-        self.allowed=set(config['allowed_hosts']);self.last_request=0
+        self.allowed=set(config['allowed_hosts']);self.last_request=0;self.last_download=None
         timeout=float(config.get('timeout_seconds',35))
         proxy=os.environ.get('EMISS_PROXY_URL') or None
         self.http=httpx.Client(timeout=httpx.Timeout(timeout,connect=min(timeout,15)),follow_redirects=False,proxy=proxy,transport=transport,trust_env=False,headers={
@@ -56,8 +56,11 @@ class Client:
                     if parsed.scheme!='https' or parsed.hostname not in self.allowed or parsed.username or parsed.password:
                         raise EmissConnectorError('Запрещённый адрес или перенаправление источника.',category='unsafe_url')
                     wait=float(self.config.get('min_interval_seconds',1))-(time.monotonic()-self.last_request)
+                    if method=='POST' and self.last_download is not None:
+                        wait=max(wait,float(self.config.get('min_download_interval_seconds',0))-(time.monotonic()-self.last_download))
                     if wait>0:time.sleep(wait)
                     self.last_request=time.monotonic()
+                    if method=='POST':self.last_download=self.last_request
                     kwargs={'content':urlencode(form).encode(),'headers':{'Content-Type':'application/x-www-form-urlencoded','Referer':self.base+'/indicator/'+dict(form).get('id','')}} if form is not None else {}
                     with self.http.stream(method,url,**kwargs) as r:
                         if r.status_code in (301,302,303,307,308):
@@ -101,7 +104,7 @@ class Client:
             try:return self._export_once(meta,selected)
             except EmissConnectorError as exc:
                 if exc.category not in {'network_error','temporary_http','source_redirect'} or attempt>=int(self.config.get('retries',2)):raise
-                time.sleep(2**attempt)
+                time.sleep(float(self.config.get('export_retry_delay_seconds',1))*2**attempt)
                 fresh=self.metadata(str(meta['indicator_id']))
                 if fresh!=meta:raise EmissConnectorError('Метаданные изменились между попытками выгрузки.',category='metadata_contract_changed')
 

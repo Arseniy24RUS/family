@@ -9,6 +9,8 @@
   "timeout_seconds": 35,
   "retries": 2,
   "min_interval_seconds": 1.0,
+  "min_download_interval_seconds": 45.0,
+  "export_retry_delay_seconds": 15.0,
   "sources": [
     {
       "source_id": "data_20",
