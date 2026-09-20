@@ -21,7 +21,12 @@ env:
 jobs:
   refresh:
     if: github.ref_name == github.event.repository.default_branch
-    runs-on: ubuntu-latest
+    runs-on: ${{ fromJSON(vars.EMISS_RUNNER_LABELS || '["ubuntu-latest"]') }}
+    defaults:
+      run:
+        shell: bash
+    outputs:
+      emiss_state: ${{ steps.emiss_status.outputs.state }}
     timeout-minutes: 40
     permissions:
       contents: write
@@ -53,6 +58,16 @@ jobs:
           else
             python scripts/refresh_emiss.py
           fi
+      - name: Record source outcome independently of site publication
+        id: emiss_status
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          state = json.loads(Path('public/data/latest/manifest.json').read_text(encoding='utf-8'))['state']
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+              output.write(f'state={state}\n')
+          PY
       - name: Recompute monthly TFR and TFR3+ forecasts
         run: python scripts/build_indicator_forecasts.py
       - name: Refresh observed age inputs and cohort projections
@@ -115,3 +130,8 @@ jobs:
     steps:
       - id: publish
         uses: actions/deploy-pages@v4
+      - name: Report unsuccessful data refresh after publishing retained data and diagnostics
+        if: ${{ needs.refresh.outputs.emiss_state == 'failed' || needs.refresh.outputs.emiss_state == 'partial' }}
+        run: |
+          echo '::error::EMISS refresh did not validate every requested source. The site retains prior valid data. See the refresh job summary and the Updates page.'
+          exit 1
