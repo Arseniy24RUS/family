@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-20T16:58:59+00:00",
+  "checked_at": "2026-09-20T17:54:32+00:00",
   "indicator_id": "62921",
   "source_url": "https://www.fedstat.ru/indicator/62921",
   "metadata": {
@@ -879,19 +879,10 @@
     ]
   },
   "response_sha256": [
-    "af859788c06162851689f424da700f9cf2f97e4be4f9ad4b4dc503774e58508c"
+    "93cc996112db28c49f2a19b7ff15377e1f24cd415bf9e8c72341f6d74520d3a0"
   ],
   "source_observations_received": 1720,
-  "new_rows": 430,
-  "revisions": [
-    {
-      "territory": "Российская Федерация",
-      "type": "месяц",
-      "start": "2026-03-01",
-      "end": "2026-03-31",
-      "old_value": 87.8,
-      "new_value": 86.3
-    }
-  ],
+  "new_rows": 0,
+  "revisions": [],
   "note": "Previously observed numbers are retained when a new export contains missing values. No arbitrary category or sequential-month imputation."
 }
