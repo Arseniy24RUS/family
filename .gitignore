@@ -12,3 +12,6 @@ qa-artifacts/
 Thumbs.db
 
 *.incoming
+*.ovpn
+openvpn.log
+openvpn.pid

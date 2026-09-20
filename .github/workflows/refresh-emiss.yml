@@ -18,10 +18,11 @@ env:
   PYTHONUTF8: '1'
   OPENBLAS_NUM_THREADS: '1'
   OMP_NUM_THREADS: '1'
+  SEMYA_RUN_DIR: /opt/semya-runner
 jobs:
   refresh:
     if: github.ref_name == github.event.repository.default_branch
-    runs-on: ${{ fromJSON(vars.EMISS_RUNNER_LABELS || '["ubuntu-latest"]') }}
+    runs-on: ubuntu-latest
     defaults:
       run:
         shell: bash
@@ -45,19 +46,40 @@ jobs:
         with:
           node-version: '22'
       - name: Install isolated refresh dependencies
-        run: python -m pip install -r scripts/requirements-refresh.txt
+        run: |
+          python -m pip install -r scripts/requirements-refresh.txt
+          sudo apt-get update -qq
+          sudo apt-get install -y openvpn curl iproute2 iptables
+          sudo install -d -o "$USER" -g "$(id -gn)" -m 755 "$SEMYA_RUN_DIR"
       - name: Test parser and retention contracts without live requests
         run: python -m unittest discover -s tests -p 'test_*.py' -v
-      - name: Fetch and validate EMISS
+      - name: Establish the verified home VPN route for EMISS
         env:
-          EMISS_PROXY_URL: ${{ secrets.EMISS_PROXY_URL }}
+          EMISS_OPENVPN_CONFIG_B64: ${{ secrets.EMISS_OPENVPN_CONFIG_B64 }}
+        run: |
+          chmod +x scripts/home_vpn_dns.sh
+          bash scripts/home_vpn.sh start
+          bash scripts/home_vpn.sh test-isolation
+      - name: Fetch and validate EMISS through the home router
+        env:
           SELECTED_SOURCE: ${{ inputs.source }}
         run: |
+          bash scripts/home_vpn.sh check
+          candidate="$SEMYA_RUN_DIR/semya-runtime"
+          mkdir -p "$candidate/public/data"
+          cp -a scripts "$candidate/"
+          cp -a public/data/baseline public/data/latest public/data/catalog.json "$candidate/public/data/"
+          sudo chown -R semya:semya "$candidate"
           if [ -n "$SELECTED_SOURCE" ]; then
-            python scripts/refresh_emiss.py --source "$SELECTED_SOURCE"
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_emiss.py" --source "$SELECTED_SOURCE"
           else
-            python scripts/refresh_emiss.py
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_emiss.py"
           fi
+          sudo chown -R "$(id -u):$(id -g)" "$candidate"
+          cp -a "$candidate/public/data/latest/." public/data/latest/
+      - name: Close VPN and remove temporary credentials
+        if: always()
+        run: bash scripts/home_vpn.sh stop
       - name: Record source outcome independently of site publication
         id: emiss_status
         run: |
