@@ -48,7 +48,7 @@ npm run serve
 ```
 
 <details>
-<summary>Full local checks used for this README pass</summary>
+<summary>Full local validation commands</summary>
 
 ```bash
 npm test
@@ -118,7 +118,7 @@ npm run serve
 ```
 
 <details>
-<summary>Полный набор локальных проверок для этого прохода README</summary>
+<summary>Команды локальных проверок</summary>
 
 ```bash
 npm test
