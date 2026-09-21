@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850" role="img" aria-labelledby="title desc">
+  <title id="title">Family project workflow</title>
+  <desc id="desc">Research archive, data checks, EMISS observations, projection assumptions and browser views stay separated.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#2453ae"/>
+    </marker>
+    <style>
+      .bg{fill:#f8fbff}
+      .box{fill:#fff;stroke:#2453ae;stroke-width:2.3}
+      .soft{fill:#edf6fb}
+      .footer{fill:#fff6df;stroke:#d59a2f;stroke-width:2}
+      text{font-family:Arial, Helvetica, sans-serif;letter-spacing:0;fill:#071a3a}
+      .title{font-size:30px;font-weight:700}
+      .boxhead{font-size:27px;font-weight:700}
+      .body{font-size:24px;fill:#33415f}
+      .foot{font-size:23px;font-weight:700;fill:#071a3a}
+      .arrow{stroke:#2453ae;stroke-width:3.6;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1000" height="850"/>
+  <text class="title" x="52" y="56">Family project: evidence layers</text>
+<text class="title" x="52" y="94">without mixing facts and projections</text>
+  <rect class="box soft" x="70" y="124" width="860" height="176" rx="12"/>
+<text class="boxhead" x="98" y="168">1. Research archive</text>
+<text class="body" x="98" y="210">Expert report, docs, CSV, GeoJSON and code</text>
+<text class="body" x="98" y="240">Dated snapshot preserved; archive is not rewritten</text>
+<text class="body" x="98" y="270">Used to trace author assumptions and methods</text>
+  <line class="arrow" x1="500" y1="316" x2="500" y2="352"/>
+  <rect class="box" x="70" y="370" width="860" height="188" rx="12"/>
+<text class="boxhead" x="98" y="414">2. Data and checks</text>
+<text class="body" x="98" y="456">Scripts build JSON, maps, hashes and exports</text>
+<text class="body" x="98" y="486">EMISS refresh records source metadata and replies</text>
+<text class="body" x="98" y="516">Tests separate observations from model layers</text>
+  <line class="arrow" x1="500" y1="574" x2="500" y2="610"/>
+  <rect class="box soft" x="70" y="628" width="860" height="176" rx="12"/>
+<text class="boxhead" x="98" y="672">3. Browser exploration</text>
+<text class="body" x="98" y="714">Explorer, atlas, projections, lab and downloads</text>
+<text class="body" x="98" y="744">Author age bases and counterfactuals are labelled</text>
+<text class="body" x="98" y="774">Forecast views show assumptions, not future facts</text>
+  <rect class="footer" x="70" y="818" width="860" height="26" rx="7"/>
+  <text class="foot" x="88" y="838">Boundary: observed data, author bases and forecasts stay separate.</text>
+</svg>

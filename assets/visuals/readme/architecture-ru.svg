@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850" role="img" aria-labelledby="title desc">
+  <title id="title">Рабочий контур проекта «Семья»</title>
+  <desc id="desc">Архив исследования, проверки данных, наблюдения ЕМИСС, прогнозные предпосылки и браузерные виды остаются разделены.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#2453ae"/>
+    </marker>
+    <style>
+      .bg{fill:#f8fbff}
+      .box{fill:#fff;stroke:#2453ae;stroke-width:2.3}
+      .soft{fill:#edf6fb}
+      .footer{fill:#fff6df;stroke:#d59a2f;stroke-width:2}
+      text{font-family:Arial, Helvetica, sans-serif;letter-spacing:0;fill:#071a3a}
+      .title{font-size:30px;font-weight:700}
+      .boxhead{font-size:27px;font-weight:700}
+      .body{font-size:24px;fill:#33415f}
+      .foot{font-size:23px;font-weight:700;fill:#071a3a}
+      .arrow{stroke:#2453ae;stroke-width:3.6;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1000" height="850"/>
+  <text class="title" x="52" y="56">Проект «Семья»: слои доказательств</text>
+<text class="title" x="52" y="94">без смешения фактов и прогнозов</text>
+  <rect class="box soft" x="70" y="124" width="860" height="176" rx="12"/>
+<text class="boxhead" x="98" y="168">1. Архив исследования</text>
+<text class="body" x="98" y="210">Отчет, документы, CSV, GeoJSON и исходный код</text>
+<text class="body" x="98" y="240">Датированный срез сохранен без тихой правки</text>
+<text class="body" x="98" y="270">По нему проверяются авторские предпосылки</text>
+  <line class="arrow" x1="500" y1="316" x2="500" y2="352"/>
+  <rect class="box" x="70" y="370" width="860" height="188" rx="12"/>
+<text class="boxhead" x="98" y="414">2. Данные и проверки</text>
+<text class="body" x="98" y="456">Скрипты готовят JSON, карты, хеши и выгрузки</text>
+<text class="body" x="98" y="486">ЕМИСС-refresh пишет метаданные и ответы источника</text>
+<text class="body" x="98" y="516">Тесты отделяют наблюдения от модельных слоев</text>
+  <line class="arrow" x1="500" y1="574" x2="500" y2="610"/>
+  <rect class="box soft" x="70" y="628" width="860" height="176" rx="12"/>
+<text class="boxhead" x="98" y="672">3. Работа в браузере</text>
+<text class="body" x="98" y="714">Исследователь, атлас, прогнозы, лаборатория</text>
+<text class="body" x="98" y="744">Возрастные базы и контрфакты подписаны явно</text>
+<text class="body" x="98" y="774">Прогнозы показывают предпосылки, не факты</text>
+  <rect class="footer" x="70" y="818" width="860" height="26" rx="7"/>
+  <text class="foot" x="88" y="838">Граница: наблюдения, возрастные базы и прогнозы разделены.</text>
+</svg>
