@@ -29,8 +29,8 @@
   <line class="arrow" x1="500" y1="316" x2="500" y2="352"/>
   <rect class="box" x="70" y="370" width="860" height="188" rx="12"/>
 <text class="boxhead" x="98" y="414">2. Данные и проверки</text>
-<text class="body" x="98" y="456">Скрипты готовят JSON, карты, хеши и выгрузки</text>
-<text class="body" x="98" y="486">ЕМИСС-refresh пишет метаданные и ответы источника</text>
+<text class="body" x="98" y="456">Скрипты готовят JSON, карты, контрольные суммы и выгрузки</text>
+<text class="body" x="98" y="486">Обновление ЕМИСС пишет метаданные и ответы источника</text>
 <text class="body" x="98" y="516">Тесты отделяют наблюдения от модельных слоев</text>
   <line class="arrow" x1="500" y1="574" x2="500" y2="610"/>
   <rect class="box soft" x="70" y="628" width="860" height="176" rx="12"/>
