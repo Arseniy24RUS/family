@@ -2,6 +2,7 @@ import { h, svg, fmt, bindTip, button, select, para, codeRegion } from '../core/
 import { base, C, panZoom } from './charts.js';
 import { sourceFoot, table, toolbar, figure } from './ui.js';
 const relationship = { direct: 'Прямая', indirect: 'Косвенная', hypothetical: 'Гипотетическая' };
+const nodeColor = node => C[(node.group - 1 || 0) % C.length];
 export function networkView({ nodes, edges, selected, onSelect, regional = false, focusOnly = true, layout = {} }) {
     const selectedNode = nodes.find(n => n.id === selected) || nodes[0], sid = selectedNode?.id;
     const neighbors = new Set(edges.filter(e => e.a === sid || e.b === sid).flatMap(e => [e.a, e.b]));
@@ -26,7 +27,7 @@ export function networkView({ nodes, edges, selected, onSelect, regional = false
     for (const n of visible) {
         const [x, y] = position.get(n.id), active = n.id === sid, near = neighbors.has(n.id);
         const group = svg('g', { class: 'network-node', tabindex: 0, role: 'button', 'aria-label': n.name, 'data-node': n.id });
-        group.append(svg('circle', { cx: x, cy: y, r: active ? 14 : focusOnly ? 9 : regional ? 8 : 5.5, fill: C[(n.group - 1 || 0) % C.length], stroke: active ? '#6280D9' : 'white', 'stroke-width': active ? 4 : 1.6, opacity: focusOnly || active || near ? 1 : .7 }));
+        group.append(svg('circle', { cx: x, cy: y, r: active ? 14 : focusOnly ? 9 : regional ? 8 : 5.5, fill: nodeColor(n), stroke: active ? '#6280D9' : 'white', 'stroke-width': active ? 4 : 1.6, opacity: focusOnly || active || near ? 1 : .7 }));
         const full = focusOnly;
         const label = full ? n.name : n.short || n.id;
         const anchor = focusOnly ? (active ? 'end' : 'start') : regional ? 'middle' : n.kind === 'activity' ? 'end' : 'start', lx = focusOnly ? (active ? x - 24 : x + 20) : regional ? x : n.kind === 'activity' ? x - 15 : x + 15, ly = regional && !full ? y - 15 : y + 4;
@@ -64,5 +65,10 @@ export function networkView({ nodes, edges, selected, onSelect, regional = false
     }
     if (!neighbors.size)
         inspector.append(para('В выбранном фильтре связей нет. Сбросьте фильтр или выберите другой узел.', 'small'));
-    return { element: h('div', { class: 'network-layout' }, canvas, inspector), svg: root };
+    const groups=[...new Map(nodes.map(n=>[n.group,{name:n.groupLabel||(regional?'Сообщество '+n.group:n.kind==='indicator'?'Показатели':'Мероприятия'),color:nodeColor(n)}])).values()];
+    const nodeKey=h('div',{class:'network-key',role:'group','aria-label':'Цвета узлов'},h('strong',{},regional?'Цвет окружности — сообщество':'Цвет окружности — федеральный проект мероприятия или показатель'),h('div',{class:'legend'},groups.map(item=>h('span',{},h('i',{class:'node-swatch',style:'background:'+item.color,'aria-hidden':'true'}),item.name))));
+    const edgeItems=regional?[['selected','Связи выбранного региона'],['other','Остальные связи']]:[['direct','Прямая связь'],['indirect','Косвенная связь'],['selected','Связи выбранного узла'],['other','Остальные связи']];
+    const edgeKey=h('div',{class:'network-key',role:'group','aria-label':'Обозначения связей'},h('strong',{},'Линии и выделение'),h('div',{class:'legend'},edgeItems.map(([kind,name])=>h('span',{},h('i',{class:'edge-swatch '+kind,'aria-hidden':'true'}),name)),h('span',{},h('i',{class:'selected-node-swatch','aria-hidden':'true'}),'Обводка — выбранный узел')),para(regional?'Толщина линии отражает вес сходства профилей.':'Цвет линий показывает фокус выбора. Цвет окружностей обозначает принадлежность узлов.','small muted'));
+    root.dataset.exportLegend=JSON.stringify([...groups,...edgeItems.map(([kind,name])=>({name,color:kind==='selected'?'#539D96':'#D9DEE8',dash:kind==='indirect'?'5 4':null})),{name:'Обводка — выбранный узел',color:'#6280D9'}]);
+    return { element: h('div', {}, h('div',{class:'network-legend'},nodeKey,edgeKey),h('div', { class: 'network-layout' }, canvas, inspector)), svg: root };
 }

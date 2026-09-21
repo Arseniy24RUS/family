@@ -10,6 +10,8 @@ from pathlib import Path
 from urllib.parse import urlparse,unquote
 from playwright.async_api import async_playwright
 ROOT=Path(__file__).resolve().parents[1]
+MONTHS=['январь','февраль','март','апрель','май','июнь','июль','август','сентябрь','октябрь','ноябрь','декабрь']
+def month_text(value):return MONTHS[int(value[5:7])-1]+' '+value[:4]
 ROUTES=['overview','framework','logic','audit','targets','map','map?source=data_21&r=77&compare=50','regions','regions?tab=spatial','regions?tab=network','regions?tab=outliers','finance','network','network?tab=matrix','network?tab=table','network?tab=metrics','texts','texts?tab=similarity','texts?tab=corpus','texts?tab=narrative','domains','causal','proposals','explorer','library','library?tab=code','library?tab=documents','library?tab=methods','updates','lab','lab?tab=cluster','lab?tab=moran']
 
 async def execute(args):
@@ -32,7 +34,8 @@ async def execute(args):
             html=(ROOT/'docs/index.html').read_text(encoding='utf-8').replace('<head>','<head><base href="https://semya.test/">')
             await page.set_content(html,wait_until='networkidle')
         else:await page.goto(args.base,wait_until='networkidle')
-        await page.wait_for_selector('#main[data-ready=true]')
+        await page.wait_for_function("document.querySelector('#main[data-ready=true]') || document.querySelector('.error-view')")
+        assert not await page.locator('.error-view').count(), await page.locator('body').inner_text()
         async def go(route):
             await page.evaluate('(route)=>location.hash="#/"+route',route)
             await page.wait_for_timeout(110)
@@ -48,7 +51,7 @@ async def execute(args):
         await go('targets')
         assert await page.get_by_label('Версия прогноза',exact=True).input_value()=='updated'
         model=await page.evaluate("async()=> (await fetch(new URL('data/projections/indicators/data_21/RU.json',document.baseURI))).json()")
-        as_of='.'.join(reversed(model['source_as_of'].split('-')))
+        as_of=month_text(model['source_as_of'])
         assert as_of in await page.locator('.forecast-meta').inner_text()
         assert 'Последний факт ('+as_of+')' in await page.locator('.forecast-aside').inner_text()
         assert await page.locator('h1').inner_text()=='Траектории и прогноз'
@@ -56,12 +59,12 @@ async def execute(args):
         checks.append({'check':'targets_uses_latest_emiss_observations','pass':True,'as_of':model['source_as_of']})
         axis=await page.evaluate("""async()=>{
             const {lineChart}=await import(new URL('src/components/charts.js',document.baseURI));
-            const chart=lineChart([{name:'Calendar boundary test',points:[{x:Date.UTC(2025,0,1),y:1},{x:Date.UTC(2027,0,1),y:2}]}]);
+            const chart=lineChart([{name:'Calendar boundary test',points:[{x:Date.UTC(2025,0,1),y:1},{x:Date.UTC(2026,0,1),y:1.5},{x:Date.UTC(2027,0,1),y:2}]}]);
             return {ticks:Object.fromEntries([...chart.querySelectorAll('text')].filter(n=>/^(2025|2026|2027)$/.test(n.textContent)).map(n=>[n.textContent,Number(n.getAttribute('x'))])),points:[...chart.querySelectorAll('.point-hit')].map(n=>Number(n.getAttribute('cx')))};
         }""")
         assert abs(axis['ticks']['2025']-axis['points'][0])<1e-6
-        assert abs(axis['ticks']['2026']-sum(axis['points'])/2)<1e-6
-        assert abs(axis['ticks']['2027']-axis['points'][1])<1e-6
+        assert abs(axis['ticks']['2026']-axis['points'][1])<1e-6
+        assert abs(axis['ticks']['2027']-axis['points'][2])<1e-6
         checks.append({'check':'calendar_year_labels_at_january_first','pass':True})
         await page.get_by_label('Версия прогноза',exact=True).select_option('archive')
         await page.get_by_text('Фиксированный прогноз из экспертизы. Новые выгрузки ЕМИСС не переобучают его и не меняют авторский вывод.',exact=True).wait_for()
@@ -77,13 +80,79 @@ async def execute(args):
         await page.get_by_label('Показатель',exact=True).select_option('data_22')
         await page.locator('svg.chart-svg[aria-label^="СКР третьих"]').wait_for()
         third=await page.evaluate("async()=> (await fetch(new URL('data/projections/indicators/data_22/RU.json',document.baseURI))).json()")
-        assert '.'.join(reversed(third['source_as_of'].split('-'))) in await page.locator('.forecast-meta').inner_text()
+        assert month_text(third['source_as_of']) in await page.locator('.forecast-meta').inner_text()
         await page.set_viewport_size({'width':390,'height':844})
         await go('targets')
         assert not await page.evaluate('document.documentElement.scrollWidth>innerWidth+2')
         await page.screenshot(path=str(out/'targets_current_mobile.png'))
         await page.set_viewport_size({'width':1440,'height':1000})
         checks.append({'check':'targets_latest_third_births_and_mobile_layout','pass':True})
+        await go('projections')
+        await page.locator('.point-hit').nth(model['n_observations']-1).focus()
+        assert as_of in await page.locator('#tooltip').inner_text()
+        assert model['source_as_of'] not in await page.locator('#tooltip').inner_text()
+        await page.keyboard.press('Escape')
+        await page.screenshot(path=str(out/'forecast_month_labels.png'))
+        await go('projections?tab=data')
+        assert await page.get_by_role('columnheader',name='Месяц',exact=True).count()==1
+        assert month_text(model['observations'][0]['date']) in await page.locator('tbody').inner_text()
+        await go('projections?tab=map&month='+model['source_as_of'][:7])
+        assert as_of in await page.get_by_label('Месяц карты',exact=True).locator('option:checked').inner_text()
+        checks.append({'check':'monthly_observations_use_named_months_in_chart_tooltip_table_and_map','pass':True})
+        for route in ['overview','audit','map','regions','lab','explorer']:
+            await go(route)
+            assert await page.get_by_label('Версия статистики',exact=True).input_value()=='latest',route
+        checks.append({'check':'all_statistical_sections_default_to_current_data','pass':True})
+        for sid in ['data_21','data_22','data_23','data_33']:
+            await go('map?source='+sid)
+            latest=await page.evaluate("async sid=>{const m=await(await fetch(new URL('data/latest/manifest.json',document.baseURI))).json();const s=m.sources.find(s=>s.source_id===sid);const p=await(await fetch(new URL(s.published_file,document.baseURI))).json();const rows=p.rows.map(r=>Object.fromEntries(p.columns.map((k,i)=>[k,r[i]])));return rows.filter(r=>r.r&&Number.isFinite(r.value)).map(r=>r.end).sort().at(-1)}",sid)
+            assert (await page.get_by_label('Период и тип наблюдения',exact=True).input_value()).endswith(latest)
+        await page.screenshot(path=str(out/'map_current_desktop.png'))
+        checks.append({'check':'map_selects_latest_month_instead_of_old_complete_year','pass':True})
+        await go('map?mode=latest&source=data_33&r=09&period='+__import__('urllib.parse',fromlist=['quote']).quote('месяц|2025-12-31'))
+        assert await page.locator('[data-region="09"]').get_attribute('fill')=='url(#missing)'
+        assert '414,35' in await page.locator('.atlas-aside').inner_text()
+        assert 'вне диапазона' in await page.locator('.atlas-aside').inner_text()
+        legend=await page.locator('.map-legend').inner_text()
+        assert '414' not in legend
+        await page.screenshot(path=str(out/'data33_anomaly_desktop.png'))
+        checks.append({'check':'source_414_percent_preserved_but_excluded_from_map_scale','pass':True})
+        await go('map?mode=baseline&source=data_33')
+        await page.get_by_role('button',name='Показать актуальные данные',exact=True).click()
+        await page.wait_for_function("document.querySelector('select[aria-label=\"Версия статистики\"]')?.value==='latest'")
+        await page.locator('#main[aria-busy]').wait_for(state='detached')
+        assert (await page.get_by_label('Период и тип наблюдения',exact=True).input_value()).endswith(latest)
+        checks.append({'check':'old_archive_link_has_explicit_switch_to_latest_period','pass':True})
+        await go('regions')
+        assert 'Данные текущего расчёта' in await page.locator('#main').inner_text()
+        current=await page.evaluate("async()=> (await fetch(new URL('data/current/research.json',document.baseURI))).json()")
+        assert len(current['current_inputs'])==len(current['region_clusters'])
+        for tab in ['spatial','network','outliers']:
+            await go('regions?tab='+tab)
+            assert 'Данные текущего расчёта' in await page.locator('#main').inner_text()
+            assert not await page.locator('.error-view').count()
+        checks.append({'check':'regional_diagnostics_recomputed_and_inputs_disclosed','pass':True})
+        await go('lab')
+        assert (await page.get_by_label('Период X',exact=True).input_value()).endswith(latest)
+        assert (await page.get_by_label('Период Y',exact=True).input_value()).endswith(latest)
+        checks.append({'check':'laboratory_uses_current_month_for_both_fertility_sources','pass':True})
+        await go('network?full=1')
+        assert await page.get_by_role('group',name='Цвета узлов',exact=True).count()==1
+        assert await page.locator('.node-swatch').count()==6
+        colors=await page.locator('.node-swatch').evaluate_all('(xs)=>xs.map(x=>getComputedStyle(x).backgroundColor)')
+        node_colors=await page.locator('.network-node circle').evaluate_all('(xs)=>xs.map(x=>getComputedStyle(x).fill)')
+        assert set(node_colors)==set(colors)
+        assert await page.locator('.edge-swatch.indirect').evaluate('(x)=>getComputedStyle(x).borderTopStyle')=='dashed'
+        assert 'Связи выбранного узла' in await page.locator('.network-legend').inner_text()
+        await page.locator('.network-legend').scroll_into_view_if_needed()
+        await page.screenshot(path=str(out/'network_legend_desktop.png'))
+        await page.set_viewport_size({'width':390,'height':844})
+        await go('network')
+        assert not await page.evaluate('document.documentElement.scrollWidth>innerWidth+2')
+        await page.locator('.network-legend').scroll_into_view_if_needed()
+        await page.screenshot(path=str(out/'network_legend_mobile.png'))
+        await page.set_viewport_size({'width':1440,'height':1000})
+        checks.append({'check':'network_node_and_edge_legends_match_actual_colors_desktop_and_mobile','pass':True})
         await go('map?source=data_21&r=77&compare=50')
         assert await page.locator('[data-region]').count()==89
         await page.locator('[data-region="77"]').focus()
@@ -102,7 +171,7 @@ async def execute(args):
         await go('map?source=data_21&r=77')
         async with page.expect_download() as info: await page.locator('.figure-tools').first.get_by_role('button',name='SVG',exact=True).click()
         f=await info.value;await f.save_as(out/'map.svg')
-        text=(out/'map.svg').read_text(encoding='utf-8');assert 'Нет данных' in text and 'архив' in text
+        text=(out/'map.svg').read_text(encoding='utf-8');assert 'Нет данных' in text and 'проверенное обновление' in text
         async with page.expect_download() as info: await page.locator('.figure-tools').first.get_by_role('button',name='PNG',exact=True).click()
         await (await info.value).save_as(out/'map.png')
         assert (out/'map.png').read_bytes().startswith(b'\x89PNG')

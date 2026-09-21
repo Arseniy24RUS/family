@@ -2,14 +2,15 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {mean,median,quantile,pearson,spearman,ranks,hhi,did,rng,standardize,kmeans,moran} from '../src/core/stats.js';
-import {periods,choosePeriod,regionRows} from '../src/core/data.js';
-import {toCSV,fmt} from '../src/core/dom.js';
+import {periods,choosePeriod,regionRows,analyticalRow} from '../src/core/data.js';
+import {toCSV,fmt,monthText} from '../src/core/dom.js';
 const get=p=>JSON.parse(fs.readFileSync(new URL('../public/'+p,import.meta.url),'utf8'));
 const cat=get('data/catalog.json'),res=get('data/research.json');
 const unpack=p=>p.rows.map(r=>Object.fromEntries(p.columns.map((k,i)=>[k,r[i]])));
 const close=(a,b,t=1e-10)=>assert.ok(Math.abs(a-b)<t,`${a} != ${b}`);
 
 test('missing is not zero in formatting',()=>{assert.equal(fmt(null),'Нет данных');assert.equal(fmt(0),'0');});
+test('monthly dates describe periods, never a particular day',()=>{assert.equal(monthText('2026-08-31'),'август 2026');assert.equal(monthText('2026-08'),'август 2026');assert.equal(monthText('2026-01-01'),'январь 2026');assert.equal(monthText(null),'—');});
 test('quantiles exclude missing',()=>{assert.equal(median([null,1,2,3,4]),2.5);assert.equal(quantile([],0.5),null);});
 test('correlation handles constant data',()=>assert.equal(pearson([1,1,1],[1,2,3]),null));
 test('linear correlation',()=>close(pearson([1,2,3],[2,4,6]),1));
@@ -28,6 +29,8 @@ test('all 19801 original observations available',()=>assert.equal(cat.datasets.r
 test('geometry matches all 89 codes',()=>{const geo=get('data/map.json');assert.equal(geo.features.length,89);assert.equal(new Set(geo.features.map(f=>f.id)).size,89);assert.deepEqual(new Set(cat.regions.map(r=>r.id)),new Set(geo.features.map(r=>r.id)));geo.features.forEach(f=>assert.ok(f.path&&!/NaN|Infinity/.test(f.path)));});
 test('year and December month stay separate',()=>{const rows=unpack(get('data/baseline/data_21.json')),ps=periods(rows);assert.ok(ps.some(p=>p.key==='год|2025-12-31'));assert.ok(ps.some(p=>p.key==='месяц|2025-12-31'));assert.equal(choosePeriod(ps,null,true),'год|2025-12-31');});
 test('annual Moscow value and missing region',()=>{const rm=regionRows(unpack(get('data/baseline/data_21.json')),'год|2025-12-31');close(rm.get('77').value,1.434);assert.ok(!Number.isFinite(rm.get('80')?.value));});
+test('latest available month is default even when an older annual exists',()=>{const ps=[{key:'год|2025-12-31',end:'2025-12-31',type:'год',regions:85},{key:'месяц|2026-08-31',end:'2026-08-31',type:'месяц',regions:85}];assert.equal(choosePeriod(ps),'месяц|2026-08-31');assert.equal(choosePeriod(ps,'год|2025-12-31'),'год|2025-12-31');});
+test('out-of-range share retains source value but cannot color the map',()=>{const row={value:414.35,flag:'outside_0_100'};assert.equal(analyticalRow(row).value,null);assert.equal(analyticalRow(row).rawValue,414.35);assert.equal(row.value,414.35);assert.equal(analyticalRow({value:0}).value,0);});
 test('conflicting aliases never averaged',()=>{const rows=['a','b'].map((t,i)=>({r:'77',territory:t,type:'год',end:'2025-12-31',value:i+1}));assert.equal(regionRows(rows,'год|2025-12-31').get('77').value,null);});
 test('exclude nested autonomous district aggregate',()=>{const rows=[{r:'72',territory:'Тюменская область',value:5},{r:'72',territory:'Тюменская область (кроме автономных округов)',value:1}].map(r=>({...r,type:'год',end:'2025-12-31'}));assert.equal(regionRows(rows,'год|2025-12-31').get('72').value,1);});
 test('infant mortality series not merged',()=>{assert.equal(cat.datasets.filter(d=>d.indicator_code==='2.14.Я3.3').length,2);});

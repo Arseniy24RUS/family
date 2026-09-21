@@ -24,7 +24,7 @@ function grid(root, x, y, w, ht, lo, hi, n = 4) { for (let i = 0; i <= n; i++) {
 } }
 export function lineChart(series, {
     height=380, width=1000, unit='', label='Динамика показателя', band=null,
-    xLabel='Период', zero=false, tickPlacement='end', forecastStart=null, monthlyTicks=false
+    xLabel='Период', zero=false, tickPlacement='start', forecastStart=null, monthlyTicks=false
 }={}) {
     const root=base(width,height,label);
     const m={l:width<440?52:64,r:width<440?15:24,t:38,b:54},H=height-m.t-m.b;
@@ -53,7 +53,7 @@ export function lineChart(series, {
         const step=Math.max(3,Math.ceil((endId-startId+1)/Math.max(3,Math.floor(W/85))/3)*3);
         for(let id=startId;id<=endId;id+=step){
             const y=Math.floor(id/12),mm=id%12,date=Date.UTC(y,mm+1,0),xx=X(date);
-            if(xx>=m.l-1&&xx<=width-m.r+1)root.append(text(xx,height-29,String(mm+1).padStart(2,'0')+'.'+String(y).slice(2),{'text-anchor':'middle','font-size':11}));
+            if(xx>=m.l-1&&xx<=width-m.r+1)root.append(text(xx,height-29,new Date(Date.UTC(y,mm,1)).toLocaleDateString('ru-RU',{month:'short',year:'numeric',timeZone:'UTC'}).replace(/\s*г\.$/,''),{'text-anchor':'middle','font-size':11}));
         }
     }else{
         for(const [i,y] of years.entries()){

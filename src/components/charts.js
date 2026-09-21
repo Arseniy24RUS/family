@@ -53,7 +53,7 @@ export function lineChart(series, {
         const step=Math.max(3,Math.ceil((endId-startId+1)/Math.max(3,Math.floor(W/85))/3)*3);
         for(let id=startId;id<=endId;id+=step){
             const y=Math.floor(id/12),mm=id%12,date=Date.UTC(y,mm+1,0),xx=X(date);
-            if(xx>=m.l-1&&xx<=width-m.r+1)root.append(text(xx,height-29,String(mm+1).padStart(2,'0')+'.'+String(y).slice(2),{'text-anchor':'middle','font-size':11}));
+            if(xx>=m.l-1&&xx<=width-m.r+1)root.append(text(xx,height-29,new Date(Date.UTC(y,mm,1)).toLocaleDateString('ru-RU',{month:'short',year:'numeric',timeZone:'UTC'}).replace(/\s*г\.$/,''),{'text-anchor':'middle','font-size':11}));
         }
     }else{
         for(const [i,y] of years.entries()){

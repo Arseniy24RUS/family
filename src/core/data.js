@@ -2,8 +2,11 @@ const memo = new Map();
 export async function json(path) { if (!memo.has(path))
     memo.set(path, fetch('./' + path).then(r => { if (!r.ok)
         throw Error(`Файл ${path}: HTTP ${r.status}`); return r.json(); }).catch(e => { memo.delete(path); throw e; })); return memo.get(path); }
-export async function bootstrap() { const [catalog, research, manifest] = await Promise.all([json('data/catalog.json'), json('data/research.json'), json('data/latest/manifest.json')]); return { catalog, research, manifest }; }
-export async function series(id, mode = 'baseline', manifest = { sources: [] }) { const info = manifest.sources?.find(s => s.source_id === id); const latest = mode === 'latest' && info?.published_file; const packet = await json(latest || `data/baseline/${id}.json`); const rows = packet.rows.map(x => Object.fromEntries(packet.columns.map((k, i) => [k, x[i]]))); return { ...packet, rows, usingLatest: !!latest, latestInfo: info, stale: !!latest && !['updated','unchanged'].includes(info?.state) }; }
+export async function bootstrap() { const [catalog, research, manifest, currentCatalog, currentResearch] = await Promise.all([json('data/catalog.json'), json('data/research.json'), json('data/latest/manifest.json'), json('data/current/catalog.json'), json('data/current/research.json')]); return { catalog:currentCatalog, research:{...research,...currentResearch}, manifest, archive:{catalog,research} }; }
+export async function series(id, mode = 'latest', manifest = null) { manifest ??= await json('data/latest/manifest.json'); const info = manifest.sources?.find(s => s.source_id === id); const latest = mode !== 'baseline' && info?.published_file; const packet = await json(latest || `data/baseline/${id}.json`); const rows = packet.rows.map(x => Object.fromEntries(packet.columns.map((k, i) => [k, x[i]]))); return { ...packet, rows, usingLatest: !!latest, latestInfo: info, stale: !!latest && !['updated','unchanged'].includes(info?.state) }; }
+// Preserve source values for audit/export, but never treat flagged values as usable measurements.
+export function analyticalRow(row) { return row?.flag ? {...row, rawValue:row.value, value:null, detail:'Исключено из расчёта: '+qualityFlag(row.flag)+(Number.isFinite(row.value)?' · исходное значение '+row.value:'')} : row; }
+export function qualityFlag(flag) { return ({outside_0_100:'доля вне диапазона 0–100%',negative:'отрицательное значение',missing:'пропуск',conflicting_values:'противоречивые значения'})[flag] || flag; }
 export function periods(rows) { const m = new Map(); for (const r of rows) {
     let k = r.type + '|' + r.end;
     if (!m.has(k))
@@ -22,7 +25,7 @@ export function choosePeriod(ps, requested, complete = false) { if (ps.some(p =>
     let dec = pool.filter(p => p.end.slice(5, 7) === '12');
     if (dec.length)
         return dec.at(-1).key;
-} return pool.at(-1)?.key || ''; }
+} const newest=pool.at(-1)?.end; return (pool.find(p=>p.end===newest&&p.type==='год')||pool.at(-1))?.key || ''; }
 export const samePeriod = (r, key) => r.type + '|' + r.end === key;
 // Administrative components and parent aggregates stay distinct in raw data. For maps use territory excluding nested autonomous districts when present.
 export function regionRows(rows, key) { const grouped = new Map(); for (const r of rows.filter(x => x.r && samePeriod(x, key))) {

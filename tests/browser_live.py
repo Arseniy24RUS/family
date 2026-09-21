@@ -24,7 +24,8 @@ async def execute(args):
         page.on('response', lambda r: failed_assets.append([r.status, r.url]) if r.status >= 400 and r.url.startswith(args.base) else None)
         page.on('console', lambda m: external_errors.append(m.text) if m.type == 'error' else None)
         await page.goto(args.base, wait_until='networkidle')
-        await page.locator('#main[data-ready=true]').wait_for()
+        await page.wait_for_function("document.querySelector('#main[data-ready=true]') || document.querySelector('.error-view')")
+        assert not await page.locator('.error-view').count(), await page.locator('body').inner_text()
         assert urlparse(page.url).path == urlparse(args.base).path
         assert 'Экспертиза' in await page.title()
 

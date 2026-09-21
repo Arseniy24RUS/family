@@ -26,6 +26,11 @@ class PagesHandler(http.server.SimpleHTTPRequestHandler):
         pass
 
 
+class PagesServer(http.server.ThreadingHTTPServer):
+    # Several module/data requests arrive together when each fresh browser starts.
+    request_queue_size = 64
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--base')
@@ -34,7 +39,7 @@ def main():
     args = parser.parse_args()
     server = None
     if not args.base:
-        server = http.server.ThreadingHTTPServer(
+        server = PagesServer(
             ('127.0.0.1', 0), functools.partial(PagesHandler, directory=str(ROOT/'docs')))
         threading.Thread(target=server.serve_forever, daemon=True).start()
         args.base = f'http://127.0.0.1:{server.server_port}/family/'

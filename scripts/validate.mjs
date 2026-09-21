@@ -27,3 +27,21 @@ const authors=await read('data/authors.json');assert.deepEqual(authors.authors.m
 for(const name of ['ran','fnisc','isd'])await fs.access(path.join(docs,`assets/institutions/${name}.png`));
 await fs.access(path.join(docs,'workers/cohort-worker.js'));
 console.log(`Validated ${n} monthly forecasts, ${cp.ready} cohort projections and institutional identity.`);
+
+const current=await read('data/current/research.json'),currentCat=await read('data/current/catalog.json');
+let currentRows=0;
+for(const s of current.current_metadata.sources){
+ const bytes=await fs.readFile(path.join(docs,s.source));
+ assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),s.sha256,'Current analysis input hash: '+s.id);
+ const packet=JSON.parse(bytes);currentRows+=packet.rows.length;
+ const rows=packet.rows.map(r=>Object.fromEntries(packet.columns.map((k,i)=>[k,r[i]])));
+ for(const input of current.current_inputs){
+  if(!current.current_metadata.features.includes(s.id))continue;
+  assert.ok(rows.some(r=>r.r===input.id&&r.type+'|'+r.end===s.period&&!r.flag&&r.value===input[s.id]),'Current regional input: '+s.id+'/'+input.id);
+ }
+}
+assert.equal(currentRows,currentCat.n_observations);
+assert.equal(current.current_inputs.length,current.region_clusters.length);
+assert.equal(current.current_inputs.length,current.region_similarity_network_communities.length);
+for(const r of current.spatial_local_moran_long){assert.ok(r.q_value>=r.p_value-1e-12&&r.q_value<=1);assert.ok(r.cluster_type==='NS'||r.q_value<=.05);}
+console.log(`Validated current analytics: ${currentRows} observations, ${current.region_clusters.length} complete regional profiles.`);

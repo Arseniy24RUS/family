@@ -1,4 +1,4 @@
-import {h, para, select, check, note, fmt, button, download, sourceLink} from '../core/dom.js';
+import {h, para, select, check, note, fmt, button, download, sourceLink, monthText} from '../core/dom.js';
 import {json} from '../core/data.js';
 import {heading, panel, toolbar, stats, table, tabs, figure, empty, methodBox} from '../components/ui.js';
 import {lineChart, legend, C} from '../components/charts.js';
@@ -6,7 +6,7 @@ import {mapView} from '../components/map.js';
 
 const LABELS={data_21:'СКР',data_22:'СКР третьих и последующих детей'};
 const dt=s=>Date.parse(s.length===7?s+'-01':s);
-const points=rows=>rows.map(o=>({x:dt(o.date),y:o.value,label:o.date}));
+const points=rows=>rows.map(o=>({x:dt(o.date),y:o.value,label:monthText(o.date)}));
 const hasStructure=model=>model.forecast.some(o=>Number.isFinite(o.trend_value));
 const localDate=s=>s?new Date(s).toLocaleDateString('ru-RU',{timeZone:'UTC'}):'—';
 function chartWidth(withAside=true){
@@ -42,28 +42,28 @@ async function trajectory(model,compare,ctx){
  if(compare)ss.push(
   {name:compare.region_name+' · наблюдения',color:C[1],width:1.8,markers:true,points:points(visible(compare.observations))},
   {name:compare.region_name+' · прогноз',color:C[1],width:2,markers:false,dash:'5 4',points:points(visible([compare.observations.at(-1),...compare.forecast]))});
- if(state.members==='1')model.models.forEach((m,i)=>ss.push({name:m.name,color:C[(i+2)%C.length],width:1.2,markers:false,dash:'3 5',points:fc.map(p=>({x:dt(p.date),y:p.members[m.id],label:p.date}))}));
- if(state.trend==='1'&&hasStructure(model))ss.push({name:'Тренд без колебаний',color:'#647087',width:1.6,markers:false,dash:'6 5',points:fc.map(p=>({x:dt(p.date),y:p.trend_value,label:p.date}))});
+ if(state.members==='1')model.models.forEach((m,i)=>ss.push({name:m.name,color:C[(i+2)%C.length],width:1.2,markers:false,dash:'3 5',points:fc.map(p=>({x:dt(p.date),y:p.members[m.id],label:monthText(p.date)}))}));
+ if(state.trend==='1'&&hasStructure(model))ss.push({name:'Тренд без колебаний',color:'#647087',width:1.6,markers:false,dash:'6 5',points:fc.map(p=>({x:dt(p.date),y:p.trend_value,label:monthText(p.date)}))});
  if(rid==='RU'&&state.targets!=='0'){
   const original=await json('data/forecasts.json'),code=sid==='data_21'?'2.14.Я.2':'2.14.Я.3';
   ss.push({name:'Цель нацпроекта · паспорт 2025 года',color:C[1],width:1.7,dash:'6 5',markers:true,points:original.targets.filter(p=>p.indicator_code===code&&p.target_year<=2030&&p.target_year+'-12-31'<=limit).map(p=>({x:dt(p.target_year+'-12-31'),y:p.target_value,label:String(p.target_year)}))});
  }
  if(rid==='RU'&&state.archive==='1'){
   const original=await json('data/forecasts.json'),code=sid==='data_21'?'2.14.Я.2':'2.14.Я.3';
-  ss.push({name:'Прогноз исходной экспертизы',color:'#7F92BB',width:1.8,dash:'2 5',markers:false,points:original.points.filter(p=>p.indicator_code===code&&p.forecast_date<=limit).map(p=>({x:dt(p.forecast_date),y:p.forecast_ensemble_median,label:p.forecast_date}))});
+  ss.push({name:'Прогноз исходной экспертизы',color:'#7F92BB',width:1.8,dash:'2 5',markers:false,points:original.points.filter(p=>p.indicator_code===code&&p.forecast_date<=limit).map(p=>({x:dt(p.forecast_date),y:p.forecast_ensemble_median,label:monthText(p.forecast_date)}))});
  }
  const band=state.band==='none'?null:fc.map(p=>({x:dt(p.date),lo:p[state.band==='80'?'lo80':'lo95'],hi:p[state.band==='80'?'hi80':'hi95']}));
  const canvas=lineChart(ss,{width:chartWidth(),height:innerWidth<=760?300:380,unit:'детей на женщину',label:LABELS[sid]+' · '+model.region_name,band,forecastStart:dt(obs.at(-1).date),tickPlacement:'start',monthlyTicks:state.horizon==='24'});
  canvas.dataset.modelVersion=model.model_version;
  const chart=figure(canvas,{name:'forecast_'+sid+'_'+rid,title:LABELS[sid]+' · '+model.region_name,
-  source:'Наблюдения до '+localDate(model.source_as_of)+'; '+model.model_version+'. '+(state.band==='none'?'Полоса скрыта.':'Условная '+(state.band==='80'?'80':'95')+'%-полоса; покрытие не валидировано.')+(rid==='RU'&&state.targets!=='0'?' Цели паспорта: архив 14.05.2026.':''),
+  source:'Наблюдения по '+monthText(model.source_as_of)+' включительно; '+model.model_version+'. '+(state.band==='none'?'Полоса скрыта.':'Условная '+(state.band==='80'?'80':'95')+'%-полоса; покрытие не валидировано.')+(rid==='RU'&&state.targets!=='0'?' Цели паспорта: архив 14.05.2026.':''),
   rows:fc.map(({members,...p})=>({...p,...members}))});
  const end=model.forecast.at(-1)||obs.at(-1);
  const names=[['','Без сравнения'],...ctx.manifest.series.filter(e=>e.indicator_id===sid&&e.file&&e.region_id!==rid).map(e=>[e.region_id,e.region_name])];
  const aside=h('aside',{class:'forecast-aside','aria-label':'Параметры и итог прогноза'},
   h('div',{class:'forecast-reading'},
    h('div',{},para('Декабрь 2030'),h('div',{class:'forecast-value'},fmt(end.value,3)),para('детей на женщину')),
-   h('div',{class:'forecast-range'},h('strong',{},fmt(end.lo95,3)+'–'+fmt(end.hi95,3)),h('br'), 'Условный диапазон 95%',h('br'),h('br'),'Последний факт: ',h('strong',{},fmt(obs.at(-1).value,3)))),
+   h('div',{class:'forecast-range'},h('strong',{},fmt(end.lo95,3)+'–'+fmt(end.hi95,3)),h('br'), 'Условный диапазон 95%',h('br'),h('br'),'Последний факт ('+monthText(model.source_as_of)+'): ',h('strong',{},fmt(obs.at(-1).value,3)))),
   select('Сравнение с территорией',names,state.compare||'',v=>set({compare:v})),
   select('Условная полоса',[['95','95%'],['80','80%'],['none','Без полосы']],state.band||'95',v=>set({band:v})),
   h('div',{class:'forecast-options'},
@@ -80,9 +80,9 @@ function structure(model,ctx){
  if(!hasStructure(model))return empty('Разложение недоступно для сохранённой модели','После успешного пересчёта новой моделью появятся тренд и рассчитанные колебания.');
  const fc=ctx.state.horizon==='24'?model.forecast.slice(0,24):model.forecast;
  const main=[{name:'Прогноз · ансамбль',color:C[0],markers:false,points:points(fc)},
-  {name:'Тренд без колебаний',color:'#647087',markers:false,dash:'5 4',points:fc.map(p=>({x:dt(p.date),y:p.trend_value,label:p.date}))}];
- const components=[{name:'Календарная составляющая',color:C[1],markers:false,points:fc.map(p=>({x:dt(p.date),y:p.cycle_percent,label:p.date}))},
-  {name:'Локальная поправка',color:C[2],markers:false,dash:'4 4',points:fc.map(p=>({x:dt(p.date),y:(p.local_factor-1)*100,label:p.date}))}];
+  {name:'Тренд без колебаний',color:'#647087',markers:false,dash:'5 4',points:fc.map(p=>({x:dt(p.date),y:p.trend_value,label:monthText(p.date)}))}];
+ const components=[{name:'Календарная составляющая',color:C[1],markers:false,points:fc.map(p=>({x:dt(p.date),y:p.cycle_percent,label:monthText(p.date)}))},
+  {name:'Локальная поправка',color:C[2],markers:false,dash:'4 4',points:fc.map(p=>({x:dt(p.date),y:(p.local_factor-1)*100,label:monthText(p.date)}))}];
  return h('div',{},h('div',{class:'forecast-view-controls'},rangeSwitch(ctx.state,ctx.set)),
   panel('Из чего складывается кривая','Разложение относится к вычислительной модели, а не к причинам изменения рождаемости.',
    h('div',{},legend(main),figure(lineChart(main,{width:chartWidth(false),height:innerWidth<=760?300:350,label:'Ансамбль и его тренд',unit:'детей на женщину',tickPlacement:'start',monthlyTicks:ctx.state.horizon==='24'}),{name:'forecast_trend',title:'Прогноз и тренд без колебаний',source:model.model_version,rows:fc.map(p=>({date:p.date,value:p.value,trend_value:p.trend_value,cycle_factor:p.cycle_factor,local_factor:p.local_factor}))}))),
@@ -106,12 +106,12 @@ function validation(model){
    {key:'weight_percent',label:'Вес, %',numeric:true,decimals:2}],{pageSize:5,search:false,filename:'model_validation.csv'})),
   note('Гибкая форма не гарантирует более точный прогноз. При обучении короче 12 месяцев календарная часть отключена; столбец таблицы показывает, сколько проверок действительно проверяло её. Ошибки на 1 и 3 месяца не подтверждают качество на горизонте нескольких лет.','warning'));
  if(model.ensemble_backtest?.length)root.append(panel('Последовательная проверка всего ансамбля','Для каждого проверяемого месяца веса вычислены по ошибкам, уже известным на дату прогноза. Результаты не используют будущее для подбора весов.',
-  table(model.ensemble_backtest,[{key:'train_end',label:'Конец обучения'},{key:'weight_errors_end',label:'Последняя ошибка для весов'},
-   {key:'target',label:'Проверяемый месяц'},{key:'horizon',label:'Шагов',numeric:true},
+  table(model.ensemble_backtest,[{key:'train_end',label:'Конец обучения',render:monthText},{key:'weight_errors_end',label:'Последняя ошибка для весов',render:monthText},
+   {key:'target',label:'Проверяемый месяц',render:monthText},{key:'horizon',label:'Шагов',numeric:true},
    {key:'observed',label:'Наблюдение',numeric:true,decimals:5},{key:'predicted',label:'Ансамбль',numeric:true,decimals:5},
    {key:'last_value_prediction',label:'Сохранение уровня',numeric:true,decimals:5}],{filename:'ensemble_prequential_validation.csv'})));
  root.append(panel('Полный протокол отдельных моделей',null,
-  table(model.backtest,[{key:'model',label:'Модель'},{key:'train_end',label:'Конец обучения'},{key:'target',label:'Проверяемый месяц'},
+  table(model.backtest,[{key:'model',label:'Модель'},{key:'train_end',label:'Конец обучения',render:monthText},{key:'target',label:'Проверяемый месяц',render:monthText},
    {key:'horizon',label:'Горизонт',numeric:true},{key:'observed',label:'Наблюдение',numeric:true,decimals:5},{key:'predicted',label:'Расчёт',numeric:true,decimals:5}],{filename:'rolling_backtest.csv'})),
   note('В расчёте используются текущие версии исторических значений ЕМИСС. Архивные версии публикаций на каждую прошлую дату не восстановлены; возможные последующие пересмотры статистики отдельно не моделируются.'));
  return root;
@@ -125,7 +125,7 @@ export async function indicatorProjections(ctx){
  const ent=manifest.series.find(e=>e.indicator_id===sid&&e.region_id===rid);
  const available=manifest.series.filter(e=>e.indicator_id===sid&&e.file);
  const root=h('div',{class:'projection-page forecast-page'},
-  heading('Прогнозы СКР и СКР3+','Россия и регионы до декабря 2030 года. Наблюдения, нелинейные траектории и открытый протокол расчёта.'),
+  heading(state.page==='targets'?'Траектории и прогноз':'Прогнозы СКР и СКР3+','Россия и регионы до декабря 2030 года. Наблюдения, нелинейные траектории и открытый протокол расчёта.'),
   toolbar(select('Показатель',Object.entries(LABELS),sid,v=>set({source:v})),select('Территория прогноза',names,rid,v=>set({r:v}))),
   tabs([['trajectory','Траектория'],['map','Региональная карта'],['structure','Тренд и колебания'],['validation','Проверка модели'],['data','Числовые значения']],tab,v=>set({tab:v})));
  if(tab==='map'){
@@ -133,10 +133,10 @@ export async function indicatorProjections(ctx){
   const mm=grid.values[sid]||{},dates=Object.keys(mm).sort(),month=dates.includes(state.month)?state.month:dates.at(-1);
   if(!month)root.append(empty('Нет прогнозных значений','Расчёт появится после успешной загрузки наблюдений.'));
   else{
-   const values=new Map(Object.entries(mm[month]).filter(([id])=>id!=='RU').map(([id,value])=>[id,{value,detail:month}]));
-   const m=mapView(geo,catalog.regions,values,{unit:'детей на женщину',selected:rid,title:LABELS[sid]+' · '+month,onSelect:r=>set({r,tab:'trajectory'})});
-   root.append(toolbar(select('Месяц карты',dates.map(d=>[d,d]),month,v=>set({month:v}))),
-    panel('Пространственное распределение · '+month,'Один месяц для всех территорий. Выберите регион, чтобы открыть его траекторию.',m.element),
+   const values=new Map(Object.entries(mm[month]).filter(([id])=>id!=='RU').map(([id,value])=>[id,{value,detail:monthText(month)}]));
+   const m=mapView(geo,catalog.regions,values,{unit:'детей на женщину',selected:rid,title:LABELS[sid]+' · '+monthText(month),onSelect:r=>set({r,tab:'trajectory'})});
+   root.append(toolbar(select('Месяц карты',dates.map(d=>[d,monthText(d)]),month,v=>set({month:v}))),
+    panel('Пространственное распределение · '+monthText(month),'Один месяц для всех территорий. Выберите регион, чтобы открыть его траекторию.',m.element),
     table(catalog.regions.map(r=>({name:r.name,value:values.get(r.id)?.value??null,id:r.id})),[{key:'name',label:'Территория'},{key:'value',label:LABELS[sid],numeric:true,decimals:4}],{filename:'projection_map_'+sid+'_'+month+'.csv',onSelect:r=>set({r:r.id,tab:'trajectory'})}));
   }
  }else if(!ent?.file){
@@ -149,14 +149,14 @@ export async function indicatorProjections(ctx){
   else if(tab==='validation')root.append(validation(model));
   else{
    const rows=[...model.observations.map(o=>({...o,status:'Наблюдение'})),...model.forecast.map(o=>({...o,status:'Расчёт'}))];
-   root.append(panel('Наблюдения и помесячное продолжение','Каждая прогнозная точка соответствует числу в этой таблице и скачиваемом JSON.',
-    table(rows,[{key:'date',label:'Дата'},{key:'status',label:'Статус'},{key:'value',label:'Значение',numeric:true,decimals:5},
+   root.append(panel('Наблюдения и помесячное продолжение','Период наблюдения — месяц. В JSON и CSV дата конца месяца служит техническим ключом, а не датой отдельного измерения.',
+    table(rows,[{key:'date',label:'Месяц',render:monthText},{key:'status',label:'Статус'},{key:'value',label:'Значение',numeric:true,decimals:5},
      {key:'trend_value',label:'Тренд',numeric:true,decimals:5},{key:'cycle_percent',label:'Колебание, %',numeric:true,decimals:4},
      {key:'lo95',label:'Граница 95%, нижняя',numeric:true,decimals:5},{key:'hi95',label:'Граница 95%, верхняя',numeric:true,decimals:5}],{filename:'monthly_'+sid+'_'+rid+'.csv'})));
   }
   root.append(h('div',{class:'forecast-meta'},
    h('span',{},h('strong',{},model.n_observations),' месячных наблюдений'),
-   h('span',{},'Данные до ',h('strong',{},localDate(model.source_as_of))),
+   h('span',{},'Последний месяц данных: ',h('strong',{},monthText(model.source_as_of))),
    h('span',{},model.source?.startsWith('data/baseline')?'Архив экспертизы':'Проверенный слой ЕМИСС'),
    h('span',{},'Пересчёт: ',localDate(model.calculated_at)),
    h('span',{},'Расчётных территорий: ',h('strong',{},available.length))),

@@ -22,10 +22,10 @@ export function mapView(geo, regions, values, { unit = '', selected = null, onSe
             mark = svg('path', { d: feature.path, fill: color, 'fill-rule': 'evenodd', stroke: selected === r.id ? '#0A132D' : '#D9DEE8', 'stroke-width': selected === r.id ? 2.5 : .6, 'vector-effect': 'non-scaling-stroke' });
         mark.setAttribute('tabindex', '0');
         mark.setAttribute('role', 'button');
-        mark.setAttribute('aria-label', `${r.name}: ${Number.isFinite(v) ? fmt(v, 4) + ' ' + unit : row?.category || 'нет данных'}`);
+        mark.setAttribute('aria-label', `${r.name}: ${Number.isFinite(v) ? fmt(v, 4) + ' ' + unit : row?.detail || row?.category || 'нет данных'}`);
         mark.classList.add('region');
         mark.dataset.region = r.id;
-        const lines = categorical ? [row?.category || 'Нет данных', row?.detail || ''] : [`${fmt(v, 4)} ${Number.isFinite(v) ? unit : ''}`, row?.end ? `${row.label} ${row.end.slice(0, 4)} · ${row.type}` : '', row?.flag ? 'Требуется проверка исходного значения' : '', row?.aliasNote || ''];
+        const lines = categorical ? [row?.category || 'Нет данных', row?.detail || ''] : [`${fmt(v, 4)} ${Number.isFinite(v) ? unit : ''}`, row?.end ? `${row.label} ${row.end.slice(0, 4)} · ${row.type}` : '', row?.detail || (row?.flag ? 'Требуется проверка исходного значения' : ''), row?.aliasNote || ''];
         bindTip(mark, r.name, lines, () => onSelect?.(r.id));
         group.append(mark);
     }

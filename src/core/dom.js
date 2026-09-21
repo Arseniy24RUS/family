@@ -1,5 +1,7 @@
 export const $ = (s, root = document) => root.querySelector(s);
 export const $$ = (s, root = document) => [...root.querySelectorAll(s)];
+const MONTH_NAMES=['январь','февраль','март','апрель','май','июнь','июль','август','сентябрь','октябрь','ноябрь','декабрь'];
+export function monthText(value) { const match=String(value??'').match(/^(\d{4})-(0[1-9]|1[0-2])(?:-|$)/); return match?MONTH_NAMES[Number(match[2])-1]+' '+match[1]:'—'; }
 export const esc = x => String(x ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 export function h(tag, attrs = {}, ...children) { const e = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) {
     if (k === 'class')

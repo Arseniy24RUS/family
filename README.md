@@ -43,6 +43,7 @@ Limitations are part of the product. The platform is not an official EMISS, Ross
 Run locally with Node 22+ and Python. For a quick preview of the generated static site:
 
 ```bash
+python -m pip install -r scripts/requirements-analytics.txt
 npm run build
 npm run serve
 ```
@@ -113,6 +114,7 @@ Build the site with `npm run build`; publish the generated `docs/` directory thr
 Локальный запуск требует Node 22+ и Python. Быстрый просмотр собранного статического сайта:
 
 ```bash
+python -m pip install -r scripts/requirements-analytics.txt
 npm run build
 npm run serve
 ```

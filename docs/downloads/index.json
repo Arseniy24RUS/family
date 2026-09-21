@@ -12,29 +12,29 @@
       "path": "code/frontend/app.js",
       "title": "app.js",
       "category": "frontend_code",
-      "bytes": 9638,
-      "sha256": "b4edd0b43e6df79ab8756c0852e1cab07635fb175a631f600796d2740e09a859"
+      "bytes": 10721,
+      "sha256": "5e7ea222565d954c395d6886ea8ceacfbb0d4a4e29a226d29f7a456c79c572b8"
     },
     {
       "path": "code/frontend/components/charts.js",
       "title": "charts.js",
       "category": "frontend_code",
-      "bytes": 13757,
-      "sha256": "d953f2c923d9825ef17a0814590091138fc242e18702e3e512a68cb5c06f218f"
+      "bytes": 13831,
+      "sha256": "e865071d033e05b164bcab76e4e34467462620394504b714bef14338e175b1f5"
     },
     {
       "path": "code/frontend/components/map.js",
       "title": "map.js",
       "category": "frontend_code",
-      "bytes": 4750,
-      "sha256": "1058fa80d33a35d6f1e1230a509813d37dbba3cb3e428cd0033a08ae544caa02"
+      "bytes": 4782,
+      "sha256": "6d717ba084de66ab6b6f6a9e663b2c00b7461b612506c5e1866d9d1e63306c0d"
     },
     {
       "path": "code/frontend/components/network.js",
       "title": "network.js",
       "category": "frontend_code",
-      "bytes": 6696,
-      "sha256": "9645aed4d9b3166220629862cb0ed9326415be3d81e89529059a98de2bafa085"
+      "bytes": 8808,
+      "sha256": "cb42a5441f0ca4e7ec4ea89135831e3b6eda2f906a93e00ff16134348b8e7c6c"
     },
     {
       "path": "code/frontend/components/pyramid.js",
@@ -75,15 +75,15 @@
       "path": "code/frontend/core/data.js",
       "title": "data.js",
       "category": "frontend_code",
-      "bytes": 3736,
-      "sha256": "91a3a9bf3662402ece1141cf93f9f533c7d5d33e139ec540d2da9de9fd314961"
+      "bytes": 4673,
+      "sha256": "b6f175566090c063d73a9ecd75dc31f5613a12276645361fc5e9bca1535ba63f"
     },
     {
       "path": "code/frontend/core/dom.js",
       "title": "dom.js",
       "category": "frontend_code",
-      "bytes": 6783,
-      "sha256": "dad3ed665a4a7b665117917862b2b62159aa8f9a23608d9542650412f361a70a"
+      "bytes": 7150,
+      "sha256": "4eb02e07b81b0628102a4c11050f834f75110bc65c3cd4ed7a9560a47b34bea1"
     },
     {
       "path": "code/frontend/core/stats.js",
@@ -103,8 +103,8 @@
       "path": "code/frontend/pages/atlas.js",
       "title": "atlas.js",
       "category": "frontend_code",
-      "bytes": 12607,
-      "sha256": "30103028f105fa22e4770ac737803e175a62224fcf9f99abb012af9eebd95847"
+      "bytes": 14348,
+      "sha256": "2421574164e5dea6c6030bbe3bba6f82c1d956561dd2762e858ed38951cc11d8"
     },
     {
       "path": "code/frontend/pages/authors.js",
@@ -117,36 +117,36 @@
       "path": "code/frontend/pages/lab.js",
       "title": "lab.js",
       "category": "frontend_code",
-      "bytes": 14924,
-      "sha256": "4ebadd43392925e069c22a1b4e861ec08a47e550a7a891cacaf5584d9998abc5"
+      "bytes": 15132,
+      "sha256": "28216a8c334d9beadbb966ec790010dd587dfda87d38d34174fdd4cca35a67f9"
     },
     {
       "path": "code/frontend/pages/population.js",
       "title": "population.js",
       "category": "frontend_code",
-      "bytes": 21937,
-      "sha256": "2e6faebeb44fa465c9cbf54d8d82ac4677a8872066c519a41aaf53e87c1c643d"
+      "bytes": 21910,
+      "sha256": "f563d7754da49a99ca5b79a12bf60bc300a853bd7525e7292db4062e70a1ca1f"
     },
     {
       "path": "code/frontend/pages/projections.js",
       "title": "projections.js",
       "category": "frontend_code",
-      "bytes": 23528,
-      "sha256": "f501c81d3abca792adda2970033e6b3526ddd098d75b4bec3dd0d248862ee789"
+      "bytes": 23981,
+      "sha256": "f66017ba4bcd79d6822187cb735137ab4076ec2694c793cf68c6327af1de6554"
     },
     {
       "path": "code/frontend/pages/regions.js",
       "title": "regions.js",
       "category": "frontend_code",
-      "bytes": 13944,
-      "sha256": "763889b60855070d75d9a8fa7aed6975dfd0b01c897069690cad012c05e49dd3"
+      "bytes": 19316,
+      "sha256": "ab1b8aa948de82ddd48f30548bc426d4bca8e47afae67bd29209c6c380d617d3"
     },
     {
       "path": "code/frontend/pages/research.js",
       "title": "research.js",
       "category": "frontend_code",
-      "bytes": 37474,
-      "sha256": "be07ed07fc73dd0976839e768b2f49678501473fd0e2dcc910e8646f00cdf090"
+      "bytes": 38800,
+      "sha256": "360f16a5aa28fee094e2add719c56a34675cab5426132f63a0e79ab94effdc76"
     },
     {
       "path": "code/frontend/pages/texts.js",
@@ -166,8 +166,8 @@
       "path": "code/frontend/styles.css",
       "title": "styles.css",
       "category": "frontend_code",
-      "bytes": 57454,
-      "sha256": "bfa6d0a1fd354337358837b8684e27427b85a67ac4e8a5c65c3802027b43f379"
+      "bytes": 58257,
+      "sha256": "361f3853866d609c3e6650ee9ced27119ce2021ed0d66c7c4f55038a5ae1b83a"
     },
     {
       "path": "code/original/add_advanced_analysis_v2.py",
@@ -219,6 +219,13 @@
       "sha256": "207997c83db5b9552b5195f4594c492df328e96e35ebfaf8698db518861dbd96"
     },
     {
+      "path": "code/platform/build_current_analytics.py",
+      "title": "build_current_analytics.py",
+      "category": "platform_code",
+      "bytes": 11786,
+      "sha256": "86990d5e0b1a509aa5829fbd32546bd71cdf7702b089f761460908f26f8273db"
+    },
+    {
       "path": "code/platform/build_data.py",
       "title": "build_data.py",
       "category": "platform_code",
@@ -243,8 +250,8 @@
       "path": "code/platform/build.mjs",
       "title": "build.mjs",
       "category": "platform_code",
-      "bytes": 4151,
-      "sha256": "c011e058f42c5f8bc04fd32d98104946d48654e447acf341841e7c8d1e23b826"
+      "bytes": 4338,
+      "sha256": "8db50762ed19efa71e9acf9c1677c4b4093a3280bb2da7985d86a021f8a271b4"
     },
     {
       "path": "code/platform/cache_author_images.py",
@@ -373,6 +380,13 @@
       "sha256": "0d643e83e6d7acfe464c5e038436f49c44f903d7cf858dd196f189f54891b989"
     },
     {
+      "path": "code/platform/requirements-analytics.txt",
+      "title": "requirements-analytics.txt",
+      "category": "platform_code",
+      "bytes": 78,
+      "sha256": "dbc1f3571a5cbdaead25a42f2350aa24df4bff4fd1da22ba1d6009c0616d7a9d"
+    },
+    {
       "path": "code/platform/requirements-browser.txt",
       "title": "requirements-browser.txt",
       "category": "platform_code",
@@ -404,8 +418,8 @@
       "path": "code/platform/validate.mjs",
       "title": "validate.mjs",
       "category": "platform_code",
-      "bytes": 3389,
-      "sha256": "e2f729c5e741341bd18300189648d1564c9e4762dc99ec7be8fc325e5c9974a9"
+      "bytes": 4675,
+      "sha256": "a329fadfd96a1bfb663325106dbeea5ce84aa0daeb86629f283a6e409bce18e1"
     },
     {
       "path": "data/activities_indicators_matrix_long.csv",
@@ -811,7 +825,7 @@
       "title": "manifest.json",
       "category": "data",
       "bytes": 1764,
-      "sha256": "a4c2b2c0c59e159af06b9e006f0ba221f20a3d283f9610df7997b57bfd8819ab"
+      "sha256": "a00ad47383b445aebab5ca1726c709b657224a46f32e337352eed26508e633bb"
     },
     {
       "path": "demography/upstream/MIG_cyclic_tidy.csv",
@@ -868,6 +882,13 @@
       "category": "platform_code",
       "bytes": 9674,
       "sha256": "48cba7e5a9d6984c0f3caeb38ffc88dc70ba317bc38d5a5036e34367509e589b"
+    },
+    {
+      "path": "documentation/CURRENT_DATA.md",
+      "title": "CURRENT_DATA.md",
+      "category": "platform_code",
+      "bytes": 7126,
+      "sha256": "fa76d65526be215aaf0ec6b87a9a5b5fac92986e7c77b7def1eaa267b15fb75a"
     },
     {
       "path": "documentation/DATA_CONTRACT.md",
@@ -936,8 +957,8 @@
       "path": "documentation/README.md",
       "title": "README.md",
       "category": "platform_code",
-      "bytes": 32852,
-      "sha256": "99e150f2b2cbaff8a5559c4a383da6dcd9a1747eb8fb2617d05a343f938080b5"
+      "bytes": 15266,
+      "sha256": "d0c80440edc830dcd4aa9809b89e0db890f92cfd7bb90254728f0c41dd9b252a"
     },
     {
       "path": "documentation/VALIDATION_1_1.md",
@@ -1077,7 +1098,7 @@
       "title": "indicator_manifest.json",
       "category": "data",
       "bytes": 114678,
-      "sha256": "aef66f2b8617285a3dbda72937c5fb28f6a114bbb4901337aa4ce0234172827f"
+      "sha256": "3ee9f1652efd628a01b1a7ff5ce40eb8cd1735169bbbf08dd7e5968396d3ee83"
     },
     {
       "path": "projections/model_weights_validation.csv",
@@ -1098,7 +1119,7 @@
       "title": "population_manifest.json",
       "category": "data",
       "bytes": 70929,
-      "sha256": "530f9d729079950a7b49d5a87cf014556e3c84d6646cf392a5364515ebb3ea50"
+      "sha256": "deed1124676f756ce1e510f56a4f33aa870e5b24c186444d29f7f5e41128f537"
     },
     {
       "path": "projections/projections_colab.ipynb",
@@ -1112,7 +1133,7 @@
       "title": "projections_python.zip",
       "category": "raw",
       "bytes": 19515,
-      "sha256": "a616a84872a232a70fc06ba321950a18ff7f63195fc82e3a8f3dc8b770c3f969"
+      "sha256": "bc4cd75d9c5632222857579a1684b73b7bf6663d4b6de1bc8c8c025a24fde376"
     },
     {
       "path": "ru_regions.geojson",

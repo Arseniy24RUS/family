@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-20T17:05:19+00:00",
+  "checked_at": "2026-09-20T18:35:40+00:00",
   "indicator_id": "62885",
   "source_url": "https://www.fedstat.ru/indicator/62885",
   "metadata": {
@@ -911,19 +911,10 @@
     ]
   },
   "response_sha256": [
-    "2f302ff301e04d64acd3c7145945a2ebb1dbd9162c25312a3e0a7d05b061178f"
+    "54a18acd99f275adcd0fa2f3e967de4f4a56dea3f774297e89cfe6ed09e22ba1"
   ],
   "source_observations_received": 1800,
-  "new_rows": 450,
-  "revisions": [
-    {
-      "territory": "Херсонская область",
-      "type": "месяц",
-      "start": "2026-03-01",
-      "end": "2026-03-31",
-      "old_value": 3.74,
-      "new_value": 3.39
-    }
-  ],
+  "new_rows": 0,
+  "revisions": [],
   "note": "Previously observed numbers are retained when a new export contains missing values. No arbitrary category or sequential-month imputation."
 }

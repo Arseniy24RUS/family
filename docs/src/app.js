@@ -12,8 +12,8 @@ import { populationProjection } from './pages/population.js';
 import { authors, institutionalLinks } from './pages/authors.js';
 const pages = { overview, framework, logic, audit, targets, map: atlas, regions: regionsPage, finance, network: measures, texts: textsPage, domains: domainPage, causal, proposals: proposalPage, lab, explorer, library, updates, projections: indicatorProjections, population: populationProjection, authors };
 let data, main, sidebar, top, masthead, sequence = 0, currentPage = '', preserveScroll = null;
-function parse() { const hash = location.hash.slice(1) || '/overview', [route, query = ''] = hash.split('?'), p = route.replace(/^\//, ''); return { ...Object.fromEntries(new URLSearchParams(query)), page: pages[p] ? p : 'overview' }; }
-function route(page, patch = {}, preserve = false) { const old = parse(); const params = { mode: old.mode || 'baseline', ...patch }; delete params.page; const query = new URLSearchParams(Object.fromEntries(Object.entries(params).filter(([k, v]) => v !== null && v !== undefined && v !== ''))); const dest = '#/' + page + (query.size ? '?' + query.toString() : ''); if (preserve)
+function parse() { const hash = location.hash.slice(1) || '/overview', [route, query = ''] = hash.split('?'), p = route.replace(/^\//, ''); return { mode:'latest', ...Object.fromEntries(new URLSearchParams(query)), page: pages[p] ? p : 'overview' }; }
+function route(page, patch = {}, preserve = false) { const old = parse(); const params = { mode: preserve ? old.mode : 'latest', ...patch }; delete params.page; const query = new URLSearchParams(Object.fromEntries(Object.entries(params).filter(([k, v]) => v !== null && v !== undefined && v !== ''))); const dest = '#/' + page + (query.size ? '?' + query.toString() : ''); if (preserve)
     preserveScroll = scrollY; if (location.hash === dest)
     render();
 else
@@ -74,12 +74,14 @@ else
     a.removeAttribute('aria-current'); }); let name = sections.find(s => s.id === state.page)?.short || ({ overview: 'Обзор', lab: 'Лаборатория', explorer: 'Данные', library: 'Библиотека', updates: 'Обновление', projections:'Прогнозы показателей', population:'Передвижка возрастов', authors:'Об авторах' })[state.page]; top.replaceChildren(
  h('div',{class:'breadcrumb'},h('a',{href:'#/overview'},'Исследование'),icon('chevron',13),h('span',{},name)),
  h('div',{class:'topbar-controls'},
-  ['map','lab','explorer'].includes(state.page)?select('Версия статистики',[['baseline','Архив экспертизы'],['latest','Проверенный слой ЕМИСС']],state.mode||'baseline',v=>set({mode:v})):null,
+  ['overview','audit','map','regions','lab','explorer'].includes(state.page)?select('Версия статистики',[['latest','Актуальные данные ЕМИСС'],['baseline','Архив экспертизы · 14.05.2026']],state.mode,v=>set({mode:v,period:null,px:null,py:null})):null,
   button('Ссылка',copyLink,'button subtle','link'),button('Источники',()=>route('library'),'button subtle','download')));
  main.setAttribute('aria-busy', 'true'); main.classList.add('loading'); try {
-    const content = await pages[state.page]({ ...data, state, go: route, set });
+    const content = await pages[state.page]({ ...data, ...(state.mode==='baseline'?data.archive:{}), state, go: route, set });
+    if(state.mode==='baseline'&&['overview','audit','map','regions','lab','explorer'].includes(state.page)) content.prepend(h('div',{class:'note warning'},'Выбран архив экспертизы от 14.05.2026. ',button('Показать актуальные данные',()=>set({mode:'latest',period:null,px:null,py:null}),'button subtle')));
     if (token !== sequence)
         return;
+    if(['logic','finance','network','texts','domains','causal','proposals'].includes(state.page))content.insertBefore(h('div',{class:'note'},'Документальная часть экспертизы от 14.05.2026. ЕМИСС обновляет статистические ряды; бюджет, тексты документов и авторские выводы имеют собственные даты источников.'),content.children[1]||null);
     main.replaceChildren(content);
     document.title = name + ' · Экспертиза национального проекта «Семья»';
     main.dataset.page = state.page;
