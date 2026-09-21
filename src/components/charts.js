@@ -24,7 +24,7 @@ function grid(root, x, y, w, ht, lo, hi, n = 4) { for (let i = 0; i <= n; i++) {
 } }
 export function lineChart(series, {
     height=380, width=1000, unit='', label='Динамика показателя', band=null,
-    xLabel='Период', zero=false, tickPlacement='end', forecastStart=null, monthlyTicks=false
+    xLabel='Период', zero=false, tickPlacement='start', forecastStart=null, monthlyTicks=false
 }={}) {
     const root=base(width,height,label);
     const m={l:width<440?52:64,r:width<440?15:24,t:38,b:54},H=height-m.t-m.b;

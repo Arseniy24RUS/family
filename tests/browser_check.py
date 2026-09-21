@@ -45,6 +45,45 @@ async def execute(args):
             assert not overflow,route+' horizontal overflow'
             assert 'nullnull' not in await page.locator('#main').inner_text(),route
             checks.append({'check':'desktop_route','route':route,'pass':True})
+        await go('targets')
+        assert await page.get_by_label('Версия прогноза',exact=True).input_value()=='updated'
+        model=await page.evaluate("async()=> (await fetch(new URL('data/projections/indicators/data_21/RU.json',document.baseURI))).json()")
+        as_of='.'.join(reversed(model['source_as_of'].split('-')))
+        assert as_of in await page.locator('.forecast-meta').inner_text()
+        assert 'Последний факт ('+as_of+')' in await page.locator('.forecast-aside').inner_text()
+        assert await page.locator('h1').inner_text()=='Траектории и прогноз'
+        await page.screenshot(path=str(out/'targets_current_desktop.png'))
+        checks.append({'check':'targets_uses_latest_emiss_observations','pass':True,'as_of':model['source_as_of']})
+        axis=await page.evaluate("""async()=>{
+            const {lineChart}=await import(new URL('src/components/charts.js',document.baseURI));
+            const chart=lineChart([{name:'Calendar boundary test',points:[{x:Date.UTC(2025,0,1),y:1},{x:Date.UTC(2027,0,1),y:2}]}]);
+            return {ticks:Object.fromEntries([...chart.querySelectorAll('text')].filter(n=>/^(2025|2026|2027)$/.test(n.textContent)).map(n=>[n.textContent,Number(n.getAttribute('x'))])),points:[...chart.querySelectorAll('.point-hit')].map(n=>Number(n.getAttribute('cx')))};
+        }""")
+        assert abs(axis['ticks']['2025']-axis['points'][0])<1e-6
+        assert abs(axis['ticks']['2026']-sum(axis['points'])/2)<1e-6
+        assert abs(axis['ticks']['2027']-axis['points'][1])<1e-6
+        checks.append({'check':'calendar_year_labels_at_january_first','pass':True})
+        await page.get_by_label('Версия прогноза',exact=True).select_option('archive')
+        await page.get_by_text('Фиксированный прогноз из экспертизы. Новые выгрузки ЕМИСС не переобучают его и не меняют авторский вывод.',exact=True).wait_for()
+        assert not await page.locator('.forecast-meta').count()
+        await page.screenshot(path=str(out/'targets_archive_desktop.png'))
+        await go('targets?source=data_20')
+        assert await page.get_by_label('Версия прогноза',exact=True).input_value()=='archive'
+        assert await page.locator('.chart-svg').count()>0
+        await page.get_by_label('Версия прогноза',exact=True).select_option('updated')
+        await page.locator('.forecast-meta').wait_for()
+        assert await page.get_by_label('Показатель',exact=True).input_value()=='data_21'
+        checks.append({'check':'targets_archive_switch_and_existing_indicator_links','pass':True})
+        await page.get_by_label('Показатель',exact=True).select_option('data_22')
+        await page.locator('svg.chart-svg[aria-label^="СКР третьих"]').wait_for()
+        third=await page.evaluate("async()=> (await fetch(new URL('data/projections/indicators/data_22/RU.json',document.baseURI))).json()")
+        assert '.'.join(reversed(third['source_as_of'].split('-'))) in await page.locator('.forecast-meta').inner_text()
+        await page.set_viewport_size({'width':390,'height':844})
+        await go('targets')
+        assert not await page.evaluate('document.documentElement.scrollWidth>innerWidth+2')
+        await page.screenshot(path=str(out/'targets_current_mobile.png'))
+        await page.set_viewport_size({'width':1440,'height':1000})
+        checks.append({'check':'targets_latest_third_births_and_mobile_layout','pass':True})
         await go('map?source=data_21&r=77&compare=50')
         assert await page.locator('[data-region]').count()==89
         await page.locator('[data-region="77"]').focus()

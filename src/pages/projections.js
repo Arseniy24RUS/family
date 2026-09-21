@@ -63,7 +63,7 @@ async function trajectory(model,compare,ctx){
  const aside=h('aside',{class:'forecast-aside','aria-label':'Параметры и итог прогноза'},
   h('div',{class:'forecast-reading'},
    h('div',{},para('Декабрь 2030'),h('div',{class:'forecast-value'},fmt(end.value,3)),para('детей на женщину')),
-   h('div',{class:'forecast-range'},h('strong',{},fmt(end.lo95,3)+'–'+fmt(end.hi95,3)),h('br'), 'Условный диапазон 95%',h('br'),h('br'),'Последний факт: ',h('strong',{},fmt(obs.at(-1).value,3)))),
+   h('div',{class:'forecast-range'},h('strong',{},fmt(end.lo95,3)+'–'+fmt(end.hi95,3)),h('br'), 'Условный диапазон 95%',h('br'),h('br'),'Последний факт ('+localDate(model.source_as_of)+'): ',h('strong',{},fmt(obs.at(-1).value,3)))),
   select('Сравнение с территорией',names,state.compare||'',v=>set({compare:v})),
   select('Условная полоса',[['95','95%'],['80','80%'],['none','Без полосы']],state.band||'95',v=>set({band:v})),
   h('div',{class:'forecast-options'},
@@ -125,7 +125,7 @@ export async function indicatorProjections(ctx){
  const ent=manifest.series.find(e=>e.indicator_id===sid&&e.region_id===rid);
  const available=manifest.series.filter(e=>e.indicator_id===sid&&e.file);
  const root=h('div',{class:'projection-page forecast-page'},
-  heading('Прогнозы СКР и СКР3+','Россия и регионы до декабря 2030 года. Наблюдения, нелинейные траектории и открытый протокол расчёта.'),
+  heading(state.page==='targets'?'Траектории и прогноз':'Прогнозы СКР и СКР3+','Россия и регионы до декабря 2030 года. Наблюдения, нелинейные траектории и открытый протокол расчёта.'),
   toolbar(select('Показатель',Object.entries(LABELS),sid,v=>set({source:v})),select('Территория прогноза',names,rid,v=>set({r:v}))),
   tabs([['trajectory','Траектория'],['map','Региональная карта'],['structure','Тренд и колебания'],['validation','Проверка модели'],['data','Числовые значения']],tab,v=>set({tab:v})));
  if(tab==='map'){
