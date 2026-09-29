@@ -16,7 +16,7 @@ function page(file,title,description,body){
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)} — ${esc(siteName)}</title>
 <meta name="description" content="${esc(description)}"><meta name="robots" content="index, follow, max-image-preview:large">
-<link rel="canonical" href="${url}"><link rel="icon" href="../assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
+<link rel="canonical" href="${url}"><link rel="icon" href="../favicon.png" type="image/png" sizes="120x120"><link rel="stylesheet" href="./styles.css">
 <meta property="og:type" content="article"><meta property="og:locale" content="ru_RU"><meta property="og:site_name" content="${esc(siteName)}">
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${url}">
 <script type="application/ld+json">${JSON.stringify(structured).replaceAll('<','\\u003c')}</script></head>
