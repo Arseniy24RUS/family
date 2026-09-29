@@ -64,7 +64,8 @@ function shell() {
         h('div',{class:'workspace'},top,main,h('footer',{class:'site-footer'},
             h('span',{},'Экспертиза национального проекта «Семья»'),
             h('a',{href:'#/authors'},'Авторский коллектив'),
-            h('a',{href:'#/library'},'Источники и воспроизведение'))),scrim);
+            h('a',{href:'#/library'},'Источники и воспроизведение'),
+            h('a',{href:'./research/index.html'},'Тексты исследований'))),scrim);
     document.querySelector('.skip').onclick=e=>{e.preventDefault();main.focus();};
 }
 async function render() { if (!data)
