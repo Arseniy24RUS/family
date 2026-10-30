@@ -1,0 +1,57 @@
+﻿document_id,title,code,frame,frame_id,frame_name,count,n_tokens,per1000,rate_per1000,origin
+fp_246,[Ч1] Генеральная уборка,Ч1,waste,waste,Отходы и вторичные ресурсы,6,651,9.216589861751151,9.216589861751151,independent_platform_dictionary
+fp_246,[Ч1] Генеральная уборка,Ч1,legacy_harm,legacy_harm,Накопленный вред,38,651,58.37173579109063,58.37173579109063,independent_platform_dictionary
+fp_246,[Ч1] Генеральная уборка,Ч1,air,air,Воздух и выбросы,0,651,0.0,0.0,independent_platform_dictionary
+fp_246,[Ч1] Генеральная уборка,Ч1,water,water,Вода и стоки,9,651,13.82488479262673,13.82488479262673,independent_platform_dictionary
+fp_246,[Ч1] Генеральная уборка,Ч1,forest,forest,Леса и пожары,0,651,0.0,0.0,independent_platform_dictionary
+fp_246,[Ч1] Генеральная уборка,Ч1,biodiversity,biodiversity,Биоразнообразие и охраняемые территории,0,651,0.0,0.0,independent_platform_dictionary
+fp_246,[Ч1] Генеральная уборка,Ч1,monitoring,monitoring,Наблюдения и контроль,3,651,4.608294930875576,4.608294930875576,independent_platform_dictionary
+fp_246,[Ч1] Генеральная уборка,Ч1,population,population,Население и здоровье,8,651,12.288786482334869,12.288786482334869,independent_platform_dictionary
+fp_247,[Ч6] Сохранение лесов,Ч6,waste,waste,Отходы и вторичные ресурсы,0,686,0.0,0.0,independent_platform_dictionary
+fp_247,[Ч6] Сохранение лесов,Ч6,legacy_harm,legacy_harm,Накопленный вред,0,686,0.0,0.0,independent_platform_dictionary
+fp_247,[Ч6] Сохранение лесов,Ч6,air,air,Воздух и выбросы,0,686,0.0,0.0,independent_platform_dictionary
+fp_247,[Ч6] Сохранение лесов,Ч6,water,water,Вода и стоки,3,686,4.373177842565598,4.373177842565598,independent_platform_dictionary
+fp_247,[Ч6] Сохранение лесов,Ч6,forest,forest,Леса и пожары,102,686,148.68804664723032,148.68804664723032,independent_platform_dictionary
+fp_247,[Ч6] Сохранение лесов,Ч6,biodiversity,biodiversity,Биоразнообразие и охраняемые территории,0,686,0.0,0.0,independent_platform_dictionary
+fp_247,[Ч6] Сохранение лесов,Ч6,monitoring,monitoring,Наблюдения и контроль,5,686,7.288629737609329,7.288629737609329,independent_platform_dictionary
+fp_247,[Ч6] Сохранение лесов,Ч6,population,population,Население и здоровье,1,686,1.4577259475218658,1.4577259475218658,independent_platform_dictionary
+fp_250,[Ч4] Чистый воздух,Ч4,waste,waste,Отходы и вторичные ресурсы,0,1430,0.0,0.0,independent_platform_dictionary
+fp_250,[Ч4] Чистый воздух,Ч4,legacy_harm,legacy_harm,Накопленный вред,1,1430,0.6993006993006993,0.6993006993006993,independent_platform_dictionary
+fp_250,[Ч4] Чистый воздух,Ч4,air,air,Воздух и выбросы,109,1430,76.22377622377623,76.22377622377623,independent_platform_dictionary
+fp_250,[Ч4] Чистый воздух,Ч4,water,water,Вода и стоки,14,1430,9.790209790209792,9.790209790209792,independent_platform_dictionary
+fp_250,[Ч4] Чистый воздух,Ч4,forest,forest,Леса и пожары,1,1430,0.6993006993006993,0.6993006993006993,independent_platform_dictionary
+fp_250,[Ч4] Чистый воздух,Ч4,biodiversity,biodiversity,Биоразнообразие и охраняемые территории,0,1430,0.0,0.0,independent_platform_dictionary
+fp_250,[Ч4] Чистый воздух,Ч4,monitoring,monitoring,Наблюдения и контроль,37,1430,25.874125874125873,25.874125874125873,independent_platform_dictionary
+fp_250,[Ч4] Чистый воздух,Ч4,population,population,Население и здоровье,12,1430,8.391608391608392,8.391608391608392,independent_platform_dictionary
+fp_251,[Ч5] Вода России,Ч5,waste,waste,Отходы и вторичные ресурсы,0,571,0.0,0.0,independent_platform_dictionary
+fp_251,[Ч5] Вода России,Ч5,legacy_harm,legacy_harm,Накопленный вред,4,571,7.005253940455342,7.005253940455342,independent_platform_dictionary
+fp_251,[Ч5] Вода России,Ч5,air,air,Воздух и выбросы,0,571,0.0,0.0,independent_platform_dictionary
+fp_251,[Ч5] Вода России,Ч5,water,water,Вода и стоки,55,571,96.32224168126093,96.32224168126093,independent_platform_dictionary
+fp_251,[Ч5] Вода России,Ч5,forest,forest,Леса и пожары,0,571,0.0,0.0,independent_platform_dictionary
+fp_251,[Ч5] Вода России,Ч5,biodiversity,biodiversity,Биоразнообразие и охраняемые территории,0,571,0.0,0.0,independent_platform_dictionary
+fp_251,[Ч5] Вода России,Ч5,monitoring,monitoring,Наблюдения и контроль,4,571,7.005253940455342,7.005253940455342,independent_platform_dictionary
+fp_251,[Ч5] Вода России,Ч5,population,population,Население и здоровье,12,571,21.015761821366024,21.015761821366024,independent_platform_dictionary
+fp_255,[Ч2] Экономика замкнутого цикла,Ч2,waste,waste,Отходы и вторичные ресурсы,159,1850,85.94594594594594,85.94594594594594,independent_platform_dictionary
+fp_255,[Ч2] Экономика замкнутого цикла,Ч2,legacy_harm,legacy_harm,Накопленный вред,1,1850,0.5405405405405406,0.5405405405405406,independent_platform_dictionary
+fp_255,[Ч2] Экономика замкнутого цикла,Ч2,air,air,Воздух и выбросы,0,1850,0.0,0.0,independent_platform_dictionary
+fp_255,[Ч2] Экономика замкнутого цикла,Ч2,water,water,Вода и стоки,4,1850,2.1621621621621623,2.1621621621621623,independent_platform_dictionary
+fp_255,[Ч2] Экономика замкнутого цикла,Ч2,forest,forest,Леса и пожары,0,1850,0.0,0.0,independent_platform_dictionary
+fp_255,[Ч2] Экономика замкнутого цикла,Ч2,biodiversity,biodiversity,Биоразнообразие и охраняемые территории,0,1850,0.0,0.0,independent_platform_dictionary
+fp_255,[Ч2] Экономика замкнутого цикла,Ч2,monitoring,monitoring,Наблюдения и контроль,6,1850,3.243243243243243,3.243243243243243,independent_platform_dictionary
+fp_255,[Ч2] Экономика замкнутого цикла,Ч2,population,population,Население и здоровье,5,1850,2.7027027027027026,2.7027027027027026,independent_platform_dictionary
+fp_256,[Ч3] Сохранение биологического разнообразия и развитие экологического туризма,Ч3,waste,waste,Отходы и вторичные ресурсы,2,641,3.1201248049921997,3.1201248049921997,independent_platform_dictionary
+fp_256,[Ч3] Сохранение биологического разнообразия и развитие экологического туризма,Ч3,legacy_harm,legacy_harm,Накопленный вред,2,641,3.1201248049921997,3.1201248049921997,independent_platform_dictionary
+fp_256,[Ч3] Сохранение биологического разнообразия и развитие экологического туризма,Ч3,air,air,Воздух и выбросы,0,641,0.0,0.0,independent_platform_dictionary
+fp_256,[Ч3] Сохранение биологического разнообразия и развитие экологического туризма,Ч3,water,water,Вода и стоки,3,641,4.6801872074882995,4.6801872074882995,independent_platform_dictionary
+fp_256,[Ч3] Сохранение биологического разнообразия и развитие экологического туризма,Ч3,forest,forest,Леса и пожары,6,641,9.360374414976599,9.360374414976599,independent_platform_dictionary
+fp_256,[Ч3] Сохранение биологического разнообразия и развитие экологического туризма,Ч3,biodiversity,biodiversity,Биоразнообразие и охраняемые территории,35,641,54.6021840873635,54.6021840873635,independent_platform_dictionary
+fp_256,[Ч3] Сохранение биологического разнообразия и развитие экологического туризма,Ч3,monitoring,monitoring,Наблюдения и контроль,3,641,4.6801872074882995,4.6801872074882995,independent_platform_dictionary
+fp_256,[Ч3] Сохранение биологического разнообразия и развитие экологического туризма,Ч3,population,population,Население и здоровье,1,641,1.5600624024960998,1.5600624024960998,independent_platform_dictionary
+np_25,[Ч] Экологическое благополучие,Ч,waste,waste,Отходы и вторичные ресурсы,10,256,39.0625,39.0625,independent_platform_dictionary
+np_25,[Ч] Экологическое благополучие,Ч,legacy_harm,legacy_harm,Накопленный вред,3,256,11.71875,11.71875,independent_platform_dictionary
+np_25,[Ч] Экологическое благополучие,Ч,air,air,Воздух и выбросы,4,256,15.625,15.625,independent_platform_dictionary
+np_25,[Ч] Экологическое благополучие,Ч,water,water,Вода и стоки,7,256,27.34375,27.34375,independent_platform_dictionary
+np_25,[Ч] Экологическое благополучие,Ч,forest,forest,Леса и пожары,6,256,23.4375,23.4375,independent_platform_dictionary
+np_25,[Ч] Экологическое благополучие,Ч,biodiversity,biodiversity,Биоразнообразие и охраняемые территории,3,256,11.71875,11.71875,independent_platform_dictionary
+np_25,[Ч] Экологическое благополучие,Ч,monitoring,monitoring,Наблюдения и контроль,1,256,3.90625,3.90625,independent_platform_dictionary
+np_25,[Ч] Экологическое благополучие,Ч,population,population,Население и здоровье,5,256,19.53125,19.53125,independent_platform_dictionary

@@ -1,0 +1,12 @@
+{
+  "profile_hashes_checked": 137,
+  "tfidf_features": 20000,
+  "numeric_comparisons": 566,
+  "tfidf_max_abs_error": 4.996003610813204e-16,
+  "frame_cells_checked": 198,
+  "frame_max_abs_error": 0.0,
+  "passed": true,
+  "stemming": "recomputed",
+  "stemming_max_abs_error": 7.771561172376096e-16,
+  "stemming_comparisons": 10
+}

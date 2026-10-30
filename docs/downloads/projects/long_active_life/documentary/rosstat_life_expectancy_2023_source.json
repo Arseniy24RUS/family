@@ -1,0 +1,24 @@
+{
+  "source_url": "https://www.rosstat.gov.ru/storage/mediabank/Zdravooxran_2025.pdf",
+  "source_title": "Здравоохранение в России. 2025",
+  "table": "1.3",
+  "printed_page": 18,
+  "locator_basis": "Printed page marker in indexed PDF text; original PDF bytes unavailable",
+  "retrieved_on": "2026-10-29",
+  "retrieval_kind": "indexed_pdf_text_selected_rows",
+  "downloaded_original_pdf": false,
+  "year": 2023,
+  "ages": 17,
+  "numeric_cells": 51,
+  "matching_author_gap_controls": 5,
+  "files": [
+    {
+      "name": "rosstat_life_expectancy_2023.csv",
+      "sha256": "84f1ff00160b62c43e56f1f05a7bd2614a2f7091762e865353f2a242e82e1f57"
+    },
+    {
+      "name": "rosstat_life_expectancy_2023_source.txt",
+      "sha256": "19e5b37d81281ad46ba0b249b83cc8990ba9e41fcce514cc3439999ae5703c87"
+    }
+  ]
+}

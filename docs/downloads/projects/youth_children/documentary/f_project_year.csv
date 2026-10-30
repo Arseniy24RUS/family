@@ -1,0 +1,7 @@
+﻿project_id,project_name,year,national_header_thousand_rub,national_header_billion_rub,linked_fp_sum_thousand_rub,fp_minus_national_thousand_rub,reconciliation_status,national_sha256,national_source_url,national_edition_label
+youth_children,Молодежь и дети,2025,865306720.95,865.30672095,865306720.95,0.00,arithmetically_matches,08c5af3c4ed90ae5b741079612251233fe0ac974a301b5f64a0bcd4e40a29c6d,https://databudget.ru/projects/np/22,Версия 26.72
+youth_children,Молодежь и дети,2026,984966958.47,984.96695847,985421282.77,454324.30,does_not_reconcile,08c5af3c4ed90ae5b741079612251233fe0ac974a301b5f64a0bcd4e40a29c6d,https://databudget.ru/projects/np/22,Версия 26.72
+youth_children,Молодежь и дети,2027,990947699.76,990.94769976,991678179.56,730479.80,does_not_reconcile,08c5af3c4ed90ae5b741079612251233fe0ac974a301b5f64a0bcd4e40a29c6d,https://databudget.ru/projects/np/22,Версия 26.72
+youth_children,Молодежь и дети,2028,1127949567.50,1127.9495675,1128680047.30,730479.80,does_not_reconcile,08c5af3c4ed90ae5b741079612251233fe0ac974a301b5f64a0bcd4e40a29c6d,https://databudget.ru/projects/np/22,Версия 26.72
+youth_children,Молодежь и дети,2029,1086168512.27,1086.16851227,1086898992.07,730479.80,does_not_reconcile,08c5af3c4ed90ae5b741079612251233fe0ac974a301b5f64a0bcd4e40a29c6d,https://databudget.ru/projects/np/22,Версия 26.72
+youth_children,Молодежь и дети,2030,1122604803.08,1122.60480308,1123335282.88,730479.80,does_not_reconcile,08c5af3c4ed90ae5b741079612251233fe0ac974a301b5f64a0bcd4e40a29c6d,https://databudget.ru/projects/np/22,Версия 26.72

@@ -1,16 +1,7 @@
 import { h, para } from '../core/dom.js';
 import { heading, panel } from '../components/ui.js';
 import { json } from '../core/data.js';
-export const institutions=[
- {id:'ran',name:'Российская академия наук',url:'https://new.ras.ru/',image:'./assets/institutions/ran.png'},
- {id:'fnisc',name:'ФНИСЦ РАН',url:'https://www.fnisc.ru/',image:'./assets/institutions/fnisc.png'},
- {id:'isd',name:'ИСД ФНИСЦ РАН',url:'https://isd-ras.ru/',image:'./assets/institutions/isd.png'}
-];
-export function institutionalLinks(){
- return h('nav',{class:'institution-links','aria-label':'Научные организации'},institutions.map(i=>
-  h('a',{class:'institution-link '+i.id,href:i.url,target:'_blank',rel:'noopener noreferrer','aria-label':i.name},
-   h('img',{src:i.image,alt:i.name,decoding:'async'}))));
-}
+export {institutions,institutionalLinks} from '../components/institutions.js';
 export async function authors(){
  const config=await json('data/authors.json');const root=h('div',{},heading('Об авторах','Научный коллектив комплексной экспертизы национального проекта «Семья»'));
  root.append(h('div',{class:'author-grid'},config.authors.map(a=>{

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "research_release": "1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "documentary_as_of": "2026-10-19",
+  "sources": [
+    {
+      "path": "outputs/tables/indicator_audit.csv",
+      "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+      "bytes": 166183
+    },
+    {
+      "path": "outputs/tables/project_audit.csv",
+      "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+      "bytes": 1810
+    },
+    {
+      "path": "outputs/tables/project_results.csv",
+      "sha256": "c40fc23889bd3f883f799656d10addc84f448b2d473ea12bb7d0dc638be2c93a",
+      "bytes": 2160
+    },
+    {
+      "path": "outputs/tables/multivariate_panels.csv",
+      "sha256": "56ee0cb7f1800ac1f7e0632899fc68e9e12328ffcf58c84f7a50d340135ca3cf",
+      "bytes": 1583
+    },
+    {
+      "path": "outputs/tables/document_sources.csv",
+      "sha256": "20ccaac2242fc60033db173490751ee0c93295e4eb35d99ffd8c29f5dd829569",
+      "bytes": 126271
+    },
+    {
+      "path": "outputs/tables/corpus_project_crosswalk.csv",
+      "sha256": "2dc5703838156a6bc315e8efaedff8dfb0d9fbe1be5beee3c55abaf03bc0eada",
+      "bytes": 1249
+    },
+    {
+      "path": "outputs/research/tables/r_project_summary.csv",
+      "sha256": "8b45999f05ca2574426f4b76933c56e965b6fc5dee0596a1e5107858cb8af53e",
+      "bytes": 3724
+    },
+    {
+      "path": "outputs/research/audit/project_method_matrix.csv",
+      "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+      "bytes": 283115
+    },
+    {
+      "path": "outputs/research/audit/project_method_eligibility.csv",
+      "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+      "bytes": 2507
+    },
+    {
+      "path": "outputs/research/audit/section_order.csv",
+      "sha256": "e616d64a3b245345e1b1daacbf504cd214af45a0f6398fec2312a0c5209a8129",
+      "bytes": 2297
+    },
+    {
+      "path": "corpus/data/project_summary.csv",
+      "sha256": "c1c6bfaec6fe22da084898919623c5a306f57119529975cdc562e1c6013bdae8",
+      "bytes": 2167
+    }
+  ],
+  "database": {
+    "path": "outputs/national_projects_analytics.sqlite",
+    "sha256": "ebfd67a3bbc34f0084fddffaa482da9c0cfa685ed8c4cb8560c6fa6ed4e5e0a8",
+    "mode": "read_only"
+  },
+  "national_selection": "One latest usable observation per national series in the exact current live_emiss snapshot; category, unit and frequency are retained separately."
+}

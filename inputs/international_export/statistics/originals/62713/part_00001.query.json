@@ -1,0 +1,100 @@
+{
+  "selected": {
+    "0": [
+      {
+        "id": "62713",
+        "title": "Прирост объема экспорта несырьевых неэнергетических товаров к показателю 2023 года"
+      }
+    ],
+    "3": [
+      {
+        "id": "2025",
+        "title": "2025"
+      }
+    ],
+    "3301": [
+      {
+        "id": "1678127",
+        "title": "Российская Федерация"
+      }
+    ],
+    "30611": [
+      {
+        "id": "950473",
+        "title": "процент"
+      }
+    ],
+    "33560": [
+      {
+        "id": "1540230",
+        "title": "декабрь"
+      },
+      {
+        "id": "1558883",
+        "title": "значение показателя за год"
+      }
+    ]
+  },
+  "form": [
+    [
+      "format",
+      "sdmx"
+    ],
+    [
+      "id",
+      "62713"
+    ],
+    [
+      "indicator_title",
+      "Прирост объема экспорта несырьевых неэнергетических товаров к показателю 2023 года"
+    ],
+    [
+      "filterObjectIds",
+      "0"
+    ],
+    [
+      "selectedFilterIds",
+      "0_62713"
+    ],
+    [
+      "columnObjectIds",
+      "3"
+    ],
+    [
+      "selectedFilterIds",
+      "3_2025"
+    ],
+    [
+      "lineObjectIds",
+      "3301"
+    ],
+    [
+      "selectedFilterIds",
+      "3301_1678127"
+    ],
+    [
+      "lineObjectIds",
+      "30611"
+    ],
+    [
+      "selectedFilterIds",
+      "30611_950473"
+    ],
+    [
+      "columnObjectIds",
+      "33560"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540230"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1558883"
+    ]
+  ],
+  "download_url": "https://www.fedstat.ru/indicator/downloadData.do?format=sdmx",
+  "csrf": "single-use token supplied from same anonymous session; value omitted",
+  "requested_at": "2026-10-15T12:54:06+00:00",
+  "received_at": "2026-10-15T12:54:12+00:00"
+}

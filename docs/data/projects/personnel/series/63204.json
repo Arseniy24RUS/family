@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "project_id": "personnel",
+  "source_id": "63204",
+  "unit": "процент",
+  "source_url": "https://www.fedstat.ru/indicator/63204",
+  "published_at": null,
+  "snapshot_id": null,
+  "origin_kind": "metadata_only",
+  "observations": []
+}

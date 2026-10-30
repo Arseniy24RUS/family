@@ -1,0 +1,67 @@
+{
+  "indicator_id": "62713",
+  "indicator_title": "Прирост объема экспорта несырьевых неэнергетических товаров к показателю 2023 года",
+  "filters": [
+    {
+      "field_id": "0",
+      "title": "Показатель",
+      "object_parameter": "filterObjectIds",
+      "values": [
+        {
+          "id": "62713",
+          "title": "Прирост объема экспорта несырьевых неэнергетических товаров к показателю 2023 года"
+        }
+      ]
+    },
+    {
+      "field_id": "3",
+      "title": "Год",
+      "object_parameter": "columnObjectIds",
+      "values": [
+        {
+          "id": "2025",
+          "title": "2025"
+        }
+      ]
+    },
+    {
+      "field_id": "3301",
+      "title": "ОКАТО",
+      "object_parameter": "lineObjectIds",
+      "values": [
+        {
+          "id": "1678127",
+          "title": "Российская Федерация"
+        }
+      ]
+    },
+    {
+      "field_id": "30611",
+      "title": "Единица измерения",
+      "object_parameter": "lineObjectIds",
+      "values": [
+        {
+          "id": "950473",
+          "title": "процент"
+        }
+      ]
+    },
+    {
+      "field_id": "33560",
+      "title": "Период",
+      "object_parameter": "columnObjectIds",
+      "values": [
+        {
+          "id": "1540230",
+          "title": "декабрь"
+        },
+        {
+          "id": "1558883",
+          "title": "значение показателя за год"
+        }
+      ]
+    }
+  ],
+  "parser_version": 3,
+  "connector_version": "semya-cdo-adapter-1"
+}

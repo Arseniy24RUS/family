@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "url": "downloads/projects/personnel/statistical/annual_equivalents.csv",
+      "bytes": 3553,
+      "sha256": "7290d7fe9656a221adc227d24d778a6e0665578ffb899257276bd687d2264381"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/availability.csv",
+      "bytes": 6892,
+      "sha256": "dd07a56e06ad7e9162dab706f92fdc30b56ffbf09eae69078aabf71ef581af0e"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/context/facts.json",
+      "bytes": 983,
+      "sha256": "6ec052b8d25a6beba7bb9bb62d9784bdc546ae7c318692b5e3e65514d0aab4ca"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/context/region_join.csv",
+      "bytes": 3979,
+      "sha256": "98516b5bc1b501daa288f393aaf8027b2424cb761be9b7400666f639b4797961"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/context/regional_source_excerpt.txt",
+      "bytes": 5196,
+      "sha256": "b40dd9202b378dae1e797cf8dfd9b62bd7b0cc59553411d0298b5cd22098456d"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/context/regional_unemployment_2024.csv",
+      "bytes": 4220,
+      "sha256": "7ba67823d0499c05592b9919e3491facb67e0dc98eeb1873d1159308d023a6e8"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/context/sources.json",
+      "bytes": 1438,
+      "sha256": "e0308009df12983ba28e1ea572ddc18306912878dee25e967df7afc82956deb1"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/context_summary.csv",
+      "bytes": 252,
+      "sha256": "c7dd5b6cc7554dac1932293b1f87ed02e909b47d14a84b1fdb4deb85ca1eb78f"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/context_unemployment_2024.csv",
+      "bytes": 22436,
+      "sha256": "772c3e3e578083a299004b72566fb7996a069225eeb447d6f5abd9b4f9ed6eaa"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/emiss_inputs/62884.zip",
+      "bytes": 17850,
+      "sha256": "0d308828f10de47e4ce8c6f6beff2973483a8edd7be1e7c66cdd66996837a3b4"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/emiss_inputs/62907.zip",
+      "bytes": 34288,
+      "sha256": "456a8f83902c8f959a450bbe49c6eca5a770da35e320efd1f765a07207021b55"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/emiss_inputs/63038.zip",
+      "bytes": 20398,
+      "sha256": "15c895aff4deec8e2f48cd41e3054c121dde13e782699f946780bcdb370ea50a"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/emiss_inputs/63190.zip",
+      "bytes": 10658,
+      "sha256": "9fc68b8311490b64ce04dcf45f09216c6f8a89fe1b813ac2c522d988d9c47ffa"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/emiss_inputs/63191.zip",
+      "bytes": 10669,
+      "sha256": "ab37d5e219fea68a9a130545f1d9425e6ca6455c093e055a73c3e3a175e24002"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/emiss_inputs/63204.zip",
+      "bytes": 9472,
+      "sha256": "beeac1e2e1c6cb0f8feef50bcbd2ba46e88a9234604666373fdfaa0b50fed18c"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/emiss_inputs/63205.zip",
+      "bytes": 9477,
+      "sha256": "15db7c40ce2a1087879960b9eaaac6b0f6de0f352ad4b79751f55c6a621382b6"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/emiss_inputs/63238.zip",
+      "bytes": 18540,
+      "sha256": "8baf153887f217fb7415c091e3fd61ab6c3b6d7028439330dc582e2329ccfd21"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/emiss_inputs/63363.zip",
+      "bytes": 33968,
+      "sha256": "6596a0b9bb153ca62c34d223d1636e2606a4db92dda958e0a537d2331d925368"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/observations.csv",
+      "bytes": 34995,
+      "sha256": "82fad78422ac57892c76fa3600be1b869ef8222b1c2f8b3fee53c07ab25440ce"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/policy/audit_126_web.json",
+      "bytes": 25006,
+      "sha256": "2c3aa67c511419b04654f55cd4b7c004e0720a22ce54260dd18bae318b2f5e9c"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/quality_flags.csv",
+      "bytes": 11505,
+      "sha256": "7c3805ef971b0899428866d8eb1b1621aaa4113497d7c7ab1e95e18cc2acf36d"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/quant/M127.html",
+      "bytes": 69031,
+      "sha256": "aa578958d54fbf76de42d1ac523095ee2e5342caaf8fce92664a57cd0325896d"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/quant/M127.txt",
+      "bytes": 32722,
+      "sha256": "465a68d90810128db74ede21bd19d4bfbe84924a683e351a7639d4a54fb171a6"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/quant/M142.html",
+      "bytes": 57609,
+      "sha256": "69e0fbb78dc385c7b3c4a8a9cbf1c9e18ac23ce17cad570f68be10b3c8fb7f52"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/quant/M142.txt",
+      "bytes": 22898,
+      "sha256": "d3dd13a964489d7e29a29946df420636df3de7f8e2e2553238c688fab069ef13"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/quant/M472.html",
+      "bytes": 56649,
+      "sha256": "c1feadfd92b1658ec0ea537171ea084c1b3921300eecdf535ce13a031713dcc9"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/quant/M472.txt",
+      "bytes": 22387,
+      "sha256": "848108c3fa21e71d5824938d4d332cc780165c5d383acc1e62612e610d5ca545"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/quant/M645.html",
+      "bytes": 59764,
+      "sha256": "28a9473c08166366cc94a9ea5334dac019dc62580ef01b365db31cde31a49493"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/quant/M645.txt",
+      "bytes": 24933,
+      "sha256": "3f9cfddc22cf01ca2ffe0ea2cfffadd273b61e865547fb554643500a2cd67527"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/research/observations_1_2_0.json",
+      "bytes": 40961,
+      "sha256": "b70b7bc305374e324e587f945370940385c1f2fb3df97d0cbae82a1288232db9"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/same_month_changes.csv",
+      "bytes": 8176,
+      "sha256": "158e71e2cc9d8912a8443d53a81fe42a0da2e8bcbc19cf11701a6bd4a69fc6fa"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/source_registry.csv",
+      "bytes": 7516,
+      "sha256": "e418036fb9cfd4c07248334ec0c58a66c2974379e40183c28616abc418f06088"
+    },
+    {
+      "url": "downloads/projects/personnel/statistical/target_comparisons.csv",
+      "bytes": 166100,
+      "sha256": "71cd39616376b95717ceebc737c7449f134a8ae56a85e10a5f996a847f2ff96a"
+    }
+  ]
+}

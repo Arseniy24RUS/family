@@ -1,0 +1,4 @@
+﻿project_id,layer,left_result_nodes,right_nodes,edges,bipartite_density,isolates,causal_effect_estimated
+youth_children,documentary_result_task,199,23,199,0.043478260869565216,13,0
+youth_children,structural_shared_task_result_indicator,199,45,434,0.048464544946957004,102,0
+youth_children,semantic_result_indicator,199,45,122,0.013623673925181462,158,0

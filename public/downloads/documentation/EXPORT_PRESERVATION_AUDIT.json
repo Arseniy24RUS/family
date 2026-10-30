@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "stage": "after full build and deterministic transport fix before final packaging metadata",
+  "baseline_version": "2.10.0-transport.1",
+  "current_version": "2.11.0-export.1",
+  "baseline_archive_sha256": "097bb5f3adecc37b20c6cc59bfdef521bf9d015795a9c035fcb6dd6ccadcf2b2",
+  "baseline_logical_files": 7425,
+  "all_old_logical_files_present": true,
+  "overall": {
+    "identical": 7332,
+    "changed": 93
+  },
+  "changed_classifications": {
+    "expected_shared_integration": 29,
+    "expected_release_documentation": 16,
+    "expected_release_metadata_only": 26,
+    "expected_export_project_expansion": 6,
+    "expected_catalog_checksum_for_unchanged_zip_members": 2,
+    "expected_deterministic_order_fix": 3,
+    "expected_shared_catalog_rebuild": 4,
+    "expected_zip_container_metadata_only": 6,
+    "expected_shared_application_entry": 1
+  },
+  "missing_paths": [],
+  "unexpected_changed_paths": [],
+  "critical_unique_files": 2586,
+  "critical_unique_by_status": {
+    "identical": 2586
+  },
+  "family_projection_archives": [
+    {
+      "path": "public/downloads/projections/projections_python.zip",
+      "old_members": 8,
+      "current_members": 8,
+      "member_bytes_identical": true,
+      "changed_members": [],
+      "added_members": [],
+      "missing_members": []
+    },
+    {
+      "path": "docs/downloads/projections/projections_python.zip",
+      "old_members": 8,
+      "current_members": 8,
+      "member_bytes_identical": true,
+      "changed_members": [],
+      "added_members": [],
+      "missing_members": []
+    }
+  ],
+  "counts_include_public_and_docs_copies": true,
+  "packaging_metadata_expected_to_be_regenerated": [
+    "RELEASE_MANIFEST.json",
+    "PACKAGE_COPIES.json"
+  ]
+}

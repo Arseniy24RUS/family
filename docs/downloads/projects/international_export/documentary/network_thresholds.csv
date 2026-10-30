@@ -1,0 +1,5 @@
+﻿threshold,pairs,results_with_candidate,results_without_candidate,top_k,scope,author_reported_results,matches_author,origin
+0.05,28,28,19,1,same_federal_project,26,False,independent_fully_specified_65_profile_model
+0.1,15,15,32,1,same_federal_project,15,True,independent_fully_specified_65_profile_model
+0.15,8,8,39,1,same_federal_project,8,True,independent_fully_specified_65_profile_model
+0.2,6,6,41,1,same_federal_project,6,True,independent_fully_specified_65_profile_model

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "Roboto-Regular.ttf",
+    "cyrillic": true,
+    "numbers": true,
+    "family": "Roboto",
+    "version": "Version 3.009; 2024"
+  },
+  {
+    "file": "Roboto-SemiBold.ttf",
+    "cyrillic": true,
+    "numbers": true,
+    "family": "Roboto SemiBold",
+    "version": "Version 3.009; 2024"
+  },
+  {
+    "file": "Roboto-Bold.ttf",
+    "cyrillic": true,
+    "numbers": true,
+    "family": "Roboto",
+    "version": "Version 3.009; 2024"
+  },
+  {
+    "file": "BebasNeue-Regular.ttf",
+    "cyrillic": false,
+    "numbers": true,
+    "family": "Bebas Neue",
+    "version": "Version 2.000"
+  }
+]

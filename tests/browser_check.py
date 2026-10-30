@@ -49,7 +49,7 @@ async def execute(args):
             assert 'nullnull' not in await page.locator('#main').inner_text(),route
             checks.append({'check':'desktop_route','route':route,'pass':True})
         await go('targets')
-        assert await page.get_by_label('Версия прогноза',exact=True).input_value()=='updated'
+        assert await page.get_by_label('Версия прогноза',exact=True).count()==0
         model=await page.evaluate("async()=> (await fetch(new URL('data/projections/indicators/data_21/RU.json',document.baseURI))).json()")
         as_of=month_text(model['source_as_of'])
         assert as_of in await page.locator('.forecast-meta').inner_text()
@@ -66,17 +66,14 @@ async def execute(args):
         assert abs(axis['ticks']['2026']-axis['points'][1])<1e-6
         assert abs(axis['ticks']['2027']-axis['points'][2])<1e-6
         checks.append({'check':'calendar_year_labels_at_january_first','pass':True})
-        await page.get_by_label('Версия прогноза',exact=True).select_option('archive')
-        await page.get_by_text('Фиксированный прогноз из экспертизы. Новые выгрузки ЕМИСС не переобучают его и не меняют авторский вывод.',exact=True).wait_for()
-        assert not await page.locator('.forecast-meta').count()
-        await page.screenshot(path=str(out/'targets_archive_desktop.png'))
-        await go('targets?source=data_20')
-        assert await page.get_by_label('Версия прогноза',exact=True).input_value()=='archive'
-        assert await page.locator('.chart-svg').count()>0
-        await page.get_by_label('Версия прогноза',exact=True).select_option('updated')
+        await go('targets?version=archive')
+        assert await page.get_by_label('Версия прогноза',exact=True).count()==0
+        await page.locator('.forecast-meta').wait_for()
+        assert as_of in await page.locator('.forecast-meta').inner_text()
+        await go('targets?source=data_20&version=archive')
         await page.locator('.forecast-meta').wait_for()
         assert await page.get_by_label('Показатель',exact=True).input_value()=='data_21'
-        checks.append({'check':'targets_archive_switch_and_existing_indicator_links','pass':True})
+        checks.append({'check':'legacy_archive_links_resolve_to_current_forecast','pass':True})
         await page.get_by_label('Показатель',exact=True).select_option('data_22')
         await page.locator('svg.chart-svg[aria-label^="СКР третьих"]').wait_for()
         third=await page.evaluate("async()=> (await fetch(new URL('data/projections/indicators/data_22/RU.json',document.baseURI))).json()")
@@ -101,12 +98,13 @@ async def execute(args):
         checks.append({'check':'monthly_observations_use_named_months_in_chart_tooltip_table_and_map','pass':True})
         for route in ['overview','audit','map','regions','lab','explorer']:
             await go(route)
-            assert await page.get_by_label('Версия статистики',exact=True).input_value()=='latest',route
+            assert await page.get_by_label('Версия статистики',exact=True).count()==0,route
         checks.append({'check':'all_statistical_sections_default_to_current_data','pass':True})
+        latest_by_source={}
         for sid in ['data_21','data_22','data_23','data_33']:
             await go('map?source='+sid)
-            latest=await page.evaluate("async sid=>{const m=await(await fetch(new URL('data/latest/manifest.json',document.baseURI))).json();const s=m.sources.find(s=>s.source_id===sid);const p=await(await fetch(new URL(s.published_file,document.baseURI))).json();const rows=p.rows.map(r=>Object.fromEntries(p.columns.map((k,i)=>[k,r[i]])));return rows.filter(r=>r.r&&Number.isFinite(r.value)).map(r=>r.end).sort().at(-1)}",sid)
-            assert (await page.get_by_label('Период и тип наблюдения',exact=True).input_value()).endswith(latest)
+            latest_by_source[sid]=await page.evaluate("async sid=>{const m=await(await fetch(new URL('data/latest/manifest.json',document.baseURI))).json();const s=m.sources.find(s=>s.source_id===sid);const p=await(await fetch(new URL(s.published_file,document.baseURI))).json();const rows=p.rows.map(r=>Object.fromEntries(p.columns.map((k,i)=>[k,r[i]])));return rows.filter(r=>r.r&&Number.isFinite(r.value)).map(r=>r.end).sort().at(-1)}",sid)
+            assert (await page.get_by_label('Период и тип наблюдения',exact=True).input_value()).endswith(latest_by_source[sid]),sid
         await page.screenshot(path=str(out/'map_current_desktop.png'))
         checks.append({'check':'map_selects_latest_month_instead_of_old_complete_year','pass':True})
         await go('map?mode=latest&source=data_33&r=09&period='+__import__('urllib.parse',fromlist=['quote']).quote('месяц|2025-12-31'))
@@ -118,11 +116,9 @@ async def execute(args):
         await page.screenshot(path=str(out/'data33_anomaly_desktop.png'))
         checks.append({'check':'source_414_percent_preserved_but_excluded_from_map_scale','pass':True})
         await go('map?mode=baseline&source=data_33')
-        await page.get_by_role('button',name='Показать актуальные данные',exact=True).click()
-        await page.wait_for_function("document.querySelector('select[aria-label=\"Версия статистики\"]')?.value==='latest'")
-        await page.locator('#main[aria-busy]').wait_for(state='detached')
-        assert (await page.get_by_label('Период и тип наблюдения',exact=True).input_value()).endswith(latest)
-        checks.append({'check':'old_archive_link_has_explicit_switch_to_latest_period','pass':True})
+        assert await page.get_by_label('Версия статистики',exact=True).count()==0
+        assert (await page.get_by_label('Период и тип наблюдения',exact=True).input_value()).endswith(latest_by_source['data_33'])
+        checks.append({'check':'legacy_baseline_link_uses_latest_period_without_selector','pass':True})
         await go('regions')
         assert 'Данные текущего расчёта' in await page.locator('#main').inner_text()
         current=await page.evaluate("async()=> (await fetch(new URL('data/current/research.json',document.baseURI))).json()")
@@ -133,8 +129,10 @@ async def execute(args):
             assert not await page.locator('.error-view').count()
         checks.append({'check':'regional_diagnostics_recomputed_and_inputs_disclosed','pass':True})
         await go('lab')
-        assert (await page.get_by_label('Период X',exact=True).input_value()).endswith(latest)
-        assert (await page.get_by_label('Период Y',exact=True).input_value()).endswith(latest)
+        # Independent sources can publish new months on different dates.
+        for axis in ['X','Y']:
+            sid=await page.get_by_label('Показатель '+axis,exact=True).input_value()
+            assert (await page.get_by_label('Период '+axis,exact=True).input_value()).endswith(latest_by_source[sid]),(axis,sid)
         checks.append({'check':'laboratory_uses_current_month_for_both_fertility_sources','pass':True})
         await go('network?full=1')
         assert await page.get_by_role('group',name='Цвета узлов',exact=True).count()==1
@@ -223,9 +221,9 @@ async def execute(args):
         for route in ['map?mode=latest', 'explorer?mode=latest', 'lab?mode=latest']:
             await go(route)
             assert not await page.locator('.error-view').count(), route
-            assert await page.get_by_label('Версия статистики').input_value()=='latest',route
+            assert await page.get_by_label('Версия статистики').count()==0,route
             assert await page.locator('#main').inner_text(),route
-            checks.append({'check':'latest_layer_available_or_explicit_fallback','route':route,'pass':True})
+            checks.append({'check':'current_layer_available_without_archive_selector','route':route,'pass':True})
         await go('overview');await page.get_by_role('button',name='Открыть меню').click()
         assert await page.locator('body').evaluate('(e)=>e.classList.contains("nav-open")')
         await page.keyboard.press('Escape')

@@ -1,0 +1,67 @@
+{
+  "indicator_id": "62730",
+  "indicator_title": "Количество организаций, воспользовавшихся мерами поддержки Группы РЭЦ",
+  "filters": [
+    {
+      "field_id": "0",
+      "title": "Показатель",
+      "object_parameter": "filterObjectIds",
+      "values": [
+        {
+          "id": "62730",
+          "title": "Количество организаций, воспользовавшихся мерами поддержки Группы РЭЦ"
+        }
+      ]
+    },
+    {
+      "field_id": "3",
+      "title": "Год",
+      "object_parameter": "columnObjectIds",
+      "values": [
+        {
+          "id": "2025",
+          "title": "2025"
+        }
+      ]
+    },
+    {
+      "field_id": "3301",
+      "title": "ОКАТО",
+      "object_parameter": "lineObjectIds",
+      "values": [
+        {
+          "id": "1678127",
+          "title": "Российская Федерация"
+        }
+      ]
+    },
+    {
+      "field_id": "30611",
+      "title": "Единица измерения",
+      "object_parameter": "lineObjectIds",
+      "values": [
+        {
+          "id": "950475",
+          "title": "единица"
+        }
+      ]
+    },
+    {
+      "field_id": "33560",
+      "title": "Период",
+      "object_parameter": "columnObjectIds",
+      "values": [
+        {
+          "id": "1540283",
+          "title": "январь"
+        },
+        {
+          "id": "1540282",
+          "title": "февраль"
+        }
+      ]
+    }
+  ],
+  "parser_version": 3,
+  "connector_version": "semya-cdo-adapter-1"
+}

@@ -1,0 +1,621 @@
+{
+  "project_id": "efficient_transport",
+  "sources": 11,
+  "counts": {
+    "results": 30,
+    "tasks": 27,
+    "indicatorCards": 25,
+    "uniqueIndicators": 22,
+    "goals": 10,
+    "structuralPairs": 54,
+    "structuralResults": 30,
+    "structuralIndicatorCards": 20,
+    "ambiguousClaims": 42,
+    "resolvedDirectLinks": 0,
+    "lexicalPairs": 36,
+    "lexicalResults": 17,
+    "lexicalIndicators": 15,
+    "authorReportedLexicalIndicators": 16,
+    "resultsWithoutLexicalCandidate": 13
+  },
+  "text_numeric_checks": [
+    {
+      "metric": "source_profile_fp_268",
+      "author_report": 162,
+      "platform_recomputed": 162,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_269",
+      "author_report": 115,
+      "platform_recomputed": 115,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_270",
+      "author_report": 666,
+      "platform_recomputed": 666,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_271",
+      "author_report": 124,
+      "platform_recomputed": 124,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_272",
+      "author_report": 376,
+      "platform_recomputed": 376,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_273",
+      "author_report": 206,
+      "platform_recomputed": 206,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_274",
+      "author_report": 107,
+      "platform_recomputed": 107,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_275",
+      "author_report": 118,
+      "platform_recomputed": 118,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_276",
+      "author_report": 179,
+      "platform_recomputed": 179,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_np_20",
+      "author_report": 225,
+      "platform_recomputed": 225,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "project_cosine_life_infrastructure",
+      "author_report": 0.22789361989290324,
+      "platform_recomputed": 0.22789361989290338,
+      "difference": 1.3877787807814457e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_life_infrastructure",
+      "author_report": 0.26718935876026106,
+      "platform_recomputed": 0.267189358760261,
+      "difference": -5.551115123125783e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_data_economy",
+      "author_report": 0.14978380568822533,
+      "platform_recomputed": 0.14978380568822527,
+      "difference": -5.551115123125783e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_data_economy",
+      "author_report": 0.1600287238771607,
+      "platform_recomputed": 0.1600287238771606,
+      "difference": -8.326672684688674e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_environment",
+      "author_report": 0.11953327481301652,
+      "platform_recomputed": 0.11953327481301647,
+      "difference": -5.551115123125783e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_environment",
+      "author_report": 0.13643252941236084,
+      "platform_recomputed": 0.13643252941236086,
+      "difference": 2.7755575615628914e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_competitive_economy",
+      "author_report": 0.1125665841193466,
+      "platform_recomputed": 0.11256658411934649,
+      "difference": -1.1102230246251565e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_competitive_economy",
+      "author_report": 0.13711075267943654,
+      "platform_recomputed": 0.1371107526794367,
+      "difference": 1.6653345369377348e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_youth_children",
+      "author_report": 0.10409420279555871,
+      "platform_recomputed": 0.10409420279555885,
+      "difference": 1.3877787807814457e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_youth_children",
+      "author_report": 0.125885735576676,
+      "platform_recomputed": 0.12588573557667623,
+      "difference": 2.220446049250313e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_tourism",
+      "author_report": 0.10184988101416688,
+      "platform_recomputed": 0.1018498810141669,
+      "difference": 1.3877787807814457e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_tourism",
+      "author_report": 0.12608990398938164,
+      "platform_recomputed": 0.1260899039893817,
+      "difference": 5.551115123125783e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_personnel",
+      "author_report": 0.09029277471619956,
+      "platform_recomputed": 0.09029277471619952,
+      "difference": -4.163336342344337e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_personnel",
+      "author_report": 0.10879358047674284,
+      "platform_recomputed": 0.10879358047674276,
+      "difference": -8.326672684688674e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_long_active_life",
+      "author_report": 0.08095643739062298,
+      "platform_recomputed": 0.08095643739062308,
+      "difference": 9.71445146547012e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_long_active_life",
+      "author_report": 0.09946199328693221,
+      "platform_recomputed": 0.0994619932869323,
+      "difference": 8.326672684688674e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_international_export",
+      "author_report": 0.07091405470647676,
+      "platform_recomputed": 0.07091405470647673,
+      "difference": -2.7755575615628914e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_international_export",
+      "author_report": 0.10997073305227605,
+      "platform_recomputed": 0.10997073305227598,
+      "difference": -6.938893903907228e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_access_rights",
+      "author_report": 1.3169446883230904,
+      "platform_recomputed": 1.3169446883230904,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_clinical_health",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_culture_values",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_demography_family",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_digital_data",
+      "author_report": 6.145741878841089,
+      "platform_recomputed": 6.145741878841089,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_education_youth",
+      "author_report": 1.7559262510974538,
+      "platform_recomputed": 1.7559262510974538,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_employment_skills",
+      "author_report": 2.1949078138718177,
+      "platform_recomputed": 2.1949078138718177,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_enterprise_industry",
+      "author_report": 7.023705004389815,
+      "platform_recomputed": 7.023705004389815,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_environment_climate",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_export_trade",
+      "author_report": 1.3169446883230904,
+      "platform_recomputed": 1.3169446883230904,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_governance_evidence",
+      "author_report": 3.5118525021949076,
+      "platform_recomputed": 3.5118525021949076,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_healthy_life_care",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_housing_urban",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_income_support",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_reproductive_health",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_science_innovation",
+      "author_report": 1.7559262510974538,
+      "platform_recomputed": 1.7559262510974538,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_tourism",
+      "author_report": 0.43898156277436345,
+      "platform_recomputed": 0.43898156277436345,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_transport_logistics",
+      "author_report": 54.43371378402107,
+      "platform_recomputed": 54.43371378402107,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "semantic_candidate_count",
+      "author_report": 36,
+      "platform_recomputed": 36,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "candidate_results",
+      "author_report": 17,
+      "platform_recomputed": 17,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "candidate_unique_indicators",
+      "author_report": 16,
+      "platform_recomputed": 15,
+      "difference": -1,
+      "equal": false,
+      "tolerance": 0
+    },
+    {
+      "metric": "tfidf_features",
+      "author_report": 20000,
+      "platform_recomputed": 20000,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "efficient_transport_profile_tokens",
+      "author_report": 2278,
+      "platform_recomputed": 2278,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "threshold_pairs_0.1",
+      "author_report": 36,
+      "platform_recomputed": 36,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "threshold_results_0.1",
+      "author_report": 17,
+      "platform_recomputed": 17,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "threshold_pairs_0.15",
+      "author_report": 23,
+      "platform_recomputed": 23,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "threshold_results_0.15",
+      "author_report": 15,
+      "platform_recomputed": 15,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "threshold_pairs_0.2",
+      "author_report": 20,
+      "platform_recomputed": 20,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "threshold_results_0.2",
+      "author_report": 13,
+      "platform_recomputed": 13,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    }
+  ],
+  "finance_sum_decimal": "7622134021.13",
+  "finance_is_consolidated": false,
+  "finance_source_reconciliation": [
+    {
+      "year": 2025,
+      "source": "Внебюджетные источники, всего",
+      "nationalDecimal": "591298996.73",
+      "federalProjectSumDecimal": "591298996.73",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2025,
+      "source": "Консолидированные бюджеты субъектов Российской Федерации, всего",
+      "nationalDecimal": "8882064.20",
+      "federalProjectSumDecimal": "8882064.20",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2025,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "146299234.40",
+      "federalProjectSumDecimal": "146299234.40",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2026,
+      "source": "Внебюджетные источники, всего",
+      "nationalDecimal": "602509319.60",
+      "federalProjectSumDecimal": "602509319.60",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2026,
+      "source": "Консолидированные бюджеты субъектов Российской Федерации, всего",
+      "nationalDecimal": "16873405.80",
+      "federalProjectSumDecimal": "16873405.80",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2026,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "129734656.50",
+      "federalProjectSumDecimal": "129734656.50",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2027,
+      "source": "Внебюджетные источники, всего",
+      "nationalDecimal": "1444717150.06",
+      "federalProjectSumDecimal": "1444717150.06",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2027,
+      "source": "Консолидированные бюджеты субъектов Российской Федерации, всего",
+      "nationalDecimal": "19122658.10",
+      "federalProjectSumDecimal": "19122658.10",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2027,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "226023376.90",
+      "federalProjectSumDecimal": "226023376.90",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2028,
+      "source": "Внебюджетные источники, всего",
+      "nationalDecimal": "1465308859.32",
+      "federalProjectSumDecimal": "1465308859.32",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2028,
+      "source": "Консолидированные бюджеты субъектов Российской Федерации, всего",
+      "nationalDecimal": "10192914.90",
+      "federalProjectSumDecimal": "10192914.90",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2028,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "176950902",
+      "federalProjectSumDecimal": "176950902.00",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2029,
+      "source": "Внебюджетные источники, всего",
+      "nationalDecimal": "1288939759.77",
+      "federalProjectSumDecimal": "1288939759.77",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2029,
+      "source": "Консолидированные бюджеты субъектов Российской Федерации, всего",
+      "nationalDecimal": "12156607.40",
+      "federalProjectSumDecimal": "12156607.40",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2029,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "168673062.10",
+      "federalProjectSumDecimal": "168673062.10",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2030,
+      "source": "Внебюджетные источники, всего",
+      "nationalDecimal": "1154765613.45",
+      "federalProjectSumDecimal": "1154765613.45",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2030,
+      "source": "Консолидированные бюджеты субъектов Российской Федерации, всего",
+      "nationalDecimal": "9326996.80",
+      "federalProjectSumDecimal": "9326996.80",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2030,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "150358443.10",
+      "federalProjectSumDecimal": "150358443.10",
+      "differenceDecimal": "0.00",
+      "equal": true
+    }
+  ],
+  "target_cards": 25,
+  "target_unique": 22,
+  "target_numeric_cells": 129,
+  "target_missing_cells": 3
+}

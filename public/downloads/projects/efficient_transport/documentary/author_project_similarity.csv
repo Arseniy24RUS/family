@@ -1,0 +1,11 @@
+﻿project_a,project_b,cosine_similarity,family_genre_mismatch
+competitive_economy,efficient_transport,0.1125665841193466,0
+data_economy,efficient_transport,0.14978380568822533,0
+efficient_transport,environment,0.11953327481301652,0
+efficient_transport,family,0.023541011312264788,1
+efficient_transport,international_export,0.07091405470647676,0
+efficient_transport,life_infrastructure,0.22789361989290324,0
+efficient_transport,long_active_life,0.08095643739062298,0
+efficient_transport,personnel,0.09029277471619956,0
+efficient_transport,tourism,0.10184988101416688,0
+efficient_transport,youth_children,0.10409420279555871,0

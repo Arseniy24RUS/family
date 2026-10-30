@@ -1,0 +1,3540 @@
+{
+  "document": {
+    "project_id": "data_economy",
+    "kind": "fp",
+    "id": "fp_342",
+    "url": "https://databudget.ru/projects/fp/342",
+    "sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+    "retrieved_at": "2026-10-19T14:38:53.860734+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/f2/f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac.html",
+    "document_id": "fp_342",
+    "code": "Ц8",
+    "title": "[Ц8] Кадры для цифровой трансформации",
+    "publisher_version": "26.9",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 690,
+    "n_tokens": 690,
+    "source_url": "https://databudget.ru/projects/fp/342",
+    "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+    "profile_text_sha256": "dcc24e0ab070de1ba043d9f3b7e2003a9a4042844a0002dd7d0ed51f7187ac80",
+    "archive_entry": "data_economy/fp_342.html",
+    "bytes": 1238359,
+    "archive_profile_token_count": 690,
+    "archive_profile_text_sha256": "2d5083904671f3f439488bf93a1a8e9f9c46c67f04a1cc695e79284bfcf0cdc7",
+    "download_path": "downloads/projects/data_economy/documentary/sources/fp_342.html",
+    "profile_original_document_id": "html:f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_342:profile1",
+      "document_id": "fp_342",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "сокращение дефицита высококвалифицированных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах",
+      "node_id": "fp_342:passport-task-11:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "n_tokens": 15,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_342:profile2",
+      "document_id": "fp_342",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечение потребности рынка труда в специалистах в сфере информационных технологий, прошедших обучение по актуализированным программам, соответствующим требованиям отрасли",
+      "node_id": "fp_342:passport-task-01:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "n_tokens": 16,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_342:profile3",
+      "document_id": "fp_342",
+      "project_id": "data_economy",
+      "kind": "goal",
+      "text": "удовлетворена потребность рынка труда в специалистах в сфере информационных технологий для обеспечения темпа роста инвестиций в отечественные решения в сфере информационных технологий вдвое выше темпа роста валового внутреннего продукта",
+      "node_id": "fp_342:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "n_tokens": 25,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_342:profile4",
+      "document_id": "fp_342",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "обучены школьники 8 - 11 классов и обучающиеся по программам среднего профессионального образования по дополнительному курсу по современным языкам программирования, технологиям искусственного интеллекта и робототехнике на базе автономной некоммерческой организации \"университет национальной технологической инициативы 2035\" школьники 8 - 11 классов (далее - школьники) и обучающиеся по программам среднего профессионального образования (далее - спо), подтвердившие факт обучения в соответствующем классе или по программе спо на момент первичного зачисления, обучаются по дополнительным общеобразовательным программам (далее также - курсы) по современным языкам программирования, технологиям искусственного интеллекта, робототехнике, а также по обучению базовым навыкам в области информационных технологий и искусственного интеллекта. значением результата является количество обученных школьников и обучающихся по программам спо по модулям курса: в 2025 году по первому модулю курса в 2026-2029 годах по второму, третьему и четвертому модулям в рамках набора предыдущего года и по первому модулю нового набора в 2030 году по второму, третьему и четвертому модулям в рамках набора предыдущего года. на курсах по современным языкам программирования, технологиям искусственного интеллекта, робототехнике могут обучаться школьники, а также обучающиеся по профессиям и специальностям спо только в области информационных технологий, перечень которых определен концепцией реализации мероприятия. общая трудоемкость курсов по современным языкам программирования, технологиям искусственного интеллекта и робототехнике составляет не менее 144 академических часов. курсы по современным языкам программирования, технологиям искусственного интеллекта и робототехнике реализуются в очном формате в модульной форме и состоят из 4 модулей, которые осваиваются последовательно в течение учебного года. после завершения обучения по каждому модулю и по дополнительной общеобразовательной программе в целом обеспечивается выдача сертификатов об их освоении. на курсах по обучению базовым навыкам в области информационных технологий и искусственного интеллекта могут обучаться школьники и обучающиеся по всем профессиям и специальностям спо вне зависимости от их направленности. общая трудоемкость курсов по обучению базовым навыкам в области и",
+      "node_id": "fp_342:passport-result-1:afaf57dfc746f9f4",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "n_tokens": 241,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_342:profile5",
+      "document_id": "fp_342",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "обеспечено успешное подтверждение ит-компетенций (базового, среднего, продвинутого уровня) разработчиками программного обеспечения посредством национальной системы подтверждения компетенций разработчиков программного обеспечения обеспечено успешное подтверждение ит-компетенций (базового, среднего, продвинутого уровня) разработчиками программного обеспечения посредством национальной системы подтверждения компетенций разработчиков программного обеспечения - системы для взаимодействия государства, граждан российской федерации, ит-компаний, ассоциаций, образовательных организаций и профильных институтов развития, которая обеспечит государство актуальной информацией об отраслевом балансе в ит-сфере, работодателям позволит сократить средний срок закрытия вакансий на должность разработчика или иного ит-специалиста, а гражданину подтвердить уровень владения ит-компетенциями добровольно и безвозмездно вне зависимости от наличия профильного образования в соответствии с единой методологией подтверждения ит-компетенций, согласованной оператором платформы подтверждения ит-компетенций с ведущими организациями ит-отрасли. значение результата в 2025 году (1 единица) отражает создание национальной системы подтверждения компетенций разработчиков программного обеспечения. в 2026 -2030 годах значение результата отражает количество разработчиков программного обеспечения, успешно подтвердивших ит-компетенции (базового, среднего, продвинутого уровня)» с помощью национальной системы подтверждения компетенций разработчиков программного обеспечения.",
+      "node_id": "fp_342:passport-result-48:ab4839ae6f87cf77",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "n_tokens": 136,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_342:profile6",
+      "document_id": "fp_342",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "обеспечено практико-ориентированное обучение в образовательных организациях высшего образования на ит-программах с участием аккредитованных ит-компаний студенты, обучающиеся по направлениям подготовки и специальностям в сфере ит (далее - ит-специальности), обучаются по практико-ориентированным образовательным программам, реализуемым образовательными организациями высшего образования совместно с аккредитованными ит-компаниями. компетенции студентов, обученных по практико-ориентированным образовательным программам по ит-специальностям, соответствуют требованиям ит-компаний. определены типовые способы взаимодействия между образовательной организацией высшего образования и ит-компанией в рамках обучения студентов по ит-специальностям. внесены изменения в нормативные правовые акты в части установления требования об участии ит-компаний в обучении студентов ит-специальностей для получения указанными ит-компаниями предусмотренных законодательством льгот для ит-компаний.",
+      "node_id": "fp_342:passport-result-40:3f0fefc72237025b",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "n_tokens": 85,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_342:profile7",
+      "document_id": "fp_342",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "обеспечено обучение студентов по образовательным программам высшего образования для топ-специалистов в сфере информационных технологий на базе автономной некоммерческой организации \"аналитический центр при правительстве российской федерации\" студенты обучаются по образовательным программам высшего образования, направленным на подготовку высококвалифицированных специалистов в сфере информационных технологий, обладающих продвинутыми ит-компетенциями, в том числе разработчиков ит-решений (далее соответственно - образовательные программы, топ-специалисты, ит). обеспечивается повышение квалификации руководителей образовательных программ (далее - роп) и работников из числа профессорско-преподавательского состава по направлениям подготовки и специальностям в сфере информационных технологий (далее - ппс). роп разрабатывают образовательные программы, по которым обучаются топ-специалисты. обеспечивается поддержка роп и ппс. проводится независимая оценка компетенций студентов, обучающихся по образовательным программам. обеспечивается тиражирование образовательных практик для массовой подготовки ит-специалистов. образовательным организациям высшего образования (далее - вузы) предоставлен доступ к лучшим образовательным практикам от ведущих вузов и рекомендации по внедрению образовательных программ, предназначенных для подготовки ит-специалистов.",
+      "node_id": "fp_342:passport-result-47:215fd1b309336df8",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "n_tokens": 126,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_342:profile8",
+      "document_id": "fp_342",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "количество школьников 8-11 классов и студентов среднего профессионального образования, получивших сертификат об освоении дополнительной общеобразовательной программы по современным языкам программирования, искусственному интеллекту или робототехнике, реализуемой с использованием мер государственной поддержки",
+      "node_id": "fp_342:passport-purpose-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "n_tokens": 27,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_342:profile9",
+      "document_id": "fp_342",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля выпускников, обученных по программам, разработанным и/или актуализированным при участии ит-отрасли, в общей численности выпускников программ бакалавриата и специалитета в сфере ит",
+      "node_id": "fp_342:passport-purpose-2:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "n_tokens": 19,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_342:kwic1",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "го профессионального образования по дополнительному курсу по современным языкам программирования, технологиям искусственного интеллекта и робототехнике на базе автономной некоммерческой организации \"университет национальной технологич",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic2",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "ьным общеобразовательным программам (далее также - курсы) по современным языкам программирования, технологиям искусственного интеллекта, робототехнике, а также по обучению базовым навыкам в области информационных технологий и искусств",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic3",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "твенного интеллекта, робототехнике, а также по обучению базовым навыкам в области информационных технологий и искусственного интеллекта. значением результата является количество обученных школьников и обучающихся по программам спо по ",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic4",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "ртому модулям в рамках набора предыдущего года. на курсах по современным языкам программирования, технологиям искусственного интеллекта, робототехнике могут обучаться школьники, а также обучающиеся по профессиям и специальностям спо т",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic5",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "цепцией реализации мероприятия. общая трудоемкость курсов по современным языкам программирования, технологиям искусственного интеллекта и робототехнике составляет не менее 144 академических часов. курсы по современным языкам программи",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic6",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "ехнике составляет не менее 144 академических часов. курсы по современным языкам программирования, технологиям искусственного интеллекта и робототехнике реализуются в очном формате в модульной форме и состоят из 4 модулей, которые осва",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic7",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "дача сертификатов об их освоении. на курсах по обучению базовым навыкам в области информационных технологий и искусственного интеллекта могут обучаться школьники и обучающиеся по всем профессиям и специальностям спо вне зависимости от",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic8",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственному",
+      "context": "х сертификат об освоении дополнительной общеобразовательной программы по современным языкам программирования, искусственному интеллекту или робототехнике, реализуемой с использованием мер государственной поддержки доля выпускников, об",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic9",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "сокращение дефицита высококвалифицированных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынк",
+      "unit_id": "fp_342:profile1",
+      "unit_ids": [
+        "fp_342:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic10",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "рактико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в сфере информационных технологий, прошедших обучение по актуализированным программам, соответствующим требованиям отрасли удовлетворена потреб",
+      "unit_id": "fp_342:profile2",
+      "unit_ids": [
+        "fp_342:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic11",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": " программам, соответствующим требованиям отрасли удовлетворена потребность рынка труда в специалистах в сфере информационных технологий для обеспечения темпа роста инвестиций в отечественные решения в сфере информационных технологий вдвое выше т",
+      "unit_id": "fp_342:profile3",
+      "unit_ids": [
+        "fp_342:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic12",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "стах в сфере информационных технологий для обеспечения темпа роста инвестиций в отечественные решения в сфере информационных технологий вдвое выше темпа роста валового внутреннего продукта обучены школьники 8 - 11 классов и обучающиеся по програ",
+      "unit_id": "fp_342:profile3",
+      "unit_ids": [
+        "fp_342:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic13",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "го профессионального образования по дополнительному курсу по современным языкам программирования, технологиям искусственного интеллекта и робототехнике на базе автономной некоммерческой организации \"университет национальной технологической иници",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic14",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "ьным общеобразовательным программам (далее также - курсы) по современным языкам программирования, технологиям искусственного интеллекта, робототехнике, а также по обучению базовым навыкам в области информационных технологий и искусственного инте",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic15",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "ирования, технологиям искусственного интеллекта, робототехнике, а также по обучению базовым навыкам в области информационных технологий и искусственного интеллекта. значением результата является количество обученных школьников и обучающихся по п",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic16",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "твенного интеллекта, робототехнике, а также по обучению базовым навыкам в области информационных технологий и искусственного интеллекта. значением результата является количество обученных школьников и обучающихся по программам спо по модулям кур",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic17",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "ртому модулям в рамках набора предыдущего года. на курсах по современным языкам программирования, технологиям искусственного интеллекта, робототехнике могут обучаться школьники, а также обучающиеся по профессиям и специальностям спо только в обл",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic18",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "ототехнике могут обучаться школьники, а также обучающиеся по профессиям и специальностям спо только в области информационных технологий, перечень которых определен концепцией реализации мероприятия. общая трудоемкость курсов по современным языка",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic19",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "цепцией реализации мероприятия. общая трудоемкость курсов по современным языкам программирования, технологиям искусственного интеллекта и робототехнике составляет не менее 144 академических часов. курсы по современным языкам программирования, те",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic20",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "ехнике составляет не менее 144 академических часов. курсы по современным языкам программирования, технологиям искусственного интеллекта и робототехнике реализуются в очном формате в модульной форме и состоят из 4 модулей, которые осваиваются пос",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic21",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "ме в целом обеспечивается выдача сертификатов об их освоении. на курсах по обучению базовым навыкам в области информационных технологий и искусственного интеллекта могут обучаться школьники и обучающиеся по всем профессиям и специальностям спо в",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic22",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "дача сертификатов об их освоении. на курсах по обучению базовым навыкам в области информационных технологий и искусственного интеллекта могут обучаться школьники и обучающиеся по всем профессиям и специальностям спо вне зависимости от их направл",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic23",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "и и обеспечено успешное подтверждение ит-компетенций (базового, среднего, продвинутого уровня) разработчиками программного обеспечения посредством национальной системы подтверждения компетенций разработчиков программного обеспечения обеспечено ",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic24",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "работчиками программного обеспечения посредством национальной системы подтверждения компетенций разработчиков программного обеспечения обеспечено успешное подтверждение ит-компетенций (базового, среднего, продвинутого уровня) разработчиками про",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic25",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "ния обеспечено успешное подтверждение ит-компетенций (базового, среднего, продвинутого уровня) разработчиками программного обеспечения посредством национальной системы подтверждения компетенций разработчиков программного обеспечения - системы д",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic26",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "работчиками программного обеспечения посредством национальной системы подтверждения компетенций разработчиков программного обеспечения - системы для взаимодействия государства, граждан российской федерации, ит-компаний, ассоциаций, образователь",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic27",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "льтата в 2025 году (1 единица) отражает создание национальной системы подтверждения компетенций разработчиков программного обеспечения. в 2026 -2030 годах значение результата отражает количество разработчиков программного обеспечения, успешно п",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic28",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "работчиков программного обеспечения. в 2026 -2030 годах значение результата отражает количество разработчиков программного обеспечения, успешно подтвердивших ит-компетенции (базового, среднего, продвинутого уровня)» с помощью национальной систе",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic29",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "ового, среднего, продвинутого уровня)» с помощью национальной системы подтверждения компетенций разработчиков программного обеспечения. обеспечено практико-ориентированное обучение в образовательных организациях высшего образования на ит-програ",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic30",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": " обеспечено обучение студентов по образовательным программам высшего образования для топ-специалистов в сфере информационных технологий на базе автономной некоммерческой организации \"аналитический центр при правительстве российской федерации\" ст",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic31",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "льным программам высшего образования, направленным на подготовку высококвалифицированных специалистов в сфере информационных технологий, обладающих продвинутыми ит-компетенциями, в том числе разработчиков ит-решений (далее соответственно - образ",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic32",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "ботников из числа профессорско-преподавательского состава по направлениям подготовки и специальностям в сфере информационных технологий (далее - ппс). роп разрабатывают образовательные программы, по которым обучаются топ-специалисты. обеспечивае",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic33",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственному интеллекту",
+      "context": "х сертификат об освоении дополнительной общеобразовательной программы по современным языкам программирования, искусственному интеллекту или робототехнике, реализуемой с использованием мер государственной поддержки доля выпускников, обученных по ",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic34",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "рованных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в сфере информационных технологий, прошедших об",
+      "unit_id": "fp_342:profile1",
+      "unit_ids": [
+        "fp_342:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic35",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьники",
+      "context": "венные решения в сфере информационных технологий вдвое выше темпа роста валового внутреннего продукта обучены школьники 8 - 11 классов и обучающиеся по программам среднего профессионального образования по дополнительному курсу по",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic36",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": " внутреннего продукта обучены школьники 8 - 11 классов и обучающиеся по программам среднего профессионального образования по дополнительному курсу по современным языкам программирования, технологиям искусственного интеллекта и робо",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic37",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьники",
+      "context": "нике на базе автономной некоммерческой организации \"университет национальной технологической инициативы 2035\" школьники 8 - 11 классов (далее - школьники) и обучающиеся по программам среднего профессионального образования (далее ",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic38",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьники",
+      "context": "ской организации \"университет национальной технологической инициативы 2035\" школьники 8 - 11 классов (далее - школьники) и обучающиеся по программам среднего профессионального образования (далее - спо), подтвердившие факт обучени",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic39",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "ивы 2035\" школьники 8 - 11 классов (далее - школьники) и обучающиеся по программам среднего профессионального образования (далее - спо), подтвердившие факт обучения в соответствующем классе или по программе спо на момент первичного",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic40",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьников",
+      "context": "сти информационных технологий и искусственного интеллекта. значением результата является количество обученных школьников и обучающихся по программам спо по модулям курса: в 2025 году по первому модулю курса в 2026-2029 годах по вт",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic41",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьники",
+      "context": " по современным языкам программирования, технологиям искусственного интеллекта, робототехнике могут обучаться школьники, а также обучающиеся по профессиям и специальностям спо только в области информационных технологий, перечень ",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic42",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьники",
+      "context": "х по обучению базовым навыкам в области информационных технологий и искусственного интеллекта могут обучаться школьники и обучающиеся по всем профессиям и специальностям спо вне зависимости от их направленности. общая трудоемкост",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic43",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": " обеспечения - системы для взаимодействия государства, граждан российской федерации, ит-компаний, ассоциаций, образовательных организаций и профильных институтов развития, которая обеспечит государство актуальной информацией об отрасле",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic44",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "дтвердить уровень владения ит-компетенциями добровольно и безвозмездно вне зависимости от наличия профильного образования в соответствии с единой методологией подтверждения ит-компетенций, согласованной оператором платформы подтвер",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic45",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "тверждения компетенций разработчиков программного обеспечения. обеспечено практико-ориентированное обучение в образовательных организациях высшего образования на ит-программах с участием аккредитованных ит-компаний студенты, обучающиес",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic46",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "программного обеспечения. обеспечено практико-ориентированное обучение в образовательных организациях высшего образования на ит-программах с участием аккредитованных ит-компаний студенты, обучающиеся по направлениям подготовки и сп",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic47",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студенты",
+      "context": "ие в образовательных организациях высшего образования на ит-программах с участием аккредитованных ит-компаний студенты, обучающиеся по направлениям подготовки и специальностям в сфере ит (далее - ит-специальности), обучаются по ",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic48",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "ниям подготовки и специальностям в сфере ит (далее - ит-специальности), обучаются по практико-ориентированным образовательным программам, реализуемым образовательными организациями высшего образования совместно с аккредитованными ит-ко",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic49",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательными",
+      "context": " ит (далее - ит-специальности), обучаются по практико-ориентированным образовательным программам, реализуемым образовательными организациями высшего образования совместно с аккредитованными ит-компаниями. компетенции студентов, обученны",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic50",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "ся по практико-ориентированным образовательным программам, реализуемым образовательными организациями высшего образования совместно с аккредитованными ит-компаниями. компетенции студентов, обученных по практико-ориентированным обра",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic51",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "ым образовательными организациями высшего образования совместно с аккредитованными ит-компаниями. компетенции студентов, обученных по практико-ориентированным образовательным программам по ит-специальностям, соответствуют требова",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic52",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "ания совместно с аккредитованными ит-компаниями. компетенции студентов, обученных по практико-ориентированным образовательным программам по ит-специальностям, соответствуют требованиям ит-компаний. определены типовые способы взаимодейс",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic53",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательной",
+      "context": " по ит-специальностям, соответствуют требованиям ит-компаний. определены типовые способы взаимодействия между образовательной организацией высшего образования и ит-компанией в рамках обучения студентов по ит-специальностям. внесены изм",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic54",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "требованиям ит-компаний. определены типовые способы взаимодействия между образовательной организацией высшего образования и ит-компанией в рамках обучения студентов по ит-специальностям. внесены изменения в нормативные правовые акт",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic55",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "пособы взаимодействия между образовательной организацией высшего образования и ит-компанией в рамках обучения студентов по ит-специальностям. внесены изменения в нормативные правовые акты в части установления требования об участи",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic56",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "есены изменения в нормативные правовые акты в части установления требования об участии ит-компаний в обучении студентов ит-специальностей для получения указанными ит-компаниями предусмотренных законодательством льгот для ит-компа",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic57",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "лучения указанными ит-компаниями предусмотренных законодательством льгот для ит-компаний. обеспечено обучение студентов по образовательным программам высшего образования для топ-специалистов в сфере информационных технологий на б",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic58",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "нными ит-компаниями предусмотренных законодательством льгот для ит-компаний. обеспечено обучение студентов по образовательным программам высшего образования для топ-специалистов в сфере информационных технологий на базе автономной неко",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic59",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": " законодательством льгот для ит-компаний. обеспечено обучение студентов по образовательным программам высшего образования для топ-специалистов в сфере информационных технологий на базе автономной некоммерческой организации \"аналити",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic60",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студенты",
+      "context": "ий на базе автономной некоммерческой организации \"аналитический центр при правительстве российской федерации\" студенты обучаются по образовательным программам высшего образования, направленным на подготовку высококвалифицированн",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic61",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "некоммерческой организации \"аналитический центр при правительстве российской федерации\" студенты обучаются по образовательным программам высшего образования, направленным на подготовку высококвалифицированных специалистов в сфере инфор",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic62",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "ческий центр при правительстве российской федерации\" студенты обучаются по образовательным программам высшего образования, направленным на подготовку высококвалифицированных специалистов в сфере информационных технологий, обладающи",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic63",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательные",
+      "context": "логий, обладающих продвинутыми ит-компетенциями, в том числе разработчиков ит-решений (далее соответственно - образовательные программы, топ-специалисты, ит). обеспечивается повышение квалификации руководителей образовательных программ",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic64",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "твенно - образовательные программы, топ-специалисты, ит). обеспечивается повышение квалификации руководителей образовательных программ (далее - роп) и работников из числа профессорско-преподавательского состава по направлениям подготов",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic65",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательные",
+      "context": "о направлениям подготовки и специальностям в сфере информационных технологий (далее - ппс). роп разрабатывают образовательные программы, по которым обучаются топ-специалисты. обеспечивается поддержка роп и ппс. проводится независимая о",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic66",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "орым обучаются топ-специалисты. обеспечивается поддержка роп и ппс. проводится независимая оценка компетенций студентов, обучающихся по образовательным программам. обеспечивается тиражирование образовательных практик для массовой",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic67",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "исты. обеспечивается поддержка роп и ппс. проводится независимая оценка компетенций студентов, обучающихся по образовательным программам. обеспечивается тиражирование образовательных практик для массовой подготовки ит-специалистов. обр",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic68",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "висимая оценка компетенций студентов, обучающихся по образовательным программам. обеспечивается тиражирование образовательных практик для массовой подготовки ит-специалистов. образовательным организациям высшего образования (далее - ву",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic69",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "ным программам. обеспечивается тиражирование образовательных практик для массовой подготовки ит-специалистов. образовательным организациям высшего образования (далее - вузы) предоставлен доступ к лучшим образовательным практикам от вед",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic70",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "рование образовательных практик для массовой подготовки ит-специалистов. образовательным организациям высшего образования (далее - вузы) предоставлен доступ к лучшим образовательным практикам от ведущих вузов и рекомендации по внед",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic71",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "вузы",
+      "context": "ых практик для массовой подготовки ит-специалистов. образовательным организациям высшего образования (далее - вузы) предоставлен доступ к лучшим образовательным практикам от ведущих вузов и рекомендации по внедрению образова",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic72",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "ит-специалистов. образовательным организациям высшего образования (далее - вузы) предоставлен доступ к лучшим образовательным практикам от ведущих вузов и рекомендации по внедрению образовательных программ, предназначенных для подготов",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic73",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "вузов",
+      "context": "низациям высшего образования (далее - вузы) предоставлен доступ к лучшим образовательным практикам от ведущих вузов и рекомендации по внедрению образовательных программ, предназначенных для подготовки ит-специалистов. количес",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic74",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "е - вузы) предоставлен доступ к лучшим образовательным практикам от ведущих вузов и рекомендации по внедрению образовательных программ, предназначенных для подготовки ит-специалистов. количество школьников 8-11 классов и студентов сред",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic75",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьников",
+      "context": "екомендации по внедрению образовательных программ, предназначенных для подготовки ит-специалистов. количество школьников 8-11 классов и студентов среднего профессионального образования, получивших сертификат об освоении дополнител",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic76",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "бразовательных программ, предназначенных для подготовки ит-специалистов. количество школьников 8-11 классов и студентов среднего профессионального образования, получивших сертификат об освоении дополнительной общеобразовательной ",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic77",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "ных для подготовки ит-специалистов. количество школьников 8-11 классов и студентов среднего профессионального образования, получивших сертификат об освоении дополнительной общеобразовательной программы по современным языкам програм",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic78",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "сокращение дефицита высококвалифицированных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в с",
+      "unit_id": "fp_342:profile1",
+      "unit_ids": [
+        "fp_342:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic79",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": "мпа роста валового внутреннего продукта обучены школьники 8 - 11 классов и обучающиеся по программам среднего профессионального образования по дополнительному курсу по современным языкам программирования, технологиям искусственного интел",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic80",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": "логической инициативы 2035\" школьники 8 - 11 классов (далее - школьники) и обучающиеся по программам среднего профессионального образования (далее - спо), подтвердившие факт обучения в соответствующем классе или по программе спо на момен",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic81",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессиям",
+      "context": "вания, технологиям искусственного интеллекта, робототехнике могут обучаться школьники, а также обучающиеся по профессиям и специальностям спо только в области информационных технологий, перечень которых определен концепцией реализ",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic82",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессиям",
+      "context": "области информационных технологий и искусственного интеллекта могут обучаться школьники и обучающиеся по всем профессиям и специальностям спо вне зависимости от их направленности. общая трудоемкость курсов по обучению базовым навы",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic83",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "работодателям",
+      "context": "х институтов развития, которая обеспечит государство актуальной информацией об отраслевом балансе в ит-сфере, работодателям позволит сократить средний срок закрытия вакансий на должность разработчика или иного ит-специалиста, а гражд",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic84",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "квалификации",
+      "context": " ит-решений (далее соответственно - образовательные программы, топ-специалисты, ит). обеспечивается повышение квалификации руководителей образовательных программ (далее - роп) и работников из числа профессорско-преподавательского со",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic85",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессорско",
+      "context": "спечивается повышение квалификации руководителей образовательных программ (далее - роп) и работников из числа профессорско-преподавательского состава по направлениям подготовки и специальностям в сфере информационных технологий (дал",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic86",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": "рамм, предназначенных для подготовки ит-специалистов. количество школьников 8-11 классов и студентов среднего профессионального образования, получивших сертификат об освоении дополнительной общеобразовательной программы по современным яз",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic87",
+      "document_id": "fp_342",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "етворена потребность рынка труда в специалистах в сфере информационных технологий для обеспечения темпа роста инвестиций в отечественные решения в сфере информационных технологий вдвое выше темпа роста валового внутреннего продукт",
+      "unit_id": "fp_342:profile3",
+      "unit_ids": [
+        "fp_342:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic88",
+      "document_id": "fp_342",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "е программы, по которым обучаются топ-специалисты. обеспечивается поддержка роп и ппс. проводится независимая оценка компетенций студентов, обучающихся по образовательным программам. обеспечивается тиражирование образовательны",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic89",
+      "document_id": "fp_342",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": "сственного интеллекта и робототехнике на базе автономной некоммерческой организации \"университет национальной технологической инициативы 2035\" школьники 8 - 11 классов (далее - школьники) и обучающиеся по программам среднего профессион",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_342:kwic1",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "го профессионального образования по дополнительному курсу по современным языкам программирования, технологиям искусственного интеллекта и робототехнике на базе автономной некоммерческой организации \"университет национальной технологич",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic2",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "ьным общеобразовательным программам (далее также - курсы) по современным языкам программирования, технологиям искусственного интеллекта, робототехнике, а также по обучению базовым навыкам в области информационных технологий и искусств",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic3",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "твенного интеллекта, робототехнике, а также по обучению базовым навыкам в области информационных технологий и искусственного интеллекта. значением результата является количество обученных школьников и обучающихся по программам спо по ",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic4",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "ртому модулям в рамках набора предыдущего года. на курсах по современным языкам программирования, технологиям искусственного интеллекта, робототехнике могут обучаться школьники, а также обучающиеся по профессиям и специальностям спо т",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic5",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "цепцией реализации мероприятия. общая трудоемкость курсов по современным языкам программирования, технологиям искусственного интеллекта и робототехнике составляет не менее 144 академических часов. курсы по современным языкам программи",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic6",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "ехнике составляет не менее 144 академических часов. курсы по современным языкам программирования, технологиям искусственного интеллекта и робототехнике реализуются в очном формате в модульной форме и состоят из 4 модулей, которые осва",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic7",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "дача сертификатов об их освоении. на курсах по обучению базовым навыкам в области информационных технологий и искусственного интеллекта могут обучаться школьники и обучающиеся по всем профессиям и специальностям спо вне зависимости от",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic8",
+      "document_id": "fp_342",
+      "frame": "culture_values",
+      "matched": "искусственному",
+      "context": "х сертификат об освоении дополнительной общеобразовательной программы по современным языкам программирования, искусственному интеллекту или робототехнике, реализуемой с использованием мер государственной поддержки доля выпускников, об",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic9",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "сокращение дефицита высококвалифицированных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынк",
+      "unit_id": "fp_342:profile1",
+      "unit_ids": [
+        "fp_342:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic10",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "рактико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в сфере информационных технологий, прошедших обучение по актуализированным программам, соответствующим требованиям отрасли удовлетворена потреб",
+      "unit_id": "fp_342:profile2",
+      "unit_ids": [
+        "fp_342:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic11",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": " программам, соответствующим требованиям отрасли удовлетворена потребность рынка труда в специалистах в сфере информационных технологий для обеспечения темпа роста инвестиций в отечественные решения в сфере информационных технологий вдвое выше т",
+      "unit_id": "fp_342:profile3",
+      "unit_ids": [
+        "fp_342:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic12",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "стах в сфере информационных технологий для обеспечения темпа роста инвестиций в отечественные решения в сфере информационных технологий вдвое выше темпа роста валового внутреннего продукта обучены школьники 8 - 11 классов и обучающиеся по програ",
+      "unit_id": "fp_342:profile3",
+      "unit_ids": [
+        "fp_342:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic13",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "го профессионального образования по дополнительному курсу по современным языкам программирования, технологиям искусственного интеллекта и робототехнике на базе автономной некоммерческой организации \"университет национальной технологической иници",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic14",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "ьным общеобразовательным программам (далее также - курсы) по современным языкам программирования, технологиям искусственного интеллекта, робототехнике, а также по обучению базовым навыкам в области информационных технологий и искусственного инте",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic15",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "ирования, технологиям искусственного интеллекта, робототехнике, а также по обучению базовым навыкам в области информационных технологий и искусственного интеллекта. значением результата является количество обученных школьников и обучающихся по п",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic16",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "твенного интеллекта, робототехнике, а также по обучению базовым навыкам в области информационных технологий и искусственного интеллекта. значением результата является количество обученных школьников и обучающихся по программам спо по модулям кур",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic17",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "ртому модулям в рамках набора предыдущего года. на курсах по современным языкам программирования, технологиям искусственного интеллекта, робототехнике могут обучаться школьники, а также обучающиеся по профессиям и специальностям спо только в обл",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic18",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "ототехнике могут обучаться школьники, а также обучающиеся по профессиям и специальностям спо только в области информационных технологий, перечень которых определен концепцией реализации мероприятия. общая трудоемкость курсов по современным языка",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic19",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "цепцией реализации мероприятия. общая трудоемкость курсов по современным языкам программирования, технологиям искусственного интеллекта и робототехнике составляет не менее 144 академических часов. курсы по современным языкам программирования, те",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic20",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "ехнике составляет не менее 144 академических часов. курсы по современным языкам программирования, технологиям искусственного интеллекта и робототехнике реализуются в очном формате в модульной форме и состоят из 4 модулей, которые осваиваются пос",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic21",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "ме в целом обеспечивается выдача сертификатов об их освоении. на курсах по обучению базовым навыкам в области информационных технологий и искусственного интеллекта могут обучаться школьники и обучающиеся по всем профессиям и специальностям спо в",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic22",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "дача сертификатов об их освоении. на курсах по обучению базовым навыкам в области информационных технологий и искусственного интеллекта могут обучаться школьники и обучающиеся по всем профессиям и специальностям спо вне зависимости от их направл",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic23",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "и и обеспечено успешное подтверждение ит-компетенций (базового, среднего, продвинутого уровня) разработчиками программного обеспечения посредством национальной системы подтверждения компетенций разработчиков программного обеспечения обеспечено ",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic24",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "работчиками программного обеспечения посредством национальной системы подтверждения компетенций разработчиков программного обеспечения обеспечено успешное подтверждение ит-компетенций (базового, среднего, продвинутого уровня) разработчиками про",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic25",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "ния обеспечено успешное подтверждение ит-компетенций (базового, среднего, продвинутого уровня) разработчиками программного обеспечения посредством национальной системы подтверждения компетенций разработчиков программного обеспечения - системы д",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic26",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "работчиками программного обеспечения посредством национальной системы подтверждения компетенций разработчиков программного обеспечения - системы для взаимодействия государства, граждан российской федерации, ит-компаний, ассоциаций, образователь",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic27",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "льтата в 2025 году (1 единица) отражает создание национальной системы подтверждения компетенций разработчиков программного обеспечения. в 2026 -2030 годах значение результата отражает количество разработчиков программного обеспечения, успешно п",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic28",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "работчиков программного обеспечения. в 2026 -2030 годах значение результата отражает количество разработчиков программного обеспечения, успешно подтвердивших ит-компетенции (базового, среднего, продвинутого уровня)» с помощью национальной систе",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic29",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "ового, среднего, продвинутого уровня)» с помощью национальной системы подтверждения компетенций разработчиков программного обеспечения. обеспечено практико-ориентированное обучение в образовательных организациях высшего образования на ит-програ",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic30",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": " обеспечено обучение студентов по образовательным программам высшего образования для топ-специалистов в сфере информационных технологий на базе автономной некоммерческой организации \"аналитический центр при правительстве российской федерации\" ст",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic31",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "льным программам высшего образования, направленным на подготовку высококвалифицированных специалистов в сфере информационных технологий, обладающих продвинутыми ит-компетенциями, в том числе разработчиков ит-решений (далее соответственно - образ",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic32",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "ботников из числа профессорско-преподавательского состава по направлениям подготовки и специальностям в сфере информационных технологий (далее - ппс). роп разрабатывают образовательные программы, по которым обучаются топ-специалисты. обеспечивае",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic33",
+      "document_id": "fp_342",
+      "frame": "digital_data",
+      "matched": "искусственному интеллекту",
+      "context": "х сертификат об освоении дополнительной общеобразовательной программы по современным языкам программирования, искусственному интеллекту или робототехнике, реализуемой с использованием мер государственной поддержки доля выпускников, обученных по ",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic34",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "рованных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в сфере информационных технологий, прошедших об",
+      "unit_id": "fp_342:profile1",
+      "unit_ids": [
+        "fp_342:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic35",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьники",
+      "context": "венные решения в сфере информационных технологий вдвое выше темпа роста валового внутреннего продукта обучены школьники 8 - 11 классов и обучающиеся по программам среднего профессионального образования по дополнительному курсу по",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic36",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": " внутреннего продукта обучены школьники 8 - 11 классов и обучающиеся по программам среднего профессионального образования по дополнительному курсу по современным языкам программирования, технологиям искусственного интеллекта и робо",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic37",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьники",
+      "context": "нике на базе автономной некоммерческой организации \"университет национальной технологической инициативы 2035\" школьники 8 - 11 классов (далее - школьники) и обучающиеся по программам среднего профессионального образования (далее ",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic38",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьники",
+      "context": "ской организации \"университет национальной технологической инициативы 2035\" школьники 8 - 11 классов (далее - школьники) и обучающиеся по программам среднего профессионального образования (далее - спо), подтвердившие факт обучени",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic39",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "ивы 2035\" школьники 8 - 11 классов (далее - школьники) и обучающиеся по программам среднего профессионального образования (далее - спо), подтвердившие факт обучения в соответствующем классе или по программе спо на момент первичного",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic40",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьников",
+      "context": "сти информационных технологий и искусственного интеллекта. значением результата является количество обученных школьников и обучающихся по программам спо по модулям курса: в 2025 году по первому модулю курса в 2026-2029 годах по вт",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic41",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьники",
+      "context": " по современным языкам программирования, технологиям искусственного интеллекта, робототехнике могут обучаться школьники, а также обучающиеся по профессиям и специальностям спо только в области информационных технологий, перечень ",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic42",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьники",
+      "context": "х по обучению базовым навыкам в области информационных технологий и искусственного интеллекта могут обучаться школьники и обучающиеся по всем профессиям и специальностям спо вне зависимости от их направленности. общая трудоемкост",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic43",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": " обеспечения - системы для взаимодействия государства, граждан российской федерации, ит-компаний, ассоциаций, образовательных организаций и профильных институтов развития, которая обеспечит государство актуальной информацией об отрасле",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic44",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "дтвердить уровень владения ит-компетенциями добровольно и безвозмездно вне зависимости от наличия профильного образования в соответствии с единой методологией подтверждения ит-компетенций, согласованной оператором платформы подтвер",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic45",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "тверждения компетенций разработчиков программного обеспечения. обеспечено практико-ориентированное обучение в образовательных организациях высшего образования на ит-программах с участием аккредитованных ит-компаний студенты, обучающиес",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic46",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "программного обеспечения. обеспечено практико-ориентированное обучение в образовательных организациях высшего образования на ит-программах с участием аккредитованных ит-компаний студенты, обучающиеся по направлениям подготовки и сп",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic47",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студенты",
+      "context": "ие в образовательных организациях высшего образования на ит-программах с участием аккредитованных ит-компаний студенты, обучающиеся по направлениям подготовки и специальностям в сфере ит (далее - ит-специальности), обучаются по ",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic48",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "ниям подготовки и специальностям в сфере ит (далее - ит-специальности), обучаются по практико-ориентированным образовательным программам, реализуемым образовательными организациями высшего образования совместно с аккредитованными ит-ко",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic49",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательными",
+      "context": " ит (далее - ит-специальности), обучаются по практико-ориентированным образовательным программам, реализуемым образовательными организациями высшего образования совместно с аккредитованными ит-компаниями. компетенции студентов, обученны",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic50",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "ся по практико-ориентированным образовательным программам, реализуемым образовательными организациями высшего образования совместно с аккредитованными ит-компаниями. компетенции студентов, обученных по практико-ориентированным обра",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic51",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "ым образовательными организациями высшего образования совместно с аккредитованными ит-компаниями. компетенции студентов, обученных по практико-ориентированным образовательным программам по ит-специальностям, соответствуют требова",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic52",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "ания совместно с аккредитованными ит-компаниями. компетенции студентов, обученных по практико-ориентированным образовательным программам по ит-специальностям, соответствуют требованиям ит-компаний. определены типовые способы взаимодейс",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic53",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательной",
+      "context": " по ит-специальностям, соответствуют требованиям ит-компаний. определены типовые способы взаимодействия между образовательной организацией высшего образования и ит-компанией в рамках обучения студентов по ит-специальностям. внесены изм",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic54",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "требованиям ит-компаний. определены типовые способы взаимодействия между образовательной организацией высшего образования и ит-компанией в рамках обучения студентов по ит-специальностям. внесены изменения в нормативные правовые акт",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic55",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "пособы взаимодействия между образовательной организацией высшего образования и ит-компанией в рамках обучения студентов по ит-специальностям. внесены изменения в нормативные правовые акты в части установления требования об участи",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic56",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "есены изменения в нормативные правовые акты в части установления требования об участии ит-компаний в обучении студентов ит-специальностей для получения указанными ит-компаниями предусмотренных законодательством льгот для ит-компа",
+      "unit_id": "fp_342:profile6",
+      "unit_ids": [
+        "fp_342:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic57",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "лучения указанными ит-компаниями предусмотренных законодательством льгот для ит-компаний. обеспечено обучение студентов по образовательным программам высшего образования для топ-специалистов в сфере информационных технологий на б",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic58",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "нными ит-компаниями предусмотренных законодательством льгот для ит-компаний. обеспечено обучение студентов по образовательным программам высшего образования для топ-специалистов в сфере информационных технологий на базе автономной неко",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic59",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": " законодательством льгот для ит-компаний. обеспечено обучение студентов по образовательным программам высшего образования для топ-специалистов в сфере информационных технологий на базе автономной некоммерческой организации \"аналити",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic60",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студенты",
+      "context": "ий на базе автономной некоммерческой организации \"аналитический центр при правительстве российской федерации\" студенты обучаются по образовательным программам высшего образования, направленным на подготовку высококвалифицированн",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic61",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "некоммерческой организации \"аналитический центр при правительстве российской федерации\" студенты обучаются по образовательным программам высшего образования, направленным на подготовку высококвалифицированных специалистов в сфере инфор",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic62",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "ческий центр при правительстве российской федерации\" студенты обучаются по образовательным программам высшего образования, направленным на подготовку высококвалифицированных специалистов в сфере информационных технологий, обладающи",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic63",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательные",
+      "context": "логий, обладающих продвинутыми ит-компетенциями, в том числе разработчиков ит-решений (далее соответственно - образовательные программы, топ-специалисты, ит). обеспечивается повышение квалификации руководителей образовательных программ",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic64",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "твенно - образовательные программы, топ-специалисты, ит). обеспечивается повышение квалификации руководителей образовательных программ (далее - роп) и работников из числа профессорско-преподавательского состава по направлениям подготов",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic65",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательные",
+      "context": "о направлениям подготовки и специальностям в сфере информационных технологий (далее - ппс). роп разрабатывают образовательные программы, по которым обучаются топ-специалисты. обеспечивается поддержка роп и ппс. проводится независимая о",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic66",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "орым обучаются топ-специалисты. обеспечивается поддержка роп и ппс. проводится независимая оценка компетенций студентов, обучающихся по образовательным программам. обеспечивается тиражирование образовательных практик для массовой",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic67",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "исты. обеспечивается поддержка роп и ппс. проводится независимая оценка компетенций студентов, обучающихся по образовательным программам. обеспечивается тиражирование образовательных практик для массовой подготовки ит-специалистов. обр",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic68",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "висимая оценка компетенций студентов, обучающихся по образовательным программам. обеспечивается тиражирование образовательных практик для массовой подготовки ит-специалистов. образовательным организациям высшего образования (далее - ву",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic69",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "ным программам. обеспечивается тиражирование образовательных практик для массовой подготовки ит-специалистов. образовательным организациям высшего образования (далее - вузы) предоставлен доступ к лучшим образовательным практикам от вед",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic70",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "рование образовательных практик для массовой подготовки ит-специалистов. образовательным организациям высшего образования (далее - вузы) предоставлен доступ к лучшим образовательным практикам от ведущих вузов и рекомендации по внед",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic71",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "вузы",
+      "context": "ых практик для массовой подготовки ит-специалистов. образовательным организациям высшего образования (далее - вузы) предоставлен доступ к лучшим образовательным практикам от ведущих вузов и рекомендации по внедрению образова",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic72",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательным",
+      "context": "ит-специалистов. образовательным организациям высшего образования (далее - вузы) предоставлен доступ к лучшим образовательным практикам от ведущих вузов и рекомендации по внедрению образовательных программ, предназначенных для подготов",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic73",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "вузов",
+      "context": "низациям высшего образования (далее - вузы) предоставлен доступ к лучшим образовательным практикам от ведущих вузов и рекомендации по внедрению образовательных программ, предназначенных для подготовки ит-специалистов. количес",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic74",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "е - вузы) предоставлен доступ к лучшим образовательным практикам от ведущих вузов и рекомендации по внедрению образовательных программ, предназначенных для подготовки ит-специалистов. количество школьников 8-11 классов и студентов сред",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic75",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "школьников",
+      "context": "екомендации по внедрению образовательных программ, предназначенных для подготовки ит-специалистов. количество школьников 8-11 классов и студентов среднего профессионального образования, получивших сертификат об освоении дополнител",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic76",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "студентов",
+      "context": "бразовательных программ, предназначенных для подготовки ит-специалистов. количество школьников 8-11 классов и студентов среднего профессионального образования, получивших сертификат об освоении дополнительной общеобразовательной ",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic77",
+      "document_id": "fp_342",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "ных для подготовки ит-специалистов. количество школьников 8-11 классов и студентов среднего профессионального образования, получивших сертификат об освоении дополнительной общеобразовательной программы по современным языкам програм",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic78",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "сокращение дефицита высококвалифицированных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в с",
+      "unit_id": "fp_342:profile1",
+      "unit_ids": [
+        "fp_342:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic79",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": "мпа роста валового внутреннего продукта обучены школьники 8 - 11 классов и обучающиеся по программам среднего профессионального образования по дополнительному курсу по современным языкам программирования, технологиям искусственного интел",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic80",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": "логической инициативы 2035\" школьники 8 - 11 классов (далее - школьники) и обучающиеся по программам среднего профессионального образования (далее - спо), подтвердившие факт обучения в соответствующем классе или по программе спо на момен",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic81",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессиям",
+      "context": "вания, технологиям искусственного интеллекта, робототехнике могут обучаться школьники, а также обучающиеся по профессиям и специальностям спо только в области информационных технологий, перечень которых определен концепцией реализ",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic82",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессиям",
+      "context": "области информационных технологий и искусственного интеллекта могут обучаться школьники и обучающиеся по всем профессиям и специальностям спо вне зависимости от их направленности. общая трудоемкость курсов по обучению базовым навы",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic83",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "работодателям",
+      "context": "х институтов развития, которая обеспечит государство актуальной информацией об отраслевом балансе в ит-сфере, работодателям позволит сократить средний срок закрытия вакансий на должность разработчика или иного ит-специалиста, а гражд",
+      "unit_id": "fp_342:profile5",
+      "unit_ids": [
+        "fp_342:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic84",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "квалификации",
+      "context": " ит-решений (далее соответственно - образовательные программы, топ-специалисты, ит). обеспечивается повышение квалификации руководителей образовательных программ (далее - роп) и работников из числа профессорско-преподавательского со",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic85",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессорско",
+      "context": "спечивается повышение квалификации руководителей образовательных программ (далее - роп) и работников из числа профессорско-преподавательского состава по направлениям подготовки и специальностям в сфере информационных технологий (дал",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic86",
+      "document_id": "fp_342",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": "рамм, предназначенных для подготовки ит-специалистов. количество школьников 8-11 классов и студентов среднего профессионального образования, получивших сертификат об освоении дополнительной общеобразовательной программы по современным яз",
+      "unit_id": "fp_342:profile8",
+      "unit_ids": [
+        "fp_342:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic87",
+      "document_id": "fp_342",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "етворена потребность рынка труда в специалистах в сфере информационных технологий для обеспечения темпа роста инвестиций в отечественные решения в сфере информационных технологий вдвое выше темпа роста валового внутреннего продукт",
+      "unit_id": "fp_342:profile3",
+      "unit_ids": [
+        "fp_342:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic88",
+      "document_id": "fp_342",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "е программы, по которым обучаются топ-специалисты. обеспечивается поддержка роп и ппс. проводится независимая оценка компетенций студентов, обучающихся по образовательным программам. обеспечивается тиражирование образовательны",
+      "unit_id": "fp_342:profile7",
+      "unit_ids": [
+        "fp_342:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_342:kwic89",
+      "document_id": "fp_342",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": "сственного интеллекта и робототехнике на базе автономной некоммерческой организации \"университет национальной технологической инициативы 2035\" школьники 8 - 11 классов (далее - школьники) и обучающиеся по программам среднего профессион",
+      "unit_id": "fp_342:profile4",
+      "unit_ids": [
+        "fp_342:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_url": "https://databudget.ru/projects/fp/342",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/342",
+  "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac"
+}

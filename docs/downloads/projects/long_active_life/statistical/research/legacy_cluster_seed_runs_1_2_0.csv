@@ -1,0 +1,8 @@
+﻿project_id,panel_id,seed,baseline_k,selected_k,silhouette,ari_selected_vs_baseline,ari_fixed_k_vs_baseline,fixed_k_min_cluster_size,fixed_k_eligible,status,n_regions,n_features,input_sha256
+long_active_life,long_active_life_monthly_2026-09-30,0,0,0,,,,,,no_partition_meets_minimum_size,84,29,1eb0352132060b6c1443448e6f4937858398c642ec0843346fa455c3f7a42503
+long_active_life,long_active_life_monthly_2026-09-30,1,0,0,,,,,,no_partition_meets_minimum_size,84,29,1eb0352132060b6c1443448e6f4937858398c642ec0843346fa455c3f7a42503
+long_active_life,long_active_life_monthly_2026-09-30,7,0,0,,,,,,no_partition_meets_minimum_size,84,29,1eb0352132060b6c1443448e6f4937858398c642ec0843346fa455c3f7a42503
+long_active_life,long_active_life_monthly_2026-09-30,21,0,0,,,,,,no_partition_meets_minimum_size,84,29,1eb0352132060b6c1443448e6f4937858398c642ec0843346fa455c3f7a42503
+long_active_life,long_active_life_monthly_2026-09-30,42,0,0,,,,,,no_partition_meets_minimum_size,84,29,1eb0352132060b6c1443448e6f4937858398c642ec0843346fa455c3f7a42503
+long_active_life,long_active_life_monthly_2026-09-30,99,0,0,,,,,,no_partition_meets_minimum_size,84,29,1eb0352132060b6c1443448e6f4937858398c642ec0843346fa455c3f7a42503
+long_active_life,long_active_life_monthly_2026-09-30,2026,0,0,,,,,,no_partition_meets_minimum_size,84,29,1eb0352132060b6c1443448e6f4937858398c642ec0843346fa455c3f7a42503

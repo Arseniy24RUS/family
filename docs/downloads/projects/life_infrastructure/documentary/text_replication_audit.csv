@@ -1,0 +1,7 @@
+﻿metric,author_report,platform_recomputed,difference,equal
+corpus_documents,98,98,0,True
+corpus_tokens,75539,75367,-172,False
+infrastructure_tokens,5889,5886,-3,False
+features,46519,45885,-634,False
+stemming_features,35510,35048,-462,False
+unigram_features,10329,10471,142,False

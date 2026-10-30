@@ -1,5 +1,6 @@
 import { h, svg, fmt, bindTip, button, select, para, codeRegion } from '../core/dom.js';
-import { base, C, panZoom } from './charts.js';
+import { base, panZoom } from './charts.js';
+import { C } from '../platform/theme.js';
 import { sourceFoot, table, toolbar, figure } from './ui.js';
 const relationship = { direct: 'Прямая', indirect: 'Косвенная', hypothetical: 'Гипотетическая' };
 const nodeColor = node => C[(node.group - 1 || 0) % C.length];
@@ -23,11 +24,11 @@ export function networkView({ nodes, edges, selected, onSelect, regional = false
         a.forEach((n, i) => position.set(n.id, [220, 35 + i * (height - 70) / Math.max(1, a.length - 1)]));
         b.forEach((n, i) => position.set(n.id, [730, 35 + i * (height - 70) / Math.max(1, b.length - 1)]));
     }
-    links.forEach(e => { const a = position.get(e.a), b = position.get(e.b), active = e.a === sid || e.b === sid; const path = svg('path', { d: `M${a[0]},${a[1]}C${(a[0] + b[0]) / 2},${a[1]} ${(a[0] + b[0]) / 2},${b[1]} ${b[0]},${b[1]}`, fill: 'none', stroke: active ? '#539D96' : '#D9DEE8', opacity: active ? .95 : .4, 'stroke-width': regional ? 1 + (e.weight || 0) * 2 : e.type === 'direct' ? 2 : 1.1, 'stroke-dasharray': e.type === 'indirect' ? '5 4' : null }); bindTip(path, regional ? 'Сходство профилей' : relationship[e.type] || 'Связь', [nodes.find(n => n.id === e.a)?.name || e.a, nodes.find(n => n.id === e.b)?.name || e.b, regional ? `Вес: ${fmt(e.weight, 4)}` : 'Экспертная разметка, не оценка воздействия']); g.append(path); });
+    links.forEach(e => { const a = position.get(e.a), b = position.get(e.b), active = e.a === sid || e.b === sid; const path = svg('path', { d: `M${a[0]},${a[1]}C${(a[0] + b[0]) / 2},${a[1]} ${(a[0] + b[0]) / 2},${b[1]} ${b[0]},${b[1]}`, fill: 'none', stroke: active ? C[1] : '#D9DEE8', opacity: active ? .95 : .4, 'stroke-width': regional ? 1 + (e.weight || 0) * 2 : e.type === 'direct' ? 2 : 1.1, 'stroke-dasharray': e.type === 'indirect' ? '5 4' : null }); bindTip(path, regional ? 'Сходство профилей' : relationship[e.type] || 'Связь', [nodes.find(n => n.id === e.a)?.name || e.a, nodes.find(n => n.id === e.b)?.name || e.b, regional ? `Вес: ${fmt(e.weight, 4)}` : 'Экспертная разметка, не оценка воздействия']); g.append(path); });
     for (const n of visible) {
         const [x, y] = position.get(n.id), active = n.id === sid, near = neighbors.has(n.id);
         const group = svg('g', { class: 'network-node', tabindex: 0, role: 'button', 'aria-label': n.name, 'data-node': n.id });
-        group.append(svg('circle', { cx: x, cy: y, r: active ? 14 : focusOnly ? 9 : regional ? 8 : 5.5, fill: nodeColor(n), stroke: active ? '#6280D9' : 'white', 'stroke-width': active ? 4 : 1.6, opacity: focusOnly || active || near ? 1 : .7 }));
+        group.append(svg('circle', { cx: x, cy: y, r: active ? 14 : focusOnly ? 9 : regional ? 8 : 5.5, fill: nodeColor(n), stroke: active ? C[2] : 'white', 'stroke-width': active ? 4 : 1.6, opacity: focusOnly || active || near ? 1 : .7 }));
         const full = focusOnly;
         const label = full ? n.name : n.short || n.id;
         const anchor = focusOnly ? (active ? 'end' : 'start') : regional ? 'middle' : n.kind === 'activity' ? 'end' : 'start', lx = focusOnly ? (active ? x - 24 : x + 20) : regional ? x : n.kind === 'activity' ? x - 15 : x + 15, ly = regional && !full ? y - 15 : y + 4;
@@ -68,7 +69,7 @@ export function networkView({ nodes, edges, selected, onSelect, regional = false
     const groups=[...new Map(nodes.map(n=>[n.group,{name:n.groupLabel||(regional?'Сообщество '+n.group:n.kind==='indicator'?'Показатели':'Мероприятия'),color:nodeColor(n)}])).values()];
     const nodeKey=h('div',{class:'network-key',role:'group','aria-label':'Цвета узлов'},h('strong',{},regional?'Цвет окружности — сообщество':'Цвет окружности — федеральный проект мероприятия или показатель'),h('div',{class:'legend'},groups.map(item=>h('span',{},h('i',{class:'node-swatch',style:'background:'+item.color,'aria-hidden':'true'}),item.name))));
     const edgeItems=regional?[['selected','Связи выбранного региона'],['other','Остальные связи']]:[['direct','Прямая связь'],['indirect','Косвенная связь'],['selected','Связи выбранного узла'],['other','Остальные связи']];
-    const edgeKey=h('div',{class:'network-key',role:'group','aria-label':'Обозначения связей'},h('strong',{},'Линии и выделение'),h('div',{class:'legend'},edgeItems.map(([kind,name])=>h('span',{},h('i',{class:'edge-swatch '+kind,'aria-hidden':'true'}),name)),h('span',{},h('i',{class:'selected-node-swatch','aria-hidden':'true'}),'Обводка — выбранный узел')),para(regional?'Толщина линии отражает вес сходства профилей.':'Цвет линий показывает фокус выбора. Цвет окружностей обозначает принадлежность узлов.','small muted'));
-    root.dataset.exportLegend=JSON.stringify([...groups,...edgeItems.map(([kind,name])=>({name,color:kind==='selected'?'#539D96':'#D9DEE8',dash:kind==='indirect'?'5 4':null})),{name:'Обводка — выбранный узел',color:'#6280D9'}]);
+    const edgeKey=h('div',{class:'network-key',role:'group','aria-label':'Обозначения связей'},h('strong',{},'Линии и выделение'),h('div',{class:'legend'},edgeItems.map(([kind,name])=>h('span',{},h('i',{class:'edge-swatch '+kind,style:'border-color:'+(kind==='selected'?C[1]:'#D9DEE8'),'aria-hidden':'true'}),name)),h('span',{},h('i',{class:'selected-node-swatch',style:'border-color:'+C[2],'aria-hidden':'true'}),'Обводка — выбранный узел')),para(regional?'Толщина линии отражает вес сходства профилей.':'Цвет линий показывает фокус выбора. Цвет окружностей обозначает принадлежность узлов.','small muted'));
+    root.dataset.exportLegend=JSON.stringify([...groups,...edgeItems.map(([kind,name])=>({name,color:kind==='selected'?C[1]:'#D9DEE8',dash:kind==='indirect'?'5 4':null})),{name:'Обводка — выбранный узел',color:C[2]}]);
     return { element: h('div', {}, h('div',{class:'network-legend'},nodeKey,edgeKey),h('div', { class: 'network-layout' }, canvas, inspector)), svg: root };
 }

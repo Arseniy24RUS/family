@@ -1,0 +1,551 @@
+﻿document_id,rank,term,weight,origin
+project,1,информационных,0.09534391907821711,replayed_author_model
+project,2,информационных технологий,0.09087713461879221,replayed_author_model
+project,3,технологий,0.0905806041461948,replayed_author_model
+project,4,данных,0.08671218913295575,replayed_author_model
+project,5,программного,0.08650370347952512,replayed_author_model
+project,6,сфере информационных,0.08558522089145454,replayed_author_model
+project,7,программного обеспечения,0.08336642592061046,replayed_author_model
+project,8,интеллекта,0.08100473765426248,replayed_author_model
+project,9,искусственного интеллекта,0.08100473765426248,replayed_author_model
+project,10,искусственного,0.07944803301419584,replayed_author_model
+project,11,решений,0.07157761613238213,replayed_author_model
+project,12,обеспечено,0.07104323868480848,replayed_author_model
+project,13,сфере,0.07021705845724631,replayed_author_model
+project,14,информационно-телекоммуникационной,0.06945285185908426,replayed_author_model
+project,15,связи,0.06918986824397869,replayed_author_model
+project,16,информационной,0.0677336240302229,replayed_author_model
+project,17,системы,0.06679655948461395,replayed_author_model
+project,18,обеспечения,0.06651478222634268,replayed_author_model
+project,19,сервисов,0.06595071491147708,replayed_author_model
+project,20,интернет,0.06516368713215821,replayed_author_model
+project,21,сети интернет,0.0648607421952421,replayed_author_model
+project,22,результата,0.06376484779588493,replayed_author_model
+project,23,использованием,0.06346761808102756,replayed_author_model
+project,24,информационной системы,0.06337999308139504,replayed_author_model
+project,25,доступа,0.06323472410725757,replayed_author_model
+project,26,государственной,0.06118723868648048,replayed_author_model
+project,27,обработки,0.06091947181930318,replayed_author_model
+project,28,информационно-телекоммуникационной сети,0.06064838995158287,replayed_author_model
+project,29,обеспечено создание,0.06030771425482183,replayed_author_model
+project,30,квантовых,0.05957463298379043,replayed_author_model
+project,31,доля,0.05897149224990129,replayed_author_model
+project,32,платформа,0.05819502862697025,replayed_author_model
+project,33,сети,0.05698752213645401,replayed_author_model
+project,34,высокотехнологичного направления,0.05649812440850299,replayed_author_model
+project,35,государственных,0.05648149131382699,replayed_author_model
+project,36,взаимодействия,0.056372276475266166,replayed_author_model
+project,37,платформы,0.055769038666349344,replayed_author_model
+project,38,официальной,0.055664691772810505,replayed_author_model
+project,39,официальной статистической,0.055664691772810505,replayed_author_model
+project,40,цифровой,0.055520896471810986,replayed_author_model
+project,41,создание,0.054968582244834564,replayed_author_model
+project,42,цифровых,0.05489775539807953,replayed_author_model
+project,43,ключевых,0.05478892957408967,replayed_author_model
+project,44,информационных систем,0.053607708704109164,replayed_author_model
+project,45,направления,0.053270813099519386,replayed_author_model
+project,46,работ,0.05321908505115884,replayed_author_model
+project,47,развития высокотехнологичного,0.05314779681350717,replayed_author_model
+project,48,разработчиков,0.053074143954408064,replayed_author_model
+project,49,мероприятия,0.05303571368269273,replayed_author_model
+project,50,космических аппаратов,0.05301870090779837,replayed_author_model
+np_23,1,сфере информационных,0.08668019730265045,replayed_author_model
+np_23,2,основе данных,0.08201691587166968,replayed_author_model
+np_23,3,официальной,0.08095324813707158,replayed_author_model
+np_23,4,официальной статистической,0.08095324813707158,replayed_author_model
+np_23,5,информационных технологий,0.07813483329262084,replayed_author_model
+np_23,6,массовых социально,0.07753496375330551,replayed_author_model
+np_23,7,значимых государственных,0.07753496375330551,replayed_author_model
+np_23,8,экономики социальной,0.0764126768530062,replayed_author_model
+np_23,9,социальной сферы,0.07494420314275477,replayed_author_model
+np_23,10,предоставления услуг,0.07464484548717018,replayed_author_model
+np_23,11,статистической,0.07464484548717018,replayed_author_model
+np_23,12,проактивном режиме,0.07464484548717018,replayed_author_model
+np_23,13,заявителя,0.07464484548717018,replayed_author_model
+np_23,14,проактивном,0.07464484548717018,replayed_author_model
+np_23,15,искусственного интеллекта,0.07330961059689516,replayed_author_model
+np_23,16,интеллекта,0.07330961059689516,replayed_author_model
+np_23,17,муниципального управления,0.07214131117023373,replayed_author_model
+np_23,18,высокоскоростного,0.07214131117023373,replayed_author_model
+np_23,19,государственных органов,0.07214131117023373,replayed_author_model
+np_23,20,модели управления,0.07214131117023373,replayed_author_model
+np_23,21,ускоренного внедрения,0.07214131117023373,replayed_author_model
+np_23,22,внедрения технологий,0.07214131117023373,replayed_author_model
+np_23,23,искусственного,0.07190078669001766,replayed_author_model
+np_23,24,электронном,0.0699330374008748,replayed_author_model
+np_23,25,управления основе,0.0699330374008748,replayed_author_model
+np_23,26,социально значимых,0.0699330374008748,replayed_author_model
+np_23,27,услуг сервисов,0.0699330374008748,replayed_author_model
+np_23,28,ускоренного,0.0699330374008748,replayed_author_model
+np_23,29,электронном виде,0.0699330374008748,replayed_author_model
+np_23,30,технологий,0.06990851978035836,replayed_author_model
+np_23,31,ключевых,0.06857172355668881,replayed_author_model
+np_23,32,российского,0.06812409421200316,replayed_author_model
+np_23,33,удовлетворенности качеством,0.06795766920156908,replayed_author_model
+np_23,34,массовых,0.06617073130476706,replayed_author_model
+np_23,35,электронной форме,0.06617073130476706,replayed_author_model
+np_23,36,цифровых платформ,0.06617073130476706,replayed_author_model
+np_23,37,ключевых отраслей,0.06617073130476706,replayed_author_model
+np_23,38,виде,0.06487623946602303,replayed_author_model
+np_23,39,удовлетворенности,0.06487623946602303,replayed_author_model
+np_23,40,значимых,0.06453938481780301,replayed_author_model
+np_23,41,зрелости,0.06453938481780301,replayed_author_model
+np_23,42,сети интернет,0.06388721882615434,replayed_author_model
+np_23,43,интернет,0.06388721882615434,replayed_author_model
+np_23,44,качеством,0.06303869152357004,replayed_author_model
+np_23,45,платформ,0.06303869152357004,replayed_author_model
+np_23,46,цифровых,0.06293857782711117,replayed_author_model
+np_23,47,режиме,0.06164926655166767,replayed_author_model
+np_23,48,информационных,0.06050230188476441,replayed_author_model
+np_23,49,информационно-телекоммуникационной сети,0.06035574284913836,replayed_author_model
+np_23,50,социальной,0.05914692502448608,replayed_author_model
+fp_337,1,космических аппаратов,0.2542696629413782,replayed_author_model
+fp_337,2,космических,0.2542696629413782,replayed_author_model
+fp_337,3,орбите,0.24324396827071118,replayed_author_model
+fp_337,4,аппаратов,0.22059700079456446,replayed_author_model
+fp_337,5,бюро,0.18692810675294827,replayed_author_model
+fp_337,6,группировки,0.18692810675294827,replayed_author_model
+fp_337,7,ка,0.18177284142399525,replayed_author_model
+fp_337,8,ответственностью,0.16254295511029154,replayed_author_model
+fp_337,9,ограниченной,0.16254295511029154,replayed_author_model
+fp_337,10,ограниченной ответственностью,0.16254295511029154,replayed_author_model
+fp_337,11,обществом,0.1448498012493098,replayed_author_model
+fp_337,12,передачи данных,0.13691141439698082,replayed_author_model
+fp_337,13,высокоскоростного,0.12738729046414668,replayed_author_model
+fp_337,14,передачи,0.1199998060115467,replayed_author_model
+fp_337,15,оплата,0.11532908540072814,replayed_author_model
+fp_337,16,всей территории,0.11532908540072814,replayed_author_model
+fp_337,17,периоде,0.11131386409991058,replayed_author_model
+fp_337,18,высокоскоростного широкополосного,0.1104592670711187,replayed_author_model
+fp_337,19,широкополосного,0.1104592670711187,replayed_author_model
+fp_337,20,широкополосного доступа,0.1104592670711187,replayed_author_model
+fp_337,21,доступа информационно-телекоммуникационной,0.10634189434051558,replayed_author_model
+fp_337,22,доступа,0.10443966778093618,replayed_author_model
+fp_337,23,назначения,0.0996292728005362,replayed_author_model
+fp_337,24,гражданского,0.0996292728005362,replayed_author_model
+fp_337,25,всей,0.0996292728005362,replayed_author_model
+fp_337,26,гг,0.09905894286042781,replayed_author_model
+fp_337,27,обеспечена возможность,0.09681508790989579,replayed_author_model
+fp_337,28,договоры,0.09681508790989579,replayed_author_model
+fp_337,29,эксплуатацию,0.09509267600968474,replayed_author_model
+fp_337,30,сети интернет,0.09101616903055983,replayed_author_model
+fp_337,31,интернет,0.09101616903055983,replayed_author_model
+fp_337,32,информационно-телекоммуникационной сети,0.0859850936393133,replayed_author_model
+fp_337,33,обеспечено создание,0.0859850936393133,replayed_author_model
+fp_337,34,информационно-телекоммуникационной,0.08426126636003652,replayed_author_model
+fp_337,35,связи,0.07668558829354401,replayed_author_model
+fp_337,36,заключены,0.07575535052537656,replayed_author_model
+fp_337,37,предприятием,0.07163539161526955,replayed_author_model
+fp_337,38,автономного учреждения,0.07163539161526955,replayed_author_model
+fp_337,39,создания обеспечения,0.07163539161526955,replayed_author_model
+fp_337,40,аппарат,0.07163539161526955,replayed_author_model
+fp_337,41,сроком,0.06811521569116474,replayed_author_model
+fp_337,42,обороны,0.06811521569116474,replayed_author_model
+fp_337,43,начаты,0.06811521569116474,replayed_author_model
+fp_337,44,испытания,0.06811521569116474,replayed_author_model
+fp_337,45,возможность,0.06747109614848096,replayed_author_model
+fp_337,46,которым обеспечена,0.0652390225370652,replayed_author_model
+fp_337,47,низкоорбитальная спутниковая,0.0652390225370652,replayed_author_model
+fp_337,48,группировка обеспечения,0.0652390225370652,replayed_author_model
+fp_337,49,автономного,0.0652390225370652,replayed_author_model
+fp_337,50,результата отражает,0.0652390225370652,replayed_author_model
+fp_338,1,документах,0.11392323121278942,replayed_author_model
+fp_338,2,цифровым,0.11139723273301975,replayed_author_model
+fp_338,3,сервисам,0.10187120645733258,replayed_author_model
+fp_338,4,цифрового образовательного,0.10018910360905242,replayed_author_model
+fp_338,5,электронных,0.09623266542537565,replayed_author_model
+fp_338,6,сервисы,0.09623266542537565,replayed_author_model
+fp_338,7,цифровые,0.09105547368266352,replayed_author_model
+fp_338,8,едином портале,0.08959002259573424,replayed_author_model
+fp_338,9,портале государственных,0.08959002259573424,replayed_author_model
+fp_338,10,цифровых сервисов,0.08881062880665776,replayed_author_model
+fp_338,11,цифровых,0.08843549221166687,replayed_author_model
+fp_338,12,платформ,0.08674557170264274,replayed_author_model
+fp_338,13,начального общего,0.085807046838397,replayed_author_model
+fp_338,14,едином,0.085807046838397,replayed_author_model
+fp_338,15,начального,0.085807046838397,replayed_author_model
+fp_338,16,контента,0.08483362745677375,replayed_author_model
+fp_338,17,подачи,0.0826085864093727,replayed_author_model
+fp_338,18,информационной системы,0.08260786448585794,replayed_author_model
+fp_338,19,сервисов,0.08248222518335412,replayed_author_model
+fp_338,20,доступа,0.0813885921879399,replayed_author_model
+fp_338,21,среднего общего,0.07983795396181784,replayed_author_model
+fp_338,22,услуг функций,0.0773940829443208,replayed_author_model
+fp_338,23,использующих,0.0773940829443208,replayed_author_model
+fp_338,24,единый реестр,0.07601611140152997,replayed_author_model
+fp_338,25,интерактивных,0.07601611140152997,replayed_author_model
+fp_338,26,платформу,0.07601611140152997,replayed_author_model
+fp_338,27,операционной,0.07601611140152997,replayed_author_model
+fp_338,28,образовании,0.07595139765435316,replayed_author_model
+fp_338,29,портале,0.07323038234034211,replayed_author_model
+fp_338,30,получение,0.07323038234034211,replayed_author_model
+fp_338,31,образовательным,0.07263249622289876,replayed_author_model
+fp_338,32,подтверждение,0.0722806661255849,replayed_author_model
+fp_338,33,помещениях,0.0722806661255849,replayed_author_model
+fp_338,34,работникам образовательных,0.0722806661255849,replayed_author_model
+fp_338,35,электронных сервисов,0.0722806661255849,replayed_author_model
+fp_338,36,цифрового,0.06976419017109077,replayed_author_model
+fp_338,37,образовательными,0.06976419017109077,replayed_author_model
+fp_338,38,федеральными,0.06976419017109077,replayed_author_model
+fp_338,39,общего,0.06971202763232603,replayed_author_model
+fp_338,40,бизнеса государства,0.06922858510411752,replayed_author_model
+fp_338,41,развитие функционирование,0.06922858510411752,replayed_author_model
+fp_338,42,моя,0.06922858510411752,replayed_author_model
+fp_338,43,научно-исследовательских,0.06922858510411752,replayed_author_model
+fp_338,44,обучении,0.06922858510411752,replayed_author_model
+fp_338,45,аттестации,0.06922858510411752,replayed_author_model
+fp_338,46,общего образования,0.06822652963871731,replayed_author_model
+fp_338,47,доступ,0.06822652963871731,replayed_author_model
+fp_338,48,функционирование,0.06801293189105294,replayed_author_model
+fp_338,49,государственных муниципальных,0.06794293466864507,replayed_author_model
+fp_338,50,информационной,0.06746590291095268,replayed_author_model
+fp_339,1,ии,0.13042687717832416,replayed_author_model
+fp_339,2,сфере искусственного,0.1258700099291069,replayed_author_model
+fp_339,3,центров ии,0.11533572507831445,replayed_author_model
+fp_339,4,интеллекта,0.11270564837434598,replayed_author_model
+fp_339,5,искусственного интеллекта,0.11270564837434598,replayed_author_model
+fp_339,6,искусственному интеллекту,0.11227621068672873,replayed_author_model
+fp_339,7,искусственному,0.11227621068672873,replayed_author_model
+fp_339,8,интеллекту,0.11227621068672873,replayed_author_model
+fp_339,9,искусственного,0.11053973301103844,replayed_author_model
+fp_339,10,сфере ии,0.11037300650351517,replayed_author_model
+fp_339,11,технологий искусственного,0.09723207053202539,replayed_author_model
+fp_339,12,результата отражает,0.09112734399508834,replayed_author_model
+fp_339,13,качества данных,0.09094781405181919,replayed_author_model
+fp_339,14,контрольной надзорной,0.09094781405181919,replayed_author_model
+fp_339,15,надзорной,0.09094781405181919,replayed_author_model
+fp_339,16,надзорной деятельности,0.09094781405181919,replayed_author_model
+fp_339,17,развития технологий,0.09094781405181919,replayed_author_model
+fp_339,18,отражает количество,0.08773056931853639,replayed_author_model
+fp_339,19,отражает,0.0847881492559069,replayed_author_model
+fp_339,20,олимпиады,0.08219275082306603,replayed_author_model
+fp_339,21,исследовательскими центрами,0.0799835105452276,replayed_author_model
+fp_339,22,задач правительства,0.0799835105452276,replayed_author_model
+fp_339,23,исследовательских центров,0.07789233618304534,replayed_author_model
+fp_339,24,значение результата,0.07777088815313976,replayed_author_model
+fp_339,25,витрин,0.07521823182886851,replayed_author_model
+fp_339,26,исследовательскими,0.07521823182886851,replayed_author_model
+fp_339,27,приоритетных задач,0.07521823182886851,replayed_author_model
+fp_339,28,окс,0.07521823182886851,replayed_author_model
+fp_339,29,государственных данных,0.07521823182886851,replayed_author_model
+fp_339,30,центр правительстве,0.07521823182886851,replayed_author_model
+fp_339,31,витрин данных,0.07521823182886851,replayed_author_model
+fp_339,32,правительства области,0.07521823182886851,replayed_author_model
+fp_339,33,заключительного этапа,0.07498889684810431,replayed_author_model
+fp_339,34,данными,0.07269190138597044,replayed_author_model
+fp_339,35,исследовательских,0.07247382329649915,replayed_author_model
+fp_339,36,заключительного,0.07247382329649915,replayed_author_model
+fp_339,37,аналитический центр,0.07152199449746992,replayed_author_model
+fp_339,38,интеллект,0.0685019486992761,replayed_author_model
+fp_339,39,индустриального,0.0685019486992761,replayed_author_model
+fp_339,40,искусственный интеллект,0.0685019486992761,replayed_author_model
+fp_339,41,искусственный,0.0685019486992761,replayed_author_model
+fp_339,42,правительстве,0.06827089817836066,replayed_author_model
+fp_339,43,программного обеспечения,0.06630384190646661,replayed_author_model
+fp_339,44,функциональных возможностей,0.06594853635963077,replayed_author_model
+fp_339,45,области развития,0.06594853635963077,replayed_author_model
+fp_339,46,этапа,0.06497458393207087,replayed_author_model
+fp_339,47,контрольной,0.06483685831427148,replayed_author_model
+fp_339,48,всероссийской олимпиаде,0.06453019269075466,replayed_author_model
+fp_339,49,фондом развития,0.06453019269075466,replayed_author_model
+fp_339,50,государственной автоматизированной,0.06453019269075466,replayed_author_model
+fp_340,1,гас,0.0781486519059827,replayed_author_model
+fp_340,2,аис,0.07681174539582578,replayed_author_model
+fp_340,3,выборы,0.07218935769320714,replayed_author_model
+fp_340,4,гас выборы,0.06623006348043156,replayed_author_model
+fp_340,5,аудита,0.06493433774963517,replayed_author_model
+fp_340,6,ростехнадзора,0.06379020424009647,replayed_author_model
+fp_340,7,аис ростехнадзора,0.06379020424009647,replayed_author_model
+fp_340,8,фцод мвд,0.06102411997037001,replayed_author_model
+fp_340,9,фцод,0.06102411997037001,replayed_author_model
+fp_340,10,информационной безопасности,0.05924400879905726,replayed_author_model
+fp_340,11,территориального,0.05884863454988575,replayed_author_model
+fp_340,12,объектов аудита,0.0578309100273209,replayed_author_model
+fp_340,13,операции защитники,0.0578309100273209,replayed_author_model
+fp_340,14,судебных,0.0578309100273209,replayed_author_model
+fp_340,15,оказания государственных,0.0578309100273209,replayed_author_model
+fp_340,16,защитники отечества,0.0578309100273209,replayed_author_model
+fp_340,17,государственного фонда,0.0578309100273209,replayed_author_model
+fp_340,18,избирательных,0.0578309100273209,replayed_author_model
+fp_340,19,защитники,0.0578309100273209,replayed_author_model
+fp_340,20,территориального сегмента,0.0578309100273209,replayed_author_model
+fp_340,21,поддержки участников,0.0578309100273209,replayed_author_model
+fp_340,22,отечества,0.056296827665702716,replayed_author_model
+fp_340,23,госуслуг,0.055613071282132956,replayed_author_model
+fp_340,24,надзорных,0.055342535057681136,replayed_author_model
+fp_340,25,контрольных надзорных,0.055342535057681136,replayed_author_model
+fp_340,26,фгис,0.05498836022308852,replayed_author_model
+fp_340,27,аис фсб,0.05405414427682889,replayed_author_model
+fp_340,28,аудита созданы,0.05405414427682889,replayed_author_model
+fp_340,29,правосудие,0.05405414427682889,replayed_author_model
+fp_340,30,обученных государственных,0.05405414427682889,replayed_author_model
+fp_340,31,доработка части,0.05405414427682889,replayed_author_model
+fp_340,32,результирующим,0.05405414427682889,replayed_author_model
+fp_340,33,электронном виде,0.053720567447099625,replayed_author_model
+fp_340,34,электронном,0.053720567447099625,replayed_author_model
+fp_340,35,очередь,0.053720567447099625,replayed_author_model
+fp_340,36,мвд россии,0.0535400922625029,replayed_author_model
+fp_340,37,фонда поддержки,0.05335098281039747,replayed_author_model
+fp_340,38,государственной автоматизированной,0.05335098281039747,replayed_author_model
+fp_340,39,фтс россии,0.05335098281039747,replayed_author_model
+fp_340,40,фтс,0.05335098281039747,replayed_author_model
+fp_340,41,продукции военного,0.05335098281039747,replayed_author_model
+fp_340,42,россии фстэк,0.05335098281039747,replayed_author_model
+fp_340,43,военного назначения,0.05335098281039747,replayed_author_model
+fp_340,44,военного,0.05335098281039747,replayed_author_model
+fp_340,45,информационных систем,0.0530812420903145,replayed_author_model
+fp_340,46,мвд,0.05306943733716153,replayed_author_model
+fp_340,47,базе единой,0.05262299301154748,replayed_author_model
+fp_340,48,власти органов,0.05174439615734909,replayed_author_model
+fp_340,49,сегмента,0.050378156214787126,replayed_author_model
+fp_340,50,фстэк,0.050172423865557605,replayed_author_model
+fp_341,1,мгц,0.12460824915329607,replayed_author_model
+fp_341,2,базовых станций,0.1206329422296801,replayed_author_model
+fp_341,3,тип мгц,0.11115071845247074,replayed_author_model
+fp_341,4,мгц тип,0.10533453331925104,replayed_author_model
+fp_341,5,lte,0.10533453331925104,replayed_author_model
+fp_341,6,станций,0.10465764946181016,replayed_author_model
+fp_341,7,особо значимых,0.10254032085470559,replayed_author_model
+fp_341,8,тестирования,0.09845361250824711,replayed_author_model
+fp_341,9,российских решений,0.091801463323232,replayed_author_model
+fp_341,10,решений сфере,0.09175991821435915,replayed_author_model
+fp_341,11,машин баз,0.09082850027765792,replayed_author_model
+fp_341,12,базовой,0.09082850027765792,replayed_author_model
+fp_341,13,программного обеспечения,0.09027962677187938,replayed_author_model
+fp_341,14,программное обеспечение,0.08782074893830062,replayed_author_model
+fp_341,15,программное,0.08782074893830062,replayed_author_model
+fp_341,16,программного,0.08676954053860728,replayed_author_model
+fp_341,17,электронных вычислительных,0.08541709589866164,replayed_author_model
+fp_341,18,машин,0.08541709589866164,replayed_author_model
+fp_341,19,вычислительных машин,0.08541709589866164,replayed_author_model
+fp_341,20,реестры,0.08306138920139003,replayed_author_model
+fp_341,21,организаций государственным,0.08306138920139003,replayed_author_model
+fp_341,22,развития высокотехнологичного,0.08306138920139003,replayed_author_model
+fp_341,23,стратегий цифровой,0.08306138920139003,replayed_author_model
+fp_341,24,высокотехнологичного направления,0.08306138920139003,replayed_author_model
+fp_341,25,документов сведений,0.08306138920139003,replayed_author_model
+fp_341,26,единого реестра,0.08306138920139003,replayed_author_model
+fp_341,27,операторов связи,0.08306138920139003,replayed_author_model
+fp_341,28,фондом развития,0.08306138920139003,replayed_author_model
+fp_341,29,доработке,0.08306138920139003,replayed_author_model
+fp_341,30,государственным участием,0.08121968456734245,replayed_author_model
+fp_341,31,баз данных,0.08121968456734245,replayed_author_model
+fp_341,32,информационных технологий,0.08004629921586691,replayed_author_model
+fp_341,33,сфере информационных,0.07921035134053547,replayed_author_model
+fp_341,34,особо,0.07921035134053547,replayed_author_model
+fp_341,35,произведены,0.07811273581753052,replayed_author_model
+fp_341,36,стратегий,0.07811273581753052,replayed_author_model
+fp_341,37,программно-аппаратных,0.07811273581753052,replayed_author_model
+fp_341,38,отраслевых центров,0.07811273581753052,replayed_author_model
+fp_341,39,мобильной связи,0.07779014979511366,replayed_author_model
+fp_341,40,баз,0.07779014979511366,replayed_author_model
+fp_341,41,станции,0.07743585196008963,replayed_author_model
+fp_341,42,базовых,0.07727045218052052,replayed_author_model
+fp_341,43,мобильной,0.0748905194610674,replayed_author_model
+fp_341,44,вычислительных,0.0748905194610674,replayed_author_model
+fp_341,45,высокотехнологичного,0.07427426204373436,replayed_author_model
+fp_341,46,евразийского,0.07427426204373436,replayed_author_model
+fp_341,47,значимых,0.07310117702189566,replayed_author_model
+fp_341,48,доработку,0.07304784142811123,replayed_author_model
+fp_341,49,проведена экспертиза,0.07113800061009856,replayed_author_model
+fp_341,50,электронных,0.07016320369156567,replayed_author_model
+fp_342,1,технологиям искусственного,0.14913638074446808,replayed_author_model
+fp_342,2,языкам,0.13842664255614043,replayed_author_model
+fp_342,3,языкам программирования,0.13842664255614043,replayed_author_model
+fp_342,4,современным языкам,0.13842664255614043,replayed_author_model
+fp_342,5,разработчиков,0.13842664255614043,replayed_author_model
+fp_342,6,программирования,0.13842664255614043,replayed_author_model
+fp_342,7,робототехнике,0.1316243326448909,replayed_author_model
+fp_342,8,ит-компаний,0.12938640780426391,replayed_author_model
+fp_342,9,программирования технологиям,0.12938640780426391,replayed_author_model
+fp_342,10,обучаются,0.12581807731733152,replayed_author_model
+fp_342,11,спо,0.12302833664154701,replayed_author_model
+fp_342,12,школьники,0.12302833664154701,replayed_author_model
+fp_342,13,подтверждения,0.1213673101293448,replayed_author_model
+fp_342,14,информационных технологий,0.12125093934185795,replayed_author_model
+fp_342,15,сфере информационных,0.11998467886363867,replayed_author_model
+fp_342,16,навыкам,0.10405762256721601,replayed_author_model
+fp_342,17,базовым,0.10405762256721601,replayed_author_model
+fp_342,18,программного обеспечения,0.10355283700632792,replayed_author_model
+fp_342,19,интеллекта,0.10147681199172709,replayed_author_model
+fp_342,20,искусственного интеллекта,0.10147681199172709,replayed_author_model
+fp_342,21,технологиям,0.10056267282809889,replayed_author_model
+fp_342,22,программного,0.0995266862501819,replayed_author_model
+fp_342,23,искусственного,0.0995266862501819,replayed_author_model
+fp_342,24,обучающиеся,0.09172537014106581,replayed_author_model
+fp_342,25,современным,0.0909281488014469,replayed_author_model
+fp_342,26,специальностям,0.08969593098466234,replayed_author_model
+fp_342,27,курсах,0.08927168682296954,replayed_author_model
+fp_342,28,освоении,0.08927168682296954,replayed_author_model
+fp_342,29,обеспечивается,0.08567928519126645,replayed_author_model
+fp_342,30,обученных,0.08547488170875678,replayed_author_model
+fp_342,31,программам,0.0849525637383036,replayed_author_model
+fp_342,32,образовательным,0.08464537216088344,replayed_author_model
+fp_342,33,практико-ориентированным,0.08395303468715935,replayed_author_model
+fp_342,34,предыдущего,0.08395303468715935,replayed_author_model
+fp_342,35,базе автономной,0.08395303468715935,replayed_author_model
+fp_342,36,информационных,0.08256966389157941,replayed_author_model
+fp_342,37,обучению,0.08087644468286949,replayed_author_model
+fp_342,38,ит,0.08087644468286949,replayed_author_model
+fp_342,39,курсы,0.0798275675849696,replayed_author_model
+fp_342,40,актуализированным,0.0798275675849696,replayed_author_model
+fp_342,41,образования далее,0.0798275675849696,replayed_author_model
+fp_342,42,подтверждение,0.0798275675849696,replayed_author_model
+fp_342,43,обучающиеся программам,0.0798275675849696,replayed_author_model
+fp_342,44,образовательным программам,0.07833346836357852,replayed_author_model
+fp_342,45,технологий,0.07728287030477543,replayed_author_model
+fp_342,46,направлениям подготовки,0.07645681552808242,replayed_author_model
+fp_342,47,вне зависимости,0.07645681552808242,replayed_author_model
+fp_342,48,профессиям специальностям,0.07645681552808242,replayed_author_model
+fp_342,49,высококвалифицированных специалистов,0.07645681552808242,replayed_author_model
+fp_342,50,специалистах,0.07645681552808242,replayed_author_model
+fp_343,1,квантовых,0.2399175220464817,replayed_author_model
+fp_343,2,результата мероприятия,0.2036727696103612,replayed_author_model
+fp_343,3,высокотехнологичного направления,0.18789506209214007,replayed_author_model
+fp_343,4,квантовые,0.17670060045632144,replayed_author_model
+fp_343,5,развития высокотехнологичного,0.17182739815966744,replayed_author_model
+fp_343,6,высокотехнологичного,0.16801750142558175,replayed_author_model
+fp_343,7,телекоммуникационных,0.14210955154965196,replayed_author_model
+fp_343,8,сетей связи,0.14210955154965196,replayed_author_model
+fp_343,9,дорожной карты,0.1416762697444482,replayed_author_model
+fp_343,10,дорожной,0.13858498675113928,replayed_author_model
+fp_343,11,достижения результата,0.13395072378406048,replayed_author_model
+fp_343,12,сетей,0.13133324829319942,replayed_author_model
+fp_343,13,направления,0.12275626214824187,replayed_author_model
+fp_343,14,карты,0.11701059946627772,replayed_author_model
+fp_343,15,телекоммуникационных технологий,0.11465309139576074,replayed_author_model
+fp_343,16,дорожная карта,0.1090190180298588,replayed_author_model
+fp_343,17,отечественных решений,0.1044156449047436,replayed_author_model
+fp_343,18,интеллектуальной деятельности,0.1044156449047436,replayed_author_model
+fp_343,19,отечественных,0.10290427113489514,replayed_author_model
+fp_343,20,отчетный,0.10052354838465417,replayed_author_model
+fp_343,21,карта,0.10052354838465417,replayed_author_model
+fp_343,22,мероприятия является,0.10052354838465417,replayed_author_model
+fp_343,23,сфере информационных,0.09417819841372646,replayed_author_model
+fp_343,24,разработку,0.09334733697794544,replayed_author_model
+fp_343,25,продуктов,0.0917421107376808,replayed_author_model
+fp_343,26,основным,0.09151798765885866,replayed_author_model
+fp_343,27,отчетном периоде,0.09151798765885866,replayed_author_model
+fp_343,28,связи,0.09013468138657511,replayed_author_model
+fp_343,29,технологий,0.08921884461838536,replayed_author_model
+fp_343,30,дорожная,0.0891115343135915,replayed_author_model
+fp_343,31,коммуникации,0.0891115343135915,replayed_author_model
+fp_343,32,интеллектуальной,0.08691461453374345,replayed_author_model
+fp_343,33,периоде,0.08489364424451858,replayed_author_model
+fp_343,34,информационных технологий,0.08489364424451858,replayed_author_model
+fp_343,35,разработки,0.08340189515727393,replayed_author_model
+fp_343,36,отчетном,0.08302251801365403,replayed_author_model
+fp_343,37,перспективных,0.08128054116784152,replayed_author_model
+fp_343,38,является,0.07877394936165913,replayed_author_model
+fp_343,39,технологических,0.0781203408127043,replayed_author_model
+fp_343,40,достижения,0.07764732292708386,replayed_author_model
+fp_343,41,отраслях экономики,0.07667716804272631,replayed_author_model
+fp_343,42,результата,0.07494156044398712,replayed_author_model
+fp_343,43,отраслях,0.07278507152263688,replayed_author_model
+fp_343,44,субъектов охваченных,0.07200595239182002,replayed_author_model
+fp_343,45,экспериментальных,0.07200595239182002,replayed_author_model
+fp_343,46,механизмом,0.07200595239182002,replayed_author_model
+fp_343,47,которым,0.07165526093008034,replayed_author_model
+fp_343,48,мероприятие,0.06838288392195659,replayed_author_model
+fp_343,49,значениями,0.06771596274214242,replayed_author_model
+fp_343,50,машин,0.06771596274214242,replayed_author_model
+fp_344,1,уязвимостей,0.12118896823551763,replayed_author_model
+fp_344,2,информационно-безопасной,0.11909313396882676,replayed_author_model
+fp_344,3,информационно-безопасной обработки,0.11909313396882676,replayed_author_model
+fp_344,4,криптографических,0.11909313396882676,replayed_author_model
+fp_344,5,угрозам,0.11131551350116112,replayed_author_model
+fp_344,6,криптографии,0.11131551350116112,replayed_author_model
+fp_344,7,доступных сети,0.11131551350116112,replayed_author_model
+fp_344,8,безопасной разработки,0.11131551350116112,replayed_author_model
+fp_344,9,защищенности,0.10986746949348647,replayed_author_model
+fp_344,10,компьютерных атак,0.10332175637801255,replayed_author_model
+fp_344,11,атак,0.10332175637801255,replayed_author_model
+fp_344,12,компьютерных,0.10332175637801255,replayed_author_model
+fp_344,13,научно-исследовательских работ,0.10269234989602216,replayed_author_model
+fp_344,14,противодействия,0.09719670317254311,replayed_author_model
+fp_344,15,фишинговых,0.09657411795100518,replayed_author_model
+fp_344,16,обнаружения,0.09409609190267226,replayed_author_model
+fp_344,17,обработки данных,0.09409609190267226,replayed_author_model
+fp_344,18,последствий компьютерных,0.09391071323036017,replayed_author_model
+fp_344,19,коммуникационных,0.08831567595399947,replayed_author_model
+fp_344,20,последствий,0.08831567595399947,replayed_author_model
+fp_344,21,ликвидации последствий,0.08831567595399947,replayed_author_model
+fp_344,22,научно-исследовательских,0.08795095434586622,replayed_author_model
+fp_344,23,информационной безопасности,0.08755037878719833,replayed_author_model
+fp_344,24,операторов связи,0.08258921448832902,replayed_author_model
+fp_344,25,нулевого,0.08258921448832902,replayed_author_model
+fp_344,26,персональных данных,0.08183272240084921,replayed_author_model
+fp_344,27,персональных,0.08183272240084921,replayed_author_model
+fp_344,28,российского сегмента,0.08042991381806015,replayed_author_model
+fp_344,29,безопасной,0.07932779074072728,replayed_author_model
+fp_344,30,сети интернет,0.07808428394652149,replayed_author_model
+fp_344,31,интернет,0.07808428394652149,replayed_author_model
+fp_344,32,информационных ресурсов,0.07766869245423416,replayed_author_model
+fp_344,33,информационных ресурсах,0.07766869245423416,replayed_author_model
+fp_344,34,программно-аппаратных,0.07766869245423416,replayed_author_model
+fp_344,35,сегмента,0.0774318861952078,replayed_author_model
+fp_344,36,мошеннических,0.0774318861952078,replayed_author_model
+fp_344,37,программного обеспечения,0.0772919201090979,replayed_author_model
+fp_344,38,программного,0.07428679797447008,replayed_author_model
+fp_344,39,связи массовых,0.07385203905053003,replayed_author_model
+fp_344,40,сегмента информационно-телекоммуникационной,0.07385203905053003,replayed_author_model
+fp_344,41,массовых коммуникаций,0.07385203905053003,replayed_author_model
+fp_344,42,ниокр,0.07385203905053003,replayed_author_model
+fp_344,43,информационных,0.07360779989130124,replayed_author_model
+fp_344,44,предупреждения,0.07254415168212085,replayed_author_model
+fp_344,45,годах,0.07150726345669163,replayed_author_model
+fp_344,46,информационных технологий,0.07150726345669163,replayed_author_model
+fp_344,47,методы,0.07073360615740806,replayed_author_model
+fp_344,48,обработки,0.07038477681390168,replayed_author_model
+fp_344,49,автоматизированной,0.06864137104718172,replayed_author_model
+fp_344,50,обеспечения безопасности,0.06864137104718172,replayed_author_model
+fp_358,1,официальной статистической,0.1860061864107935,replayed_author_model
+fp_358,2,официальной,0.1860061864107935,replayed_author_model
+fp_358,3,статистической,0.1792855965933167,replayed_author_model
+fp_358,4,технологической основе,0.1584584525146791,replayed_author_model
+fp_358,5,новой технологической,0.1584584525146791,replayed_author_model
+fp_358,6,производства официальной,0.13935533734177497,replayed_author_model
+fp_358,7,основе производства,0.13935533734177497,replayed_author_model
+fp_358,8,статистических,0.1196781458452191,replayed_author_model
+fp_358,9,стандарту,0.11955381763837895,replayed_author_model
+fp_358,10,новой,0.11732885115922391,replayed_author_model
+fp_358,11,информационной системы,0.11578714728249057,replayed_author_model
+fp_358,12,сбора обработки,0.11243100871478842,replayed_author_model
+fp_358,13,паспорта,0.11243100871478842,replayed_author_model
+fp_358,14,обеспечен переход,0.1069061288882607,replayed_author_model
+fp_358,15,больших данных,0.1069061288882607,replayed_author_model
+fp_358,16,статистических данных,0.10597311632285972,replayed_author_model
+fp_358,17,информационной,0.10430791443132645,replayed_author_model
+fp_358,18,технологической,0.10408642067048829,replayed_author_model
+fp_358,19,предоставления статистических,0.1031841556808205,replayed_author_model
+fp_358,20,платформа предоставления,0.1031841556808205,replayed_author_model
+fp_358,21,экспертной,0.1023919733810121,replayed_author_model
+fp_358,22,сбора,0.09897063830028502,replayed_author_model
+fp_358,23,гис цап,0.09741947763006308,replayed_author_model
+fp_358,24,цап,0.09741947763006308,replayed_author_model
+fp_358,25,производства,0.09456344726395885,replayed_author_model
+fp_358,26,государственной информационной,0.0931974226680222,replayed_author_model
+fp_358,27,отчетности,0.09235293804723577,replayed_author_model
+fp_358,28,статистического,0.09235293804723577,replayed_author_model
+fp_358,29,данных,0.09137890898564105,replayed_author_model
+fp_358,30,гис,0.09055519927043583,replayed_author_model
+fp_358,31,обработки,0.08996406399769047,replayed_author_model
+fp_358,32,цифровая аналитическая,0.08846676589356503,replayed_author_model
+fp_358,33,аналитическая платформа,0.08846676589356503,replayed_author_model
+fp_358,34,больших,0.0873844705714583,replayed_author_model
+fp_358,35,процессов,0.08703913529629703,replayed_author_model
+fp_358,36,информацией,0.08523012912364525,replayed_author_model
+fp_358,37,развитии,0.08523012912364525,replayed_author_model
+fp_358,38,мероприятий развитию,0.08523012912364525,replayed_author_model
+fp_358,39,аналитическая,0.08436888460085992,replayed_author_model
+fp_358,40,производственных,0.08324832710301021,replayed_author_model
+fp_358,41,предоставлению,0.08324832710301021,replayed_author_model
+fp_358,42,подготовка,0.08276852264404352,replayed_author_model
+fp_358,43,переход,0.08141346502465041,replayed_author_model
+fp_358,44,подготовке,0.08141346502465041,replayed_author_model
+fp_358,45,заданий,0.08141346502465041,replayed_author_model
+fp_358,46,административных,0.07970524929711752,replayed_author_model
+fp_358,47,компонентов,0.07810732020005472,replayed_author_model
+fp_358,48,внедрению,0.07810732020005472,replayed_author_model
+fp_358,49,расчета,0.07810732020005472,replayed_author_model
+fp_358,50,показателей,0.07614244617758073,replayed_author_model

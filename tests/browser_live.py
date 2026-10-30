@@ -8,6 +8,7 @@ import subprocess
 import sys
 from urllib.parse import quote, urljoin, urlparse
 from playwright.async_api import async_playwright
+from browser_json import get_json as published_json
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -38,9 +39,7 @@ async def execute(args):
             assert not await page.evaluate('document.documentElement.scrollWidth>innerWidth+2'), route
 
         async def packet(path):
-            r = await context.request.get(urljoin(args.base, path))
-            assert r.ok, (path, r.status)
-            return await r.json()
+            return await published_json(context, args.base, path)
 
         index = await packet('downloads/index.json')
         semaphore = asyncio.Semaphore(4)
@@ -72,7 +71,9 @@ async def execute(args):
             if not source.get('published_file'):
                 continue
             await go('explorer?mode=latest&source='+source['source_id'])
-            assert 'Обновлённый' in await page.locator('#main').inner_text()
+            assert 'Последние проверенные' in await page.locator('#main').inner_text()
+            assert await page.get_by_label('Источник', exact=True).input_value() == source['source_id']
+            assert await page.locator('a[href="./'+source['published_file']+'"]').count() == 1
             source_packet = await packet(source['published_file'])
             assert len(source_packet['rows']) == source['rows']
             checks.append({'check': 'published_source_in_explorer', 'source': source['source_id']})

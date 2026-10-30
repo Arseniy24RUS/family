@@ -1,5 +1,5 @@
 name: Refresh EMISS and deploy
-on:
+"on":
   schedule:
     # Deliberate platform schedule, not an assertion of EMISS publication day.
     - cron: '23 6 8 * *'
@@ -7,6 +7,50 @@ on:
     inputs:
       source:
         description: 'Optional source_id (data_20 ... data_35); empty = all'
+        required: false
+        type: string
+      youth_source:
+        description: 'Optional Youth EMISS ID (for example 62969); empty = all confirmed Youth sources'
+        required: false
+        type: string
+      personnel_source:
+        description: 'Optional Personnel EMISS ID (for example 62884); empty = all confirmed Personnel sources'
+        required: false
+        type: string
+      longlife_source:
+        description: 'Optional Longlife EMISS ID (for example 62954); empty = all confirmed Longlife sources'
+        required: false
+        type: string
+      healthtech_source:
+        description: 'Optional Health Technology EMISS ID (for example 62986); empty = all confirmed sources'
+        required: false
+        type: string
+      infrastructure_source:
+        description: 'Optional Infrastructure EMISS ID (for example 62882); empty = all confirmed sources'
+        required: false
+        type: string
+      environment_source:
+        description: 'Optional Environment EMISS ID (for example 62781); empty = all confirmed sources'
+        required: false
+        type: string
+      competitive_source:
+        description: 'Optional Competitive Economy EMISS ID (for example 63088); empty = all confirmed sources'
+        required: false
+        type: string
+      dataeconomy_source:
+        description: 'Optional Data Economy EMISS ID (for example 62766); empty = all confirmed sources'
+        required: false
+        type: string
+      tourism_source:
+        description: 'Optional Tourism EMISS ID (for example 62900); empty = all six confirmed Tourism sources'
+        required: false
+        type: string
+      transport_source:
+        description: 'Optional Transport EMISS ID (for example 62820); empty = all 22 confirmed Transport sources'
+        required: false
+        type: string
+      export_source:
+        description: 'Optional Export EMISS ID (for example 62713); empty = all 18 confirmed Export sources'
         required: false
         type: string
 permissions:
@@ -28,7 +72,20 @@ jobs:
         shell: bash
     outputs:
       emiss_state: ${{ steps.emiss_status.outputs.state }}
-    timeout-minutes: 60
+      youth_state: ${{ steps.emiss_status.outputs.youth_state }}
+      personnel_state: ${{ steps.emiss_status.outputs.personnel_state }}
+      longlife_state: ${{ steps.emiss_status.outputs.longlife_state }}
+      healthtech_state: ${{ steps.emiss_status.outputs.healthtech_state }}
+      infrastructure_state: ${{ steps.emiss_status.outputs.infrastructure_state }}
+      environment_state: ${{ steps.emiss_status.outputs.environment_state }}
+      competitive_state: ${{ steps.emiss_status.outputs.competitive_state }}
+      dataeconomy_state: ${{ steps.emiss_status.outputs.dataeconomy_state }}
+      tourism_state: ${{ steps.emiss_status.outputs.tourism_state }}
+      transport_state: ${{ steps.emiss_status.outputs.transport_state }}
+      export_state: ${{ steps.emiss_status.outputs.export_state }}
+    # Sequential exports retain their existing source-friendly request intervals.
+    # The cumulative source list requires more than one hour when downloads succeed.
+    timeout-minutes: 240
     permissions:
       contents: write
       pages: read
@@ -63,20 +120,151 @@ jobs:
       - name: Fetch and validate EMISS through the home router
         env:
           SELECTED_SOURCE: ${{ inputs.source }}
+          SELECTED_YOUTH_SOURCE: ${{ inputs.youth_source }}
+          SELECTED_PERSONNEL_SOURCE: ${{ inputs.personnel_source }}
+          SELECTED_LONGLIFE_SOURCE: ${{ inputs.longlife_source }}
+          SELECTED_HEALTHTECH_SOURCE: ${{ inputs.healthtech_source }}
+          SELECTED_INFRASTRUCTURE_SOURCE: ${{ inputs.infrastructure_source }}
+          SELECTED_ENVIRONMENT_SOURCE: ${{ inputs.environment_source }}
+          SELECTED_COMPETITIVE_SOURCE: ${{ inputs.competitive_source }}
+          SELECTED_DATAECONOMY_SOURCE: ${{ inputs.dataeconomy_source }}
+          SELECTED_TOURISM_SOURCE: ${{ inputs.tourism_source }}
+          SELECTED_TRANSPORT_SOURCE: ${{ inputs.transport_source }}
+          SELECTED_EXPORT_SOURCE: ${{ inputs.export_source }}
         run: |
           bash scripts/home_vpn.sh check
           candidate="$SEMYA_RUN_DIR/semya-runtime"
           mkdir -p "$candidate/public/data"
           cp -a scripts "$candidate/"
           cp -a public/data/baseline public/data/latest public/data/catalog.json "$candidate/public/data/"
+          mkdir -p "$candidate/public/data/projects" "$candidate/public/downloads/projects"
+          cp -a public/data/projects/youth_children "$candidate/public/data/projects/"
+          cp -a public/downloads/projects/youth_children "$candidate/public/downloads/projects/"
+          cp -a public/data/projects/personnel "$candidate/public/data/projects/"
+          cp -a public/downloads/projects/personnel "$candidate/public/downloads/projects/"
+          cp -a public/data/projects/long_active_life "$candidate/public/data/projects/"
+          cp -a public/downloads/projects/long_active_life "$candidate/public/downloads/projects/"
+          cp -a public/data/projects/health_technologies "$candidate/public/data/projects/"
+          cp -a public/downloads/projects/health_technologies "$candidate/public/downloads/projects/"
+          cp -a public/data/projects/life_infrastructure "$candidate/public/data/projects/"
+          cp -a public/downloads/projects/life_infrastructure "$candidate/public/downloads/projects/"
+          cp -a public/data/projects/environment "$candidate/public/data/projects/"
+          cp -a public/downloads/projects/environment "$candidate/public/downloads/projects/"
+          cp -a public/data/projects/competitive_economy "$candidate/public/data/projects/"
+          cp -a public/data/projects/data_economy "$candidate/public/data/projects/"
+          cp -a public/downloads/projects/competitive_economy "$candidate/public/downloads/projects/"
+          cp -a public/downloads/projects/data_economy "$candidate/public/downloads/projects/"
+          cp -a public/data/projects/tourism "$candidate/public/data/projects/"
+          cp -a public/downloads/projects/tourism "$candidate/public/downloads/projects/"
+          cp -a public/data/projects/efficient_transport "$candidate/public/data/projects/"
+          cp -a public/downloads/projects/efficient_transport "$candidate/public/downloads/projects/"
+          cp -a public/data/projects/international_export "$candidate/public/data/projects/"
+          cp -a public/downloads/projects/international_export "$candidate/public/downloads/projects/"
+          mkdir -p "$candidate/inputs/dataeconomy/statistics"
+          cp inputs/dataeconomy/statistics/multivariate_reference.json "$candidate/inputs/dataeconomy/statistics/"
+          mkdir -p "$candidate/inputs/tourism/statistics"
+          cp inputs/tourism/statistics/catalog_original.json inputs/tourism/statistics/observations_snapshot.csv.gz "$candidate/inputs/tourism/statistics/"
+          mkdir -p "$candidate/inputs/efficient_transport/statistics"
+          cp inputs/efficient_transport/statistics/catalog_original.json inputs/efficient_transport/statistics/observations_snapshot.csv.gz "$candidate/inputs/efficient_transport/statistics/"
+          mkdir -p "$candidate/inputs/international_export/statistics"
+          cp inputs/international_export/statistics/catalog_original.json inputs/international_export/statistics/observations_snapshot.csv.gz "$candidate/inputs/international_export/statistics/"
           sudo chown -R semya:semya "$candidate"
           if [ -n "$SELECTED_SOURCE" ]; then
             sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_emiss.py" --source "$SELECTED_SOURCE"
           else
             sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_emiss.py"
           fi
+          if [ -n "$SELECTED_YOUTH_SOURCE" ]; then
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_youth_emiss.py" --source "$SELECTED_YOUTH_SOURCE"
+          else
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_youth_emiss.py"
+          fi
+          if [ -n "$SELECTED_PERSONNEL_SOURCE" ]; then
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_personnel_emiss.py" --source "$SELECTED_PERSONNEL_SOURCE"
+          else
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_personnel_emiss.py"
+          fi
+          if [ -n "$SELECTED_LONGLIFE_SOURCE" ]; then
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_longlife_emiss.py" --source "$SELECTED_LONGLIFE_SOURCE"
+          else
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_longlife_emiss.py"
+          fi
+          if [ -n "$SELECTED_HEALTHTECH_SOURCE" ]; then
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_healthtech_emiss.py" --source "$SELECTED_HEALTHTECH_SOURCE"
+          else
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_healthtech_emiss.py"
+          fi
+          if [ -n "$SELECTED_INFRASTRUCTURE_SOURCE" ]; then
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_infrastructure_emiss.py" --source "$SELECTED_INFRASTRUCTURE_SOURCE"
+          else
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_infrastructure_emiss.py"
+          fi
+          if [ -n "$SELECTED_ENVIRONMENT_SOURCE" ]; then
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_environment_emiss.py" --source "$SELECTED_ENVIRONMENT_SOURCE"
+          else
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_environment_emiss.py"
+          fi
+          if [ -n "$SELECTED_COMPETITIVE_SOURCE" ]; then
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_competitive_emiss.py" --source "$SELECTED_COMPETITIVE_SOURCE"
+          else
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_competitive_emiss.py"
+          fi
+          if [ -n "$SELECTED_DATAECONOMY_SOURCE" ]; then
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_dataeconomy_emiss.py" --source "$SELECTED_DATAECONOMY_SOURCE"
+          else
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_dataeconomy_emiss.py"
+          fi
+          if [ -n "$SELECTED_TOURISM_SOURCE" ]; then
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_tourism_emiss.py" --source "$SELECTED_TOURISM_SOURCE"
+          else
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_tourism_emiss.py"
+          fi
+          if [ -n "$SELECTED_TRANSPORT_SOURCE" ]; then
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_transport_emiss.py" --source "$SELECTED_TRANSPORT_SOURCE"
+          else
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_transport_emiss.py"
+          fi
+          if [ -n "$SELECTED_EXPORT_SOURCE" ]; then
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_export_emiss.py" --source "$SELECTED_EXPORT_SOURCE"
+          else
+            sudo --preserve-env=PYTHONUTF8 -u semya "$(command -v python)" "$candidate/scripts/refresh_export_emiss.py"
+          fi
           sudo chown -R "$(id -u):$(id -g)" "$candidate"
           cp -a "$candidate/public/data/latest/." public/data/latest/
+          cp -a "$candidate/public/data/projects/youth_children/." public/data/projects/youth_children/
+          cp -a "$candidate/public/downloads/projects/youth_children/." public/downloads/projects/youth_children/
+          cp -a "$candidate/public/data/projects/personnel/." public/data/projects/personnel/
+          cp -a "$candidate/public/downloads/projects/personnel/." public/downloads/projects/personnel/
+          cp -a "$candidate/public/data/projects/long_active_life/." public/data/projects/long_active_life/
+          cp -a "$candidate/public/downloads/projects/long_active_life/." public/downloads/projects/long_active_life/
+          cp -a "$candidate/public/data/projects/health_technologies/." public/data/projects/health_technologies/
+          cp -a "$candidate/public/downloads/projects/health_technologies/." public/downloads/projects/health_technologies/
+          cp -a "$candidate/public/data/projects/life_infrastructure/." public/data/projects/life_infrastructure/
+          cp -a "$candidate/public/downloads/projects/life_infrastructure/." public/downloads/projects/life_infrastructure/
+          cp -a "$candidate/public/data/projects/environment/." public/data/projects/environment/
+          cp -a "$candidate/public/downloads/projects/environment/." public/downloads/projects/environment/
+          cp -a "$candidate/public/data/projects/competitive_economy/." public/data/projects/competitive_economy/
+          cp -a "$candidate/public/data/projects/data_economy/." public/data/projects/data_economy/
+          cp -a "$candidate/public/downloads/projects/competitive_economy/." public/downloads/projects/competitive_economy/
+          cp -a "$candidate/public/downloads/projects/data_economy/." public/downloads/projects/data_economy/
+          cp -a "$candidate/public/data/projects/tourism/." public/data/projects/tourism/
+          cp -a "$candidate/public/downloads/projects/tourism/." public/downloads/projects/tourism/
+          cp -a "$candidate/public/data/projects/efficient_transport/." public/data/projects/efficient_transport/
+          cp -a "$candidate/public/downloads/projects/efficient_transport/." public/downloads/projects/efficient_transport/
+          cp -a "$candidate/public/data/projects/international_export/." public/data/projects/international_export/
+          cp -a "$candidate/public/downloads/projects/international_export/." public/downloads/projects/international_export/
+          mkdir -p monitoring
+          cp "$candidate/monitoring/youth_last_refresh.json" monitoring/youth_last_refresh.json
+          cp "$candidate/monitoring/personnel_last_refresh.json" monitoring/personnel_last_refresh.json
+          cp "$candidate/monitoring/longlife_last_refresh.json" monitoring/longlife_last_refresh.json
+          cp "$candidate/monitoring/healthtech_last_refresh.json" monitoring/healthtech_last_refresh.json
+          cp "$candidate/monitoring/infrastructure_last_refresh.json" monitoring/infrastructure_last_refresh.json
+          cp "$candidate/monitoring/environment_last_refresh.json" monitoring/environment_last_refresh.json
+          cp "$candidate/monitoring/competitive_last_refresh.json" monitoring/competitive_last_refresh.json
+          cp "$candidate/monitoring/dataeconomy_last_refresh.json" monitoring/dataeconomy_last_refresh.json
+          cp "$candidate/monitoring/tourism_last_refresh.json" monitoring/tourism_last_refresh.json
+          cp "$candidate/monitoring/transport_last_refresh.json" monitoring/transport_last_refresh.json
+          cp "$candidate/monitoring/export_last_refresh.json" monitoring/export_last_refresh.json
       - name: Close VPN and remove temporary credentials
         if: always()
         run: bash scripts/home_vpn.sh stop
@@ -87,8 +275,30 @@ jobs:
           import json, os
           from pathlib import Path
           state = json.loads(Path('public/data/latest/manifest.json').read_text(encoding='utf-8'))['state']
+          youth = json.loads(Path('public/data/projects/youth_children/refresh-status.json').read_text(encoding='utf-8'))['state']
+          personnel = json.loads(Path('public/data/projects/personnel/refresh-status.json').read_text(encoding='utf-8'))['state']
+          longlife = json.loads(Path('public/data/projects/long_active_life/refresh-status.json').read_text(encoding='utf-8'))['state']
+          healthtech = json.loads(Path('public/data/projects/health_technologies/refresh-status.json').read_text(encoding='utf-8'))['state']
+          infrastructure = json.loads(Path('public/data/projects/life_infrastructure/refresh-status.json').read_text(encoding='utf-8'))['state']
+          environment = json.loads(Path('public/data/projects/environment/refresh-status.json').read_text(encoding='utf-8'))['state']
+          competitive = json.loads(Path('public/data/projects/competitive_economy/refresh-status.json').read_text(encoding='utf-8'))['state']
+          dataeconomy = json.loads(Path('public/data/projects/data_economy/refresh-status.json').read_text(encoding='utf-8'))['state']
+          tourism = json.loads(Path('public/data/projects/tourism/refresh-status.json').read_text(encoding='utf-8'))['state']
+          transport = json.loads(Path('public/data/projects/efficient_transport/refresh-status.json').read_text(encoding='utf-8'))['state']
+          export = json.loads(Path('public/data/projects/international_export/refresh-status.json').read_text(encoding='utf-8'))['state']
           with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
               output.write(f'state={state}\n')
+              output.write(f'youth_state={youth}\n')
+              output.write(f'personnel_state={personnel}\n')
+              output.write(f'longlife_state={longlife}\n')
+              output.write(f'healthtech_state={healthtech}\n')
+              output.write(f'infrastructure_state={infrastructure}\n')
+              output.write(f'environment_state={environment}\n')
+              output.write(f'competitive_state={competitive}\n')
+              output.write(f'dataeconomy_state={dataeconomy}\n')
+              output.write(f'tourism_state={tourism}\n')
+              output.write(f'transport_state={transport}\n')
+              output.write(f'export_state={export}\n')
           PY
       - name: Recompute monthly TFR and TFR3+ forecasts
         run: python scripts/build_indicator_forecasts.py
@@ -98,15 +308,28 @@ jobs:
         run: python scripts/cache_author_images.py
       - name: Validate complete candidate site before committing any update
         run: npm test && npm run build && npm run validate
+      - name: Build compact candidate Pages publication from validated docs
+        run: python scripts/build_pages.py
       - name: Write readable job summary
         run: |
           python scripts/update_summary.py >> "$GITHUB_STEP_SUMMARY"
+          python scripts/youth_update_summary.py >> "$GITHUB_STEP_SUMMARY"
+          python scripts/personnel_update_summary.py >> "$GITHUB_STEP_SUMMARY"
+          python scripts/longlife_update_summary.py >> "$GITHUB_STEP_SUMMARY"
+          python scripts/healthtech_update_summary.py >> "$GITHUB_STEP_SUMMARY"
+          python scripts/infrastructure_update_summary.py >> "$GITHUB_STEP_SUMMARY"
+          python scripts/environment_update_summary.py >> "$GITHUB_STEP_SUMMARY"
+          python scripts/competitive_update_summary.py >> "$GITHUB_STEP_SUMMARY"
+          python scripts/dataeconomy_update_summary.py >> "$GITHUB_STEP_SUMMARY"
+          python scripts/tourism_update_summary.py >> "$GITHUB_STEP_SUMMARY"
+          python scripts/transport_update_summary.py >> "$GITHUB_STEP_SUMMARY"
+          python scripts/export_update_summary.py >> "$GITHUB_STEP_SUMMARY"
       - name: Install browser QA dependencies
         run: |
           python -m pip install -r scripts/requirements-browser.txt
           python -m playwright install --with-deps chromium
       - name: Test refreshed site through real HTTP before committing data
-        run: python tests/run_browser.py --output "$RUNNER_TEMP/semya-qa"
+        run: python tests/run_browser.py --directory .pages --output "$RUNNER_TEMP/semya-qa"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -120,6 +343,17 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add public/data/latest public/data/current public/data/projections public/data/authors.json public/data/author_images_status.json inputs/upstream
+          git add public/data/projects/youth_children public/downloads/projects/youth_children monitoring/youth_last_refresh.json
+          git add public/data/projects/personnel public/downloads/projects/personnel monitoring/personnel_last_refresh.json
+          git add public/data/projects/long_active_life public/downloads/projects/long_active_life monitoring/longlife_last_refresh.json
+          git add public/data/projects/health_technologies public/downloads/projects/health_technologies monitoring/healthtech_last_refresh.json
+          git add public/data/projects/life_infrastructure public/downloads/projects/life_infrastructure monitoring/infrastructure_last_refresh.json
+          git add public/data/projects/environment public/downloads/projects/environment monitoring/environment_last_refresh.json
+          git add public/data/projects/competitive_economy public/downloads/projects/competitive_economy monitoring/competitive_last_refresh.json
+          git add public/data/projects/data_economy public/downloads/projects/data_economy monitoring/dataeconomy_last_refresh.json
+          git add public/data/projects/tourism public/downloads/projects/tourism monitoring/tourism_last_refresh.json
+          git add public/data/projects/efficient_transport public/downloads/projects/efficient_transport monitoring/transport_last_refresh.json
+          git add public/data/projects/international_export public/downloads/projects/international_export monitoring/export_last_refresh.json
           if [ -d public/assets/authors ]; then git add public/assets/authors; fi
           if [ -d public/downloads/demography/upstream ]; then git add public/downloads/demography/upstream; fi
           if ! git diff --cached --quiet; then
@@ -136,10 +370,12 @@ jobs:
       # Build and deploy in this workflow instead of relying on recursive triggers.
       - name: Verify and build published site
         run: npm test && npm run build && npm run validate
+      - name: Rebuild compact Pages publication from validated docs
+        run: python scripts/build_pages.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: docs
+          path: .pages
   deploy:
     needs: refresh
     runs-on: ubuntu-latest
@@ -153,7 +389,7 @@ jobs:
       - id: publish
         uses: actions/deploy-pages@v4
       - name: Report unsuccessful data refresh after publishing retained data and diagnostics
-        if: ${{ needs.refresh.outputs.emiss_state == 'failed' || needs.refresh.outputs.emiss_state == 'partial' }}
+        if: ${{ needs.refresh.outputs.emiss_state == 'failed' || needs.refresh.outputs.emiss_state == 'partial' || needs.refresh.outputs.youth_state == 'failed' || needs.refresh.outputs.youth_state == 'partial' || needs.refresh.outputs.personnel_state == 'failed' || needs.refresh.outputs.personnel_state == 'partial' || needs.refresh.outputs.longlife_state == 'failed' || needs.refresh.outputs.longlife_state == 'partial' || needs.refresh.outputs.healthtech_state == 'failed' || needs.refresh.outputs.healthtech_state == 'partial' || needs.refresh.outputs.infrastructure_state == 'failed' || needs.refresh.outputs.infrastructure_state == 'partial' || needs.refresh.outputs.environment_state == 'failed' || needs.refresh.outputs.environment_state == 'partial' || needs.refresh.outputs.competitive_state == 'failed' || needs.refresh.outputs.competitive_state == 'partial' || needs.refresh.outputs.dataeconomy_state == 'failed' || needs.refresh.outputs.dataeconomy_state == 'partial' || needs.refresh.outputs.tourism_state == 'failed' || needs.refresh.outputs.tourism_state == 'partial' || needs.refresh.outputs.transport_state == 'failed' || needs.refresh.outputs.transport_state == 'partial' || needs.refresh.outputs.export_state == 'failed' || needs.refresh.outputs.export_state == 'partial' }}
         run: |
           echo '::error::EMISS refresh did not validate every requested source. The site retains prior valid data. See the refresh job summary and the Updates page.'
           exit 1

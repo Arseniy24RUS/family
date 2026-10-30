@@ -1,0 +1,676 @@
+{
+  "schema": "national-projects.release-validation/1",
+  "version": "2.3.0-longlife.1",
+  "base_release": "2.2.0-personnel.1",
+  "date": "2026-10-29",
+  "project_id": "long_active_life",
+  "test_status": "PASS",
+  "environment": {
+    "node": "24.22.1",
+    "python": "3.12.14",
+    "browser": "Google Chrome 156.0.8078.73",
+    "browser_driver": "Playwright 1.61.0",
+    "browser_reason": "Browser plugin unavailable; ordinary Chromium HTTP acceptance used.",
+    "url_prefix": "/family/",
+    "desktop_width": 1440,
+    "mobile_widths": [
+      390,
+      320
+    ]
+  },
+  "automated_tests": {
+    "javascript": {
+      "passed": 93,
+      "failed": 0,
+      "skipped": 0,
+      "command": "node --test --test-isolation=none --test-reporter=spec tests/*.test.mjs"
+    },
+    "python": {
+      "passed": 192,
+      "failed": 0,
+      "longlife_statistics": 29,
+      "longlife_documentary": 9,
+      "command": "python3 -m unittest discover -s tests -p 'test_*.py'"
+    },
+    "browser": {
+      "passed": 1873,
+      "failed": 0,
+      "suites": {
+        "browser_check": {
+          "passed": 89,
+          "failed": 0,
+          "javascript_errors": 0,
+          "unexpected_http_errors": 0,
+          "evidence_sha256": "6f0caa9564be2486e210460ff7f8e5cfb2f50d38b49650075c3ae6bc5b718fb0"
+        },
+        "browser_upgrade": {
+          "passed": 42,
+          "failed": 0,
+          "javascript_errors": 0,
+          "unexpected_http_errors": 0,
+          "evidence_sha256": "a1aefa0d0068196d4ce332b5cf5608392347dd985b01b026ea6b85675f8fa855"
+        },
+        "browser_redesign": {
+          "passed": 29,
+          "failed": 0,
+          "javascript_errors": 0,
+          "unexpected_http_errors": 0,
+          "evidence_sha256": "23287ef1231e35b2dcfd7efcf1e0a727fa31267a4b00cd64f1853b1e44b4c57e"
+        },
+        "browser_live": {
+          "passed": 711,
+          "failed": 0,
+          "javascript_errors": 0,
+          "unexpected_http_errors": 0,
+          "evidence_sha256": "6dce30346e26bbcece3e8280dd5b1e85fb158223e0f5e177f85950999192d7ad"
+        },
+        "browser_youth": {
+          "passed": 280,
+          "failed": 0,
+          "javascript_errors": 0,
+          "unexpected_http_errors": 0,
+          "evidence_sha256": "b1408c8647e62a07ab47e09e4924988be3d437668d71afddd45bf3d012001826"
+        },
+        "browser_personnel": {
+          "passed": 324,
+          "failed": 0,
+          "javascript_errors": 0,
+          "unexpected_http_errors": 0,
+          "evidence_sha256": "074e9e179534c89c25a4534b677f0e48952baa9a0f0da7963a6efd338f03a3f8"
+        },
+        "browser_longlife": {
+          "passed": 398,
+          "failed": 0,
+          "javascript_errors": 0,
+          "unexpected_http_errors": 0,
+          "evidence_sha256": "9f6d7dc7e12187602ecc9258461f576d217d31a90bac7160b9e9313cd2fb5f69"
+        }
+      },
+      "download_hashes_checked_over_http": 603,
+      "execution_note": "The first four suites and Personnel passed on the integrated build. Youth was repeated after its test awaited the replacement DOM. Longlife was repeated after the geography, visible correlation caveat and label fixes. Only release documentation is added after final Longlife acceptance.",
+      "final_longlife_command": "python3 tests/run_browser.py --suite browser_longlife --output <qa_directory>",
+      "checks": [
+        "all_21_desktop_and_mobile_routes",
+        "all_34_regional_source_slices",
+        "source_numeric_records_vs_comparable_map_coverage",
+        "exclusive_geography_preferred_without_aggregate_imputation",
+        "ambiguous_regions_not_colored",
+        "filters_and_shared_link_reload",
+        "regional_csv_matches_selected_period_and_district",
+        "finance_sign_units_and_full_horizons",
+        "financial_label_bounds",
+        "population_age_sex_and_source_provenance",
+        "passport_matrix_weights",
+        "lazy_text_contexts",
+        "source_http_503_and_retry",
+        "project_switch_and_history",
+        "mobile_menu_keyboard_and_inert",
+        "csv_svg_png_exports",
+        "static_research_pages"
+      ]
+    },
+    "published_validation": {
+      "command": "npm run validate",
+      "scope": "All final download SHA-256 values, preserved Family forecasts, four complete project datasets, source-packet references, source inputs, documentary arithmetic and static pages."
+    }
+  },
+  "resolved_acceptance_findings": [
+    {
+      "check": "youth_scenario_parameter_changes_result",
+      "initial_failed": 1,
+      "cause": "The test observed the previous ready DOM before hashchange rendering.",
+      "resolution": "Wait for the previous input to detach before reading the new ready page. Youth application unchanged."
+    },
+    {
+      "check": "longlife_map_source_62930",
+      "initial_failed": 1,
+      "cause": "An ambiguous missing parent-territory row obscured its valid exclusive territorial variant with the same map code.",
+      "resolution": "Prefer a confirmed exclusive variant independent of row order; never impute it from an ambiguous aggregate. Separate raw numeric records from geographically comparable map values."
+    },
+    {
+      "check": "longlife_lab_correlation_not_causal",
+      "initial_failed": 1,
+      "cause": "The interpretation caveat existed inside a collapsed method description.",
+      "resolution": "The caveat is also visible beside the correlation result."
+    },
+    {
+      "check": "longlife_finance_labels",
+      "cause": "Visual review found a long label clipped at the left edge.",
+      "resolution": "Short labels preserve project codes; full names remain in tooltips, tables and CSV. Browser checks text bounding boxes."
+    }
+  ],
+  "independent_source_comparison": {
+    "schema": "national-projects.independent-source-audit/1",
+    "project_id": "long_active_life",
+    "status": "PASS",
+    "method": "Independent stdlib SQLite queries and Decimal arithmetic; no platform builder/normalizer imported.",
+    "counts": {
+      "sources": 42,
+      "original_cells": 61029,
+      "runtime_cells": 61029,
+      "numeric_cells": 57391,
+      "missing_cells": 3638,
+      "matched_cells": 61029,
+      "csv_cells": 61029,
+      "csv_matched_cells": 61029,
+      "finance_common_cells": 66,
+      "finance_full_cells": 120,
+      "staffing_original_values": 168
+    },
+    "discrepancies": [],
+    "source_release": "NationalProjects_Analytics_1.2.0",
+    "output_hashes": {
+      "observations_csv": "1dc8e1dddcb4357849be59a68fc2e8faa818a96d84b0b4264ddf53a57bd85fe3",
+      "documentary_json": "09cda89f0040655d6524811d24d7b023296a5da53acd746a9c4b07ab864a3ca8"
+    },
+    "finance_exact_thousand_rub": {
+      "common_federal": "4066231073.60",
+      "national": "4136479588.77",
+      "national_minus_federal": "70248515.17",
+      "full_federal": "6358915972.40"
+    }
+  },
+  "isolated_replay": {
+    "status": "PASS",
+    "candidate_has_private_inputs": false,
+    "candidate_has_sqlite": false,
+    "replayed_sources": 42,
+    "all_source_packet_sha256_match": true,
+    "observations_csv_rows": 61029,
+    "coverage": {
+      "indicators_total": 65,
+      "national_indicators": 23,
+      "federal_indicators": 42,
+      "known_sources": 42,
+      "numeric_sources": 42,
+      "indicators_with_numeric": 42,
+      "metadata_only_sources": 0,
+      "unmapped_indicators": 23,
+      "observations": 61029,
+      "numeric_observations": 57391,
+      "missing_observations": 3638,
+      "usable_observations": 57337,
+      "excluded_numeric_observations": 54,
+      "independent_annual_national_facts": 10,
+      "annual_equivalent_references": 0,
+      "regional_sources": 34,
+      "other_territory_observations": 0
+    },
+    "target_comparisons": 79,
+    "method_reviews": 39,
+    "documentary_method_reviews": 20,
+    "statistics_bytes": 2481650,
+    "root_refresh_status_unchanged": true
+  },
+  "cumulative_preservation": {
+    "base_release": "2.2.0-personnel.1",
+    "summary": {
+      "baseline_files": 2668,
+      "byte_identical": 2599,
+      "modified": 69,
+      "missing": 0,
+      "unexplained_changes": 0,
+      "strict_protected_materials_preserved": true
+    },
+    "groups": {
+      "family_source_pages": {
+        "files": 10,
+        "byte_identical": 10,
+        "modified_files": [],
+        "missing": []
+      },
+      "youth_personnel_sources_and_styles": {
+        "files": 4,
+        "byte_identical": 4,
+        "modified_files": [],
+        "missing": []
+      },
+      "family_primary_and_derived_data": {
+        "files": 508,
+        "byte_identical": 507,
+        "modified_files": [
+          {
+            "path": "public/data/current/research.json",
+            "classification": "4 floating-point round-off differences in derived Family k-means inertia, max absolute difference 8.526512829121202e-14; every other JSON value is identical"
+          }
+        ],
+        "missing": []
+      },
+      "youth_personnel_data_and_series": {
+        "files": 136,
+        "byte_identical": 136,
+        "modified_files": [],
+        "missing": []
+      },
+      "original_inputs": {
+        "files": 9,
+        "byte_identical": 9,
+        "modified_files": [],
+        "missing": []
+      },
+      "all_author_reports": {
+        "files": 10,
+        "byte_identical": 10,
+        "modified_files": [],
+        "missing": []
+      },
+      "logos_and_fonts": {
+        "files": 48,
+        "byte_identical": 48,
+        "modified_files": [],
+        "missing": []
+      },
+      "previous_source_downloads": {
+        "files": 439,
+        "byte_identical": 424,
+        "modified_files": [
+          {
+            "path": "public/downloads/code/frontend/app.js",
+            "classification": "Published copy of the shared frontend integration"
+          },
+          {
+            "path": "public/downloads/code/frontend/platform/data.js",
+            "classification": "Published copy of the shared frontend integration"
+          },
+          {
+            "path": "public/downloads/code/frontend/platform/projects.js",
+            "classification": "Published copy of the shared frontend integration"
+          },
+          {
+            "path": "public/downloads/code/platform/build.mjs",
+            "classification": "Published copy of the shared build/validation integration"
+          },
+          {
+            "path": "public/downloads/code/platform/build_research_pages.mjs",
+            "classification": "Published copy of the shared build/validation integration"
+          },
+          {
+            "path": "public/downloads/code/platform/requirements-refresh.txt",
+            "classification": "Published copy of the shared build/validation integration"
+          },
+          {
+            "path": "public/downloads/code/platform/validate.mjs",
+            "classification": "Published copy of the shared build/validation integration"
+          },
+          {
+            "path": "public/downloads/documentation/CHANGELOG.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "public/downloads/documentation/CODEX_HANDOFF_RU.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "public/downloads/documentation/PAGE_AUTHORING_RU.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "public/downloads/documentation/PLATFORM_ARCHITECTURE_RU.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "public/downloads/documentation/README.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "public/downloads/documentation/RESEARCH_PLATFORM_MAP_RU.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "public/downloads/index.json",
+            "classification": "Download index includes new Longlife files and hashes for intentionally regenerated code/documentation/ZIP copies; no former entry is lost"
+          },
+          {
+            "path": "public/downloads/projections/projections_python.zip",
+            "classification": "ZIP member timestamps only; all eight member names and contents are identical"
+          }
+        ],
+        "missing": []
+      },
+      "old_static_youth_personnel_html": {
+        "files": 84,
+        "byte_identical": 84,
+        "modified_files": [],
+        "missing": []
+      },
+      "all_old_docs_outputs": {
+        "files": 1256,
+        "byte_identical": 1229,
+        "modified_files": [
+          {
+            "path": "docs/data/current/research.json",
+            "classification": "4 floating-point round-off differences in derived Family k-means inertia, max absolute difference 8.526512829121202e-14; every other JSON value is identical"
+          },
+          {
+            "path": "docs/data/projects/long_active_life/foundation.json",
+            "classification": "New project foundation replaces its former planned card"
+          },
+          {
+            "path": "docs/data/projects/long_active_life/indicators.json",
+            "classification": "New project indicator data"
+          },
+          {
+            "path": "docs/data/projects/long_active_life/methods.json",
+            "classification": "New project methods data"
+          },
+          {
+            "path": "docs/downloads/code/frontend/app.js",
+            "classification": "Published copy of the shared frontend integration"
+          },
+          {
+            "path": "docs/downloads/code/frontend/platform/data.js",
+            "classification": "Published copy of the shared frontend integration"
+          },
+          {
+            "path": "docs/downloads/code/frontend/platform/projects.js",
+            "classification": "Published copy of the shared frontend integration"
+          },
+          {
+            "path": "docs/downloads/code/platform/build.mjs",
+            "classification": "Published copy of the shared build/validation integration"
+          },
+          {
+            "path": "docs/downloads/code/platform/build_research_pages.mjs",
+            "classification": "Published copy of the shared build/validation integration"
+          },
+          {
+            "path": "docs/downloads/code/platform/requirements-refresh.txt",
+            "classification": "Published copy of the shared build/validation integration"
+          },
+          {
+            "path": "docs/downloads/code/platform/validate.mjs",
+            "classification": "Published copy of the shared build/validation integration"
+          },
+          {
+            "path": "docs/downloads/documentation/CHANGELOG.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "docs/downloads/documentation/CODEX_HANDOFF_RU.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "docs/downloads/documentation/PAGE_AUTHORING_RU.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "docs/downloads/documentation/PLATFORM_ARCHITECTURE_RU.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "docs/downloads/documentation/README.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "docs/downloads/documentation/RESEARCH_PLATFORM_MAP_RU.md",
+            "classification": "Published copy of release/architecture documentation"
+          },
+          {
+            "path": "docs/downloads/index.json",
+            "classification": "Download index includes new Longlife files and hashes for intentionally regenerated code/documentation/ZIP copies; no former entry is lost"
+          },
+          {
+            "path": "docs/downloads/projections/projections_python.zip",
+            "classification": "ZIP member timestamps only; all eight member names and contents are identical"
+          },
+          {
+            "path": "docs/index.html",
+            "classification": "Shared landing page and new project entry"
+          },
+          {
+            "path": "docs/research/projects/long_active_life/index.html",
+            "classification": "New full Longlife study replaces its former planned foundation card"
+          },
+          {
+            "path": "docs/research/projects/personnel/research.css",
+            "classification": "Shared generated CSS adds an optional --study-table-head variable with the old value as fallback; old HTML is unchanged and defines no such override"
+          },
+          {
+            "path": "docs/research/projects/youth_children/research.css",
+            "classification": "Shared generated CSS adds an optional --study-table-head variable with the old value as fallback; old HTML is unchanged and defines no such override"
+          },
+          {
+            "path": "docs/sitemap.xml",
+            "classification": "New Longlife static pages added; all prior sitemap URLs retained"
+          },
+          {
+            "path": "docs/src/app.js",
+            "classification": "Shared project renderer integration"
+          },
+          {
+            "path": "docs/src/platform/data.js",
+            "classification": "Shared project loader integration"
+          },
+          {
+            "path": "docs/src/platform/projects.js",
+            "classification": "Shared project registry integration"
+          }
+        ],
+        "missing": []
+      }
+    },
+    "derived_content_assessment": {
+      "family_research": {
+        "different_numeric_leaves": 4,
+        "max_absolute_difference": 8.526512829121202e-14,
+        "changed_fields": [
+          "$.cluster_silhouette_selection[0].inertia",
+          "$.cluster_silhouette_selection[1].inertia",
+          "$.cluster_silhouette_selection[2].inertia",
+          "$.cluster_silhouette_selection[4].inertia"
+        ],
+        "every_other_json_value_identical": true,
+        "interpretation": "Numerical round-off in derived inertia only; source data and cluster assignments are unchanged."
+      },
+      "projection_zip": {
+        "members": 8,
+        "all_member_contents_identical": true,
+        "only_timestamps_changed": true,
+        "change": "7 ZIP entries have different date_time metadata; no code content changed."
+      },
+      "research_css": {
+        "exact_change": "background:var(--study-soft,#eee8f7) -> background:var(--study-table-head,var(--study-soft,#eee8f7))",
+        "only_expected_change": true,
+        "old_project_html_unchanged": true,
+        "old_project_has_override": false,
+        "rendered_effect_on_old_projects": "none; original fallback remains active"
+      },
+      "youth_browser_wait": {
+        "only_expected_wait_change": true,
+        "application_code_changed": false,
+        "failed_original_protocol": "qa_longlife/acceptance/browser_youth/results.json",
+        "passed_retry_protocol": "qa_longlife/acceptance_retry/browser_youth/results.json",
+        "retry_checks": 280
+      }
+    },
+    "scope_note": "Previous application pages, source statistics, reports, inputs, fonts and logos are preserved. Shared navigation/build/documentation and their published copies are extended; a Youth acceptance wait is corrected."
+  },
+  "document_coverage": {
+    "report_pages": 119,
+    "routes": 21,
+    "substantive_blocks": 387,
+    "assigned_blocks": 387,
+    "unmapped_substantive_blocks": [],
+    "duplicate_assignments": [],
+    "tables": 14,
+    "figures": 18,
+    "footnotes": 137,
+    "formulas": 8,
+    "verified_page_locators": 321,
+    "blocks_by_page": {
+      "overview": 18,
+      "framework": 8,
+      "structure": 9,
+      "logic": 56,
+      "audit": 10,
+      "targets": 14,
+      "projections": 1,
+      "finance": 28,
+      "map": 8,
+      "population": 19,
+      "network": 23,
+      "domains": 17,
+      "texts": 24,
+      "proposals": 21,
+      "causal": 13,
+      "methods": 18,
+      "regions": 8,
+      "lab": 4,
+      "explorer": 28,
+      "library": 2,
+      "updates": 2
+    },
+    "docx_sha256": "5685d539722553bd90da5f3db190e663e5640129bc4bd8443258e9907d5de72b"
+  },
+  "data_contract": {
+    "indicators_total": 65,
+    "national_indicators": 23,
+    "federal_indicators": 42,
+    "known_sources": 42,
+    "numeric_sources": 42,
+    "indicators_with_numeric": 42,
+    "metadata_only_sources": 0,
+    "unmapped_indicators": 23,
+    "observations": 61029,
+    "numeric_observations": 57391,
+    "missing_observations": 3638,
+    "usable_observations": 57337,
+    "excluded_numeric_observations": 54,
+    "independent_annual_national_facts": 10,
+    "annual_equivalent_references": 0,
+    "regional_sources": 34,
+    "other_territory_observations": 0
+  },
+  "documentary_replication": {
+    "profile_hashes_checked": 137,
+    "tfidf_features": 20000,
+    "numeric_comparisons": 825,
+    "tfidf_max_abs_error": 6.106226635438361e-16,
+    "frame_cells_checked": 270,
+    "frame_max_abs_error": 0.0,
+    "passed": true,
+    "stemming": "recomputed",
+    "stemming_max_abs_error": 5.551115123125783e-16,
+    "stemming_comparisons": 9
+  },
+  "documentary_summary": {
+    "passed": true,
+    "source_documents": 15,
+    "finance_total_thousand_rub": "4066231073.60",
+    "national_total_thousand_rub": "4136479588.77",
+    "national_minus_federal_thousand_rub": "70248515.17",
+    "finance_common_cells": 66,
+    "finance_full_cells": 120,
+    "finance_horizons_without_later_years": [
+      "Д9",
+      "ДА"
+    ],
+    "source_reconciliation_cells": 72,
+    "hhi": 0.3161542555161044,
+    "target_cells": 390,
+    "numeric_targets": 378,
+    "target_records_all_editions": 961,
+    "same_genre_cosine_pairs": 66,
+    "same_genre_profile_tokens": 9094,
+    "thematic_cells": 270,
+    "comparable_projects": 9,
+    "direct_reviewed_edges": 24,
+    "direct_reviewed_results": 4,
+    "direct_reviewed_indicators": 6,
+    "shared_task_pairs": 282,
+    "semantic_candidates": 160,
+    "node_types": {
+      "task": 41,
+      "goal": 12,
+      "indicator": 53,
+      "result": 78
+    },
+    "demographic_ages": 17,
+    "runtime_json_bytes": 4767182,
+    "lazy_document_files": 15,
+    "all_text_units": 4339,
+    "all_kwic_contexts": 1565
+  },
+  "geographic_diagnostics": {
+    "ambiguous_duplicate_source": "62930",
+    "map_id": "29",
+    "historical_slices": 21,
+    "periods": "2025-01 through 2026-09",
+    "early_three_months": "Only the ambiguous aggregate has numbers; the confirmed exclusive variant remains null on the map.",
+    "september_2026_exclusive_value": 49,
+    "other_duplicate_territories": 0,
+    "conflicting_comparable_values": 0,
+    "staffing_july_2026": {
+      "raw_numeric_records": 85,
+      "geographically_comparable_territories": 83
+    }
+  },
+  "regional_multivariate_interpretation": {
+    "author_matrix": [
+      83,
+      29
+    ],
+    "missing_cells": 5,
+    "imputation": "Separate diagnostic copy only; source cells remain null.",
+    "pc1_pc2_explained": 0.2428873663408952,
+    "seed_audit": {
+      "role": "independent_explicit_seed_audit",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "author_report_range": [
+        0.905,
+        1.0
+      ],
+      "author_seed_list_available": false,
+      "observed_range": [
+        -0.0016820150540347335,
+        1.0
+      ],
+      "audit_download": "downloads/projects/long_active_life/statistical/multivariate_seed_audit_2026_09.csv",
+      "legacy_scope_check": "data/projects/long_active_life/provenance/seed-audit-origin.json",
+      "note": "В авторском отчёте указан диапазон ARI 0,905–1,000, но не перечислены десять начальных состояний. Здесь отдельно выполнен воспроизводимый аудит seed 0–9 при n_init=30. Его диапазон шире; начальные состояния не подбирались ради совпадения. Исходный авторский текст сохранён."
+    },
+    "overall_regional_performance_ranking": false
+  },
+  "emiss_refresh": {
+    "attempt_at": "2026-10-29T10:30:37+00:00",
+    "state": "failed",
+    "attempted_sources": 3,
+    "successful_sources": 0,
+    "updated_sources": 0,
+    "deferred_sources": 39,
+    "retained_statistical_as_of": "2026-10-15",
+    "last_success": "2026-10-15T19:45:43+00:00",
+    "retained_observations": 61029,
+    "network_scope": "DNS resolution failed in this execution environment during an authorized request with network access. No conclusion about global EMISS availability.",
+    "remote_github_workflow_executed": false
+  },
+  "visual_review": {
+    "reviewed": [
+      "overview_desktop",
+      "map_desktop",
+      "map_mobile",
+      "finance_desktop",
+      "population_desktop",
+      "regions_desktop",
+      "network_desktop",
+      "final_geography",
+      "final_financial_labels",
+      "scenario_320"
+    ],
+    "theme": "#D9124A",
+    "local_fonts": true,
+    "official_logo": true,
+    "authors_only_on_family": true
+  }
+}

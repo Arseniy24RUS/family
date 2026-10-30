@@ -1,0 +1,18 @@
+{
+  "source_url": "https://34.rosstat.gov.ru/storage/mediabank/Волгоградская%20область%20в%20цифрах.pdf",
+  "source_title": "Волгоградская область в цифрах. 2024 год. Волгоградстат, 2025",
+  "printed_page": 31,
+  "locator": "Примечание после таблицы 2.6",
+  "locator_basis": "Printed page marker in indexed PDF text; original PDF bytes unavailable",
+  "retrieved_on": "2026-10-29",
+  "retrieval_kind": "indexed_pdf_text_excerpt",
+  "downloaded_original_pdf": false,
+  "geography": "Российская Федерация",
+  "year": 2024,
+  "sex": "all",
+  "value": 72.84,
+  "unit": "лет",
+  "preliminary": true,
+  "source_excerpt": "rosstat_life_expectancy_2024_source.txt",
+  "excerpt_sha256": "8d90fbe50fa1da5dd7d28351c645a50c8e093638a39c7730e5cad93dac0cd235"
+}

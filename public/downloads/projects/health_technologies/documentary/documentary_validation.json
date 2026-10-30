@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "project_id": "health_technologies",
+  "corpus_documents": 98,
+  "corpus_projects": 12,
+  "corpus_tokens": 75367,
+  "healthtech_tokens": 2571,
+  "source_passports": 6,
+  "target_cells": 126,
+  "numeric_targets": 118,
+  "missing_targets": 8,
+  "finance_total_thousand_rub": "16213442.40",
+  "finance_visible_federal_cells": 22,
+  "finance_missing_federal_cells": 8,
+  "finance_difference_thousand_rub": 0,
+  "unique_nodes": 62,
+  "result_cards": 28,
+  "weight_claims": 69,
+  "verified_direct_edges": 0,
+  "candidate_pairs": 83,
+  "thematic_cells": 48,
+  "context_count": 355,
+  "features": 45885,
+  "replication_audit": [
+    {
+      "metric": "corpus_documents",
+      "author_report": 98,
+      "platform_recomputed": 98,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "corpus_tokens",
+      "author_report": 75539,
+      "platform_recomputed": 75367,
+      "difference": -172,
+      "equal": false
+    },
+    {
+      "metric": "healthtech_tokens",
+      "author_report": 2571,
+      "platform_recomputed": 2571,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "features",
+      "author_report": 46519,
+      "platform_recomputed": 45885,
+      "difference": -634,
+      "equal": false
+    },
+    {
+      "metric": "stemming_features",
+      "author_report": 35509,
+      "platform_recomputed": 35048,
+      "difference": -461,
+      "equal": false
+    },
+    {
+      "metric": "unigram_features",
+      "author_report": 10329,
+      "platform_recomputed": 10471,
+      "difference": 142,
+      "equal": false
+    }
+  ],
+  "official_news_documents": 3
+}

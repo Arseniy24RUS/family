@@ -1,0 +1,268 @@
+{
+  "selected": {
+    "0": [
+      {
+        "id": "62159",
+        "title": "Количество номеров в классифицированных средствах размещения"
+      }
+    ],
+    "3": [
+      {
+        "id": "2022",
+        "title": "2022"
+      },
+      {
+        "id": "2023",
+        "title": "2023"
+      },
+      {
+        "id": "2024",
+        "title": "2024"
+      },
+      {
+        "id": "2025",
+        "title": "2025"
+      },
+      {
+        "id": "2026",
+        "title": "2026"
+      }
+    ],
+    "3301": [
+      {
+        "id": "1678127",
+        "title": "Российская Федерация"
+      }
+    ],
+    "30611": [
+      {
+        "id": "950476",
+        "title": "тысяча единиц"
+      }
+    ],
+    "33560": [
+      {
+        "id": "1540283",
+        "title": "январь"
+      },
+      {
+        "id": "1540282",
+        "title": "февраль"
+      },
+      {
+        "id": "1540236",
+        "title": "март"
+      },
+      {
+        "id": "1540229",
+        "title": "апрель"
+      },
+      {
+        "id": "1540235",
+        "title": "май"
+      },
+      {
+        "id": "1540234",
+        "title": "июнь"
+      },
+      {
+        "id": "1540288",
+        "title": "январь-июнь"
+      },
+      {
+        "id": "1540233",
+        "title": "июль"
+      },
+      {
+        "id": "1540287",
+        "title": "январь-июль"
+      },
+      {
+        "id": "1540228",
+        "title": "август"
+      },
+      {
+        "id": "1540284",
+        "title": "январь-август"
+      },
+      {
+        "id": "1540276",
+        "title": "сентябрь"
+      },
+      {
+        "id": "1540293",
+        "title": "январь-сентябрь"
+      },
+      {
+        "id": "1540273",
+        "title": "октябрь"
+      },
+      {
+        "id": "1540292",
+        "title": "январь-октябрь"
+      },
+      {
+        "id": "1540272",
+        "title": "ноябрь"
+      },
+      {
+        "id": "1540291",
+        "title": "январь-ноябрь"
+      },
+      {
+        "id": "1540230",
+        "title": "декабрь"
+      },
+      {
+        "id": "1540286",
+        "title": "январь-декабрь"
+      }
+    ]
+  },
+  "form": [
+    [
+      "format",
+      "excel"
+    ],
+    [
+      "id",
+      "62159"
+    ],
+    [
+      "indicator_title",
+      "Количество номеров в классифицированных средствах размещения"
+    ],
+    [
+      "filterObjectIds",
+      "0"
+    ],
+    [
+      "selectedFilterIds",
+      "0_62159"
+    ],
+    [
+      "lineObjectIds",
+      "3"
+    ],
+    [
+      "selectedFilterIds",
+      "3_2022"
+    ],
+    [
+      "selectedFilterIds",
+      "3_2023"
+    ],
+    [
+      "selectedFilterIds",
+      "3_2024"
+    ],
+    [
+      "selectedFilterIds",
+      "3_2025"
+    ],
+    [
+      "selectedFilterIds",
+      "3_2026"
+    ],
+    [
+      "columnObjectIds",
+      "3301"
+    ],
+    [
+      "selectedFilterIds",
+      "3301_1678127"
+    ],
+    [
+      "columnObjectIds",
+      "30611"
+    ],
+    [
+      "selectedFilterIds",
+      "30611_950476"
+    ],
+    [
+      "lineObjectIds",
+      "33560"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540283"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540282"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540236"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540229"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540235"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540234"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540288"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540233"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540287"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540228"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540284"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540276"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540293"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540273"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540292"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540272"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540291"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540230"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540286"
+    ]
+  ],
+  "download_url": "https://www.fedstat.ru/indicator/downloadData.do?format=excel",
+  "requested_at": "2026-10-15T19:12:46+00:00",
+  "received_at": "2026-10-15T19:12:47+00:00",
+  "csrf": "single-use session token; omitted"
+}

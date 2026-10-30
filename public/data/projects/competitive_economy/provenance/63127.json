@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source_id": "63127",
+  "source_url": "https://www.fedstat.ru/indicator/63127",
+  "research_release": "NationalProjects_Analytics_1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": null,
+  "acquired_at": null,
+  "origin_kind": "metadata_only",
+  "unit": "триллион рублей",
+  "observations": 0,
+  "numeric": 0,
+  "published_sha256": "4d8824c4145f68af013e9c60d59fd11bcb45ab2d217cafa32d2a4100f8fc375c",
+  "input_sha256": "70f959581e3416a780cf6aeffc3ad38408e4d80cd2ba760881274859aa777da4",
+  "input_bundle": "downloads/projects/competitive_economy/statistics/emiss_inputs/63127.zip",
+  "published_file": "data/projects/competitive_economy/series/63127.json",
+  "period_policy": "Original periods and frequencies retained. Quarter labels and explicit annual labels are decoded independently. Economic period and publication month remain distinct. Independent annual rows are never substituted by December. Programme accumulation and annual reset are source-specific.",
+  "export_format": "sdmx",
+  "missing_policy": "No imputation, no substitution by a report image or by another indicator."
+}

@@ -1,0 +1,189 @@
+{
+  "schema": "national-projects.release-validation/1",
+  "version": "2.2.0-personnel.1",
+  "base_release": "2.1.0-youth.1",
+  "date": "2026-10-29",
+  "project_id": "personnel",
+  "test_status": "PASS",
+  "environment": {
+    "node_major": 24,
+    "python": "3",
+    "browser": "Google Chrome 156.0.8078.73",
+    "browser_driver": "Playwright 1.61.0",
+    "browser_reason": "Browser plugin unavailable; real Chromium HTTP acceptance used.",
+    "url_prefix": "/family/"
+  },
+  "automated_tests": {
+    "javascript": {
+      "passed": 77,
+      "failed": 0,
+      "skipped": 0,
+      "command": "node --test --test-isolation=none --test-reporter=spec tests/*.test.mjs"
+    },
+    "python": {
+      "passed": 154,
+      "failed": 0,
+      "command": "python3 -m unittest discover -s tests -p 'test_*.py'",
+      "personnel_statistics": 28,
+      "personnel_documentary": 6
+    },
+    "full_browser_acceptance": {
+      "passed": 1305,
+      "failed": 0,
+      "javascript_errors": 0,
+      "http_errors": 0,
+      "suites": {
+        "browser_check": 89,
+        "browser_upgrade": 42,
+        "browser_redesign": 29,
+        "browser_live": 545,
+        "browser_youth": 280,
+        "browser_personnel": 320
+      },
+      "download_hashes_over_http": 437,
+      "note": "Full six-suite run before final Personnel labels, financial CSV links and QA documentation. Shared application implementation unchanged after this run."
+    },
+    "final_personnel_acceptance": {
+      "passed": 324,
+      "failed": 0,
+      "javascript_errors": 0,
+      "http_errors": 0,
+      "all_routes": 21,
+      "desktop_width": 1440,
+      "mobile_widths": [
+        390,
+        320
+      ],
+      "exports": [
+        "CSV",
+        "SVG",
+        "PNG"
+      ],
+      "checks": [
+        "filters_and_reload",
+        "project_switch_and_history",
+        "mobile_menu_keyboard_and_inert",
+        "closed_menu_animation_settlement",
+        "annual_and_quarterly_period_semantics",
+        "ambiguous_zero_target",
+        "context_district_filtered_export",
+        "finance_units_and_two_horizons",
+        "scenario_bounds_and_above_100_ratio",
+        "lazy_text_context",
+        "static_pages",
+        "personnel_download_sha256"
+      ],
+      "note": "Final source implementation, including both full-horizon finance links. Only this QA protocol and release documentation are added after acceptance."
+    }
+  },
+  "independent_source_comparison": {
+    "status": "PASS",
+    "checks_passed": 546,
+    "checks_total": 546,
+    "discrepancies": [],
+    "observations": {
+      "source_rows": 60,
+      "runtime_rows": 60,
+      "csv_rows": 60,
+      "matched_keys_and_values": 60,
+      "documented_month_to_quarter_transformations": 5
+    },
+    "finance": {
+      "full_horizon_cells": 48,
+      "common_horizon_cells": 24,
+      "project_horizon_sums": 8,
+      "arithmetic": "decimal.Decimal exact comparison"
+    },
+    "context": {
+      "year": 2024,
+      "matched_regions": 85
+    },
+    "source_sha256": {
+      "source_observations": "723d87aa830d6d86d4cb1927d625b5162c35362d49e0c19198a7d3f0cb0a6e1e",
+      "source_finance": "301f446076a6047addc3294fa872ef145fab35650c46437668c9973f2b2124aa",
+      "source_regions": "98516b5bc1b501daa288f393aaf8027b2424cb761be9b7400666f639b4797961",
+      "source_quarter_methodology": "848108c3fa21e71d5824938d4d332cc780165c5d383acc1e62612e610d5ca545"
+    }
+  },
+  "cumulative_preservation": {
+    "base_release": "2.1.0-youth.1",
+    "checked": 631,
+    "missing": [],
+    "changed": [],
+    "scope": "Original Family pages/content/data/projections, official brand/fonts, Youth source statistics/provenance/report/targets/expertise/styles/inputs"
+  },
+  "document_coverage": {
+    "substantive_blocks": 352,
+    "tables": 13,
+    "figures": 14,
+    "formulas": 6,
+    "footnotes": 112,
+    "source_entries_including_report": 113,
+    "verified_page_locators": 288,
+    "docx_sha256": "d459f1011cf3525100bc800e2d71f473bf49ec7c5cf34f85a552c428c762299b"
+  },
+  "data_contract": {
+    "registry_indicators": 11,
+    "known_emiss_sources": 9,
+    "numeric_sources": 5,
+    "metadata_only_sources": 4,
+    "unmapped_indicators": 2,
+    "original_observations": 60,
+    "usable_observations": 60,
+    "independent_annual_facts": 2,
+    "annual_equivalent_references": 3,
+    "annual_comparisons": 5,
+    "operational_comparisons": 4,
+    "project_regional_observations": 0,
+    "context_regions": 85,
+    "target_positions": 66,
+    "numeric_target_positions": 65,
+    "missing_target_positions": 1
+  },
+  "documentary_replication": {
+    "status": "PASS",
+    "numeric_comparisons": 566,
+    "theme_cells": 198,
+    "tfidf_max_absolute_error": 4.996003610813204e-16,
+    "snowball_max_absolute_error": 7.771561172376096e-16,
+    "protocol": "public/downloads/projects/personnel/documentary/text_replication_validation.json"
+  },
+  "emiss_refresh": {
+    "attempt_at": "2026-10-29T09:23:07+00:00",
+    "attempted_sources": 3,
+    "successful_sources": 0,
+    "deferred_sources": 6,
+    "status": "network_error",
+    "retained_statistical_as_of": "2026-10-15",
+    "retained_observations": 60,
+    "network_scope": "Name resolution failed in this execution environment; no conclusion about global EMISS availability.",
+    "remote_github_workflow_executed": false,
+    "status_file": "public/data/projects/personnel/refresh-status.json"
+  },
+  "visual_review": {
+    "status": "PASS",
+    "screens": [
+      "overview desktop",
+      "overview mobile",
+      "regional context desktop",
+      "financial PNG export"
+    ],
+    "mobile_capture_issue": "The initial resized screenshot captured a 200 ms sidebar transition. Direct mobile loading and settled state are correct; final test waits for observable completion. No shared CSS/JS change was needed."
+  },
+  "release_gates": {
+    "build": "npm run build",
+    "validate": "npm run validate",
+    "packaging": "python3 scripts/package_platform.py --output <outside_checkout> --date 2026-10-29",
+    "archive_checks": "CRC, complete entry set and every release-manifest SHA-256 are enforced by packager.",
+    "single_zip": true,
+    "maximum_requested_bytes": 500000000
+  },
+  "limitations": [
+    "No new live observations obtained on 29 October; retained 15 October snapshot is explicitly dated.",
+    "Two project indicators have no verified EMISS ID; four verified cards have no numerical observations.",
+    "The regional map is pre-project 2024 context, not project outcome data.",
+    "Later passport targets do not establish formal attainment of the original 2025 obligation.",
+    "Financial figures are plans, not cash execution.",
+    "No remote repository push, merge, deployment or workflow execution was performed."
+  ]
+}

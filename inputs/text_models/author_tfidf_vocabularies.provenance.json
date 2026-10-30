@@ -1,0 +1,20 @@
+{
+  "schema": "national-projects.author-tfidf-vocabularies-provenance/1",
+  "file": "author_tfidf_vocabularies.json.gz",
+  "sha256": "536b4e93c1c38a53b38fa621b0b8e0d7ff36b9185845ac8de2131c1fddafb4ab",
+  "source_profiles_sha256": "45af856c235b152dcbcae7daf112198af8b020a959eb89e556d9edea962d6265",
+  "diagnostic_branch_commit": "13462b4",
+  "workflow_run_url": "https://github.com/Arseniy24RUS/family/actions/runs/41014541209",
+  "artifact": "tfidf-ubuntu-latest",
+  "verification": "Surface vocabulary and IDF matched the original author-exported CSV; surface and stemming each reproduced nine independent author cosine references within unchanged 1e-12 tolerance. Original 137 document profile hashes were verified before fitting.",
+  "reason": "Pin the exact author vocabulary to eliminate CPU-dependent NumPy argsort tie selection at max_features=20000 without altering the scientific model or reference values.",
+  "surface_vocabulary_source": {
+    "source_archive": "NationalProjects_Complete_1.2.0_2026-10-27.zip",
+    "source_archive_sha256": "4efffb01a65c67d6ed7a07dc4a16b4c6ed7d08226dd887a36721c6f9d72eca86",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/outputs/research/text/tables/vocabulary.csv",
+    "original_sha256": "da25fd272626c05a79e3e45e0a2d37906934d6dee1f7b928cdee66a83194d31c",
+    "original_bytes": 1018957,
+    "compressed_sha256": "4a41177b031239793412c08a68ee9d808882a5552899ffca8882bc2cbdbc0eae",
+    "provenance": "Original author-exported vocabulary, extracted unchanged from the SHA256-verified release archive."
+  }
+}

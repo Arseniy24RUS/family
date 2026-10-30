@@ -1,0 +1,1017 @@
+{
+  "document": {
+    "project_id": "tourism",
+    "kind": "fp",
+    "id": "fp_303",
+    "url": "https://databudget.ru/projects/fp/303",
+    "sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+    "retrieved_at": "2026-10-19T14:38:51.430901+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/22/221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538.html",
+    "document_id": "fp_303",
+    "code": "П2",
+    "title": "[П2] Морские курорты",
+    "publisher_version": "26.20",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 289,
+    "n_tokens": 289,
+    "source_url": "https://databudget.ru/projects/fp/303",
+    "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+    "profile_text_sha256": "ad79a45bd1ed2c7188e7053e4d0d247c10740d152d2cd6ff93b624354fa36125",
+    "archive_entry": "tourism/fp_303.html",
+    "bytes": 1031217,
+    "download_path": "downloads/projects/tourism/documentary/sources/fp_303.html",
+    "profile_original_document_id": "html:221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_303:profile1",
+      "document_id": "fp_303",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "создание федеральных круглогодичных курортов обеспечит увеличение числа новых поездок по россии",
+      "node_id": "fp_303:passport-task-04:114dc2bd2242b439",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details",
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "n_tokens": 11,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_303:profile2",
+      "document_id": "fp_303",
+      "project_id": "tourism",
+      "kind": "goal",
+      "text": "обеспечено создание и развитие круглогодичных курортов в целях развития внутреннего и въездного туризма",
+      "node_id": "fp_303:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_303:profile3",
+      "document_id": "fp_303",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "созданы объекты инфраструктуры особой экономической зоны туристско-рекреационного кластера \"каспийский прибрежный кластер\" в республике дагестан в целях увеличения туристического потока на курорты в республике дагестан построены и введены в эксплуатацию объекты инфраструктуры особой экономической зоны всесезонного туристско-рекреационного кластера \"каспийский прибрежный кластер\" в республики дагестан.",
+      "node_id": "fp_303:passport-result-1:afaf57dfc746f9f4",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "n_tokens": 37,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_303:profile4",
+      "document_id": "fp_303",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "осуществлено строительство инженерной и транспортной инфраструктуры в целях создания федеральных круглогодичных курортов в целях создания федеральных круглогодичных курортов к 2030 году будут созданы объекты инженерной и транспортной инфраструктуры (капитального строительства) на территории субъектов российской федерации.",
+      "node_id": "fp_303:passport-result-30:ab4839ae6f87cf77",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "n_tokens": 29,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_303:profile5",
+      "document_id": "fp_303",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" в целях развития круглогодичных курортов в рамках реализации инвестиционных проектов в целях развития круглогодичных курортов в период 2026 - 2030 гг. с использованием средств федерального бюджета запланировано участие ао \"корпорация туризм.рф\" не менее, чем в 124 инвестиционных проектах (нарастающим итогом). в рассматриваемый период в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств по финансированию инвестиционных проектов круглогодичных курортов, в том числе в 2026 году - не менее 10 проектов, в 2027 году - не менее 15 проектов, в 2028 году - не менее 20 проектов, в 2029 году - не менее 40 проектов, в 2030 году - не менее 39 проектов.",
+      "node_id": "fp_303:passport-result-39:3f0fefc72237025b",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "n_tokens": 89,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_303:profile6",
+      "document_id": "fp_303",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "осуществлено технологическое присоединение объектов федеральных круглогодичных курортов к инженерным сетям в целях создания федеральных круглогодичных курортов к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфраструктуры к инженерным сетям.",
+      "node_id": "fp_303:passport-result-31:215fd1b309336df8",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "n_tokens": 26,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_303:profile7",
+      "document_id": "fp_303",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "предоставлены льготные кредиты в целях реализации инвестиционной поддержки по созданию туристической инфраструктуры круглогодичных морских курортов российскими банками и государственной корпорацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию туристической инфраструктуры в рамках проекта по созданию федеральных круглогодичных курортов \"пять морей и озеро байкал\" в форме льготного кредитования предоставлены кредиты предпринимателям на строительство (реконструкцию) объектов капитального строительства, включая выполнение инженерных изысканий для подготовки проектной документации, подготовку проектной документации, проведение экспертизы в отношении результатов инженерных изысканий и проектной документации, проверку на предмет достоверности определения сметной стоимости",
+      "node_id": "fp_303:passport-result-37:15afe96c437323a1",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "n_tokens": 80,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_303:profile8",
+      "document_id": "fp_303",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "число поездок в новые современные круглогодичные гостиничные комплексы",
+      "node_id": "fp_303:passport-purpose-1:8c12445f9799d75d",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_303:kwic1",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "фраструктуры (капитального строительства) на территории субъектов российской федерации. обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" в целях развития круглогодичн",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic2",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "бъектов российской федерации. обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" в целях развития круглогодичных курортов в рамках реализации инвестиционных проекто",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic3",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "я бюджетных инвестиций ао \"корпорация туризм.рф\" в целях развития круглогодичных курортов в рамках реализации инвестиционных проектов в целях развития круглогодичных курортов в период 2026 - 2030 гг. с использованием средств федеральн",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic4",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "пользованием средств федерального бюджета запланировано участие ао \"корпорация туризм.рф\" не менее, чем в 124 инвестиционных проектах (нарастающим итогом). в рассматриваемый период в рамках предоставления бюджетных инвестиций ао \"корп",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic5",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": " 124 инвестиционных проектах (нарастающим итогом). в рассматриваемый период в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic6",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "изм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств по финансированию инвестиционных проектов круглогодичных курортов, в том числе в 2026 году - не менее 10 проектов, в 2027 году - не менее 15 п",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic7",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционной",
+      "context": "ению объектов туристской инфраструктуры к инженерным сетям. предоставлены льготные кредиты в целях реализации инвестиционной поддержки по созданию туристической инфраструктуры круглогодичных морских курортов российскими банками и госу",
+      "unit_id": "fp_303:profile7",
+      "unit_ids": [
+        "fp_303:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic8",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "скими банками и государственной корпорацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию туристической инфраструктуры в рамках проекта по созданию федеральных круглогодичных кур",
+      "unit_id": "fp_303:profile7",
+      "unit_ids": [
+        "fp_303:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic9",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателям",
+      "context": "ьных круглогодичных курортов \"пять морей и озеро байкал\" в форме льготного кредитования предоставлены кредиты предпринимателям на строительство (реконструкцию) объектов капитального строительства, включая выполнение инженерных изысканий",
+      "unit_id": "fp_303:profile7",
+      "unit_ids": [
+        "fp_303:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic10",
+      "document_id": "fp_303",
+      "frame": "science_innovation",
+      "matched": "технологическое",
+      "context": " - не менее 20 проектов, в 2029 году - не менее 40 проектов, в 2030 году - не менее 39 проектов. осуществлено технологическое присоединение объектов федеральных круглогодичных курортов к инженерным сетям в целях создания федеральных кр",
+      "unit_id": "fp_303:profile6",
+      "unit_ids": [
+        "fp_303:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic11",
+      "document_id": "fp_303",
+      "frame": "science_innovation",
+      "matched": "технологическому",
+      "context": "енерным сетям в целях создания федеральных круглогодичных курортов к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфраструктуры к инженерным сетям. предоставлены льготные кредиты в целях р",
+      "unit_id": "fp_303:profile6",
+      "unit_ids": [
+        "fp_303:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic12",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "док по россии обеспечено создание и развитие круглогодичных курортов в целях развития внутреннего и въездного туризма созданы объекты инфраструктуры особой экономической зоны туристско-рекреационного кластера \"каспийский прибре",
+      "unit_id": "fp_303:profile2",
+      "unit_ids": [
+        "fp_303:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic13",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристско",
+      "context": "тов в целях развития внутреннего и въездного туризма созданы объекты инфраструктуры особой экономической зоны туристско-рекреационного кластера \"каспийский прибрежный кластер\" в республике дагестан в целях увеличения туристическо",
+      "unit_id": "fp_303:profile3",
+      "unit_ids": [
+        "fp_303:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic14",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "ны туристско-рекреационного кластера \"каспийский прибрежный кластер\" в республике дагестан в целях увеличения туристического потока на курорты в республике дагестан построены и введены в эксплуатацию объекты инфраструктуры особой экон",
+      "unit_id": "fp_303:profile3",
+      "unit_ids": [
+        "fp_303:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic15",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристско",
+      "context": "ике дагестан построены и введены в эксплуатацию объекты инфраструктуры особой экономической зоны всесезонного туристско-рекреационного кластера \"каспийский прибрежный кластер\" в республики дагестан. осуществлено строительство инж",
+      "unit_id": "fp_303:profile3",
+      "unit_ids": [
+        "fp_303:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic16",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "ии. обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" в целях развития круглогодичных курортов в рамках реализации инвестиционных проектов в целях развития кру",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic17",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "в в период 2026 - 2030 гг. с использованием средств федерального бюджета запланировано участие ао \"корпорация туризм.рф\" не менее, чем в 124 инвестиционных проектах (нарастающим итогом). в рассматриваемый период в рамках предо",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic18",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "ах (нарастающим итогом). в рассматриваемый период в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств по финансированию инв",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic19",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "ых круглогодичных курортов к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфраструктуры к инженерным сетям. предоставлены льготные кредиты в целях реализации инвестиционной поддержки",
+      "unit_id": "fp_303:profile6",
+      "unit_ids": [
+        "fp_303:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic20",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "ры к инженерным сетям. предоставлены льготные кредиты в целях реализации инвестиционной поддержки по созданию туристической инфраструктуры круглогодичных морских курортов российскими банками и государственной корпорацией вэб.рф посре",
+      "unit_id": "fp_303:profile7",
+      "unit_ids": [
+        "fp_303:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic21",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "орацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию туристической инфраструктуры в рамках проекта по созданию федеральных круглогодичных курортов \"пять морей и озеро байкал\" в",
+      "unit_id": "fp_303:profile7",
+      "unit_ids": [
+        "fp_303:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic22",
+      "document_id": "fp_303",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "нного кластера \"каспийский прибрежный кластер\" в республики дагестан. осуществлено строительство инженерной и транспортной инфраструктуры в целях создания федеральных круглогодичных курортов в целях создания федеральных круглогодичн",
+      "unit_id": "fp_303:profile4",
+      "unit_ids": [
+        "fp_303:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic23",
+      "document_id": "fp_303",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": " курортов в целях создания федеральных круглогодичных курортов к 2030 году будут созданы объекты инженерной и транспортной инфраструктуры (капитального строительства) на территории субъектов российской федерации. обеспечена реализац",
+      "unit_id": "fp_303:profile4",
+      "unit_ids": [
+        "fp_303:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_303:kwic1",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "фраструктуры (капитального строительства) на территории субъектов российской федерации. обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" в целях развития круглогодичн",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic2",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "бъектов российской федерации. обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" в целях развития круглогодичных курортов в рамках реализации инвестиционных проекто",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic3",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "я бюджетных инвестиций ао \"корпорация туризм.рф\" в целях развития круглогодичных курортов в рамках реализации инвестиционных проектов в целях развития круглогодичных курортов в период 2026 - 2030 гг. с использованием средств федеральн",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic4",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "пользованием средств федерального бюджета запланировано участие ао \"корпорация туризм.рф\" не менее, чем в 124 инвестиционных проектах (нарастающим итогом). в рассматриваемый период в рамках предоставления бюджетных инвестиций ао \"корп",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic5",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": " 124 инвестиционных проектах (нарастающим итогом). в рассматриваемый период в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic6",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "изм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств по финансированию инвестиционных проектов круглогодичных курортов, в том числе в 2026 году - не менее 10 проектов, в 2027 году - не менее 15 п",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic7",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционной",
+      "context": "ению объектов туристской инфраструктуры к инженерным сетям. предоставлены льготные кредиты в целях реализации инвестиционной поддержки по созданию туристической инфраструктуры круглогодичных морских курортов российскими банками и госу",
+      "unit_id": "fp_303:profile7",
+      "unit_ids": [
+        "fp_303:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic8",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "скими банками и государственной корпорацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию туристической инфраструктуры в рамках проекта по созданию федеральных круглогодичных кур",
+      "unit_id": "fp_303:profile7",
+      "unit_ids": [
+        "fp_303:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic9",
+      "document_id": "fp_303",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателям",
+      "context": "ьных круглогодичных курортов \"пять морей и озеро байкал\" в форме льготного кредитования предоставлены кредиты предпринимателям на строительство (реконструкцию) объектов капитального строительства, включая выполнение инженерных изысканий",
+      "unit_id": "fp_303:profile7",
+      "unit_ids": [
+        "fp_303:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic10",
+      "document_id": "fp_303",
+      "frame": "science_innovation",
+      "matched": "технологическое",
+      "context": " - не менее 20 проектов, в 2029 году - не менее 40 проектов, в 2030 году - не менее 39 проектов. осуществлено технологическое присоединение объектов федеральных круглогодичных курортов к инженерным сетям в целях создания федеральных кр",
+      "unit_id": "fp_303:profile6",
+      "unit_ids": [
+        "fp_303:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic11",
+      "document_id": "fp_303",
+      "frame": "science_innovation",
+      "matched": "технологическому",
+      "context": "енерным сетям в целях создания федеральных круглогодичных курортов к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфраструктуры к инженерным сетям. предоставлены льготные кредиты в целях р",
+      "unit_id": "fp_303:profile6",
+      "unit_ids": [
+        "fp_303:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic12",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "док по россии обеспечено создание и развитие круглогодичных курортов в целях развития внутреннего и въездного туризма созданы объекты инфраструктуры особой экономической зоны туристско-рекреационного кластера \"каспийский прибре",
+      "unit_id": "fp_303:profile2",
+      "unit_ids": [
+        "fp_303:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic13",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристско",
+      "context": "тов в целях развития внутреннего и въездного туризма созданы объекты инфраструктуры особой экономической зоны туристско-рекреационного кластера \"каспийский прибрежный кластер\" в республике дагестан в целях увеличения туристическо",
+      "unit_id": "fp_303:profile3",
+      "unit_ids": [
+        "fp_303:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic14",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "ны туристско-рекреационного кластера \"каспийский прибрежный кластер\" в республике дагестан в целях увеличения туристического потока на курорты в республике дагестан построены и введены в эксплуатацию объекты инфраструктуры особой экон",
+      "unit_id": "fp_303:profile3",
+      "unit_ids": [
+        "fp_303:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic15",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристско",
+      "context": "ике дагестан построены и введены в эксплуатацию объекты инфраструктуры особой экономической зоны всесезонного туристско-рекреационного кластера \"каспийский прибрежный кластер\" в республики дагестан. осуществлено строительство инж",
+      "unit_id": "fp_303:profile3",
+      "unit_ids": [
+        "fp_303:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic16",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "ии. обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" в целях развития круглогодичных курортов в рамках реализации инвестиционных проектов в целях развития кру",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic17",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "в в период 2026 - 2030 гг. с использованием средств федерального бюджета запланировано участие ао \"корпорация туризм.рф\" не менее, чем в 124 инвестиционных проектах (нарастающим итогом). в рассматриваемый период в рамках предо",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic18",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "ах (нарастающим итогом). в рассматриваемый период в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств по финансированию инв",
+      "unit_id": "fp_303:profile5",
+      "unit_ids": [
+        "fp_303:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic19",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "ых круглогодичных курортов к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфраструктуры к инженерным сетям. предоставлены льготные кредиты в целях реализации инвестиционной поддержки",
+      "unit_id": "fp_303:profile6",
+      "unit_ids": [
+        "fp_303:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic20",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "ры к инженерным сетям. предоставлены льготные кредиты в целях реализации инвестиционной поддержки по созданию туристической инфраструктуры круглогодичных морских курортов российскими банками и государственной корпорацией вэб.рф посре",
+      "unit_id": "fp_303:profile7",
+      "unit_ids": [
+        "fp_303:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic21",
+      "document_id": "fp_303",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "орацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию туристической инфраструктуры в рамках проекта по созданию федеральных круглогодичных курортов \"пять морей и озеро байкал\" в",
+      "unit_id": "fp_303:profile7",
+      "unit_ids": [
+        "fp_303:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic22",
+      "document_id": "fp_303",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "нного кластера \"каспийский прибрежный кластер\" в республики дагестан. осуществлено строительство инженерной и транспортной инфраструктуры в целях создания федеральных круглогодичных курортов в целях создания федеральных круглогодичн",
+      "unit_id": "fp_303:profile4",
+      "unit_ids": [
+        "fp_303:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_303:kwic23",
+      "document_id": "fp_303",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": " курортов в целях создания федеральных круглогодичных курортов к 2030 году будут созданы объекты инженерной и транспортной инфраструктуры (капитального строительства) на территории субъектов российской федерации. обеспечена реализац",
+      "unit_id": "fp_303:profile4",
+      "unit_ids": [
+        "fp_303:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/303",
+  "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538"
+}

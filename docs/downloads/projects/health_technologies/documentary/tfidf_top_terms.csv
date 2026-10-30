@@ -1,0 +1,211 @@
+﻿document_id,rank,term,weight,origin
+project,1,лекарственных,0.13873054643717916,independently_recomputed
+project,2,изделий,0.13812378197877112,independently_recomputed
+project,3,медицинских изделий,0.13632620075791302,independently_recomputed
+project,4,лекарственных препаратов,0.1285866149113745,independently_recomputed
+project,5,медицинских,0.1252267588244037,independently_recomputed
+project,6,препаратов,0.1245994549296605,independently_recomputed
+project,7,лекарственные,0.1136161845439505,independently_recomputed
+project,8,лекарственные препараты,0.10387744929820283,independently_recomputed
+project,9,препараты,0.10387744929820283,independently_recomputed
+project,10,биомедицинских,0.09769724427490986,independently_recomputed
+project,11,изделия,0.09356278071580847,independently_recomputed
+project,12,медицинские изделия,0.08820246864502039,independently_recomputed
+project,13,технологий,0.08806194455100769,independently_recomputed
+project,14,медицинской,0.08788314016270006,independently_recomputed
+project,15,медицинские,0.08576039575146197,independently_recomputed
+project,16,препаратов медицинских,0.07938295852900738,independently_recomputed
+project,17,медицинских технологий,0.0764893839741618,independently_recomputed
+project,18,технологии,0.07614518931365814,independently_recomputed
+project,19,медицинской помощи,0.07510665096660794,independently_recomputed
+project,20,отобраны,0.07481118538865873,independently_recomputed
+project,21,разработанные,0.07395915136309346,independently_recomputed
+project,22,медицинские технологии,0.07126732960930622,independently_recomputed
+project,23,новых медицинских,0.07052081420021686,independently_recomputed
+project,24,исследований,0.07030544942167907,independently_recomputed
+project,25,новых,0.06895426540653715,independently_recomputed
+project,26,помощи,0.06579426309971406,independently_recomputed
+project,27,биомедицинских клеточных,0.06441991084620818,independently_recomputed
+project,28,клеточных,0.06441991084620818,independently_recomputed
+project,29,клеточных продуктов,0.06441991084620818,independently_recomputed
+project,30,когнитивных,0.06433118716923059,independently_recomputed
+fp_306,1,медицинских технологий,0.09884155911536571,independently_recomputed
+fp_306,2,клинических,0.09432013788418432,independently_recomputed
+fp_306,3,выведенных,0.09420194834070525,independently_recomputed
+fp_306,4,выведенных рынок,0.09420194834070525,independently_recomputed
+fp_306,5,исследований лекарственных,0.09420194834070525,independently_recomputed
+fp_306,6,разработанных выведенных,0.09420194834070525,independently_recomputed
+fp_306,7,клинических испытаний,0.09420194834070525,independently_recomputed
+fp_306,8,препаратов клинических,0.09420194834070525,independently_recomputed
+fp_306,9,изделий,0.09350355657556111,independently_recomputed
+fp_306,10,медицинских изделий,0.09350355657556111,independently_recomputed
+fp_306,11,лекарственных препаратов,0.09297901974142429,independently_recomputed
+fp_306,12,препаратов,0.09009596518004936,independently_recomputed
+fp_306,13,лекарственных,0.08748792509107782,independently_recomputed
+fp_306,14,клинических исследований,0.08641006418659015,independently_recomputed
+fp_306,15,испытаний медицинских,0.08641006418659015,independently_recomputed
+fp_306,16,новых медицинских,0.08375574213337258,independently_recomputed
+fp_306,17,медицинской науки,0.08284533946243948,independently_recomputed
+fp_306,18,отработки,0.08284533946243948,independently_recomputed
+fp_306,19,медицинских исследований,0.08284533946243948,independently_recomputed
+fp_306,20,медицинских,0.08011267704557981,independently_recomputed
+fp_306,21,исследований,0.07723492232448471,independently_recomputed
+fp_306,22,прикладных,0.07659345110757684,independently_recomputed
+fp_306,23,сбережения здоровья,0.07599281359466258,independently_recomputed
+fp_306,24,новые технологии,0.07599281359466258,independently_recomputed
+fp_306,25,технологии сбережения,0.07599281359466258,independently_recomputed
+fp_306,26,учет,0.073089750244228,independently_recomputed
+fp_306,27,клеточных,0.07113086911719696,independently_recomputed
+fp_306,28,биомедицинских клеточных,0.07113086911719696,independently_recomputed
+fp_306,29,сбережения,0.07113086911719696,independently_recomputed
+fp_306,30,клеточных продуктов,0.07113086911719696,independently_recomputed
+fp_307,1,числе общесистемных,0.11993651736770782,independently_recomputed
+fp_307,2,минпромторга россии,0.11993651736770782,independently_recomputed
+fp_307,3,минпромторга,0.11993651736770782,independently_recomputed
+fp_307,4,общесистемных,0.11993651736770782,independently_recomputed
+fp_307,5,поддержки минпромторга,0.11993651736770782,independently_recomputed
+fp_307,6,поддержанных числе,0.11993651736770782,independently_recomputed
+fp_307,7,общесистемных мер,0.11993651736770782,independently_recomputed
+fp_307,8,итогам поддержанных,0.1096802624515968,independently_recomputed
+fp_307,9,лекарственных,0.10909268247081676,independently_recomputed
+fp_307,10,медицинских изделий,0.10886711799498748,independently_recomputed
+fp_307,11,изделий,0.10886711799498748,independently_recomputed
+fp_307,12,производство,0.10536693940543283,independently_recomputed
+fp_307,13,лекарственных средств,0.10060809447557102,independently_recomputed
+fp_307,14,перечня жнвлп,0.10060809447557102,independently_recomputed
+fp_307,15,жнвлп,0.10060809447557102,independently_recomputed
+fp_307,16,лекарственных препаратов,0.09811051012197632,independently_recomputed
+fp_307,17,поддержанных,0.0975176409917956,independently_recomputed
+fp_307,18,карту локализации,0.0964576501355191,independently_recomputed
+fp_307,19,территории итогам,0.0964576501355191,independently_recomputed
+fp_307,20,локализации,0.0964576501355191,independently_recomputed
+fp_307,21,препаратов,0.09506834045281207,independently_recomputed
+fp_307,22,дорожную,0.08847918632587663,independently_recomputed
+fp_307,23,карту,0.08847918632587663,independently_recomputed
+fp_307,24,дорожную карту,0.08847918632587663,independently_recomputed
+fp_307,25,препаратов перечня,0.08847918632587663,independently_recomputed
+fp_307,26,зарегистрированы,0.08281837616529637,independently_recomputed
+fp_307,27,наименований,0.07782142478258401,independently_recomputed
+fp_307,28,зарегистрированы лекарственные,0.07782142478258401,independently_recomputed
+fp_307,29,имеется технологическая,0.07782142478258401,independently_recomputed
+fp_307,30,расширение номенклатуры,0.07782142478258401,independently_recomputed
+fp_316,1,тематик,0.12246295680182791,independently_recomputed
+fp_316,2,тематик научных,0.12246295680182791,independently_recomputed
+fp_316,3,целях регистрации,0.09994902598106246,independently_recomputed
+fp_316,4,научных исследований,0.0968878954961357,independently_recomputed
+fp_316,5,медицинских изделий,0.09573285067310569,independently_recomputed
+fp_316,6,изделий,0.09573285067310569,independently_recomputed
+fp_316,7,исследований испытаний,0.09140198199831978,independently_recomputed
+fp_316,8,исследований,0.08580064580230871,independently_recomputed
+fp_316,9,лекарственных,0.08250644441328253,independently_recomputed
+fp_316,10,лекарственных препаратов,0.08176033572104473,independently_recomputed
+fp_316,11,оригинальных,0.081266268581225,independently_recomputed
+fp_316,12,регистрации,0.081266268581225,independently_recomputed
+fp_316,13,чего,0.08038292582658375,independently_recomputed
+fp_316,14,оригинальных лекарственных,0.08038292582658375,independently_recomputed
+fp_316,15,применению,0.07960448394931025,independently_recomputed
+fp_316,16,препаратов,0.07922514542224783,independently_recomputed
+fp_316,17,научных,0.07680044948687875,independently_recomputed
+fp_316,18,учтенных,0.07373407771842927,independently_recomputed
+fp_316,19,допущены,0.07373407771842927,independently_recomputed
+fp_316,20,допущенных применению,0.07373407771842927,independently_recomputed
+fp_316,21,клинических исследований,0.07373407771842927,independently_recomputed
+fp_316,22,клинических,0.07091730217641275,independently_recomputed
+fp_316,23,наук,0.07091730217641275,independently_recomputed
+fp_316,24,медицинских,0.069938871557089,independently_recomputed
+fp_316,25,клинические,0.06901664491121291,independently_recomputed
+fp_316,26,допущенных,0.06901664491121291,independently_recomputed
+fp_316,27,препаратов медицинских,0.065357519750173,independently_recomputed
+fp_316,28,фармацевтическим биотехнологическим,0.06485243842482968,independently_recomputed
+fp_316,29,государственное задание,0.06485243842482968,independently_recomputed
+fp_316,30,генотерапевтические,0.06485243842482968,independently_recomputed
+fp_317,1,когнитивных,0.12721477287108043,independently_recomputed
+fp_317,2,когнитивных технологий,0.10555048385094197,independently_recomputed
+fp_317,3,биопечати,0.10555048385094197,independently_recomputed
+fp_317,4,биомедицинских когнитивных,0.10304859272464763,independently_recomputed
+fp_317,5,изделия,0.09758516141856782,independently_recomputed
+fp_317,6,практику,0.09758516141856782,independently_recomputed
+fp_317,7,медицинские изделия,0.09758516141856782,independently_recomputed
+fp_317,8,пациента,0.09312121300825198,independently_recomputed
+fp_317,9,биомедицинских,0.08934699840486497,independently_recomputed
+fp_317,10,медицинские,0.08679649621102682,independently_recomputed
+fp_317,11,нарушений повышение,0.08515746577105046,independently_recomputed
+fp_317,12,направленные предупреждение,0.08515746577105046,independently_recomputed
+fp_317,13,медицинскую практику,0.08515746577105046,independently_recomputed
+fp_317,14,конкретного пациента,0.08515746577105046,independently_recomputed
+fp_317,15,когнитивных сенсорных,0.08515746577105046,independently_recomputed
+fp_317,16,функциональных способностей,0.08515746577105046,independently_recomputed
+fp_317,17,новых биомедицинских,0.08515746577105046,independently_recomputed
+fp_317,18,новые медицинские,0.08515746577105046,independently_recomputed
+fp_317,19,способностей человека,0.08515746577105046,independently_recomputed
+fp_317,20,предупреждение лечение,0.08515746577105046,independently_recomputed
+fp_317,21,сенсорных нарушений,0.08515746577105046,independently_recomputed
+fp_317,22,сенсорных,0.08515746577105046,independently_recomputed
+fp_317,23,пролеченных,0.08515746577105046,independently_recomputed
+fp_317,24,повышение функциональных,0.08515746577105046,independently_recomputed
+fp_317,25,лечение когнитивных,0.08515746577105046,independently_recomputed
+fp_317,26,технологий биопечати,0.08515746577105046,independently_recomputed
+fp_317,27,конкретного,0.08515746577105046,independently_recomputed
+fp_317,28,нейротехнологий,0.08515746577105046,independently_recomputed
+fp_317,29,внедрены медицинскую,0.08515746577105046,independently_recomputed
+fp_317,30,лекарственные,0.08189489324489076,independently_recomputed
+fp_318,1,здорового долголетия,0.10548590187626654,independently_recomputed
+fp_318,2,долголетия,0.10046158862790529,independently_recomputed
+fp_318,3,превентивной медицины,0.08938598374336391,independently_recomputed
+fp_318,4,превентивной,0.08938598374336391,independently_recomputed
+fp_318,5,регенеративной,0.08938598374336391,independently_recomputed
+fp_318,6,здорового,0.08758183996826825,independently_recomputed
+fp_318,7,отобраны поддержаны,0.0819924505670554,independently_recomputed
+fp_318,8,поддержаны перспективные,0.0819924505670554,independently_recomputed
+fp_318,9,медицину,0.08174222806894638,independently_recomputed
+fp_318,10,медицину здорового,0.08174222806894638,independently_recomputed
+fp_318,11,медицины здорового,0.08174222806894638,independently_recomputed
+fp_318,12,биологического возраста,0.08174222806894638,independently_recomputed
+fp_318,13,клеток,0.08174222806894638,independently_recomputed
+fp_318,14,старения,0.08174222806894638,independently_recomputed
+fp_318,15,медицины,0.08153114362543712,independently_recomputed
+fp_318,16,перспективные научные,0.07498094570874633,independently_recomputed
+fp_318,17,регенеративной медицины,0.07188771306826361,independently_recomputed
+fp_318,18,возраст-ассоциированных заболеваний,0.07188771306826361,independently_recomputed
+fp_318,19,возраст-ассоциированных,0.07188771306826361,independently_recomputed
+fp_318,20,отобраны,0.07119154027113893,independently_recomputed
+fp_318,21,научные проекты,0.07018373953016906,independently_recomputed
+fp_318,22,биологического,0.07018373953016906,independently_recomputed
+fp_318,23,поддержаны,0.06935312211917444,independently_recomputed
+fp_318,24,перспективные,0.06935312211917444,independently_recomputed
+fp_318,25,здорового питания,0.06594154377772747,independently_recomputed
+fp_318,26,заболеваний,0.06581792857758376,independently_recomputed
+fp_318,27,пациента,0.06342245716996903,independently_recomputed
+fp_318,28,возраста,0.06342245716996903,independently_recomputed
+fp_318,29,направленные разработку,0.06172266952580482,independently_recomputed
+fp_318,30,питания,0.060851936916840765,independently_recomputed
+np_33,1,бмкп,0.12101533589994512,independently_recomputed
+np_33,2,мед,0.12064602434200329,independently_recomputed
+np_33,3,изделий,0.10681856531016809,independently_recomputed
+np_33,4,лекарственных препаратов,0.10323990600666055,independently_recomputed
+np_33,5,медицинских изделий,0.10122906881245068,independently_recomputed
+np_33,6,препаратов,0.10003868617495894,independently_recomputed
+np_33,7,применению новых,0.09732527830103627,independently_recomputed
+np_33,8,учтены,0.09732527830103627,independently_recomputed
+np_33,9,бюджета учтены,0.09732527830103627,independently_recomputed
+np_33,10,допущенных применению,0.09732527830103627,independently_recomputed
+np_33,11,методы оказания,0.09732527830103627,independently_recomputed
+np_33,12,привлечением средств,0.09732527830103627,independently_recomputed
+np_33,13,помощи разработанные,0.09732527830103627,independently_recomputed
+np_33,14,дальнейшее внедрение,0.09732527830103627,independently_recomputed
+np_33,15,лекарственных,0.09714283058951804,independently_recomputed
+np_33,16,технологии лекарственные,0.09109850399211973,independently_recomputed
+np_33,17,допущенных,0.09109850399211973,independently_recomputed
+np_33,18,медицинские технологии,0.09109850399211973,independently_recomputed
+np_33,19,медицинских технологий,0.08626864260839859,independently_recomputed
+np_33,20,изделия,0.08626864260839859,independently_recomputed
+np_33,21,препаратов медицинских,0.08626864260839859,independently_recomputed
+np_33,22,дальнейшее,0.08626864260839859,independently_recomputed
+np_33,23,коммерциализации прав,0.0856019606334587,independently_recomputed
+np_33,24,учреждениями интересах,0.0856019606334587,independently_recomputed
+np_33,25,полученных результате,0.0856019606334587,independently_recomputed
+np_33,26,прав результаты,0.0856019606334587,independently_recomputed
+np_33,27,продуктов бмкп,0.0856019606334587,independently_recomputed
+np_33,28,результате коммерциализации,0.0856019606334587,independently_recomputed
+np_33,29,созданных государственными,0.0856019606334587,independently_recomputed
+np_33,30,рид,0.0856019606334587,independently_recomputed

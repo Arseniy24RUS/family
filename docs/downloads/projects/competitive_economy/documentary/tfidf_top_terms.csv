@@ -1,0 +1,451 @@
+﻿document_id,rank,term,weight,origin
+project,1,климата,0.09805478975139124,replayed_author_model
+project,2,компаний,0.09737835269505117,replayed_author_model
+project,3,инвестиционных,0.08350938214220412,replayed_author_model
+project,4,товарных,0.0804698866028815,replayed_author_model
+project,5,газов,0.07748121913844584,replayed_author_model
+project,6,предпринимательства,0.07513263970564349,replayed_author_model
+project,7,инвестиций,0.07339170435544316,replayed_author_model
+project,8,технологических компаний,0.07291081680510918,replayed_author_model
+project,9,адаптации,0.07261687715629163,replayed_author_model
+project,10,малого,0.07123630067367084,replayed_author_model
+project,11,акций,0.06941951166689989,replayed_author_model
+project,12,малого среднего,0.06890404151345024,replayed_author_model
+project,13,среднего предпринимательства,0.06890404151345024,replayed_author_model
+project,14,мсп,0.06787718924686378,replayed_author_model
+project,15,парниковых газов,0.06735146273743803,replayed_author_model
+project,16,парниковых,0.06735146273743803,replayed_author_model
+project,17,развития конкуренции,0.06476078473329613,replayed_author_model
+project,18,рынок,0.06379230820315775,replayed_author_model
+project,19,технологических,0.06375302858370008,replayed_author_model
+project,20,товарных рынках,0.06318636214998126,replayed_author_model
+project,21,выбросов парниковых,0.06240091558573659,replayed_author_model
+project,22,обеспечено,0.062055863045393664,replayed_author_model
+project,23,субъектов,0.061338943915994995,replayed_author_model
+project,24,политики,0.061314170186076225,replayed_author_model
+project,25,субъектов мсп,0.06100652726404263,replayed_author_model
+project,26,бизнеса,0.06050736876181908,replayed_author_model
+project,27,изменения,0.0603281568245606,replayed_author_model
+project,28,расширен,0.0602964622730384,replayed_author_model
+project,29,бирже,0.06025675796951992,replayed_author_model
+project,30,мониторинга,0.059955643544417334,replayed_author_model
+project,31,изменениям климата,0.059785300470863056,replayed_author_model
+project,32,конкуренции,0.05957424739858159,replayed_author_model
+project,33,поддержки,0.05916470079295691,replayed_author_model
+project,34,технологического,0.05841976714666659,replayed_author_model
+project,35,малых технологических,0.05829342857956611,replayed_author_model
+project,36,сбережений,0.05811717857122133,replayed_author_model
+project,37,изменениям,0.05778014458367072,replayed_author_model
+project,38,ценовых,0.057127418541306124,replayed_author_model
+project,39,ценовых индикаторов,0.057127418541306124,replayed_author_model
+project,40,рынка,0.057110864408676035,replayed_author_model
+project,41,объем,0.05646520622045383,replayed_author_model
+project,42,среднего,0.056362596313783216,replayed_author_model
+project,43,числе,0.056219200649691964,replayed_author_model
+project,44,инфраструктуры,0.05611227417398251,replayed_author_model
+project,45,адаптации изменениям,0.055792354825047324,replayed_author_model
+project,46,изменения климата,0.055579439023265995,replayed_author_model
+project,47,выбросов,0.05531680307523621,replayed_author_model
+project,48,увеличение количества,0.05524155587653387,replayed_author_model
+project,49,организаций,0.05474478944207362,replayed_author_model
+project,50,конкуренции товарных,0.054402952220604275,replayed_author_model
+np_21,1,технологических компаний,0.13981259375208457,replayed_author_model
+np_21,2,компаний,0.11834294999759912,replayed_author_model
+np_21,3,технологических,0.11242383700987403,replayed_author_model
+np_21,4,газов,0.11210219997044234,replayed_author_model
+np_21,5,малых технологических,0.10834237298174142,replayed_author_model
+np_21,6,производительности,0.10831689676662797,replayed_author_model
+np_21,7,производительности труда,0.10831689676662797,replayed_author_model
+np_21,8,климата,0.10502597054207519,replayed_author_model
+np_21,9,капитализации,0.09858760858584636,replayed_author_model
+np_21,10,изменениям климата,0.09858760858584636,replayed_author_model
+np_21,11,адаптации изменениям,0.09858760858584636,replayed_author_model
+np_21,12,технологические компании,0.09646730208344206,replayed_author_model
+np_21,13,товарных,0.09646730208344206,replayed_author_model
+np_21,14,изменениям,0.09528105125146505,replayed_author_model
+np_21,15,сбережений,0.09528105125146505,replayed_author_model
+np_21,16,субъектов мсп,0.09528105125146505,replayed_author_model
+np_21,17,выручки малых,0.09528105125146505,replayed_author_model
+np_21,18,выручки,0.09236446098186135,replayed_author_model
+np_21,19,мсп,0.09236446098186135,replayed_author_model
+np_21,20,повышение производительности,0.09236446098186135,replayed_author_model
+np_21,21,климат,0.09071994768115098,replayed_author_model
+np_21,22,климат счет,0.09071994768115098,replayed_author_model
+np_21,23,улучшен,0.09071994768115098,replayed_author_model
+np_21,24,инвестиционный климат,0.09071994768115098,replayed_author_model
+np_21,25,улучшен инвестиционный,0.09071994768115098,replayed_author_model
+np_21,26,рынок,0.08739537358724726,replayed_author_model
+np_21,27,технологические,0.08626195326718362,replayed_author_model
+np_21,28,проекты обеспечению,0.08626195326718362,replayed_author_model
+np_21,29,обеспечению технологического,0.08626195326718362,replayed_author_model
+np_21,30,инвестиционный,0.08261950661368929,replayed_author_model
+np_21,31,цепочки,0.08261950661368929,replayed_author_model
+np_21,32,траектории,0.08261950661368929,replayed_author_model
+np_21,33,адаптации,0.0814236230342921,replayed_author_model
+np_21,34,крупных,0.08116870896231901,replayed_author_model
+np_21,35,малых,0.08116870896231901,replayed_author_model
+np_21,36,труда,0.0800715189961017,replayed_author_model
+np_21,37,поддержки инвестиционных,0.07953986184899908,replayed_author_model
+np_21,38,технологического лидерства,0.07953986184899908,replayed_author_model
+np_21,39,парниковых газов,0.07953986184899908,replayed_author_model
+np_21,40,фондового рынка,0.07953986184899908,replayed_author_model
+np_21,41,климатически активных,0.07953986184899908,replayed_author_model
+np_21,42,капитализации фондового,0.07953986184899908,replayed_author_model
+np_21,43,объем выручки,0.07953986184899908,replayed_author_model
+np_21,44,мониторинга климатически,0.07953986184899908,replayed_author_model
+np_21,45,климата федеральном,0.07953986184899908,replayed_author_model
+np_21,46,активных веществ,0.07953986184899908,replayed_author_model
+np_21,47,климатически,0.07953986184899908,replayed_author_model
+np_21,48,парниковых,0.07953986184899908,replayed_author_model
+np_21,49,выхода,0.07953986184899908,replayed_author_model
+np_21,50,фондового,0.07953986184899908,replayed_author_model
+fp_298,1,газов,0.17437498561473533,replayed_author_model
+fp_298,2,парниковых газов,0.16948380743000285,replayed_author_model
+fp_298,3,парниковых,0.16948380743000285,replayed_author_model
+fp_298,4,отчет результатах,0.15803240871800223,replayed_author_model
+fp_298,5,выбросов парниковых,0.15117977413140402,replayed_author_model
+fp_298,6,изменения климата,0.14852293091437077,replayed_author_model
+fp_298,7,экспертно-аналитического,0.14852293091437077,replayed_author_model
+fp_298,8,климата,0.14805692579705218,replayed_author_model
+fp_298,9,выбросов,0.13401697260507991,replayed_author_model
+fp_298,10,результатах,0.13051915407250386,replayed_author_model
+fp_298,11,изменениям климата,0.12246111533334969,replayed_author_model
+fp_298,12,изменениям,0.1183538577896249,replayed_author_model
+fp_298,13,адаптации,0.11832602741949758,replayed_author_model
+fp_298,14,углеродных,0.11679946745672497,replayed_author_model
+fp_298,15,изменения,0.11309112650653849,replayed_author_model
+fp_298,16,адаптации изменениям,0.10769769468086943,replayed_author_model
+fp_298,17,политики,0.10733684261084007,replayed_author_model
+fp_298,18,отчет,0.10410239275194465,replayed_author_model
+fp_298,19,веществ,0.1034202485482836,replayed_author_model
+fp_298,20,энергетической,0.09804942673706878,replayed_author_model
+fp_298,21,системы мониторинга,0.09804942673706878,replayed_author_model
+fp_298,22,кадастром парниковых,0.09423307491483579,replayed_author_model
+fp_298,23,национальным кадастром,0.09423307491483579,replayed_author_model
+fp_298,24,кадастром,0.09423307491483579,replayed_author_model
+fp_298,25,ведомственными,0.09423307491483579,replayed_author_model
+fp_298,26,информационно-аналитического,0.09423307491483579,replayed_author_model
+fp_298,27,государственными ведомственными,0.09423307491483579,replayed_author_model
+fp_298,28,ведомственными информационными,0.09423307491483579,replayed_author_model
+fp_298,29,реестром,0.09423307491483579,replayed_author_model
+fp_298,30,реестром углеродных,0.09423307491483579,replayed_author_model
+fp_298,31,реестра выбросов,0.09423307491483579,replayed_author_model
+fp_298,32,углеродных национальным,0.09423307491483579,replayed_author_model
+fp_298,33,сопровождения,0.09230041231512179,replayed_author_model
+fp_298,34,подготовленных,0.09025404435302029,replayed_author_model
+fp_298,35,развитие государственной,0.09025404435302029,replayed_author_model
+fp_298,36,комплексный,0.09025404435302029,replayed_author_model
+fp_298,37,активных веществ,0.08688982194869715,replayed_author_model
+fp_298,38,интеграция,0.08688982194869715,replayed_author_model
+fp_298,39,мониторинга климатически,0.08688982194869715,replayed_author_model
+fp_298,40,климатически,0.08688982194869715,replayed_author_model
+fp_298,41,климатически активных,0.08688982194869715,replayed_author_model
+fp_298,42,вопросам,0.08535322697184813,replayed_author_model
+fp_298,43,организационное,0.08397559994687856,replayed_author_model
+fp_298,44,тонн,0.08397559994687856,replayed_author_model
+fp_298,45,национальная система,0.08397559994687856,replayed_author_model
+fp_298,46,экспертное,0.08140507396640002,replayed_author_model
+fp_298,47,национальным,0.08140507396640002,replayed_author_model
+fp_298,48,информационными системами,0.08140507396640002,replayed_author_model
+fp_298,49,активных,0.07702558728284212,replayed_author_model
+fp_298,50,информационными,0.07702558728284212,replayed_author_model
+fp_311,1,обслуживания медико-социальной,0.08781605719656846,replayed_author_model
+fp_311,2,практики коробочные,0.08562346014122459,replayed_author_model
+fp_311,3,производительности труда,0.08496300801716648,replayed_author_model
+fp_311,4,производительности,0.08496300801716648,replayed_author_model
+fp_311,5,медико-социальной экспертизы,0.08448095372781027,replayed_author_model
+fp_311,6,оцк,0.08258412894709818,replayed_author_model
+fp_311,7,социального обслуживания,0.08199943076673745,replayed_author_model
+fp_311,8,медико-социальной,0.0803295445897794,replayed_author_model
+fp_311,9,отраслевого центра,0.07852593011719501,replayed_author_model
+fp_311,10,коробочные решения,0.07693759634625316,replayed_author_model
+fp_311,11,коробочные,0.07693759634625316,replayed_author_model
+fp_311,12,пак,0.07625676631595242,replayed_author_model
+fp_311,13,повышения производительности,0.07576673733387618,replayed_author_model
+fp_311,14,пилотных,0.07441765082410944,replayed_author_model
+fp_311,15,организациях социального,0.07441765082410944,replayed_author_model
+fp_311,16,пилотных организациях,0.07423390068744896,replayed_author_model
+fp_311,17,сферы физической,0.07423390068744896,replayed_author_model
+fp_311,18,фцк,0.07423390068744896,replayed_author_model
+fp_311,19,внедрены лучшие,0.07333228854379972,replayed_author_model
+fp_311,20,центра компетенций,0.07240667984574808,replayed_author_model
+fp_311,21,экспертизы организациях,0.07127666236930345,replayed_author_model
+fp_311,22,повышение производительности,0.07083680260674631,replayed_author_model
+fp_311,23,помощью созданного,0.07034946237188493,replayed_author_model
+fp_311,24,созданного отраслевого,0.07034946237188493,replayed_author_model
+fp_311,25,повышению производительности,0.06726015170456223,replayed_author_model
+fp_311,26,сфере производительности,0.0664595220153006,replayed_author_model
+fp_311,27,центров компетенций,0.06638064021322515,replayed_author_model
+fp_311,28,муниципальных дошкольных,0.06575514698023467,replayed_author_model
+fp_311,29,ано фцк,0.06575514698023467,replayed_author_model
+fp_311,30,решения применению,0.06575514698023467,replayed_author_model
+fp_311,31,применению инструментов,0.06575514698023467,replayed_author_model
+fp_311,32,расчете одного,0.06575514698023467,replayed_author_model
+fp_311,33,фцк оказывает,0.06575514698023467,replayed_author_model
+fp_311,34,лучшие практики,0.065660919520911,replayed_author_model
+fp_311,35,отраслевого,0.06418665515982336,replayed_author_model
+fp_311,36,лучшие,0.06404214172778194,replayed_author_model
+fp_311,37,труда организациях,0.06398224119595083,replayed_author_model
+fp_311,38,физической культуры,0.06357769022607879,replayed_author_model
+fp_311,39,культуры спорта,0.06357769022607879,replayed_author_model
+fp_311,40,труда,0.06351903968047042,replayed_author_model
+fp_311,41,бережливого производства,0.06244597815104401,replayed_author_model
+fp_311,42,социального,0.06113573786135125,replayed_author_model
+fp_311,43,внедрены,0.06113573786135125,replayed_author_model
+fp_311,44,расчете,0.06025085957805658,replayed_author_model
+fp_311,45,инструментов бережливого,0.06025085957805658,replayed_author_model
+fp_311,46,производства пилотных,0.060132159384154844,replayed_author_model
+fp_311,47,навыков сотрудников,0.060132159384154844,replayed_author_model
+fp_311,48,последующую сертификацию,0.060132159384154844,replayed_author_model
+fp_311,49,компетенций внедрены,0.060132159384154844,replayed_author_model
+fp_311,50,поддержке субъектов,0.060132159384154844,replayed_author_model
+fp_312,1,мсп рф,0.16370734138584947,replayed_author_model
+fp_312,2,мсп,0.15860301677721492,replayed_author_model
+fp_312,3,платформе мсп,0.14466016981321875,replayed_author_model
+fp_312,4,субъектам малого,0.1334539302495522,replayed_author_model
+fp_312,5,субъектов мсп,0.13028300707472024,replayed_author_model
+fp_312,6,малого,0.1260797972372921,replayed_author_model
+fp_312,7,малого среднего,0.12345408267887617,replayed_author_model
+fp_312,8,среднего предпринимательства,0.12345408267887617,replayed_author_model
+fp_312,9,предпринимательства,0.11715401196862471,replayed_author_model
+fp_312,10,корпорация,0.10818736848451052,replayed_author_model
+fp_312,11,технопарков,0.10526490443532552,replayed_author_model
+fp_312,12,поручительств,0.10112197131654059,replayed_author_model
+fp_312,13,составит,0.09877845856185477,replayed_author_model
+fp_312,14,парков,0.09862026575084025,replayed_author_model
+fp_312,15,доступ,0.0974644442808848,replayed_author_model
+fp_312,16,составит менее,0.0968520542550079,replayed_author_model
+fp_312,17,промышленных,0.09292732476516567,replayed_author_model
+fp_312,18,субъектов малого,0.09247462405146695,replayed_author_model
+fp_312,19,закупках товаров,0.09247462405146695,replayed_author_model
+fp_312,20,промышленных парков,0.09247462405146695,replayed_author_model
+fp_312,21,ао корпорация,0.09247462405146695,replayed_author_model
+fp_312,22,бирже,0.09094767807801604,replayed_author_model
+fp_312,23,среднего,0.0892499618352911,replayed_author_model
+fp_312,24,закупках,0.08856984480462889,replayed_author_model
+fp_312,25,субъектами малого,0.08856984480462889,replayed_author_model
+fp_312,26,цифровой платформе,0.08718859061018673,replayed_author_model
+fp_312,27,льготной,0.0852684009926078,replayed_author_model
+fp_312,28,индустриальных,0.08240856028100794,replayed_author_model
+fp_312,29,бизнес-парков,0.08132625445810279,replayed_author_model
+fp_312,30,парков бизнес-парков,0.08132625445810279,replayed_author_model
+fp_312,31,технопарков промышленных,0.08132625445810279,replayed_author_model
+fp_312,32,бизнес-парков технопарков,0.08132625445810279,replayed_author_model
+fp_312,33,площадям помещениям,0.08132625445810279,replayed_author_model
+fp_312,34,площадям,0.08132625445810279,replayed_author_model
+fp_312,35,поддержки субъектов,0.08132625445810279,replayed_author_model
+fp_312,36,промышленных технопарков,0.08132625445810279,replayed_author_model
+fp_312,37,производственным площадям,0.08132625445810279,replayed_author_model
+fp_312,38,помещениям индустриальных,0.08132625445810279,replayed_author_model
+fp_312,39,агропромышленных,0.08132625445810279,replayed_author_model
+fp_312,40,помещениям,0.08132625445810279,replayed_author_model
+fp_312,41,агропромышленных парков,0.08132625445810279,replayed_author_model
+fp_312,42,индустриальных промышленных,0.08132625445810279,replayed_author_model
+fp_312,43,доступ производственным,0.08132625445810279,replayed_author_model
+fp_312,44,парков агропромышленных,0.08132625445810279,replayed_author_model
+fp_312,45,инфраструктуры поддержки,0.07988600199800472,replayed_author_model
+fp_312,46,платформах,0.07789221972816075,replayed_author_model
+fp_312,47,производственным,0.07789221972816075,replayed_author_model
+fp_312,48,субъектам,0.07603492793502949,replayed_author_model
+fp_312,49,цифровой,0.07589011667607919,replayed_author_model
+fp_312,50,период годов,0.0749887847340793,replayed_author_model
+fp_313,1,промышленного строительства,0.1605640118434543,replayed_author_model
+fp_313,2,капиталовложений,0.15360160134900439,replayed_author_model
+fp_313,3,механизма трансформация,0.13605772806723682,replayed_author_model
+fp_313,4,промышленного,0.13605519379820946,replayed_author_model
+fp_313,5,трансформация делового,0.13428782581705734,replayed_author_model
+fp_313,6,делового климата,0.13428782581705734,replayed_author_model
+fp_313,7,делового,0.12008141520287209,replayed_author_model
+fp_313,8,инвестиционного,0.11803974724847366,replayed_author_model
+fp_313,9,климата,0.10946251161233994,replayed_author_model
+fp_313,10,административных,0.09447167530596301,replayed_author_model
+fp_313,11,структурной адаптации,0.09026720831901978,replayed_author_model
+fp_313,12,адаптации экономики,0.09026720831901978,replayed_author_model
+fp_313,13,трансформация,0.08773339419229853,replayed_author_model
+fp_313,14,новыми,0.08645563811444187,replayed_author_model
+fp_313,15,механизма,0.0843357997510947,replayed_author_model
+fp_313,16,правил,0.08389835973763296,replayed_author_model
+fp_313,17,поддержки инвестиционных,0.08323300142475513,replayed_author_model
+fp_313,18,технологического суверенитета,0.08323300142475513,replayed_author_model
+fp_313,19,структурной,0.08323300142475513,replayed_author_model
+fp_313,20,процедур,0.08200378561094733,replayed_author_model
+fp_313,21,механизм,0.08182996345847363,replayed_author_model
+fp_313,22,эффектов,0.08144292378044486,replayed_author_model
+fp_313,23,специальных,0.08044142654763507,replayed_author_model
+fp_313,24,суверенитета,0.08044142654763507,replayed_author_model
+fp_313,25,инвестиционных,0.07894208019433144,replayed_author_model
+fp_313,26,барьеров,0.07816556112838999,replayed_author_model
+fp_313,27,административных барьеров,0.07797908299810097,replayed_author_model
+fp_313,28,дорожных карт,0.07797908299810097,replayed_author_model
+fp_313,29,строительства,0.07684931473828842,replayed_author_model
+fp_313,30,мероприятий дорожных,0.07659069575690049,replayed_author_model
+fp_313,31,климат счет,0.07659069575690049,replayed_author_model
+fp_313,32,климат,0.07659069575690049,replayed_author_model
+fp_313,33,улучшен инвестиционный,0.07659069575690049,replayed_author_model
+fp_313,34,инвестиционный климат,0.07659069575690049,replayed_author_model
+fp_313,35,улучшен,0.07659069575690049,replayed_author_model
+fp_313,36,дополнения,0.07659069575690049,replayed_author_model
+fp_313,37,инвестиций,0.07645713171148696,replayed_author_model
+fp_313,38,защите,0.0749913114473575,replayed_author_model
+fp_313,39,карт,0.07378391015510107,replayed_author_model
+fp_313,40,дорожных,0.07378391015510107,replayed_author_model
+fp_313,41,финансирование технологического,0.07282701530322364,replayed_author_model
+fp_313,42,механизмов поддержки,0.07282701530322364,replayed_author_model
+fp_313,43,предпринимательской деятельности,0.07282701530322364,replayed_author_model
+fp_313,44,строительства субъектах,0.07282701530322364,replayed_author_model
+fp_313,45,нагрузки,0.07282701530322364,replayed_author_model
+fp_313,46,ведении,0.07282701530322364,replayed_author_model
+fp_313,47,целях снижения,0.07282701530322364,replayed_author_model
+fp_313,48,изменений,0.07257025632927794,replayed_author_model
+fp_313,49,изменения,0.07029151801644272,replayed_author_model
+fp_313,50,стандарта,0.07029151801644272,replayed_author_model
+fp_324,1,фондовом,0.17951382308500385,replayed_author_model
+fp_324,2,фондовом рынке,0.17951382308500385,replayed_author_model
+fp_324,3,организованных торгах,0.15563504783545265,replayed_author_model
+fp_324,4,акций,0.15190136154614306,replayed_author_model
+fp_324,5,государственным участием,0.14808785722213644,replayed_author_model
+fp_324,6,проработки,0.14749113060278474,replayed_author_model
+fp_324,7,компаний государственным,0.14749113060278474,replayed_author_model
+fp_324,8,проработки вопроса,0.14749113060278474,replayed_author_model
+fp_324,9,первоначальный,0.14749113060278474,replayed_author_model
+fp_324,10,этап проработки,0.14749113060278474,replayed_author_model
+fp_324,11,первоначальный этап,0.14749113060278474,replayed_author_model
+fp_324,12,торгах,0.1435786287617111,replayed_author_model
+fp_324,13,российском фондовом,0.13785892093672933,replayed_author_model
+fp_324,14,вопроса,0.127959036396233,replayed_author_model
+fp_324,15,сбережений,0.11959999910327054,replayed_author_model
+fp_324,16,организованных,0.11838440642091334,replayed_author_model
+fp_324,17,размещения акций,0.11630391113634886,replayed_author_model
+fp_324,18,публичного размещения,0.11630391113634886,replayed_author_model
+fp_324,19,организаций государственным,0.11630391113634886,replayed_author_model
+fp_324,20,российском,0.11372512628628657,replayed_author_model
+fp_324,21,компаний,0.10927646140122776,replayed_author_model
+fp_324,22,публичных,0.10892303579366042,replayed_author_model
+fp_324,23,долгосрочных сбережений,0.10842694218968124,replayed_author_model
+fp_324,24,фондового,0.10486292613330411,replayed_author_model
+fp_324,25,фондового рынка,0.10486292613330411,replayed_author_model
+fp_324,26,участием,0.1031168341683391,replayed_author_model
+fp_324,27,государственным,0.10230140921975274,replayed_author_model
+fp_324,28,публичное,0.10228277831422274,replayed_author_model
+fp_324,29,этап,0.09700139951829553,replayed_author_model
+fp_324,30,капитализации,0.09589567474667966,replayed_author_model
+fp_324,31,публичного,0.09589567474667966,replayed_author_model
+fp_324,32,обществ,0.09589567474667966,replayed_author_model
+fp_324,33,рынке,0.09288906590498808,replayed_author_model
+fp_324,34,долгосрочных,0.09200063393229041,replayed_author_model
+fp_324,35,гарантирования,0.09146220587103583,replayed_author_model
+fp_324,36,системы гарантирования,0.09146220587103583,replayed_author_model
+fp_324,37,мотивации,0.08760017640058908,replayed_author_model
+fp_324,38,рынке доля,0.08252110151917254,replayed_author_model
+fp_324,39,правовое регулирование,0.07760463753754396,replayed_author_model
+fp_324,40,защиты прав,0.07760463753754396,replayed_author_model
+fp_324,41,рынка,0.07415031417552412,replayed_author_model
+fp_324,42,обществах,0.07379113180387374,replayed_author_model
+fp_324,43,участию,0.07379113180387374,replayed_author_model
+fp_324,44,страхования жизни,0.07379113180387374,replayed_author_model
+fp_324,45,регулирование,0.07379113180387374,replayed_author_model
+fp_324,46,процедуры,0.07379113180387374,replayed_author_model
+fp_324,47,счетов,0.07379113180387374,replayed_author_model
+fp_324,48,инвестиционных,0.07314712706902701,replayed_author_model
+fp_324,49,размещение,0.07291757448695545,replayed_author_model
+fp_324,50,валового,0.07067527074443225,replayed_author_model
+fp_325,1,технологического предпринимательства,0.15225869073077236,replayed_author_model
+fp_325,2,университетских,0.1337723437758887,replayed_author_model
+fp_325,3,технологических компаний,0.12976609679125994,replayed_author_model
+fp_325,4,числе малых,0.12747634637324382,replayed_author_model
+fp_325,5,университетского технологического,0.12325731135240969,replayed_author_model
+fp_325,6,стартапов,0.11886323760017119,replayed_author_model
+fp_325,7,компаний числе,0.11886323760017119,replayed_author_model
+fp_325,8,университетского,0.11605701397820288,replayed_author_model
+fp_325,9,развитию платформы,0.10917926377721061,replayed_author_model
+fp_325,10,платформы университетского,0.10917926377721061,replayed_author_model
+fp_325,11,акселерационные,0.10917926377721061,replayed_author_model
+fp_325,12,университетских стартапов,0.10917926377721061,replayed_author_model
+fp_325,13,малых технологических,0.10719033989084584,replayed_author_model
+fp_325,14,технологических,0.10714836785530989,replayed_author_model
+fp_325,15,компаний,0.10516893963946138,replayed_author_model
+fp_325,16,предпринимательства,0.09882640362257088,replayed_author_model
+fp_325,17,технологического,0.09405072667780494,replayed_author_model
+fp_325,18,грантовая,0.09210847804404663,replayed_author_model
+fp_325,19,технологические компании,0.09210847804404663,replayed_author_model
+fp_325,20,грантовая поддержка,0.09210847804404663,replayed_author_model
+fp_325,21,обеспечению технологического,0.09006617400266478,replayed_author_model
+fp_325,22,предпринимательских,0.09006617400266478,replayed_author_model
+fp_325,23,малых,0.08544770423691425,replayed_author_model
+fp_325,24,технологического лидерства,0.08304763300746161,replayed_author_model
+fp_325,25,технологические,0.08236425251816741,replayed_author_model
+fp_325,26,ценных бумаг,0.08100424954406596,replayed_author_model
+fp_325,27,ценных,0.08100424954406596,replayed_author_model
+fp_325,28,инновациям,0.08100424954406596,replayed_author_model
+fp_325,29,содействия инновациям,0.08100424954406596,replayed_author_model
+fp_325,30,коммерциализации,0.07888638789083707,replayed_author_model
+fp_325,31,инновационного,0.07888638789083707,replayed_author_model
+fp_325,32,центр поддержки,0.0761781569700384,replayed_author_model
+fp_325,33,федеральное государственное,0.0761781569700384,replayed_author_model
+fp_325,34,создания обеспечения,0.0761781569700384,replayed_author_model
+fp_325,35,фонд,0.07361958583165897,replayed_author_model
+fp_325,36,лидерства,0.07361958583165897,replayed_author_model
+fp_325,37,обучающихся образовательных,0.07339872465840955,replayed_author_model
+fp_325,38,проектных,0.072434748745947,replayed_author_model
+fp_325,39,мероприятий развитию,0.07180459829336085,replayed_author_model
+fp_325,40,технологической,0.07024192583775848,replayed_author_model
+fp_325,41,малого,0.07013497160791693,replayed_author_model
+fp_325,42,обеспечения функционирования,0.06937616152210833,replayed_author_model
+fp_325,43,технологическое,0.06914216236495783,replayed_author_model
+fp_325,44,компании,0.06858913874558241,replayed_author_model
+fp_325,45,инновационной,0.06732407837755221,replayed_author_model
+fp_325,46,инновационных,0.06732407837755221,replayed_author_model
+fp_325,47,выхода,0.06679016287139183,replayed_author_model
+fp_325,48,учреждение,0.06679016287139183,replayed_author_model
+fp_325,49,корпораций,0.06679016287139183,replayed_author_model
+fp_325,50,размещение,0.0656642977376275,replayed_author_model
+fp_326,1,товарных,0.2010601102971046,replayed_author_model
+fp_326,2,хозяйствующих,0.1844278847514549,replayed_author_model
+fp_326,3,развития конкуренции,0.1824698164711684,replayed_author_model
+fp_326,4,товарных рынках,0.17664858449256637,replayed_author_model
+fp_326,5,хозяйствующих субъектов,0.16719859321106273,replayed_author_model
+fp_326,6,ценовых,0.15424639294301085,replayed_author_model
+fp_326,7,ценовых индикаторов,0.15424639294301085,replayed_author_model
+fp_326,8,рынках,0.14785422359710432,replayed_author_model
+fp_326,9,конкуренции,0.14785422359710432,replayed_author_model
+fp_326,10,индикаторов,0.14505666060498273,replayed_author_model
+fp_326,11,конкуренции товарных,0.1441730170661851,replayed_author_model
+fp_326,12,товарных рынков,0.1441730170661851,replayed_author_model
+fp_326,13,уровня развития,0.13558343897670774,replayed_author_model
+fp_326,14,бирже,0.13184420139345537,replayed_author_model
+fp_326,15,функционирования товарных,0.13184420139345537,replayed_author_model
+fp_326,16,операторов,0.11137077825043176,replayed_author_model
+fp_326,17,долей,0.10904151802982875,replayed_author_model
+fp_326,18,подвижного,0.10822493614397866,replayed_author_model
+fp_326,19,расширен,0.10506303481921017,replayed_author_model
+fp_326,20,подвижного состава,0.09897018573323063,replayed_author_model
+fp_326,21,рынков,0.09817858696841981,replayed_author_model
+fp_326,22,потребителей,0.09239705693847652,replayed_author_model
+fp_326,23,увеличение количества,0.08956874686352198,replayed_author_model
+fp_326,24,осуществляющих деятельность,0.08797401016523766,replayed_author_model
+fp_326,25,карты развития,0.08797401016523766,replayed_author_model
+fp_326,26,торговой,0.08797401016523766,replayed_author_model
+fp_326,27,состава,0.08607225660528181,replayed_author_model
+fp_326,28,площадке,0.08365095161069198,replayed_author_model
+fp_326,29,дорожная карта,0.08365095161069198,replayed_author_model
+fp_326,30,удовлетворенности,0.08335603175964885,replayed_author_model
+fp_326,31,планом,0.0801187555820183,replayed_author_model
+fp_326,32,стандарт,0.0801187555820183,replayed_author_model
+fp_326,33,поэтапное,0.0801187555820183,replayed_author_model
+fp_326,34,республики,0.07730235170575726,replayed_author_model
+fp_326,35,карта,0.07713232639241606,replayed_author_model
+fp_326,36,дорожной карты,0.07713232639241606,replayed_author_model
+fp_326,37,народной республики,0.07713232639241606,replayed_author_model
+fp_326,38,лекарственных препаратов,0.07713232639241606,replayed_author_model
+fp_326,39,перевозки,0.07713232639241606,replayed_author_model
+fp_326,40,доступа,0.07575259584712428,replayed_author_model
+fp_326,41,определение,0.07454536375878389,replayed_author_model
+fp_326,42,лекарственных,0.07454536375878389,replayed_author_model
+fp_326,43,грузов,0.07454536375878389,replayed_author_model
+fp_326,44,страховых,0.07454536375878389,replayed_author_model
+fp_326,45,препаратов,0.07454536375878389,replayed_author_model
+fp_326,46,усовершенствована,0.07454536375878389,replayed_author_model
+fp_326,47,народной,0.07454536375878389,replayed_author_model
+fp_326,48,товаров,0.07349571361886167,replayed_author_model
+fp_326,49,правила,0.07226350099879893,replayed_author_model
+fp_326,50,методика,0.07226350099879893,replayed_author_model

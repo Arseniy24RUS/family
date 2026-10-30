@@ -1,0 +1,9 @@
+﻿slice_id,source_id,period_end,federal_district,n_regions,arithmetic_mean,median,min,max,interpretation
+bb4b22749074c4955bd6,62900,2026-09-30,Дальневосточный федеральный округ,11,0.38372727272727275,0.2986,0.0168,1.1362,Unweighted distribution of subjects; not the official district aggregate
+bb4b22749074c4955bd6,62900,2026-09-30,Приволжский федеральный округ,14,0.7327214285714286,0.46904999999999997,0.1533,2.6884,Unweighted distribution of subjects; not the official district aggregate
+bb4b22749074c4955bd6,62900,2026-09-30,Северо-Западный федеральный округ,11,0.9594454545454546,0.4549,0.0153,5.4669,Unweighted distribution of subjects; not the official district aggregate
+bb4b22749074c4955bd6,62900,2026-09-30,Северо-Кавказский федеральный округ,7,0.4098428571428571,0.2306,0.0349,1.324,Unweighted distribution of subjects; not the official district aggregate
+bb4b22749074c4955bd6,62900,2026-09-30,Сибирский федеральный округ,10,0.63676,0.6227,0.0781,1.1954,Unweighted distribution of subjects; not the official district aggregate
+bb4b22749074c4955bd6,62900,2026-09-30,Уральский федеральный округ,6,0.8309333333333333,0.67925,0.2042,1.8586,Unweighted distribution of subjects; not the official district aggregate
+bb4b22749074c4955bd6,62900,2026-09-30,Центральный федеральный округ,18,1.2762888888888888,0.43665,0.1407,10.193,Unweighted distribution of subjects; not the official district aggregate
+bb4b22749074c4955bd6,62900,2026-09-30,Южный федеральный округ,8,1.5272625,0.53825,0.064,7.6671,Unweighted distribution of subjects; not the official district aggregate

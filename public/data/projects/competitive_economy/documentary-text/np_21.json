@@ -1,0 +1,2368 @@
+{
+  "document": {
+    "project_id": "competitive_economy",
+    "kind": "np",
+    "id": "np_21",
+    "url": "https://databudget.ru/projects/np/21",
+    "sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+    "retrieved_at": "2026-10-19T14:37:19.454981+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/2e/2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6.html",
+    "document_id": "np_21",
+    "code": "Э",
+    "title": "[Э] Эффективная и конкурентная экономика",
+    "publisher_version": "26.32",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "national",
+    "profile_token_count": 416,
+    "n_tokens": 416,
+    "source_url": "https://databudget.ru/projects/np/21",
+    "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+    "profile_text_sha256": "90d6cfb1198a68b0e1f7b9b55d7071c3bcd2591d9888904b4ada1b5ea1ba9b0c",
+    "archive_entry": "competitive_economy/np_21.html",
+    "bytes": 580662,
+    "download_path": "downloads/projects/competitive_economy/documentary/sources/np_21.html",
+    "profile_original_document_id": "html:2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "np_21:profile1",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "улучшены условия функционирования товарных рынков по перечню",
+      "node_id": "np_21:passport-task-11:83875dcde77ed500",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile2",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "выстроены траектории выхода технологических компаний на публичный рынок",
+      "node_id": "np_21:passport-task-15:4dbf9c23492a0959",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile3",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "увеличен охват субъектов мсп услугами и мерами инфраструктуры поддержки субъектов мсп",
+      "node_id": "np_21:passport-task-04:afc03bf5727c94d0",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile4",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "увеличено отношение капитализации российского рынка акций к ввп",
+      "node_id": "np_21:passport-task-08:8a7da69d07977c72",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile5",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "созданы условия для реализации мер по сокращению и предотвращению выбросов парниковых газов, а также по увеличению поглощения таких газов",
+      "node_id": "np_21:passport-task-05:8043bb03f192ed43",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 17,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile6",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "встроены технологические компании, в том числе малые технологические компании в кооперационные цепочки крупных компаний и национальные проекты по обеспечению технологического лидерства",
+      "node_id": "np_21:passport-task-14:f5fb9ff5d71e0d25",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 18,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile7",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов",
+      "node_id": "np_21:passport-task-10:6db36690ad00a710",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile8",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "улучшен инвестиционный климат в российской федерации за счет оптимизации процедур.",
+      "node_id": "np_21:passport-task-16:adfd74d4c5396c21",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[8]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile9",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "снижена уязвимость экономики к неблагоприятным последствиям изменения климата",
+      "node_id": "np_21:passport-task-06:d0be221b2481f64f",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[9]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile10",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "усовершенствована система национальных ценовых индикаторов",
+      "node_id": "np_21:passport-task-13:f6a768477d9d1177",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[10]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 5,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile11",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов.",
+      "node_id": "np_21:passport-task-17:2d09835326f0b47f",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[11]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 12,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile12",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "обеспечено повышение производительности труда на средних и крупных предприятиях базовых несырьевых отраслей экономики и в организациях социальной сферы, в том числе за счет реинжиниринга бизнес-процессов на основе бережливого производства",
+      "node_id": "np_21:passport-task-01:4b8fdd1fbf3c702d",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[12]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 25,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile13",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "обеспечено создание условий, включая экспертное обеспечение выработки решений в сфере климатической политики, создание правовой основы и инфраструктурных решений, для реализации мер по сокращению и предотвращению выбросов парниковых газов, а также по увеличению поглощения таких газов в интересах органов государственной власти, бизнеса и граждан российской федерации",
+      "node_id": "np_21:passport-task-18:4acc1b10e684787b",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[13]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 39,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile14",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "увеличен объем выручки малых технологических компаний в 7 раз к 2030 году",
+      "node_id": "np_21:passport-task-07:92f200d2e9a9926f",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[14]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile15",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "внедрены инструменты по повышению производительности труда во всех государственных и муниципальных организациях социальной сферы",
+      "node_id": "np_21:passport-task-02:663951c53529121d",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[15]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 13,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile16",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "увеличение количества предпринимательских команд и их доращивание до уровня технологических компаний",
+      "node_id": "np_21:passport-task-19:0d2de7bd69e23f0c",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[16]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile17",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "рост уровня развития конкуренции на товарных рынках",
+      "node_id": "np_21:passport-task-12:6ca1b0ecea6fd2b2",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[17]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile18",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "расширен доступ к финансовым ресурсам субъектов мсп в приоритетных отраслях",
+      "node_id": "np_21:passport-task-03:d9f2ba082ff0fa84",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[18]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile19",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "увеличена доля инвестиционных продуктов в сбережениях граждан путем привлечения граждан на финансовый рынок",
+      "node_id": "np_21:passport-task-09:7137e3924d6e99ed",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[19]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 12,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile20",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "встраивание технологических компаний, в том числе малых технологических компаний в кооперационные цепочки крупных компаний и национальные проекты по обеспечению технологического лидерства",
+      "node_id": "np_21:task:f113953c1961125b",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 18,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile21",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "выстраивание траектории выхода технологических компаний на публичный рынок",
+      "node_id": "np_21:task:c0775bac13a34f4d",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[3]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile22",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "goal",
+      "text": "обеспечение устойчивого экономического развития в российской федерации, основанного на конкуренции, предпринимательстве, в том числе высокотехнологичном, и частной инициативе за счет увеличения объема инвестиций в основной капитал и объема выручки малых технологических компаний, реального роста доходов субъектов малого и среднего предпринимательства, роста капитализации фондового рынка и увеличения доли долгосрочных сбережений граждан, повышения производительности труда, реализации программ адаптации к изменениям климата и создания системы мониторинга климатически активных веществ",
+      "node_id": "np_21:goal:e141bedfe352c256",
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 57,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile23",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "утверждены программы адаптации к изменениям климата на федеральном, региональном и корпоративных уровнях",
+      "node_id": "np_21:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile24",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "доля государственных и муниципальных организаций социальной сферы, вовлеченных в реализацию проектов, направленных на повышение производительности труда",
+      "node_id": "np_21:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 14,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile25",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "реализованы программы адаптации к изменениям климата на федеральном, региональном и корпоративном уровнях",
+      "node_id": "np_21:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile26",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "рост производительности труда в экономике российской федерации по отношению к 2023 году",
+      "node_id": "np_21:passport-purpose-4:6037cf73209c66ef",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile27",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "прирост объема инвестиций в основной капитал к 2020 году",
+      "node_id": "np_21:passport-purpose-5:dc38845c3885b87f",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 6,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile28",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "объем капитализации фондового рынка относительно ввп",
+      "node_id": "np_21:passport-purpose-6:323800554f41c925",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[6]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 6,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile29",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "объем выручки малых технологических компаний",
+      "node_id": "np_21:passport-purpose-7:1f4fdfdc21df0c7a",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 5,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile30",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "реальный рост дохода на одного работника субъекта малого и среднего предпринимательства",
+      "node_id": "np_21:passport-purpose-8:aa8999c030f04749",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[8]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile31",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "доля долгосрочных сбережений граждан в общем объеме их сбережений",
+      "node_id": "np_21:passport-purpose-9:776036a148d24744",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[9]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile32",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "доля средних и крупных предприятий базовых несырьевых отраслей экономики, вовлеченных в реализацию проектов, направленных на повышение производительности труда",
+      "node_id": "np_21:passport-purpose-10:1c42f3a3940bfa88",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[10]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 16,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_21:profile33",
+      "document_id": "np_21",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "создана национальная система мониторинга климатически активных веществ",
+      "node_id": "np_21:passport-purpose-11:aaa786368dde8e70",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[11]",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "np_21:kwic1",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционная",
+      "context": "ерационные цепочки крупных компаний и национальные проекты по обеспечению технологического лидерства повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов улучшен инвестиционный к",
+      "unit_id": "np_21:profile7",
+      "unit_ids": [
+        "np_21:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic2",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "хнологического лидерства повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. снижена уязвимост",
+      "unit_id": "np_21:profile7",
+      "unit_ids": [
+        "np_21:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic3",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционный",
+      "context": "а инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. снижена уязвимость экономики к неблагоприятным по",
+      "unit_id": "np_21:profile8",
+      "unit_ids": [
+        "np_21:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[8]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic4",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционный",
+      "context": "агоприятным последствиям изменения климата усовершенствована система национальных ценовых индикаторов улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. обеспечено повышени",
+      "unit_id": "np_21:profile11",
+      "unit_ids": [
+        "np_21:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[11]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic5",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "х ценовых индикаторов улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. обеспечено повышение производительности труда на средних и крупных предприятиях базовых несырьевых ",
+      "unit_id": "np_21:profile11",
+      "unit_ids": [
+        "np_21:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[11]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic6",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "лимат в российской федерации за счет региональных мер поддержки инвестиционных проектов. обеспечено повышение производительности труда на средних и крупных предприятиях базовых несырьевых отраслей экономики и в организациях социальной сфе",
+      "unit_id": "np_21:profile12",
+      "unit_ids": [
+        "np_21:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[12]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic7",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "ях базовых несырьевых отраслей экономики и в организациях социальной сферы, в том числе за счет реинжиниринга бизнес-процессов на основе бережливого производства обеспечено создание условий, включая экспертное обеспечение выра",
+      "unit_id": "np_21:profile12",
+      "unit_ids": [
+        "np_21:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[12]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic8",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "и и в организациях социальной сферы, в том числе за счет реинжиниринга бизнес-процессов на основе бережливого производства обеспечено создание условий, включая экспертное обеспечение выработки решений в сфере климатической политики,",
+      "unit_id": "np_21:profile12",
+      "unit_ids": [
+        "np_21:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[12]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic9",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "ов парниковых газов, а также по увеличению поглощения таких газов в интересах органов государственной власти, бизнеса и граждан российской федерации увеличен объем выручки малых технологических компаний в 7 раз к 2030 году внед",
+      "unit_id": "np_21:profile13",
+      "unit_ids": [
+        "np_21:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[13]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic10",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "и увеличен объем выручки малых технологических компаний в 7 раз к 2030 году внедрены инструменты по повышению производительности труда во всех государственных и муниципальных организациях социальной сферы увеличение количества предпринима",
+      "unit_id": "np_21:profile15",
+      "unit_ids": [
+        "np_21:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[15]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic11",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательских",
+      "context": "дительности труда во всех государственных и муниципальных организациях социальной сферы увеличение количества предпринимательских команд и их доращивание до уровня технологических компаний рост уровня развития конкуренции на товарных рынка",
+      "unit_id": "np_21:profile16",
+      "unit_ids": [
+        "np_21:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[16]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[16]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic12",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "на товарных рынках расширен доступ к финансовым ресурсам субъектов мсп в приоритетных отраслях увеличена доля инвестиционных продуктов в сбережениях граждан путем привлечения граждан на финансовый рынок встраивание технологических ком",
+      "unit_id": "np_21:profile19",
+      "unit_ids": [
+        "np_21:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[19]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[19]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic13",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательстве",
+      "context": "ный рынок обеспечение устойчивого экономического развития в российской федерации, основанного на конкуренции, предпринимательстве, в том числе высокотехнологичном, и частной инициативе за счет увеличения объема инвестиций в основной капита",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic14",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "уренции, предпринимательстве, в том числе высокотехнологичном, и частной инициативе за счет увеличения объема инвестиций в основной капитал и объема выручки малых технологических компаний, реального роста доходов субъектов малого ",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic15",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": " капитал и объема выручки малых технологических компаний, реального роста доходов субъектов малого и среднего предпринимательства, роста капитализации фондового рынка и увеличения доли долгосрочных сбережений граждан, повышения производите",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic16",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "имательства, роста капитализации фондового рынка и увеличения доли долгосрочных сбережений граждан, повышения производительности труда, реализации программ адаптации к изменениям климата и создания системы мониторинга климатически активны",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic17",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "ых и муниципальных организаций социальной сферы, вовлеченных в реализацию проектов, направленных на повышение производительности труда реализованы программы адаптации к изменениям климата на федеральном, региональном и корпоративном уровн",
+      "unit_id": "np_21:profile24",
+      "unit_ids": [
+        "np_21:profile24"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic18",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "еализованы программы адаптации к изменениям климата на федеральном, региональном и корпоративном уровнях рост производительности труда в экономике российской федерации по отношению к 2023 году прирост объема инвестиций в основной капитал ",
+      "unit_id": "np_21:profile26",
+      "unit_ids": [
+        "np_21:profile26"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic19",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ровнях рост производительности труда в экономике российской федерации по отношению к 2023 году прирост объема инвестиций в основной капитал к 2020 году объем капитализации фондового рынка относительно ввп объем выручки малых техно",
+      "unit_id": "np_21:profile27",
+      "unit_ids": [
+        "np_21:profile27"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[5]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic20",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ем выручки малых технологических компаний реальный рост дохода на одного работника субъекта малого и среднего предпринимательства доля долгосрочных сбережений граждан в общем объеме их сбережений доля средних и крупных предприятий базовых ",
+      "unit_id": "np_21:profile30",
+      "unit_ids": [
+        "np_21:profile30"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[8]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic21",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "едприятий базовых несырьевых отраслей экономики, вовлеченных в реализацию проектов, направленных на повышение производительности труда создана национальная система мониторинга климатически активных веществ",
+      "unit_id": "np_21:profile32",
+      "unit_ids": [
+        "np_21:profile32"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[10]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic22",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "капитализации российского рынка акций к ввп созданы условия для реализации мер по сокращению и предотвращению выбросов парниковых газов, а также по увеличению поглощения таких газов встроены технологические компании, в том числе",
+      "unit_id": "np_21:profile5",
+      "unit_ids": [
+        "np_21:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[5]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic23",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климат",
+      "context": "я активность путем реализации федеральных механизмов поддержки инвестиционных проектов улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. снижена уязвимость экономики к неблагоприятным последств",
+      "unit_id": "np_21:profile8",
+      "unit_ids": [
+        "np_21:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[8]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic24",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "федерации за счет оптимизации процедур. снижена уязвимость экономики к неблагоприятным последствиям изменения климата усовершенствована система национальных ценовых индикаторов улучшен инвестиционный климат в российской федерац",
+      "unit_id": "np_21:profile9",
+      "unit_ids": [
+        "np_21:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[9]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic25",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климат",
+      "context": "ледствиям изменения климата усовершенствована система национальных ценовых индикаторов улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. обеспечено повышение произ",
+      "unit_id": "np_21:profile11",
+      "unit_ids": [
+        "np_21:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[11]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic26",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климатической",
+      "context": "ережливого производства обеспечено создание условий, включая экспертное обеспечение выработки решений в сфере климатической политики, создание правовой основы и инфраструктурных решений, для реализации мер по сокращению и предотвраще",
+      "unit_id": "np_21:profile13",
+      "unit_ids": [
+        "np_21:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[13]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic27",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "итики, создание правовой основы и инфраструктурных решений, для реализации мер по сокращению и предотвращению выбросов парниковых газов, а также по увеличению поглощения таких газов в интересах органов государственной власти, би",
+      "unit_id": "np_21:profile13",
+      "unit_ids": [
+        "np_21:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[13]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic28",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "лгосрочных сбережений граждан, повышения производительности труда, реализации программ адаптации к изменениям климата и создания системы мониторинга климатически активных веществ утверждены программы адаптации к изменениям клим",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic29",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климатически",
+      "context": "я производительности труда, реализации программ адаптации к изменениям климата и создания системы мониторинга климатически активных веществ утверждены программы адаптации к изменениям климата на федеральном, региональном и корпорати",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic30",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "мата и создания системы мониторинга климатически активных веществ утверждены программы адаптации к изменениям климата на федеральном, региональном и корпоративных уровнях доля государственных и муниципальных организаций социаль",
+      "unit_id": "np_21:profile23",
+      "unit_ids": [
+        "np_21:profile23"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic31",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "цию проектов, направленных на повышение производительности труда реализованы программы адаптации к изменениям климата на федеральном, региональном и корпоративном уровнях рост производительности труда в экономике российской фед",
+      "unit_id": "np_21:profile25",
+      "unit_ids": [
+        "np_21:profile25"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic32",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климатически",
+      "context": "лизацию проектов, направленных на повышение производительности труда создана национальная система мониторинга климатически активных веществ",
+      "unit_id": "np_21:profile33",
+      "unit_ids": [
+        "np_21:profile33"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[11]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic33",
+      "document_id": "np_21",
+      "frame": "export_trade",
+      "matched": "несырьевых",
+      "context": "естиционных проектов. обеспечено повышение производительности труда на средних и крупных предприятиях базовых несырьевых отраслей экономики и в организациях социальной сферы, в том числе за счет реинжиниринга бизнес-процессов на о",
+      "unit_id": "np_21:profile12",
+      "unit_ids": [
+        "np_21:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[12]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic34",
+      "document_id": "np_21",
+      "frame": "export_trade",
+      "matched": "несырьевых",
+      "context": " доля долгосрочных сбережений граждан в общем объеме их сбережений доля средних и крупных предприятий базовых несырьевых отраслей экономики, вовлеченных в реализацию проектов, направленных на повышение производительности труда соз",
+      "unit_id": "np_21:profile32",
+      "unit_ids": [
+        "np_21:profile32"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[10]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic35",
+      "document_id": "np_21",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ан, повышения производительности труда, реализации программ адаптации к изменениям климата и создания системы мониторинга климатически активных веществ утверждены программы адаптации к изменениям климата на федеральном, регионально",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic36",
+      "document_id": "np_21",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ченных в реализацию проектов, направленных на повышение производительности труда создана национальная система мониторинга климатически активных веществ",
+      "unit_id": "np_21:profile33",
+      "unit_ids": [
+        "np_21:profile33"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[11]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic37",
+      "document_id": "np_21",
+      "frame": "income_support",
+      "matched": "доходов",
+      "context": "личения объема инвестиций в основной капитал и объема выручки малых технологических компаний, реального роста доходов субъектов малого и среднего предпринимательства, роста капитализации фондового рынка и увеличения доли долгос",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic38",
+      "document_id": "np_21",
+      "frame": "income_support",
+      "matched": "дохода",
+      "context": "ъем капитализации фондового рынка относительно ввп объем выручки малых технологических компаний реальный рост дохода на одного работника субъекта малого и среднего предпринимательства доля долгосрочных сбережений граждан в общ",
+      "unit_id": "np_21:profile30",
+      "unit_ids": [
+        "np_21:profile30"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[8]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic39",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "улучшены условия функционирования товарных рынков по перечню выстроены траектории выхода технологических компаний на публичный рынок увеличен охват субъектов мсп услугами и мерами инфраструктуры поддержки субъектов",
+      "unit_id": "np_21:profile2",
+      "unit_ids": [
+        "np_21:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic40",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологические",
+      "context": " сокращению и предотвращению выбросов парниковых газов, а также по увеличению поглощения таких газов встроены технологические компании, в том числе малые технологические компании в кооперационные цепочки крупных компаний и национальные",
+      "unit_id": "np_21:profile6",
+      "unit_ids": [
+        "np_21:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic41",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологические",
+      "context": "овых газов, а также по увеличению поглощения таких газов встроены технологические компании, в том числе малые технологические компании в кооперационные цепочки крупных компаний и национальные проекты по обеспечению технологического лид",
+      "unit_id": "np_21:profile6",
+      "unit_ids": [
+        "np_21:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic42",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "алые технологические компании в кооперационные цепочки крупных компаний и национальные проекты по обеспечению технологического лидерства повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных",
+      "unit_id": "np_21:profile6",
+      "unit_ids": [
+        "np_21:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic43",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "интересах органов государственной власти, бизнеса и граждан российской федерации увеличен объем выручки малых технологических компаний в 7 раз к 2030 году внедрены инструменты по повышению производительности труда во всех государственн",
+      "unit_id": "np_21:profile14",
+      "unit_ids": [
+        "np_21:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[14]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[14]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic44",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "ных организациях социальной сферы увеличение количества предпринимательских команд и их доращивание до уровня технологических компаний рост уровня развития конкуренции на товарных рынках расширен доступ к финансовым ресурсам субъектов ",
+      "unit_id": "np_21:profile16",
+      "unit_ids": [
+        "np_21:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[16]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[16]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic45",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "доля инвестиционных продуктов в сбережениях граждан путем привлечения граждан на финансовый рынок встраивание технологических компаний, в том числе малых технологических компаний в кооперационные цепочки крупных компаний и национальные",
+      "unit_id": "np_21:profile20",
+      "unit_ids": [
+        "np_21:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic46",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "граждан путем привлечения граждан на финансовый рынок встраивание технологических компаний, в том числе малых технологических компаний в кооперационные цепочки крупных компаний и национальные проекты по обеспечению технологического лид",
+      "unit_id": "np_21:profile20",
+      "unit_ids": [
+        "np_21:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic47",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "алых технологических компаний в кооперационные цепочки крупных компаний и национальные проекты по обеспечению технологического лидерства выстраивание траектории выхода технологических компаний на публичный рынок обеспечение устойчивого ",
+      "unit_id": "np_21:profile20",
+      "unit_ids": [
+        "np_21:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic48",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "пных компаний и национальные проекты по обеспечению технологического лидерства выстраивание траектории выхода технологических компаний на публичный рынок обеспечение устойчивого экономического развития в российской федерации, основанно",
+      "unit_id": "np_21:profile21",
+      "unit_ids": [
+        "np_21:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[3]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic49",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "логичном, и частной инициативе за счет увеличения объема инвестиций в основной капитал и объема выручки малых технологических компаний, реального роста доходов субъектов малого и среднего предпринимательства, роста капитализации фондов",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic50",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "тиций в основной капитал к 2020 году объем капитализации фондового рынка относительно ввп объем выручки малых технологических компаний реальный рост дохода на одного работника субъекта малого и среднего предпринимательства доля долгоср",
+      "unit_id": "np_21:profile29",
+      "unit_ids": [
+        "np_21:profile29"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "np_21:kwic1",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционная",
+      "context": "ерационные цепочки крупных компаний и национальные проекты по обеспечению технологического лидерства повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов улучшен инвестиционный к",
+      "unit_id": "np_21:profile7",
+      "unit_ids": [
+        "np_21:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic2",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "хнологического лидерства повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. снижена уязвимост",
+      "unit_id": "np_21:profile7",
+      "unit_ids": [
+        "np_21:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic3",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционный",
+      "context": "а инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. снижена уязвимость экономики к неблагоприятным по",
+      "unit_id": "np_21:profile8",
+      "unit_ids": [
+        "np_21:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[8]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic4",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционный",
+      "context": "агоприятным последствиям изменения климата усовершенствована система национальных ценовых индикаторов улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. обеспечено повышени",
+      "unit_id": "np_21:profile11",
+      "unit_ids": [
+        "np_21:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[11]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic5",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "х ценовых индикаторов улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. обеспечено повышение производительности труда на средних и крупных предприятиях базовых несырьевых ",
+      "unit_id": "np_21:profile11",
+      "unit_ids": [
+        "np_21:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[11]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic6",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "лимат в российской федерации за счет региональных мер поддержки инвестиционных проектов. обеспечено повышение производительности труда на средних и крупных предприятиях базовых несырьевых отраслей экономики и в организациях социальной сфе",
+      "unit_id": "np_21:profile12",
+      "unit_ids": [
+        "np_21:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[12]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic7",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "ях базовых несырьевых отраслей экономики и в организациях социальной сферы, в том числе за счет реинжиниринга бизнес-процессов на основе бережливого производства обеспечено создание условий, включая экспертное обеспечение выра",
+      "unit_id": "np_21:profile12",
+      "unit_ids": [
+        "np_21:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[12]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic8",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "и и в организациях социальной сферы, в том числе за счет реинжиниринга бизнес-процессов на основе бережливого производства обеспечено создание условий, включая экспертное обеспечение выработки решений в сфере климатической политики,",
+      "unit_id": "np_21:profile12",
+      "unit_ids": [
+        "np_21:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[12]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic9",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "ов парниковых газов, а также по увеличению поглощения таких газов в интересах органов государственной власти, бизнеса и граждан российской федерации увеличен объем выручки малых технологических компаний в 7 раз к 2030 году внед",
+      "unit_id": "np_21:profile13",
+      "unit_ids": [
+        "np_21:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[13]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic10",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "и увеличен объем выручки малых технологических компаний в 7 раз к 2030 году внедрены инструменты по повышению производительности труда во всех государственных и муниципальных организациях социальной сферы увеличение количества предпринима",
+      "unit_id": "np_21:profile15",
+      "unit_ids": [
+        "np_21:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[15]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic11",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательских",
+      "context": "дительности труда во всех государственных и муниципальных организациях социальной сферы увеличение количества предпринимательских команд и их доращивание до уровня технологических компаний рост уровня развития конкуренции на товарных рынка",
+      "unit_id": "np_21:profile16",
+      "unit_ids": [
+        "np_21:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[16]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[16]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic12",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "на товарных рынках расширен доступ к финансовым ресурсам субъектов мсп в приоритетных отраслях увеличена доля инвестиционных продуктов в сбережениях граждан путем привлечения граждан на финансовый рынок встраивание технологических ком",
+      "unit_id": "np_21:profile19",
+      "unit_ids": [
+        "np_21:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[19]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[19]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic13",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательстве",
+      "context": "ный рынок обеспечение устойчивого экономического развития в российской федерации, основанного на конкуренции, предпринимательстве, в том числе высокотехнологичном, и частной инициативе за счет увеличения объема инвестиций в основной капита",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic14",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "уренции, предпринимательстве, в том числе высокотехнологичном, и частной инициативе за счет увеличения объема инвестиций в основной капитал и объема выручки малых технологических компаний, реального роста доходов субъектов малого ",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic15",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": " капитал и объема выручки малых технологических компаний, реального роста доходов субъектов малого и среднего предпринимательства, роста капитализации фондового рынка и увеличения доли долгосрочных сбережений граждан, повышения производите",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic16",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "имательства, роста капитализации фондового рынка и увеличения доли долгосрочных сбережений граждан, повышения производительности труда, реализации программ адаптации к изменениям климата и создания системы мониторинга климатически активны",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic17",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "ых и муниципальных организаций социальной сферы, вовлеченных в реализацию проектов, направленных на повышение производительности труда реализованы программы адаптации к изменениям климата на федеральном, региональном и корпоративном уровн",
+      "unit_id": "np_21:profile24",
+      "unit_ids": [
+        "np_21:profile24"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic18",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "еализованы программы адаптации к изменениям климата на федеральном, региональном и корпоративном уровнях рост производительности труда в экономике российской федерации по отношению к 2023 году прирост объема инвестиций в основной капитал ",
+      "unit_id": "np_21:profile26",
+      "unit_ids": [
+        "np_21:profile26"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic19",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ровнях рост производительности труда в экономике российской федерации по отношению к 2023 году прирост объема инвестиций в основной капитал к 2020 году объем капитализации фондового рынка относительно ввп объем выручки малых техно",
+      "unit_id": "np_21:profile27",
+      "unit_ids": [
+        "np_21:profile27"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[5]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic20",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ем выручки малых технологических компаний реальный рост дохода на одного работника субъекта малого и среднего предпринимательства доля долгосрочных сбережений граждан в общем объеме их сбережений доля средних и крупных предприятий базовых ",
+      "unit_id": "np_21:profile30",
+      "unit_ids": [
+        "np_21:profile30"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[8]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic21",
+      "document_id": "np_21",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "едприятий базовых несырьевых отраслей экономики, вовлеченных в реализацию проектов, направленных на повышение производительности труда создана национальная система мониторинга климатически активных веществ",
+      "unit_id": "np_21:profile32",
+      "unit_ids": [
+        "np_21:profile32"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[10]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic22",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "капитализации российского рынка акций к ввп созданы условия для реализации мер по сокращению и предотвращению выбросов парниковых газов, а также по увеличению поглощения таких газов встроены технологические компании, в том числе",
+      "unit_id": "np_21:profile5",
+      "unit_ids": [
+        "np_21:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[5]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic23",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климат",
+      "context": "я активность путем реализации федеральных механизмов поддержки инвестиционных проектов улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. снижена уязвимость экономики к неблагоприятным последств",
+      "unit_id": "np_21:profile8",
+      "unit_ids": [
+        "np_21:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[8]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic24",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "федерации за счет оптимизации процедур. снижена уязвимость экономики к неблагоприятным последствиям изменения климата усовершенствована система национальных ценовых индикаторов улучшен инвестиционный климат в российской федерац",
+      "unit_id": "np_21:profile9",
+      "unit_ids": [
+        "np_21:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[9]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic25",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климат",
+      "context": "ледствиям изменения климата усовершенствована система национальных ценовых индикаторов улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. обеспечено повышение произ",
+      "unit_id": "np_21:profile11",
+      "unit_ids": [
+        "np_21:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[11]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic26",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климатической",
+      "context": "ережливого производства обеспечено создание условий, включая экспертное обеспечение выработки решений в сфере климатической политики, создание правовой основы и инфраструктурных решений, для реализации мер по сокращению и предотвраще",
+      "unit_id": "np_21:profile13",
+      "unit_ids": [
+        "np_21:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[13]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic27",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "итики, создание правовой основы и инфраструктурных решений, для реализации мер по сокращению и предотвращению выбросов парниковых газов, а также по увеличению поглощения таких газов в интересах органов государственной власти, би",
+      "unit_id": "np_21:profile13",
+      "unit_ids": [
+        "np_21:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[13]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic28",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "лгосрочных сбережений граждан, повышения производительности труда, реализации программ адаптации к изменениям климата и создания системы мониторинга климатически активных веществ утверждены программы адаптации к изменениям клим",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic29",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климатически",
+      "context": "я производительности труда, реализации программ адаптации к изменениям климата и создания системы мониторинга климатически активных веществ утверждены программы адаптации к изменениям климата на федеральном, региональном и корпорати",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic30",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "мата и создания системы мониторинга климатически активных веществ утверждены программы адаптации к изменениям климата на федеральном, региональном и корпоративных уровнях доля государственных и муниципальных организаций социаль",
+      "unit_id": "np_21:profile23",
+      "unit_ids": [
+        "np_21:profile23"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic31",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "цию проектов, направленных на повышение производительности труда реализованы программы адаптации к изменениям климата на федеральном, региональном и корпоративном уровнях рост производительности труда в экономике российской фед",
+      "unit_id": "np_21:profile25",
+      "unit_ids": [
+        "np_21:profile25"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic32",
+      "document_id": "np_21",
+      "frame": "environment_climate",
+      "matched": "климатически",
+      "context": "лизацию проектов, направленных на повышение производительности труда создана национальная система мониторинга климатически активных веществ",
+      "unit_id": "np_21:profile33",
+      "unit_ids": [
+        "np_21:profile33"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[11]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic33",
+      "document_id": "np_21",
+      "frame": "export_trade",
+      "matched": "несырьевых",
+      "context": "естиционных проектов. обеспечено повышение производительности труда на средних и крупных предприятиях базовых несырьевых отраслей экономики и в организациях социальной сферы, в том числе за счет реинжиниринга бизнес-процессов на о",
+      "unit_id": "np_21:profile12",
+      "unit_ids": [
+        "np_21:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[12]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic34",
+      "document_id": "np_21",
+      "frame": "export_trade",
+      "matched": "несырьевых",
+      "context": " доля долгосрочных сбережений граждан в общем объеме их сбережений доля средних и крупных предприятий базовых несырьевых отраслей экономики, вовлеченных в реализацию проектов, направленных на повышение производительности труда соз",
+      "unit_id": "np_21:profile32",
+      "unit_ids": [
+        "np_21:profile32"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[10]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic35",
+      "document_id": "np_21",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ан, повышения производительности труда, реализации программ адаптации к изменениям климата и создания системы мониторинга климатически активных веществ утверждены программы адаптации к изменениям климата на федеральном, регионально",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic36",
+      "document_id": "np_21",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ченных в реализацию проектов, направленных на повышение производительности труда создана национальная система мониторинга климатически активных веществ",
+      "unit_id": "np_21:profile33",
+      "unit_ids": [
+        "np_21:profile33"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[11]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic37",
+      "document_id": "np_21",
+      "frame": "income_support",
+      "matched": "доходов",
+      "context": "личения объема инвестиций в основной капитал и объема выручки малых технологических компаний, реального роста доходов субъектов малого и среднего предпринимательства, роста капитализации фондового рынка и увеличения доли долгос",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic38",
+      "document_id": "np_21",
+      "frame": "income_support",
+      "matched": "дохода",
+      "context": "ъем капитализации фондового рынка относительно ввп объем выручки малых технологических компаний реальный рост дохода на одного работника субъекта малого и среднего предпринимательства доля долгосрочных сбережений граждан в общ",
+      "unit_id": "np_21:profile30",
+      "unit_ids": [
+        "np_21:profile30"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[8]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic39",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "улучшены условия функционирования товарных рынков по перечню выстроены траектории выхода технологических компаний на публичный рынок увеличен охват субъектов мсп услугами и мерами инфраструктуры поддержки субъектов",
+      "unit_id": "np_21:profile2",
+      "unit_ids": [
+        "np_21:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic40",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологические",
+      "context": " сокращению и предотвращению выбросов парниковых газов, а также по увеличению поглощения таких газов встроены технологические компании, в том числе малые технологические компании в кооперационные цепочки крупных компаний и национальные",
+      "unit_id": "np_21:profile6",
+      "unit_ids": [
+        "np_21:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic41",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологические",
+      "context": "овых газов, а также по увеличению поглощения таких газов встроены технологические компании, в том числе малые технологические компании в кооперационные цепочки крупных компаний и национальные проекты по обеспечению технологического лид",
+      "unit_id": "np_21:profile6",
+      "unit_ids": [
+        "np_21:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic42",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "алые технологические компании в кооперационные цепочки крупных компаний и национальные проекты по обеспечению технологического лидерства повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных",
+      "unit_id": "np_21:profile6",
+      "unit_ids": [
+        "np_21:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic43",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "интересах органов государственной власти, бизнеса и граждан российской федерации увеличен объем выручки малых технологических компаний в 7 раз к 2030 году внедрены инструменты по повышению производительности труда во всех государственн",
+      "unit_id": "np_21:profile14",
+      "unit_ids": [
+        "np_21:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[14]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[14]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic44",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "ных организациях социальной сферы увеличение количества предпринимательских команд и их доращивание до уровня технологических компаний рост уровня развития конкуренции на товарных рынках расширен доступ к финансовым ресурсам субъектов ",
+      "unit_id": "np_21:profile16",
+      "unit_ids": [
+        "np_21:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[16]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[16]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic45",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "доля инвестиционных продуктов в сбережениях граждан путем привлечения граждан на финансовый рынок встраивание технологических компаний, в том числе малых технологических компаний в кооперационные цепочки крупных компаний и национальные",
+      "unit_id": "np_21:profile20",
+      "unit_ids": [
+        "np_21:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic46",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "граждан путем привлечения граждан на финансовый рынок встраивание технологических компаний, в том числе малых технологических компаний в кооперационные цепочки крупных компаний и национальные проекты по обеспечению технологического лид",
+      "unit_id": "np_21:profile20",
+      "unit_ids": [
+        "np_21:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic47",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "алых технологических компаний в кооперационные цепочки крупных компаний и национальные проекты по обеспечению технологического лидерства выстраивание траектории выхода технологических компаний на публичный рынок обеспечение устойчивого ",
+      "unit_id": "np_21:profile20",
+      "unit_ids": [
+        "np_21:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[1]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic48",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "пных компаний и национальные проекты по обеспечению технологического лидерства выстраивание траектории выхода технологических компаний на публичный рынок обеспечение устойчивого экономического развития в российской федерации, основанно",
+      "unit_id": "np_21:profile21",
+      "unit_ids": [
+        "np_21:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[3]/div/div/div/details[3]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic49",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "логичном, и частной инициативе за счет увеличения объема инвестиций в основной капитал и объема выручки малых технологических компаний, реального роста доходов субъектов малого и среднего предпринимательства, роста капитализации фондов",
+      "unit_id": "np_21:profile22",
+      "unit_ids": [
+        "np_21:profile22"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_21:kwic50",
+      "document_id": "np_21",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "тиций в основной капитал к 2020 году объем капитализации фондового рынка относительно ввп объем выручки малых технологических компаний реальный рост дохода на одного работника субъекта малого и среднего предпринимательства доля долгоср",
+      "unit_id": "np_21:profile29",
+      "unit_ids": [
+        "np_21:profile29"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "source_url": "https://databudget.ru/projects/np/21",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/np/21",
+  "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6"
+}

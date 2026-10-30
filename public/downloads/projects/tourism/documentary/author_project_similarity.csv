@@ -1,0 +1,11 @@
+﻿project_a,project_b,cosine_similarity,family_genre_mismatch
+competitive_economy,tourism,0.19159178740931,0
+data_economy,tourism,0.16615115934385066,0
+efficient_transport,tourism,0.10184988101416688,0
+environment,tourism,0.12608297688323955,0
+family,tourism,0.03147294734078049,1
+international_export,tourism,0.17280192823164878,0
+life_infrastructure,tourism,0.16222164855950186,0
+long_active_life,tourism,0.09217675388451363,0
+personnel,tourism,0.1145992055919657,0
+tourism,youth_children,0.15624370450363506,0

@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "project_id": "competitive_economy",
+  "project_name": "Национальный проект «Эффективная и конкурентная экономика»",
+  "release_version": "2.12.0-platform.1",
+  "statistical_as_of": "2026-10-15",
+  "documentary_as_of": "2026-10-16",
+  "release_date": "2026-10-29",
+  "author_expertise_status": "published",
+  "registry": {
+    "project_id": "competitive_economy",
+    "project_name": "Национальный проект «Эффективная и конкурентная экономика»",
+    "n_registry": 49,
+    "n_with_numeric": 30,
+    "n_with_regional": 6,
+    "n_with_national": 30,
+    "n_unique_cells": 9329,
+    "n_numeric": 7502,
+    "n_usable": 7483,
+    "n_domain_violations": 0,
+    "n_review_exclusions": 19,
+    "coverage_pct": 61.224489795918366
+  },
+  "panel": {
+    "project_id": "competitive_economy",
+    "status": "source_specific_regional_profiles",
+    "n_features": 6,
+    "n_imputed_cells": 0,
+    "common_regional_panel": false,
+    "source_ids": [
+      "62979",
+      "62981",
+      "62962",
+      "62961",
+      "62960",
+      "62991"
+    ],
+    "pca_performed": false,
+    "clustering_performed": false,
+    "spatial_autocorrelation_performed": false
+  },
+  "research": {
+    "project_id": "competitive_economy",
+    "project_name": "Национальный проект «Эффективная и конкурентная экономика»",
+    "registry_indicators": 49,
+    "indicators_with_numeric": 30,
+    "indicators_with_regional": 6,
+    "observations_numeric": 7502,
+    "documents": 8,
+    "documentary_network_summary": {
+      "results": 110,
+      "indicators": 54,
+      "tasks": 53,
+      "goals": 8,
+      "standalone_tasks": 36,
+      "repeated_structure_tasks": 17,
+      "unresolved_weight_claims": 171,
+      "reviewed_direct_links": 0,
+      "shared_task_pairs": 337,
+      "result_task_links": 110,
+      "same_project_pairs": 690,
+      "semantic_candidates": 192,
+      "candidate_results": 87,
+      "results_without_candidate": 23,
+      "shared_task_density": 0.056734006734006734
+    },
+    "multivariate_status": "separate_regional_distributions",
+    "passport_financing_2025_2030_thousand_rub": 3673138444.57,
+    "strict_financing_hhi": 0.6354836600346424,
+    "financing_status": "disclosed_plans_reconciled_separate_from_budget_bill",
+    "causal_effect_status": "not_identified_in_existing_sources",
+    "author_expertise_text_status": "published"
+  },
+  "results": {
+    "project_id": "competitive_economy",
+    "project_name": "Национальный проект «Эффективная и конкурентная экономика»",
+    "n_registry": 49,
+    "n_numeric_indicators": 30,
+    "n_regional_indicators": 6,
+    "n_forecast_indicators": 0,
+    "n_projected_series": 0,
+    "forecast_status": "model_not_validated",
+    "n_documented_target_indicators": 49,
+    "n_eligible_annual_comparisons": 10,
+    "target_status": "source_backed_annual_comparisons_with_version_limits"
+  },
+  "corpus": {
+    "documents": 137,
+    "projects": 11,
+    "project_documents": 8,
+    "document_kind": "fixed_mixed_text_corpus_with_structured_passport_comparison",
+    "project_passport_snapshot": "2026-10-16",
+    "compared_structured_projects": 10,
+    "text_profiles_sha256": "45af856c235b152dcbcae7daf112198af8b020a959eb89e556d9edea962d6265",
+    "passport_source_archive_documents": 98,
+    "passport_source_archive_projects": 12,
+    "passport_source_archive_sha256": "f2bc8d7256c46bda5f32c5856e93ca4ac620b7389c6fefa7fce1f8c8f2f941ae",
+    "qualification": "Текстовый корпус из 137 документов и общий архив из 98 паспортов имеют разный состав. Восемь паспортов экономического проекта сверены с первичными HTML."
+  },
+  "method_summary": {
+    "total": 39,
+    "by_status": {
+      "author_framework_published": 1,
+      "source_structure_extracted": 1,
+      "source_inventory_extracted": 1,
+      "source_relationships_audited": 1,
+      "source_specific_contracts_verified": 1,
+      "computed_from_source_packets": 1,
+      "computed_matching_frequency_category": 1,
+      "documented_annual_comparisons": 1,
+      "model_not_validated": 1,
+      "explicit_scope_mapping": 1,
+      "matched_source_slices": 1,
+      "unweighted_regions": 1,
+      "not_claimed_in_author_analysis": 6,
+      "not_applicable_without_model": 1,
+      "descriptive_profiles": 1,
+      "descriptive_source_values": 1,
+      "plans_reconciled": 1,
+      "computed_disclosed_scope": 1,
+      "descriptive_documentary_audit": 1,
+      "evidence_classes_separated": 1,
+      "fixed_corpus_audited": 1,
+      "dictionary_frames_audited": 1,
+      "source_corpus_and_sensitivity_audited": 1,
+      "not_computed": 3,
+      "source_contexts_published": 1,
+      "author_qualitative_analysis_published": 1,
+      "conditional_arithmetic_no_causal_effect": 1,
+      "design_proposed_effect_not_identified": 1,
+      "effect_not_identified": 1,
+      "author_synthesis_published": 1,
+      "not_implemented_without_population_inputs": 1,
+      "source_backed_calculations": 1
+    }
+  },
+  "sections": [
+    {
+      "id": "framework",
+      "title": "Предмет и критерии оценки",
+      "question": "Какие вопросы ставит экспертиза и по каким критериям оценивается проект?",
+      "order": 1,
+      "publication_status": "published",
+      "evidence": "Ресурс, изменение поведения, экономический результат и дополнительный эффект требуют самостоятельных доказательств."
+    },
+    {
+      "id": "logic",
+      "title": "Архитектура национального проекта",
+      "question": "Как связаны цели, мероприятия, ресурсы и ожидаемые результаты?",
+      "order": 2,
+      "publication_status": "published",
+      "evidence": "Семь федеральных направлений связываются через предприятие, инвестиционный объект и последовательность предоставленной поддержки."
+    },
+    {
+      "id": "audit",
+      "title": "Методики и сопоставимость показателей",
+      "question": "Какие результаты измеряет система мониторинга и чего в ней недостаёт?",
+      "order": 3,
+      "publication_status": "published",
+      "evidence": "Сопоставление требует согласованных определений, цен, состава наблюдаемых единиц, периода и редакции методики."
+    },
+    {
+      "id": "targets",
+      "title": "Годовые результаты и паспортные цели",
+      "question": "Что показывают сопоставимые ряды и насколько обоснованы ориентиры?",
+      "order": 4,
+      "publication_status": "published",
+      "evidence": "Разность наблюдения и цели показывает арифметическое отклонение при совпадении определения и периода. Нулевая цель не используется как знаменатель."
+    },
+    {
+      "id": "map",
+      "title": "Территориальное распределение",
+      "question": "Как различаются ситуации в субъектах России?",
+      "order": 5,
+      "publication_status": "published",
+      "evidence": "Территориальная картина отражает доступные наблюдения выбранного года или месяца и собственную совокупность каждого показателя."
+    },
+    {
+      "id": "regions",
+      "title": "Региональные различия и сравнения",
+      "question": "Какие устойчивые сочетания условий и результатов можно выделить?",
+      "order": 6,
+      "publication_status": "published",
+      "evidence": "Медианы и квартильные границы описывают распределение регионов с данными. Общий рейтинг экономической эффективности из разных показателей не формируется."
+    },
+    {
+      "id": "finance",
+      "title": "Финансовое обеспечение и результативность",
+      "question": "Как расходы соотносятся с задачами, результатами и территориальными потребностями?",
+      "order": 7,
+      "publication_status": "published",
+      "evidence": "Планы всех источников, федеральная роспись и бюджетные предложения рассматриваются раздельно и сохраняют исходные единицы."
+    },
+    {
+      "id": "network",
+      "title": "Связи мероприятий и показателей",
+      "question": "Какие направления связаны между собой и где возникают разрывы?",
+      "order": 8,
+      "publication_status": "published",
+      "evidence": "Адресуемая задача, запись влияния и лексическая близость имеют разную доказательную силу."
+    },
+    {
+      "id": "texts",
+      "title": "Лингвистическая экспертиза",
+      "question": "Как сформулированы задачи и что остаётся за пределами языка документов?",
+      "order": 9,
+      "publication_status": "published",
+      "evidence": "Исходная процедура на 137 документах проверяется по сохранённым профилям и коду. Восемь экономических паспортов составляют отдельную сопоставимую группу."
+    },
+    {
+      "id": "domains",
+      "title": "Механизмы семи федеральных проектов",
+      "question": "Какие содержательные механизмы требуют отдельной проверки?",
+      "order": 10,
+      "publication_status": "published",
+      "evidence": "Поддержка МСП, производительность, инвестиции, климат, финансовый рынок, технологии и конкуренция имеют разные объекты и временные лаги."
+    },
+    {
+      "id": "causal",
+      "title": "Дополнительный эффект поддержки",
+      "question": "Какие данные и сравнения позволят оценить вклад конкретных мер?",
+      "order": 11,
+      "publication_status": "published",
+      "evidence": "Дополнительный эффект требует сравнительной траектории и проверки условий исследовательского дизайна."
+    },
+    {
+      "id": "proposals",
+      "title": "Направления совершенствования",
+      "question": "Какие изменения следуют из проверенных результатов и как оценить их последствия?",
+      "order": 12,
+      "publication_status": "published",
+      "evidence": "Предложения согласуют измерение, учёт получателей, полную стоимость поддержки, качество услуг и территориальные различия."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Авторская экспертиза национального проекта «Эффективная и конкурентная экономика»",
+      "url": "downloads/projects/competitive_economy/report/expertise_competitive_2026.docx",
+      "format": "DOCX",
+      "edition_date": "2026-10-28",
+      "qualification": "Исходный отчёт сохранён полностью. Авторские выводы, статистические срезы и документальные редакции имеют собственные даты и источники."
+    },
+    {
+      "title": "Паспорт национального проекта «Эффективная и конкурентная экономика»",
+      "url": "https://sofp.ru/public/files/87/a0/cf5467a84995_pl235_Pasport_natsionalnogo_proekta__Effektivnaya_i_konkurentnaya_ekonomika_%281%29.pdf",
+      "urls": [
+        "https://sofp.ru/public/files/87/a0/cf5467a84995_pl235_Pasport_natsionalnogo_proekta__Effektivnaya_i_konkurentnaya_ekonomika_%281%29.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "national",
+      "sha256": "4362d51776f50fb2eb22f311369cd79bd785eb63b3405dc39bbe5538a5007934",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:41:22Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/43/4362d51776f50fb2eb22f311369cd79bd785eb63b3405dc39bbe5538a5007934.pdf"
+    },
+    {
+      "title": "[Э] Эффективная и конкурентная экономика",
+      "url": "https://databudget.ru/projects/np/21",
+      "urls": [
+        "https://databudget.ru/projects/np/21"
+      ],
+      "format": "HTML",
+      "document_level": "national",
+      "sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:37:19.454981+00:00",
+      "publisher_version_label": "Версия 26.32",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/2e/2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6.html"
+    },
+    {
+      "title": "Паспорт федерального проекта «Производительность труда»",
+      "url": "https://xn--b1aedfedwqbdfbnzkf0oe.xn--p1ai/documents/view/5642/04.12.2025_FP_Proizvoditelnost_truda.pdf",
+      "urls": [
+        "https://xn--b1aedfedwqbdfbnzkf0oe.xn--p1ai/documents/view/5642/04.12.2025_FP_Proizvoditelnost_truda.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "f2b54af72ae59d1eb6e3a95407e4114d36d3dd5aa90fdc49ce19277c2805a09f",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:41:28Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/f2/f2b54af72ae59d1eb6e3a95407e4114d36d3dd5aa90fdc49ce19277c2805a09f.pdf"
+    },
+    {
+      "title": "Презентация национального проекта «Эффективная и конкурентная экономика»",
+      "url": "https://sofp.ru/public/files/c9/36/72f2e6c4bdd8_pl235_%D0%BD%D0%B0%D1%86_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82_%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F.pdf",
+      "urls": [
+        "https://sofp.ru/public/files/c9/36/72f2e6c4bdd8_pl235_%D0%BD%D0%B0%D1%86_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82_%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F.pdf",
+        "https://storage.strategy24.ru/files/project/202506/f9938d3efc65e7d8861d626bf8990152.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "presentation",
+      "sha256": "49e0c5f5e82179bc84d852d009942fd306c9a9dc34c09e95f4ac2c56ec6cc1d7",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:41:23Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/49/49e0c5f5e82179bc84d852d009942fd306c9a9dc34c09e95f4ac2c56ec6cc1d7.pdf"
+    },
+    {
+      "title": "[Э1] Малое и среднее предпринимательство и поддержка индивидуальной предпринимательской инициативы",
+      "url": "https://databudget.ru/projects/fp/312",
+      "urls": [
+        "https://databudget.ru/projects/fp/312"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:57.305485+00:00",
+      "publisher_version_label": "Версия 26.25",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/cb/cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6.html"
+    },
+    {
+      "title": "[Э2] Производительность труда",
+      "url": "https://databudget.ru/projects/fp/311",
+      "urls": [
+        "https://databudget.ru/projects/fp/311"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:59.019517+00:00",
+      "publisher_version_label": "Версия 26.36",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/ab/abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb.html"
+    },
+    {
+      "title": "[Э3] Повышение инвестиционной активности",
+      "url": "https://databudget.ru/projects/fp/313",
+      "urls": [
+        "https://databudget.ru/projects/fp/313"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:59.004101+00:00",
+      "publisher_version_label": "Версия 26.18",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/03/0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582.html"
+    },
+    {
+      "title": "[Э4] Низкоуглеродное развитие",
+      "url": "https://databudget.ru/projects/fp/298",
+      "urls": [
+        "https://databudget.ru/projects/fp/298"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:58.192199+00:00",
+      "publisher_version_label": "Версия 26.13",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/cb/cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0.html"
+    },
+    {
+      "title": "[Э5] Развитие финансового рынка",
+      "url": "https://databudget.ru/projects/fp/324",
+      "urls": [
+        "https://databudget.ru/projects/fp/324"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:39:00.410527+00:00",
+      "publisher_version_label": "Версия 26.8",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/c2/c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5.html"
+    },
+    {
+      "title": "[Э6] Технологии",
+      "url": "https://databudget.ru/projects/fp/325",
+      "urls": [
+        "https://databudget.ru/projects/fp/325"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "f05392ea159335cab4b5e0b3ee29e14b7a092a843d6e04bf41c6b05bff38d5d4",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:39:00.419689+00:00",
+      "publisher_version_label": "Версия 26.31",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/f0/f05392ea159335cab4b5e0b3ee29e14b7a092a843d6e04bf41c6b05bff38d5d4.html"
+    },
+    {
+      "title": "[Э7] Развитие конкуренции",
+      "url": "https://databudget.ru/projects/fp/326",
+      "urls": [
+        "https://databudget.ru/projects/fp/326"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:59.359941+00:00",
+      "publisher_version_label": "Версия 26.2",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/77/775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe.html"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Аудит 339 показателей",
+      "url": "downloads/projects/shared/indicator_audit.csv",
+      "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+      "bytes": 166183
+    },
+    {
+      "title": "Сводный аудит 11 нацпроектов",
+      "url": "downloads/projects/shared/project_audit.csv",
+      "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+      "bytes": 1810
+    },
+    {
+      "title": "Матрица методов по нацпроектам",
+      "url": "downloads/projects/shared/project_method_matrix.csv",
+      "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+      "bytes": 283115
+    },
+    {
+      "title": "Применимость методов и доступность данных",
+      "url": "downloads/projects/shared/project_method_eligibility.csv",
+      "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+      "bytes": 2507
+    }
+  ],
+  "registry_source_url": "https://www.fedstat.ru/organizations/#group1854485",
+  "interpretation": "Полный авторский отчёт сопровождается расчётами по сохранённым источникам. Дата сборки сайта не означает обновление первичных данных. Период наблюдения и результат последней попытки обновления указаны отдельно.",
+  "legacy_release_metadata": {
+    "source_release": "1.2.0",
+    "qualification": "Метаданные предыдущего исследовательского этапа. Текущие результаты определяются полями верхнего уровня и опубликованными источниками.",
+    "original": {
+      "schema_version": 1,
+      "project_id": "competitive_economy",
+      "project_name": "Национальный проект «Эффективная и конкурентная экономика»",
+      "release_version": "1.2.0",
+      "statistical_as_of": "2026-10-15",
+      "documentary_as_of": "2026-10-19",
+      "release_date": "2026-10-27",
+      "author_expertise_status": "next_requested_stage",
+      "registry": {
+        "project_id": "competitive_economy",
+        "project_name": "Национальный проект «Эффективная и конкурентная экономика»",
+        "n_registry": 49,
+        "n_with_numeric": 30,
+        "n_with_regional": 6,
+        "n_with_national": 30,
+        "n_unique_cells": 9329,
+        "n_numeric": 7502,
+        "n_usable": 7502,
+        "n_domain_violations": 0,
+        "coverage_pct": 61.224489795918366
+      },
+      "panel": {
+        "project_id": "competitive_economy",
+        "panel_id": "competitive_economy_monthly_2026-09-30",
+        "status": "computed",
+        "frequency": "monthly",
+        "period_end": "2026-09-30",
+        "n_regions": 83,
+        "n_features": 4,
+        "n_imputed_cells": 0,
+        "imputed_pct": 0,
+        "k": 2,
+        "silhouette": 0.3867968467423782,
+        "pc12_variance": 0.659349290844528,
+        "cluster_status": "selected_by_silhouette",
+        "n_communities": 4,
+        "complete_case_ari": 1,
+        "n_complete_case": 83,
+        "seed": 42
+      },
+      "research": {
+        "project_id": "competitive_economy",
+        "project_name": "Национальный проект «Эффективная и конкурентная экономика»",
+        "registry_indicators": 49,
+        "indicators_with_numeric": 30,
+        "indicators_with_regional": 6,
+        "observations_numeric": 7502,
+        "documents": 11,
+        "goal_nodes": 8,
+        "task_nodes": 53,
+        "indicator_nodes": 54,
+        "result_nodes": 110,
+        "unresolved_link_claims": 171,
+        "shared_task_result_indicator_links": 337,
+        "results_linked_through_documented_task": 110,
+        "results_with_lexical_candidate": 87,
+        "explicit_result_indicator_links": 0,
+        "family_original_manual_edges": null,
+        "multivariate_status": "computed",
+        "passport_financing_2025_2030_thousand_rub": 3673138444.57,
+        "strict_financing_hhi": null,
+        "financing_status": "insufficient_comparable_headers",
+        "causal_effect_status": "not_identified_in_existing_sources",
+        "author_expertise_text_status": "next_requested_stage"
+      },
+      "results": {
+        "project_id": "competitive_economy",
+        "project_name": "Национальный проект «Эффективная и конкурентная экономика»",
+        "n_registry": 49,
+        "n_numeric_indicators": 30,
+        "n_regional_indicators": 6,
+        "n_forecast_indicators": 22,
+        "n_series": 642,
+        "n_projected_series": 557,
+        "n_diagnostic_forecast_series": 354,
+        "n_reference_scenario_series": 203,
+        "n_series_with_review_flags": 420,
+        "n_documented_target_indicators": 49,
+        "target_status": "source_backed_targets_available"
+      },
+      "corpus": {
+        "project": "competitive_economy",
+        "project_name": "Эффективная и конкурентная экономика",
+        "unique_pdf_files": 3,
+        "pages": 543,
+        "national_passport_files": 1,
+        "federal_passport_files": 1,
+        "presentation_files": 1,
+        "legal_reprints": 0,
+        "note": "Counts of files, not distinct federal project names; shared presentations cover all ten target projects."
+      },
+      "method_summary": {
+        "total": 39,
+        "by_status": {
+          "documentary_structure_completed_substantive_review_deferred": 2,
+          "computed_with_documented_scope": 11,
+          "documentary_and_structural_links_computed_candidates_unapproved": 1,
+          "retained_with_input_and_coverage_checks": 2,
+          "retained_from_1_1_source_unchanged": 7,
+          "retained_and_independently_verified": 7,
+          "robustness_computed_for_eligible_panels": 1,
+          "financial_measurement_bridge_computed_not_cost_effectiveness": 1,
+          "evidence_matrix_completed_expert_scores_deferred": 1,
+          "designs_and_readiness_audit_completed_no_effect_estimated": 3,
+          "deferred_by_user": 1,
+          "specialized_family_extension_not_generalized": 1,
+          "reproducible_analysis_code_available": 1
+        }
+      },
+      "sections": [
+        {
+          "order": 1,
+          "section_id": "framework",
+          "title": "Методологическая рамка экспертизы",
+          "family_report_pages": "7–9",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L2",
+          "publication_status": "planned",
+          "evidence": "Реестр методов и их ограничений подготовлен; содержательные выводы требуют отдельной авторской экспертизы.",
+          "method_ids": [
+            "theory_of_change"
+          ]
+        },
+        {
+          "order": 2,
+          "section_id": "logic",
+          "title": "Нормативно-логическая модель",
+          "family_report_pages": "9–11",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L3",
+          "publication_status": "planned",
+          "evidence": "В исследовательском корпусе: 8 целей, 53 задач, 110 результатов. Документальная связь не является доказательством причинного эффекта.",
+          "method_ids": [
+            "project_hierarchy",
+            "activity_inventory",
+            "activity_indicator_links"
+          ]
+        },
+        {
+          "order": 3,
+          "section_id": "audit",
+          "title": "Аудит данных и показателей",
+          "family_report_pages": "11–19",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L4",
+          "publication_status": "planned",
+          "evidence": "В реестре 49 показателей; числовые данные доступны для 30, региональные для 6.",
+          "method_ids": [
+            "source_quality",
+            "observability",
+            "time_dynamics"
+          ]
+        },
+        {
+          "order": 4,
+          "section_id": "targets",
+          "title": "Целевые траектории и прогноз",
+          "family_report_pages": "19–24",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L5",
+          "publication_status": "planned",
+          "evidence": "Паспортные цели и статистические ряды сопоставляются только при подтверждённом совпадении показателя, единицы измерения, территории и периода.",
+          "method_ids": [
+            "target_comparison",
+            "forecasting"
+          ]
+        },
+        {
+          "order": 5,
+          "section_id": "map",
+          "title": "Территориальная экспертиза",
+          "family_report_pages": "24–43",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L6",
+          "publication_status": "planned",
+          "evidence": "Региональные данные имеются для 6 показателей. Карты требуют отдельной проверки сопоставимости выбранного периода.",
+          "method_ids": [
+            "geographical_join",
+            "regional_maps",
+            "regional_descriptive"
+          ]
+        },
+        {
+          "order": 6,
+          "section_id": "regions",
+          "title": "Типология и пространственные связи",
+          "family_report_pages": "43–52",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L7",
+          "publication_status": "planned",
+          "evidence": "Статус многомерной панели: computed; территорий: 83, признаков: 4. Региональная типология не тождественна оценке эффективности.",
+          "method_ids": [
+            "correlations",
+            "pca",
+            "kmeans",
+            "multivariate_stability",
+            "isolation_forest",
+            "moran_global",
+            "moran_local",
+            "regional_similarity",
+            "relative_profiles"
+          ]
+        },
+        {
+          "order": 7,
+          "section_id": "finance",
+          "title": "Финансовая экспертиза",
+          "family_report_pages": "52–55",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L8",
+          "publication_status": "planned",
+          "evidence": "Финансовые суммы и доли сохраняют единицы исходного паспорта. Оценка распределения средств зависит от сопоставимости заголовков федеральных проектов.",
+          "method_ids": [
+            "budget_registry",
+            "budget_hhi",
+            "budget_observability"
+          ]
+        },
+        {
+          "order": 8,
+          "section_id": "network",
+          "title": "Мероприятия и показатели",
+          "family_report_pages": "55–61",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L9",
+          "publication_status": "planned",
+          "evidence": "В корпусе разделены документальные связи, совместная принадлежность задаче и лексические кандидаты. Автоматическая похожесть не превращается в доказанную связь.",
+          "method_ids": [
+            "activity_network"
+          ]
+        },
+        {
+          "order": 9,
+          "section_id": "texts",
+          "title": "Лингвистическая и смысловая экспертиза",
+          "family_report_pages": "61–65",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L10",
+          "publication_status": "planned",
+          "evidence": "Документальная основа исследовательского модуля: 11 документов. Лексические признаки рассматриваются совместно с контекстом.",
+          "method_ids": [
+            "lexical_frequencies",
+            "dictionary_frames",
+            "tfidf_cosine",
+            "text_clustering",
+            "concept_cooccurrence",
+            "context_search"
+          ]
+        },
+        {
+          "order": 10,
+          "section_id": "domains",
+          "title": "Охват сфер жизнедеятельности",
+          "family_report_pages": "65–68",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L11",
+          "publication_status": "planned",
+          "evidence": "Сферы жизнедеятельности выделяются по корпусу и словарям; полнота охвата требует содержательной проверки экспертом.",
+          "method_ids": [
+            "domain_evidence",
+            "expert_domain_scale"
+          ]
+        },
+        {
+          "order": 11,
+          "section_id": "causal",
+          "title": "Сценарии и причинная оценка",
+          "family_report_pages": "68–71",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L12",
+          "publication_status": "planned",
+          "evidence": "Причинный эффект нацпроекта в имеющемся наборе источников не идентифицирован. Для его оценки нужен самостоятельный исследовательский дизайн.",
+          "method_ids": [
+            "policy_scenario_framework",
+            "causal_designs",
+            "heterogeneous_causal_effects"
+          ]
+        },
+        {
+          "order": 12,
+          "section_id": "proposals",
+          "title": "Предложения по корректировке",
+          "family_report_pages": "71–73",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L13",
+          "publication_status": "planned",
+          "evidence": "Рекомендации формируются после проверки фактов и содержательной экспертизы, с указанием адресата, механизма и ожидаемого результата.",
+          "method_ids": [
+            "recommendations"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Паспорт национального проекта «Эффективная и конкурентная экономика»",
+          "url": "https://sofp.ru/public/files/87/a0/cf5467a84995_pl235_Pasport_natsionalnogo_proekta__Effektivnaya_i_konkurentnaya_ekonomika_%281%29.pdf",
+          "urls": [
+            "https://sofp.ru/public/files/87/a0/cf5467a84995_pl235_Pasport_natsionalnogo_proekta__Effektivnaya_i_konkurentnaya_ekonomika_%281%29.pdf"
+          ],
+          "format": "PDF",
+          "document_level": "national",
+          "sha256": "4362d51776f50fb2eb22f311369cd79bd785eb63b3405dc39bbe5538a5007934",
+          "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+          "retrieved_at": "2026-10-19T11:41:22Z",
+          "publisher_version_label": "",
+          "publisher_updated_label": "",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "public_pdf_copy",
+          "source_file_in_research_package": "corpus/data/pdfs/43/4362d51776f50fb2eb22f311369cd79bd785eb63b3405dc39bbe5538a5007934.pdf"
+        },
+        {
+          "title": "[Э] Эффективная и конкурентная экономика",
+          "url": "https://databudget.ru/projects/np/21",
+          "urls": [
+            "https://databudget.ru/projects/np/21"
+          ],
+          "format": "HTML",
+          "document_level": "national",
+          "sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:37:19.454981+00:00",
+          "publisher_version_label": "Версия 26.32",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/2e/2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6.html"
+        },
+        {
+          "title": "Паспорт федерального проекта «Производительность труда»",
+          "url": "https://xn--b1aedfedwqbdfbnzkf0oe.xn--p1ai/documents/view/5642/04.12.2025_FP_Proizvoditelnost_truda.pdf",
+          "urls": [
+            "https://xn--b1aedfedwqbdfbnzkf0oe.xn--p1ai/documents/view/5642/04.12.2025_FP_Proizvoditelnost_truda.pdf"
+          ],
+          "format": "PDF",
+          "document_level": "federal",
+          "sha256": "f2b54af72ae59d1eb6e3a95407e4114d36d3dd5aa90fdc49ce19277c2805a09f",
+          "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+          "retrieved_at": "2026-10-19T11:41:28Z",
+          "publisher_version_label": "",
+          "publisher_updated_label": "",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "public_pdf_copy",
+          "source_file_in_research_package": "corpus/data/pdfs/f2/f2b54af72ae59d1eb6e3a95407e4114d36d3dd5aa90fdc49ce19277c2805a09f.pdf"
+        },
+        {
+          "title": "Презентация национального проекта «Эффективная и конкурентная экономика»",
+          "url": "https://sofp.ru/public/files/c9/36/72f2e6c4bdd8_pl235_%D0%BD%D0%B0%D1%86_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82_%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F.pdf",
+          "urls": [
+            "https://sofp.ru/public/files/c9/36/72f2e6c4bdd8_pl235_%D0%BD%D0%B0%D1%86_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82_%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F.pdf",
+            "https://storage.strategy24.ru/files/project/202506/f9938d3efc65e7d8861d626bf8990152.pdf"
+          ],
+          "format": "PDF",
+          "document_level": "presentation",
+          "sha256": "49e0c5f5e82179bc84d852d009942fd306c9a9dc34c09e95f4ac2c56ec6cc1d7",
+          "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+          "retrieved_at": "2026-10-19T11:41:23Z",
+          "publisher_version_label": "",
+          "publisher_updated_label": "",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "public_pdf_copy",
+          "source_file_in_research_package": "corpus/data/pdfs/49/49e0c5f5e82179bc84d852d009942fd306c9a9dc34c09e95f4ac2c56ec6cc1d7.pdf"
+        },
+        {
+          "title": "[Э1] Малое и среднее предпринимательство и поддержка индивидуальной предпринимательской инициативы",
+          "url": "https://databudget.ru/projects/fp/312",
+          "urls": [
+            "https://databudget.ru/projects/fp/312"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:57.305485+00:00",
+          "publisher_version_label": "Версия 26.25",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/cb/cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6.html"
+        },
+        {
+          "title": "[Э2] Производительность труда",
+          "url": "https://databudget.ru/projects/fp/311",
+          "urls": [
+            "https://databudget.ru/projects/fp/311"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:59.019517+00:00",
+          "publisher_version_label": "Версия 26.36",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/ab/abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb.html"
+        },
+        {
+          "title": "[Э3] Повышение инвестиционной активности",
+          "url": "https://databudget.ru/projects/fp/313",
+          "urls": [
+            "https://databudget.ru/projects/fp/313"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:59.004101+00:00",
+          "publisher_version_label": "Версия 26.18",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/03/0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582.html"
+        },
+        {
+          "title": "[Э4] Низкоуглеродное развитие",
+          "url": "https://databudget.ru/projects/fp/298",
+          "urls": [
+            "https://databudget.ru/projects/fp/298"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:58.192199+00:00",
+          "publisher_version_label": "Версия 26.13",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/cb/cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0.html"
+        },
+        {
+          "title": "[Э5] Развитие финансового рынка",
+          "url": "https://databudget.ru/projects/fp/324",
+          "urls": [
+            "https://databudget.ru/projects/fp/324"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:39:00.410527+00:00",
+          "publisher_version_label": "Версия 26.8",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/c2/c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5.html"
+        },
+        {
+          "title": "[Э6] Технологии",
+          "url": "https://databudget.ru/projects/fp/325",
+          "urls": [
+            "https://databudget.ru/projects/fp/325"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "f05392ea159335cab4b5e0b3ee29e14b7a092a843d6e04bf41c6b05bff38d5d4",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:39:00.419689+00:00",
+          "publisher_version_label": "Версия 26.31",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/f0/f05392ea159335cab4b5e0b3ee29e14b7a092a843d6e04bf41c6b05bff38d5d4.html"
+        },
+        {
+          "title": "[Э7] Развитие конкуренции",
+          "url": "https://databudget.ru/projects/fp/326",
+          "urls": [
+            "https://databudget.ru/projects/fp/326"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:59.359941+00:00",
+          "publisher_version_label": "Версия 26.2",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/77/775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe.html"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Аудит 339 показателей",
+          "url": "downloads/projects/shared/indicator_audit.csv",
+          "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+          "bytes": 166183
+        },
+        {
+          "title": "Сводный аудит 11 нацпроектов",
+          "url": "downloads/projects/shared/project_audit.csv",
+          "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+          "bytes": 1810
+        },
+        {
+          "title": "Матрица методов по нацпроектам",
+          "url": "downloads/projects/shared/project_method_matrix.csv",
+          "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+          "bytes": 283115
+        },
+        {
+          "title": "Применимость методов и доступность данных",
+          "url": "downloads/projects/shared/project_method_eligibility.csv",
+          "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+          "bytes": 2507
+        }
+      ],
+      "registry_source_url": "https://www.fedstat.ru/organizations/#group1854485",
+      "interpretation": "Актуальный доступный статистический срез на указанную дату. Дата сборки сайта не означает обновление первичных данных. Новые авторские страницы экспертизы добавляются после отдельной проверки."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "project_id": "efficient_transport",
+  "reviewed_at": "2026-10-29",
+  "source_mutations_during_review": false,
+  "reviewed_files": [
+    {
+      "path": "scripts/build_transport.mjs",
+      "sha256": "23be5e43f6f10c06773c5c988e95467549349c82891cb3836fc68c3c188014eb"
+    },
+    {
+      "path": "scripts/validate_transport.mjs",
+      "sha256": "3d1e2cdd4e5fdd155a940186819661c9890bc8f03cd0cf4ef7651a173e658326"
+    },
+    {
+      "path": ".github/workflows/refresh-emiss.yml",
+      "sha256": "c16f970a6214026ff300de78af7643cf3914f645afa00a9f24fd81081f97e7ab"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "blocking",
+      "file": "scripts/validate_transport.mjs",
+      "finding": "text.corpusDocuments is an array but was compared directly with integer137.",
+      "status": "fixed_by_root",
+      "verified_after_fix": true,
+      "resolution": "Validator now checks corpusDocuments.length."
+    }
+  ],
+  "remaining_blocking_findings": [],
+  "syntax": {
+    "yaml_files": 3,
+    "bash_blocks": 36,
+    "embedded_python_blocks": 1,
+    "javascript_modules": 2,
+    "all_passed": true
+  },
+  "workflow_transport_inputs_sufficient": true,
+  "workflow_input_limit": {
+    "configured": 11,
+    "github_dot_com_current_limit": 25,
+    "source_url": "https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onworkflow_dispatchinputs",
+    "source_checked_date": "2026-10-29",
+    "within_limit": true
+  },
+  "future_refresh_validation": {
+    "purpose": "Isolated candidate success and current validator compatibility without source mutations",
+    "source_root_read_only": true,
+    "mock_refresh": {
+      "state": "updated",
+      "attempted_sources": 1,
+      "successful_sources": 1,
+      "updated_sources": 1
+    },
+    "candidate_input_sufficient": true,
+    "validation": {
+      "exit_code": 0,
+      "stdout": "Built 21 efficient_transport research pages: 336 source blocks, 9 figures, 172 source notes.\nValidated Transport: {\"sources\":22,\"cells\":463,\"numeric\":442,\"usable\":442,\"excluded\":0,\"routes\":21,\"source_blocks\":382,\"tables\":16,\"figures\":9,\"footnotes\":171,\"formulas\":7,\"inline_formula_nodes\":13,\"local_links_checked\":195,\"source_bundles_checked\":22}\n",
+      "stderr": ""
+    }
+  },
+  "limitations": [
+    "No GitHub Actions run or live EMISS request was executed.",
+    "The publication validator verifies retained current response bytes by SHA and current row identities; fresh row-to-response numeric consistency is enforced by the refresh adapter and its tests, rather than independently reparsing current responses inside the publication validator.",
+    "All463 initial snapshot cells were independently reparsed from21originalXLS and1officialgridJSON before the integration review."
+  ]
+}

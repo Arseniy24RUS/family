@@ -1,0 +1,17 @@
+{
+  "published_amount": 357.28,
+  "amount_unit": "млн руб.",
+  "published_growth": 249.59,
+  "growth_unit": "%",
+  "assumed_baseline_2023": 91,
+  "baseline_unit": "млн руб.",
+  "baseline_status": "author_report_transcription",
+  "baseline_source": "Авторская экспертиза, раздел 3.5, абзац о согласовании денежного прокси и прироста к 2023 году.",
+  "mechanical_implied_growth": 292.61538461538464,
+  "difference_from_published_growth": 43.02538461538462,
+  "reference_observation_ids": [
+    "63132:be9e9887ce9ef2cb9aa5",
+    "62987:26653e5f295fbf5a4f11"
+  ],
+  "interpretation": "Условная арифметическая проверка доступных агрегатов. Несовпадение не доказывает ошибку ведомства: состав учреждений, база, компоненты и редакции не согласованы. Показатели не исправляются и не подменяются друг другом."
+}

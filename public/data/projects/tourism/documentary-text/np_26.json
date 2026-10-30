@@ -1,0 +1,803 @@
+{
+  "document": {
+    "project_id": "tourism",
+    "kind": "np",
+    "id": "np_26",
+    "url": "https://databudget.ru/projects/np/26",
+    "sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+    "retrieved_at": "2026-10-19T14:37:17.966663+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/7b/7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57.html",
+    "document_id": "np_26",
+    "code": "П",
+    "title": "[П] Туризм и гостеприимство",
+    "publisher_version": "26.23",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "national",
+    "profile_token_count": 146,
+    "n_tokens": 146,
+    "source_url": "https://databudget.ru/projects/np/26",
+    "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+    "profile_text_sha256": "ff54de273859b4aeb654f679be9ed3defbc947f75687d7e25b8f9fcc58e350cd",
+    "archive_entry": "tourism/np_26.html",
+    "bytes": 163118,
+    "download_path": "downloads/projects/tourism/documentary/sources/np_26.html",
+    "profile_original_document_id": "html:7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "np_26:profile1",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "обеспечена туристическая привлекательность для иностранных граждан и граждан российской федерации",
+      "node_id": "np_26:passport-task-04:83875dcde77ed500",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_26:profile2",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "за счет создания и развития современной и качественной туристской инфраструктуры в регионах увеличено число новых поездок по россии",
+      "node_id": "np_26:passport-task-02:4dbf9c23492a0959",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 15,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_26:profile3",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "создание федеральных круглогодичных курортов обеспечило увеличение числа новых поездок по россии",
+      "node_id": "np_26:passport-task-03:afc03bf5727c94d0",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 11,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_26:profile4",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "сформирована система стимулирования использования отечественного оборудования для туристической отрасли",
+      "node_id": "np_26:passport-task-08:8a7da69d07977c72",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_26:profile5",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "увеличено количество доступных номеров для размещения граждан в целях их обеспечения комфортными условиями для отдыха",
+      "node_id": "np_26:passport-task-01:8043bb03f192ed43",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 14,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_26:profile6",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "созданы условия для подготовки и переподготовки специалистов всех уровней для туристической отрасли",
+      "node_id": "np_26:passport-task-05:f5fb9ff5d71e0d25",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 11,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_26:profile7",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "обеспечена цифровизация туристической деятельности",
+      "node_id": "np_26:task:9715bd2e6cbb0b50",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[1]/div/div/div/details[1]",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 4,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_26:profile8",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "создание федеральных круглогодичных курортов обеспечит увеличение числа новых поездок по россии",
+      "node_id": "np_26:task:f1a174740c895587",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[4]/div/div/div/details",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 11,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_26:profile9",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "goal",
+      "text": "создание к 2030 году условий для развития внутреннего, въездного туризма на территории российской федерации для увеличения количества туристических поездок по территории российской федерации до 140 млн, что позволит обеспечить рост доли туристкой отрасли в валовом внутреннем продукте до 5 процентов к 2030 году и экспорта туристских услуг в три раза по сравнению с уровнем 2023 года",
+      "node_id": "np_26:goal:e141bedfe352c256",
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 45,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_26:profile10",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "количество туристических поездок по территории российской федерации",
+      "node_id": "np_26:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_26:profile11",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "доля туристской отрасли в валовом внутреннем продукте",
+      "node_id": "np_26:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 6,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_26:profile12",
+      "document_id": "np_26",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "объем экспорта туристских услуг",
+      "node_id": "np_26:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "n_tokens": 4,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "np_26:kwic1",
+      "document_id": "np_26",
+      "frame": "access_rights",
+      "matched": "доступных",
+      "context": "стема стимулирования использования отечественного оборудования для туристической отрасли увеличено количество доступных номеров для размещения граждан в целях их обеспечения комфортными условиями для отдыха созданы условия для по",
+      "unit_id": "np_26:profile5",
+      "unit_ids": [
+        "np_26:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[5]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic2",
+      "document_id": "np_26",
+      "frame": "digital_data",
+      "matched": "цифровизация",
+      "context": "озданы условия для подготовки и переподготовки специалистов всех уровней для туристической отрасли обеспечена цифровизация туристической деятельности создание федеральных круглогодичных курортов обеспечит увеличение числа новых поез",
+      "unit_id": "np_26:profile7",
+      "unit_ids": [
+        "np_26:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[1]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[1]/div/div/div/details[1]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic3",
+      "document_id": "np_26",
+      "frame": "export_trade",
+      "matched": "экспорта",
+      "context": "то позволит обеспечить рост доли туристкой отрасли в валовом внутреннем продукте до 5 процентов к 2030 году и экспорта туристских услуг в три раза по сравнению с уровнем 2023 года количество туристических поездок по территории р",
+      "unit_id": "np_26:profile9",
+      "unit_ids": [
+        "np_26:profile9"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic4",
+      "document_id": "np_26",
+      "frame": "export_trade",
+      "matched": "экспорта",
+      "context": "ческих поездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте объем экспорта туристских услуг",
+      "unit_id": "np_26:profile12",
+      "unit_ids": [
+        "np_26:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic5",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристическая",
+      "context": "обеспечена туристическая привлекательность для иностранных граждан и граждан российской федерации за счет создания и развития современ",
+      "unit_id": "np_26:profile1",
+      "unit_ids": [
+        "np_26:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic6",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "для иностранных граждан и граждан российской федерации за счет создания и развития современной и качественной туристской инфраструктуры в регионах увеличено число новых поездок по россии создание федеральных круглогодичных курорто",
+      "unit_id": "np_26:profile2",
+      "unit_ids": [
+        "np_26:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic7",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "сла новых поездок по россии сформирована система стимулирования использования отечественного оборудования для туристической отрасли увеличено количество доступных номеров для размещения граждан в целях их обеспечения комфортными усло",
+      "unit_id": "np_26:profile4",
+      "unit_ids": [
+        "np_26:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic8",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "омфортными условиями для отдыха созданы условия для подготовки и переподготовки специалистов всех уровней для туристической отрасли обеспечена цифровизация туристической деятельности создание федеральных круглогодичных курортов обесп",
+      "unit_id": "np_26:profile6",
+      "unit_ids": [
+        "np_26:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic9",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "я для подготовки и переподготовки специалистов всех уровней для туристической отрасли обеспечена цифровизация туристической деятельности создание федеральных круглогодичных курортов обеспечит увеличение числа новых поездок по россии ",
+      "unit_id": "np_26:profile7",
+      "unit_ids": [
+        "np_26:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[1]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[1]/div/div/div/details[1]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic10",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "чит увеличение числа новых поездок по россии создание к 2030 году условий для развития внутреннего, въездного туризма на территории российской федерации для увеличения количества туристических поездок по территории российской ф",
+      "unit_id": "np_26:profile9",
+      "unit_ids": [
+        "np_26:profile9"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic11",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "овий для развития внутреннего, въездного туризма на территории российской федерации для увеличения количества туристических поездок по территории российской федерации до 140 млн, что позволит обеспечить рост доли туристкой отрасли в ",
+      "unit_id": "np_26:profile9",
+      "unit_ids": [
+        "np_26:profile9"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic12",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристкой",
+      "context": "чества туристических поездок по территории российской федерации до 140 млн, что позволит обеспечить рост доли туристкой отрасли в валовом внутреннем продукте до 5 процентов к 2030 году и экспорта туристских услуг в три раза по ср",
+      "unit_id": "np_26:profile9",
+      "unit_ids": [
+        "np_26:profile9"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic13",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ит обеспечить рост доли туристкой отрасли в валовом внутреннем продукте до 5 процентов к 2030 году и экспорта туристских услуг в три раза по сравнению с уровнем 2023 года количество туристических поездок по территории российской ф",
+      "unit_id": "np_26:profile9",
+      "unit_ids": [
+        "np_26:profile9"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic14",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "до 5 процентов к 2030 году и экспорта туристских услуг в три раза по сравнению с уровнем 2023 года количество туристических поездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте объем экспор",
+      "unit_id": "np_26:profile10",
+      "unit_ids": [
+        "np_26:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic15",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "аза по сравнению с уровнем 2023 года количество туристических поездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте объем экспорта туристских услуг",
+      "unit_id": "np_26:profile11",
+      "unit_ids": [
+        "np_26:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic16",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте объем экспорта туристских услуг",
+      "unit_id": "np_26:profile12",
+      "unit_ids": [
+        "np_26:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "np_26:kwic1",
+      "document_id": "np_26",
+      "frame": "access_rights",
+      "matched": "доступных",
+      "context": "стема стимулирования использования отечественного оборудования для туристической отрасли увеличено количество доступных номеров для размещения граждан в целях их обеспечения комфортными условиями для отдыха созданы условия для по",
+      "unit_id": "np_26:profile5",
+      "unit_ids": [
+        "np_26:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[5]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic2",
+      "document_id": "np_26",
+      "frame": "digital_data",
+      "matched": "цифровизация",
+      "context": "озданы условия для подготовки и переподготовки специалистов всех уровней для туристической отрасли обеспечена цифровизация туристической деятельности создание федеральных круглогодичных курортов обеспечит увеличение числа новых поез",
+      "unit_id": "np_26:profile7",
+      "unit_ids": [
+        "np_26:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[1]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[1]/div/div/div/details[1]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic3",
+      "document_id": "np_26",
+      "frame": "export_trade",
+      "matched": "экспорта",
+      "context": "то позволит обеспечить рост доли туристкой отрасли в валовом внутреннем продукте до 5 процентов к 2030 году и экспорта туристских услуг в три раза по сравнению с уровнем 2023 года количество туристических поездок по территории р",
+      "unit_id": "np_26:profile9",
+      "unit_ids": [
+        "np_26:profile9"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic4",
+      "document_id": "np_26",
+      "frame": "export_trade",
+      "matched": "экспорта",
+      "context": "ческих поездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте объем экспорта туристских услуг",
+      "unit_id": "np_26:profile12",
+      "unit_ids": [
+        "np_26:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic5",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристическая",
+      "context": "обеспечена туристическая привлекательность для иностранных граждан и граждан российской федерации за счет создания и развития современ",
+      "unit_id": "np_26:profile1",
+      "unit_ids": [
+        "np_26:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic6",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "для иностранных граждан и граждан российской федерации за счет создания и развития современной и качественной туристской инфраструктуры в регионах увеличено число новых поездок по россии создание федеральных круглогодичных курорто",
+      "unit_id": "np_26:profile2",
+      "unit_ids": [
+        "np_26:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic7",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "сла новых поездок по россии сформирована система стимулирования использования отечественного оборудования для туристической отрасли увеличено количество доступных номеров для размещения граждан в целях их обеспечения комфортными усло",
+      "unit_id": "np_26:profile4",
+      "unit_ids": [
+        "np_26:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic8",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "омфортными условиями для отдыха созданы условия для подготовки и переподготовки специалистов всех уровней для туристической отрасли обеспечена цифровизация туристической деятельности создание федеральных круглогодичных курортов обесп",
+      "unit_id": "np_26:profile6",
+      "unit_ids": [
+        "np_26:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic9",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "я для подготовки и переподготовки специалистов всех уровней для туристической отрасли обеспечена цифровизация туристической деятельности создание федеральных круглогодичных курортов обеспечит увеличение числа новых поездок по россии ",
+      "unit_id": "np_26:profile7",
+      "unit_ids": [
+        "np_26:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[1]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[1]/div/div/div/details[1]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic10",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "чит увеличение числа новых поездок по россии создание к 2030 году условий для развития внутреннего, въездного туризма на территории российской федерации для увеличения количества туристических поездок по территории российской ф",
+      "unit_id": "np_26:profile9",
+      "unit_ids": [
+        "np_26:profile9"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic11",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "овий для развития внутреннего, въездного туризма на территории российской федерации для увеличения количества туристических поездок по территории российской федерации до 140 млн, что позволит обеспечить рост доли туристкой отрасли в ",
+      "unit_id": "np_26:profile9",
+      "unit_ids": [
+        "np_26:profile9"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic12",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристкой",
+      "context": "чества туристических поездок по территории российской федерации до 140 млн, что позволит обеспечить рост доли туристкой отрасли в валовом внутреннем продукте до 5 процентов к 2030 году и экспорта туристских услуг в три раза по ср",
+      "unit_id": "np_26:profile9",
+      "unit_ids": [
+        "np_26:profile9"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic13",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ит обеспечить рост доли туристкой отрасли в валовом внутреннем продукте до 5 процентов к 2030 году и экспорта туристских услуг в три раза по сравнению с уровнем 2023 года количество туристических поездок по территории российской ф",
+      "unit_id": "np_26:profile9",
+      "unit_ids": [
+        "np_26:profile9"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic14",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "до 5 процентов к 2030 году и экспорта туристских услуг в три раза по сравнению с уровнем 2023 года количество туристических поездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте объем экспор",
+      "unit_id": "np_26:profile10",
+      "unit_ids": [
+        "np_26:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic15",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "аза по сравнению с уровнем 2023 года количество туристических поездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте объем экспорта туристских услуг",
+      "unit_id": "np_26:profile11",
+      "unit_ids": [
+        "np_26:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_26:kwic16",
+      "document_id": "np_26",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте объем экспорта туристских услуг",
+      "unit_id": "np_26:profile12",
+      "unit_ids": [
+        "np_26:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/np/26",
+  "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57"
+}

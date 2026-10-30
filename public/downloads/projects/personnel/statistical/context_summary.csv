@@ -1,0 +1,2 @@
+﻿n,minimum,min,maximum,max,q1,median,q3,unweighted_mean,national_value,below_national,equal_national,above_national,weighting,quartile_method
+85,1.0,1.0,26.4,26.4,1.9,2.4,2.9,3.1588235294117646,2.5,45,3,37,unweighted_territories,Hyndman_Fan_type_7

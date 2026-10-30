@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "project_id": "international_export",
+  "source_id": "62728",
+  "title": "Удовлетворенность качеством оказания услуг, в том числе государственных, предоставляемых с использованием информационной системы «Одно окно»",
+  "unit": "условная единица",
+  "source_url": "https://www.fedstat.ru/indicator/62728",
+  "published_at": "2026-10-15T19:35:33+00:00",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": "15de5b6f2748da8bd7c5699750dcbee36629db1d6008be2cb46e32bf3c8d602e",
+  "origin_kind": "live_emiss",
+  "semantic_note": "Условная единица оценки удовлетворённости, не процент. Исходный ряд содержит только январь и февраль 2025 года. Без охвата и состава ответивших различие оценок не является достоверным изменением качества всех услуг.",
+  "observations": [
+    {
+      "id": "8b27148f0d6fbb253bee0a80e16792504ed43f967cad89449c2ab528b1ead828",
+      "source_id": "62728",
+      "source_observation_key": "d782a346847b067107e9349b7d1d458865b33fa9672d2056b587e4a193b09bd9",
+      "indicator_code": "2.14.М3.3",
+      "catalog_indicator_code": "2.14.М3.3",
+      "name": "Российская Федерация",
+      "code": null,
+      "map_id": null,
+      "geo_level": "national",
+      "fd": null,
+      "territory_code_source": "",
+      "period": "2025-01",
+      "year": 2025,
+      "period_start": "2025-01-01",
+      "period_end": "2025-01-31",
+      "frequency": "monthly",
+      "source_frequency": "monthly",
+      "source_period_start": "2025-01-01",
+      "source_period_end": "2025-01-31",
+      "source_period_label": "январь",
+      "period_semantics": "survey_score",
+      "value": 9.1,
+      "raw": "9,1",
+      "unit": "условная единица",
+      "category": {},
+      "quality_flags": [
+        {
+          "code": "survey_score",
+          "exclude_from_analysis": false,
+          "message": "Условная единица оценки удовлетворённости, не процент. Исходный ряд содержит только январь и февраль 2025 года. Без охвата и состава ответивших различие оценок не является достоверным изменением качества всех услуг."
+        }
+      ],
+      "excluded": false,
+      "analytical_value": 9.1,
+      "status": "ok",
+      "annual_comparison_eligible": false,
+      "annual_equivalent_eligible": false,
+      "geographic_comparison_eligible": false,
+      "methodology_version": "not_determined_for_individual_historical_cell",
+      "acquired_at": "2026-10-15T19:35:33+00:00",
+      "snapshot_id": "15de5b6f2748da8bd7c5699750dcbee36629db1d6008be2cb46e32bf3c8d602e",
+      "origin_kind": "live_emiss",
+      "source_url": "https://www.fedstat.ru/indicator/62728",
+      "source_cell_attributes": {
+        "EI": "условная единица",
+        "PERIOD": "январь"
+      }
+    },
+    {
+      "id": "69766720e13365438713ec656e18cff8682534449fc48c20c5e11cbb600ccc5a",
+      "source_id": "62728",
+      "source_observation_key": "d31c6d83b6faec9ecf41fa15365019c85f8fac3fc36f9b7eeb4aec8967be9fa2",
+      "indicator_code": "2.14.М3.3",
+      "catalog_indicator_code": "2.14.М3.3",
+      "name": "Российская Федерация",
+      "code": null,
+      "map_id": null,
+      "geo_level": "national",
+      "fd": null,
+      "territory_code_source": "",
+      "period": "2025-02",
+      "year": 2025,
+      "period_start": "2025-02-01",
+      "period_end": "2025-02-28",
+      "frequency": "monthly",
+      "source_frequency": "monthly",
+      "source_period_start": "2025-02-01",
+      "source_period_end": "2025-02-28",
+      "source_period_label": "февраль",
+      "period_semantics": "survey_score",
+      "value": 8.75,
+      "raw": "8,75",
+      "unit": "условная единица",
+      "category": {},
+      "quality_flags": [
+        {
+          "code": "survey_score",
+          "exclude_from_analysis": false,
+          "message": "Условная единица оценки удовлетворённости, не процент. Исходный ряд содержит только январь и февраль 2025 года. Без охвата и состава ответивших различие оценок не является достоверным изменением качества всех услуг."
+        }
+      ],
+      "excluded": false,
+      "analytical_value": 8.75,
+      "status": "ok",
+      "annual_comparison_eligible": false,
+      "annual_equivalent_eligible": false,
+      "geographic_comparison_eligible": false,
+      "methodology_version": "not_determined_for_individual_historical_cell",
+      "acquired_at": "2026-10-15T19:35:33+00:00",
+      "snapshot_id": "15de5b6f2748da8bd7c5699750dcbee36629db1d6008be2cb46e32bf3c8d602e",
+      "origin_kind": "live_emiss",
+      "source_url": "https://www.fedstat.ru/indicator/62728",
+      "source_cell_attributes": {
+        "EI": "условная единица",
+        "PERIOD": "февраль"
+      }
+    }
+  ]
+}

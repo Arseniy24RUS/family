@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source_id": "63005",
+  "source_url": "https://www.fedstat.ru/indicator/63005",
+  "research_release": "NationalProjects_Analytics_1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": "236a806eb090f933508ac01977af44dae296929cb75585c83587ad25067e9076",
+  "acquired_at": "2026-10-15T19:32:10+00:00",
+  "origin_kind": "live_emiss",
+  "unit": "литр чистого (100 %) спирта",
+  "observations": 1890,
+  "numeric": 1854,
+  "published_sha256": "a7fc7d6756ef0e217c2f83a4ed155ca877cd07b666a1e3a7c0b4660b1e0df661",
+  "input_sha256": "aeee96ab6c50353fe0ef3fa103ad5a23a14eb13601015063981b4bc991fa422c",
+  "input_bundle": "downloads/projects/long_active_life/statistical/emiss_inputs/63005.zip",
+  "published_file": "data/projects/long_active_life/series/63005.json",
+  "period_policy": "Separate annual facts and operational monitoring; no unverified December equivalence. Alcohol uses overlapping twelve-month windows; original source periods are preserved.",
+  "export_format": "excel",
+  "missing_policy": "No imputation, no substitution by a report image or by another indicator."
+}

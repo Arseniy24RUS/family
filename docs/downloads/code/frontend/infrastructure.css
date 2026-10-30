@@ -1,0 +1,135 @@
+/* Life infrastructure project uses the shared project theme; no independent colour palette. */
+.infrastructure-page { min-width: 0; }
+.infrastructure-page .page-heading { align-items: flex-start; }
+.infrastructure-page .page-heading h1 { max-width: 100%; overflow-wrap: anywhere; }
+.infrastructure-findings { border-left: 4px solid var(--blue); padding: 2px 0 2px 20px; margin: 0 0 28px; max-width: 1040px; }
+.infrastructure-findings p { font-size: 17px; line-height: 1.75; margin: 7px 0; }
+.infrastructure-dates { display: flex; flex-wrap: wrap; gap: 12px 32px; color: var(--muted); font-size: 13px; margin: 0 0 22px; }
+.infrastructure-dates strong { color: var(--ink); }
+.infrastructure-card-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; margin: 24px 0; }
+.infrastructure-card-grid .project-card { margin: 0; }
+.infrastructure-step-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(175px,1fr)); gap: 18px; }
+.infrastructure-step-grid article { border-top: 2px solid var(--border); padding-top: 16px; min-width: 0; }
+.infrastructure-step-grid h3 { margin: 6px 0 10px; font-size: 17px; line-height: 1.4; }
+.infrastructure-step-grid p { color: var(--muted); font-size: 14px; line-height: 1.7; }
+.infrastructure-step { color: var(--blue); font-family: Roboto,'Segoe UI',sans-serif; font-size: 28px; line-height: 1; }
+.infrastructure-page .source-foot { flex-wrap: wrap; align-items: flex-start; gap: 10px 20px; }
+.infrastructure-page .source-foot > span { flex: 1 1 280px; overflow-wrap: anywhere; }
+.infrastructure-page .source-foot a { flex-shrink: 0; }
+.infrastructure-references { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 12px; line-height: 1.6; margin-top: 9px; color: var(--muted); }
+.infrastructure-references a { overflow-wrap: anywhere; max-width: 100%; }
+.infrastructure-report { border: 1px solid var(--border); border-radius: 12px; margin: 28px 0; background: #fff; }
+.infrastructure-report > summary { display: flex; align-items: center; gap: 12px; padding: 20px; cursor: pointer; font-weight: 600; line-height: 1.5; }
+.infrastructure-report > summary > span { margin-left: auto; white-space: nowrap; }
+.infrastructure-report > summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.infrastructure-report[open] > summary { border-bottom: 1px solid var(--border); }
+.infrastructure-report-body { padding: 24px; }
+.infrastructure-report-body > div { margin: 18px 0; }
+.infrastructure-report-block { line-height: 1.85; }
+.infrastructure-report-body h2 { font-size: 23px; margin-top: 34px; }
+.infrastructure-report-body h3 { font-size: 19px; margin-top: 26px; }
+.infrastructure-report-body .formula { overflow-x: auto; white-space: normal; overflow-wrap: anywhere; }
+.infrastructure-figure-reference { padding: 16px 18px; border-left: 3px solid var(--blue); background: var(--blue-light, #f0faf4); border-radius: 0 8px 8px 0; }
+.infrastructure-figure-reference strong { display: block; }
+.infrastructure-figure-reference p { margin: 8px 0; }
+.infrastructure-search { display: flex; gap: 8px; align-items: center; flex: 1 1 320px; }
+.infrastructure-search input { min-width: 100px; width: 100%; }
+.infrastructure-page .toolbar .field { min-width: 190px; flex: 1 1 230px; }
+.infrastructure-page .toolbar select { width: 100%; max-width: 100%; }
+.infrastructure-page .field input { padding: 10px 12px; border: 1px solid var(--border); border-radius: 7px; font: inherit; width: 100%; background: #fff; }
+.infrastructure-page .field input:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.infrastructure-page .atlas-layout { grid-template-columns: minmax(0,1fr) 240px; }
+.infrastructure-page .atlas-aside .field { max-width: 100%; }
+.infrastructure-page .atlas-aside select { max-width: 100%; width: 100%; }
+.infrastructure-page .region-reading h3 { margin-bottom: 14px; }
+.infrastructure-page .figure { min-width: 0; }
+.infrastructure-page .map-surface { min-width: 0; }
+.infrastructure-reading { margin: 20px 0; }
+.infrastructure-reading h3 { margin-bottom: 8px; }
+.infrastructure-mechanism > p { line-height: 1.85; }
+.infrastructure-proposal-reading { max-width: 1040px; }
+.infrastructure-proposal-reading h2,.infrastructure-proposal-reading h3 { margin-top: 34px; }
+.infrastructure-proposal-reading p { line-height: 1.85; }
+.infrastructure-download-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+.infrastructure-download { display: flex; gap: 13px; align-items: flex-start; padding: 15px; border: 1px solid var(--border); border-radius: 9px; text-decoration: none; color: var(--ink); }
+.infrastructure-download:hover,.infrastructure-download:focus-visible { border-color: var(--blue); background: var(--blue-light, #f0faf4); }
+.infrastructure-download > svg { color: var(--blue); flex-shrink: 0; margin-top: 2px; }
+.infrastructure-download strong { display: block; font-size: 14px; line-height: 1.5; }
+.infrastructure-download small { color: var(--muted); display: block; margin-top: 4px; }
+.infrastructure-inline-links { display: flex; gap: 9px 18px; flex-wrap: wrap; }
+.infrastructure-inline-links a { white-space: normal; }
+.infrastructure-page .data-table td { vertical-align: top; }
+.infrastructure-page .data-table td:first-child { max-width: 370px; }
+.infrastructure-page .data-table .text-link { white-space: normal; }
+.infrastructure-page .stats { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.infrastructure-page .stat { min-width: 0; }
+.infrastructure-page .stat strong { overflow-wrap: anywhere; font-size: clamp(23px,2.7vw,36px); }
+.infrastructure-network-card { border-left: 4px solid var(--blue); padding-left: 18px; margin: 20px 0; }
+.infrastructure-network-card p { line-height: 1.75; }
+.infrastructure-context { font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.infrastructure-page mark { background: #d8f1e3; color: #155732; padding: 1px 2px; }
+.infrastructure-page .infrastructure-wide-chart { overflow-x: auto; padding-bottom: 8px; }
+.infrastructure-page .infrastructure-wide-chart > .chart-svg { min-width: 660px; }
+.infrastructure-page .infrastructure-wide-chart:focus-visible { outline: 2px solid var(--blue); }
+@media (max-width:1100px) {
+ .infrastructure-page .stats { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .infrastructure-page .atlas-layout { grid-template-columns: minmax(0,1fr); }
+ .infrastructure-page .atlas-aside { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+ .infrastructure-page .atlas-aside .region-reading { margin: 0; }
+}
+@media (max-width:600px) {
+ .infrastructure-findings { padding-left: 14px; margin-bottom: 22px; }
+ .infrastructure-findings p { font-size: 15px; line-height: 1.75; }
+ .infrastructure-page .page-heading h1 { font-size: 29px; }
+ .infrastructure-card-grid,.infrastructure-download-grid { grid-template-columns: 1fr; gap: 12px; }
+ .infrastructure-step-grid { grid-template-columns: 1fr; gap: 12px; }
+ .infrastructure-step-grid article { padding-top: 12px; }
+ .infrastructure-step-grid p { margin-bottom: 4px; }
+ .infrastructure-report > summary { padding: 16px 12px; align-items: flex-start; }
+ .infrastructure-report > summary > span { display: none; }
+ .infrastructure-report-body { padding: 14px; }
+ .infrastructure-report-body h2 { font-size: 21px; }
+ .infrastructure-report-block { font-size: 14px; line-height: 1.85; }
+ .infrastructure-search { flex-wrap: wrap; }
+ .infrastructure-search input { flex: 1 1 100%; }
+ .infrastructure-page .toolbar .field { min-width: 0; flex: 1 1 100%; }
+ .infrastructure-page .atlas-aside { display: block; }
+ .infrastructure-page .stat { padding: 14px 12px; }
+ .infrastructure-page .stat strong { font-size: 26px; }
+ .infrastructure-page .stat small { font-size: 11px; }
+ .infrastructure-dates { flex-direction: column; gap: 8px; font-size: 12px; }
+ .infrastructure-page .map-hint { position: static; padding: 8px 4px; font-size: 11px; }
+ .infrastructure-page .source-foot a { flex-shrink: 1; }
+ .infrastructure-page .legend { font-size: 11px; }
+}
+@media (prefers-reduced-motion:reduce) { .infrastructure-page * { scroll-behavior: auto; } }
+
+/* Table headers stay neutral; the project colour is reserved for evidence and controls. */
+.infrastructure-page .data-table th { background: #fff; }
+
+.infrastructure-load-error { overflow-wrap: anywhere; }
+.infrastructure-page .three-col { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; }
+@media(max-width:760px) { .infrastructure-page .three-col { grid-template-columns: 1fr; gap: 12px; } }
+
+.infrastructure-page .infrastructure-controls input[type="number"]{width:100%;min-width:100px;}
+.infrastructure-page .infrastructure-controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin:18px 0;}
+.infrastructure-page .infrastructure-stage-card{padding:18px;border:1px solid var(--border);border-top:3px solid var(--blue);border-radius:10px;background:var(--project-tint);min-width:0;}
+.infrastructure-page .infrastructure-status{display:inline-block;padding:4px 8px;border-radius:4px;background:var(--project-soft);font-size:12px;line-height:1.4;}
+.infrastructure-page .infrastructure-note{font-size:14px;line-height:1.7;color:var(--muted);}
+.infrastructure-page .infrastructure-chart-detail{font-size:13px;color:var(--muted);margin:10px 0;}
+.infrastructure-page .infrastructure-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;}
+.infrastructure-page .infrastructure-reproduction{overflow-wrap:anywhere;}
+.infrastructure-page .infrastructure-stage-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;}
+@media(max-width:760px){.infrastructure-page .infrastructure-split{grid-template-columns:1fr;}.infrastructure-page .infrastructure-controls{grid-template-columns:1fr;}}
+.infrastructure-report-figure {margin:20px 0;}
+.infrastructure-report-figure img {display:block;max-width:100%;width:auto;height:auto;max-height:680px;object-fit:contain;}
+.infrastructure-report-figure figcaption {font-size:14px;line-height:1.6;margin-top:8px;}
+.infrastructure-page .infrastructure-report-body .infrastructure-report-block {overflow-wrap:anywhere;}
+.infrastructure-page .data-table td {max-width:560px;overflow-wrap:anywhere;}
+.infrastructure-page .data-table td a.text-link {white-space:nowrap;}
+.infrastructure-page textarea {display:block;width:100%;min-width:0;padding:12px;border:1px solid var(--border);border-radius:7px;font:inherit;line-height:1.6;resize:vertical;background:#fff;}
+.infrastructure-page textarea:focus-visible {outline:2px solid var(--blue);outline-offset:2px;}
+.infrastructure-wide-field {grid-column:1/-1;}
+.infrastructure-page .data-table td .infrastructure-cell-sources a {white-space:nowrap;}
+.infrastructure-page .infrastructure-wide-chart {max-width:100%;}
+.infrastructure-page .stats .stat {overflow:hidden;}

@@ -1,0 +1,4 @@
+﻿threshold,pairs,results_with_candidate,results_without_candidate,top_k,origin
+0.1,36,17,13,3,replayed_author_table_13
+0.15,23,15,15,3,replayed_author_table_13
+0.2,20,13,17,3,replayed_author_table_13

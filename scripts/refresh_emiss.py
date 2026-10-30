@@ -82,7 +82,11 @@ def run(root=ROOT,only=None,client=None):
     atomic(latest/'unobserved_discovery.json',{'checked_at':now,'indicators':discoveries})
     n_attempted=1 if only else len(config['sources'])
     status='failed' if not success else 'partial' if success<n_attempted else 'success' if updated else 'unchanged'
-    manifest={'schema':'semya.update/1','state':status,'checked_at':now,'last_success':now if success else old.get('last_success'),'snapshot':'2026-05-14','message':f'Проверено источников: {success} из {n_attempted}. Обновлённые файлы: {updated}. Неуспешные запросы не заменяют сохранённые данные.','sources':results}
+    # Date of the latest successfully published input, not the original report
+    # date and not an unsuccessful attempt. Per-source dates stay in sources.
+    source_dates=[s['fetched_at'][:10] for s in results if s.get('published_file') and s.get('fetched_at')]
+    snapshot=max(source_dates) if source_dates else old.get('snapshot')
+    manifest={'schema':'semya.update/1','state':status,'checked_at':now,'last_success':now if success else old.get('last_success'),'snapshot':snapshot,'message':f'Проверено источников: {success} из {n_attempted}. Обновлённые файлы: {updated}. Неуспешные запросы не заменяют сохранённые данные.','sources':results}
     atomic(latest/'manifest.json',manifest)
     logs=root/'monitoring';logs.mkdir(exist_ok=True)
     atomic(logs/'last_refresh.json',manifest)

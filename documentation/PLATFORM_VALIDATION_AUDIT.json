@@ -1,0 +1,500 @@
+{
+  "schema": "national-projects.platform-validation/1",
+  "version": "2.12.0-platform.1",
+  "date": "2026-10-30",
+  "tests": {
+    "npm_test": {
+      "files": 30,
+      "passed": 30,
+      "failed": 0
+    },
+    "python_unittest_discover": {
+      "tests": 556,
+      "failed": 0,
+      "errors": 0,
+      "result": "OK"
+    },
+    "download_manifest_regression": {
+      "tests": 1,
+      "result": "OK"
+    },
+    "npm_build": "PASS",
+    "npm_validate": "PASS"
+  },
+  "dom": {
+    "source_routes": 251,
+    "compact_routes": 251,
+    "missing_resources": 0,
+    "unhandled_errors": 0,
+    "scope": "DOM integration, not visual layout",
+    "additional_checks": [
+      "direct non-Family entry without Family bootstrap",
+      "request/cache and sidebar reuse",
+      "stale asynchronous navigation response"
+    ]
+  },
+  "browser": {
+    "engine": "Chromium via managed preview",
+    "tested_publication": "lossless compact Pages candidate",
+    "desktop_viewport": 1348,
+    "responsive_iframe_outer_widths": [
+      320,
+      390,
+      768,
+      1024
+    ],
+    "responsive_measurements": [
+      {
+        "frame": "phone320",
+        "brokenImages": 0,
+        "h1": "Туризм и гостеприимство",
+        "logo": "./assets/brand/tourism.svg",
+        "pdf": "./downloads/projects/tourism/current/expertise_tourism_2026-10-30.pdf",
+        "scroll": 305,
+        "viewport": 305
+      },
+      {
+        "frame": "phone390",
+        "brokenImages": 0,
+        "h1": "Международная кооперация и экспорт",
+        "logo": "./assets/brand/international_export.svg",
+        "pdf": "./downloads/projects/international_export/current/expertise_international_export_2026-10-30.pdf",
+        "scroll": 375,
+        "viewport": 375
+      },
+      {
+        "frame": "tablet768",
+        "brokenImages": 0,
+        "h1": "Обзор исследования",
+        "logo": "./assets/brand/family.svg",
+        "pdf": "./downloads/projects/family/current/expertise_family_2026-10-30.pdf",
+        "scroll": 753,
+        "viewport": 753
+      },
+      {
+        "frame": "tablet1024",
+        "brokenImages": 0,
+        "h1": "Эффективная транспортная система",
+        "logo": "./assets/brand/efficient_transport.svg",
+        "pdf": "./downloads/projects/efficient_transport/current/expertise_efficient_transport_2026-10-30.pdf",
+        "scroll": 1009,
+        "viewport": 1009
+      }
+    ],
+    "checks": [
+      "Tourism to Export to Family: current logo first, matching PDF, authors only for Family",
+      "catalogue with 12 PDF/DOCX pairs",
+      "current Tourism PDF opens in browser viewer: 116 pages",
+      "mobile menu opens and closes after route selection",
+      "project rail scrollLeft 235 to 495 after next arrow",
+      "Tourism map rendered 97 SVG paths",
+      "Family lab default correlation: 85 pairs",
+      "Family worker clustering: 85 rows, 3 groups, 4 iterations, silhouette 0.5404"
+    ],
+    "scope_note": "Iframe widths test responsive CSS in desktop Chromium, not physical devices. Full Playwright CI runner was not executed locally."
+  },
+  "loading_measurement": {
+    "method": "Static import graph plus the selected overview renderer and declared bootstrap JSON. Byte counts are original uncompressed UTF-8 files, not measured network duration or compressed traffic. CSS/JS/JSON requests exclude HTML, fonts, images and downloads. Additional route-specific fetches are not included.",
+    "shared_shell": {
+      "js_requests": 13,
+      "js_bytes": 108963
+    },
+    "routes": [
+      {
+        "project": "family",
+        "route": "overview",
+        "before": {
+          "js_requests": 38,
+          "js_bytes": 1848599,
+          "css_requests": 13,
+          "css_bytes": 162905,
+          "data_requests": 5,
+          "data_bytes": 1837455
+        },
+        "after": {
+          "js_requests": 20,
+          "js_bytes": 210598,
+          "css_requests": 2,
+          "css_bytes": 71010,
+          "data_requests": 5,
+          "data_bytes": 1862892
+        },
+        "after_modules": [
+          "src/app.js",
+          "src/components/charts.js",
+          "src/components/current-report.js",
+          "src/components/institutions.js",
+          "src/components/map.js",
+          "src/components/network.js",
+          "src/components/ui.js",
+          "src/content/sections.js",
+          "src/core/cache.js",
+          "src/core/data.js",
+          "src/core/dom.js",
+          "src/core/series-transport.js",
+          "src/core/stats.js",
+          "src/pages/projections.js",
+          "src/pages/research.js",
+          "src/platform/data.js",
+          "src/platform/projects.js",
+          "src/platform/routes.js",
+          "src/platform/runtime.js",
+          "src/platform/theme.js"
+        ],
+        "after_data": [
+          "data/research.json",
+          "data/latest/manifest.json",
+          "data/current/catalog.json",
+          "data/current/research.json",
+          "data/current-reports.json"
+        ]
+      },
+      {
+        "project": "tourism",
+        "route": "overview",
+        "before": {
+          "js_requests": 38,
+          "js_bytes": 1848599,
+          "css_requests": 13,
+          "css_bytes": 162905,
+          "data_requests": 13,
+          "data_bytes": 5405586
+        },
+        "after": {
+          "js_requests": 18,
+          "js_bytes": 215600,
+          "css_requests": 3,
+          "css_bytes": 75588,
+          "data_requests": 10,
+          "data_bytes": 3618796
+        },
+        "after_modules": [
+          "src/app.js",
+          "src/components/charts.js",
+          "src/components/current-report.js",
+          "src/components/institutions.js",
+          "src/components/map.js",
+          "src/components/ui.js",
+          "src/content/sections.js",
+          "src/core/cache.js",
+          "src/core/data.js",
+          "src/core/dom.js",
+          "src/core/series-transport.js",
+          "src/core/stats.js",
+          "src/pages/tourism.js",
+          "src/platform/data.js",
+          "src/platform/projects.js",
+          "src/platform/routes.js",
+          "src/platform/runtime.js",
+          "src/platform/theme.js"
+        ],
+        "after_data": [
+          "data/current-reports.json",
+          "data/regions.json",
+          "data/projects/tourism/foundation.json",
+          "data/projects/tourism/indicators.json",
+          "data/projects/tourism/methods.json",
+          "data/projects/tourism/expertise.json",
+          "data/projects/tourism/statistics.json",
+          "data/projects/tourism/analytics.json",
+          "data/projects/tourism/refresh-status.json",
+          "data/projects/tourism/documentary.json"
+        ]
+      },
+      {
+        "project": "international_export",
+        "route": "overview",
+        "before": {
+          "js_requests": 38,
+          "js_bytes": 1848599,
+          "css_requests": 13,
+          "css_bytes": 162905,
+          "data_requests": 13,
+          "data_bytes": 6557143
+        },
+        "after": {
+          "js_requests": 18,
+          "js_bytes": 247892,
+          "css_requests": 3,
+          "css_bytes": 77354,
+          "data_requests": 10,
+          "data_bytes": 4770353
+        },
+        "after_modules": [
+          "src/app.js",
+          "src/components/charts.js",
+          "src/components/current-report.js",
+          "src/components/institutions.js",
+          "src/components/map.js",
+          "src/components/ui.js",
+          "src/content/sections.js",
+          "src/core/cache.js",
+          "src/core/data.js",
+          "src/core/dom.js",
+          "src/core/series-transport.js",
+          "src/core/stats.js",
+          "src/pages/international_export.js",
+          "src/platform/data.js",
+          "src/platform/projects.js",
+          "src/platform/routes.js",
+          "src/platform/runtime.js",
+          "src/platform/theme.js"
+        ],
+        "after_data": [
+          "data/current-reports.json",
+          "data/regions.json",
+          "data/projects/international_export/foundation.json",
+          "data/projects/international_export/indicators.json",
+          "data/projects/international_export/methods.json",
+          "data/projects/international_export/expertise.json",
+          "data/projects/international_export/statistics.json",
+          "data/projects/international_export/analytics.json",
+          "data/projects/international_export/refresh-status.json",
+          "data/projects/international_export/documentary.json"
+        ]
+      }
+    ]
+  },
+  "memory_measurement": {
+    "runtime": "v24.22.1",
+    "scope": "V8 retained parsed JSON; no browser DOM, GPU, code cache or DevTools included",
+    "units": "bytes",
+    "before": [
+      {
+        "label": "initial",
+        "heapUsed": 4716184,
+        "rss": 30203904,
+        "fetchedBytes": 0
+      },
+      {
+        "label": "family",
+        "heapUsed": 7055144,
+        "rss": 34902016,
+        "fetchedBytes": 1837117
+      },
+      {
+        "label": "long_active_life",
+        "heapUsed": 18873504,
+        "rss": 48103424,
+        "fetchedBytes": 11600068
+      },
+      {
+        "label": "youth_children",
+        "heapUsed": 25778400,
+        "rss": 58937344,
+        "fetchedBytes": 18067509
+      },
+      {
+        "label": "tourism",
+        "heapUsed": 29629688,
+        "rss": 62545920,
+        "fetchedBytes": 21635636
+      },
+      {
+        "label": "personnel",
+        "heapUsed": 33191616,
+        "rss": 66412544,
+        "fetchedBytes": 24941648
+      },
+      {
+        "label": "life_infrastructure",
+        "heapUsed": 44587176,
+        "rss": 77754368,
+        "fetchedBytes": 34619229
+      },
+      {
+        "label": "efficient_transport",
+        "heapUsed": 49010848,
+        "rss": 83091456,
+        "fetchedBytes": 38913625
+      },
+      {
+        "label": "environment",
+        "heapUsed": 55643896,
+        "rss": 92274688,
+        "fetchedBytes": 44758550
+      },
+      {
+        "label": "international_export",
+        "heapUsed": 60605800,
+        "rss": 97505280,
+        "fetchedBytes": 49478234
+      },
+      {
+        "label": "data_economy",
+        "heapUsed": 76446560,
+        "rss": 114024448,
+        "fetchedBytes": 63297679
+      },
+      {
+        "label": "competitive_economy",
+        "heapUsed": 86673712,
+        "rss": 124547072,
+        "fetchedBytes": 72373592
+      },
+      {
+        "label": "health_technologies",
+        "heapUsed": 89774072,
+        "rss": 127651840,
+        "fetchedBytes": 75251295
+      },
+      {
+        "label": "large_series_40466",
+        "heapUsed": 101166584,
+        "rss": 141901824,
+        "fetchedBytes": 84998833
+      },
+      {
+        "label": "large_series_59319",
+        "heapUsed": 117937264,
+        "rss": 158330880,
+        "fetchedBytes": 99423572
+      },
+      {
+        "label": "large_series_59263",
+        "heapUsed": 143721384,
+        "rss": 184881152,
+        "fetchedBytes": 122400174
+      },
+      {
+        "label": "large_series_59993",
+        "heapUsed": 169988992,
+        "rss": 211808256,
+        "fetchedBytes": 145947331
+      },
+      {
+        "label": "large_series_59262",
+        "heapUsed": 196387136,
+        "rss": 240132096,
+        "fetchedBytes": 169672146
+      },
+      {
+        "label": "large_series_61608",
+        "heapUsed": 239966056,
+        "rss": 284749824,
+        "fetchedBytes": 207838069
+      }
+    ],
+    "after": [
+      {
+        "label": "initial",
+        "heapUsed": 4350208,
+        "rss": 30072832,
+        "fetchedBytes": 0
+      },
+      {
+        "label": "family",
+        "heapUsed": 7100080,
+        "rss": 35065856,
+        "fetchedBytes": 1837117
+      },
+      {
+        "label": "long_active_life",
+        "heapUsed": 18915368,
+        "rss": 48177152,
+        "fetchedBytes": 11600068
+      },
+      {
+        "label": "youth_children",
+        "heapUsed": 25820504,
+        "rss": 60456960,
+        "fetchedBytes": 18067509
+      },
+      {
+        "label": "tourism",
+        "heapUsed": 27292336,
+        "rss": 62169088,
+        "fetchedBytes": 21635636
+      },
+      {
+        "label": "personnel",
+        "heapUsed": 19179136,
+        "rss": 65925120,
+        "fetchedBytes": 24941648
+      },
+      {
+        "label": "life_infrastructure",
+        "heapUsed": 23709704,
+        "rss": 77320192,
+        "fetchedBytes": 34619498
+      },
+      {
+        "label": "efficient_transport",
+        "heapUsed": 24372392,
+        "rss": 81981440,
+        "fetchedBytes": 38913894
+      },
+      {
+        "label": "environment",
+        "heapUsed": 27406864,
+        "rss": 90284032,
+        "fetchedBytes": 44758819
+      },
+      {
+        "label": "international_export",
+        "heapUsed": 21030592,
+        "rss": 95834112,
+        "fetchedBytes": 49478503
+      },
+      {
+        "label": "data_economy",
+        "heapUsed": 32441744,
+        "rss": 110161920,
+        "fetchedBytes": 63297948
+      },
+      {
+        "label": "competitive_economy",
+        "heapUsed": 36055312,
+        "rss": 120225792,
+        "fetchedBytes": 72373861
+      },
+      {
+        "label": "health_technologies",
+        "heapUsed": 34228464,
+        "rss": 120352768,
+        "fetchedBytes": 75251564
+      },
+      {
+        "label": "large_series_40466",
+        "heapUsed": 45583944,
+        "rss": 133705728,
+        "fetchedBytes": 84999102
+      },
+      {
+        "label": "large_series_59319",
+        "heapUsed": 62354768,
+        "rss": 136396800,
+        "fetchedBytes": 99423841
+      },
+      {
+        "label": "large_series_59263",
+        "heapUsed": 88139160,
+        "rss": 162689024,
+        "fetchedBytes": 122400443
+      },
+      {
+        "label": "large_series_59993",
+        "heapUsed": 103620568,
+        "rss": 177065984,
+        "fetchedBytes": 145947600
+      },
+      {
+        "label": "large_series_59262",
+        "heapUsed": 113249872,
+        "rss": 203100160,
+        "fetchedBytes": 169672415
+      },
+      {
+        "label": "large_series_61608",
+        "heapUsed": 131044760,
+        "rss": 233828352,
+        "fetchedBytes": 207838338
+      }
+    ],
+    "method": "Same sequential project/data workload; retained heap after garbage collection. Not total browser memory."
+  },
+  "preservation_audit": "CONTENT_PRESERVATION_AUDIT.json",
+  "pdf_audit": "CURRENT_REPORTS_AUDIT.json",
+  "logo_provenance": "BRAND_LOGOS_PROVENANCE.json",
+  "pages_build_report": "../PAGES_BUILD_VERIFICATION.json"
+}

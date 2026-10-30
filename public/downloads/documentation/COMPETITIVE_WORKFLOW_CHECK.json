@@ -1,0 +1,59 @@
+{
+  "workflow_yaml": "passed",
+  "shell_blocks_checked": 16,
+  "confirmed_sources": 205,
+  "timeout_minutes": 240,
+  "one_export_per_confirmed_source_interval_floor_minutes": 134.13333333333333,
+  "qualification": "A scheduling capacity scenario if each confirmed card provides one downloadable response. Metadata-only sources may not export; extra requests, retries and build steps take additional time. No workflow was run.",
+  "source": "https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#jobsjob_idtimeout-minutes",
+  "configs": [
+    {
+      "config": "emiss_sources.json",
+      "confirmed_sources": 16,
+      "min_download_interval_seconds": 45.0,
+      "one_export_each_interval_floor_seconds": 675.0
+    },
+    {
+      "config": "youth_emiss_sources.json",
+      "confirmed_sources": 29,
+      "min_download_interval_seconds": 45,
+      "one_export_each_interval_floor_seconds": 1260
+    },
+    {
+      "config": "personnel_emiss_sources.json",
+      "confirmed_sources": 9,
+      "min_download_interval_seconds": 45,
+      "one_export_each_interval_floor_seconds": 360
+    },
+    {
+      "config": "longlife_emiss_sources.json",
+      "confirmed_sources": 42,
+      "min_download_interval_seconds": 45,
+      "one_export_each_interval_floor_seconds": 1845
+    },
+    {
+      "config": "healthtech_emiss_sources.json",
+      "confirmed_sources": 20,
+      "min_download_interval_seconds": 2,
+      "one_export_each_interval_floor_seconds": 38
+    },
+    {
+      "config": "infrastructure_emiss_sources.json",
+      "confirmed_sources": 34,
+      "min_download_interval_seconds": 45,
+      "one_export_each_interval_floor_seconds": 1485
+    },
+    {
+      "config": "environment_emiss_sources.json",
+      "confirmed_sources": 18,
+      "min_download_interval_seconds": 45,
+      "one_export_each_interval_floor_seconds": 765
+    },
+    {
+      "config": "competitive_emiss_sources.json",
+      "confirmed_sources": 37,
+      "min_download_interval_seconds": 45,
+      "one_export_each_interval_floor_seconds": 1620
+    }
+  ]
+}

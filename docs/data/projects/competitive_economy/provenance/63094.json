@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source_id": "63094",
+  "source_url": "https://www.fedstat.ru/indicator/63094",
+  "research_release": "NationalProjects_Analytics_1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": "9014d945948b87407372c2ce35a4434d7c53a01bbe066eb9010e2ad19fe4d00d",
+  "acquired_at": "2026-10-15T19:25:25+00:00",
+  "origin_kind": "live_emiss",
+  "unit": "процент",
+  "observations": 14,
+  "numeric": 14,
+  "published_sha256": "87489405876860ee3edf722bd6c1a00f338f707d9b779004119679ce9c0ec356",
+  "input_sha256": "9aaebcbb02af8fef45ef14b1915989c1767a58fafd6e4c9ed0f99999ead2d0a1",
+  "input_bundle": "downloads/projects/competitive_economy/statistics/emiss_inputs/63094.zip",
+  "published_file": "data/projects/competitive_economy/series/63094.json",
+  "period_policy": "Original periods and frequencies retained. Quarter labels and explicit annual labels are decoded independently. Economic period and publication month remain distinct. Independent annual rows are never substituted by December. Programme accumulation and annual reset are source-specific.",
+  "export_format": "excel",
+  "missing_policy": "No imputation, no substitution by a report image or by another indicator."
+}

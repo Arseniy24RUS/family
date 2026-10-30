@@ -1,0 +1,615 @@
+{
+  "schema_version": 1,
+  "project_id": "long_active_life",
+  "project_name": "Национальный проект «Продолжительная и активная жизнь»",
+  "release_version": "1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "documentary_as_of": "2026-10-19",
+  "release_date": "2026-10-27",
+  "author_expertise_status": "next_requested_stage",
+  "registry": {
+    "project_id": "long_active_life",
+    "project_name": "Национальный проект «Продолжительная и активная жизнь»",
+    "n_registry": 65,
+    "n_with_numeric": 42,
+    "n_with_regional": 34,
+    "n_with_national": 42,
+    "n_unique_cells": 61029,
+    "n_numeric": 57391,
+    "n_usable": 57337,
+    "n_domain_violations": 54,
+    "coverage_pct": 64.61538461538461
+  },
+  "panel": {
+    "project_id": "long_active_life",
+    "panel_id": "long_active_life_monthly_2026-09-30",
+    "status": "computed",
+    "frequency": "monthly",
+    "period_end": "2026-09-30",
+    "n_regions": 84,
+    "n_features": 29,
+    "n_imputed_cells": 12,
+    "imputed_pct": 0.49261083743842365,
+    "k": 0,
+    "silhouette": null,
+    "pc12_variance": 0.25066763717030643,
+    "cluster_status": "no_partition_meets_minimum_size",
+    "n_communities": 5,
+    "complete_case_ari": null,
+    "n_complete_case": 72,
+    "seed": 42
+  },
+  "research": {
+    "project_id": "long_active_life",
+    "project_name": "Национальный проект «Продолжительная и активная жизнь»",
+    "registry_indicators": 65,
+    "indicators_with_numeric": 42,
+    "indicators_with_regional": 34,
+    "observations_numeric": 57391,
+    "documents": 15,
+    "goal_nodes": 12,
+    "task_nodes": 41,
+    "indicator_nodes": 53,
+    "result_nodes": 78,
+    "unresolved_link_claims": 296,
+    "shared_task_result_indicator_links": 282,
+    "results_linked_through_documented_task": 78,
+    "results_with_lexical_candidate": 64,
+    "explicit_result_indicator_links": 0,
+    "family_original_manual_edges": null,
+    "multivariate_status": "computed",
+    "passport_financing_2025_2030_thousand_rub": 4136479588.77,
+    "strict_financing_hhi": 0.3161542555161044,
+    "financing_status": "computed_complete_visible_fp_headers",
+    "causal_effect_status": "not_identified_in_existing_sources",
+    "author_expertise_text_status": "next_requested_stage"
+  },
+  "results": {
+    "project_id": "long_active_life",
+    "project_name": "Национальный проект «Продолжительная и активная жизнь»",
+    "n_registry": 65,
+    "n_numeric_indicators": 42,
+    "n_regional_indicators": 34,
+    "n_forecast_indicators": 0,
+    "n_series": 4150,
+    "n_projected_series": 0,
+    "n_diagnostic_forecast_series": 0,
+    "n_reference_scenario_series": 10,
+    "n_series_with_review_flags": 1254,
+    "n_documented_target_indicators": 65,
+    "target_status": "source_backed_targets_available",
+    "n_annual_facts": 10,
+    "n_annual_equivalent_references": 0,
+    "forecast_status": "insufficient_independent_annual_history",
+    "multivariate_status": "diagnostic_not_performance_typology"
+  },
+  "corpus": {
+    "project": "health",
+    "project_name": "Продолжительная и активная жизнь",
+    "unique_pdf_files": 3,
+    "pages": 303,
+    "national_passport_files": 1,
+    "federal_passport_files": 1,
+    "presentation_files": 0,
+    "legal_reprints": 1,
+    "note": "Counts of files, not distinct federal project names; shared presentations cover all ten target projects."
+  },
+  "method_summary": {
+    "total": 39,
+    "by_status": {
+      "documentary_structure_completed_substantive_review_deferred": 2,
+      "computed_with_documented_scope": 11,
+      "documentary_and_structural_links_computed_candidates_unapproved": 1,
+      "retained_with_input_and_coverage_checks": 2,
+      "retained_from_1_1_source_unchanged": 7,
+      "retained_and_independently_verified": 6,
+      "candidate_partitions_checked_no_forced_baseline_typology": 1,
+      "robustness_computed_for_eligible_panels": 1,
+      "financial_measurement_bridge_computed_not_cost_effectiveness": 1,
+      "evidence_matrix_completed_expert_scores_deferred": 1,
+      "designs_and_readiness_audit_completed_no_effect_estimated": 3,
+      "deferred_by_user": 1,
+      "specialized_family_extension_not_generalized": 1,
+      "reproducible_analysis_code_available": 1
+    }
+  },
+  "sections": [
+    {
+      "order": 1,
+      "section_id": "framework",
+      "title": "Методологическая рамка экспертизы",
+      "family_report_pages": "7–9",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L2",
+      "publication_status": "planned",
+      "evidence": "Реестр методов и их ограничений подготовлен; содержательные выводы требуют отдельной авторской экспертизы.",
+      "method_ids": [
+        "theory_of_change"
+      ]
+    },
+    {
+      "order": 2,
+      "section_id": "logic",
+      "title": "Нормативно-логическая модель",
+      "family_report_pages": "9–11",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L3",
+      "publication_status": "planned",
+      "evidence": "В исследовательском корпусе: 12 целей, 41 задач, 78 результатов. Документальная связь не является доказательством причинного эффекта.",
+      "method_ids": [
+        "project_hierarchy",
+        "activity_inventory",
+        "activity_indicator_links"
+      ]
+    },
+    {
+      "order": 3,
+      "section_id": "audit",
+      "title": "Аудит данных и показателей",
+      "family_report_pages": "11–19",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L4",
+      "publication_status": "planned",
+      "evidence": "В реестре 65 показателей; числовые данные доступны для 42, региональные для 34.",
+      "method_ids": [
+        "source_quality",
+        "observability",
+        "time_dynamics"
+      ]
+    },
+    {
+      "order": 4,
+      "section_id": "targets",
+      "title": "Целевые траектории и прогноз",
+      "family_report_pages": "19–24",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L5",
+      "publication_status": "planned",
+      "evidence": "Паспортные цели и статистические ряды сопоставляются только при подтверждённом совпадении показателя, единицы измерения, территории и периода.",
+      "method_ids": [
+        "target_comparison",
+        "forecasting"
+      ]
+    },
+    {
+      "order": 5,
+      "section_id": "map",
+      "title": "Территориальная экспертиза",
+      "family_report_pages": "24–43",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L6",
+      "publication_status": "planned",
+      "evidence": "Региональные данные имеются для 34 показателей. Карты требуют отдельной проверки сопоставимости выбранного периода.",
+      "method_ids": [
+        "geographical_join",
+        "regional_maps",
+        "regional_descriptive"
+      ]
+    },
+    {
+      "order": 6,
+      "section_id": "regions",
+      "title": "Типология и пространственные связи",
+      "family_report_pages": "43–52",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L7",
+      "publication_status": "planned",
+      "evidence": "Статус многомерной панели: computed; территорий: 84, признаков: 29. Региональная типология не тождественна оценке эффективности.",
+      "method_ids": [
+        "correlations",
+        "pca",
+        "kmeans",
+        "multivariate_stability",
+        "isolation_forest",
+        "moran_global",
+        "moran_local",
+        "regional_similarity",
+        "relative_profiles"
+      ]
+    },
+    {
+      "order": 7,
+      "section_id": "finance",
+      "title": "Финансовая экспертиза",
+      "family_report_pages": "52–55",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L8",
+      "publication_status": "planned",
+      "evidence": "Финансовые суммы и доли сохраняют единицы исходного паспорта. Оценка распределения средств зависит от сопоставимости заголовков федеральных проектов.",
+      "method_ids": [
+        "budget_registry",
+        "budget_hhi",
+        "budget_observability"
+      ]
+    },
+    {
+      "order": 8,
+      "section_id": "network",
+      "title": "Мероприятия и показатели",
+      "family_report_pages": "55–61",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L9",
+      "publication_status": "planned",
+      "evidence": "В корпусе разделены документальные связи, совместная принадлежность задаче и лексические кандидаты. Автоматическая похожесть не превращается в доказанную связь.",
+      "method_ids": [
+        "activity_network"
+      ]
+    },
+    {
+      "order": 9,
+      "section_id": "texts",
+      "title": "Лингвистическая и смысловая экспертиза",
+      "family_report_pages": "61–65",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L10",
+      "publication_status": "planned",
+      "evidence": "Документальная основа исследовательского модуля: 15 документов. Лексические признаки рассматриваются совместно с контекстом.",
+      "method_ids": [
+        "lexical_frequencies",
+        "dictionary_frames",
+        "tfidf_cosine",
+        "text_clustering",
+        "concept_cooccurrence",
+        "context_search"
+      ]
+    },
+    {
+      "order": 10,
+      "section_id": "domains",
+      "title": "Охват сфер жизнедеятельности",
+      "family_report_pages": "65–68",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L11",
+      "publication_status": "planned",
+      "evidence": "Сферы жизнедеятельности выделяются по корпусу и словарям; полнота охвата требует содержательной проверки экспертом.",
+      "method_ids": [
+        "domain_evidence",
+        "expert_domain_scale"
+      ]
+    },
+    {
+      "order": 11,
+      "section_id": "causal",
+      "title": "Сценарии и причинная оценка",
+      "family_report_pages": "68–71",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L12",
+      "publication_status": "planned",
+      "evidence": "Причинный эффект нацпроекта в имеющемся наборе источников не идентифицирован. Для его оценки нужен самостоятельный исследовательский дизайн.",
+      "method_ids": [
+        "policy_scenario_framework",
+        "causal_designs",
+        "heterogeneous_causal_effects"
+      ]
+    },
+    {
+      "order": 12,
+      "section_id": "proposals",
+      "title": "Предложения по корректировке",
+      "family_report_pages": "71–73",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L13",
+      "publication_status": "planned",
+      "evidence": "Рекомендации формируются после проверки фактов и содержательной экспертизы, с указанием адресата, механизма и ожидаемого результата.",
+      "method_ids": [
+        "recommendations"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Паспорт национального проекта «Продолжительная и активная жизнь»",
+      "url": "https://www.cardio.ru/wp-content/uploads/pasport_np_piazh.pdf",
+      "urls": [
+        "https://www.cardio.ru/wp-content/uploads/pasport_np_piazh.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "national",
+      "sha256": "498445e1b94982341a7369d56081939dc8550d62c66406dc08bf4d2ea128f273",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:41:28Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/49/498445e1b94982341a7369d56081939dc8550d62c66406dc08bf4d2ea128f273.pdf"
+    },
+    {
+      "title": "[Д] Продолжительная и активная жизнь",
+      "url": "https://databudget.ru/projects/np/17",
+      "urls": [
+        "https://databudget.ru/projects/np/17"
+      ],
+      "format": "HTML",
+      "document_level": "national",
+      "sha256": "6858719e28ca196b7e19cf228a959383d78f5cd59df1fecdacf1210bbf26c96c",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:37:17.962648+00:00",
+      "publisher_version_label": "Версия 26.40",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/68/6858719e28ca196b7e19cf228a959383d78f5cd59df1fecdacf1210bbf26c96c.html"
+    },
+    {
+      "title": "Паспорт национального проекта «Продолжительная и активная жизнь» (печатная выгрузка ГАРАНТ)",
+      "url": "https://cmphmao.ru/sites/default/files/simple-page/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20%D0%9F%D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%B8%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C%20%D1%83%D1%82%D0%B2%20%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE%D0%BC.pdf",
+      "urls": [
+        "https://cmphmao.ru/sites/default/files/simple-page/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20%D0%9F%D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%B8%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C%20%D1%83%D1%82%D0%B2%20%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE%D0%BC.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "legal_reprint",
+      "sha256": "f73f01015eae64eef6bd6a16eb3350112c4080e57bb0b48ccb09317fee33f4e6",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:41:22Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/f7/f73f01015eae64eef6bd6a16eb3350112c4080e57bb0b48ccb09317fee33f4e6.pdf"
+    },
+    {
+      "title": "Паспорт федерального проекта «Борьба с сердечно-сосудистыми заболеваниями»",
+      "url": "https://www.cardio.ru/wp-content/uploads/pasport_fd_bssz.pdf",
+      "urls": [
+        "https://www.cardio.ru/wp-content/uploads/pasport_fd_bssz.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "f7843029406f2b8587746b2bd11d2c0af8dd84cc0100cbd5f85536c4808f9aa5",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:41:29Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/f7/f7843029406f2b8587746b2bd11d2c0af8dd84cc0100cbd5f85536c4808f9aa5.pdf"
+    },
+    {
+      "title": "[Д1] Модернизация первичного звена здравоохранения Российской Федерации",
+      "url": "https://databudget.ru/projects/fp/279",
+      "urls": [
+        "https://databudget.ru/projects/fp/279"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "d9f3557ec8c7ca6ca93cf669300a67573d96c464b7811487fbf84e3e8f790c60",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:40.682087+00:00",
+      "publisher_version_label": "Версия 26.24",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/d9/d9f3557ec8c7ca6ca93cf669300a67573d96c464b7811487fbf84e3e8f790c60.html"
+    },
+    {
+      "title": "[Д2] Борьба с сердечно-сосудистыми заболеваниями",
+      "url": "https://databudget.ru/projects/fp/280",
+      "urls": [
+        "https://databudget.ru/projects/fp/280"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "7110a2bbfa4a3fd3c2ea9c282b059baef1786b3cf0525d97ffbe9086071f15f7",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:37.381783+00:00",
+      "publisher_version_label": "Версия 26.7",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/71/7110a2bbfa4a3fd3c2ea9c282b059baef1786b3cf0525d97ffbe9086071f15f7.html"
+    },
+    {
+      "title": "[Д3] Борьба с онкологическими заболеваниями",
+      "url": "https://databudget.ru/projects/fp/281",
+      "urls": [
+        "https://databudget.ru/projects/fp/281"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "dc44118877f92a73b7b367f18d5585e11e5667600f1934e01627a77c7cbc6efe",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:37.202672+00:00",
+      "publisher_version_label": "Версия 26.8",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/dc/dc44118877f92a73b7b367f18d5585e11e5667600f1934e01627a77c7cbc6efe.html"
+    },
+    {
+      "title": "[Д4] Борьба с сахарным диабетом",
+      "url": "https://databudget.ru/projects/fp/282",
+      "urls": [
+        "https://databudget.ru/projects/fp/282"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "712342fb1dc017ac885250a81400b097887d3961251edc7fa3a69bbc7ec0a88d",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:37.294111+00:00",
+      "publisher_version_label": "Версия 26.7",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/71/712342fb1dc017ac885250a81400b097887d3961251edc7fa3a69bbc7ec0a88d.html"
+    },
+    {
+      "title": "[Д5] Борьба с гепатитом С и минимизация рисков распространения данного заболевания",
+      "url": "https://databudget.ru/projects/fp/283",
+      "urls": [
+        "https://databudget.ru/projects/fp/283"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "5d08fef0cefcdacf173ee7939c7b430969c6149d141423800228fe4d296938a2",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:37.155934+00:00",
+      "publisher_version_label": "Версия 26.2",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/5d/5d08fef0cefcdacf173ee7939c7b430969c6149d141423800228fe4d296938a2.html"
+    },
+    {
+      "title": "[Д6] Совершенствование экстренной медицинской помощи",
+      "url": "https://databudget.ru/projects/fp/284",
+      "urls": [
+        "https://databudget.ru/projects/fp/284"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "f34a6fad979d6919150f51cbf89219ec3985a73682a27d1c6c0c7968bfa173d7",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:43.455520+00:00",
+      "publisher_version_label": "Версия 26.6",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/f3/f34a6fad979d6919150f51cbf89219ec3985a73682a27d1c6c0c7968bfa173d7.html"
+    },
+    {
+      "title": "[Д7] Оптимальная для восстановления здоровья медицинская реабилитация",
+      "url": "https://databudget.ru/projects/fp/285",
+      "urls": [
+        "https://databudget.ru/projects/fp/285"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "b4483580268494643f7b96662078bc66df50c00a085b0f4fe772e7df137fbc63",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:42.117647+00:00",
+      "publisher_version_label": "Версия 26.4",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/b4/b4483580268494643f7b96662078bc66df50c00a085b0f4fe772e7df137fbc63.html"
+    },
+    {
+      "title": "[Д8] Национальная цифровая платформа \"Здоровье",
+      "url": "https://databudget.ru/projects/fp/288",
+      "urls": [
+        "https://databudget.ru/projects/fp/288"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "71a955e6516f148ea0034ae0dd8ef1da1fe2f8876e27b15d68a41477a333997c",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:41.929673+00:00",
+      "publisher_version_label": "Версия 26.6",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/71/71a955e6516f148ea0034ae0dd8ef1da1fe2f8876e27b15d68a41477a333997c.html"
+    },
+    {
+      "title": "[Д9] Развитие ФГУ",
+      "url": "https://databudget.ru/projects/fp/290",
+      "urls": [
+        "https://databudget.ru/projects/fp/290"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "37ed8c3435f879105d0f482d43c82821e0cc65ab20ddcfe14ed5208cfd94f1ba",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:43.441511+00:00",
+      "publisher_version_label": "Версия 26.19",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/37/37ed8c3435f879105d0f482d43c82821e0cc65ab20ddcfe14ed5208cfd94f1ba.html"
+    },
+    {
+      "title": "[ДА] Здоровье для каждого",
+      "url": "https://databudget.ru/projects/fp/300",
+      "urls": [
+        "https://databudget.ru/projects/fp/300"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "01e4c521f405bf918d6a095a1e96dfc9087e4efdc9982fe8cc380503e27aff56",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:37.424612+00:00",
+      "publisher_version_label": "Версия 26.21",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/01/01e4c521f405bf918d6a095a1e96dfc9087e4efdc9982fe8cc380503e27aff56.html"
+    },
+    {
+      "title": "[ДБ] Медицинские кадры",
+      "url": "https://databudget.ru/projects/fp/302",
+      "urls": [
+        "https://databudget.ru/projects/fp/302"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "5543724b7a81465fd141bea89f7e9178cf454c632f981c29543ccf0943f7e3cd",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:37.943071+00:00",
+      "publisher_version_label": "Версия 26.12",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/55/5543724b7a81465fd141bea89f7e9178cf454c632f981c29543ccf0943f7e3cd.html"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Аудит 339 показателей",
+      "url": "downloads/projects/shared/indicator_audit.csv",
+      "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+      "bytes": 166183
+    },
+    {
+      "title": "Сводный аудит 11 нацпроектов",
+      "url": "downloads/projects/shared/project_audit.csv",
+      "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+      "bytes": 1810
+    },
+    {
+      "title": "Матрица методов по нацпроектам",
+      "url": "downloads/projects/shared/project_method_matrix.csv",
+      "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+      "bytes": 283115
+    },
+    {
+      "title": "Применимость методов и доступность данных",
+      "url": "downloads/projects/shared/project_method_eligibility.csv",
+      "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+      "bytes": 2507
+    }
+  ],
+  "registry_source_url": "https://www.fedstat.ru/organizations/#group1854134",
+  "interpretation": "Актуальный доступный статистический срез на указанную дату. Дата сборки сайта не означает обновление первичных данных. Новые авторские страницы экспертизы добавляются после отдельной проверки.",
+  "source_release_registry": {
+    "project_id": "long_active_life",
+    "project_name": "Национальный проект «Продолжительная и активная жизнь»",
+    "n_registry": 65,
+    "n_with_numeric": 42,
+    "n_with_regional": 34,
+    "n_with_national": 42,
+    "n_unique_cells": 61029,
+    "n_numeric": 57391,
+    "n_usable": 57099,
+    "n_domain_violations": 292,
+    "coverage_pct": 64.61538461538461
+  },
+  "source_release_results": {
+    "project_id": "long_active_life",
+    "project_name": "Национальный проект «Продолжительная и активная жизнь»",
+    "n_registry": 65,
+    "n_numeric_indicators": 42,
+    "n_regional_indicators": 34,
+    "n_forecast_indicators": 39,
+    "n_series": 4150,
+    "n_projected_series": 3963,
+    "n_diagnostic_forecast_series": 2277,
+    "n_reference_scenario_series": 1686,
+    "n_series_with_review_flags": 2945,
+    "n_documented_target_indicators": 65,
+    "target_status": "source_backed_targets_available"
+  }
+}

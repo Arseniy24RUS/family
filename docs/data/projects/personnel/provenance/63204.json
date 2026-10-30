@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "source_id": "63204",
+  "source_url": "https://www.fedstat.ru/indicator/63204",
+  "research_release": "NationalProjects_Analytics_1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": null,
+  "acquired_at": null,
+  "origin_kind": "metadata_only",
+  "unit": "процент",
+  "observations": 0,
+  "numeric": 0,
+  "published_sha256": "8a5c664eb857c316d6bb3bef8d1a2ab9c700ab780d8d4cb78c8c2b091c2bae35",
+  "input_sha256": "beeac1e2e1c6cb0f8feef50bcbd2ba46e88a9234604666373fdfaa0b50fed18c",
+  "input_bundle": "downloads/projects/personnel/statistical/emiss_inputs/63204.zip",
+  "published_file": "data/projects/personnel/series/63204.json",
+  "period_policy": "Separate annual facts, source-specific annual-equivalent references, cumulative monthly measurements and quarterly surveys. Original periods are preserved.",
+  "missing_policy": "No imputation, no substitution by a report image or by another indicator."
+}

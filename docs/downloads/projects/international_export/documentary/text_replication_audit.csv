@@ -1,0 +1,5 @@
+﻿metric,computed,author_reported,difference,equal
+threshold_0.05,28,26,2,False
+threshold_0.1,15,15,0,True
+threshold_0.15,8,8,0,True
+threshold_0.2,6,6,0,True

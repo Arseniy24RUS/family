@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source_id": "62754",
+  "source_url": "https://www.fedstat.ru/indicator/62754",
+  "research_release": "NationalProjects_Analytics_1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": "a3d53585648eb0cbb6d2f39cca73aea43f1bfa0c0a9e7d62959c4d6202a3a695",
+  "acquired_at": "2026-10-15T19:15:53+00:00",
+  "origin_kind": "live_emiss",
+  "unit": "процент",
+  "observations": 21,
+  "numeric": 21,
+  "published_sha256": "9722c816ad6cb1f93049e0ddd68e42515267695cad3f16536919d5a663641b43",
+  "input_sha256": "9e0002f0941b608618991b533edc0b674e9b0cd808d81038d0512d33fd6d593f",
+  "input_bundle": "downloads/projects/data_economy/statistics/emiss_inputs/62754.zip",
+  "published_file": "data/projects/data_economy/series/62754.json",
+  "period_policy": "Original periods and frequencies retained. Original monthly publication labels are retained in source fields. Explicitly reviewed YTD components have a separate analytical period. December references remain distinct from independent annual facts. Repeated annual inputs, rolling periods, programme accumulation and annual reset are source-specific.",
+  "export_format": "excel",
+  "missing_policy": "No imputation, no substitution by a report image or by another indicator."
+}

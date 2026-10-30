@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "source_contracts": 6,
+  "numeric_sources": 6,
+  "observations": 1924,
+  "numeric": 1924,
+  "source_snapshot_sha256": "0643510166e71f87b77ba464f426f22b5ddda69ed196a18993d7d28da2203b69",
+  "sources": [
+    {
+      "schema_version": 1,
+      "source_id": "62900",
+      "source_url": "https://www.fedstat.ru/indicator/62900",
+      "snapshot_id": "b3a49aaaa9a30271f76ab264d28df5a334d0bba7e0d5f8805cda46010d1089e1",
+      "acquired_at": "2026-10-15T19:15:23+00:00",
+      "statistical_as_of": "2026-10-15",
+      "origin_kind": "live_emiss",
+      "observations": 1806,
+      "numeric": 1806,
+      "published_file": "data/projects/tourism/series/62900.json",
+      "published_sha256": "f690f3a66558bd3a9282151bd0414bc97c6f4e94c7978fb1b884f692698a231c",
+      "input_bundle": "downloads/projects/tourism/statistics/emiss_inputs/62900.zip",
+      "input_sha256": "fc2d237b04b0c10da5de812e43073832898f28b58310ba5cd920d85bdce8fe03",
+      "evidence_files": [
+        {
+          "path": "source/metadata.html",
+          "bytes": 117607,
+          "sha256": "f4059a6acf2d39f150f4835f1a9d83c323b337ba9630e12779912ca0b1b95850"
+        },
+        {
+          "path": "source/metadata.json",
+          "bytes": 12179,
+          "sha256": "0e75cb4aaeec35acb838bf1a9b4f0849e459a8e499b29cfe52873448fb291639"
+        },
+        {
+          "path": "source/part_00001.query.json",
+          "bytes": 17709,
+          "sha256": "a9bc9d92b4c91ff25a05bf0f357f62192836d7b9d7ee043f27492421e86ec650"
+        },
+        {
+          "path": "source/part_00001.xls",
+          "bytes": 49664,
+          "sha256": "c0486c1af85c106f90ff511f3b63c9eedafdacc9d42a2a328da2187a3f59146b"
+        }
+      ],
+      "period_policy": "Original dates, labels and frequency are retained. Analytical YTD labels are separately identified. No monthly flow is formed by differencing. December references are distinct from independent annual observations."
+    },
+    {
+      "schema_version": 1,
+      "source_id": "62159",
+      "source_url": "https://www.fedstat.ru/indicator/62159",
+      "snapshot_id": "2b69839a8f38e87ad4c86582fbc5a97e76760d82611a4c852495ee386d78a3f7",
+      "acquired_at": "2026-10-15T19:12:47+00:00",
+      "statistical_as_of": "2026-10-15",
+      "origin_kind": "live_emiss",
+      "observations": 52,
+      "numeric": 52,
+      "published_file": "data/projects/tourism/series/62159.json",
+      "published_sha256": "af403d400d074bf6099766322edd3a0aa2203ca440157b28966cee9c6b731b25",
+      "input_bundle": "downloads/projects/tourism/statistics/emiss_inputs/62159.zip",
+      "input_sha256": "b2f7ff03162fd0a9638c632ee776893849488b40255a97819e086f63ea5c2086",
+      "evidence_files": [
+        {
+          "path": "source/metadata.html",
+          "bytes": 83659,
+          "sha256": "38b3205a0dee878bcab1e58ab22f78a8b8661f38c8e6ea52dd205fea307db4a4"
+        },
+        {
+          "path": "source/metadata.json",
+          "bytes": 3502,
+          "sha256": "8399fbf7d22a74141a044b07f8a2f8f608912eb285a4d763b79b8e543056b2ff"
+        },
+        {
+          "path": "source/part_00001.query.json",
+          "bytes": 4912,
+          "sha256": "dd6a6e4f9ddebb96ce19b678075d7a60079994137566a8571ad4b1bb8b43f37e"
+        },
+        {
+          "path": "source/part_00001.xls",
+          "bytes": 11776,
+          "sha256": "ee94a8c8dc0bfef8d7b8bffbfcd4ce857500d16d2880b11fb7f03c822d887dea"
+        }
+      ],
+      "period_policy": "Original dates, labels and frequency are retained. Analytical YTD labels are separately identified. No monthly flow is formed by differencing. December references are distinct from independent annual observations."
+    },
+    {
+      "schema_version": 1,
+      "source_id": "62903",
+      "source_url": "https://www.fedstat.ru/indicator/62903",
+      "snapshot_id": "7d6249780afbac9eef619c2413ddf9cea25cae29250948ca28dd9453237c25c5",
+      "acquired_at": "2026-10-15T19:17:03+00:00",
+      "statistical_as_of": "2026-10-15",
+      "origin_kind": "live_emiss",
+      "observations": 13,
+      "numeric": 13,
+      "published_file": "data/projects/tourism/series/62903.json",
+      "published_sha256": "7c2c3552c53b8aacfaaedfa2edc99654fb4c86fff53798b3782518b567b493c3",
+      "input_bundle": "downloads/projects/tourism/statistics/emiss_inputs/62903.zip",
+      "input_sha256": "bce54e389ef2c0de730ac8401f9f4172145adde75470c2feba01a5e1538f832e",
+      "evidence_files": [
+        {
+          "path": "source/metadata.html",
+          "bytes": 80359,
+          "sha256": "c6fb871473d9157ac6ca935027448b1ede820aff7d2d916131f476252551a52e"
+        },
+        {
+          "path": "source/metadata.json",
+          "bytes": 2543,
+          "sha256": "ad4b287a994f1dd90afaba533f32a1c63147cc89d40acad2105a4bddb9c29389"
+        },
+        {
+          "path": "source/part_00001.query.json",
+          "bytes": 3394,
+          "sha256": "3c32e070c8cdccbf728cc85228503e08be26db46d48c0b51118444f145806489"
+        },
+        {
+          "path": "source/part_00001.xls",
+          "bytes": 8192,
+          "sha256": "a2acc4c9b4673e754146c79922fb681fe8e5d1daf57592691b84f3db9681e1cf"
+        }
+      ],
+      "period_policy": "Original dates, labels and frequency are retained. Analytical YTD labels are separately identified. No monthly flow is formed by differencing. December references are distinct from independent annual observations."
+    },
+    {
+      "schema_version": 1,
+      "source_id": "62902",
+      "source_url": "https://www.fedstat.ru/indicator/62902",
+      "snapshot_id": "03919a72ea98033b91ba1d8951844e675822e6f07b47d4a0dc1cab4dfdd559d1",
+      "acquired_at": "2026-10-15T19:16:12+00:00",
+      "statistical_as_of": "2026-10-15",
+      "origin_kind": "live_emiss",
+      "observations": 18,
+      "numeric": 18,
+      "published_file": "data/projects/tourism/series/62902.json",
+      "published_sha256": "8459c3a5103c968ee9ba95133166602e37b03015efbcb4e391124d526fcb51b0",
+      "input_bundle": "downloads/projects/tourism/statistics/emiss_inputs/62902.zip",
+      "input_sha256": "36a8bb2363470f71ff8c2d6da5f1dde4a1b0fb96cacdc23a0e48041a300c6e2f",
+      "evidence_files": [
+        {
+          "path": "source/metadata.html",
+          "bytes": 80782,
+          "sha256": "2a58c53c684d04ca53ece28df90232b7a619a47f24b0e6e5ededa5ce56521420"
+        },
+        {
+          "path": "source/metadata.json",
+          "bytes": 2488,
+          "sha256": "22513309deaaf2238968a24218a210e7a9f20ecf396d1dcb77c939fb1040f7ba"
+        },
+        {
+          "path": "source/part_00001.query.json",
+          "bytes": 3340,
+          "sha256": "ab710d51587e26be051f7fbed00ea7c7dc0d41f7855bca6392b3cca82d8391b9"
+        },
+        {
+          "path": "source/part_00001.xls",
+          "bytes": 8704,
+          "sha256": "147c1a64a8d07ee502ad65a126c9e60cf4288e5263cbd6ad0df36a294bc217c8"
+        }
+      ],
+      "period_policy": "Original dates, labels and frequency are retained. Analytical YTD labels are separately identified. No monthly flow is formed by differencing. December references are distinct from independent annual observations."
+    },
+    {
+      "schema_version": 1,
+      "source_id": "63347",
+      "source_url": "https://www.fedstat.ru/indicator/63347",
+      "snapshot_id": "498b50cf57f59fe3cc70d70d0d98c361158c88829c20f71b4cdbc711a0186563",
+      "acquired_at": "2026-10-15T19:17:59+00:00",
+      "statistical_as_of": "2026-10-15",
+      "origin_kind": "live_emiss",
+      "observations": 14,
+      "numeric": 14,
+      "published_file": "data/projects/tourism/series/63347.json",
+      "published_sha256": "d840802ca697ff1912e86937adda7ae859a0d965600c99c64185cacfd980c565",
+      "input_bundle": "downloads/projects/tourism/statistics/emiss_inputs/63347.zip",
+      "input_sha256": "f07c51d2a041d115484ce3db28f77be4930e82086e57af0bf649b0f302800022",
+      "evidence_files": [
+        {
+          "path": "source/metadata.html",
+          "bytes": 82454,
+          "sha256": "d6285efbe1f84c889ed6c9607c5072b51d2ffff59e9bc629cd514c7411909c1b"
+        },
+        {
+          "path": "source/metadata.json",
+          "bytes": 2662,
+          "sha256": "0b325342ebe6076bfa2e36cc9807f5213086d4de89da5af92611541b9e87e066"
+        },
+        {
+          "path": "source/part_00001.query.json",
+          "bytes": 3513,
+          "sha256": "c97fe12abfb442e8fe38bc1abcb76e9b8cc48b7df40b59790019b9d60e56ea38"
+        },
+        {
+          "path": "source/part_00001.xls",
+          "bytes": 9728,
+          "sha256": "28c232d52eb5654a06aaf5b6dcf4f84a78774b4c7cf998f7b208c6336bec43e5"
+        }
+      ],
+      "period_policy": "Original dates, labels and frequency are retained. Analytical YTD labels are separately identified. No monthly flow is formed by differencing. December references are distinct from independent annual observations."
+    },
+    {
+      "schema_version": 1,
+      "source_id": "62780",
+      "source_url": "https://www.fedstat.ru/indicator/62780",
+      "snapshot_id": "fc415001347afa594fe5144a929cca0218684c8608e08d3a791e4c7f579800eb",
+      "acquired_at": "2026-10-15T19:13:59+00:00",
+      "statistical_as_of": "2026-10-15",
+      "origin_kind": "live_emiss",
+      "observations": 21,
+      "numeric": 21,
+      "published_file": "data/projects/tourism/series/62780.json",
+      "published_sha256": "185303f68d0dd1b88a7d32de4654dd9e7e029de242718011c6b0be598a38fd43",
+      "input_bundle": "downloads/projects/tourism/statistics/emiss_inputs/62780.zip",
+      "input_sha256": "49a294e28b11837097fc2044662863bda41ff1f23a82ce5373d5a7328aeae8f8",
+      "evidence_files": [
+        {
+          "path": "source/metadata.html",
+          "bytes": 84368,
+          "sha256": "d70f9323a48cabefe446ea45795f95fd2a03f3902c62806bf94ec0667da96d5a"
+        },
+        {
+          "path": "source/metadata.json",
+          "bytes": 2625,
+          "sha256": "e243dd5dc8754383ee8a2450ba881e93af617202319197e297ecb5b4d52882d3"
+        },
+        {
+          "path": "source/part_00001.query.json",
+          "bytes": 3476,
+          "sha256": "36835e122d7a9f33e76aff16379ce8945a9cd137e4bb9279a438e17b9ac73473"
+        },
+        {
+          "path": "source/part_00001.xls",
+          "bytes": 12288,
+          "sha256": "31082e597adc731489c147c42da8270be55c1e463fcd1419e489cf132e3b53cf"
+        }
+      ],
+      "period_policy": "Original dates, labels and frequency are retained. Analytical YTD labels are separately identified. No monthly flow is formed by differencing. December references are distinct from independent annual observations."
+    }
+  ],
+  "replay_command": "python scripts/import_tourism_release.py --from-inputs"
+}

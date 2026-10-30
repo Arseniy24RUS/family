@@ -1,0 +1,2210 @@
+{
+  "document": {
+    "project_id": "tourism",
+    "kind": "fp",
+    "id": "fp_308",
+    "url": "https://databudget.ru/projects/fp/308",
+    "sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+    "retrieved_at": "2026-10-19T14:38:51.582437+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/a1/a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a.html",
+    "document_id": "fp_308",
+    "code": "П1",
+    "title": "[П1] Создание номерного фонда",
+    "publisher_version": "26.28",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 594,
+    "n_tokens": 594,
+    "source_url": "https://databudget.ru/projects/fp/308",
+    "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+    "profile_text_sha256": "8163af0512312fbd2b7a214e28d27aa211bb0e75b90525b2760f6e0607b43d76",
+    "archive_entry": "tourism/fp_308.html",
+    "bytes": 2259066,
+    "download_path": "downloads/projects/tourism/documentary/sources/fp_308.html",
+    "profile_original_document_id": "html:a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_308:profile1",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "увеличено количество доступных номеров для размещения граждан в целях их обеспечения комфортными условиями для отдыха",
+      "node_id": "fp_308:passport-task-01:83875dcde77ed500",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 14,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile2",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "за счет создания и развития современной и качественной туристской инфраструктуры в регионах увеличено число новых поездок по россии",
+      "node_id": "fp_308:passport-task-02:4dbf9c23492a0959",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 15,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile3",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "goal",
+      "text": "за счет создания и развития современной и качественной туристской инфраструктуры в регионах увеличивается число новых поездок по россии",
+      "node_id": "fp_308:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 15,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile4",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "введены в эксплуатацию номера в модульных некапитальных средствах размещения оказывается государственная поддержка инвестиционных проектов по созданию модульных некапитальных средств размещения в рамках предоставления субсидий из федерального бюджета бюджетам субъектов российской федерации в целях софинансирования расходных обязательств субъектов российской федерации по предоставлению юридическим лицам и индивидуальным предпринимателям бюджетных ассигнований на приобретение и монтаж модульных некапитальных средств размещения. результатом использования субсидии является ввод в эксплуатацию номеров в модульных некапитальных средствах размещения при реализации инвестиционных проектов.",
+      "node_id": "fp_308:passport-result-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 65,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile5",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "ао \"корпорация туризм.рф\" обеспечено сопровождение реализации проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства ао \"корпорация туризм.рф\" обеспечено консультационное, методологическое, организационное сопровождение проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства",
+      "node_id": "fp_308:passport-result-26:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 32,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile6",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\". в рамках реализации инвестиционных проектов в сфере туризма в период 2025-2030 гг. с использованием средств федерального бюджета запланировано участие ао \"корпорация туризм.рф\" не менее, чем в 43 инвестиционных проектах (нарастающим итогом). в 2025 г. предполагается направление ранее предоставленных бюджетных инвестиций ао \"корпорация туризм.рф\" на обеспечение обязательств по финансированию не менее 24 инвестиционных проектов. в период 2026-2030 гг. в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств по финансированию инвестиционных проектов, в том числе в 2026 году - не менее 3 проектов, в 2027 году - не менее 2 проектов, в 2028 году - не менее 6 проектов, в 2029 году - не менее 1 проекта, в 2030 году - не менее 7 проектов за счет реинвестирования.",
+      "node_id": "fp_308:passport-result-25:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 103,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile7",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "создана инженерная и транспортная инфраструктура на территории субъектов российской федерации в целях развития туристических кластеров в целях развития туристических кластеров к 2030 году будут созданы объекты инженерной и транспортной инфраструктуры (капитального строительства) на территории субъектов российской федерации.",
+      "node_id": "fp_308:passport-result-38:72821f34f9410810",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 31,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile8",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "предоставлены льготные кредиты в целях реализации инвестиционной поддержки по созданию туристической инфраструктуры российскими банками и государственной корпорацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию туристической инфраструктуры в форме льготного кредитования предоставлены кредиты предпринимателям на строительство (реконструкцию) объектов капитального строительства, включая выполнение инженерных изысканий для подготовки проектной документации, подготовку проектной документации, проведение экспертизы в отношении результатов инженерных изысканий и проектной документации, проверку на предмет достоверности определения сметной стоимости. результат достигается при создании 78 тыс. номеров (накопительным итогом) при строительстве гостиниц, многофункциональных комплексов и крупных инвестиционных проектов с количеством посещений 53 млн человек в год (в расчете на год, следующий через 2 года после ввода в эксплуатацию) (накопительным итогом) с использованием кредитных средств по программе льготного кредитования.",
+      "node_id": "fp_308:passport-result-39:40e4a8a3cec0d7be",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 105,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile9",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "обеспечено завершение строительства (реконструкции) объектов обеспечивающей инфраструктуры с длительным сроком окупаемости поддержаны мероприятия по завершению в 2028 году строительства 10 объектов капитального строительства, реализация которых осуществлялась в рамках мероприятия по государственной поддержке инвестиционных проектов путем софинансирования строительства (реконструкции) объектов обеспечивающей инфраструктуры с длительным сроком окупаемости государственной программы российской федерации \"развитие туризма\" (нарастающим итогом).",
+      "node_id": "fp_308:passport-result-43:5f9e06f4f59d539a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 47,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile10",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "осуществлено технологическое присоединение объектов туристических кластеров к инженерным сетям в целях развития туристических кластеров к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфраструктуры к инженерным сетям.",
+      "node_id": "fp_308:passport-result-20:5f3b1b5d4a254584",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 24,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile11",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "реализованы мероприятия субъектами российской федерации в рамках предоставления единой субсидии из федерального бюджета бюджетам субъектов российской федерации единая субсидия предоставляется из федерального бюджета бюджетам субъектов российской федерации в целях достижения показателя \"количество туристических поездок по территории российской федерации\" государственной программы российской федерации \"развитие туризма\", являющегося одновременно показателем национального проекта \"туризм и гостеприимство\". результатом использования субсидии является достижение плановых значений указанного показателя.",
+      "node_id": "fp_308:passport-result-38:491f51d9b75788bb",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 58,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile12",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "реализованы инвестиционные проекты по развитию инфраструктуры горнолыжных курортов в форме льготного кредитования российскими банками и государственной корпорацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию инфраструктуры горнолыжных курортов в форме льготного кредитования предоставлены кредиты предпринимателям на строительство (реконструкцию) объектов капитального строительства, включая выполнение инженерных изысканий для подготовки проектной документации, подготовку проектной документации, проведение экспертизы в отношении результатов инженерных изысканий и проектной документации, проверку на предмет достоверности определения сметной стоимости.",
+      "node_id": "fp_308:passport-result-45:757cd51d4a9a22b3",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 67,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile13",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "количество туристических поездок по территории российской федерации",
+      "node_id": "fp_308:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile14",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "доля туристской отрасли в валовом внутреннем продукте",
+      "node_id": "fp_308:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 6,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_308:profile15",
+      "document_id": "fp_308",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "количество номеров в классифицированных средствах размещения",
+      "node_id": "fp_308:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "n_tokens": 5,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_308:kwic1",
+      "document_id": "fp_308",
+      "frame": "access_rights",
+      "matched": "доступных",
+      "context": "увеличено количество доступных номеров для размещения граждан в целях их обеспечения комфортными условиями для отдыха за счет создания и раз",
+      "unit_id": "fp_308:profile1",
+      "unit_ids": [
+        "fp_308:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic2",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "ны в эксплуатацию номера в модульных некапитальных средствах размещения оказывается государственная поддержка инвестиционных проектов по созданию модульных некапитальных средств размещения в рамках предоставления субсидий из федеральн",
+      "unit_id": "fp_308:profile4",
+      "unit_ids": [
+        "fp_308:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic3",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателям",
+      "context": "ия расходных обязательств субъектов российской федерации по предоставлению юридическим лицам и индивидуальным предпринимателям бюджетных ассигнований на приобретение и монтаж модульных некапитальных средств размещения. результатом испол",
+      "unit_id": "fp_308:profile4",
+      "unit_ids": [
+        "fp_308:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic4",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "я субсидии является ввод в эксплуатацию номеров в модульных некапитальных средствах размещения при реализации инвестиционных проектов. ао \"корпорация туризм.рф\" обеспечено сопровождение реализации проектов по созданию инфраструктуры в",
+      "unit_id": "fp_308:profile4",
+      "unit_ids": [
+        "fp_308:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic5",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "ждение проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\". в рамках реализации инвестиц",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic6",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ма и индустрии гостеприимства обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\". в рамках реализации инвестиционных проектов в сфере туризма в период 2025-2030 гг.",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic7",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "иционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\". в рамках реализации инвестиционных проектов в сфере туризма в период 2025-2030 гг. с использованием средств федерального бюджета запланировано у",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic8",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "спользованием средств федерального бюджета запланировано участие ао \"корпорация туризм.рф\" не менее, чем в 43 инвестиционных проектах (нарастающим итогом). в 2025 г. предполагается направление ранее предоставленных бюджетных инвестици",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic9",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "тиционных проектах (нарастающим итогом). в 2025 г. предполагается направление ранее предоставленных бюджетных инвестиций ао \"корпорация туризм.рф\" на обеспечение обязательств по финансированию не менее 24 инвестиционных проектов. ",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic10",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "нных бюджетных инвестиций ао \"корпорация туризм.рф\" на обеспечение обязательств по финансированию не менее 24 инвестиционных проектов. в период 2026-2030 гг. в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предп",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic11",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": " финансированию не менее 24 инвестиционных проектов. в период 2026-2030 гг. в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic12",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "изм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств по финансированию инвестиционных проектов, в том числе в 2026 году - не менее 3 проектов, в 2027 году - не менее 2 проектов, в 2028 году - не ",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic13",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционной",
+      "context": "троительства) на территории субъектов российской федерации. предоставлены льготные кредиты в целях реализации инвестиционной поддержки по созданию туристической инфраструктуры российскими банками и государственной корпорацией вэб.рф п",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic14",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "скими банками и государственной корпорацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию туристической инфраструктуры в форме льготного кредитования предоставлены кредиты предпр",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic15",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателям",
+      "context": "ионных проектов по созданию туристической инфраструктуры в форме льготного кредитования предоставлены кредиты предпринимателям на строительство (реконструкцию) объектов капитального строительства, включая выполнение инженерных изысканий",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic16",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "и 78 тыс. номеров (накопительным итогом) при строительстве гостиниц, многофункциональных комплексов и крупных инвестиционных проектов с количеством посещений 53 млн человек в год (в расчете на год, следующий через 2 года после ввода в",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic17",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "питального строительства, реализация которых осуществлялась в рамках мероприятия по государственной поддержке инвестиционных проектов путем софинансирования строительства (реконструкции) объектов обеспечивающей инфраструктуры с длител",
+      "unit_id": "fp_308:profile9",
+      "unit_ids": [
+        "fp_308:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic18",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционные",
+      "context": ". результатом использования субсидии является достижение плановых значений указанного показателя. реализованы инвестиционные проекты по развитию инфраструктуры горнолыжных курортов в форме льготного кредитования российскими банками и ",
+      "unit_id": "fp_308:profile12",
+      "unit_ids": [
+        "fp_308:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic19",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "скими банками и государственной корпорацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию инфраструктуры горнолыжных курортов в форме льготного кредитования предоставлены кредиты",
+      "unit_id": "fp_308:profile12",
+      "unit_ids": [
+        "fp_308:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic20",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателям",
+      "context": "проектов по созданию инфраструктуры горнолыжных курортов в форме льготного кредитования предоставлены кредиты предпринимателям на строительство (реконструкцию) объектов капитального строительства, включая выполнение инженерных изысканий",
+      "unit_id": "fp_308:profile12",
+      "unit_ids": [
+        "fp_308:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic21",
+      "document_id": "fp_308",
+      "frame": "science_innovation",
+      "matched": "технологическое",
+      "context": "паемости государственной программы российской федерации \"развитие туризма\" (нарастающим итогом). осуществлено технологическое присоединение объектов туристических кластеров к инженерным сетям в целях развития туристических кластеров к ",
+      "unit_id": "fp_308:profile10",
+      "unit_ids": [
+        "fp_308:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic22",
+      "document_id": "fp_308",
+      "frame": "science_innovation",
+      "matched": "технологическому",
+      "context": "стеров к инженерным сетям в целях развития туристических кластеров к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфраструктуры к инженерным сетям. реализованы мероприятия субъектами росси",
+      "unit_id": "fp_308:profile10",
+      "unit_ids": [
+        "fp_308:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic23",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": " целях их обеспечения комфортными условиями для отдыха за счет создания и развития современной и качественной туристской инфраструктуры в регионах увеличено число новых поездок по россии за счет создания и развития современной и к",
+      "unit_id": "fp_308:profile2",
+      "unit_ids": [
+        "fp_308:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic24",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "уры в регионах увеличено число новых поездок по россии за счет создания и развития современной и качественной туристской инфраструктуры в регионах увеличивается число новых поездок по россии введены в эксплуатацию номера в модульн",
+      "unit_id": "fp_308:profile3",
+      "unit_ids": [
+        "fp_308:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic25",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "номеров в модульных некапитальных средствах размещения при реализации инвестиционных проектов. ао \"корпорация туризм.рф\" обеспечено сопровождение реализации проектов по созданию инфраструктуры в области туризма и индустрии гос",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic26",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": ". ао \"корпорация туризм.рф\" обеспечено сопровождение реализации проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства ао \"корпорация туризм.рф\" обеспечено консультационное, методологическое, организац",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic27",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "изм.рф\" обеспечено сопровождение реализации проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства ао \"корпорация туризм.рф\" обеспечено консультационное, методологическое, организационное сопровождение проект",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic28",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "ие реализации проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства ао \"корпорация туризм.рф\" обеспечено консультационное, методологическое, организационное сопровождение проектов по созданию инфраст",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic29",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "нсультационное, методологическое, организационное сопровождение проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных ин",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic30",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "дологическое, организационное сопровождение проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация тур",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic31",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "тва обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\". в рамках реализации инвестиционных проектов в сфере туризма в период 2025-2030 гг. с использованием сред",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic32",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ставления бюджетных инвестиций ао \"корпорация туризм.рф\". в рамках реализации инвестиционных проектов в сфере туризма в период 2025-2030 гг. с использованием средств федерального бюджета запланировано участие ао \"корпорация тур",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic33",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "зма в период 2025-2030 гг. с использованием средств федерального бюджета запланировано участие ао \"корпорация туризм.рф\" не менее, чем в 43 инвестиционных проектах (нарастающим итогом). в 2025 г. предполагается направление ран",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic34",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "ающим итогом). в 2025 г. предполагается направление ранее предоставленных бюджетных инвестиций ао \"корпорация туризм.рф\" на обеспечение обязательств по финансированию не менее 24 инвестиционных проектов. в период 2026-2030 гг.",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic35",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "4 инвестиционных проектов. в период 2026-2030 гг. в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств по финансированию инв",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic36",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "оздана инженерная и транспортная инфраструктура на территории субъектов российской федерации в целях развития туристических кластеров в целях развития туристических кластеров к 2030 году будут созданы объекты инженерной и транспортно",
+      "unit_id": "fp_308:profile7",
+      "unit_ids": [
+        "fp_308:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic37",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "уктура на территории субъектов российской федерации в целях развития туристических кластеров в целях развития туристических кластеров к 2030 году будут созданы объекты инженерной и транспортной инфраструктуры (капитального строительс",
+      "unit_id": "fp_308:profile7",
+      "unit_ids": [
+        "fp_308:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic38",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": " российской федерации. предоставлены льготные кредиты в целях реализации инвестиционной поддержки по созданию туристической инфраструктуры российскими банками и государственной корпорацией вэб.рф посредством реализации механизма госу",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic39",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "орацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию туристической инфраструктуры в форме льготного кредитования предоставлены кредиты предпринимателям на строительство (реконс",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic40",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "гостиниц",
+      "context": "метной стоимости. результат достигается при создании 78 тыс. номеров (накопительным итогом) при строительстве гостиниц, многофункциональных комплексов и крупных инвестиционных проектов с количеством посещений 53 млн человек в го",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic41",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ающей инфраструктуры с длительным сроком окупаемости государственной программы российской федерации \"развитие туризма\" (нарастающим итогом). осуществлено технологическое присоединение объектов туристических кластеров к инженерн",
+      "unit_id": "fp_308:profile9",
+      "unit_ids": [
+        "fp_308:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic42",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "ийской федерации \"развитие туризма\" (нарастающим итогом). осуществлено технологическое присоединение объектов туристических кластеров к инженерным сетям в целях развития туристических кластеров к 2030 году будут завершены мероприятия",
+      "unit_id": "fp_308:profile10",
+      "unit_ids": [
+        "fp_308:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic43",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "уществлено технологическое присоединение объектов туристических кластеров к инженерным сетям в целях развития туристических кластеров к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфра",
+      "unit_id": "fp_308:profile10",
+      "unit_ids": [
+        "fp_308:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic44",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "ия туристических кластеров к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфраструктуры к инженерным сетям. реализованы мероприятия субъектами российской федерации в рамках предостав",
+      "unit_id": "fp_308:profile10",
+      "unit_ids": [
+        "fp_308:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic45",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "тся из федерального бюджета бюджетам субъектов российской федерации в целях достижения показателя \"количество туристических поездок по территории российской федерации\" государственной программы российской федерации \"развитие туризма\"",
+      "unit_id": "fp_308:profile11",
+      "unit_ids": [
+        "fp_308:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic46",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "тических поездок по территории российской федерации\" государственной программы российской федерации \"развитие туризма\", являющегося одновременно показателем национального проекта \"туризм и гостеприимство\". результатом использов",
+      "unit_id": "fp_308:profile11",
+      "unit_ids": [
+        "fp_308:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic47",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "рограммы российской федерации \"развитие туризма\", являющегося одновременно показателем национального проекта \"туризм и гостеприимство\". результатом использования субсидии является достижение плановых значений указанного показа",
+      "unit_id": "fp_308:profile11",
+      "unit_ids": [
+        "fp_308:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic48",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "гостеприимство",
+      "context": "российской федерации \"развитие туризма\", являющегося одновременно показателем национального проекта \"туризм и гостеприимство\". результатом использования субсидии является достижение плановых значений указанного показателя. реализованы",
+      "unit_id": "fp_308:profile11",
+      "unit_ids": [
+        "fp_308:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic49",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "ысканий и проектной документации, проверку на предмет достоверности определения сметной стоимости. количество туристических поездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте количество н",
+      "unit_id": "fp_308:profile13",
+      "unit_ids": [
+        "fp_308:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic50",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "ности определения сметной стоимости. количество туристических поездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте количество номеров в классифицированных средствах размещения",
+      "unit_id": "fp_308:profile14",
+      "unit_ids": [
+        "fp_308:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic51",
+      "document_id": "fp_308",
+      "frame": "transport_logistics",
+      "matched": "транспортная",
+      "context": "9 году - не менее 1 проекта, в 2030 году - не менее 7 проектов за счет реинвестирования. создана инженерная и транспортная инфраструктура на территории субъектов российской федерации в целях развития туристических кластеров в целях ",
+      "unit_id": "fp_308:profile7",
+      "unit_ids": [
+        "fp_308:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic52",
+      "document_id": "fp_308",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "ристических кластеров в целях развития туристических кластеров к 2030 году будут созданы объекты инженерной и транспортной инфраструктуры (капитального строительства) на территории субъектов российской федерации. предоставлены льгот",
+      "unit_id": "fp_308:profile7",
+      "unit_ids": [
+        "fp_308:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_308:kwic1",
+      "document_id": "fp_308",
+      "frame": "access_rights",
+      "matched": "доступных",
+      "context": "увеличено количество доступных номеров для размещения граждан в целях их обеспечения комфортными условиями для отдыха за счет создания и раз",
+      "unit_id": "fp_308:profile1",
+      "unit_ids": [
+        "fp_308:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic2",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "ны в эксплуатацию номера в модульных некапитальных средствах размещения оказывается государственная поддержка инвестиционных проектов по созданию модульных некапитальных средств размещения в рамках предоставления субсидий из федеральн",
+      "unit_id": "fp_308:profile4",
+      "unit_ids": [
+        "fp_308:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic3",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателям",
+      "context": "ия расходных обязательств субъектов российской федерации по предоставлению юридическим лицам и индивидуальным предпринимателям бюджетных ассигнований на приобретение и монтаж модульных некапитальных средств размещения. результатом испол",
+      "unit_id": "fp_308:profile4",
+      "unit_ids": [
+        "fp_308:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic4",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "я субсидии является ввод в эксплуатацию номеров в модульных некапитальных средствах размещения при реализации инвестиционных проектов. ао \"корпорация туризм.рф\" обеспечено сопровождение реализации проектов по созданию инфраструктуры в",
+      "unit_id": "fp_308:profile4",
+      "unit_ids": [
+        "fp_308:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic5",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "ждение проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\". в рамках реализации инвестиц",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic6",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ма и индустрии гостеприимства обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\". в рамках реализации инвестиционных проектов в сфере туризма в период 2025-2030 гг.",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic7",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "иционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\". в рамках реализации инвестиционных проектов в сфере туризма в период 2025-2030 гг. с использованием средств федерального бюджета запланировано у",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic8",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "спользованием средств федерального бюджета запланировано участие ао \"корпорация туризм.рф\" не менее, чем в 43 инвестиционных проектах (нарастающим итогом). в 2025 г. предполагается направление ранее предоставленных бюджетных инвестици",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic9",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "тиционных проектах (нарастающим итогом). в 2025 г. предполагается направление ранее предоставленных бюджетных инвестиций ао \"корпорация туризм.рф\" на обеспечение обязательств по финансированию не менее 24 инвестиционных проектов. ",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic10",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "нных бюджетных инвестиций ао \"корпорация туризм.рф\" на обеспечение обязательств по финансированию не менее 24 инвестиционных проектов. в период 2026-2030 гг. в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предп",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic11",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": " финансированию не менее 24 инвестиционных проектов. в период 2026-2030 гг. в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic12",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "изм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств по финансированию инвестиционных проектов, в том числе в 2026 году - не менее 3 проектов, в 2027 году - не менее 2 проектов, в 2028 году - не ",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic13",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционной",
+      "context": "троительства) на территории субъектов российской федерации. предоставлены льготные кредиты в целях реализации инвестиционной поддержки по созданию туристической инфраструктуры российскими банками и государственной корпорацией вэб.рф п",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic14",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "скими банками и государственной корпорацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию туристической инфраструктуры в форме льготного кредитования предоставлены кредиты предпр",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic15",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателям",
+      "context": "ионных проектов по созданию туристической инфраструктуры в форме льготного кредитования предоставлены кредиты предпринимателям на строительство (реконструкцию) объектов капитального строительства, включая выполнение инженерных изысканий",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic16",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "и 78 тыс. номеров (накопительным итогом) при строительстве гостиниц, многофункциональных комплексов и крупных инвестиционных проектов с количеством посещений 53 млн человек в год (в расчете на год, следующий через 2 года после ввода в",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic17",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "питального строительства, реализация которых осуществлялась в рамках мероприятия по государственной поддержке инвестиционных проектов путем софинансирования строительства (реконструкции) объектов обеспечивающей инфраструктуры с длител",
+      "unit_id": "fp_308:profile9",
+      "unit_ids": [
+        "fp_308:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic18",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционные",
+      "context": ". результатом использования субсидии является достижение плановых значений указанного показателя. реализованы инвестиционные проекты по развитию инфраструктуры горнолыжных курортов в форме льготного кредитования российскими банками и ",
+      "unit_id": "fp_308:profile12",
+      "unit_ids": [
+        "fp_308:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic19",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "скими банками и государственной корпорацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию инфраструктуры горнолыжных курортов в форме льготного кредитования предоставлены кредиты",
+      "unit_id": "fp_308:profile12",
+      "unit_ids": [
+        "fp_308:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic20",
+      "document_id": "fp_308",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателям",
+      "context": "проектов по созданию инфраструктуры горнолыжных курортов в форме льготного кредитования предоставлены кредиты предпринимателям на строительство (реконструкцию) объектов капитального строительства, включая выполнение инженерных изысканий",
+      "unit_id": "fp_308:profile12",
+      "unit_ids": [
+        "fp_308:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic21",
+      "document_id": "fp_308",
+      "frame": "science_innovation",
+      "matched": "технологическое",
+      "context": "паемости государственной программы российской федерации \"развитие туризма\" (нарастающим итогом). осуществлено технологическое присоединение объектов туристических кластеров к инженерным сетям в целях развития туристических кластеров к ",
+      "unit_id": "fp_308:profile10",
+      "unit_ids": [
+        "fp_308:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic22",
+      "document_id": "fp_308",
+      "frame": "science_innovation",
+      "matched": "технологическому",
+      "context": "стеров к инженерным сетям в целях развития туристических кластеров к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфраструктуры к инженерным сетям. реализованы мероприятия субъектами росси",
+      "unit_id": "fp_308:profile10",
+      "unit_ids": [
+        "fp_308:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic23",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": " целях их обеспечения комфортными условиями для отдыха за счет создания и развития современной и качественной туристской инфраструктуры в регионах увеличено число новых поездок по россии за счет создания и развития современной и к",
+      "unit_id": "fp_308:profile2",
+      "unit_ids": [
+        "fp_308:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic24",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "уры в регионах увеличено число новых поездок по россии за счет создания и развития современной и качественной туристской инфраструктуры в регионах увеличивается число новых поездок по россии введены в эксплуатацию номера в модульн",
+      "unit_id": "fp_308:profile3",
+      "unit_ids": [
+        "fp_308:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic25",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "номеров в модульных некапитальных средствах размещения при реализации инвестиционных проектов. ао \"корпорация туризм.рф\" обеспечено сопровождение реализации проектов по созданию инфраструктуры в области туризма и индустрии гос",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic26",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": ". ао \"корпорация туризм.рф\" обеспечено сопровождение реализации проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства ао \"корпорация туризм.рф\" обеспечено консультационное, методологическое, организац",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic27",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "изм.рф\" обеспечено сопровождение реализации проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства ао \"корпорация туризм.рф\" обеспечено консультационное, методологическое, организационное сопровождение проект",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic28",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "ие реализации проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства ао \"корпорация туризм.рф\" обеспечено консультационное, методологическое, организационное сопровождение проектов по созданию инфраст",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic29",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "нсультационное, методологическое, организационное сопровождение проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных ин",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic30",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "дологическое, организационное сопровождение проектов по созданию инфраструктуры в области туризма и индустрии гостеприимства обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация тур",
+      "unit_id": "fp_308:profile5",
+      "unit_ids": [
+        "fp_308:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic31",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "тва обеспечена реализация инвестиционных проектов в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\". в рамках реализации инвестиционных проектов в сфере туризма в период 2025-2030 гг. с использованием сред",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic32",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ставления бюджетных инвестиций ао \"корпорация туризм.рф\". в рамках реализации инвестиционных проектов в сфере туризма в период 2025-2030 гг. с использованием средств федерального бюджета запланировано участие ао \"корпорация тур",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic33",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "зма в период 2025-2030 гг. с использованием средств федерального бюджета запланировано участие ао \"корпорация туризм.рф\" не менее, чем в 43 инвестиционных проектах (нарастающим итогом). в 2025 г. предполагается направление ран",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic34",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "ающим итогом). в 2025 г. предполагается направление ранее предоставленных бюджетных инвестиций ао \"корпорация туризм.рф\" на обеспечение обязательств по финансированию не менее 24 инвестиционных проектов. в период 2026-2030 гг.",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic35",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "4 инвестиционных проектов. в период 2026-2030 гг. в рамках предоставления бюджетных инвестиций ао \"корпорация туризм.рф\" предполагается направление средств федерального бюджета на обеспечение обязательств по финансированию инв",
+      "unit_id": "fp_308:profile6",
+      "unit_ids": [
+        "fp_308:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic36",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "оздана инженерная и транспортная инфраструктура на территории субъектов российской федерации в целях развития туристических кластеров в целях развития туристических кластеров к 2030 году будут созданы объекты инженерной и транспортно",
+      "unit_id": "fp_308:profile7",
+      "unit_ids": [
+        "fp_308:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic37",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "уктура на территории субъектов российской федерации в целях развития туристических кластеров в целях развития туристических кластеров к 2030 году будут созданы объекты инженерной и транспортной инфраструктуры (капитального строительс",
+      "unit_id": "fp_308:profile7",
+      "unit_ids": [
+        "fp_308:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic38",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": " российской федерации. предоставлены льготные кредиты в целях реализации инвестиционной поддержки по созданию туристической инфраструктуры российскими банками и государственной корпорацией вэб.рф посредством реализации механизма госу",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic39",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "орацией вэб.рф посредством реализации механизма государственной поддержки инвестиционных проектов по созданию туристической инфраструктуры в форме льготного кредитования предоставлены кредиты предпринимателям на строительство (реконс",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic40",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "гостиниц",
+      "context": "метной стоимости. результат достигается при создании 78 тыс. номеров (накопительным итогом) при строительстве гостиниц, многофункциональных комплексов и крупных инвестиционных проектов с количеством посещений 53 млн человек в го",
+      "unit_id": "fp_308:profile8",
+      "unit_ids": [
+        "fp_308:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic41",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ающей инфраструктуры с длительным сроком окупаемости государственной программы российской федерации \"развитие туризма\" (нарастающим итогом). осуществлено технологическое присоединение объектов туристических кластеров к инженерн",
+      "unit_id": "fp_308:profile9",
+      "unit_ids": [
+        "fp_308:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic42",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "ийской федерации \"развитие туризма\" (нарастающим итогом). осуществлено технологическое присоединение объектов туристических кластеров к инженерным сетям в целях развития туристических кластеров к 2030 году будут завершены мероприятия",
+      "unit_id": "fp_308:profile10",
+      "unit_ids": [
+        "fp_308:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic43",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "уществлено технологическое присоединение объектов туристических кластеров к инженерным сетям в целях развития туристических кластеров к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфра",
+      "unit_id": "fp_308:profile10",
+      "unit_ids": [
+        "fp_308:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic44",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "ия туристических кластеров к 2030 году будут завершены мероприятия по технологическому присоединению объектов туристской инфраструктуры к инженерным сетям. реализованы мероприятия субъектами российской федерации в рамках предостав",
+      "unit_id": "fp_308:profile10",
+      "unit_ids": [
+        "fp_308:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic45",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "тся из федерального бюджета бюджетам субъектов российской федерации в целях достижения показателя \"количество туристических поездок по территории российской федерации\" государственной программы российской федерации \"развитие туризма\"",
+      "unit_id": "fp_308:profile11",
+      "unit_ids": [
+        "fp_308:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic46",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "тических поездок по территории российской федерации\" государственной программы российской федерации \"развитие туризма\", являющегося одновременно показателем национального проекта \"туризм и гостеприимство\". результатом использов",
+      "unit_id": "fp_308:profile11",
+      "unit_ids": [
+        "fp_308:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic47",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "рограммы российской федерации \"развитие туризма\", являющегося одновременно показателем национального проекта \"туризм и гостеприимство\". результатом использования субсидии является достижение плановых значений указанного показа",
+      "unit_id": "fp_308:profile11",
+      "unit_ids": [
+        "fp_308:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic48",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "гостеприимство",
+      "context": "российской федерации \"развитие туризма\", являющегося одновременно показателем национального проекта \"туризм и гостеприимство\". результатом использования субсидии является достижение плановых значений указанного показателя. реализованы",
+      "unit_id": "fp_308:profile11",
+      "unit_ids": [
+        "fp_308:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic49",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "ысканий и проектной документации, проверку на предмет достоверности определения сметной стоимости. количество туристических поездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте количество н",
+      "unit_id": "fp_308:profile13",
+      "unit_ids": [
+        "fp_308:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic50",
+      "document_id": "fp_308",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "ности определения сметной стоимости. количество туристических поездок по территории российской федерации доля туристской отрасли в валовом внутреннем продукте количество номеров в классифицированных средствах размещения",
+      "unit_id": "fp_308:profile14",
+      "unit_ids": [
+        "fp_308:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic51",
+      "document_id": "fp_308",
+      "frame": "transport_logistics",
+      "matched": "транспортная",
+      "context": "9 году - не менее 1 проекта, в 2030 году - не менее 7 проектов за счет реинвестирования. создана инженерная и транспортная инфраструктура на территории субъектов российской федерации в целях развития туристических кластеров в целях ",
+      "unit_id": "fp_308:profile7",
+      "unit_ids": [
+        "fp_308:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_308:kwic52",
+      "document_id": "fp_308",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "ристических кластеров в целях развития туристических кластеров к 2030 году будут созданы объекты инженерной и транспортной инфраструктуры (капитального строительства) на территории субъектов российской федерации. предоставлены льгот",
+      "unit_id": "fp_308:profile7",
+      "unit_ids": [
+        "fp_308:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/308",
+  "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a"
+}

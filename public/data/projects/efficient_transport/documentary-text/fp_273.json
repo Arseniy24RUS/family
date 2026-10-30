@@ -1,0 +1,802 @@
+{
+  "document": {
+    "project_id": "efficient_transport",
+    "kind": "fp",
+    "id": "fp_273",
+    "url": "https://databudget.ru/projects/fp/273",
+    "sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+    "retrieved_at": "2026-10-19T14:38:32.283058+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/ed/ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103.html",
+    "document_id": "fp_273",
+    "code": "Т6",
+    "title": "[Т6] Развитие аэродромов",
+    "publisher_version": "26.31",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 206,
+    "n_tokens": 206,
+    "source_url": "https://databudget.ru/projects/fp/273",
+    "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+    "profile_text_sha256": "ca4d17361dc704a32b83d7516879db208abd34ed49a459dcd9c91d8feca18bb4",
+    "archive_entry": "efficient_transport/fp_273.html",
+    "bytes": 1335163,
+    "download_path": "downloads/projects/efficient_transport/documentary/sources/fp_273.html",
+    "profile_original_document_id": "html:ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_273:profile1",
+      "document_id": "fp_273",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "обеспечен рост авиационной подвижности населения российской федерации к 2030 году не менее чем на 50 % (к уровню 2023 года), в том числе за счет развития инфраструктуры опорной сети аэродромов",
+      "node_id": "fp_273:passport-task-02:83875dcde77ed500",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_273:profile2",
+      "document_id": "fp_273",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года)",
+      "node_id": "fp_273:passport-task-07:4dbf9c23492a0959",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_273:profile3",
+      "document_id": "fp_273",
+      "project_id": "efficient_transport",
+      "kind": "goal",
+      "text": "увеличение мощности опорной сети аэродромов в составе единой опорной транспортной сети для удовлетворения потребности жителей российской федерации в воздушных перевозках",
+      "node_id": "fp_273:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "n_tokens": 18,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_273:profile4",
+      "document_id": "fp_273",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "осуществлены строительство и реконструкция аэропортовых комплексов в федеральной собственности в рамках концессионных соглашений в целях обеспечения роста интенсивности перевозок и развития туризма осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в федеральной собственности (включая реконструкцию (строительство) взлетно-посадочных полос), а также реконструкция вспомогательных объектов аэропортовой инфраструктуры (рулежных дорожек, перронов, аварийно-спасательных станций, ограждений, патрульных дорог, ангаров и др.).",
+      "node_id": "fp_273:passport-result-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "n_tokens": 46,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_273:profile5",
+      "document_id": "fp_273",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "осуществлено строительство (реконструкция) аэропортовых комплексов в собственности субъектов российской федерации в целях обеспечения роста транспортной связанности и авиационной транспортной доступности и достижения результата осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в собственности субъектов российской федерации (включая реконструкцию (строительство) взлетно-посадочных полос).",
+      "node_id": "fp_273:passport-result-54:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "n_tokens": 34,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_273:profile6",
+      "document_id": "fp_273",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "осуществлены строительство и реконструкция аэропортовых комплексов в федеральной собственности в целях обеспечения роста транспортной связанности и авиационной транспортной доступности осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в федеральной собственности (включая реконструкцию (строительство) взлетно-посадочных полос, а также реконструкцию вспомогательных объектов аэропортовой инфраструктуры (рулежных дорожек, перронов, аварийно-спасательных станций, ограждений, патрульных дорог, ангаров и др.).",
+      "node_id": "fp_273:passport-result-46:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "n_tokens": 44,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_273:profile7",
+      "document_id": "fp_273",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "рост расчетного пассажиропотока аэродромов опорной сети",
+      "node_id": "fp_273:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "n_tokens": 6,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_273:profile8",
+      "document_id": "fp_273",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "рост пропускной способности инфраструктуры опорной сети аэродромов",
+      "node_id": "fp_273:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_273:profile9",
+      "document_id": "fp_273",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "авиационная подвижность населения российской федерации",
+      "node_id": "fp_273:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "n_tokens": 5,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_273:kwic1",
+      "document_id": "fp_273",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": " субъектов российской федерации в целях обеспечения роста транспортной связанности и авиационной транспортной доступности и достижения результата осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в с",
+      "unit_id": "fp_273:profile5",
+      "unit_ids": [
+        "fp_273:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic2",
+      "document_id": "fp_273",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "сов в федеральной собственности в целях обеспечения роста транспортной связанности и авиационной транспортной доступности осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в федеральной собственности",
+      "unit_id": "fp_273:profile6",
+      "unit_ids": [
+        "fp_273:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic3",
+      "document_id": "fp_273",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": " собственности в рамках концессионных соглашений в целях обеспечения роста интенсивности перевозок и развития туризма осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в федеральной собственности",
+      "unit_id": "fp_273:profile4",
+      "unit_ids": [
+        "fp_273:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic4",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "авиационной",
+      "context": "обеспечен рост авиационной подвижности населения российской федерации к 2030 году не менее чем на 50 % (к уровню 2023 года), в том числе",
+      "unit_id": "fp_273:profile1",
+      "unit_ids": [
+        "fp_273:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic5",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "азвития инфраструктуры опорной сети аэродромов увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_273:profile2",
+      "unit_ids": [
+        "fp_273:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic6",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "по итогам 2030 года (к уровню 2024 года) увеличение мощности опорной сети аэродромов в составе единой опорной транспортной сети для удовлетворения потребности жителей российской федерации в воздушных перевозках осуществлены строител",
+      "unit_id": "fp_273:profile3",
+      "unit_ids": [
+        "fp_273:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic7",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "перевозках",
+      "context": "таве единой опорной транспортной сети для удовлетворения потребности жителей российской федерации в воздушных перевозках осуществлены строительство и реконструкция аэропортовых комплексов в федеральной собственности в рамках конце",
+      "unit_id": "fp_273:profile3",
+      "unit_ids": [
+        "fp_273:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic8",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": "плексов в федеральной собственности в рамках концессионных соглашений в целях обеспечения роста интенсивности перевозок и развития туризма осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в федера",
+      "unit_id": "fp_273:profile4",
+      "unit_ids": [
+        "fp_273:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic9",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "эропортовой инфраструктуры (рулежных дорожек, перронов, аварийно-спасательных станций, ограждений, патрульных дорог, ангаров и др.). осуществлено строительство (реконструкция) аэропортовых комплексов в собственности субъектов",
+      "unit_id": "fp_273:profile4",
+      "unit_ids": [
+        "fp_273:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic10",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "конструкция) аэропортовых комплексов в собственности субъектов российской федерации в целях обеспечения роста транспортной связанности и авиационной транспортной доступности и достижения результата осуществляется реконструкция и стр",
+      "unit_id": "fp_273:profile5",
+      "unit_ids": [
+        "fp_273:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic11",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "авиационной",
+      "context": "омплексов в собственности субъектов российской федерации в целях обеспечения роста транспортной связанности и авиационной транспортной доступности и достижения результата осуществляется реконструкция и строительство аэропортовых ко",
+      "unit_id": "fp_273:profile5",
+      "unit_ids": [
+        "fp_273:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic12",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "собственности субъектов российской федерации в целях обеспечения роста транспортной связанности и авиационной транспортной доступности и достижения результата осуществляется реконструкция и строительство аэропортовых комплексов, нах",
+      "unit_id": "fp_273:profile5",
+      "unit_ids": [
+        "fp_273:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic13",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "ы строительство и реконструкция аэропортовых комплексов в федеральной собственности в целях обеспечения роста транспортной связанности и авиационной транспортной доступности осуществляется реконструкция и строительство аэропортовых ",
+      "unit_id": "fp_273:profile6",
+      "unit_ids": [
+        "fp_273:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic14",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "авиационной",
+      "context": "кция аэропортовых комплексов в федеральной собственности в целях обеспечения роста транспортной связанности и авиационной транспортной доступности осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в ",
+      "unit_id": "fp_273:profile6",
+      "unit_ids": [
+        "fp_273:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic15",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "товых комплексов в федеральной собственности в целях обеспечения роста транспортной связанности и авиационной транспортной доступности осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в федеральной с",
+      "unit_id": "fp_273:profile6",
+      "unit_ids": [
+        "fp_273:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic16",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "эропортовой инфраструктуры (рулежных дорожек, перронов, аварийно-спасательных станций, ограждений, патрульных дорог, ангаров и др.). рост расчетного пассажиропотока аэродромов опорной сети рост пропускной способности инфрастр",
+      "unit_id": "fp_273:profile6",
+      "unit_ids": [
+        "fp_273:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic17",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "авиационная",
+      "context": "го пассажиропотока аэродромов опорной сети рост пропускной способности инфраструктуры опорной сети аэродромов авиационная подвижность населения российской федерации",
+      "unit_id": "fp_273:profile9",
+      "unit_ids": [
+        "fp_273:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_273:kwic1",
+      "document_id": "fp_273",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": " субъектов российской федерации в целях обеспечения роста транспортной связанности и авиационной транспортной доступности и достижения результата осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в с",
+      "unit_id": "fp_273:profile5",
+      "unit_ids": [
+        "fp_273:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic2",
+      "document_id": "fp_273",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "сов в федеральной собственности в целях обеспечения роста транспортной связанности и авиационной транспортной доступности осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в федеральной собственности",
+      "unit_id": "fp_273:profile6",
+      "unit_ids": [
+        "fp_273:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic3",
+      "document_id": "fp_273",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": " собственности в рамках концессионных соглашений в целях обеспечения роста интенсивности перевозок и развития туризма осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в федеральной собственности",
+      "unit_id": "fp_273:profile4",
+      "unit_ids": [
+        "fp_273:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic4",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "авиационной",
+      "context": "обеспечен рост авиационной подвижности населения российской федерации к 2030 году не менее чем на 50 % (к уровню 2023 года), в том числе",
+      "unit_id": "fp_273:profile1",
+      "unit_ids": [
+        "fp_273:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic5",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "азвития инфраструктуры опорной сети аэродромов увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_273:profile2",
+      "unit_ids": [
+        "fp_273:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic6",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "по итогам 2030 года (к уровню 2024 года) увеличение мощности опорной сети аэродромов в составе единой опорной транспортной сети для удовлетворения потребности жителей российской федерации в воздушных перевозках осуществлены строител",
+      "unit_id": "fp_273:profile3",
+      "unit_ids": [
+        "fp_273:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic7",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "перевозках",
+      "context": "таве единой опорной транспортной сети для удовлетворения потребности жителей российской федерации в воздушных перевозках осуществлены строительство и реконструкция аэропортовых комплексов в федеральной собственности в рамках конце",
+      "unit_id": "fp_273:profile3",
+      "unit_ids": [
+        "fp_273:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic8",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": "плексов в федеральной собственности в рамках концессионных соглашений в целях обеспечения роста интенсивности перевозок и развития туризма осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в федера",
+      "unit_id": "fp_273:profile4",
+      "unit_ids": [
+        "fp_273:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic9",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "эропортовой инфраструктуры (рулежных дорожек, перронов, аварийно-спасательных станций, ограждений, патрульных дорог, ангаров и др.). осуществлено строительство (реконструкция) аэропортовых комплексов в собственности субъектов",
+      "unit_id": "fp_273:profile4",
+      "unit_ids": [
+        "fp_273:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic10",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "конструкция) аэропортовых комплексов в собственности субъектов российской федерации в целях обеспечения роста транспортной связанности и авиационной транспортной доступности и достижения результата осуществляется реконструкция и стр",
+      "unit_id": "fp_273:profile5",
+      "unit_ids": [
+        "fp_273:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic11",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "авиационной",
+      "context": "омплексов в собственности субъектов российской федерации в целях обеспечения роста транспортной связанности и авиационной транспортной доступности и достижения результата осуществляется реконструкция и строительство аэропортовых ко",
+      "unit_id": "fp_273:profile5",
+      "unit_ids": [
+        "fp_273:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic12",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "собственности субъектов российской федерации в целях обеспечения роста транспортной связанности и авиационной транспортной доступности и достижения результата осуществляется реконструкция и строительство аэропортовых комплексов, нах",
+      "unit_id": "fp_273:profile5",
+      "unit_ids": [
+        "fp_273:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic13",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "ы строительство и реконструкция аэропортовых комплексов в федеральной собственности в целях обеспечения роста транспортной связанности и авиационной транспортной доступности осуществляется реконструкция и строительство аэропортовых ",
+      "unit_id": "fp_273:profile6",
+      "unit_ids": [
+        "fp_273:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic14",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "авиационной",
+      "context": "кция аэропортовых комплексов в федеральной собственности в целях обеспечения роста транспортной связанности и авиационной транспортной доступности осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в ",
+      "unit_id": "fp_273:profile6",
+      "unit_ids": [
+        "fp_273:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic15",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "товых комплексов в федеральной собственности в целях обеспечения роста транспортной связанности и авиационной транспортной доступности осуществляется реконструкция и строительство аэропортовых комплексов, находящихся в федеральной с",
+      "unit_id": "fp_273:profile6",
+      "unit_ids": [
+        "fp_273:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic16",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "эропортовой инфраструктуры (рулежных дорожек, перронов, аварийно-спасательных станций, ограждений, патрульных дорог, ангаров и др.). рост расчетного пассажиропотока аэродромов опорной сети рост пропускной способности инфрастр",
+      "unit_id": "fp_273:profile6",
+      "unit_ids": [
+        "fp_273:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_273:kwic17",
+      "document_id": "fp_273",
+      "frame": "transport_logistics",
+      "matched": "авиационная",
+      "context": "го пассажиропотока аэродромов опорной сети рост пропускной способности инфраструктуры опорной сети аэродромов авиационная подвижность населения российской федерации",
+      "unit_id": "fp_273:profile9",
+      "unit_ids": [
+        "fp_273:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "source_url": "https://databudget.ru/projects/fp/273",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/273",
+  "source_sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103"
+}

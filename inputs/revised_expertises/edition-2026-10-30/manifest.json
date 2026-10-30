@@ -1,0 +1,473 @@
+{
+  "schema": "national-projects.current-reports/1",
+  "edition_date": "2026-10-30",
+  "source_archive": {
+    "filename": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+    "sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+    "entries": 12
+  },
+  "reports": [
+    {
+      "project_id": "family",
+      "title": "Семья",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Semya_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Semya_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/family/current/expertise_family_2026-10-30.docx",
+        "filename": "expertise_family_2026-10-30.docx",
+        "bytes": 8704823,
+        "sha256": "451ccfa4829ce75e9c8f64cde9110fcdfb448d8c6c75c99e3f637dc2d561247a"
+      },
+      "pdf": {
+        "url": "downloads/projects/family/current/expertise_family_2026-10-30.pdf",
+        "filename": "expertise_family_2026-10-30.pdf",
+        "pages": 73,
+        "bytes": 7702734,
+        "sha256": "9576ea3bc3f3f6c4d7b9d425533664d363af4215bdc3cc5f2c216b5e128d18b5"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "Caladea-Regular",
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    },
+    {
+      "project_id": "long_active_life",
+      "title": "Продолжительная и активная жизнь",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Prodolzhitelnaya_i_aktivnaya_zhizn_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Prodolzhitelnaya_i_aktivnaya_zhizn_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/long_active_life/current/expertise_long_active_life_2026-10-30.docx",
+        "filename": "expertise_long_active_life_2026-10-30.docx",
+        "bytes": 4834117,
+        "sha256": "2785e826dffae33c0b6dba463bf9975fb4e90ac8a1b555e3acc1201f1699177b"
+      },
+      "pdf": {
+        "url": "downloads/projects/long_active_life/current/expertise_long_active_life_2026-10-30.pdf",
+        "filename": "expertise_long_active_life_2026-10-30.pdf",
+        "pages": 121,
+        "bytes": 4663006,
+        "sha256": "dfb7a6a4cc50c972d388184fea00134edb489f4a6e7795767db58bbe6f7a79b9"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic",
+          "NotoSerif-Regular",
+          "OpenSymbol"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    },
+    {
+      "project_id": "youth_children",
+      "title": "Молодёжь и дети",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Molodezh_i_deti_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Molodezh_i_deti_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/youth_children/current/expertise_youth_children_2026-10-30.docx",
+        "filename": "expertise_youth_children_2026-10-30.docx",
+        "bytes": 7005436,
+        "sha256": "48e736a6e21cac091ea67aa0e02f88088bb8c036666c6f60872ac7e8b4d76a82"
+      },
+      "pdf": {
+        "url": "downloads/projects/youth_children/current/expertise_youth_children_2026-10-30.pdf",
+        "filename": "expertise_youth_children_2026-10-30.pdf",
+        "pages": 92,
+        "bytes": 4986830,
+        "sha256": "f2dc5027d2c73de86bf15f7340221481480117686554bd5c52051b568aefcf85"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic",
+          "OpenSymbol"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    },
+    {
+      "project_id": "tourism",
+      "title": "Туризм и гостеприимство",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Turizm_i_gostepriimstvo_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Turizm_i_gostepriimstvo_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/tourism/current/expertise_tourism_2026-10-30.docx",
+        "filename": "expertise_tourism_2026-10-30.docx",
+        "bytes": 1834240,
+        "sha256": "84abf075aba492cf81e11d6b72df442ce6019e43433be18da804740c47380181"
+      },
+      "pdf": {
+        "url": "downloads/projects/tourism/current/expertise_tourism_2026-10-30.pdf",
+        "filename": "expertise_tourism_2026-10-30.pdf",
+        "pages": 116,
+        "bytes": 2830448,
+        "sha256": "7f6593d8c6fe3d26471419d8ac6d57ead8b3d52b64a82ab56f5e4733c0c19a3f"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic",
+          "OpenSymbol"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    },
+    {
+      "project_id": "personnel",
+      "title": "Кадры",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Kadry_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Kadry_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/personnel/current/expertise_personnel_2026-10-30.docx",
+        "filename": "expertise_personnel_2026-10-30.docx",
+        "bytes": 4853711,
+        "sha256": "87bb5acefd0dd922f7b34bc59858da3f1944d30851a3d528c3339b167b96498a"
+      },
+      "pdf": {
+        "url": "downloads/projects/personnel/current/expertise_personnel_2026-10-30.pdf",
+        "filename": "expertise_personnel_2026-10-30.pdf",
+        "pages": 110,
+        "bytes": 3888864,
+        "sha256": "c214fe3d1c4a5e8694c98d3297688de15db74595372842aab45336cdd7541f63"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic",
+          "NotoSerif-Regular",
+          "OpenSymbol"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    },
+    {
+      "project_id": "life_infrastructure",
+      "title": "Инфраструктура для жизни",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Infrastruktura_dlya_zhizni_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Infrastruktura_dlya_zhizni_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/life_infrastructure/current/expertise_life_infrastructure_2026-10-30.docx",
+        "filename": "expertise_life_infrastructure_2026-10-30.docx",
+        "bytes": 3299069,
+        "sha256": "c44cb7e532425b07b20861e5119773505cc8e8ed01bae136abbb00489d0b4e78"
+      },
+      "pdf": {
+        "url": "downloads/projects/life_infrastructure/current/expertise_life_infrastructure_2026-10-30.pdf",
+        "filename": "expertise_life_infrastructure_2026-10-30.pdf",
+        "pages": 84,
+        "bytes": 3900550,
+        "sha256": "15bd960247504e305805001f4f549985b8953cedc5a0d54d525a938b47f61f18"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic",
+          "NotoSerif-Regular",
+          "OpenSymbol"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    },
+    {
+      "project_id": "efficient_transport",
+      "title": "Эффективная транспортная система",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Effektivnaya_transportnaya_sistema_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Effektivnaya_transportnaya_sistema_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/efficient_transport/current/expertise_efficient_transport_2026-10-30.docx",
+        "filename": "expertise_efficient_transport_2026-10-30.docx",
+        "bytes": 1141914,
+        "sha256": "248695e95e712b63b3017ba4f12bd08eaf0bddc2def2175fd9c117eaf8eedfd1"
+      },
+      "pdf": {
+        "url": "downloads/projects/efficient_transport/current/expertise_efficient_transport_2026-10-30.pdf",
+        "filename": "expertise_efficient_transport_2026-10-30.pdf",
+        "pages": 98,
+        "bytes": 2343617,
+        "sha256": "af7a3405801161f09a30bebb14b2dc483e6e7c8f59a1aab68d74d257f90c1764"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic",
+          "OpenSymbol"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    },
+    {
+      "project_id": "environment",
+      "title": "Экологическое благополучие",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Ekologicheskoe_blagopoluchie_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Ekologicheskoe_blagopoluchie_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/environment/current/expertise_environment_2026-10-30.docx",
+        "filename": "expertise_environment_2026-10-30.docx",
+        "bytes": 2822127,
+        "sha256": "24c06c6bcfb03873e987aa3bcf6957efc869239421a87371bd60653f08d981cc"
+      },
+      "pdf": {
+        "url": "downloads/projects/environment/current/expertise_environment_2026-10-30.pdf",
+        "filename": "expertise_environment_2026-10-30.pdf",
+        "pages": 84,
+        "bytes": 3423780,
+        "sha256": "d6019add2f941d2a5ad7b3278e590abc59d87be1c55509ba85843ce58b064cd1"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic",
+          "NotoSerif-Regular",
+          "OpenSymbol"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    },
+    {
+      "project_id": "international_export",
+      "title": "Международная кооперация и экспорт",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Mezhdunarodnaya_kooperatsiya_i_eksport_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Mezhdunarodnaya_kooperatsiya_i_eksport_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/international_export/current/expertise_international_export_2026-10-30.docx",
+        "filename": "expertise_international_export_2026-10-30.docx",
+        "bytes": 1701426,
+        "sha256": "a7d104d0ddfb82f7965b5fa334598d0e542ee641ce7b47eb31ec191df75126c9"
+      },
+      "pdf": {
+        "url": "downloads/projects/international_export/current/expertise_international_export_2026-10-30.pdf",
+        "filename": "expertise_international_export_2026-10-30.pdf",
+        "pages": 108,
+        "bytes": 2931481,
+        "sha256": "1365bc27391cce8b308bbb23de3d199759589019244e1c611fbb54e74302a23f"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic",
+          "NotoSerif-Regular",
+          "OpenSymbol"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    },
+    {
+      "project_id": "data_economy",
+      "title": "Экономика данных и цифровая трансформация государства",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Ekonomika_dannyh_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Ekonomika_dannyh_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/data_economy/current/expertise_data_economy_2026-10-30.docx",
+        "filename": "expertise_data_economy_2026-10-30.docx",
+        "bytes": 2694678,
+        "sha256": "85e1d99757528e8db21caa6841f66517a903452703a8d4a69b3ba817a046af15"
+      },
+      "pdf": {
+        "url": "downloads/projects/data_economy/current/expertise_data_economy_2026-10-30.pdf",
+        "filename": "expertise_data_economy_2026-10-30.pdf",
+        "pages": 122,
+        "bytes": 3755275,
+        "sha256": "1a7cf1512289e61bf3f638ef5a9d13e3ed24900815b316daecd9508421e0755b"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic",
+          "OpenSymbol"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    },
+    {
+      "project_id": "competitive_economy",
+      "title": "Эффективная и конкурентная экономика",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Effektivnaya_i_konkurentnaya_ekonomika_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Effektivnaya_i_konkurentnaya_ekonomika_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/competitive_economy/current/expertise_competitive_economy_2026-10-30.docx",
+        "filename": "expertise_competitive_economy_2026-10-30.docx",
+        "bytes": 2654881,
+        "sha256": "328b18efa81b70262dbe824e1811574f9a19df99864a8ecdb99ae5ddb4763eee"
+      },
+      "pdf": {
+        "url": "downloads/projects/competitive_economy/current/expertise_competitive_economy_2026-10-30.pdf",
+        "filename": "expertise_competitive_economy_2026-10-30.pdf",
+        "pages": 116,
+        "bytes": 3380209,
+        "sha256": "ce2e1d355ca7cce582117928a2a8fcdfa4e666d35c0f8ccb1ba769551c211536"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic",
+          "OpenSymbol"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    },
+    {
+      "project_id": "health_technologies",
+      "title": "Новые технологии сбережения здоровья",
+      "edition_date": "2026-10-30",
+      "edition_label": "Редакция от 30 октября 2026 года",
+      "source_docx": "inputs/revised_expertises/edition-2026-10-30/Ekspertiza_Novye_tehnologii_sberezheniya_zdorovya_2026_red.docx",
+      "source_archive_member": "Ekspertiza_Novye_tehnologii_sberezheniya_zdorovya_2026_red.docx",
+      "docx": {
+        "url": "downloads/projects/health_technologies/current/expertise_health_technologies_2026-10-30.docx",
+        "filename": "expertise_health_technologies_2026-10-30.docx",
+        "bytes": 2522564,
+        "sha256": "5c674f34e65a88b84ac1373a31d5c5ac6495eaf9b326c0d576b877d5ef2a4f5d"
+      },
+      "pdf": {
+        "url": "downloads/projects/health_technologies/current/expertise_health_technologies_2026-10-30.pdf",
+        "filename": "expertise_health_technologies_2026-10-30.pdf",
+        "pages": 106,
+        "bytes": 3543727,
+        "sha256": "6576434aa682f4042934f4c4201c5bc2ce535ac32f451123f6d52bbc0ea9c1d4"
+      },
+      "provenance": {
+        "source": "Авторская редакция, предоставленная пользователем",
+        "source_archive": "Ekspertizy_natsproektov_12_redaktsiya_2026-10-30.zip",
+        "source_archive_sha256": "acfeb6fb3b49d97a5468be0c7da95f4f22ca8ccab54cf7c33f786215863e5ff5",
+        "docx_modified": false,
+        "pdf_conversion": "LibreOffice Writer PDF export",
+        "pdf_conversion_version": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+        "content_role": "Текущая авторская редакция полного отчёта. Предыдущие исходные материалы сохранены для проверки опубликованных расчётов.",
+        "pdf_fonts_embedded": true,
+        "pdf_fonts": [
+          "LiberationSerif",
+          "LiberationSerif-Bold",
+          "LiberationSerif-Italic",
+          "NotoSerif-Regular",
+          "OpenSymbol"
+        ],
+        "font_substitution": "Times New Roman → Liberation Serif; математические символы экспортированы доступными встроенными шрифтами. Авторский DOCX сохранён без изменений."
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "test": "failure_preserves_last_verified_data",
+  "passed": true,
+  "source_and_provenance_files_unchanged": 12,
+  "attempted_sources": 2,
+  "failed_sources": 2,
+  "deferred_sources": 4,
+  "published_at_unchanged": "2026-10-15T19:17:59+00:00",
+  "live_network_used": false
+}

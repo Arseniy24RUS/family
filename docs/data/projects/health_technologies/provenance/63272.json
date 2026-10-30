@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "project_id": "health_technologies",
+  "source_id": "63272",
+  "origin_kind": "no_numeric_publication_recovered",
+  "source_url": "https://fedstat.ru/indicator/63272",
+  "republisher_url": "https://repository.nsedc.ru/dataset/emiss_63272",
+  "license": null,
+  "license_url": null,
+  "attribution": "ЕМИСС / Минздрав России; сохранённая републикация Национального центра социально-экономических данных",
+  "direct_emiss_verified": false,
+  "acquired_at": null,
+  "published_at": null,
+  "date_source": null,
+  "repository_dataset_update": null,
+  "repository_metadata_modified": null,
+  "repository_date_caution": "Дата метаданных репозитория не заменяет дату обновления данных во встроенном паспорте XLS.",
+  "metadata": {},
+  "input_files": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63272",
+      "retrieved_at": "2026-10-29T11:15:26.904122+00:00",
+      "error": "HTTPError",
+      "message": "HTTP Error 404: Not Found"
+    }
+  ],
+  "cross_validation": {},
+  "source_catalogue_capture_date": null,
+  "source_catalogue_sha256": "20ecafed25984128ed8db58844aaaa78c3395fe7f919e2562901a2cd27b5cd01",
+  "published_sha256": "a9b73fba4c1716b71f1b9f4f4abe6504ed90c60e39526aec52981ba168a7dba5"
+}

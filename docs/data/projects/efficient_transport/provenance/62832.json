@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "source_id": "62832",
+  "source_url": "https://www.fedstat.ru/indicator/62832",
+  "snapshot_id": "023268ab3d328a164be7ea89a7758dd1ebeab85b72d6d7e09abd9c6782f60258",
+  "acquired_at": "2026-10-15T19:44:04+00:00",
+  "statistical_as_of": "2026-10-15",
+  "origin_kind": "live_emiss",
+  "observations": 15,
+  "numeric": 15,
+  "published_file": "data/projects/efficient_transport/series/62832.json",
+  "published_sha256": "77e760a6debbef081031625db0428315dfe6a5c23f3a1f91f8ba25989991485d",
+  "input_bundle": "downloads/projects/efficient_transport/statistics/emiss_inputs/62832.zip",
+  "input_sha256": "07f4b3296fea9606640e50d145a4e059b907e93c846581e35d88f26538d604c2",
+  "evidence_files": [
+    {
+      "path": "source/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+      "bytes": 80943,
+      "sha256": "64328c4c1adb2ee2d6bf4438bfecc4c3f1b6cfd6cc1b938c9a31e8efa8c095df"
+    },
+    {
+      "path": "source/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+      "bytes": 2563,
+      "sha256": "125062fed48eec59dc1a0563bc29ca230f5a056071f266ec95407e66f849c279"
+    },
+    {
+      "path": "source/acquisition_records/grid_2026-10-15T194327_0000/metadata.html",
+      "bytes": 80943,
+      "sha256": "95d8c6eafdabde27f1330c39c7530c1d1ebf27002539818e973c3b99afacb3e5"
+    },
+    {
+      "path": "source/acquisition_records/grid_2026-10-15T194327_0000/metadata.json",
+      "bytes": 2563,
+      "sha256": "125062fed48eec59dc1a0563bc29ca230f5a056071f266ec95407e66f849c279"
+    },
+    {
+      "path": "source/acquisition_records/grid_2026-10-15T194327_0000/part_00001.json.gz",
+      "bytes": 337,
+      "sha256": "821754d82294400c4e513de5a4068d69879a2c26543e16066979e0bdfd8fbbdc"
+    },
+    {
+      "path": "source/acquisition_records/grid_2026-10-15T194327_0000/part_00001.query.json",
+      "bytes": 3146,
+      "sha256": "9e78b73e73b93d6f9e8bc7c7fa4c4b2a7bc17bac195a76ac4120ef03ca345ef2"
+    },
+    {
+      "path": "source/acquisition_records/run_2026-10-15T193526_0000/metadata.html",
+      "bytes": 80943,
+      "sha256": "c4be7cfeb725c734866123aa7bb9fa9248bed3e3c27409c357c36dd9be11178c"
+    },
+    {
+      "path": "source/acquisition_records/run_2026-10-15T193526_0000/metadata.json",
+      "bytes": 2563,
+      "sha256": "125062fed48eec59dc1a0563bc29ca230f5a056071f266ec95407e66f849c279"
+    },
+    {
+      "path": "source/acquisition_records/run_2026-10-15T193526_0000/plan.json",
+      "bytes": 152,
+      "sha256": "1d3023eb304b8e9b08be64882516d8af9b8cbc02bc7f6a40621b310a29670e08"
+    },
+    {
+      "path": "source/metadata.html",
+      "bytes": 80943,
+      "sha256": "95d8c6eafdabde27f1330c39c7530c1d1ebf27002539818e973c3b99afacb3e5"
+    },
+    {
+      "path": "source/metadata.json",
+      "bytes": 2563,
+      "sha256": "125062fed48eec59dc1a0563bc29ca230f5a056071f266ec95407e66f849c279"
+    },
+    {
+      "path": "source/part_00001.json.gz",
+      "bytes": 337,
+      "sha256": "821754d82294400c4e513de5a4068d69879a2c26543e16066979e0bdfd8fbbdc"
+    },
+    {
+      "path": "source/part_00001.query.json",
+      "bytes": 3146,
+      "sha256": "9e78b73e73b93d6f9e8bc7c7fa4c4b2a7bc17bac195a76ac4120ef03ca345ef2"
+    },
+    {
+      "path": "source/plan.json",
+      "bytes": 152,
+      "sha256": "1d3023eb304b8e9b08be64882516d8af9b8cbc02bc7f6a40621b310a29670e08"
+    }
+  ],
+  "period_policy": "Original source periods and frequencies are retained separately. Analytical YTD applies only to 62820,62832,62851. Capacity stocks and project-cumulative increases do not reset in January. Staff monthly observations are not current-year annual results. Missing cells and valid zero capacity increments are distinct."
+}

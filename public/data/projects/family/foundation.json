@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "project_id": "family",
+  "project_name": "Национальный проект «Семья»",
+  "release_version": "1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "documentary_as_of": "2026-05-14",
+  "release_date": "2026-10-27",
+  "author_expertise_status": "next_requested_stage",
+  "registry": {
+    "project_id": "family",
+    "project_name": "Национальный проект «Семья»",
+    "n_registry": 23,
+    "n_with_numeric": 19,
+    "n_with_regional": 13,
+    "n_with_national": 19,
+    "n_unique_cells": 30130,
+    "n_numeric": 29240,
+    "n_usable": 29230,
+    "n_domain_violations": 10,
+    "coverage_pct": 82.6086956521739
+  },
+  "panel": {
+    "project_id": "family",
+    "panel_id": "family_monthly_2026-09-30",
+    "status": "computed",
+    "frequency": "monthly",
+    "period_end": "2026-09-30",
+    "n_regions": 84,
+    "n_features": 9,
+    "n_imputed_cells": 2,
+    "imputed_pct": 0.26455026455026454,
+    "k": 2,
+    "silhouette": 0.3869209889286619,
+    "pc12_variance": 0.4256046079167479,
+    "cluster_status": "selected_by_silhouette",
+    "n_communities": 5,
+    "complete_case_ari": 1,
+    "n_complete_case": 82,
+    "seed": 42
+  },
+  "research": {
+    "project_id": "family",
+    "project_name": "Национальный проект «Семья»",
+    "registry_indicators": 23,
+    "indicators_with_numeric": 19,
+    "indicators_with_regional": 13,
+    "observations_numeric": 29240,
+    "documents": 4,
+    "goal_nodes": 0,
+    "task_nodes": 0,
+    "indicator_nodes": 0,
+    "result_nodes": 0,
+    "unresolved_link_claims": 0,
+    "shared_task_result_indicator_links": 0,
+    "results_linked_through_documented_task": 0,
+    "results_with_lexical_candidate": 0,
+    "explicit_result_indicator_links": 0,
+    "family_original_manual_edges": 70,
+    "multivariate_status": "computed",
+    "passport_financing_2025_2030_thousand_rub": null,
+    "strict_financing_hhi": null,
+    "financing_status": "family_reference_separate_edition",
+    "causal_effect_status": "not_identified_in_existing_sources",
+    "author_expertise_text_status": "next_requested_stage"
+  },
+  "results": {
+    "project_id": "family",
+    "project_name": "Национальный проект «Семья»",
+    "n_registry": 23,
+    "n_numeric_indicators": 19,
+    "n_regional_indicators": 13,
+    "n_forecast_indicators": 17,
+    "n_series": 2001,
+    "n_projected_series": 1904,
+    "n_diagnostic_forecast_series": 842,
+    "n_reference_scenario_series": 1062,
+    "n_series_with_review_flags": 1429,
+    "n_documented_target_indicators": 11,
+    "target_status": "source_backed_targets_available"
+  },
+  "corpus": {},
+  "method_summary": {
+    "total": 39,
+    "by_status": {
+      "family_reference_preserved_with_separate_edition": 10,
+      "retained_with_input_and_coverage_checks": 2,
+      "retained_from_1_1_source_unchanged": 7,
+      "retained_and_independently_verified": 7,
+      "robustness_computed_for_eligible_panels": 1,
+      "computed_with_documented_scope": 8,
+      "financial_measurement_bridge_computed_not_cost_effectiveness": 1,
+      "deferred_by_user": 1,
+      "specialized_family_extension_not_generalized": 1,
+      "reproducible_analysis_code_available": 1
+    }
+  },
+  "sections": [
+    {
+      "order": 1,
+      "section_id": "framework",
+      "title": "Методологическая рамка экспертизы",
+      "family_report_pages": "7–9",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L2",
+      "publication_status": "planned",
+      "evidence": "Реестр методов и их ограничений подготовлен; содержательные выводы требуют отдельной авторской экспертизы.",
+      "method_ids": [
+        "theory_of_change"
+      ]
+    },
+    {
+      "order": 2,
+      "section_id": "logic",
+      "title": "Нормативно-логическая модель",
+      "family_report_pages": "9–11",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L3",
+      "publication_status": "planned",
+      "evidence": "В исследовательском корпусе: 0 целей, 0 задач, 0 результатов. Документальная связь не является доказательством причинного эффекта.",
+      "method_ids": [
+        "project_hierarchy",
+        "activity_inventory",
+        "activity_indicator_links"
+      ]
+    },
+    {
+      "order": 3,
+      "section_id": "audit",
+      "title": "Аудит данных и показателей",
+      "family_report_pages": "11–19",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L4",
+      "publication_status": "planned",
+      "evidence": "В реестре 23 показателей; числовые данные доступны для 19, региональные для 13.",
+      "method_ids": [
+        "source_quality",
+        "observability",
+        "time_dynamics"
+      ]
+    },
+    {
+      "order": 4,
+      "section_id": "targets",
+      "title": "Целевые траектории и прогноз",
+      "family_report_pages": "19–24",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L5",
+      "publication_status": "planned",
+      "evidence": "Паспортные цели и статистические ряды сопоставляются только при подтверждённом совпадении показателя, единицы измерения, территории и периода.",
+      "method_ids": [
+        "target_comparison",
+        "forecasting"
+      ]
+    },
+    {
+      "order": 5,
+      "section_id": "map",
+      "title": "Территориальная экспертиза",
+      "family_report_pages": "24–43",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L6",
+      "publication_status": "planned",
+      "evidence": "Региональные данные имеются для 13 показателей. Карты требуют отдельной проверки сопоставимости выбранного периода.",
+      "method_ids": [
+        "geographical_join",
+        "regional_maps",
+        "regional_descriptive"
+      ]
+    },
+    {
+      "order": 6,
+      "section_id": "regions",
+      "title": "Типология и пространственные связи",
+      "family_report_pages": "43–52",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L7",
+      "publication_status": "planned",
+      "evidence": "Статус многомерной панели: computed; территорий: 84, признаков: 9. Региональная типология не тождественна оценке эффективности.",
+      "method_ids": [
+        "correlations",
+        "pca",
+        "kmeans",
+        "multivariate_stability",
+        "isolation_forest",
+        "moran_global",
+        "moran_local",
+        "regional_similarity",
+        "relative_profiles"
+      ]
+    },
+    {
+      "order": 7,
+      "section_id": "finance",
+      "title": "Финансовая экспертиза",
+      "family_report_pages": "52–55",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L8",
+      "publication_status": "planned",
+      "evidence": "Финансовые суммы и доли сохраняют единицы исходного паспорта. Оценка распределения средств зависит от сопоставимости заголовков федеральных проектов.",
+      "method_ids": [
+        "budget_registry",
+        "budget_hhi",
+        "budget_observability"
+      ]
+    },
+    {
+      "order": 8,
+      "section_id": "network",
+      "title": "Мероприятия и показатели",
+      "family_report_pages": "55–61",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L9",
+      "publication_status": "planned",
+      "evidence": "В корпусе разделены документальные связи, совместная принадлежность задаче и лексические кандидаты. Автоматическая похожесть не превращается в доказанную связь.",
+      "method_ids": [
+        "activity_network"
+      ]
+    },
+    {
+      "order": 9,
+      "section_id": "texts",
+      "title": "Лингвистическая и смысловая экспертиза",
+      "family_report_pages": "61–65",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L10",
+      "publication_status": "planned",
+      "evidence": "Документальная основа исследовательского модуля: 4 документов. Лексические признаки рассматриваются совместно с контекстом.",
+      "method_ids": [
+        "lexical_frequencies",
+        "dictionary_frames",
+        "tfidf_cosine",
+        "text_clustering",
+        "concept_cooccurrence",
+        "context_search"
+      ]
+    },
+    {
+      "order": 10,
+      "section_id": "domains",
+      "title": "Охват сфер жизнедеятельности",
+      "family_report_pages": "65–68",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L11",
+      "publication_status": "planned",
+      "evidence": "Сферы жизнедеятельности выделяются по корпусу и словарям; полнота охвата требует содержательной проверки экспертом.",
+      "method_ids": [
+        "domain_evidence",
+        "expert_domain_scale"
+      ]
+    },
+    {
+      "order": 11,
+      "section_id": "causal",
+      "title": "Сценарии и причинная оценка",
+      "family_report_pages": "68–71",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L12",
+      "publication_status": "planned",
+      "evidence": "Причинный эффект нацпроекта в имеющемся наборе источников не идентифицирован. Для его оценки нужен самостоятельный исследовательский дизайн.",
+      "method_ids": [
+        "policy_scenario_framework",
+        "causal_designs",
+        "heterogeneous_causal_effects"
+      ]
+    },
+    {
+      "order": 12,
+      "section_id": "proposals",
+      "title": "Предложения по корректировке",
+      "family_report_pages": "71–73",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L13",
+      "publication_status": "planned",
+      "evidence": "Рекомендации формируются после проверки фактов и содержательной экспертизы, с указанием адресата, механизма и ожидаемого результата.",
+      "method_ids": [
+        "recommendations"
+      ]
+    }
+  ],
+  "sources": [],
+  "downloads": [
+    {
+      "title": "Аудит 339 показателей",
+      "url": "downloads/projects/shared/indicator_audit.csv",
+      "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+      "bytes": 166183
+    },
+    {
+      "title": "Сводный аудит 11 нацпроектов",
+      "url": "downloads/projects/shared/project_audit.csv",
+      "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+      "bytes": 1810
+    },
+    {
+      "title": "Матрица методов по нацпроектам",
+      "url": "downloads/projects/shared/project_method_matrix.csv",
+      "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+      "bytes": 283115
+    },
+    {
+      "title": "Применимость методов и доступность данных",
+      "url": "downloads/projects/shared/project_method_eligibility.csv",
+      "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+      "bytes": 2507
+    }
+  ],
+  "registry_source_url": "https://www.fedstat.ru/organizations/#group1854191",
+  "interpretation": "Актуальный доступный статистический срез на указанную дату. Дата сборки сайта не означает обновление первичных данных. Новые авторские страницы экспертизы добавляются после отдельной проверки."
+}

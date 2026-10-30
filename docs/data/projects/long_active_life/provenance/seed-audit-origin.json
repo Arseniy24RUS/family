@@ -1,0 +1,26 @@
+{
+  "project_id": "long_active_life",
+  "kind": "legacy_seed_scope_check",
+  "original_file": "outputs/research/quantitative/tables/q_cluster_seed_runs.csv",
+  "original_sha256": "b50f0e7e212cd44fdb57c7047620e32dbacfbd6d693f97251c9311be44519b4a",
+  "published_extract": "downloads/projects/long_active_life/statistical/research/legacy_cluster_seed_runs_1_2_0.csv",
+  "published_sha256": "1da46786455d6852957108842a7a8747ffb7b9fee262ad63591246b4ff3a3884",
+  "rows": 7,
+  "seeds": [
+    0,
+    1,
+    7,
+    21,
+    42,
+    99,
+    2026
+  ],
+  "old_n_regions": 84,
+  "old_n_features": 29,
+  "old_imputed_cells": 12,
+  "author_n_regions": 83,
+  "author_n_features": 29,
+  "author_imputed_cells": 5,
+  "original_code": "research/quantitative_analysis.py; npanalytics/multivariate.py",
+  "conclusion": "Общий выпуск1.2.0 содержит другую матрицу84×29 и семь начальных состояний. Он не устанавливает десять seed для авторского расчёта83×29. Подмена процедур недопустима; независимый аудит0–9 публикуется отдельно."
+}

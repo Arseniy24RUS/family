@@ -1,0 +1,616 @@
+{
+  "schema_version": 1,
+  "project_id": "health_technologies",
+  "source_catalogue": {
+    "url": "https://www.fedstat.ru/organizations/",
+    "capture_date": null,
+    "sha256": "20ecafed25984128ed8db58844aaaa78c3395fe7f919e2562901a2cd27b5cd01"
+  },
+  "items": [
+    {
+      "indicator_code": "2.14.С.1",
+      "indicator_code_original": "2.14.С.1.",
+      "indicator_name": "Доля всех исследований, осуществляемых в рамках национального проекта, закончившихся успешной разработкой и внедрением новых лекарственных препаратов, медицинских изделий, биомедицинских клеточных продуктов (БМКП), продуктов тканевой инженерии, медицинских технологий",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": null,
+      "federal_project_name": null,
+      "indicator_level": "national_project",
+      "included": true,
+      "catalog_group_id": "group1854270",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "62986"
+      ],
+      "source_titles": [
+        "Доля всех исследований, осуществляемых в рамках национального проекта, закончившихся успешной разработкой и внедрением новых лекарственных препаратов, медицинских изделий, биомедицинских клеточных продуктов (БМКП), продуктов тканевой инженерии, медицинских технологий"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854270",
+      "source_html_sha256": "24cefc4eaf5dbb800fcd0b5b0f602d23c07dd8b2dcad6216bb37ae426ca3254a",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С.2",
+      "indicator_code_original": "2.14.С.2.",
+      "indicator_name": "Уровень прироста объема средств, полученных в результате коммерциализации прав на результаты интеллектуальной деятельности (РИД), созданных государственными учреждениями в интересах здравоохранения, относительно уровня базового значения (уровень 2023 г.)",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": null,
+      "federal_project_name": null,
+      "indicator_level": "national_project",
+      "included": true,
+      "catalog_group_id": "group1854271",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "62987"
+      ],
+      "source_titles": [
+        "Уровень прироста объема средств, полученных в результате коммерциализации прав на результаты интеллектуальной деятельности (РИД), созданных государственными учреждениями в интересах здравоохранения, относительно уровня базового значения (уровень 2023 г.)"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854271",
+      "source_html_sha256": "6471d4805dfb669457e012ba9c599406ad5cde4bc1e718635229b3f485fd9653",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С.3",
+      "indicator_code_original": "2.14.С.3.",
+      "indicator_name": "Достигнутый уровень технологической независимости в сфере здравоохранения",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": null,
+      "federal_project_name": null,
+      "indicator_level": "national_project",
+      "included": true,
+      "catalog_group_id": "group1854272",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63062"
+      ],
+      "source_titles": [
+        "Достигнутый уровень технологической независимости в сфере здравоохранения"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854272",
+      "source_html_sha256": "b988ea672ff061b00d6c0f57b2c4aa863ddfba1f93b0ef44516eaf289d335806",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С.4",
+      "indicator_code_original": "2.14.С.4.",
+      "indicator_name": "Темп прироста валовой добавленной стоимости отрасли здравоохранения",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": null,
+      "federal_project_name": null,
+      "indicator_level": "national_project",
+      "included": true,
+      "catalog_group_id": "group1854273",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63059"
+      ],
+      "source_titles": [
+        "Темп прироста валовой добавленной стоимости отрасли здравоохранения"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854273",
+      "source_html_sha256": "613693fcc67aeb0a0b429ef59a3a7742987721bf10aa8b71e679f225118fff02",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С.5",
+      "indicator_code_original": "2.14.С.5.",
+      "indicator_name": "Количество разработанных в рамках национального проекта и допущенных к применению новых лекарственных препаратов, медицинских изделий, биомедицинских клеточных продуктов",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": null,
+      "federal_project_name": null,
+      "indicator_level": "national_project",
+      "included": true,
+      "catalog_group_id": "group1856401",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63130"
+      ],
+      "source_titles": [
+        "Количество разработанных в рамках национального проекта и допущенных к применению новых лекарственных препаратов, медицинских изделий и биомедицинских клеточных продуктов (БМКП)"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1856401",
+      "source_html_sha256": "cddf91a6783b79738cf27df4f7f441ed044bd858b6e6f819cf655b5172bd01d1",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С.6",
+      "indicator_code_original": "2.14.С.6.",
+      "indicator_name": "Объем средств, полученных в результате коммерциализации прав на результаты интеллектуальной деятельности, созданных государственными учреждениями в интересах здравоохранения",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": null,
+      "federal_project_name": null,
+      "indicator_level": "national_project",
+      "included": true,
+      "catalog_group_id": "group1856400",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63132"
+      ],
+      "source_titles": [
+        "Объем средств, полученных в результате коммерциализации прав на результаты интеллектуальной деятельности (РИД), созданных государственными учреждениями в интересах здравоохранения (П04228-С)"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1856400",
+      "source_html_sha256": "a8ac09e7d5d2a54985fad5cc77ee680d5a26eafb44042ab1e7040fd006b99089",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С1.1",
+      "indicator_code_original": "2.14.С1.1.",
+      "indicator_name": "Количество медицинских изделий, разработанных и выведенных на рынок на каждый 1 млрд рублей, направленных на финансирование прикладных научных исследований",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С1",
+      "federal_project_name": "Федеральный проект «Управление медицинской наукой»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1854275",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "62985"
+      ],
+      "source_titles": [
+        "Количество медицинских изделий, разработанных и выведенных на рынок на каждый 1 млрд рублей, направленных на финансирование прикладных научных исследований"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854275",
+      "source_html_sha256": "e28274c7b1516efd2814d060771680d94e8210dcff0f91fac1f9b89ab6985928",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С1.2",
+      "indicator_code_original": "2.14.С1.2.",
+      "indicator_name": "Доля исследований и разработок в интересах медицины и здравоохранения, по которым организован учет и мониторинг их дальнейшего применения",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С1",
+      "federal_project_name": "Федеральный проект «Управление медицинской наукой»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1854276",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "62928"
+      ],
+      "source_titles": [
+        "Доля исследований и разработок в интересах медицины и здравоохранения, по которым организован учет и мониторинг их дальнейшего применения"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854276",
+      "source_html_sha256": "7c938158d3d81062ad7b73c5e18c468f779ee1ba58fbc81c31299aaba64a3581",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С1.3",
+      "indicator_code_original": "2.14.С1.3.",
+      "indicator_name": "Количество лекарственных препаратов, разработанных и выведенных на рынок на каждые 5 млрд рублей, направленных на финансирование прикладных научных исследований",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С1",
+      "federal_project_name": "Федеральный проект «Управление медицинской наукой»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1854277",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "62984"
+      ],
+      "source_titles": [
+        "Количество лекарственных препаратов, разработанных и выведенных на рынок на каждые 5 млрд рублей, направленных на финансирование прикладных научных исследований"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854277",
+      "source_html_sha256": "b4005c95591b575b0fd2123c2c09c365772fa7449d18d84ad17da86851eaa0ba",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С1.4",
+      "indicator_code_original": "2.14.С1.4.",
+      "indicator_name": "Количество медицинских изделий, разработанных и выведенных на рынок в течение календарного года",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С1",
+      "federal_project_name": "Федеральный проект «Управление медицинской наукой»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1857031",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63446"
+      ],
+      "source_titles": [
+        "Количество медицинских изделий, разработанных и выведенных на рынок в течение календарного года"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1857031",
+      "source_html_sha256": "e0c40e7f94c6339d02ecfa96f3d0153e7288b91d9605f7796befd9da21b09a7e",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С1.5",
+      "indicator_code_original": "2.14.С1.5.",
+      "indicator_name": "Количество лекарственных препаратов, разработанных и выведенных на рынок в течение календарного год",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С1",
+      "federal_project_name": "Федеральный проект «Управление медицинской наукой»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1857032",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63447"
+      ],
+      "source_titles": [
+        "Количество лекарственных препаратов, разработанных и выведенных на рынок в течение календарного года"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1857032",
+      "source_html_sha256": "64f4f6162059713e3037024360f6df085acbae092c170c2134fefe5e50a8b52a",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С2.1",
+      "indicator_code_original": "2.14.С2.1.",
+      "indicator_name": "Доля учтенных в рамках федерального проекта допущенных к применению лекарственных препаратов, высокотехнологичных медицинских изделий, медицинских технологий",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С2",
+      "federal_project_name": "Федеральный проект «Технологии разработки медицинских изделий, лекарственных средств и платформ нового поколения»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1854279",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "62929"
+      ],
+      "source_titles": [
+        "Доля учтенных в рамках федерального проекта допущенных к применению лекарственных препаратов, высокотехнологичных медицинских изделий, медицинских технологий"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854279",
+      "source_html_sha256": "421d76e10553c8ace1b4fc261922662e45d124705763d5c8643db2cfdf63e732",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С2.2",
+      "indicator_code_original": "2.14.С2.2.",
+      "indicator_name": "Доля пациентов, которым будет оказана медицинская помощь с применением новых лекарственных препаратов, медицинских изделий, биомедицинских клеточных продуктов, учтенных в рамках проекта",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С2",
+      "federal_project_name": "Федеральный проект «Технологии разработки медицинских изделий, лекарственных средств и платформ нового поколения»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1854280",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "62988"
+      ],
+      "source_titles": [
+        "Доля пациентов, которым будет оказана медицинская помощь с применением новых лекарственных препаратов, медицинских изделий, биомедицинских клеточных продуктов, учтенных в рамках проекта"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854280",
+      "source_html_sha256": "eb2186afaa0726e0fc4b528041f7df0caacd8db5ec2f3865bc007bb9eaa5b0a0",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С2.3",
+      "indicator_code_original": "2.14.С2.3.",
+      "indicator_name": "Количество разработанных в рамках федерального проекта и допущенных к применению новых лекарственных препаратов, медицинских изделий и биомедицинских клеточных продуктов",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С2",
+      "federal_project_name": "Федеральный проект «Технологии разработки медицинских изделий, лекарственных средств и платформ нового поколения»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1857033",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63445"
+      ],
+      "source_titles": [
+        "Количество разработанных в рамках федерального проекта и допущенных к применению новых лекарственных препаратов, медицинских изделий и биомедицинских клеточных продуктов"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1857033",
+      "source_html_sha256": "25413a9487138dab33acec1d9d06bb56bdca7150f5713bcdd540f72a8d09a5fc",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С3.1",
+      "indicator_code_original": "2.14.С3.1.",
+      "indicator_name": "Доля внедренных в клиническую практику иных медицинских организаций биомедицинских и когнитивных технологий от количества разработанных в ходе федерального проекта",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С3",
+      "federal_project_name": "Федеральный проект «Биомедицинские и когнитивные технологии будущего»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1854282",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63223"
+      ],
+      "source_titles": [
+        "Доля внедренных в клиническую практику иных медицинских организаций биомедицинских и когнитивных технологий от количества разработанных в ходе федерального проекта"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854282",
+      "source_html_sha256": "502cdbc65d32b1b840309fe12c2e990ed8e219de34b404ee9e811bbd74f962df",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С3.2",
+      "indicator_code_original": "2.14.С3.2.",
+      "indicator_name": "Доля граждан, пролеченных с применением новых биомедицинских и когнитивных технологий, разработанных в рамках федерального проекта, в различных медицинских организациях, от числа пролеченных в медицинских организациях, внедривших данные технологии",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С3",
+      "federal_project_name": "Федеральный проект «Биомедицинские и когнитивные технологии будущего»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1854283",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63224"
+      ],
+      "source_titles": [
+        "Доля граждан, пролеченных с применением новых биомедицинских и когнитивных технологий (в рамках федерального проекта) в различных условиях в медицинских организациях, от числа пролеченных в медицинских организациях, внедривших данные технологии"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854283",
+      "source_html_sha256": "69723e91d3fa5c5f0c677a3fae1b74982e1c8f31a2c5fc27a1fb92ee9a3bb707",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С4.1",
+      "indicator_code_original": "2.14.С4.1.",
+      "indicator_name": "Доля внедренных в клиническую практику иных медицинских организаций новых регенеративных технологий, технологий превентивной медицины и обеспечения активного и здорового долголетия, разработанных в рамках федерального проекта",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С4",
+      "federal_project_name": "Федеральный проект «Регенеративная биомедицина, технологии превентивной медицины, обеспечение активного и здорового долголетия»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1854285",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63225"
+      ],
+      "source_titles": [
+        "Доля внедренных в клиническую практику иных медицинских организаций новых регенеративных технологий, технологий превентивной медицины и обеспечения активного и здорового долголетия, разработанных в рамках федерального проекта"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854285",
+      "source_html_sha256": "8d5358ac7c81eb60ca1750b34029e536b8c13065769df7d717b20d4a18530301",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С4.2",
+      "indicator_code_original": "2.14.С4.2.",
+      "indicator_name": "Доля граждан, получивших доступ к новым технологиям регенеративной биомедицины, превентивной медицины и обеспечения активного и здорового долголетия, из числа обратившихся в организации-участники федерального проекта",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С4",
+      "federal_project_name": "Федеральный проект «Регенеративная биомедицина, технологии превентивной медицины, обеспечение активного и здорового долголетия»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1854286",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63226"
+      ],
+      "source_titles": [
+        "Доля граждан, получивших доступ к новым технологиям регенеративной биомедицины, превентивной медицины и обеспечения активного и здорового долголетия, из числа обратившихся в организации-участники федерального проекта"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1854286",
+      "source_html_sha256": "cfd7849d9fe3bfe9dd66f708c71d9d09d0863d29dcb44ed9301fff06f118dc8e",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С5.1",
+      "indicator_code_original": "2.14.С5.1.",
+      "indicator_name": "Доля лекарственных средств по перечню стратегически значимых лекарственных средств для медицинского применения, производство которых осуществляется в Российской Федерации по полному циклу, включая синтез фармацевтической субстанции",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С5",
+      "federal_project_name": "Федеральный проект «Развитие производства наиболее востребованных лекарственных препаратов и медицинских изделий»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1855766",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63272"
+      ],
+      "source_titles": [
+        "Доля лекарственных средств по перечню стратегически значимых лекарственных средств для медицинского применения, производство которых осуществляется в Российской Федерации по полному циклу, включая синтез фармацевтической субстанции"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1855766",
+      "source_html_sha256": "8c6db7cf57ae65b209876b925550e9f642842abc83858013261cb363c9d0f646",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С5.2",
+      "indicator_code_original": "2.14.С5.2.",
+      "indicator_name": "Доля радиофармацевтических лекарственных препаратов, производство которых осуществляется в Российской Федерации",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С5",
+      "federal_project_name": "Федеральный проект «Развитие производства наиболее востребованных лекарственных препаратов и медицинских изделий»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1855767",
+      "declared_table_count": 1,
+      "direct_linked_table_count": 1,
+      "linked_table_count": 1,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "linked",
+      "source_ids": [
+        "63275"
+      ],
+      "source_titles": [
+        "Доля радиофармацевтических лекарственных препаратов, производство которых осуществляется в Российской Федерации"
+      ],
+      "source_url": "https://www.fedstat.ru/organizations/#group1855767",
+      "source_html_sha256": "990a11e9a228eb6e0cdbcb3c6683be553f87a3aaff9ab8c226f16bb138a86596",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "confirmed_catalogue_hierarchy"
+    },
+    {
+      "indicator_code": "2.14.С5.3",
+      "indicator_code_original": "2.14.С5.3.",
+      "indicator_name": "Доля медицинских изделий отечественного производства в общем объеме рынка",
+      "project_id": "health_technologies",
+      "project_code": "С",
+      "project_name": "Национальный проект «Новые технологии сбережения здоровья»",
+      "federal_project_code": "С5",
+      "federal_project_name": "Федеральный проект «Развитие производства наиболее востребованных лекарственных препаратов и медицинских изделий»",
+      "indicator_level": "federal_project",
+      "included": true,
+      "catalog_group_id": "group1855768",
+      "declared_table_count": 0,
+      "direct_linked_table_count": 0,
+      "linked_table_count": 0,
+      "temporarily_unavailable_entries": 0,
+      "catalog_status": "no_table_link",
+      "source_ids": [],
+      "source_titles": [],
+      "source_url": "https://www.fedstat.ru/organizations/#group1855768",
+      "source_html_sha256": "999792a35aa57f13d3682885791f57b3be7a410c200a24e87825f2e30fabe760",
+      "source_project_id": "excluded_С",
+      "source_catalogue_capture_date": null,
+      "mapping_status": "no_confirmed_source_id"
+    }
+  ]
+}

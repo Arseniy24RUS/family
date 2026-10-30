@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "previous_rule_blocked_workflow_git_add": true,
+  "fixed_refresh_json_is_trackable": true,
+  "other_monitoring_files_remain_ignored": true
+}

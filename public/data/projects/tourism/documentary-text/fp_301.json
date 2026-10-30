@@ -1,0 +1,2843 @@
+{
+  "document": {
+    "project_id": "tourism",
+    "kind": "fp",
+    "id": "fp_301",
+    "url": "https://databudget.ru/projects/fp/301",
+    "sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+    "retrieved_at": "2026-10-19T14:38:51.878244+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/fe/fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4.html",
+    "document_id": "fp_301",
+    "code": "П3",
+    "title": "[П3] Туристическая привлекательность страны",
+    "publisher_version": "26.20",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 586,
+    "n_tokens": 586,
+    "source_url": "https://databudget.ru/projects/fp/301",
+    "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+    "profile_text_sha256": "da36c29508d1d5b6fdb3a2314c62c3f5f29718f3cb893e5f6bcf1885a04bc3c8",
+    "archive_entry": "tourism/fp_301.html",
+    "bytes": 1526214,
+    "download_path": "downloads/projects/tourism/documentary/sources/fp_301.html",
+    "profile_original_document_id": "html:fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_301:profile1",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "обеспечена цифровизация туристической деятельности",
+      "node_id": "fp_301:passport-task-02:83875dcde77ed500",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 4,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile2",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "обеспечена туристическая привлекательность для иностранных граждан и граждан российской федерации",
+      "node_id": "fp_301:passport-task-06:4dbf9c23492a0959",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile3",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии в целях реализации функций министерства экономического развития российской федерации в сфере туризма в рамках поручения о единой цифровой платформе в сфере туризма обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии, предусматривающих: использование данных о субъектах предпринимательской деятельности в сфере туризма идентификацию участников рынка туристских услуг сбор, хранение и обработку обезличенных персональных данных доступ разработчикам к сведениям на цифровой платформе для создания программного обеспечения, позволяющего формировать комплексные предложения о путешествиях.",
+      "node_id": "fp_301:passport-result-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 69,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile4",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "обеспечено развитие систем и компонентов фгис росаккредитации в целях формирования единого перечня средств коллективного размещения на основе проведенной процедуры самооценки участников туристической отрасли обеспечена процедура самооценки коллективных средств размещения для включения в единый перечень средств размещения посредством государственных информационных систем федеральной службы по аккредитации в части туризма. обеспечена эксплуатация (настройка, оптимизация, доступы) единого реестра коллективных средств размещения фгис росаккредитации. обеспечена автоматизация (программного) форматно-логического и иного вида контроля на соответствие заявителей требованиям, предъявляем к объектам размещения перед включением в реестр, а также данных о соответствии категории гостиницы, полученных от аккредитованных организаций. разработан функционал анализа и мониторинга сведений, содержащихся в реестре, посредством автоматизированных проверок через систему межведомственного электронного взаимодействия.",
+      "node_id": "fp_301:passport-result-39:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 96,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile5",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "обеспечено развитие государственных информационных систем федеральной службы по аккредитации в части туризма разработаны чек-листы для новых типов средств размещения, создание личных кабинетов, созданы инструменты для автоматизированных проверок. обеспечена интеграция с порталом пространственных данных национальной системы пространственных данных. на публичной кадастровой карте рф будут размещены все средства размещения с привязкой к объекту недвижимости и земельному участку. создан сервис для наполнения витрин данных росаккредитации на епц гостех с данными обо всех классифицированных средствах размещения.",
+      "node_id": "fp_301:passport-result-45:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 66,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile6",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "реализованы мероприятия, направленные на популяризацию внутреннего туризма, стимулирование спроса в сезоны пониженного спроса, а также на повышение информированности граждан российской федерации о туристских возможностях внутри страны в целях популяризации внутреннего туризма стимулирование спроса в сезоны пониженного спроса, а также повышение информированности граждан российской федерации о туристских возможностях внутри страны будут проведены мероприятия, в том числе: обеспечено количество контактов с целевой аудиторией в организованных и проведенных федеральных рекламно-информационных кампаниях, направленных на продвижение внутреннего туризма в российской федерации произведены рекламно-информационные и (или) пропагандистские видеоролики на русском языке, проведены маркетинговые исследования, направленных на повышение эффективности мероприятий по продвижению внутреннего туризма в российской федерации.",
+      "node_id": "fp_301:passport-result-10:72821f34f9410810",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 86,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile7",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "обеспечено информационно-аналитическое, экспертное и организационное сопровождение мероприятий, направленных на продвижение, исследование и оценку потенциала развития международного въездного туризма на территории российской федерации, для продвижения туристического продукта за рубежом в целях увеличения экспорта туристских услуг и привлечения иностранных туристов в рф фондом \"центр стратегических разработок\" реализованы мероприятия по продвижению российского туризма за рубежом",
+      "node_id": "fp_301:passport-result-37:40e4a8a3cec0d7be",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 47,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile8",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "обеспечено осуществление деятельности юридических лиц и индивидуальных предпринимателей туристской индустрии в республике крым и городе севастополе в условиях геополитического и санкционного давления оказывается государственная поддержка юридическим лицам и индивидуальным предпринимателям туристской индустрии в рамках предоставления субсидий из федерального бюджета бюджетам республики крым и г. севастополя в целях софинансирования расходных обязательств субъектов российской федерации, возникающих при реализации мер государственной поддержки в условиях геополитического и санкционного давления. результатом использования субсидии является количество получателей выплат, получивших в 2026 году меры государственной поддержки. это позволит сохранить осуществление деятельности не менее чем 4 600 юридических лиц и индивидуальных предпринимателей туристской индустрии.",
+      "node_id": "fp_301:passport-result-37:5f9e06f4f59d539a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 79,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile9",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "организована система формирования обратной связи со всеми участниками туристической отрасли по выявлению барьеров, сдерживающих рост туристического потенциала на внутреннем и международных рынках, и формирования предложений по их устранению, а также сопровождения приоритетных проектов в целях роста туристического потенциала на внутреннем и международных рынках осуществлена методическая поддержка российских регионов, организована система обратной связи по выявлению барьеров, препятствующих росту туристического потенциала, проведены экспертно-аналитические исследования с привлечением участников туристической отрасли, сформированы информационно-аналитические материалы приоритетных проектов",
+      "node_id": "fp_301:passport-result-6:5f3b1b5d4a254584",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 66,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile10",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "реализованы мероприятия, направленные на популяризацию российской федерации как туристического направления на зарубежных рынках в целях популяризации российской федерации как туристического направления на зарубежных рынках проведены коммуникационные компании в цифровых каналах коммуникации, осуществлена контентная поддержка нацтурпортала на иностранных языках, осуществлено ведение аккаунтов в социальных сетях и турплатформах.",
+      "node_id": "fp_301:passport-result-38:491f51d9b75788bb",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 42,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile11",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "индекс удовлетворенности граждан в сфере туризма и гостеприимства",
+      "node_id": "fp_301:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 6,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile12",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "численность иностранных граждан, размещенных в коллективных средствах размещения",
+      "node_id": "fp_301:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile13",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "число посещений национального туристического портала",
+      "node_id": "fp_301:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 5,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_301:profile14",
+      "document_id": "fp_301",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "объем экспорта туристских услуг",
+      "node_id": "fp_301:passport-purpose-4:6037cf73209c66ef",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "n_tokens": 4,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_301:kwic1",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "цифровизация",
+      "context": "обеспечена цифровизация туристической деятельности обеспечена туристическая привлекательность для иностранных граждан и граждан росси",
+      "unit_id": "fp_301:profile1",
+      "unit_ids": [
+        "fp_301:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic2",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": "ивлекательность для иностранных граждан и граждан российской федерации обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии в целях реализации функций министерства экономического развития росс",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic3",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "функций министерства экономического развития российской федерации в сфере туризма в рамках поручения о единой цифровой платформе в сфере туризма обеспечено развитие и функционирование информационных систем в сфере туризма минэко",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic4",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": "туризма в рамках поручения о единой цифровой платформе в сфере туризма обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии, предусматривающих: использование данных о субъектах предприниматель",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic5",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "ционирование информационных систем в сфере туризма минэкономразвития россии, предусматривающих: использование данных о субъектах предпринимательской деятельности в сфере туризма идентификацию участников рынка туристских услуг ",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic6",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " туризма идентификацию участников рынка туристских услуг сбор, хранение и обработку обезличенных персональных данных доступ разработчикам к сведениям на цифровой платформе для создания программного обеспечения, позволяющего фо",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic7",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "истских услуг сбор, хранение и обработку обезличенных персональных данных доступ разработчикам к сведениям на цифровой платформе для создания программного обеспечения, позволяющего формировать комплексные предложения о путешеств",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic8",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "бработку обезличенных персональных данных доступ разработчикам к сведениям на цифровой платформе для создания программного обеспечения, позволяющего формировать комплексные предложения о путешествиях. обеспечено развитие систем и компонентов фг",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic9",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": "оллективных средств размещения для включения в единый перечень средств размещения посредством государственных информационных систем федеральной службы по аккредитации в части туризма. обеспечена эксплуатация (настройка, оптимизация, доступы)",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic10",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " на соответствие заявителей требованиям, предъявляем к объектам размещения перед включением в реестр, а также данных о соответствии категории гостиницы, полученных от аккредитованных организаций. разработан функционал анализа ",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic11",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": "ных проверок через систему межведомственного электронного взаимодействия. обеспечено развитие государственных информационных систем федеральной службы по аккредитации в части туризма разработаны чек-листы для новых типов средств размещения, ",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic12",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "нетов, созданы инструменты для автоматизированных проверок. обеспечена интеграция с порталом пространственных данных национальной системы пространственных данных. на публичной кадастровой карте рф будут размещены все средства ",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic13",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "нных проверок. обеспечена интеграция с порталом пространственных данных национальной системы пространственных данных. на публичной кадастровой карте рф будут размещены все средства размещения с привязкой к объекту недвижимости",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic14",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "дства размещения с привязкой к объекту недвижимости и земельному участку. создан сервис для наполнения витрин данных росаккредитации на епц гостех с данными обо всех классифицированных средствах размещения. реализованы меропри",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic15",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данными",
+      "context": "недвижимости и земельному участку. создан сервис для наполнения витрин данных росаккредитации на епц гостех с данными обо всех классифицированных средствах размещения. реализованы мероприятия, направленные на популяризацию внут",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic16",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "оссийской федерации как туристического направления на зарубежных рынках проведены коммуникационные компании в цифровых каналах коммуникации, осуществлена контентная поддержка нацтурпортала на иностранных языках, осуществлено вед",
+      "unit_id": "fp_301:profile10",
+      "unit_ids": [
+        "fp_301:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic17",
+      "document_id": "fp_301",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательской",
+      "context": "ационных систем в сфере туризма минэкономразвития россии, предусматривающих: использование данных о субъектах предпринимательской деятельности в сфере туризма идентификацию участников рынка туристских услуг сбор, хранение и обработку обезл",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic18",
+      "document_id": "fp_301",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателей",
+      "context": "вижению российского туризма за рубежом обеспечено осуществление деятельности юридических лиц и индивидуальных предпринимателей туристской индустрии в республике крым и городе севастополе в условиях геополитического и санкционного давлен",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic19",
+      "document_id": "fp_301",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателям",
+      "context": "олитического и санкционного давления оказывается государственная поддержка юридическим лицам и индивидуальным предпринимателям туристской индустрии в рамках предоставления субсидий из федерального бюджета бюджетам республики крым и г. с",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic20",
+      "document_id": "fp_301",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателей",
+      "context": "держки. это позволит сохранить осуществление деятельности не менее чем 4 600 юридических лиц и индивидуальных предпринимателей туристской индустрии. организована система формирования обратной связи со всеми участниками туристической отр",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic21",
+      "document_id": "fp_301",
+      "frame": "export_trade",
+      "matched": "экспорта",
+      "context": "зма на территории российской федерации, для продвижения туристического продукта за рубежом в целях увеличения экспорта туристских услуг и привлечения иностранных туристов в рф фондом \"центр стратегических разработок\" реализованы",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic22",
+      "document_id": "fp_301",
+      "frame": "export_trade",
+      "matched": "экспорта",
+      "context": "н, размещенных в коллективных средствах размещения число посещений национального туристического портала объем экспорта туристских услуг",
+      "unit_id": "fp_301:profile14",
+      "unit_ids": [
+        "fp_301:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic23",
+      "document_id": "fp_301",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": " соответствии категории гостиницы, полученных от аккредитованных организаций. разработан функционал анализа и мониторинга сведений, содержащихся в реестре, посредством автоматизированных проверок через систему межведомственного эле",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic24",
+      "document_id": "fp_301",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "ропагандистские видеоролики на русском языке, проведены маркетинговые исследования, направленных на повышение эффективности мероприятий по продвижению внутреннего туризма в российской федерации. обеспечено информационно-аналитическое",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic25",
+      "document_id": "fp_301",
+      "frame": "governance_evidence",
+      "matched": "оценку",
+      "context": "тическое, экспертное и организационное сопровождение мероприятий, направленных на продвижение, исследование и оценку потенциала развития международного въездного туризма на территории российской федерации, для продвижения тури",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic26",
+      "document_id": "fp_301",
+      "frame": "income_support",
+      "matched": "выплат",
+      "context": " геополитического и санкционного давления. результатом использования субсидии является количество получателей выплат, получивших в 2026 году меры государственной поддержки. это позволит сохранить осуществление деятельности не ",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic27",
+      "document_id": "fp_301",
+      "frame": "science_innovation",
+      "matched": "исследования",
+      "context": "ведены рекламно-информационные и (или) пропагандистские видеоролики на русском языке, проведены маркетинговые исследования, направленных на повышение эффективности мероприятий по продвижению внутреннего туризма в российской федераци",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic28",
+      "document_id": "fp_301",
+      "frame": "science_innovation",
+      "matched": "исследование",
+      "context": "рмационно-аналитическое, экспертное и организационное сопровождение мероприятий, направленных на продвижение, исследование и оценку потенциала развития международного въездного туризма на территории российской федерации, для продвиж",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic29",
+      "document_id": "fp_301",
+      "frame": "science_innovation",
+      "matched": "исследования",
+      "context": "вязи по выявлению барьеров, препятствующих росту туристического потенциала, проведены экспертно-аналитические исследования с привлечением участников туристической отрасли, сформированы информационно-аналитические материалы приоритет",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic30",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "обеспечена цифровизация туристической деятельности обеспечена туристическая привлекательность для иностранных граждан и граждан российской федераци",
+      "unit_id": "fp_301:profile1",
+      "unit_ids": [
+        "fp_301:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic31",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристическая",
+      "context": "обеспечена цифровизация туристической деятельности обеспечена туристическая привлекательность для иностранных граждан и граждан российской федерации обеспечено развитие и функционирован",
+      "unit_id": "fp_301:profile2",
+      "unit_ids": [
+        "fp_301:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic32",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "х граждан и граждан российской федерации обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии в целях реализации функций министерства экономического развития российской федерации",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic33",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "мразвития россии в целях реализации функций министерства экономического развития российской федерации в сфере туризма в рамках поручения о единой цифровой платформе в сфере туризма обеспечено развитие и функционирование информа",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic34",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ического развития российской федерации в сфере туризма в рамках поручения о единой цифровой платформе в сфере туризма обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии, предус",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic35",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "диной цифровой платформе в сфере туризма обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии, предусматривающих: использование данных о субъектах предпринимательской деятельност",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic36",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "развития россии, предусматривающих: использование данных о субъектах предпринимательской деятельности в сфере туризма идентификацию участников рынка туристских услуг сбор, хранение и обработку обезличенных персональных данных д",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic37",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ользование данных о субъектах предпринимательской деятельности в сфере туризма идентификацию участников рынка туристских услуг сбор, хранение и обработку обезличенных персональных данных доступ разработчикам к сведениям на цифрово",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic38",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "путешествиях",
+      "context": " цифровой платформе для создания программного обеспечения, позволяющего формировать комплексные предложения о путешествиях. обеспечено развитие систем и компонентов фгис росаккредитации в целях формирования единого перечня средств к",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic39",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "ования единого перечня средств коллективного размещения на основе проведенной процедуры самооценки участников туристической отрасли обеспечена процедура самооценки коллективных средств размещения для включения в единый перечень средс",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic40",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "едств размещения посредством государственных информационных систем федеральной службы по аккредитации в части туризма. обеспечена эксплуатация (настройка, оптимизация, доступы) единого реестра коллективных средств размещения фг",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic41",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "гостиницы",
+      "context": "ованиям, предъявляем к объектам размещения перед включением в реестр, а также данных о соответствии категории гостиницы, полученных от аккредитованных организаций. разработан функционал анализа и мониторинга сведений, содержащихс",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic42",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ействия. обеспечено развитие государственных информационных систем федеральной службы по аккредитации в части туризма разработаны чек-листы для новых типов средств размещения, создание личных кабинетов, созданы инструменты для ",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic43",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "х классифицированных средствах размещения. реализованы мероприятия, направленные на популяризацию внутреннего туризма, стимулирование спроса в сезоны пониженного спроса, а также на повышение информированности граждан российской",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic44",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ние спроса в сезоны пониженного спроса, а также на повышение информированности граждан российской федерации о туристских возможностях внутри страны в целях популяризации внутреннего туризма стимулирование спроса в сезоны пониженно",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic45",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "нности граждан российской федерации о туристских возможностях внутри страны в целях популяризации внутреннего туризма стимулирование спроса в сезоны пониженного спроса, а также повышение информированности граждан российской фед",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic46",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ование спроса в сезоны пониженного спроса, а также повышение информированности граждан российской федерации о туристских возможностях внутри страны будут проведены мероприятия, в том числе: обеспечено количество контактов с целево",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic47",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "зованных и проведенных федеральных рекламно-информационных кампаниях, направленных на продвижение внутреннего туризма в российской федерации произведены рекламно-информационные и (или) пропагандистские видеоролики на русском яз",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic48",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ны маркетинговые исследования, направленных на повышение эффективности мероприятий по продвижению внутреннего туризма в российской федерации. обеспечено информационно-аналитическое, экспертное и организационное сопровождение ме",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic49",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": " мероприятий, направленных на продвижение, исследование и оценку потенциала развития международного въездного туризма на территории российской федерации, для продвижения туристического продукта за рубежом в целях увеличения экс",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic50",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "енку потенциала развития международного въездного туризма на территории российской федерации, для продвижения туристического продукта за рубежом в целях увеличения экспорта туристских услуг и привлечения иностранных туристов в рф фонд",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic51",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "рритории российской федерации, для продвижения туристического продукта за рубежом в целях увеличения экспорта туристских услуг и привлечения иностранных туристов в рф фондом \"центр стратегических разработок\" реализованы мероприяти",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic52",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристов",
+      "context": "ния туристического продукта за рубежом в целях увеличения экспорта туристских услуг и привлечения иностранных туристов в рф фондом \"центр стратегических разработок\" реализованы мероприятия по продвижению российского туризма за р",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic53",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ных туристов в рф фондом \"центр стратегических разработок\" реализованы мероприятия по продвижению российского туризма за рубежом обеспечено осуществление деятельности юридических лиц и индивидуальных предпринимателей туристской",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic54",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "го туризма за рубежом обеспечено осуществление деятельности юридических лиц и индивидуальных предпринимателей туристской индустрии в республике крым и городе севастополе в условиях геополитического и санкционного давления оказывае",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic55",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "нкционного давления оказывается государственная поддержка юридическим лицам и индивидуальным предпринимателям туристской индустрии в рамках предоставления субсидий из федерального бюджета бюджетам республики крым и г. севастополя ",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic56",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "лит сохранить осуществление деятельности не менее чем 4 600 юридических лиц и индивидуальных предпринимателей туристской индустрии. организована система формирования обратной связи со всеми участниками туристической отрасли по выя",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic57",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": " предпринимателей туристской индустрии. организована система формирования обратной связи со всеми участниками туристической отрасли по выявлению барьеров, сдерживающих рост туристического потенциала на внутреннем и международных рынк",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic58",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "рмирования обратной связи со всеми участниками туристической отрасли по выявлению барьеров, сдерживающих рост туристического потенциала на внутреннем и международных рынках, и формирования предложений по их устранению, а также сопрово",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic59",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "ынках, и формирования предложений по их устранению, а также сопровождения приоритетных проектов в целях роста туристического потенциала на внутреннем и международных рынках осуществлена методическая поддержка российских регионов, орга",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic60",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "оддержка российских регионов, организована система обратной связи по выявлению барьеров, препятствующих росту туристического потенциала, проведены экспертно-аналитические исследования с привлечением участников туристической отрасли, с",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic61",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "щих росту туристического потенциала, проведены экспертно-аналитические исследования с привлечением участников туристической отрасли, сформированы информационно-аналитические материалы приоритетных проектов реализованы мероприятия, на",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic62",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "териалы приоритетных проектов реализованы мероприятия, направленные на популяризацию российской федерации как туристического направления на зарубежных рынках в целях популяризации российской федерации как туристического направления на",
+      "unit_id": "fp_301:profile10",
+      "unit_ids": [
+        "fp_301:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic63",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": " федерации как туристического направления на зарубежных рынках в целях популяризации российской федерации как туристического направления на зарубежных рынках проведены коммуникационные компании в цифровых каналах коммуникации, осущест",
+      "unit_id": "fp_301:profile10",
+      "unit_ids": [
+        "fp_301:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic64",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": ", осуществлено ведение аккаунтов в социальных сетях и турплатформах. индекс удовлетворенности граждан в сфере туризма и гостеприимства численность иностранных граждан, размещенных в коллективных средствах размещения число посещ",
+      "unit_id": "fp_301:profile11",
+      "unit_ids": [
+        "fp_301:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic65",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "лено ведение аккаунтов в социальных сетях и турплатформах. индекс удовлетворенности граждан в сфере туризма и гостеприимства численность иностранных граждан, размещенных в коллективных средствах размещения число посещений национальног",
+      "unit_id": "fp_301:profile11",
+      "unit_ids": [
+        "fp_301:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic66",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "исленность иностранных граждан, размещенных в коллективных средствах размещения число посещений национального туристического портала объем экспорта туристских услуг",
+      "unit_id": "fp_301:profile13",
+      "unit_ids": [
+        "fp_301:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic67",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "енных в коллективных средствах размещения число посещений национального туристического портала объем экспорта туристских услуг",
+      "unit_id": "fp_301:profile14",
+      "unit_ids": [
+        "fp_301:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic68",
+      "document_id": "fp_301",
+      "frame": "transport_logistics",
+      "matched": "порталом",
+      "context": "ения, создание личных кабинетов, созданы инструменты для автоматизированных проверок. обеспечена интеграция с порталом пространственных данных национальной системы пространственных данных. на публичной кадастровой карте рф будут",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic69",
+      "document_id": "fp_301",
+      "frame": "transport_logistics",
+      "matched": "портала",
+      "context": "транных граждан, размещенных в коллективных средствах размещения число посещений национального туристического портала объем экспорта туристских услуг",
+      "unit_id": "fp_301:profile13",
+      "unit_ids": [
+        "fp_301:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_301:kwic1",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "цифровизация",
+      "context": "обеспечена цифровизация туристической деятельности обеспечена туристическая привлекательность для иностранных граждан и граждан росси",
+      "unit_id": "fp_301:profile1",
+      "unit_ids": [
+        "fp_301:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic2",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": "ивлекательность для иностранных граждан и граждан российской федерации обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии в целях реализации функций министерства экономического развития росс",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic3",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "функций министерства экономического развития российской федерации в сфере туризма в рамках поручения о единой цифровой платформе в сфере туризма обеспечено развитие и функционирование информационных систем в сфере туризма минэко",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic4",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": "туризма в рамках поручения о единой цифровой платформе в сфере туризма обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии, предусматривающих: использование данных о субъектах предприниматель",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic5",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "ционирование информационных систем в сфере туризма минэкономразвития россии, предусматривающих: использование данных о субъектах предпринимательской деятельности в сфере туризма идентификацию участников рынка туристских услуг ",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic6",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " туризма идентификацию участников рынка туристских услуг сбор, хранение и обработку обезличенных персональных данных доступ разработчикам к сведениям на цифровой платформе для создания программного обеспечения, позволяющего фо",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic7",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "истских услуг сбор, хранение и обработку обезличенных персональных данных доступ разработчикам к сведениям на цифровой платформе для создания программного обеспечения, позволяющего формировать комплексные предложения о путешеств",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic8",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "бработку обезличенных персональных данных доступ разработчикам к сведениям на цифровой платформе для создания программного обеспечения, позволяющего формировать комплексные предложения о путешествиях. обеспечено развитие систем и компонентов фг",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic9",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": "оллективных средств размещения для включения в единый перечень средств размещения посредством государственных информационных систем федеральной службы по аккредитации в части туризма. обеспечена эксплуатация (настройка, оптимизация, доступы)",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic10",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " на соответствие заявителей требованиям, предъявляем к объектам размещения перед включением в реестр, а также данных о соответствии категории гостиницы, полученных от аккредитованных организаций. разработан функционал анализа ",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic11",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": "ных проверок через систему межведомственного электронного взаимодействия. обеспечено развитие государственных информационных систем федеральной службы по аккредитации в части туризма разработаны чек-листы для новых типов средств размещения, ",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic12",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "нетов, созданы инструменты для автоматизированных проверок. обеспечена интеграция с порталом пространственных данных национальной системы пространственных данных. на публичной кадастровой карте рф будут размещены все средства ",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic13",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "нных проверок. обеспечена интеграция с порталом пространственных данных национальной системы пространственных данных. на публичной кадастровой карте рф будут размещены все средства размещения с привязкой к объекту недвижимости",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic14",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "дства размещения с привязкой к объекту недвижимости и земельному участку. создан сервис для наполнения витрин данных росаккредитации на епц гостех с данными обо всех классифицированных средствах размещения. реализованы меропри",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic15",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "данными",
+      "context": "недвижимости и земельному участку. создан сервис для наполнения витрин данных росаккредитации на епц гостех с данными обо всех классифицированных средствах размещения. реализованы мероприятия, направленные на популяризацию внут",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic16",
+      "document_id": "fp_301",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "оссийской федерации как туристического направления на зарубежных рынках проведены коммуникационные компании в цифровых каналах коммуникации, осуществлена контентная поддержка нацтурпортала на иностранных языках, осуществлено вед",
+      "unit_id": "fp_301:profile10",
+      "unit_ids": [
+        "fp_301:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic17",
+      "document_id": "fp_301",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательской",
+      "context": "ационных систем в сфере туризма минэкономразвития россии, предусматривающих: использование данных о субъектах предпринимательской деятельности в сфере туризма идентификацию участников рынка туристских услуг сбор, хранение и обработку обезл",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic18",
+      "document_id": "fp_301",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателей",
+      "context": "вижению российского туризма за рубежом обеспечено осуществление деятельности юридических лиц и индивидуальных предпринимателей туристской индустрии в республике крым и городе севастополе в условиях геополитического и санкционного давлен",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic19",
+      "document_id": "fp_301",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателям",
+      "context": "олитического и санкционного давления оказывается государственная поддержка юридическим лицам и индивидуальным предпринимателям туристской индустрии в рамках предоставления субсидий из федерального бюджета бюджетам республики крым и г. с",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic20",
+      "document_id": "fp_301",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателей",
+      "context": "держки. это позволит сохранить осуществление деятельности не менее чем 4 600 юридических лиц и индивидуальных предпринимателей туристской индустрии. организована система формирования обратной связи со всеми участниками туристической отр",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic21",
+      "document_id": "fp_301",
+      "frame": "export_trade",
+      "matched": "экспорта",
+      "context": "зма на территории российской федерации, для продвижения туристического продукта за рубежом в целях увеличения экспорта туристских услуг и привлечения иностранных туристов в рф фондом \"центр стратегических разработок\" реализованы",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic22",
+      "document_id": "fp_301",
+      "frame": "export_trade",
+      "matched": "экспорта",
+      "context": "н, размещенных в коллективных средствах размещения число посещений национального туристического портала объем экспорта туристских услуг",
+      "unit_id": "fp_301:profile14",
+      "unit_ids": [
+        "fp_301:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic23",
+      "document_id": "fp_301",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": " соответствии категории гостиницы, полученных от аккредитованных организаций. разработан функционал анализа и мониторинга сведений, содержащихся в реестре, посредством автоматизированных проверок через систему межведомственного эле",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic24",
+      "document_id": "fp_301",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "ропагандистские видеоролики на русском языке, проведены маркетинговые исследования, направленных на повышение эффективности мероприятий по продвижению внутреннего туризма в российской федерации. обеспечено информационно-аналитическое",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic25",
+      "document_id": "fp_301",
+      "frame": "governance_evidence",
+      "matched": "оценку",
+      "context": "тическое, экспертное и организационное сопровождение мероприятий, направленных на продвижение, исследование и оценку потенциала развития международного въездного туризма на территории российской федерации, для продвижения тури",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic26",
+      "document_id": "fp_301",
+      "frame": "income_support",
+      "matched": "выплат",
+      "context": " геополитического и санкционного давления. результатом использования субсидии является количество получателей выплат, получивших в 2026 году меры государственной поддержки. это позволит сохранить осуществление деятельности не ",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic27",
+      "document_id": "fp_301",
+      "frame": "science_innovation",
+      "matched": "исследования",
+      "context": "ведены рекламно-информационные и (или) пропагандистские видеоролики на русском языке, проведены маркетинговые исследования, направленных на повышение эффективности мероприятий по продвижению внутреннего туризма в российской федераци",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic28",
+      "document_id": "fp_301",
+      "frame": "science_innovation",
+      "matched": "исследование",
+      "context": "рмационно-аналитическое, экспертное и организационное сопровождение мероприятий, направленных на продвижение, исследование и оценку потенциала развития международного въездного туризма на территории российской федерации, для продвиж",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic29",
+      "document_id": "fp_301",
+      "frame": "science_innovation",
+      "matched": "исследования",
+      "context": "вязи по выявлению барьеров, препятствующих росту туристического потенциала, проведены экспертно-аналитические исследования с привлечением участников туристической отрасли, сформированы информационно-аналитические материалы приоритет",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic30",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "обеспечена цифровизация туристической деятельности обеспечена туристическая привлекательность для иностранных граждан и граждан российской федераци",
+      "unit_id": "fp_301:profile1",
+      "unit_ids": [
+        "fp_301:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic31",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристическая",
+      "context": "обеспечена цифровизация туристической деятельности обеспечена туристическая привлекательность для иностранных граждан и граждан российской федерации обеспечено развитие и функционирован",
+      "unit_id": "fp_301:profile2",
+      "unit_ids": [
+        "fp_301:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic32",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "х граждан и граждан российской федерации обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии в целях реализации функций министерства экономического развития российской федерации",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic33",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "мразвития россии в целях реализации функций министерства экономического развития российской федерации в сфере туризма в рамках поручения о единой цифровой платформе в сфере туризма обеспечено развитие и функционирование информа",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic34",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ического развития российской федерации в сфере туризма в рамках поручения о единой цифровой платформе в сфере туризма обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии, предус",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic35",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "диной цифровой платформе в сфере туризма обеспечено развитие и функционирование информационных систем в сфере туризма минэкономразвития россии, предусматривающих: использование данных о субъектах предпринимательской деятельност",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic36",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "развития россии, предусматривающих: использование данных о субъектах предпринимательской деятельности в сфере туризма идентификацию участников рынка туристских услуг сбор, хранение и обработку обезличенных персональных данных д",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic37",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ользование данных о субъектах предпринимательской деятельности в сфере туризма идентификацию участников рынка туристских услуг сбор, хранение и обработку обезличенных персональных данных доступ разработчикам к сведениям на цифрово",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic38",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "путешествиях",
+      "context": " цифровой платформе для создания программного обеспечения, позволяющего формировать комплексные предложения о путешествиях. обеспечено развитие систем и компонентов фгис росаккредитации в целях формирования единого перечня средств к",
+      "unit_id": "fp_301:profile3",
+      "unit_ids": [
+        "fp_301:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic39",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "ования единого перечня средств коллективного размещения на основе проведенной процедуры самооценки участников туристической отрасли обеспечена процедура самооценки коллективных средств размещения для включения в единый перечень средс",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic40",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "едств размещения посредством государственных информационных систем федеральной службы по аккредитации в части туризма. обеспечена эксплуатация (настройка, оптимизация, доступы) единого реестра коллективных средств размещения фг",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic41",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "гостиницы",
+      "context": "ованиям, предъявляем к объектам размещения перед включением в реестр, а также данных о соответствии категории гостиницы, полученных от аккредитованных организаций. разработан функционал анализа и мониторинга сведений, содержащихс",
+      "unit_id": "fp_301:profile4",
+      "unit_ids": [
+        "fp_301:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic42",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ействия. обеспечено развитие государственных информационных систем федеральной службы по аккредитации в части туризма разработаны чек-листы для новых типов средств размещения, создание личных кабинетов, созданы инструменты для ",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic43",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "х классифицированных средствах размещения. реализованы мероприятия, направленные на популяризацию внутреннего туризма, стимулирование спроса в сезоны пониженного спроса, а также на повышение информированности граждан российской",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic44",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ние спроса в сезоны пониженного спроса, а также на повышение информированности граждан российской федерации о туристских возможностях внутри страны в целях популяризации внутреннего туризма стимулирование спроса в сезоны пониженно",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic45",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "нности граждан российской федерации о туристских возможностях внутри страны в целях популяризации внутреннего туризма стимулирование спроса в сезоны пониженного спроса, а также повышение информированности граждан российской фед",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic46",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ование спроса в сезоны пониженного спроса, а также повышение информированности граждан российской федерации о туристских возможностях внутри страны будут проведены мероприятия, в том числе: обеспечено количество контактов с целево",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic47",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "зованных и проведенных федеральных рекламно-информационных кампаниях, направленных на продвижение внутреннего туризма в российской федерации произведены рекламно-информационные и (или) пропагандистские видеоролики на русском яз",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic48",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ны маркетинговые исследования, направленных на повышение эффективности мероприятий по продвижению внутреннего туризма в российской федерации. обеспечено информационно-аналитическое, экспертное и организационное сопровождение ме",
+      "unit_id": "fp_301:profile6",
+      "unit_ids": [
+        "fp_301:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic49",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": " мероприятий, направленных на продвижение, исследование и оценку потенциала развития международного въездного туризма на территории российской федерации, для продвижения туристического продукта за рубежом в целях увеличения экс",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic50",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "енку потенциала развития международного въездного туризма на территории российской федерации, для продвижения туристического продукта за рубежом в целях увеличения экспорта туристских услуг и привлечения иностранных туристов в рф фонд",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic51",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "рритории российской федерации, для продвижения туристического продукта за рубежом в целях увеличения экспорта туристских услуг и привлечения иностранных туристов в рф фондом \"центр стратегических разработок\" реализованы мероприяти",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic52",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристов",
+      "context": "ния туристического продукта за рубежом в целях увеличения экспорта туристских услуг и привлечения иностранных туристов в рф фондом \"центр стратегических разработок\" реализованы мероприятия по продвижению российского туризма за р",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic53",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ных туристов в рф фондом \"центр стратегических разработок\" реализованы мероприятия по продвижению российского туризма за рубежом обеспечено осуществление деятельности юридических лиц и индивидуальных предпринимателей туристской",
+      "unit_id": "fp_301:profile7",
+      "unit_ids": [
+        "fp_301:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic54",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "го туризма за рубежом обеспечено осуществление деятельности юридических лиц и индивидуальных предпринимателей туристской индустрии в республике крым и городе севастополе в условиях геополитического и санкционного давления оказывае",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic55",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "нкционного давления оказывается государственная поддержка юридическим лицам и индивидуальным предпринимателям туристской индустрии в рамках предоставления субсидий из федерального бюджета бюджетам республики крым и г. севастополя ",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic56",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "лит сохранить осуществление деятельности не менее чем 4 600 юридических лиц и индивидуальных предпринимателей туристской индустрии. организована система формирования обратной связи со всеми участниками туристической отрасли по выя",
+      "unit_id": "fp_301:profile8",
+      "unit_ids": [
+        "fp_301:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic57",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": " предпринимателей туристской индустрии. организована система формирования обратной связи со всеми участниками туристической отрасли по выявлению барьеров, сдерживающих рост туристического потенциала на внутреннем и международных рынк",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic58",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "рмирования обратной связи со всеми участниками туристической отрасли по выявлению барьеров, сдерживающих рост туристического потенциала на внутреннем и международных рынках, и формирования предложений по их устранению, а также сопрово",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic59",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "ынках, и формирования предложений по их устранению, а также сопровождения приоритетных проектов в целях роста туристического потенциала на внутреннем и международных рынках осуществлена методическая поддержка российских регионов, орга",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic60",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "оддержка российских регионов, организована система обратной связи по выявлению барьеров, препятствующих росту туристического потенциала, проведены экспертно-аналитические исследования с привлечением участников туристической отрасли, с",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic61",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "щих росту туристического потенциала, проведены экспертно-аналитические исследования с привлечением участников туристической отрасли, сформированы информационно-аналитические материалы приоритетных проектов реализованы мероприятия, на",
+      "unit_id": "fp_301:profile9",
+      "unit_ids": [
+        "fp_301:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic62",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "териалы приоритетных проектов реализованы мероприятия, направленные на популяризацию российской федерации как туристического направления на зарубежных рынках в целях популяризации российской федерации как туристического направления на",
+      "unit_id": "fp_301:profile10",
+      "unit_ids": [
+        "fp_301:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic63",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": " федерации как туристического направления на зарубежных рынках в целях популяризации российской федерации как туристического направления на зарубежных рынках проведены коммуникационные компании в цифровых каналах коммуникации, осущест",
+      "unit_id": "fp_301:profile10",
+      "unit_ids": [
+        "fp_301:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic64",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": ", осуществлено ведение аккаунтов в социальных сетях и турплатформах. индекс удовлетворенности граждан в сфере туризма и гостеприимства численность иностранных граждан, размещенных в коллективных средствах размещения число посещ",
+      "unit_id": "fp_301:profile11",
+      "unit_ids": [
+        "fp_301:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic65",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "лено ведение аккаунтов в социальных сетях и турплатформах. индекс удовлетворенности граждан в сфере туризма и гостеприимства численность иностранных граждан, размещенных в коллективных средствах размещения число посещений национальног",
+      "unit_id": "fp_301:profile11",
+      "unit_ids": [
+        "fp_301:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic66",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": "исленность иностранных граждан, размещенных в коллективных средствах размещения число посещений национального туристического портала объем экспорта туристских услуг",
+      "unit_id": "fp_301:profile13",
+      "unit_ids": [
+        "fp_301:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic67",
+      "document_id": "fp_301",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "енных в коллективных средствах размещения число посещений национального туристического портала объем экспорта туристских услуг",
+      "unit_id": "fp_301:profile14",
+      "unit_ids": [
+        "fp_301:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic68",
+      "document_id": "fp_301",
+      "frame": "transport_logistics",
+      "matched": "порталом",
+      "context": "ения, создание личных кабинетов, созданы инструменты для автоматизированных проверок. обеспечена интеграция с порталом пространственных данных национальной системы пространственных данных. на публичной кадастровой карте рф будут",
+      "unit_id": "fp_301:profile5",
+      "unit_ids": [
+        "fp_301:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_301:kwic69",
+      "document_id": "fp_301",
+      "frame": "transport_logistics",
+      "matched": "портала",
+      "context": "транных граждан, размещенных в коллективных средствах размещения число посещений национального туристического портала объем экспорта туристских услуг",
+      "unit_id": "fp_301:profile13",
+      "unit_ids": [
+        "fp_301:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/301",
+  "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4"
+}

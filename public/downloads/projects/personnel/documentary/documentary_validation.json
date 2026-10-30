@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "finance_total_thousand_rub": "178800951.31",
+  "national_total_thousand_rub": "177331609.71",
+  "reconciliation_gap_thousand_rub": "1469341.60",
+  "finance_project_year_cells": 24,
+  "later_years_thousand_rub": "119393668.30",
+  "hhi": 0.3985102649800975,
+  "target_cells": 66,
+  "numeric_targets": 65,
+  "federal_thematic_cells": 72,
+  "same_genre_cosine_pairs": 6,
+  "direct_reviewed_edges": 10,
+  "direct_reviewed_results": 10,
+  "node_types": {
+    "task": 15,
+    "goal": 5,
+    "indicator": 11,
+    "result": 32
+  },
+  "source_documents": 11,
+  "runtime_json_bytes": 1828078,
+  "lazy_document_files": 11,
+  "all_text_units": 1769,
+  "all_kwic_contexts": 1018
+}

@@ -1,0 +1,294 @@
+{
+  "document": {
+    "project_id": "efficient_transport",
+    "kind": "fp",
+    "id": "fp_274",
+    "url": "https://databudget.ru/projects/fp/274",
+    "sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+    "retrieved_at": "2026-10-19T14:38:33.753501+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/eb/eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4.html",
+    "document_id": "fp_274",
+    "code": "Т7",
+    "title": "[Т7] Развитие пунктов пропуска",
+    "publisher_version": "26.12",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 107,
+    "n_tokens": 107,
+    "source_url": "https://databudget.ru/projects/fp/274",
+    "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+    "profile_text_sha256": "90956147aed92d7bfa84b7801b477f3440282b29cb16c43a90f28efd4d044faf",
+    "archive_entry": "efficient_transport/fp_274.html",
+    "bytes": 408765,
+    "download_path": "downloads/projects/efficient_transport/documentary/sources/fp_274.html",
+    "profile_original_document_id": "html:eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_274:profile1",
+      "document_id": "fp_274",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года)",
+      "node_id": "fp_274:passport-task-07:3ae369840cddd816",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_274:profile2",
+      "document_id": "fp_274",
+      "project_id": "efficient_transport",
+      "kind": "goal",
+      "text": "увеличение пропускной способности железнодорожных и автомобильных пунктов пропуска через государственную границу российской федерации за счет реализации мероприятий по строительству (реконструкции, техническому перевооружению) для удовлетворения потребностей населения российской федерации, бизнеса и государства",
+      "node_id": "fp_274:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "n_tokens": 29,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_274:profile3",
+      "document_id": "fp_274",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "завершена реконструкция (строительство) пунктов пропуска через государственную границу российской федерации реализация мероприятий по реконструкции (строительству, техническому перевооружению) пунктов пропуска через государственную границу российской федерации, расположенных в створах международных транспортных коридоров, а также на приоритетных участках государственной границы, с целью увеличения провозной мощности и пропускной способности",
+      "node_id": "fp_274:passport-result-1:8c12445f9799d75d",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "n_tokens": 41,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_274:profile4",
+      "document_id": "fp_274",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "пропускная способность железнодорожных пунктов пропуска (нарастающим итогом)",
+      "node_id": "fp_274:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_274:profile5",
+      "document_id": "fp_274",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "пропускная способность автомобильных пунктов пропуска (нарастающим итогом)",
+      "node_id": "fp_274:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_274:kwic1",
+      "document_id": "fp_274",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": " (реконструкции, техническому перевооружению) для удовлетворения потребностей населения российской федерации, бизнеса и государства завершена реконструкция (строительство) пунктов пропуска через государственную границу российск",
+      "unit_id": "fp_274:profile2",
+      "unit_ids": [
+        "fp_274:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_274:kwic2",
+      "document_id": "fp_274",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_274:profile1",
+      "unit_ids": [
+        "fp_274:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_274:kwic3",
+      "document_id": "fp_274",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": " федерации не менее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года) увеличение пропускной способности железнодорожных и автомобильных пунктов пропуска через государственную границу российской федерации за счет реализации меропр",
+      "unit_id": "fp_274:profile2",
+      "unit_ids": [
+        "fp_274:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_274:kwic4",
+      "document_id": "fp_274",
+      "frame": "transport_logistics",
+      "matched": "транспортных",
+      "context": "ю) пунктов пропуска через государственную границу российской федерации, расположенных в створах международных транспортных коридоров, а также на приоритетных участках государственной границы, с целью увеличения провозной мощности и ",
+      "unit_id": "fp_274:profile3",
+      "unit_ids": [
+        "fp_274:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_274:kwic5",
+      "document_id": "fp_274",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": "осударственной границы, с целью увеличения провозной мощности и пропускной способности пропускная способность железнодорожных пунктов пропуска (нарастающим итогом) пропускная способность автомобильных пунктов пропуска (нарастающим итог",
+      "unit_id": "fp_274:profile4",
+      "unit_ids": [
+        "fp_274:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_274:kwic1",
+      "document_id": "fp_274",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": " (реконструкции, техническому перевооружению) для удовлетворения потребностей населения российской федерации, бизнеса и государства завершена реконструкция (строительство) пунктов пропуска через государственную границу российск",
+      "unit_id": "fp_274:profile2",
+      "unit_ids": [
+        "fp_274:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_274:kwic2",
+      "document_id": "fp_274",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_274:profile1",
+      "unit_ids": [
+        "fp_274:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_274:kwic3",
+      "document_id": "fp_274",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": " федерации не менее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года) увеличение пропускной способности железнодорожных и автомобильных пунктов пропуска через государственную границу российской федерации за счет реализации меропр",
+      "unit_id": "fp_274:profile2",
+      "unit_ids": [
+        "fp_274:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_274:kwic4",
+      "document_id": "fp_274",
+      "frame": "transport_logistics",
+      "matched": "транспортных",
+      "context": "ю) пунктов пропуска через государственную границу российской федерации, расположенных в створах международных транспортных коридоров, а также на приоритетных участках государственной границы, с целью увеличения провозной мощности и ",
+      "unit_id": "fp_274:profile3",
+      "unit_ids": [
+        "fp_274:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_274:kwic5",
+      "document_id": "fp_274",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": "осударственной границы, с целью увеличения провозной мощности и пропускной способности пропускная способность железнодорожных пунктов пропуска (нарастающим итогом) пропускная способность автомобильных пунктов пропуска (нарастающим итог",
+      "unit_id": "fp_274:profile4",
+      "unit_ids": [
+        "fp_274:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "source_url": "https://databudget.ru/projects/fp/274",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/274",
+  "source_sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4"
+}

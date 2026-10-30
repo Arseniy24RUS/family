@@ -1,0 +1,19 @@
+{
+  "source_url": "https://base.garant.ru/411685865/",
+  "source_input_path": "inputs/healthtech/documentary/budget_2027_2029.html",
+  "source_html_download": "downloads/projects/health_technologies/documentary/budget_2027_2029.html",
+  "source_html_sha256": "8174f73fc065629fa57f8c9e72c82a953e6c571d521f8a20e22e8827046ed1cb",
+  "retrieved_at": "2026-10-29",
+  "source_metadata_path": "inputs/healthtech/documentary/budget_source_verification.json",
+  "table_label": "Таблица 4.1.6",
+  "document": "Пояснительная записка к законопроекту № 615-9 о федеральном бюджете на 2027 год и плановый период 2028 и 2029 годов",
+  "verification_status": "independently_parsed_legal_republication",
+  "periods": {
+    "2026": "Сводная бюджетная роспись на 01.09.2026",
+    "2027": "Внесённый законопроект",
+    "2028": "Внесённый законопроект",
+    "2029": "Внесённый законопроект"
+  },
+  "unit": "млн руб.",
+  "retrieval_basis": "Byte-pinned HTML already included in release 2.4.0-healthtech.1; original retrieval metadata retained."
+}

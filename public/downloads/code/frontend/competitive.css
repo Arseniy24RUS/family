@@ -1,0 +1,155 @@
+/* Effective and Competitive Economy project uses the shared project theme; no independent colour palette. */
+.competitive-page { min-width: 0; }
+.competitive-page .page-heading { align-items: flex-start; }
+.competitive-page .page-heading h1 { max-width: 100%; overflow-wrap: anywhere; }
+.competitive-findings { border-left: 4px solid var(--blue); padding: 2px 0 2px 20px; margin: 0 0 28px; max-width: 1040px; }
+.competitive-findings p { font-size: 17px; line-height: 1.75; margin: 7px 0; }
+.competitive-dates { display: flex; flex-wrap: wrap; gap: 12px 32px; color: var(--muted); font-size: 13px; margin: 0 0 22px; }
+.competitive-dates strong { color: var(--ink); }
+.competitive-card-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; margin: 24px 0; }
+.competitive-card-grid .project-card { margin: 0; }
+.competitive-step-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(175px,1fr)); gap: 18px; }
+.competitive-step-grid article { border-top: 2px solid var(--border); padding-top: 16px; min-width: 0; }
+.competitive-step-grid h3 { margin: 6px 0 10px; font-size: 17px; line-height: 1.4; }
+.competitive-step-grid p { color: var(--muted); font-size: 14px; line-height: 1.7; }
+.competitive-step { color: var(--blue); font-family: inherit; font-size: 28px; line-height: 1; }
+.competitive-page .source-foot { flex-wrap: wrap; align-items: flex-start; gap: 10px 20px; }
+.competitive-page .source-foot > span { flex: 1 1 280px; overflow-wrap: anywhere; }
+.competitive-page .source-foot a { flex-shrink: 0; }
+.competitive-references { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 12px; line-height: 1.6; margin-top: 9px; color: var(--muted); }
+.competitive-references a { overflow-wrap: anywhere; max-width: 100%; }
+.competitive-report { border: 1px solid var(--border); border-radius: 12px; margin: 28px 0; background: #fff; }
+.competitive-report > summary { display: flex; align-items: center; gap: 12px; padding: 20px; cursor: pointer; font-weight: 600; line-height: 1.5; }
+.competitive-report > summary > span { margin-left: auto; white-space: nowrap; }
+.competitive-report > summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.competitive-report[open] > summary { border-bottom: 1px solid var(--border); }
+.competitive-report-body { padding: 24px; }
+.competitive-report-body > div { margin: 18px 0; }
+.competitive-report-block { line-height: 1.85; }
+.competitive-report-body h2 { font-size: 23px; margin-top: 34px; }
+.competitive-report-body h3 { font-size: 19px; margin-top: 26px; }
+.competitive-report-body .formula { overflow-x: auto; white-space: normal; overflow-wrap: anywhere; }
+.competitive-figure-reference { padding: 16px 18px; border-left: 3px solid var(--blue); background: var(--blue-light, #fff4f4); border-radius: 0 8px 8px 0; }
+.competitive-figure-reference strong { display: block; }
+.competitive-figure-reference p { margin: 8px 0; }
+.competitive-search { display: flex; gap: 8px; align-items: center; flex: 1 1 320px; }
+.competitive-search input { min-width: 100px; width: 100%; }
+.competitive-page .toolbar .field { min-width: 190px; flex: 1 1 230px; }
+.competitive-page .toolbar select { width: 100%; max-width: 100%; }
+.competitive-page .field input { padding: 10px 12px; border: 1px solid var(--border); border-radius: 7px; font: inherit; width: 100%; background: #fff; }
+.competitive-page .field input:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.competitive-page .atlas-layout { grid-template-columns: minmax(0,1fr) 240px; }
+.competitive-page .atlas-aside .field { max-width: 100%; }
+.competitive-page .atlas-aside select { max-width: 100%; width: 100%; }
+.competitive-page .region-reading h3 { margin-bottom: 14px; }
+.competitive-page .figure { min-width: 0; }
+.competitive-page .map-surface { min-width: 0; }
+.competitive-reading { margin: 20px 0; }
+.competitive-reading h3 { margin-bottom: 8px; }
+.competitive-mechanism > p { line-height: 1.85; }
+.competitive-proposal-reading { max-width: 1040px; }
+.competitive-proposal-reading h2,.competitive-proposal-reading h3 { margin-top: 34px; }
+.competitive-proposal-reading p { line-height: 1.85; }
+.competitive-download-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+.competitive-download { display: flex; gap: 13px; align-items: flex-start; padding: 15px; border: 1px solid var(--border); border-radius: 9px; text-decoration: none; color: var(--ink); }
+.competitive-download:hover,.competitive-download:focus-visible { border-color: var(--blue); background: var(--blue-light, #fff4f4); }
+.competitive-download > svg { color: var(--blue); flex-shrink: 0; margin-top: 2px; }
+.competitive-download strong { display: block; font-size: 14px; line-height: 1.5; }
+.competitive-download small { color: var(--muted); display: block; margin-top: 4px; }
+.competitive-inline-links { display: flex; gap: 9px 18px; flex-wrap: wrap; }
+.competitive-inline-links a { white-space: normal; }
+.competitive-page .data-table td { vertical-align: top; }
+.competitive-page .data-table td:first-child { max-width: 370px; }
+.competitive-page .data-table .text-link { white-space: normal; }
+.competitive-page .stats { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.competitive-page .stat { min-width: 0; }
+.competitive-page .stat strong { overflow-wrap: anywhere; font-size: clamp(23px,2.7vw,36px); }
+.competitive-network-card { border-left: 4px solid var(--blue); padding-left: 18px; margin: 20px 0; }
+.competitive-network-card p { line-height: 1.75; }
+.competitive-context { font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.competitive-page mark { background: #f9dfdf; color: #8e3030; padding: 1px 2px; }
+.competitive-page .competitive-wide-chart { overflow-x: auto; padding-bottom: 8px; }
+.competitive-page .competitive-wide-chart > .chart-svg { min-width: 660px; }
+.competitive-page .competitive-wide-chart:focus-visible { outline: 2px solid var(--blue); }
+@media (max-width:1100px) {
+ .competitive-page .stats { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .competitive-page .atlas-layout { grid-template-columns: minmax(0,1fr); }
+ .competitive-page .atlas-aside { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+ .competitive-page .atlas-aside .region-reading { margin: 0; }
+}
+@media (max-width:600px) {
+ .competitive-findings { padding-left: 14px; margin-bottom: 22px; }
+ .competitive-findings p { font-size: 15px; line-height: 1.75; }
+ .competitive-page .page-heading h1 { font-size: 29px; }
+ .competitive-card-grid,.competitive-download-grid { grid-template-columns: 1fr; gap: 12px; }
+ .competitive-step-grid { grid-template-columns: 1fr; gap: 12px; }
+ .competitive-step-grid article { padding-top: 12px; }
+ .competitive-step-grid p { margin-bottom: 4px; }
+ .competitive-report > summary { padding: 16px 12px; align-items: flex-start; }
+ .competitive-report > summary > span { display: none; }
+ .competitive-report-body { padding: 14px; }
+ .competitive-report-body h2 { font-size: 21px; }
+ .competitive-report-block { font-size: 14px; line-height: 1.85; }
+ .competitive-search { flex-wrap: wrap; }
+ .competitive-search input { flex: 1 1 100%; }
+ .competitive-page .toolbar .field { min-width: 0; flex: 1 1 100%; }
+ .competitive-page .atlas-aside { display: block; }
+ .competitive-page .stat { padding: 14px 12px; }
+ .competitive-page .stat strong { font-size: 26px; }
+ .competitive-page .stat small { font-size: 11px; }
+ .competitive-dates { flex-direction: column; gap: 8px; font-size: 12px; }
+ .competitive-page .map-hint { position: static; padding: 8px 4px; font-size: 11px; }
+ .competitive-page .source-foot a { flex-shrink: 1; }
+ .competitive-page .legend { font-size: 11px; }
+}
+@media (prefers-reduced-motion:reduce) { .competitive-page * { scroll-behavior: auto; } }
+
+/* Table headers stay neutral; the project colour is reserved for evidence and controls. */
+.competitive-page .data-table th { background: #fff; }
+
+.competitive-load-error { overflow-wrap: anywhere; }
+.competitive-page .three-col { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; }
+@media(max-width:760px) { .competitive-page .three-col { grid-template-columns: 1fr; gap: 12px; } }
+
+.competitive-page .competitive-controls input[type="number"]{width:100%;min-width:100px;}
+.competitive-page .competitive-controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin:18px 0;}
+.competitive-page .competitive-stage-card{padding:18px;border:1px solid var(--border);border-top:3px solid var(--blue);border-radius:10px;background:var(--project-tint);min-width:0;}
+.competitive-page .competitive-status{display:inline-block;padding:4px 8px;border-radius:4px;background:var(--project-soft);font-size:12px;line-height:1.4;}
+.competitive-page .competitive-note{font-size:14px;line-height:1.7;color:var(--muted);}
+.competitive-page .competitive-chart-detail{font-size:13px;color:var(--muted);margin:10px 0;}
+.competitive-page .competitive-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;}
+.competitive-page .competitive-reproduction{overflow-wrap:anywhere;}
+.competitive-page .competitive-stage-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;}
+@media(max-width:760px){.competitive-page .competitive-split{grid-template-columns:1fr;}.competitive-page .competitive-controls{grid-template-columns:1fr;}}
+.competitive-report-figure {margin:20px 0;}
+.competitive-report-figure img {display:block;max-width:100%;width:auto;height:auto;max-height:680px;object-fit:contain;}
+.competitive-report-figure figcaption {font-size:14px;line-height:1.6;margin-top:8px;}
+.competitive-page .competitive-report-body .competitive-report-block {overflow-wrap:anywhere;}
+.competitive-page .data-table td {max-width:560px;overflow-wrap:anywhere;}
+.competitive-page .data-table td a.text-link {white-space:nowrap;}
+.competitive-page textarea {display:block;width:100%;min-width:0;padding:12px;border:1px solid var(--border);border-radius:7px;font:inherit;line-height:1.6;resize:vertical;background:#fff;}
+.competitive-page textarea:focus-visible {outline:2px solid var(--blue);outline-offset:2px;}
+.competitive-wide-field {grid-column:1/-1;}
+.competitive-page .data-table td .competitive-cell-sources a {white-space:nowrap;}
+.competitive-page .competitive-wide-chart {max-width:100%;}
+.competitive-page .stats .stat {overflow:hidden;}
+
+.competitive-page .competitive-wide-chart > .chart-svg { min-width: 660px; }
+.competitive-page .competitive-controls .field { min-width: 0; }
+.competitive-page .formula { max-width: 100%; overflow-x: auto; }
+@media(max-width:360px) { .competitive-page .competitive-stage-grid { grid-template-columns: minmax(0,1fr); } .competitive-page .stats { grid-template-columns: minmax(0,1fr); } }
+
+.competitive-page { --competitive-ink: #993D3D; }
+.competitive-page .text-link, .competitive-step, .competitive-references a { color: var(--competitive-ink); }
+.competitive-page .button.primary { background: #993D3D; border-color: #993D3D; color:#fff; }
+.competitive-page .button.primary:hover { background: #812F2F; }
+.competitive-page .competitive-formula-result {font-size:16px;line-height:1.7;}
+
+@media(max-width:600px) {
+ .competitive-page[data-competitive-page="texts"][data-text-view="contexts"] .table-scroll table { min-width:960px; }
+ .competitive-page[data-competitive-page="texts"][data-text-view="contexts"] .table-scroll td:nth-child(2),
+ .competitive-page[data-competitive-page="texts"][data-text-view="contexts"] .table-scroll th:nth-child(2) { min-width:340px; max-width:420px; }
+}
+
+/* The stable audit key is exported with the reader label and remains searchable. */
+.competitive-audit-table th:last-child,.competitive-audit-table td:last-child{display:none}

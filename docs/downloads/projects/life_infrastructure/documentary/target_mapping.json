@@ -1,0 +1,516 @@
+{
+  "project_id": "life_infrastructure",
+  "mapping": {
+    "https://databudget.ru/projects/np/18#passport-purpose-1": {
+      "indicator_code": "2.14.И.3",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Общая площадь жилых помещений, приходящаяся в среднем на одного жителя",
+      "unit": "Квадратных метров на человека",
+      "mapping_status": "approved",
+      "mapping_id": "6e6a8c91bb60f9bf356efb91",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-2": {
+      "indicator_code": "2.14.И.9",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Длительность инвестиционно-строительного цикла",
+      "unit": "Сутки",
+      "mapping_status": "approved",
+      "mapping_id": "5871fc5943e36c5317e7cab5",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-3": {
+      "indicator_code": "2.14.И.11",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Объем ипотечных жилищных кредитов (траншей) в рублях и иностранной валюте, предоставленных физическим лицам-резидентам за год",
+      "unit": "Триллион рублей",
+      "mapping_status": "approved",
+      "mapping_id": "ec81a792feda8c54906847c5",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-4": {
+      "indicator_code": "2.14.И.8",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Количество реализованных проектов победителей Всероссийского конкурса создания комфортной городской среды, ед. (нарастающим итогом с 2025 г.)",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "3a3e9669e185575687c91f44",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-5": {
+      "indicator_code": "2.14.И.5",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Численность населения, для которого улучшится качество предоставления коммунальных услуг (в сфере тепло-, водоснабжения и водоотведения), нарастающим итогом с 2025 года",
+      "unit": "Миллион человек",
+      "mapping_status": "approved",
+      "mapping_id": "943feae57cd06caa202458ce",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-6": {
+      "indicator_code": "2.14.И.12",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Доля дорожной сети крупнейших городских агломераций, находящейся в нормативном состоянии",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "bd1a74b0e81f16f336bcd698",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-7": {
+      "indicator_code": "2.14.И.16",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Доля парка общественного транспорта в агломерациях и городах, имеющего срок эксплуатации не старше нормативного",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "33417508259380d6a6489ff7",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-8": {
+      "indicator_code": "2.14.И.15",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Доля автомобильных дорог федерального значения, находящихся в нормативном состоянии",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "bb2ebab2e66467b438c4afc8",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-9": {
+      "indicator_code": "2.14.И.4",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Объем жилищного строительства",
+      "unit": "Миллион квадратных метров общей площади",
+      "mapping_status": "approved",
+      "mapping_id": "a54dac25c700a9190dcd3429",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-10": {
+      "indicator_code": "2.14.И.14",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Доля автомобильных дорог, входящих в опорную сеть, соответствующих нормативным требованиям",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "8034be54225c261de45dddcf",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-11": {
+      "indicator_code": "2.14.И.2",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Доля жилищного фонда, обновленного после 2019 года.",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "0286f81526333f303e8fedfb",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-12": {
+      "indicator_code": "2.14.И.6",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Количество построенных и реконструированных (модернизированных) объектов питьевого водоснабжения и водоподготовки, нарастающим итогом с 2019 года",
+      "unit": "Штука",
+      "mapping_status": "approved",
+      "mapping_id": "6b621c1fbd92e453868daa31",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-13": {
+      "indicator_code": "2.14.И.10",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Количество погибших в дорожно-транспортных происшествиях на 10 тысяч транспортных средств",
+      "unit": "Человек",
+      "mapping_status": "approved",
+      "mapping_id": "facab4ae5e9dfb4a5c52a228",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-14": {
+      "indicator_code": "2.14.И.10.1",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Оперативный расчет количества погибших в дорожно-транспортных происшествиях на 10 тысяч транспортных средств (прокси-показатель к показателю №№  П00082-И, П00082-И5)",
+      "unit": "Человек",
+      "mapping_status": "approved",
+      "mapping_id": "93a2c2446dc305ccfb43878b",
+      "target_is_proxy": true,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-15": {
+      "indicator_code": "2.14.И.1",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Улучшение качества среды для жизни в опорных населенных пунктах",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "d19f9ac62536505e1d32fb36",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-16": {
+      "indicator_code": "2.14.И.7",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Количество благоустроенных общественных территорий, ед. (нарастающим итогом с 2025 г.)",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "eaa205e2e171190fe09a6f35",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/18#passport-purpose-17": {
+      "indicator_code": "2.14.И.13",
+      "source_sha256": "20f380cd37a798c1fb128331b62f9d8a3322a1e727fc6546dc8fe777841d0d0c",
+      "title": "Доля автомобильных дорог регионального и межмуниципального значения, соответствующих нормативным требованиям",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "fe812e5603755f264bf2898f",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/245#passport-purpose-1": {
+      "indicator_code": "2.14.И.6",
+      "source_sha256": "19e0ed97f4e5050e46760159c65f4a2f555cb20d1c2c8f1ef690700177d2eb96",
+      "title": "Количество построенных и реконструированных (модернизированных) объектов питьевого водоснабжения и водоподготовки, нарастающим итогом с 2019 года",
+      "unit": "Штука",
+      "mapping_status": "approved",
+      "mapping_id": "4ad590cd92c1b18302a4b767",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/245#passport-purpose-2": {
+      "indicator_code": "2.14.И.5",
+      "source_sha256": "19e0ed97f4e5050e46760159c65f4a2f555cb20d1c2c8f1ef690700177d2eb96",
+      "title": "Численность населения, для которого улучшится качество предоставления коммунальных услуг (в сфере тепло-, водоснабжения и водоотведения), нарастающим итогом с 2025 года",
+      "unit": "Миллион человек",
+      "mapping_status": "approved",
+      "mapping_id": "f1a9a6cadf302038db3f4113",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/248#passport-purpose-1": {
+      "indicator_code": "2.14.ИА.1",
+      "source_sha256": "55d6b789d8874b3c0870d418a0e32d9009657507bee2e3fd254aef459efa2eb8",
+      "title": "Индекс устойчивого энергосбережения в строительстве",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "dc6bbf3d9620ba0deafefec7",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/248#passport-purpose-2": {
+      "indicator_code": "2.14.И.9",
+      "source_sha256": "55d6b789d8874b3c0870d418a0e32d9009657507bee2e3fd254aef459efa2eb8",
+      "title": "Длительность инвестиционно-строительного цикла",
+      "unit": "Сутки",
+      "mapping_status": "approved",
+      "mapping_id": "756b22b2370cb79fae0f6f2b",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/249#passport-purpose-1": {
+      "indicator_code": "2.14.И.10.1",
+      "source_sha256": "6199cb833b89b2ef53bd180be00e366e2babe7e51bc32a40960b65e2c041a616",
+      "title": "Оперативный расчет количества погибших в дорожно-транспортных происшествиях на 10 тысяч транспортных средств (прокси-показатель к показателю №№ П00082-И, П00082-И5)",
+      "unit": "Человек",
+      "mapping_status": "approved",
+      "mapping_id": "15156a31f563e08ab999b1e4",
+      "target_is_proxy": true,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/249#passport-purpose-2": {
+      "indicator_code": "2.14.И.10",
+      "source_sha256": "6199cb833b89b2ef53bd180be00e366e2babe7e51bc32a40960b65e2c041a616",
+      "title": "Количество погибших в дорожно-транспортных происшествиях на 10 тысяч транспортных средств",
+      "unit": "Человек",
+      "mapping_status": "approved",
+      "mapping_id": "4b7c3c6af2b5a712da4cfe54",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/253#passport-purpose-1": {
+      "indicator_code": "2.14.И2.2",
+      "source_sha256": "70c006529a60ee2a7d7a18b89e001d220321d9b637d80590c11f1c6a549f61fe",
+      "title": "Повышение доступности жилья на первичном рынке",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "df3008eba4fb0becb71c4792",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/253#passport-purpose-2": {
+      "indicator_code": "2.14.И2.6",
+      "source_sha256": "70c006529a60ee2a7d7a18b89e001d220321d9b637d80590c11f1c6a549f61fe",
+      "title": "Площадь земельных участков, выявленных для вовлечения в оборот, в целях индивидуального жилищного строительства (нарастающим итогом)",
+      "unit": "Тысяча гектаров",
+      "mapping_status": "conditional",
+      "mapping_id": "4d68458506f44aee1c92b934",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/253#passport-purpose-3": {
+      "indicator_code": "2.14.И2.1",
+      "source_sha256": "70c006529a60ee2a7d7a18b89e001d220321d9b637d80590c11f1c6a549f61fe",
+      "title": "Количество граждан, переселенных из непригодного для проживания жилищного фонда (нарастающим итогом с 2019 года )",
+      "unit": "Тысяча человек",
+      "mapping_status": "approved",
+      "mapping_id": "dfcc799f2db84aa03e699724",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/253#passport-purpose-4": {
+      "indicator_code": "2.14.И.4",
+      "source_sha256": "70c006529a60ee2a7d7a18b89e001d220321d9b637d80590c11f1c6a549f61fe",
+      "title": "Объем жилищного строительства",
+      "unit": "Миллион квадратных метров общей площади",
+      "mapping_status": "approved",
+      "mapping_id": "2520c1ec81e8fac6b21d03de",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/253#passport-purpose-5": {
+      "indicator_code": "2.14.И2.3",
+      "source_sha256": "70c006529a60ee2a7d7a18b89e001d220321d9b637d80590c11f1c6a549f61fe",
+      "title": "Индекс доступности жилья",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "3740badf60a8504f74004c6b",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/253#passport-purpose-6": {
+      "indicator_code": "2.14.И2.4",
+      "source_sha256": "70c006529a60ee2a7d7a18b89e001d220321d9b637d80590c11f1c6a549f61fe",
+      "title": "Доля строительства объектов индивидуального жилищного строительства по договорам строительного подряда с использованием счетов эскроу в общем объеме строительства таких объектов",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "122243c57464d3a13b0e615a",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/253#passport-purpose-7": {
+      "indicator_code": "2.14.И2.5",
+      "source_sha256": "70c006529a60ee2a7d7a18b89e001d220321d9b637d80590c11f1c6a549f61fe",
+      "title": "Количество подключенных домовладений к сетевому природному газу в рамках программы социальной газификации населения",
+      "unit": "Миллион единиц",
+      "mapping_status": "approved",
+      "mapping_id": "fc35076fd39c4493061d5da3",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/253#passport-purpose-8": {
+      "indicator_code": "2.14.И.3",
+      "source_sha256": "70c006529a60ee2a7d7a18b89e001d220321d9b637d80590c11f1c6a549f61fe",
+      "title": "Общая площадь жилых помещений, приходящаяся в среднем на одного жителя",
+      "unit": "Квадратных метров на человека",
+      "mapping_status": "approved",
+      "mapping_id": "85893cc9b0edbad3a463ddaf",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/253#passport-purpose-9": {
+      "indicator_code": "2.14.И.2",
+      "source_sha256": "70c006529a60ee2a7d7a18b89e001d220321d9b637d80590c11f1c6a549f61fe",
+      "title": "Доля жилищного фонда, обновленного после 2019 года.",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "5f8b48256a9cf6b9f8e6d327",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/254#passport-purpose-1": {
+      "indicator_code": "2.14.И6.1",
+      "source_sha256": "2e4e93fe6d6a7b4e2c6fa239810125f7d1b1f8feb661adf5d83b4b12f32ff823",
+      "title": "Размеры движения пригородных поездов во внутригородских сообщениях в агломерациях (в парах поездов)",
+      "unit": "Пара (2 шт.)",
+      "mapping_status": "approved",
+      "mapping_id": "e956234fdb3bce1dbb9dfbbc",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/254#passport-purpose-2": {
+      "indicator_code": "2.14.И.16",
+      "source_sha256": "2e4e93fe6d6a7b4e2c6fa239810125f7d1b1f8feb661adf5d83b4b12f32ff823",
+      "title": "Доля парка общественного транспорта в агломерациях и городах, имеющего срок эксплуатации не старше нормативного",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "7d128ae75cf3fee08ce7b161",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/254#passport-purpose-3": {
+      "indicator_code": "2.14.И6.2",
+      "source_sha256": "2e4e93fe6d6a7b4e2c6fa239810125f7d1b1f8feb661adf5d83b4b12f32ff823",
+      "title": "Доля протяженности трамвайной и троллейбусной инфраструктуры (дорожно-транспортной, обслуживающей) городского наземного электрического транспорта (контактная сеть, пути) в городах и городских агломерациях в нормативном состоянии",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "b11104689972c83dbf4faa09",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/259#passport-purpose-1": {
+      "indicator_code": "2.14.ИБ.1",
+      "source_sha256": "a917eac932d47ffe7dba9ea5af7d778ad45de5c76641e09917bd06048ec0f171",
+      "title": "Средний уровень процентной ставки по ипотечному кредиту",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "507b754669ae376e9da5d97a",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/259#passport-purpose-2": {
+      "indicator_code": "2.14.И.11",
+      "source_sha256": "a917eac932d47ffe7dba9ea5af7d778ad45de5c76641e09917bd06048ec0f171",
+      "title": "Объем ипотечных жилищных кредитов (траншей) в рублях и иностранной валюте, предоставленных физическим лицам-резидентам за год",
+      "unit": "Триллион рублей",
+      "mapping_status": "approved",
+      "mapping_id": "cccf5fe2803b70900ed38542",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/260#passport-purpose-1": {
+      "indicator_code": "2.14.ИВ.1",
+      "source_sha256": "eb68e2344383ed90d6d3bbed1d8a84878ef85d2a50a49cfa7c50316320fe533f",
+      "title": "Пассажиропоток в железнодорожном сообщении ЦТУ",
+      "unit": "Пассажиропоток",
+      "mapping_status": "approved",
+      "mapping_id": "01d7111eae6223f2c44505b5",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/262#passport-purpose-1": {
+      "indicator_code": "2.14.И.12",
+      "source_sha256": "0679438cdbe1bdfaf145334d4dba170b388c57bcaccd9b6ff140ea20855453c0",
+      "title": "Доля дорожной сети крупнейших городских агломераций, находящейся в нормативном состоянии",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "a0c509b78765104dfb7a3566",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/262#passport-purpose-2": {
+      "indicator_code": "2.14.И8.2",
+      "source_sha256": "0679438cdbe1bdfaf145334d4dba170b388c57bcaccd9b6ff140ea20855453c0",
+      "title": "Удовлетворенность качеством и доступностью автомобильных дорог (доля граждан, отметивших улучшение)",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "259ef21d6fe598e47f010977",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/262#passport-purpose-3": {
+      "indicator_code": "2.14.И8.1",
+      "source_sha256": "0679438cdbe1bdfaf145334d4dba170b388c57bcaccd9b6ff140ea20855453c0",
+      "title": "Количество построенных к 2030 году автодорожных обходов населенных пунктов на автомобильных дорогах регионального или межмуниципального и местного значения",
+      "unit": "Штука",
+      "mapping_status": "approved",
+      "mapping_id": "1790b53644f00bbefb467373",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/262#passport-purpose-4": {
+      "indicator_code": "2.14.И.14",
+      "source_sha256": "0679438cdbe1bdfaf145334d4dba170b388c57bcaccd9b6ff140ea20855453c0",
+      "title": "Доля автомобильных дорог, входящих в опорную сеть, соответствующих нормативным требованиям",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "4e5c91d1b1a7b1db4f6cfba2",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/262#passport-purpose-6": {
+      "indicator_code": "2.14.И.13",
+      "source_sha256": "0679438cdbe1bdfaf145334d4dba170b388c57bcaccd9b6ff140ea20855453c0",
+      "title": "Доля автомобильных дорог регионального и межмуниципального значения, соответствующих нормативным требованиям",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "5b92358fcdb81d01718954d1",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/265#passport-purpose-1": {
+      "indicator_code": "2.14.И.1",
+      "source_sha256": "ecc75c0cb1f2e4d3717872a00795af7923ed7c2566c409913ca0fb68f36dbed2",
+      "title": "Улучшение качества среды для жизни в опорных населенных пунктах",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "903129910d080416c07916e0",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/266#passport-purpose-1": {
+      "indicator_code": "2.14.И.15",
+      "source_sha256": "7b16274d24fb6caf4626263009f704cf23b8d79a209593a6d82e53d43c1d325d",
+      "title": "Доля автомобильных дорог федерального значения, находящихся в нормативном состоянии",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "d546b1d7dd2e1250d2a711a4",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/266#passport-purpose-2": {
+      "indicator_code": "2.14.И7.1",
+      "source_sha256": "7b16274d24fb6caf4626263009f704cf23b8d79a209593a6d82e53d43c1d325d",
+      "title": "Количество построенных к 2030 году автодорожных обходов населенных пунктов на автомобильных дорогах федерального значения",
+      "unit": "Штука",
+      "mapping_status": "approved",
+      "mapping_id": "efb67e90e4f178e1616665b7",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/266#passport-purpose-3": {
+      "indicator_code": "2.14.И.15",
+      "source_sha256": "7b16274d24fb6caf4626263009f704cf23b8d79a209593a6d82e53d43c1d325d",
+      "title": "Доля автомобильных дорог федерального значения, находящихся в нормативном состоянии",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "a9d6017927f0cfc92928c3b9",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/267#passport-purpose-1": {
+      "indicator_code": "2.14.И9.1",
+      "source_sha256": "78dbb385d12b8976f1649db13b2af58b4057f93c368c23fc5d030bf2187531a7",
+      "title": "Доля городов с населением свыше 300 тысяч человек по состоянию на 1 января 2020 г. (за исключением Москвы и городов, расположенных на территориях Московской и Ленинградских областей), входящих в состав городских агломераций, и достигших не менее чем первого уровня зрелости интеллектуальной транспортной системы",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "1ca3d7d9fd926dd2706e1a6b",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/297#passport-purpose-1": {
+      "indicator_code": "2.14.И.8",
+      "source_sha256": "eb042c1c1d6d28a5eb1e670e19ffee88dc341520d7332deff640869d7bb5b58d",
+      "title": "Количество реализованных проектов победителей Всероссийского конкурса создания комфортной городской среды, ед. (нарастающим итогом с 2025 г.)",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "424bc0ff1ddc501c6b4a6e59",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/297#passport-purpose-2": {
+      "indicator_code": "2.14.И.7",
+      "source_sha256": "eb042c1c1d6d28a5eb1e670e19ffee88dc341520d7332deff640869d7bb5b58d",
+      "title": "Количество благоустроенных общественных территорий, ед. (нарастающим итогом с 2025 г.)",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "2b970f795e996447d1a0e6bf",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    }
+  },
+  "unmapped_cards": {
+    "https://databudget.ru/projects/fp/262#passport-purpose-5": {
+      "title": "Доля автомобильных дорог Минобороны России, соответствующих нормативным требованиям",
+      "reason": "The source card has no reviewed entry or EMISS identifier in the inherited 32-indicator registry."
+    }
+  },
+  "selection_policy": "Use national level when present, otherwise the corresponding federal card. Preserve all 51 source cards separately. Do not merge editions or sum duplicate levels.",
+  "source_overrides": {
+    "2.14.И.4": "59263"
+  },
+  "source_override_note": "Only total housing commissioning 59263 matches the passport volume target. Apartment and individual construction remain separate statistical components."
+}

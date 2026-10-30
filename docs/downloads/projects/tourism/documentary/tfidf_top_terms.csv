@@ -1,0 +1,351 @@
+﻿document_id,rank,term,weight,origin
+project,1,туристической,0.21324322132846119,replayed_author_model
+project,2,туристической отрасли,0.1764550989818814,replayed_author_model
+project,3,туристской,0.14143570830110241,replayed_author_model
+project,4,туризма,0.13710701818835702,replayed_author_model
+project,5,отрасли,0.13345249463490727,replayed_author_model
+project,6,оборудования туристической,0.12516702812223932,replayed_author_model
+project,7,курортов,0.11866513352693381,replayed_author_model
+project,8,поездок,0.1162575185527885,replayed_author_model
+project,9,круглогодичных курортов,0.11022917894493446,replayed_author_model
+project,10,индустрии,0.1002339695834988,replayed_author_model
+project,11,круглогодичных,0.09680042772493828,replayed_author_model
+project,12,туристских,0.09630724103559644,replayed_author_model
+project,13,поездок россии,0.09432988377583783,replayed_author_model
+project,14,новых поездок,0.09432988377583783,replayed_author_model
+project,15,территории,0.09387553350647337,replayed_author_model
+project,16,туристических,0.08896802112729493,replayed_author_model
+project,17,туристской индустрии,0.08802991231218323,replayed_author_model
+project,18,внутреннего,0.08498103570013958,replayed_author_model
+project,19,внутреннем,0.08086525399455165,replayed_author_model
+project,20,отечественного оборудования,0.07959145883208571,replayed_author_model
+project,21,туризм рф,0.07886583640741388,replayed_author_model
+project,22,корпорация туризм,0.07886583640741388,replayed_author_model
+project,23,туристских услуг,0.07561000700965714,replayed_author_model
+project,24,менее менее,0.07544555299835266,replayed_author_model
+project,25,ао корпорация,0.07499035513627372,replayed_author_model
+project,26,корпорация,0.07499035513627372,replayed_author_model
+project,27,сфере туризма,0.07418829736848849,replayed_author_model
+project,28,туризм,0.07387410930875654,replayed_author_model
+project,29,продукции туристической,0.07215358202914446,replayed_author_model
+project,30,экспорта туристских,0.07205736796937398,replayed_author_model
+project,31,размещения,0.0716452904902075,replayed_author_model
+project,32,туристического,0.06934101979980699,replayed_author_model
+project,33,отечественного,0.06792580768192909,replayed_author_model
+project,34,ао,0.06622324797785063,replayed_author_model
+project,35,инвестиционных,0.06493829623764759,replayed_author_model
+project,36,проектной документации,0.06478187634386405,replayed_author_model
+project,37,целях,0.06475766800306511,replayed_author_model
+project,38,сформирована система,0.06356352730528192,replayed_author_model
+project,39,создание круглогодичных,0.06333990187682234,replayed_author_model
+project,40,поездок территории,0.06278101423602174,replayed_author_model
+project,41,туристических поездок,0.06278101423602174,replayed_author_model
+project,42,инвестиций ао,0.06161273793739711,replayed_author_model
+project,43,туристской инфраструктуры,0.061330335864147593,replayed_author_model
+project,44,число,0.06032403383477224,replayed_author_model
+project,45,инженерных изысканий,0.05954589033497354,replayed_author_model
+project,46,изысканий,0.05954589033497354,replayed_author_model
+project,47,оборудования,0.05907142945528415,replayed_author_model
+project,48,внутреннего туризма,0.059030462176024416,replayed_author_model
+project,49,производства,0.05874672617424479,replayed_author_model
+project,50,обеспечена,0.05857748611578194,replayed_author_model
+np_26,1,поездок,0.20597695629432416,replayed_author_model
+np_26,2,поездок россии,0.18366190168642035,replayed_author_model
+np_26,3,новых поездок,0.18366190168642035,replayed_author_model
+np_26,4,россии создание,0.15470995780553712,replayed_author_model
+np_26,5,круглогодичных курортов,0.15470995780553712,replayed_author_model
+np_26,6,туристической,0.14932367804903904,replayed_author_model
+np_26,7,создание круглогодичных,0.1481772658512337,replayed_author_model
+np_26,8,экспорта туристских,0.1481772658512337,replayed_author_model
+np_26,9,валовом внутреннем,0.1481772658512337,replayed_author_model
+np_26,10,отрасли валовом,0.1481772658512337,replayed_author_model
+np_26,11,внутреннем продукте,0.1481772658512337,replayed_author_model
+np_26,12,поездок территории,0.14265395350372023,replayed_author_model
+np_26,13,туристических поездок,0.14265395350372023,replayed_author_model
+np_26,14,туристских услуг,0.14265395350372023,replayed_author_model
+np_26,15,продукте,0.14265395350372023,replayed_author_model
+np_26,16,валовом,0.14265395350372023,replayed_author_model
+np_26,17,внутреннем,0.14265395350372023,replayed_author_model
+np_26,18,курортов,0.13786944272186585,replayed_author_model
+np_26,19,туристической отрасли,0.13364920512124331,replayed_author_model
+np_26,20,круглогодичных,0.13364920512124331,replayed_author_model
+np_26,21,туристских,0.12987407394617886,replayed_author_model
+np_26,22,туристических,0.12987407394617886,replayed_author_model
+np_26,23,отрасли,0.11562610256083508,replayed_author_model
+np_26,24,увеличение числа,0.11534601321618847,replayed_author_model
+np_26,25,туристской,0.11303355886250761,replayed_author_model
+np_26,26,экспорта,0.10503819008682062,replayed_author_model
+np_26,27,увеличено,0.10329000891437158,replayed_author_model
+np_26,28,граждан граждан,0.09609638692332427,replayed_author_model
+np_26,29,оборудования туристической,0.09609638692332427,replayed_author_model
+np_26,30,сформирована система,0.09609638692332427,replayed_author_model
+np_26,31,уровней туристической,0.0913741933258115,replayed_author_model
+np_26,32,число новых,0.0913741933258115,replayed_author_model
+np_26,33,специалистов уровней,0.0913741933258115,replayed_author_model
+np_26,34,современной качественной,0.0913741933258115,replayed_author_model
+np_26,35,развития современной,0.0913741933258115,replayed_author_model
+np_26,36,качественной туристской,0.0913741933258115,replayed_author_model
+np_26,37,инфраструктуры регионах,0.0913741933258115,replayed_author_model
+np_26,38,переподготовки специалистов,0.0913741933258115,replayed_author_model
+np_26,39,туристическая привлекательность,0.08751588022148764,replayed_author_model
+np_26,40,увеличения количества,0.08751588022148764,replayed_author_model
+np_26,41,отечественного оборудования,0.08751588022148764,replayed_author_model
+np_26,42,три,0.08751588022148764,replayed_author_model
+np_26,43,доля туристской,0.08751588022148764,replayed_author_model
+np_26,44,привлекательность,0.08751588022148764,replayed_author_model
+np_26,45,стимулирования использования,0.08751588022148764,replayed_author_model
+np_26,46,территории,0.08608071229644954,replayed_author_model
+np_26,47,подготовки переподготовки,0.08425372297318107,replayed_author_model
+np_26,48,количество туристических,0.08425372297318107,replayed_author_model
+np_26,49,условия подготовки,0.08425372297318107,replayed_author_model
+np_26,50,номеров,0.08425372297318107,replayed_author_model
+fp_301,1,туризма,0.1406410219432616,replayed_author_model
+fp_301,2,сфере туризма,0.13670583996964017,replayed_author_model
+fp_301,3,туристического,0.13588859557744404,replayed_author_model
+fp_301,4,средств размещения,0.1255875654622686,replayed_author_model
+fp_301,5,внутреннего туризма,0.12090628492286169,replayed_author_model
+fp_301,6,туристских,0.12036784396866863,replayed_author_model
+fp_301,7,туристской индустрии,0.11044723252806864,replayed_author_model
+fp_301,8,рынках,0.11007470457676455,replayed_author_model
+fp_301,9,размещения,0.10860316834967067,replayed_author_model
+fp_301,10,туристских услуг,0.10633030838544455,replayed_author_model
+fp_301,11,проверок,0.10404348098891635,replayed_author_model
+fp_301,12,туристической,0.10210717094756615,replayed_author_model
+fp_301,13,туристической отрасли,0.09961841818594067,replayed_author_model
+fp_301,14,информированности граждан,0.09784475099878867,replayed_author_model
+fp_301,15,средствах размещения,0.09784475099878867,replayed_author_model
+fp_301,16,внутри,0.09784475099878867,replayed_author_model
+fp_301,17,спроса,0.09776145417707585,replayed_author_model
+fp_301,18,индивидуальных предпринимателей,0.09303664247869024,replayed_author_model
+fp_301,19,автоматизированных,0.09303664247869024,replayed_author_model
+fp_301,20,систем сфере,0.09303664247869024,replayed_author_model
+fp_301,21,внутреннего,0.09222467447107427,replayed_author_model
+fp_301,22,информационных систем,0.09058274962821285,replayed_author_model
+fp_301,23,индустрии,0.08979754015390386,replayed_author_model
+fp_301,24,экспорта туристских,0.0891081317713194,replayed_author_model
+fp_301,25,развитие функционирование,0.0891081317713194,replayed_author_model
+fp_301,26,целях популяризации,0.0857866232953126,replayed_author_model
+fp_301,27,внутреннем,0.0857866232953126,replayed_author_model
+fp_301,28,туристской,0.0842520860905639,replayed_author_model
+fp_301,29,повышение информированности,0.08290940178119172,replayed_author_model
+fp_301,30,средствах,0.08290940178119172,replayed_author_model
+fp_301,31,обратной,0.08037151254385012,replayed_author_model
+fp_301,32,обратной связи,0.08037151254385012,replayed_author_model
+fp_301,33,возможностях,0.08037151254385012,replayed_author_model
+fp_301,34,иностранных,0.07991142407138555,replayed_author_model
+fp_301,35,фгис,0.07810129326109327,replayed_author_model
+fp_301,36,обеспечено развитие,0.07671181358557021,replayed_author_model
+fp_301,37,продвижению,0.07604763011523787,replayed_author_model
+fp_301,38,государственных информационных,0.07604763011523787,replayed_author_model
+fp_301,39,информированности,0.07604763011523787,replayed_author_model
+fp_301,40,иностранных граждан,0.07604763011523787,replayed_author_model
+fp_301,41,зарубежных,0.07604763011523787,replayed_author_model
+fp_301,42,индивидуальных,0.07604763011523787,replayed_author_model
+fp_301,43,минэкономразвития россии,0.07417278255372245,replayed_author_model
+fp_301,44,систем,0.07351184718579482,replayed_author_model
+fp_301,45,стимулирование,0.07244808998487934,replayed_author_model
+fp_301,46,минэкономразвития,0.07244808998487934,replayed_author_model
+fp_301,47,рубежом,0.07085127407771565,replayed_author_model
+fp_301,48,популяризацию,0.07085127407771565,replayed_author_model
+fp_301,49,барьеров,0.07085127407771565,replayed_author_model
+fp_301,50,информационных,0.0695331090367072,replayed_author_model
+fp_303,1,круглогодичных курортов,0.20827547023109516,replayed_author_model
+fp_303,2,курортов,0.19096063454204654,replayed_author_model
+fp_303,3,круглогодичных,0.1851152547811456,replayed_author_model
+fp_303,4,менее менее,0.1504901663931032,replayed_author_model
+fp_303,5,туризм рф,0.13918736791076125,replayed_author_model
+fp_303,6,корпорация туризм,0.13918736791076125,replayed_author_model
+fp_303,7,корпорация,0.13234767581986825,replayed_author_model
+fp_303,8,ао корпорация,0.13234767581986825,replayed_author_model
+fp_303,9,инвестиционных,0.11574303706370426,replayed_author_model
+fp_303,10,проектной документации,0.11433111303153833,replayed_author_model
+fp_303,11,созданию туристической,0.1122954920354681,replayed_author_model
+fp_303,12,экономической зоны,0.1122954920354681,replayed_author_model
+fp_303,13,предоставления бюджетных,0.1122954920354681,replayed_author_model
+fp_303,14,особой экономической,0.1122954920354681,replayed_author_model
+fp_303,15,инвестиций ао,0.1122954920354681,replayed_author_model
+fp_303,16,туристической инфраструктуры,0.10677727152273907,replayed_author_model
+fp_303,17,инженерным сетям,0.10677727152273907,replayed_author_model
+fp_303,18,инженерным,0.10677727152273907,replayed_author_model
+fp_303,19,особой,0.10226855707104329,replayed_author_model
+fp_303,20,бюджетных инвестиций,0.10226855707104329,replayed_author_model
+fp_303,21,изысканий,0.10226855707104329,replayed_author_model
+fp_303,22,созданы объекты,0.10226855707104329,replayed_author_model
+fp_303,23,инженерных изысканий,0.10226855707104329,replayed_author_model
+fp_303,24,проектной,0.10078826151975466,replayed_author_model
+fp_303,25,сетям,0.09845649331896957,replayed_author_model
+fp_303,26,кластер,0.09845649331896957,replayed_author_model
+fp_303,27,туризм,0.09669531953401997,replayed_author_model
+fp_303,28,дагестан,0.09308508884316768,replayed_author_model
+fp_303,29,объекты инфраструктуры,0.09224162210661849,replayed_author_model
+fp_303,30,поездок,0.09224162210661849,replayed_author_model
+fp_303,31,кластера,0.09224162210661849,replayed_author_model
+fp_303,32,инженерной транспортной,0.09224162210661849,replayed_author_model
+fp_303,33,документации,0.09142784558643496,replayed_author_model
+fp_303,34,ао,0.08836013408014319,replayed_author_model
+fp_303,35,республике,0.08727914328309386,replayed_author_model
+fp_303,36,инженерной,0.08727914328309386,replayed_author_model
+fp_303,37,кредиты,0.08512739853171238,replayed_author_model
+fp_303,38,транспортной инфраструктуры,0.08512739853171238,replayed_author_model
+fp_303,39,целях развития,0.0842671920944085,replayed_author_model
+fp_303,40,экономической,0.08314798524023646,replayed_author_model
+fp_303,41,туристической,0.08314798524023646,replayed_author_model
+fp_303,42,инженерных,0.08314798524023646,replayed_author_model
+fp_303,43,целях создания,0.0818137603398988,replayed_author_model
+fp_303,44,зоны,0.08131533477963865,replayed_author_model
+fp_303,45,объекты,0.0745060968119382,replayed_author_model
+fp_303,46,капитального строительства,0.07376341014260769,replayed_author_model
+fp_303,47,средств бюджета,0.07013798474376295,replayed_author_model
+fp_303,48,созданию,0.06938563290028735,replayed_author_model
+fp_303,49,инфраструктуры,0.0681307819757943,replayed_author_model
+fp_303,50,инвестиций,0.06798623999238147,replayed_author_model
+fp_308,1,корпорация туризм,0.12051836209483902,replayed_author_model
+fp_308,2,туризм рф,0.12051836209483902,replayed_author_model
+fp_308,3,ао корпорация,0.11459606828038923,replayed_author_model
+fp_308,4,корпорация,0.11459606828038923,replayed_author_model
+fp_308,5,туристических кластеров,0.1095409692831128,replayed_author_model
+fp_308,6,проектной документации,0.09899604170886532,replayed_author_model
+fp_308,7,инвестиционных,0.09809920943953312,replayed_author_model
+fp_308,8,менее менее,0.09795254733016695,replayed_author_model
+fp_308,9,развития туристических,0.09633514959247175,replayed_author_model
+fp_308,10,туристических,0.09619974342243641,replayed_author_model
+fp_308,11,инженерных изысканий,0.09381646050729016,replayed_author_model
+fp_308,12,изысканий,0.09381646050729016,replayed_author_model
+fp_308,13,модульных некапитальных,0.09381646050729016,replayed_author_model
+fp_308,14,форме льготного,0.09059566860619156,replayed_author_model
+fp_308,15,инвестиций ао,0.09059566860619156,replayed_author_model
+fp_308,16,средствах размещения,0.09059566860619156,replayed_author_model
+fp_308,17,некапитальных,0.09031944892630875,replayed_author_model
+fp_308,18,номеров,0.09031944892630875,replayed_author_model
+fp_308,19,туризм,0.08834873797425905,replayed_author_model
+fp_308,20,проектной,0.08726967381504733,replayed_author_model
+fp_308,21,инвестиционных созданию,0.08614378128813974,replayed_author_model
+fp_308,22,созданию инфраструктуры,0.08614378128813974,replayed_author_model
+fp_308,23,поездок,0.08461821253117319,replayed_author_model
+fp_308,24,бюджетных инвестиций,0.08250632449533488,replayed_author_model
+fp_308,25,льготного кредитования,0.08222803855434431,replayed_author_model
+fp_308,26,модульных,0.08006586318843192,replayed_author_model
+fp_308,27,документации,0.07916475730040072,replayed_author_model
+fp_308,28,инфраструктуры горнолыжных,0.07772259211577955,replayed_author_model
+fp_308,29,курортов форме,0.07772259211577955,replayed_author_model
+fp_308,30,инфраструктуры длительным,0.07772259211577955,replayed_author_model
+fp_308,31,длительным,0.07772259211577955,replayed_author_model
+fp_308,32,обеспечивающей инфраструктуры,0.07772259211577955,replayed_author_model
+fp_308,33,реконструкции объектов,0.07772259211577955,replayed_author_model
+fp_308,34,сроком окупаемости,0.07772259211577955,replayed_author_model
+fp_308,35,некапитальных средствах,0.07772259211577955,replayed_author_model
+fp_308,36,окупаемости,0.07772259211577955,replayed_author_model
+fp_308,37,объектов обеспечивающей,0.07772259211577955,replayed_author_model
+fp_308,38,длительным сроком,0.07772259211577955,replayed_author_model
+fp_308,39,средствах,0.0767668435090547,replayed_author_model
+fp_308,40,ао,0.07650851362206049,replayed_author_model
+fp_308,41,кредитования,0.07627612921274017,replayed_author_model
+fp_308,42,инженерных,0.07627612921274017,replayed_author_model
+fp_308,43,туризма,0.0753359876452322,replayed_author_model
+fp_308,44,льготного,0.07459494015048612,replayed_author_model
+fp_308,45,документации подготовку,0.07309201499475966,replayed_author_model
+fp_308,46,изысканий подготовки,0.07309201499475966,replayed_author_model
+fp_308,47,кредиты предпринимателям,0.07309201499475966,replayed_author_model
+fp_308,48,документации проверку,0.07309201499475966,replayed_author_model
+fp_308,49,предоставления бюджетных,0.07309201499475966,replayed_author_model
+fp_308,50,развитие туризма,0.07309201499475966,replayed_author_model
+fp_309,1,туризма,0.12689487993238424,replayed_author_model
+fp_309,2,туризма лучший,0.12560362369294795,replayed_author_model
+fp_309,3,производительности,0.1183763543148535,replayed_author_model
+fp_309,4,производительности труда,0.1183763543148535,replayed_author_model
+fp_309,5,области туризма,0.11812037782637483,replayed_author_model
+fp_309,6,лучший,0.11054200776617998,replayed_author_model
+fp_309,7,успешно завершили,0.11046135484289578,replayed_author_model
+fp_309,8,лучший развитию,0.11046135484289578,replayed_author_model
+fp_309,9,завершили обучение,0.11046135484289578,replayed_author_model
+fp_309,10,взаимосвязанных,0.11046135484289578,replayed_author_model
+fp_309,11,сфере производительности,0.10757333515377793,replayed_author_model
+fp_309,12,завершили,0.10388025906921886,replayed_author_model
+fp_309,13,кадров индустрии,0.10388025906921886,replayed_author_model
+fp_309,14,центр компетенций,0.10356353562815711,replayed_author_model
+fp_309,15,повышению производительности,0.10232181102016519,replayed_author_model
+fp_309,16,индустрии,0.10232181102016519,replayed_author_model
+fp_309,17,индустрии туризма,0.0987755646057731,replayed_author_model
+fp_309,18,ано центр,0.09702629248118103,replayed_author_model
+fp_309,19,центре,0.09460472553804493,replayed_author_model
+fp_309,20,туризма гостеприимства,0.09460472553804493,replayed_author_model
+fp_309,21,компетенций сфере,0.08954304661460792,replayed_author_model
+fp_309,22,организациях туризма,0.0891195255660006,replayed_author_model
+fp_309,23,обучения федеральном,0.0891195255660006,replayed_author_model
+fp_309,24,краснодарского края,0.0891195255660006,replayed_author_model
+fp_309,25,премии правительства,0.0891195255660006,replayed_author_model
+fp_309,26,труда краснодарского,0.0891195255660006,replayed_author_model
+fp_309,27,федеральном ресурсном,0.0891195255660006,replayed_author_model
+fp_309,28,региональные команды,0.0891195255660006,replayed_author_model
+fp_309,29,ресурсном,0.0891195255660006,replayed_author_model
+fp_309,30,ресурсном центре,0.0891195255660006,replayed_author_model
+fp_309,31,туристических продуктов,0.0891195255660006,replayed_author_model
+fp_309,32,центре подготовки,0.0891195255660006,replayed_author_model
+fp_309,33,переподготовки профессионального,0.0891195255660006,replayed_author_model
+fp_309,34,ао кавказ,0.0891195255660006,replayed_author_model
+fp_309,35,кавказ,0.0891195255660006,replayed_author_model
+fp_309,36,команды успешно,0.0891195255660006,replayed_author_model
+fp_309,37,кавказ рф,0.0891195255660006,replayed_author_model
+fp_309,38,краснодарского,0.0891195255660006,replayed_author_model
+fp_309,39,труда,0.08750781074935088,replayed_author_model
+fp_309,40,подготовки кадров,0.087460959064826,replayed_author_model
+fp_309,41,успешно,0.08532919200687102,replayed_author_model
+fp_309,42,гостеприимства,0.08532919200687102,replayed_author_model
+fp_309,43,гостиниц предприятий,0.08380993893374665,replayed_author_model
+fp_309,44,практико-ориентированным,0.08380993893374665,replayed_author_model
+fp_309,45,предприятий общественного,0.08380993893374665,replayed_author_model
+fp_309,46,общественного питания,0.08380993893374665,replayed_author_model
+fp_309,47,деятельность гостиниц,0.08380993893374665,replayed_author_model
+fp_309,48,правительства области,0.08380993893374665,replayed_author_model
+fp_309,49,эффективности процессов,0.08380993893374665,replayed_author_model
+fp_309,50,утвержденными ано,0.08380993893374665,replayed_author_model
+fp_310,1,оборудования туристической,0.3160794789762206,replayed_author_model
+fp_310,2,туристической отрасли,0.3071403878801115,replayed_author_model
+fp_310,3,туристической,0.2768609642252119,replayed_author_model
+fp_310,4,продукции туристической,0.23760223116883558,replayed_author_model
+fp_310,5,отечественной,0.1896580178965047,replayed_author_model
+fp_310,6,отрасли,0.18853723430811029,replayed_author_model
+fp_310,7,промышленной,0.17593000798316724,replayed_author_model
+fp_310,8,отечественного оборудования,0.17457932931152578,replayed_author_model
+fp_310,9,подтверждения,0.16807187919988004,replayed_author_model
+fp_310,10,счет компенсации,0.16807187919988004,replayed_author_model
+fp_310,11,продукции,0.1543975121514353,replayed_author_model
+fp_310,12,производства,0.1507020546445093,replayed_author_model
+fp_310,13,оборудования,0.14917080739803334,replayed_author_model
+fp_310,14,части затрат,0.14899138829799122,replayed_author_model
+fp_310,15,отечественного,0.14899138829799122,replayed_author_model
+fp_310,16,компенсации,0.14531821478010518,replayed_author_model
+fp_310,17,территории,0.12610486806674231,replayed_author_model
+fp_310,18,затрат,0.11785374861839366,replayed_author_model
+fp_310,19,сформирована система,0.11321873623432868,replayed_author_model
+fp_310,20,предоставлении,0.1095496501370388,replayed_author_model
+fp_310,21,импорта,0.10765514733695601,replayed_author_model
+fp_310,22,критериев,0.10310936421592726,replayed_author_model
+fp_310,23,отечественной продукции,0.10310936421592726,replayed_author_model
+fp_310,24,правительства июля,0.10310936421592726,replayed_author_model
+fp_310,25,стимулирования использования,0.10310936421592726,replayed_author_model
+fp_310,26,туристской индустрии,0.10310936421592726,replayed_author_model
+fp_310,27,внесены изменения,0.10310936421592726,replayed_author_model
+fp_310,28,установлены,0.09299999219752586,replayed_author_model
+fp_310,29,россии обеспечено,0.09299999219752586,replayed_author_model
+fp_310,30,постановление,0.09299999219752586,replayed_author_model
+fp_310,31,части,0.0917173974676292,replayed_author_model
+fp_310,32,промышленной продукции,0.09037306172302635,replayed_author_model
+fp_310,33,критерии,0.09037306172302635,replayed_author_model
+fp_310,34,выпуска,0.09037306172302635,replayed_author_model
+fp_310,35,установления,0.08799671405336296,replayed_author_model
+fp_310,36,рынок,0.08799671405336296,replayed_author_model
+fp_310,37,внесены,0.0858272786019976,replayed_author_model
+fp_310,38,минэкономразвития россии,0.0858272786019976,replayed_author_model
+fp_310,39,требования,0.08383159144408789,replayed_author_model
+fp_310,40,минэкономразвития,0.08383159144408789,replayed_author_model
+fp_310,41,индустрии,0.08383159144408789,replayed_author_model
+fp_310,42,увеличен объем,0.08383159144408789,replayed_author_model
+fp_310,43,изменения,0.08383159144408789,replayed_author_model
+fp_310,44,стимулирования,0.081983873736572,replayed_author_model
+fp_310,45,туристской,0.07865456500646935,replayed_author_model
+fp_310,46,июля,0.07865456500646935,replayed_author_model
+fp_310,47,увеличен,0.07714302469594343,replayed_author_model
+fp_310,48,сформирована,0.07714302469594343,replayed_author_model
+fp_310,49,требований,0.07436986049308861,replayed_author_model
+fp_310,50,счет создания,0.07309097610909668,replayed_author_model

@@ -1,0 +1,1759 @@
+{
+  "audit": "Independent physical source to published observation audit",
+  "audited_at": "2026-10-29T16:13:01.895708+00:00",
+  "method": "No application modules or production normalizers imported. stdlib XML/JSON and xlrd read original retained exports. Exact JSON fields and raw strings checked; numeric Excel cells compared as decimals, allowing only binary-float rounding <=1e-12 relative if necessary.",
+  "scope": {
+    "sources": 18,
+    "observations": 10282,
+    "numeric": 9316,
+    "missing": 966,
+    "evidence_files": 72,
+    "physical_observations_by_format": {
+      "xls": 4331,
+      "grid": 4059,
+      "sdmx": 1892
+    }
+  },
+  "checks": {
+    "input_keys_unique": 18,
+    "independent_raw_numeric_parse": 10282,
+    "published_count": 18,
+    "published_keys_complete": 18,
+    "published_ids_unique": 18,
+    "snapshot_identity": 18,
+    "source_identity": 18,
+    "published_raw_value": 10282,
+    "published_raw_alias": 10282,
+    "published_numeric_value": 10282,
+    "published_unit": 10282,
+    "published_year": 10282,
+    "published_dimensions": 10282,
+    "published_attributes": 10282,
+    "published_source_id": 10282,
+    "published_source_frequency": 10282,
+    "published_source_period_start": 10282,
+    "published_source_period_end": 10282,
+    "published_sha256": 18,
+    "input_bundle_sha256": 18,
+    "evidence_sha256": 72,
+    "evidence_bytes": 72,
+    "csv_count": 18,
+    "csv_ids_complete": 18,
+    "csv_raw_value": 10282,
+    "csv_unit": 10282,
+    "csv_value": 10282,
+    "csv_period": 10282,
+    "one_source_export": 18,
+    "xls_cell_address": 4331,
+    "xls_coordinate_unique": 4331,
+    "xls_numeric_cell": 3365,
+    "xls_year_header": 4331,
+    "xls_period_header": 4331,
+    "xls_unit_axis": 4331,
+    "xls_one_territory_dimension": 4331,
+    "xls_territory_row": 4331,
+    "xls_indicator_title": 4331,
+    "xls_unlabelled_column_empty": 366,
+    "xls_complete_source_rectangle": 13,
+    "grid_coordinate_unique": 4059,
+    "grid_field_present": 4059,
+    "grid_raw_value": 4059,
+    "grid_year_code": 4059,
+    "grid_period_label_from_metadata": 4059,
+    "grid_unit": 4059,
+    "grid_one_geography_axis": 4059,
+    "grid_territory": 4059,
+    "grid_indicator_title": 4059,
+    "grid_complete_source_fields": 4,
+    "sdmx_year_dimension": 1892,
+    "sdmx_unit_attribute": 1892,
+    "sdmx_period_attribute": 1892,
+    "sdmx_complete_source_records": 1,
+    "sdmx_decoded_dimension": 1892,
+    "xls_missing_or_text_cell": 966
+  },
+  "failure_counts": {},
+  "passed": true,
+  "sources": [
+    {
+      "source_id": "62777",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "input_sha256": "0dee7436d561ce5aa32db085e7015946904709377ca92561b848d31d4a53a0ca",
+      "published_sha256": "8b08d80458623ac13d84345e4190ab0a9961fb164c0a7ce477c2d523cabd6bdd",
+      "bundle_sha256": "6b1f7469f049a0592cf74eac2ca9cb142a0ed64ff003dd1d5e8a92bf2b366508",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62777/metadata.html",
+          "bytes": 82086,
+          "sha256": "1647014b36aa6bbabc848c92737c537ed2926f5350af69d1898613ea4f1afe75"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62777/part_00001.xls",
+          "bytes": 9728,
+          "sha256": "d79584dc8123184f29ef25b342ea5f81d4aee8491c8f56d6a5d4ae2ccdc94f9d"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62777/part_00001.query.json",
+          "bytes": 3716,
+          "sha256": "ce246f9d4d96509c77f5d6462256fcd5e67e2f2dec63cb4129a3599fcbdb4e8f"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62777/part_00001.xls",
+        "sha256": "d79584dc8123184f29ef25b342ea5f81d4aee8491c8f56d6a5d4ae2ccdc94f9d",
+        "observations_checked": 21,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 21,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 21,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 21,
+        "published_raw_alias": 21,
+        "published_numeric_value": 21,
+        "published_unit": 21,
+        "published_year": 21,
+        "published_dimensions": 21,
+        "published_attributes": 21,
+        "published_source_id": 21,
+        "published_source_frequency": 21,
+        "published_source_period_start": 21,
+        "published_source_period_end": 21,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 21,
+        "csv_unit": 21,
+        "csv_value": 21,
+        "csv_period": 21,
+        "one_source_export": 1,
+        "xls_cell_address": 21,
+        "xls_coordinate_unique": 21,
+        "xls_numeric_cell": 21,
+        "xls_year_header": 21,
+        "xls_period_header": 21,
+        "xls_unit_axis": 21,
+        "xls_one_territory_dimension": 21,
+        "xls_territory_row": 21,
+        "xls_indicator_title": 21,
+        "xls_unlabelled_column_empty": 27,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62778",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "input_sha256": "aa767bc869b85060b0ba48e9d2655bdb79f9da8990f1ab92e60d4da0d3f8ef87",
+      "published_sha256": "5385383a7a93fad02e244f770fbcdd4e165e8024aedd15774befb8d141f6ea5e",
+      "bundle_sha256": "ec3b2342658cf5020e620c43ad8fa33aa73075acd132d4814e23fda60e796c20",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62778/metadata.html",
+          "bytes": 84616,
+          "sha256": "cd00e98ce76a5312b761ad92aa0ad96386b8ed64fa69882acad885be2c0f7882"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62778/part_00001.xls",
+          "bytes": 11264,
+          "sha256": "db5a47f2c2e7f76e2c34db21060757e09df6b12ad1ba7a00a7f0a3f77aa42c96"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62778/part_00001.query.json",
+          "bytes": 4075,
+          "sha256": "bfbd1be939887e6cc3dc2aa9005e48f9d5bcabe9e5bdebaf3edde8d7855f1007"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62778/part_00001.xls",
+        "sha256": "db5a47f2c2e7f76e2c34db21060757e09df6b12ad1ba7a00a7f0a3f77aa42c96",
+        "observations_checked": 21,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 21,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 21,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 21,
+        "published_raw_alias": 21,
+        "published_numeric_value": 21,
+        "published_unit": 21,
+        "published_year": 21,
+        "published_dimensions": 21,
+        "published_attributes": 21,
+        "published_source_id": 21,
+        "published_source_frequency": 21,
+        "published_source_period_start": 21,
+        "published_source_period_end": 21,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 21,
+        "csv_unit": 21,
+        "csv_value": 21,
+        "csv_period": 21,
+        "one_source_export": 1,
+        "xls_cell_address": 21,
+        "xls_coordinate_unique": 21,
+        "xls_numeric_cell": 21,
+        "xls_year_header": 21,
+        "xls_period_header": 21,
+        "xls_unit_axis": 21,
+        "xls_one_territory_dimension": 21,
+        "xls_territory_row": 21,
+        "xls_indicator_title": 21,
+        "xls_unlabelled_column_empty": 27,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62779",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "input_sha256": "0e876c80bd1f61ba8159964b47f5c161c821d86b56204d355330e0d413649995",
+      "published_sha256": "1b04707bc8a7f3c8be80cfe14696671ecc4ac09413104ee7b5114029eb69b654",
+      "bundle_sha256": "8a5b456301661a6581c8d3649735d224b66fb6d60b5966adc60fb02f0653fd0f",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62779/metadata.html",
+          "bytes": 81758,
+          "sha256": "bfac9c6a4298e7f4e06505461c53724b821388ea9414381c6a5cc16ca823adec"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62779/part_00001.xls",
+          "bytes": 9728,
+          "sha256": "2532d80c9476ff3d01f65079a34bce03b006f44e08922504aef3fa5f3fbd1283"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62779/part_00001.query.json",
+          "bytes": 3493,
+          "sha256": "06363391fdcab49b575a9f9ee61a86f82abbcc42fa2e5d94e1aa18f19c0a3538"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62779/part_00001.xls",
+        "sha256": "2532d80c9476ff3d01f65079a34bce03b006f44e08922504aef3fa5f3fbd1283",
+        "observations_checked": 21,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 21,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 21,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 21,
+        "published_raw_alias": 21,
+        "published_numeric_value": 21,
+        "published_unit": 21,
+        "published_year": 21,
+        "published_dimensions": 21,
+        "published_attributes": 21,
+        "published_source_id": 21,
+        "published_source_frequency": 21,
+        "published_source_period_start": 21,
+        "published_source_period_end": 21,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 21,
+        "csv_unit": 21,
+        "csv_value": 21,
+        "csv_period": 21,
+        "one_source_export": 1,
+        "xls_cell_address": 21,
+        "xls_coordinate_unique": 21,
+        "xls_numeric_cell": 21,
+        "xls_year_header": 21,
+        "xls_period_header": 21,
+        "xls_unit_axis": 21,
+        "xls_one_territory_dimension": 21,
+        "xls_territory_row": 21,
+        "xls_indicator_title": 21,
+        "xls_unlabelled_column_empty": 27,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62781",
+      "observations": 1980,
+      "numeric": 1980,
+      "missing": 0,
+      "input_sha256": "33d99a0269b778ebf218c7414d0592f7aa263d47c1e7c792ed8c1b79fc8f3de9",
+      "published_sha256": "78cd8e4c901e7cd5884b27fcb7ecea406f67eb1db67ac2a99d0003e765cae3b4",
+      "bundle_sha256": "7e5100ab65e650a677a5d7531ba0014d7196d9a2dbcddfe45e645aa5b14c820b",
+      "evidence_files": [
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62781/metadata.html",
+          "bytes": 112373,
+          "sha256": "e290ba6aca961ff6f2c1de740a6655a62bb660f5225d4aae615d626c82cd00f3"
+        },
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62781/part_00001.json.gz",
+          "bytes": 13852,
+          "sha256": "e1fe0165b21aadbcf224eaca3fb5cbee064d215a11985dfecac9f63af00817d7"
+        },
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62781/part_00001.query.json",
+          "bytes": 17989,
+          "sha256": "53a6f0f9e8962d7c7769621590785f588d448635324a47336cba41161f8c706b"
+        },
+        {
+          "path": "source/audit/normalization_9dbbc36e2771217c.json",
+          "bytes": 279,
+          "sha256": "31e94fda178563499d4ac09d12abc5d7e897eb470e51c6f53f9c59241918db78"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/grid_2026-10-15T194327_0000/62781/part_00001.json.gz",
+        "sha256": "e1fe0165b21aadbcf224eaca3fb5cbee064d215a11985dfecac9f63af00817d7",
+        "observations_checked": 1980,
+        "format": "grid",
+        "rows": 90,
+        "physical_cells": 1980,
+        "period_metadata_titles": 112
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 1980,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 1980,
+        "published_raw_alias": 1980,
+        "published_numeric_value": 1980,
+        "published_unit": 1980,
+        "published_year": 1980,
+        "published_dimensions": 1980,
+        "published_attributes": 1980,
+        "published_source_id": 1980,
+        "published_source_frequency": 1980,
+        "published_source_period_start": 1980,
+        "published_source_period_end": 1980,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 1980,
+        "csv_unit": 1980,
+        "csv_value": 1980,
+        "csv_period": 1980,
+        "one_source_export": 1,
+        "grid_coordinate_unique": 1980,
+        "grid_field_present": 1980,
+        "grid_raw_value": 1980,
+        "grid_year_code": 1980,
+        "grid_period_label_from_metadata": 1980,
+        "grid_unit": 1980,
+        "grid_one_geography_axis": 1980,
+        "grid_territory": 1980,
+        "grid_indicator_title": 1980,
+        "grid_complete_source_fields": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62782",
+      "observations": 1980,
+      "numeric": 1980,
+      "missing": 0,
+      "input_sha256": "fcb4b1ce6efb6a8f740fed69698b27496c30ba20643d2bfff73954693d96ff69",
+      "published_sha256": "c036cb40aae877c8b4b16798e777df8dbb59a29a803552d7358dc596b942e7f1",
+      "bundle_sha256": "77afe9593a1e191451fbdb915f8f2a98ad9946457612e4131ae537366c773609",
+      "evidence_files": [
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62782/metadata.html",
+          "bytes": 112167,
+          "sha256": "bfa92d210dc0ff8b055bfe73e9a1c2cfddc8d277f5904f92980dc730fbd6941a"
+        },
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62782/part_00001.json.gz",
+          "bytes": 12786,
+          "sha256": "a6df02d7c94c7ced8e954030776dc0fa575611716e15ca483aaee6c859cdfdc5"
+        },
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62782/part_00001.query.json",
+          "bytes": 17942,
+          "sha256": "037c23d0c167ededb4ce29c712d7e2021d7d4973af41c32db89daff3aee089fc"
+        },
+        {
+          "path": "source/audit/normalization_9dbbc36e2771217c.json",
+          "bytes": 279,
+          "sha256": "31e94fda178563499d4ac09d12abc5d7e897eb470e51c6f53f9c59241918db78"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/grid_2026-10-15T194327_0000/62782/part_00001.json.gz",
+        "sha256": "a6df02d7c94c7ced8e954030776dc0fa575611716e15ca483aaee6c859cdfdc5",
+        "observations_checked": 1980,
+        "format": "grid",
+        "rows": 90,
+        "physical_cells": 1980,
+        "period_metadata_titles": 112
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 1980,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 1980,
+        "published_raw_alias": 1980,
+        "published_numeric_value": 1980,
+        "published_unit": 1980,
+        "published_year": 1980,
+        "published_dimensions": 1980,
+        "published_attributes": 1980,
+        "published_source_id": 1980,
+        "published_source_frequency": 1980,
+        "published_source_period_start": 1980,
+        "published_source_period_end": 1980,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 1980,
+        "csv_unit": 1980,
+        "csv_value": 1980,
+        "csv_period": 1980,
+        "one_source_export": 1,
+        "grid_coordinate_unique": 1980,
+        "grid_field_present": 1980,
+        "grid_raw_value": 1980,
+        "grid_year_code": 1980,
+        "grid_period_label_from_metadata": 1980,
+        "grid_unit": 1980,
+        "grid_one_geography_axis": 1980,
+        "grid_territory": 1980,
+        "grid_indicator_title": 1980,
+        "grid_complete_source_fields": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62786",
+      "observations": 66,
+      "numeric": 66,
+      "missing": 0,
+      "input_sha256": "907203773081e400945ac6ff8ba7585d719e56f66ea2f73709ad32d612df9437",
+      "published_sha256": "dfc13cf499d6f9699d247a0769759d3b4c49af886b21281e3955b03ae1b18fe0",
+      "bundle_sha256": "db550dfc85411d8c2db2f85c603a81c99a7fde21442a5b6c42d80228ed1a1f26",
+      "evidence_files": [
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62786/metadata.html",
+          "bytes": 83306,
+          "sha256": "8ebe91abb6e0d496d55d5206df92dfa8a8a5c27f8b73180a04ce3f48d3873eec"
+        },
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62786/part_00001.json.gz",
+          "bytes": 674,
+          "sha256": "48b8784ff96e75c794a7e45076d58bcfacad896e41043bed83fa0f2603cba10f"
+        },
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62786/part_00001.query.json",
+          "bytes": 3768,
+          "sha256": "9342767d0080c4ef4816935ca73c7d0d7e844cc928990a2bc8fa1c4f77aafa24"
+        },
+        {
+          "path": "source/audit/normalization_29e33e9439289de7.json",
+          "bytes": 279,
+          "sha256": "57407dbe5ab2bb2ab2e3553096224b9784d0b276d7c1a0ae359b75037827faa8"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/grid_2026-10-15T194327_0000/62786/part_00001.json.gz",
+        "sha256": "48b8784ff96e75c794a7e45076d58bcfacad896e41043bed83fa0f2603cba10f",
+        "observations_checked": 66,
+        "format": "grid",
+        "rows": 3,
+        "physical_cells": 66,
+        "period_metadata_titles": 25
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 66,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 66,
+        "published_raw_alias": 66,
+        "published_numeric_value": 66,
+        "published_unit": 66,
+        "published_year": 66,
+        "published_dimensions": 66,
+        "published_attributes": 66,
+        "published_source_id": 66,
+        "published_source_frequency": 66,
+        "published_source_period_start": 66,
+        "published_source_period_end": 66,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 66,
+        "csv_unit": 66,
+        "csv_value": 66,
+        "csv_period": 66,
+        "one_source_export": 1,
+        "grid_coordinate_unique": 66,
+        "grid_field_present": 66,
+        "grid_raw_value": 66,
+        "grid_year_code": 66,
+        "grid_period_label_from_metadata": 66,
+        "grid_unit": 66,
+        "grid_one_geography_axis": 66,
+        "grid_territory": 66,
+        "grid_indicator_title": 66,
+        "grid_complete_source_fields": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62787",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "input_sha256": "ef699f951bd289ba597ece3da9c258431d28a74d1675989a9a77ae04eceed741",
+      "published_sha256": "412b43c308fb01ae024e6f88fcb6b0ce839a766959c586adc3ed03c242e5e6a9",
+      "bundle_sha256": "8ff4f8a8ce6e104716daf560a8137a806b8553d799bcf835443f3ca5e515a2df",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62787/metadata.html",
+          "bytes": 80698,
+          "sha256": "43f8ca9b543bf70a493c9ccb7f2f3f8da60b0f76de17b0b2b0bc0e9fa6aa5b67"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62787/part_00001.xls",
+          "bytes": 9216,
+          "sha256": "dae7332302d7bf5f5c4d6b36cfdd57bbf924aeb678bc7f571bcf16ab70052839"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62787/part_00001.query.json",
+          "bytes": 3490,
+          "sha256": "6cc144f4d6181b4b17e1069745d5b9423c32938500c3bb303cb85a865253a740"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62787/part_00001.xls",
+        "sha256": "dae7332302d7bf5f5c4d6b36cfdd57bbf924aeb678bc7f571bcf16ab70052839",
+        "observations_checked": 21,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 21,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 21,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 21,
+        "published_raw_alias": 21,
+        "published_numeric_value": 21,
+        "published_unit": 21,
+        "published_year": 21,
+        "published_dimensions": 21,
+        "published_attributes": 21,
+        "published_source_id": 21,
+        "published_source_frequency": 21,
+        "published_source_period_start": 21,
+        "published_source_period_end": 21,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 21,
+        "csv_unit": 21,
+        "csv_value": 21,
+        "csv_period": 21,
+        "one_source_export": 1,
+        "xls_cell_address": 21,
+        "xls_coordinate_unique": 21,
+        "xls_numeric_cell": 21,
+        "xls_year_header": 21,
+        "xls_period_header": 21,
+        "xls_unit_axis": 21,
+        "xls_one_territory_dimension": 21,
+        "xls_territory_row": 21,
+        "xls_indicator_title": 21,
+        "xls_unlabelled_column_empty": 27,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62792",
+      "observations": 1892,
+      "numeric": 1892,
+      "missing": 0,
+      "input_sha256": "16ca9fdebc8b3bca81bee489954b9cf2fc8272c352c75dacac8e7b4894c4ab6f",
+      "published_sha256": "864028b84f48d92c546173864b7f8050d8cf0c08d72db311d4ab88c422909516",
+      "bundle_sha256": "d9c2139707178218c56391ec4ae0a20cf3f29066217ea965652f372e8e61d855",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62792/metadata.html",
+          "bytes": 118053,
+          "sha256": "defa67337c68d5748188da69193dfbb77fec367b0589d2dd8fcfe6e27d720b69"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62792/part_00001.xls",
+          "bytes": 51200,
+          "sha256": "71eba63f6af812434aad270231c6760205edc96b9d73337dfc2214442467cad1"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62792/part_00001.query.json",
+          "bytes": 18019,
+          "sha256": "7b7381a65067fdcbef114c80f1ab2be3ab024fbf9e61cca7266f59618d3a4f86"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62792/part_00001.xls",
+        "sha256": "71eba63f6af812434aad270231c6760205edc96b9d73337dfc2214442467cad1",
+        "observations_checked": 1892,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 1892,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 1892,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 1892,
+        "published_raw_alias": 1892,
+        "published_numeric_value": 1892,
+        "published_unit": 1892,
+        "published_year": 1892,
+        "published_dimensions": 1892,
+        "published_attributes": 1892,
+        "published_source_id": 1892,
+        "published_source_frequency": 1892,
+        "published_source_period_start": 1892,
+        "published_source_period_end": 1892,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 1892,
+        "csv_unit": 1892,
+        "csv_value": 1892,
+        "csv_period": 1892,
+        "one_source_export": 1,
+        "xls_cell_address": 1892,
+        "xls_coordinate_unique": 1892,
+        "xls_numeric_cell": 1892,
+        "xls_year_header": 1892,
+        "xls_period_header": 1892,
+        "xls_unit_axis": 1892,
+        "xls_one_territory_dimension": 1892,
+        "xls_territory_row": 1892,
+        "xls_indicator_title": 1892,
+        "xls_unlabelled_column_empty": 26,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62793",
+      "observations": 1892,
+      "numeric": 1892,
+      "missing": 0,
+      "input_sha256": "b6d0afd9a7893c8ecc69c22b4da6502ba66d71c694d0122432a26512247961e9",
+      "published_sha256": "9646d2594d517e5c660d99c4a7ff9c49f685fa57434e2864d1d0b4511baff4da",
+      "bundle_sha256": "1bd8a325617511778281250f3bbea1eeed58850aa0c453507cd656e983484aae",
+      "evidence_files": [
+        {
+          "path": "source/raw/run_2026-10-15T193526_0000/62793/metadata.html",
+          "bytes": 117724,
+          "sha256": "9adbd9c12dccb72bbcefc5661e756478d7b2f0a949f0fcdf57b47f98ce5aa523"
+        },
+        {
+          "path": "source/raw/run_2026-10-15T193526_0000/62793/part_00001.xml.gz",
+          "bytes": 14283,
+          "sha256": "4cc368b000d5e930f0cc8bbd0267c9b46a442ce07c88aedf1eb23784aeae8f15"
+        },
+        {
+          "path": "source/raw/run_2026-10-15T193526_0000/62793/part_00001.query.json",
+          "bytes": 18048,
+          "sha256": "f156b58138302aa4c98c931cd465c9e62e09ba8b900d63d1ec3e9a2706efbf25"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/run_2026-10-15T193526_0000/62793/part_00001.xml.gz",
+        "sha256": "4cc368b000d5e930f0cc8bbd0267c9b46a442ce07c88aedf1eb23784aeae8f15",
+        "observations_checked": 1892,
+        "format": "sdmx",
+        "xml_observations": 1892,
+        "series": 1892,
+        "series_concepts": [
+          "30-ОКАТО"
+        ],
+        "code_lists": {
+          "30-ОКАТО": {
+            "name": "ОКАТО",
+            "codes": 86
+          }
+        },
+        "national_annual_examples_checked": 1
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 1892,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 1892,
+        "published_raw_alias": 1892,
+        "published_numeric_value": 1892,
+        "published_unit": 1892,
+        "published_year": 1892,
+        "published_dimensions": 1892,
+        "published_attributes": 1892,
+        "published_source_id": 1892,
+        "published_source_frequency": 1892,
+        "published_source_period_start": 1892,
+        "published_source_period_end": 1892,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 1892,
+        "csv_unit": 1892,
+        "csv_value": 1892,
+        "csv_period": 1892,
+        "one_source_export": 1,
+        "sdmx_year_dimension": 1892,
+        "sdmx_unit_attribute": 1892,
+        "sdmx_period_attribute": 1892,
+        "sdmx_complete_source_records": 1,
+        "sdmx_decoded_dimension": 1892
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": [
+        {
+          "year": 2025,
+          "unit": "процент",
+          "period_label": "значение показателя за год",
+          "dimensions": {
+            "ОКАТО": "Российская Федерация"
+          },
+          "raw_value": "81,1",
+          "series_key": {
+            "30-ОКАТО": "643"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "62804",
+      "observations": 22,
+      "numeric": 22,
+      "missing": 0,
+      "input_sha256": "561cfb94824d4e384c1dec8bd243790e5393a686bcf20bdc585e3e21ccb43178",
+      "published_sha256": "2779c72a61fe999792156a527a39fb4094a92671ee9e21e466e51ece10d3041e",
+      "bundle_sha256": "fda3e3ce64ecc2f7938a6096d0390dd13e1414106a8600b8ee72e90adcab56d4",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62804/metadata.html",
+          "bytes": 81579,
+          "sha256": "f2bc687ff7601d854da4f3a3998e322e1e69785d9a5d9e7956d44b85f864a519"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62804/part_00001.xls",
+          "bytes": 9216,
+          "sha256": "7a5755501bbaaa3507a1d58372740978de58c2cb3937378ace1b9069019b6a95"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62804/part_00001.query.json",
+          "bytes": 3651,
+          "sha256": "a2120ffc2c4d6da1d2970386cff4aafac27b5eea17ecda161c4c29e62f3e2ca5"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62804/part_00001.xls",
+        "sha256": "7a5755501bbaaa3507a1d58372740978de58c2cb3937378ace1b9069019b6a95",
+        "observations_checked": 22,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 22,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 22,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 22,
+        "published_raw_alias": 22,
+        "published_numeric_value": 22,
+        "published_unit": 22,
+        "published_year": 22,
+        "published_dimensions": 22,
+        "published_attributes": 22,
+        "published_source_id": 22,
+        "published_source_frequency": 22,
+        "published_source_period_start": 22,
+        "published_source_period_end": 22,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 22,
+        "csv_unit": 22,
+        "csv_value": 22,
+        "csv_period": 22,
+        "one_source_export": 1,
+        "xls_cell_address": 22,
+        "xls_coordinate_unique": 22,
+        "xls_numeric_cell": 22,
+        "xls_year_header": 22,
+        "xls_period_header": 22,
+        "xls_unit_axis": 22,
+        "xls_one_territory_dimension": 22,
+        "xls_territory_row": 22,
+        "xls_indicator_title": 22,
+        "xls_unlabelled_column_empty": 26,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62828",
+      "observations": 104,
+      "numeric": 65,
+      "missing": 39,
+      "input_sha256": "68c6d8f8167be07052b4e7a3c572a39e2930ca2e01a0b6f94e666bb0046a6005",
+      "published_sha256": "cd6d0df9ad96f7d96b38379979c76ce16678ebad820522aff023cfbe6ca54753",
+      "bundle_sha256": "d1ed52c014141ec75615da70f396a2756c0f3c285f3985aecbf7b526c634c24b",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62828/metadata.html",
+          "bytes": 83381,
+          "sha256": "981f57fd842ee4c3878ac7cda930347126e0af968371e4d16486da6ca7170798"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62828/part_00001.xls",
+          "bytes": 11776,
+          "sha256": "27900ea3a66d5415206328764520dd36c326b846103735859634798dd662d0be"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62828/part_00001.query.json",
+          "bytes": 4156,
+          "sha256": "56417ba342e34870ec74dcb8fe576d286fb3ff4f8f1239cbe8b6afb242791a1c"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62828/part_00001.xls",
+        "sha256": "27900ea3a66d5415206328764520dd36c326b846103735859634798dd662d0be",
+        "observations_checked": 104,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 104,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 104,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 104,
+        "published_raw_alias": 104,
+        "published_numeric_value": 104,
+        "published_unit": 104,
+        "published_year": 104,
+        "published_dimensions": 104,
+        "published_attributes": 104,
+        "published_source_id": 104,
+        "published_source_frequency": 104,
+        "published_source_period_start": 104,
+        "published_source_period_end": 104,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 104,
+        "csv_unit": 104,
+        "csv_value": 104,
+        "csv_period": 104,
+        "one_source_export": 1,
+        "xls_cell_address": 104,
+        "xls_coordinate_unique": 104,
+        "xls_missing_or_text_cell": 39,
+        "xls_year_header": 104,
+        "xls_period_header": 104,
+        "xls_unit_axis": 104,
+        "xls_one_territory_dimension": 104,
+        "xls_territory_row": 104,
+        "xls_indicator_title": 104,
+        "xls_numeric_cell": 65,
+        "xls_unlabelled_column_empty": 35,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62854",
+      "observations": 15,
+      "numeric": 15,
+      "missing": 0,
+      "input_sha256": "36f45e380916376078d0d9e13be0ec9ecf2f178fd75a36efa4b28e4baf3119de",
+      "published_sha256": "338792dbec1d323b85f618c72ec9485ae3d2d4527a713e0446b0feabb666a221",
+      "bundle_sha256": "add8717707c12da9eb3f665208c60ad148ca7a37bfa33f9799ee884247b83238",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62854/metadata.html",
+          "bytes": 82017,
+          "sha256": "2fd154a38d28c385185cceb8d533ae361d7ced9408f4603724eee9c6718f7353"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62854/part_00001.xls",
+          "bytes": 9216,
+          "sha256": "40ac65e2805f9a4ba6245cb4d78dfe040bc0ea89be08703d3a73b74e985f5baf"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62854/part_00001.query.json",
+          "bytes": 3753,
+          "sha256": "67c75dc821f47e45bd3265da1ad445d8ee94bf71a1af0a39d8d9a38572c293f9"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62854/part_00001.xls",
+        "sha256": "40ac65e2805f9a4ba6245cb4d78dfe040bc0ea89be08703d3a73b74e985f5baf",
+        "observations_checked": 15,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 15,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 15,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 15,
+        "published_raw_alias": 15,
+        "published_numeric_value": 15,
+        "published_unit": 15,
+        "published_year": 15,
+        "published_dimensions": 15,
+        "published_attributes": 15,
+        "published_source_id": 15,
+        "published_source_frequency": 15,
+        "published_source_period_start": 15,
+        "published_source_period_end": 15,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 15,
+        "csv_unit": 15,
+        "csv_value": 15,
+        "csv_period": 15,
+        "one_source_export": 1,
+        "xls_cell_address": 15,
+        "xls_coordinate_unique": 15,
+        "xls_numeric_cell": 15,
+        "xls_year_header": 15,
+        "xls_period_header": 15,
+        "xls_unit_axis": 15,
+        "xls_one_territory_dimension": 15,
+        "xls_territory_row": 15,
+        "xls_indicator_title": 15,
+        "xls_unlabelled_column_empty": 33,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62859",
+      "observations": 33,
+      "numeric": 33,
+      "missing": 0,
+      "input_sha256": "d8fbe7f43e3b6c48de518d432117d4657c16f8c56d2cd384c27819293389bc27",
+      "published_sha256": "63fbd0c64a4df828e8ab1a4da0ff0ca17d0c70314cb6403e5dad5a0e38a83455",
+      "bundle_sha256": "475ec46a51048dfa1e5da4c5d5aa0ffc4fcdf2f30eabebbd23b407f1a0b94334",
+      "evidence_files": [
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62859/metadata.html",
+          "bytes": 86567,
+          "sha256": "fb2abac857d38534f3b93f953e70a5f0fa76294cd2c65c46c87e3a755c41c33f"
+        },
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62859/part_00001.json.gz",
+          "bytes": 530,
+          "sha256": "0ef36a5590277b00c7e0722679909abde67ebff610d13df4b8995374b2e24a31"
+        },
+        {
+          "path": "source/raw/grid_2026-10-15T194327_0000/62859/part_00001.query.json",
+          "bytes": 3579,
+          "sha256": "9f4654b62f596ef9f52a7c0d981d5145e5cdded24ff85bc04755d83df75c00f7"
+        },
+        {
+          "path": "source/audit/normalization_9dbbc36e2771217c.json",
+          "bytes": 279,
+          "sha256": "31e94fda178563499d4ac09d12abc5d7e897eb470e51c6f53f9c59241918db78"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/grid_2026-10-15T194327_0000/62859/part_00001.json.gz",
+        "sha256": "0ef36a5590277b00c7e0722679909abde67ebff610d13df4b8995374b2e24a31",
+        "observations_checked": 33,
+        "format": "grid",
+        "rows": 2,
+        "physical_cells": 33,
+        "period_metadata_titles": 24
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 33,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 33,
+        "published_raw_alias": 33,
+        "published_numeric_value": 33,
+        "published_unit": 33,
+        "published_year": 33,
+        "published_dimensions": 33,
+        "published_attributes": 33,
+        "published_source_id": 33,
+        "published_source_frequency": 33,
+        "published_source_period_start": 33,
+        "published_source_period_end": 33,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 33,
+        "csv_unit": 33,
+        "csv_value": 33,
+        "csv_period": 33,
+        "one_source_export": 1,
+        "grid_coordinate_unique": 33,
+        "grid_field_present": 33,
+        "grid_raw_value": 33,
+        "grid_year_code": 33,
+        "grid_period_label_from_metadata": 33,
+        "grid_unit": 33,
+        "grid_one_geography_axis": 33,
+        "grid_territory": 33,
+        "grid_indicator_title": 33,
+        "grid_complete_source_fields": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62860",
+      "observations": 660,
+      "numeric": 440,
+      "missing": 220,
+      "input_sha256": "4c1d4d86a463703e755c25b6f7a00aee812895ceef544b5ebf19673c6bfe4f30",
+      "published_sha256": "bf7c261c901262b5101973a2db9c73889b1eb1679fee1437020687a03ac89013",
+      "bundle_sha256": "24eecc8f256bb8fa9dc2063384d39c86dd6d936612d022d211402ddddba8d727",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62860/metadata.html",
+          "bytes": 110750,
+          "sha256": "c12f32363e51027aa9294a452c2f21d91ce0322890db5439ca5cc9365836c146"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62860/part_00001.xls",
+          "bytes": 23040,
+          "sha256": "76e98f501fb8af72ed098cb61bb4ed41f62a532c783f381ffac71c505b4a0a49"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62860/part_00001.query.json",
+          "bytes": 14934,
+          "sha256": "0c9ffbd7a55e7afd14abc32c008bf4ce80c24d385cb64c4354d3e3983967f164"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62860/part_00001.xls",
+        "sha256": "76e98f501fb8af72ed098cb61bb4ed41f62a532c783f381ffac71c505b4a0a49",
+        "observations_checked": 660,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 660,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 660,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 660,
+        "published_raw_alias": 660,
+        "published_numeric_value": 660,
+        "published_unit": 660,
+        "published_year": 660,
+        "published_dimensions": 660,
+        "published_attributes": 660,
+        "published_source_id": 660,
+        "published_source_frequency": 660,
+        "published_source_period_start": 660,
+        "published_source_period_end": 660,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 660,
+        "csv_unit": 660,
+        "csv_value": 660,
+        "csv_period": 660,
+        "one_source_export": 1,
+        "xls_cell_address": 660,
+        "xls_coordinate_unique": 660,
+        "xls_numeric_cell": 440,
+        "xls_year_header": 660,
+        "xls_period_header": 660,
+        "xls_unit_axis": 660,
+        "xls_one_territory_dimension": 660,
+        "xls_territory_row": 660,
+        "xls_indicator_title": 660,
+        "xls_missing_or_text_cell": 220,
+        "xls_unlabelled_column_empty": 26,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62861",
+      "observations": 22,
+      "numeric": 22,
+      "missing": 0,
+      "input_sha256": "eb54b83e447780687fde6a25523ff06015bfba3a4b84d695f53ab7ec32509b42",
+      "published_sha256": "21b44ac613b3caa78e0f4ccbbbc6f8a51e983b1c2f87b9b3543c036e66f0aedf",
+      "bundle_sha256": "86f077947c5c00a002191bc22720b35dc7e0cb485c41408f2c6d14e8cebdacd5",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62861/metadata.html",
+          "bytes": 83449,
+          "sha256": "7cbd39354d5a98edd2f1259ab8ac4ac76935a818f888a4ec37e7d62b04381eff"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62861/part_00001.xls",
+          "bytes": 11264,
+          "sha256": "12981ad6a3b6943b3c0cdcbf0af66a5e42d4d1dd429e788a3cd427f31e6bab76"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62861/part_00001.query.json",
+          "bytes": 3707,
+          "sha256": "3e85d213abcbd5073a9cdf5ae92881b2760713a354efa47dea3b604ef3bd0a55"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62861/part_00001.xls",
+        "sha256": "12981ad6a3b6943b3c0cdcbf0af66a5e42d4d1dd429e788a3cd427f31e6bab76",
+        "observations_checked": 22,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 22,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 22,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 22,
+        "published_raw_alias": 22,
+        "published_numeric_value": 22,
+        "published_unit": 22,
+        "published_year": 22,
+        "published_dimensions": 22,
+        "published_attributes": 22,
+        "published_source_id": 22,
+        "published_source_frequency": 22,
+        "published_source_period_start": 22,
+        "published_source_period_end": 22,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 22,
+        "csv_unit": 22,
+        "csv_value": 22,
+        "csv_period": 22,
+        "one_source_export": 1,
+        "xls_cell_address": 22,
+        "xls_coordinate_unique": 22,
+        "xls_numeric_cell": 22,
+        "xls_year_header": 22,
+        "xls_period_header": 22,
+        "xls_unit_axis": 22,
+        "xls_one_territory_dimension": 22,
+        "xls_territory_row": 22,
+        "xls_indicator_title": 22,
+        "xls_unlabelled_column_empty": 26,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62862",
+      "observations": 506,
+      "numeric": 268,
+      "missing": 238,
+      "input_sha256": "36aca11e7c6c6441bdd698087708124681893e0ee923fcefd5bf7ca30eae6144",
+      "published_sha256": "8d7c2d3161c245edbbff9d723592f232d5ddf9abceda167cc06acd788d7c20dd",
+      "bundle_sha256": "e74fb7d567b10dc21c90398b1891b17d261604c93bbeb493d9ea6fb17f444d25",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62862/metadata.html",
+          "bytes": 96106,
+          "sha256": "ef3a99fffc6b612cf2cc490c985a5d759c74b39ca3d2b12b7bfbb443bfa99e5d"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62862/part_00001.xls",
+          "bytes": 18944,
+          "sha256": "d1f8c5d0cfec6688444f662954ccec49a5324aee2aaa4d6cff105df663aa20f9"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62862/part_00001.query.json",
+          "bytes": 9321,
+          "sha256": "c14dc4eab77e7b8b859b4120d619e1dc6cce12c24b1b4fd1bbd8d7051a69e0ae"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62862/part_00001.xls",
+        "sha256": "d1f8c5d0cfec6688444f662954ccec49a5324aee2aaa4d6cff105df663aa20f9",
+        "observations_checked": 506,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 506,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 506,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 506,
+        "published_raw_alias": 506,
+        "published_numeric_value": 506,
+        "published_unit": 506,
+        "published_year": 506,
+        "published_dimensions": 506,
+        "published_attributes": 506,
+        "published_source_id": 506,
+        "published_source_frequency": 506,
+        "published_source_period_start": 506,
+        "published_source_period_end": 506,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 506,
+        "csv_unit": 506,
+        "csv_value": 506,
+        "csv_period": 506,
+        "one_source_export": 1,
+        "xls_cell_address": 506,
+        "xls_coordinate_unique": 506,
+        "xls_numeric_cell": 268,
+        "xls_year_header": 506,
+        "xls_period_header": 506,
+        "xls_unit_axis": 506,
+        "xls_one_territory_dimension": 506,
+        "xls_territory_row": 506,
+        "xls_indicator_title": 506,
+        "xls_missing_or_text_cell": 238,
+        "xls_unlabelled_column_empty": 26,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62863",
+      "observations": 1012,
+      "numeric": 543,
+      "missing": 469,
+      "input_sha256": "bb62e30421f4e2193d15a94b573c8b9739c01e6beb6d329cd0721f9346d20d17",
+      "published_sha256": "165e8a99ae212b60d37be0b6f214b3fd93c6b8ce14a7d47cc34fe302856150bd",
+      "bundle_sha256": "ad0592177f647e25928f95fdbb316143b684dafb9ee85f232a646179cadfa2da",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62863/metadata.html",
+          "bytes": 109694,
+          "sha256": "de2c67bf6a1423f9342dddce04d2d8689ceb998440cb72131d5bd310cb0fa4be"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62863/part_00001.xls",
+          "bytes": 29696,
+          "sha256": "62ba88d48f15e4c03bc6f00dc84c97d4a8547b07e4cf955154a3339d187815fe"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62863/part_00001.query.json",
+          "bytes": 14707,
+          "sha256": "188188bc2da750640ae5f89e545702c367eb9efee754b2c280d4abcc46916dce"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62863/part_00001.xls",
+        "sha256": "62ba88d48f15e4c03bc6f00dc84c97d4a8547b07e4cf955154a3339d187815fe",
+        "observations_checked": 1012,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 1012,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 1012,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 1012,
+        "published_raw_alias": 1012,
+        "published_numeric_value": 1012,
+        "published_unit": 1012,
+        "published_year": 1012,
+        "published_dimensions": 1012,
+        "published_attributes": 1012,
+        "published_source_id": 1012,
+        "published_source_frequency": 1012,
+        "published_source_period_start": 1012,
+        "published_source_period_end": 1012,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 1012,
+        "csv_unit": 1012,
+        "csv_value": 1012,
+        "csv_period": 1012,
+        "one_source_export": 1,
+        "xls_cell_address": 1012,
+        "xls_coordinate_unique": 1012,
+        "xls_missing_or_text_cell": 469,
+        "xls_year_header": 1012,
+        "xls_period_header": 1012,
+        "xls_unit_axis": 1012,
+        "xls_one_territory_dimension": 1012,
+        "xls_territory_row": 1012,
+        "xls_indicator_title": 1012,
+        "xls_numeric_cell": 543,
+        "xls_unlabelled_column_empty": 26,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    },
+    {
+      "source_id": "62871",
+      "observations": 14,
+      "numeric": 14,
+      "missing": 0,
+      "input_sha256": "6e7ee087dd232e3da73d2e28d2d9bf5574b345e7730cdf790eff475f53538ac8",
+      "published_sha256": "df35fa5e98c3c5d1ce9d5e36867f257d4b241e2322aaa53cfc9334dc67d3a044",
+      "bundle_sha256": "8785e74d2ae11bd5f2da4da15a186667ac7ef7ea31e392ae17ff8fb813ab2cce",
+      "evidence_files": [
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62871/metadata.html",
+          "bytes": 81607,
+          "sha256": "244cd36bf87149ead6d05f247693d3539902b262e950c9910a06326e2bd27c31"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62871/part_00001.xls",
+          "bytes": 8704,
+          "sha256": "78720f03c1aeea38e5ebf0058b3a127424ae61376da9de7c3240c095c4cdf258"
+        },
+        {
+          "path": "source/raw/excel_2026-10-15T191223_0000/62871/part_00001.query.json",
+          "bytes": 3536,
+          "sha256": "9c3a5404e8414d28c292405fd452df502cf4dfaa98d4e05c3d4ee28fedd90eed"
+        },
+        {
+          "path": "source/audit/normalization_b86a6427113bd0d4.json",
+          "bytes": 279,
+          "sha256": "a06c039ed42e40d8e039ff6f965066a331db5f421f1d825e07a1feda99423110"
+        }
+      ],
+      "physical_export": {
+        "path": "source/raw/excel_2026-10-15T191223_0000/62871/part_00001.xls",
+        "sha256": "78720f03c1aeea38e5ebf0058b3a127424ae61376da9de7c3240c095c4cdf258",
+        "observations_checked": 14,
+        "format": "xls",
+        "sheets": [
+          "Данные",
+          "Паспорт"
+        ],
+        "physical_cells": 14,
+        "numeric_float_rounding_equivalences": 0,
+        "headers_checked": [
+          "year",
+          "period",
+          "unit",
+          "territory",
+          "indicator"
+        ]
+      },
+      "checks": {
+        "input_keys_unique": 1,
+        "independent_raw_numeric_parse": 14,
+        "published_count": 1,
+        "published_keys_complete": 1,
+        "published_ids_unique": 1,
+        "snapshot_identity": 1,
+        "source_identity": 1,
+        "published_raw_value": 14,
+        "published_raw_alias": 14,
+        "published_numeric_value": 14,
+        "published_unit": 14,
+        "published_year": 14,
+        "published_dimensions": 14,
+        "published_attributes": 14,
+        "published_source_id": 14,
+        "published_source_frequency": 14,
+        "published_source_period_start": 14,
+        "published_source_period_end": 14,
+        "published_sha256": 1,
+        "input_bundle_sha256": 1,
+        "evidence_sha256": 4,
+        "evidence_bytes": 4,
+        "csv_count": 1,
+        "csv_ids_complete": 1,
+        "csv_raw_value": 14,
+        "csv_unit": 14,
+        "csv_value": 14,
+        "csv_period": 14,
+        "one_source_export": 1,
+        "xls_cell_address": 14,
+        "xls_coordinate_unique": 14,
+        "xls_numeric_cell": 14,
+        "xls_year_header": 14,
+        "xls_period_header": 14,
+        "xls_unit_axis": 14,
+        "xls_one_territory_dimension": 14,
+        "xls_territory_row": 14,
+        "xls_indicator_title": 14,
+        "xls_unlabelled_column_empty": 34,
+        "xls_complete_source_rectangle": 1
+      },
+      "failure_counts": {},
+      "failure_examples": [],
+      "national_annual_original_records": []
+    }
+  ],
+  "limits": [
+    "Verifies retained official source snapshots and published fidelity; does not certify source methodology or imply that a network refresh returned newer observations.",
+    "Geographic remapping and analytical eligibility are not inferred from a source value match; they remain separately documented policies."
+  ]
+}

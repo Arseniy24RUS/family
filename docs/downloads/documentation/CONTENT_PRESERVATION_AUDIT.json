@@ -1,0 +1,1598 @@
+{
+  "schema": "national-projects.final-content-preservation/1",
+  "baseline": {
+    "file": "baseline/NationalProjects_Platform_2.11.0-export.1_FULL.zip",
+    "sha256": "c66f571f055b68d601fa61df6308e39ecfe7db78d9396826b001c3c82bb72fa9",
+    "version": "2.11.0-export.1",
+    "logical_manifest_entries": 8086,
+    "baseline_manifest_itself_present": true,
+    "physical_zip_entries": 4501,
+    "deduplicated_copy_entries": 3586
+  },
+  "target": {
+    "directory": ".",
+    "version": "2.12.0-platform.1",
+    "phase": "after_full_build_and_download_manifest_filter_before_final_packaging"
+  },
+  "summary": {
+    "baseline_logical_files": 8086,
+    "present_files": 8086,
+    "byte_identical_files": 7400,
+    "changed_files": 686,
+    "missing_files": 0,
+    "unstable_reads": 0,
+    "unexpected_protected_changes": 0,
+    "protected_unique_files": 3360,
+    "protected_byte_identical_files": 3340,
+    "protected_classified_metadata_or_zip_container_changes": 20,
+    "all_baseline_paths_retained": true,
+    "meaningful_and_calculation_core_preserved": true
+  },
+  "groups": {
+    "authoritative_inputs": {
+      "baseline_files": 489,
+      "identical_files": 489,
+      "changed_files": [],
+      "missing_files": []
+    },
+    "public_data_all": {
+      "baseline_files": 1325,
+      "identical_files": 1309,
+      "changed_files": [
+        "public/data/projects/competitive_economy/foundation.json",
+        "public/data/projects/competitive_economy/methods.json",
+        "public/data/projects/data_economy/foundation.json",
+        "public/data/projects/data_economy/methods.json",
+        "public/data/projects/efficient_transport/foundation.json",
+        "public/data/projects/efficient_transport/methods.json",
+        "public/data/projects/environment/foundation.json",
+        "public/data/projects/environment/methods.json",
+        "public/data/projects/health_technologies/foundation.json",
+        "public/data/projects/international_export/foundation.json",
+        "public/data/projects/international_export/methods.json",
+        "public/data/projects/life_infrastructure/foundation.json",
+        "public/data/projects/life_infrastructure/methods.json",
+        "public/data/projects/tourism/data-downloads.json",
+        "public/data/projects/tourism/foundation.json",
+        "public/data/projects/tourism/methods.json"
+      ],
+      "missing_files": []
+    },
+    "downloadable_source_materials": {
+      "baseline_files": 1546,
+      "identical_files": 1542,
+      "changed_files": [
+        "public/downloads/projections/projections_python.zip",
+        "public/downloads/projects/efficient_transport/documentary/documentary_sources.zip",
+        "public/downloads/projects/international_export/documentary/documentary_sources.zip",
+        "public/downloads/projects/tourism/documentary/documentary_sources.zip"
+      ],
+      "missing_files": []
+    },
+    "source_statistical_downloads": {
+      "baseline_files": 649,
+      "identical_files": 649,
+      "changed_files": [],
+      "missing_files": []
+    },
+    "published_normalized_series": {
+      "baseline_files": 283,
+      "identical_files": 283,
+      "changed_files": [],
+      "missing_files": []
+    },
+    "old_author_docx_inputs_and_downloads": {
+      "baseline_files": 14,
+      "identical_files": 14,
+      "changed_files": [],
+      "missing_files": []
+    },
+    "old_source_report_materials": {
+      "baseline_files": 349,
+      "identical_files": 349,
+      "changed_files": [],
+      "missing_files": []
+    },
+    "project_expertise_statistics_analytics_documentary": {
+      "baseline_files": 44,
+      "identical_files": 44,
+      "changed_files": [],
+      "missing_files": []
+    }
+  },
+  "public_data_json_change_classifications": [
+    {
+      "path": "public/data/projects/competitive_economy/foundation.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/competitive_economy/methods.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/data_economy/foundation.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/data_economy/methods.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/efficient_transport/foundation.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/efficient_transport/methods.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/environment/foundation.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/environment/methods.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/health_technologies/foundation.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/international_export/foundation.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/international_export/methods.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/life_infrastructure/foundation.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/life_infrastructure/methods.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/tourism/data-downloads.json",
+      "classification": "current_author_documents_and_repacked_zip_checksum",
+      "added": [
+        {
+          "url": "downloads/projects/tourism/current/expertise_tourism_2026-10-30.docx",
+          "bytes": 1834240,
+          "sha256": "84abf075aba492cf81e11d6b72df442ce6019e43433be18da804740c47380181"
+        },
+        {
+          "url": "downloads/projects/tourism/current/expertise_tourism_2026-10-30.pdf",
+          "bytes": 2830448,
+          "sha256": "7f6593d8c6fe3d26471419d8ac6d57ead8b3d52b64a82ab56f5e4733c0c19a3f"
+        }
+      ],
+      "removed": [],
+      "changed_retained_entries": [
+        {
+          "url": "downloads/projects/tourism/documentary/documentary_sources.zip",
+          "diff": [
+            {
+              "path": "$.sha256",
+              "before": "1b345edd93eecfacc0beb57ccae67d541104a1880f6fddfc9113b2822be68117",
+              "after": "516be4e2b1200fad5cc5f3a7a1c4801ab5efcd59ee9a9d0c8acf344733fe3532"
+            }
+          ]
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/tourism/foundation.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    },
+    {
+      "path": "public/data/projects/tourism/methods.json",
+      "classification": "release_version_only",
+      "diff": [
+        {
+          "path": "$.release_version",
+          "before": "2.11.0-export.1",
+          "after": "2.12.0-platform.1"
+        }
+      ],
+      "meaningful_data_unchanged": true
+    }
+  ],
+  "longlife_download_manifest": {
+    "current_byte_identical_to_2_11": true,
+    "current_bytes": 12254,
+    "intermediate_hidden_temp_filter": {
+      "project_id": "long_active_life",
+      "before_files": 60,
+      "after_files": 59,
+      "bytes_changed": true,
+      "removed_urls": [
+        "downloads/projects/long_active_life/statistical/.observations.csv.w1jxvsn9.tmp.i0E0bv"
+      ],
+      "added_urls": [],
+      "changed_retained_entries": []
+    },
+    "filter_other_manifests_byte_identical": true
+  },
+  "documentary_zip_member_checks": [
+    {
+      "path": "public/downloads/projects/efficient_transport/documentary/documentary_sources.zip",
+      "old_members": 11,
+      "new_members": 11,
+      "changed_member_bytes": [],
+      "metadata_changes": [
+        {
+          "name": "1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c.pdf",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                20,
+                46,
+                20
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                16
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_268.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                33,
+                58
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                38
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_269.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                0
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                38
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_270.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                0
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                38
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_271.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                0
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                38
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_272.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                0
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                38
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_273.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                0
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                38
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_274.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                0
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                40
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_275.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                0
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                40
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_276.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                0
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                40
+              ]
+            }
+          }
+        },
+        {
+          "name": "np_20.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                0
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                40
+              ]
+            }
+          }
+        }
+      ],
+      "all_members_byte_identical": true,
+      "members": [
+        {
+          "name": "1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c.pdf",
+          "bytes": 1233120,
+          "sha256": "1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_268.html",
+          "bytes": 477782,
+          "sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_269.html",
+          "bytes": 650192,
+          "sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_270.html",
+          "bytes": 2201590,
+          "sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_271.html",
+          "bytes": 598641,
+          "sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_272.html",
+          "bytes": 1083822,
+          "sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_273.html",
+          "bytes": 1335163,
+          "sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_274.html",
+          "bytes": 408765,
+          "sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_275.html",
+          "bytes": 516048,
+          "sha256": "737224055a65a929709ba0490fccfd8433d9f4a6ad28a7a4b40a8056cb557a7d",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_276.html",
+          "bytes": 502999,
+          "sha256": "aada567152cd2118a683889050ec152ed0beea3a77d199aa43872eec7169304c",
+          "byte_identical": true
+        },
+        {
+          "name": "np_20.html",
+          "bytes": 383413,
+          "sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "path": "public/downloads/projects/international_export/documentary/documentary_sources.zip",
+      "old_members": 8,
+      "new_members": 8,
+      "changed_member_bytes": [],
+      "metadata_changes": [
+        {
+          "name": "ab487272ea2f29681c031f2842cb081d02c29f6f7055bc07865ecf63234f6188.pdf",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                21,
+                2
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                16
+              ]
+            }
+          }
+        },
+        {
+          "name": "ac39d6fbf9fbc1ccd1c8480e55dc759a6629bd75d108b9e100c5fa9b2deb0c1f.pdf",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                21,
+                2
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                16
+              ]
+            }
+          }
+        },
+        {
+          "name": "daf13624baa54907228dfbb4de1096fa6444b175ca227391d386ba1978646874.pdf",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                21,
+                2
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                16
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_244.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                21,
+                58
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                16
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_252.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                21,
+                58
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                16
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_263.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                21,
+                58
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                16
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_264.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                21,
+                58
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                16
+              ]
+            }
+          }
+        },
+        {
+          "name": "np_27.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                21,
+                58
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                16
+              ]
+            }
+          }
+        }
+      ],
+      "all_members_byte_identical": true,
+      "members": [
+        {
+          "name": "ab487272ea2f29681c031f2842cb081d02c29f6f7055bc07865ecf63234f6188.pdf",
+          "bytes": 65420,
+          "sha256": "ab487272ea2f29681c031f2842cb081d02c29f6f7055bc07865ecf63234f6188",
+          "byte_identical": true
+        },
+        {
+          "name": "ac39d6fbf9fbc1ccd1c8480e55dc759a6629bd75d108b9e100c5fa9b2deb0c1f.pdf",
+          "bytes": 1244690,
+          "sha256": "ac39d6fbf9fbc1ccd1c8480e55dc759a6629bd75d108b9e100c5fa9b2deb0c1f",
+          "byte_identical": true
+        },
+        {
+          "name": "daf13624baa54907228dfbb4de1096fa6444b175ca227391d386ba1978646874.pdf",
+          "bytes": 65420,
+          "sha256": "daf13624baa54907228dfbb4de1096fa6444b175ca227391d386ba1978646874",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_244.html",
+          "bytes": 2146592,
+          "sha256": "8a77c7b3abfe6f3d7a9c0789e0cae1e8c9451d500974cae48d19a911089bec89",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_252.html",
+          "bytes": 4279083,
+          "sha256": "cc8d6537528a5b798ac177bdabbeec0a8032ef8bf6125a5e11ead17618cef5c6",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_263.html",
+          "bytes": 917170,
+          "sha256": "509f10bf201d9f0f35b943638cefc182188e6792c23d6f54758c81fe32afe383",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_264.html",
+          "bytes": 2561800,
+          "sha256": "a9027faf2b81bcb1c24099a9275cd586562fcdef566154b441158846b2c0ab4e",
+          "byte_identical": true
+        },
+        {
+          "name": "np_27.html",
+          "bytes": 333510,
+          "sha256": "b75432ae638d70250d5746d859beca3b0c65294183cf93297b614812eb216ea2",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "path": "public/downloads/projects/tourism/documentary/documentary_sources.zip",
+      "old_members": 9,
+      "new_members": 9,
+      "changed_member_bytes": [],
+      "metadata_changes": [
+        {
+          "name": "c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f.pdf",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                19,
+                41,
+                50
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                18
+              ]
+            }
+          }
+        },
+        {
+          "name": "ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c.pdf",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                19,
+                41,
+                50
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                18
+              ]
+            }
+          }
+        },
+        {
+          "name": "f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b.pdf",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                19,
+                41,
+                50
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                18
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_301.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                33,
+                40
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                12
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_303.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                33,
+                40
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                12
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_308.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                33,
+                40
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                12
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_309.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                33,
+                40
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                12
+              ]
+            }
+          }
+        },
+        {
+          "name": "fp_310.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                33,
+                42
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                12
+              ]
+            }
+          }
+        },
+        {
+          "name": "np_26.html",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                33,
+                42
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                29,
+                12
+              ]
+            }
+          }
+        }
+      ],
+      "all_members_byte_identical": true,
+      "members": [
+        {
+          "name": "c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f.pdf",
+          "bytes": 72743,
+          "sha256": "c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f",
+          "byte_identical": true
+        },
+        {
+          "name": "ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c.pdf",
+          "bytes": 431757,
+          "sha256": "ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c",
+          "byte_identical": true
+        },
+        {
+          "name": "f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b.pdf",
+          "bytes": 160501,
+          "sha256": "f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_301.html",
+          "bytes": 1526214,
+          "sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_303.html",
+          "bytes": 1031217,
+          "sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_308.html",
+          "bytes": 2259066,
+          "sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_309.html",
+          "bytes": 1112906,
+          "sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+          "byte_identical": true
+        },
+        {
+          "name": "fp_310.html",
+          "bytes": 423239,
+          "sha256": "18ba9cada1e6e3eb650d0bd8b2be06c971433f4bc1f034f7832f32d6b53d38f7",
+          "byte_identical": true
+        },
+        {
+          "name": "np_26.html",
+          "bytes": 163118,
+          "sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+          "byte_identical": true
+        }
+      ]
+    }
+  ],
+  "other_repacked_source_zip_member_checks": [
+    {
+      "path": "public/downloads/projections/projections_python.zip",
+      "old_members": 8,
+      "new_members": 8,
+      "changed_member_bytes": [],
+      "metadata_changes": [
+        {
+          "name": "README.txt",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                22
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                30,
+                8
+              ]
+            }
+          }
+        },
+        {
+          "name": "demography/__init__.py",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                22
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                30,
+                8
+              ]
+            }
+          }
+        },
+        {
+          "name": "demography/cohort.py",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                22
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                30,
+                8
+              ]
+            }
+          }
+        },
+        {
+          "name": "demography/indicator.py",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                22
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                30,
+                8
+              ]
+            }
+          }
+        },
+        {
+          "name": "demography/indicator_v11.py",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                22
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                30,
+                8
+              ]
+            }
+          }
+        },
+        {
+          "name": "example_synthetic.json",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                19,
+                34,
+                34
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                14,
+                12
+              ]
+            }
+          }
+        },
+        {
+          "name": "reproduce_projection.py",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                22
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                30,
+                8
+              ]
+            }
+          }
+        },
+        {
+          "name": "requirements.txt",
+          "changes": {
+            "date_time": {
+              "before": [
+                2026,
+                10,
+                29,
+                22,
+                34,
+                22
+              ],
+              "after": [
+                2026,
+                10,
+                29,
+                22,
+                30,
+                8
+              ]
+            }
+          }
+        }
+      ],
+      "all_members_byte_identical": true,
+      "members": [
+        {
+          "name": "README.txt",
+          "bytes": 390,
+          "sha256": "dc17bc95b7a3906460a379ead2cc7e6f613a4a27737beb5f6c537e5816176669",
+          "byte_identical": true
+        },
+        {
+          "name": "demography/__init__.py",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "byte_identical": true
+        },
+        {
+          "name": "demography/cohort.py",
+          "bytes": 13876,
+          "sha256": "f66859913483cd6db64bacca611c33b68a944687d6271a70da43070aebfd3db0",
+          "byte_identical": true
+        },
+        {
+          "name": "demography/indicator.py",
+          "bytes": 18070,
+          "sha256": "834f3f14e48614eab5a8d1523eea55fb1eb84cd4d6de7c198cc610f44c0c2363",
+          "byte_identical": true
+        },
+        {
+          "name": "demography/indicator_v11.py",
+          "bytes": 7026,
+          "sha256": "314739656aa07e25a56567121ff1a853f285138e0c47554867c1580f3b6668d3",
+          "byte_identical": true
+        },
+        {
+          "name": "example_synthetic.json",
+          "bytes": 11525,
+          "sha256": "235ee5445c1d02ac4bc36437b305aed603d6be70d5b4005027144836bae1dc4b",
+          "byte_identical": true
+        },
+        {
+          "name": "reproduce_projection.py",
+          "bytes": 3219,
+          "sha256": "0d643e83e6d7acfe464c5e038436f49c44f903d7cf858dd196f189f54891b989",
+          "byte_identical": true
+        },
+        {
+          "name": "requirements.txt",
+          "bytes": 13,
+          "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+          "byte_identical": true
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "unstable": [],
+  "unexpected_protected_changes": [],
+  "page_calculation_scope_audit": [
+    {
+      "file": "src/pages/healthtech.js",
+      "changed_functions": [
+        "loadHealthtechObservations",
+        "loadTextFile"
+      ],
+      "unchanged_rest_sha256": "b80a69d5e93fab34a6a0c2a15523e782dd25b2418d3bea3550a0493d45b96418",
+      "all_other_content_byte_identical_to_2_11": true
+    },
+    {
+      "file": "src/pages/infrastructure.js",
+      "changed_functions": [
+        "loadInfrastructureObservations",
+        "loadTextFile"
+      ],
+      "unchanged_rest_sha256": "2313134bed07df042f617dceaa849da77432d670706a195816c87dbb37112aa7",
+      "all_other_content_byte_identical_to_2_11": true
+    },
+    {
+      "file": "src/pages/environment.js",
+      "changed_functions": [
+        "loadEnvironmentObservations",
+        "loadTextFile"
+      ],
+      "unchanged_rest_sha256": "efff7813d2774ab50e65588bd7344209291704874c7b536373cc742b84b6a3f0",
+      "all_other_content_byte_identical_to_2_11": true
+    },
+    {
+      "file": "src/pages/competitive.js",
+      "changed_functions": [
+        "loadCompetitiveObservations",
+        "loadTextFile"
+      ],
+      "unchanged_rest_sha256": "aa1adeae839a61cf8d416d405e689dbff85ab749026c2cf3e22d7620cc1ce26b",
+      "all_other_content_byte_identical_to_2_11": true
+    },
+    {
+      "file": "src/pages/dataeconomy.js",
+      "changed_functions": [
+        "loadDataeconomyObservations",
+        "loadTextFile"
+      ],
+      "unchanged_rest_sha256": "d8e20719263ba913af69ccf4cb595276718dae88ff5f423170fe7354682964aa",
+      "all_other_content_byte_identical_to_2_11": true
+    },
+    {
+      "file": "src/pages/longlife.js",
+      "changed_functions": [
+        "loadSourceObservations"
+      ],
+      "unchanged_rest_sha256": "71d14440e9993e60ead702f44896da53c67480bba240c27296d02dbcd9c2e47d",
+      "all_other_content_byte_identical_to_2_11": true
+    },
+    {
+      "file": "src/pages/tourism.js",
+      "changed_functions": [
+        "observations",
+        "textPacket"
+      ],
+      "unchanged_rest_sha256": "2df845921c0b3500f307abf50b8dc3bac39467443fc3b0d90c980f2752136ee7",
+      "all_other_content_byte_identical_to_2_11": true
+    },
+    {
+      "file": "src/pages/efficient_transport.js",
+      "changed_functions": [
+        "loadTransportObservations",
+        "textPacket"
+      ],
+      "unchanged_rest_sha256": "231297c5c4d30b111635e24fb6660c835c9344fbf0c961d69e1509c41a8a89a7",
+      "all_other_content_byte_identical_to_2_11": true
+    },
+    {
+      "file": "src/pages/international_export.js",
+      "changed_functions": [
+        "loadExportObservations",
+        "textPacket"
+      ],
+      "unchanged_rest_sha256": "8530f05878f7316c972b17997370fc6ba6162b24c08e88e6ad040a48745c90d1",
+      "all_other_content_byte_identical_to_2_11": true
+    }
+  ],
+  "publication_copy_note": "Architecture agent may synchronize generated source/publication copies after this audit; temporary copy differences are reported as matches_current_source=false and are not source-data losses.",
+  "analytical_builder_code_checks": [
+    {
+      "path": "scripts/build_competitive_analytics.py",
+      "changes_confined_to_download_index_generation": true,
+      "analytical_ast_sha256": "d19b980a36cd108d570eccf50e8424d9c454f2405c807296499f2a83f8a68a8f",
+      "analytical_ast_identical": true
+    },
+    {
+      "path": "scripts/build_dataeconomy_analytics.py",
+      "changes_confined_to_download_index_generation": true,
+      "analytical_ast_sha256": "08b9ad3da1c4e514a3a8708f8e3985695718f0e422624a966c2a8635e30da172",
+      "analytical_ast_identical": true
+    },
+    {
+      "path": "scripts/build_environment_analytics.py",
+      "changes_confined_to_download_index_generation": true,
+      "analytical_ast_sha256": "2d46fbe8cacfa48b7ff9e9186b03021f4833fc4561f5c2433a003cff7f4ffd99",
+      "analytical_ast_identical": true
+    },
+    {
+      "path": "scripts/build_infrastructure_analytics.py",
+      "changes_confined_to_download_index_generation": true,
+      "analytical_ast_sha256": "472b2ee75200c315035b792902f9c1378ed9415a0363183e6c99fbf0ab4cd040",
+      "analytical_ast_identical": true
+    },
+    {
+      "path": "scripts/build_longlife_analytics.py",
+      "changes_confined_to_download_index_generation": true,
+      "analytical_ast_sha256": "e8d7dfd808f1ac4134946af8972d751669512c1a704ecd1ca0562884d3693a4c",
+      "analytical_ast_identical": true
+    },
+    {
+      "path": "scripts/build_personnel_analytics.py",
+      "changes_confined_to_download_index_generation": true,
+      "analytical_ast_sha256": "61acba5916832dd30139ba0168a59d01c5ef0428a5595a8bf7eb09415ac2d491",
+      "analytical_ast_identical": true
+    },
+    {
+      "path": "scripts/build_tourism_analytics.py",
+      "changes_confined_to_download_index_generation": true,
+      "analytical_ast_sha256": "4c18eaa6e9453c23d1d0f3223850d45353cb92b38874a78fe10e25918dc39561",
+      "analytical_ast_identical": true
+    },
+    {
+      "path": "scripts/build_youth_analytics.py",
+      "changes_confined_to_download_index_generation": true,
+      "analytical_ast_sha256": "81dba0343bb32f2f42f14b98ce7f4fe9bd3d9a8a0f0a7b255e4c7da99bd25b17",
+      "analytical_ast_identical": true
+    }
+  ],
+  "page_scope_audit_still_current": [
+    {
+      "path": "platform/src/pages/healthtech.js",
+      "matches_independently_checked_cache_only_revision": true
+    },
+    {
+      "path": "platform/src/pages/infrastructure.js",
+      "matches_independently_checked_cache_only_revision": true
+    },
+    {
+      "path": "platform/src/pages/environment.js",
+      "matches_independently_checked_cache_only_revision": true
+    },
+    {
+      "path": "platform/src/pages/competitive.js",
+      "matches_independently_checked_cache_only_revision": true
+    },
+    {
+      "path": "platform/src/pages/dataeconomy.js",
+      "matches_independently_checked_cache_only_revision": true
+    },
+    {
+      "path": "platform/src/pages/longlife.js",
+      "matches_independently_checked_cache_only_revision": true
+    },
+    {
+      "path": "platform/src/pages/tourism.js",
+      "matches_independently_checked_cache_only_revision": true
+    },
+    {
+      "path": "platform/src/pages/efficient_transport.js",
+      "matches_independently_checked_cache_only_revision": true
+    },
+    {
+      "path": "platform/src/pages/international_export.js",
+      "matches_independently_checked_cache_only_revision": true
+    }
+  ],
+  "note": "Аудит содержательного ядра выполнен перед последней синхронизацией документации и упаковкой; конечные хеши всех файлов приведены в RELEASE_MANIFEST.json."
+}

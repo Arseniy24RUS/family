@@ -1,0 +1,162 @@
+{
+  "sources": 22,
+  "observations": 463,
+  "numeric": 442,
+  "all_original_export_cells_match": true,
+  "results": [
+    {
+      "source_id": "62841",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62832",
+      "format": "grid",
+      "observations": 15,
+      "numeric": 15,
+      "verified": true
+    },
+    {
+      "source_id": "62820",
+      "format": "excel",
+      "observations": 24,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62851",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "63269",
+      "format": "excel",
+      "observations": 14,
+      "numeric": 14,
+      "verified": true
+    },
+    {
+      "source_id": "62850",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62849",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62848",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62847",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62846",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62819",
+      "format": "excel",
+      "observations": 24,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62824",
+      "format": "excel",
+      "observations": 24,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62823",
+      "format": "excel",
+      "observations": 24,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62822",
+      "format": "excel",
+      "observations": 24,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62821",
+      "format": "excel",
+      "observations": 24,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62834",
+      "format": "excel",
+      "observations": 24,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62831",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62833",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62845",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62844",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "62878",
+      "format": "excel",
+      "observations": 21,
+      "numeric": 21,
+      "verified": true
+    },
+    {
+      "source_id": "63268",
+      "format": "excel",
+      "observations": 14,
+      "numeric": 14,
+      "verified": true
+    }
+  ]
+}

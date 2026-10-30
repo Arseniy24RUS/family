@@ -1,0 +1,3354 @@
+{
+  "document": {
+    "project_id": "competitive_economy",
+    "kind": "fp",
+    "id": "fp_312",
+    "url": "https://databudget.ru/projects/fp/312",
+    "sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+    "retrieved_at": "2026-10-19T14:38:57.305485+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/cb/cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6.html",
+    "document_id": "fp_312",
+    "code": "Э1",
+    "title": "[Э1] Малое и среднее предпринимательство и поддержка индивидуальной предпринимательской инициативы",
+    "publisher_version": "26.25",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 955,
+    "n_tokens": 955,
+    "source_url": "https://databudget.ru/projects/fp/312",
+    "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+    "profile_text_sha256": "e9ff581cfaf014467577ae1749349902465f6964986a3449b9661e4146d7b31b",
+    "archive_entry": "competitive_economy/fp_312.html",
+    "bytes": 4590987,
+    "download_path": "downloads/projects/competitive_economy/documentary/sources/fp_312.html",
+    "profile_original_document_id": "html:cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_312:profile1",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "увеличен охват субъектов мсп услугами и мерами инфраструктуры поддержки субъектов мсп",
+      "node_id": "fp_312:passport-task-06:83875dcde77ed500",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile2",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "расширен доступ к финансовым ресурсам субъектов мсп в приоритетных отраслях",
+      "node_id": "fp_312:passport-task-05:4dbf9c23492a0959",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile3",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "goal",
+      "text": "обеспечение реального роста дохода на одного работника субъекта малого и среднего предпринимательства в 1,2 раз выше, чем рост валового внутреннего продукта за счет расширения доступа к финансовым ресурсам субъектов мсп в приоритетных отраслях и увеличения охвата субъектов мсп услугами и мерами инфраструктуры поддержки субъектов мсп",
+      "node_id": "fp_312:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 38,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile4",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "субъектам малого и среднего предпринимательства и гражданам, желающим начать бизнес, предоставлены услуги и сервисы на цифровой платформе мсп.рф количество полученных в рамках цифровой платформы мсп.рф услуг и сервисов за период 2025-2030 годов составит более 3,5 млн единиц",
+      "node_id": "fp_312:passport-result-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 32,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile5",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "предоставлен доступ к услугам, мерам поддержки и сервисам не менее 5 федеральных органов власти и институтов развития на цифровой платформе мсп.рф, необходимым для создания и развития бизнеса развит функционал цифровой платформы мсп.рф за счет предоставления доступа к услугам, мерам поддержки и сервисам не менее 5 федеральных органов власти и институтов развития, необходимым для создания и развития бизнеса",
+      "node_id": "fp_312:passport-result-41:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 49,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile6",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено расширение перечня видов сведений, не менее 2 видов, используемых для наполнения цифрового профиля предпринимателя на цифровой платформе мсп.рф доработан цифровой профиль предпринимателя в части расширения перечня видов сведений, а также развит проактивный подбор услуг, сервисов и мер поддержки на цифровой платформе мсп.рф",
+      "node_id": "fp_312:passport-result-7:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 41,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile7",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "субъектам малого и среднего предпринимательства обеспечен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков в целях создания (развития) производственных и инновационных компаний к концу 2030 года количество субъектов мсп - резидентов, которым предоставлен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков, составит не менее 2 тыс. единиц",
+      "node_id": "fp_312:passport-result-7:72821f34f9410810",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 52,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile8",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "субъектам малого и среднего предпринимательства и гражданам, желающим вести бизнес, обеспечено оказание услуг и мер поддержки организациями инфраструктуры поддержки малого и среднего предпринимательства инфраструктурой поддержки малого и среднего предпринимательства ежегодно предоставляются услуги и меры поддержки субъектам мсп и гражданам, желающим вести бизнес",
+      "node_id": "fp_312:passport-result-41:40e4a8a3cec0d7be",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 35,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile9",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "предоставлен доступ к сервису \"электронный документооборот\" на цифровой платформе мсп.рф сервис \"электронный документооборот\" цифровой платформы мсп.рф введен в эксплуатацию",
+      "node_id": "fp_312:passport-result-42:5f9e06f4f59d539a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 19,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile10",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечена деятельность и содержание акционерного общества \"федеральная корпорация по развитию малого и среднего предпринимательства\" в целях осуществления задач и реализации функций в рамках федерального закона № 209-фз \"о развитии малого и среднего предпринимательства российской федерации\", национального/федерального проекта финансирование затрат акционерного общества \"федеральная корпорация по развитию малого и среднего предпринимательства\", связанных с обеспечением деятельности (фонд оплаты труда, налоги иные обязательные платежи, расходы на содержание, обеспечение безопасности), решением задач и осуществлением функций, предусмотренным федеральным законом от 24.07.2007 № 209-фз \"о развитии малого и среднего предпринимательства в российской федерации\", достижением целей национального / федерального проекта, включая финансово-гарантийную поддержку субъектов мсп",
+      "node_id": "fp_312:passport-result-7:5f3b1b5d4a254584",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 81,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile11",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "предоставлен доступ к сервису \"электронная отчетность\" на цифровой платформе мсп.рф создан сервис \"электронная отчетность\" на цифровой платформе мсп.рф",
+      "node_id": "fp_312:passport-result-37:491f51d9b75788bb",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 19,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile12",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "увеличен объем внебюджетных инвестиций в основной капитал субъектов мсп, получивших доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков объем внебюджетных инвестиций в основной капитал, вложенных субъектами малого и среднего предпринимательства - резидентами промышленных парков и технопарков, к 2030 году составит не менее 66 млрд рублей",
+      "node_id": "fp_312:passport-result-7:757cd51d4a9a22b3",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 42,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile13",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено проведение федеральной программы \"мама - предприниматель\" в субъектах российской федерации проведена программа, направленная на развитие и поддержку женского предпринимательства",
+      "node_id": "fp_312:passport-result-53:f95a216c55de018e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 17,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile14",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "предоставлен доступ к сервису \"логистика для мсп\" на цифровой платформе мсп.рф сервис \"логистика для мсп\" цифровой платформы мсп.рф введен в эксплуатацию",
+      "node_id": "fp_312:passport-result-37:1b706bcb7b75903c",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 21,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile15",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "предоставлены кредиты субъектам мсп по льготной ставке в рамках программы льготного кредитования кредитным организациям и специализированным финансовым обществам возмещены недополученные доходы по выданным ими кредитам по льготной ставке",
+      "node_id": "fp_312:passport-result-7:74eb166f087eaa50",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[12]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 26,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile16",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "расширен доступ субъектов малого и среднего предпринимательства к закупкам крупнейших заказчиков объем закупок крупнейших заказчиков у субъектов малого и среднего предпринимательства за период 2025-2030 годов составит не менее 62,4 трлн рублей",
+      "node_id": "fp_312:passport-result-43:49e1b02f034922f9",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[13]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 25,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile17",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено проведение ао \"корпорация \"мсп\" мониторинга аффилированности между поставщиками-субъектами мсп и заказчиками, осуществляющими закупки в период 2025-2030 гг. ао \"корпорация \"мсп\" обеспечено проведение мониторинга аффилированности между поставщиками-субъектами мсп и заказчиками, осуществляющими закупки в рамках федерального закона от 18.07.2011 № 223-фз \"о закупках товаров, работ, услуг отдельными видами юридических лиц\", не реже 4 раз в год (ежеквартально), результаты мониторинга направлены в адрес минэкономразвития россии, минфин россии, фас россии",
+      "node_id": "fp_312:passport-result-42:5d8b3c5b81a22f58",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[14]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 56,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile18",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "субъектами малого и среднего предпринимательства размещены ценные бумаги на фондовой бирже и на инвестиционных платформах (количество размещенных субъектами мсп выпусков ценных бумаг на фондовой бирже и на инвестиционных платформах, по которым в том числе оказана поддержка за счет средств федерального бюджета, ежегодно) компенсация субъектам малого и среднего предпринимательства за счет средств федерального бюджета понесенных затрат, связанных с размещением ценных бумаг на фондовой бирже и на инвестиционных платформах (компенсация 50% понесенных затрат по договорам об оказании услуг по привлечению/содействию в привлечении инвестиций, включая услуги организатора размещения/андеррайтера или инвестиционной платформы, оценщика, аудитора, рейтингового агентства)",
+      "node_id": "fp_312:passport-result-41:a2bba7de2dc7733b",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 85,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile19",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечен объем гарантий и поручительств, предоставленных ао \"корпорация \"мсп\" российским кредитным организациям в целях обеспечения исполнения обязательств субъектов малого и среднего предпринимательства по кредитам в рамках мероприятия (результата) будет обеспечено достижение объема гарантий и поручительств, предоставленных ао \"корпорация \"мсп\" российским кредитным организациям",
+      "node_id": "fp_312:passport-result-11:da8768c97dbcd4da",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[16]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 37,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile20",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено предоставление субъектам малого предпринимательства льготной лизинговой поддержки ао \"мсп лизинг\" за счет применения пониженной ставки объем льготной лизинговой поддержки (сумма льготного лизингового финансирования), предоставленной ао \"мсп лизинг\" субъектам малого предпринимательства за период 2025-2030 годов, составит 18,0 млрд рублей",
+      "node_id": "fp_312:passport-result-54:e80715f3e3e0ebcf",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[17]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 37,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile21",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "субъектам малого и среднего предпринимательства обеспечен льготный доступ к заемным средствам государственных (муниципальных) микрофинансовых организаций объем финансовой поддержки, предоставленной государственными микрофинансовыми организациями субъектам малого и среднего предпринимательства к концу 2030 года составит не менее 250 000,0 млн рублей",
+      "node_id": "fp_312:passport-result-37:63b22a84350a9f7e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[18]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 31,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile22",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "субъектами малого и среднего предпринимательства обеспечено привлечение финансирования за счет поручительств (независимых гарантий) фондов содействия кредитованию (гарантийных фондов, фондов поручительств) объем финансовых ресурсов, привлеченных субъектами малого и среднего предпринимательства по поручительства (независимые гарантии) фондов содействия кредитованию (гарантийных фондов, фондов поручительств) к концу 2030 года, составит не менее 1,3 трлн рублей",
+      "node_id": "fp_312:passport-result-46:fb50fed3282b0ed8",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[19]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 45,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile23",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено утверждение программ по развитию субъектов мсп (\"выращивание\") в целях их потенциального участия в закупках товаров (работ, услуг), в том числе с заключением \"офсетных\" договоров. количество программ по развитию субъектов мсп (\"выращивание\") в целях их потенциального участия в закупках товаров (работ, услуг) по федеральному закону от 18.07.2011 № 223-фз \"о закупках товаров, работ, услуг отдельными видами юридических лиц\", в том числе с заключением \"офсетных\" договоров. нарастающий итог",
+      "node_id": "fp_312:passport-result-49:52420dc89d344416",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[20]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 56,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile24",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "организован и расширен сбыт продукции и услуг субъектов малого и среднего предпринимательства обеспечено ежегодное предоставление услуг и мер поддержки субъектам мсп в целях заключения сделок с торговыми сетями и другими компаниями (без государственного участия), участия в проекте \"фермерский островок\". к концу 2030 года количество субъектов мсп, организовавших или расширивших рынки сбыта составит составит более 3 тыс. единиц",
+      "node_id": "fp_312:passport-result-41:49589075b3913ac2",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[21]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 46,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile25",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "прокси-показатель \"темп роста налогов на одного работника субъекта малого и среднего предпринимательства\"",
+      "node_id": "fp_312:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 11,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile26",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "доля субъектов мсп, превысивших предельные значения для определения категорий субъектов мсп (микро-, малые, средние)",
+      "node_id": "fp_312:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 14,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_312:profile27",
+      "document_id": "fp_312",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "уровень удовлетворенности потенциальных и действующих субъектов мсп, осуществляющих деятельность в промышленных (индустриальных) парках, технопарках, бизнес-парках, а также получивших услуги иных организаций инфраструктуры поддержки субъектов мсп",
+      "node_id": "fp_312:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "n_tokens": 22,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_312:kwic1",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": " малого и среднего предпринимательства и гражданам, желающим начать бизнес, предоставлены услуги и сервисы на цифровой платформе мсп.рф количество полученных в рамках цифровой платформы мсп.рф услуг и сервисов за период 2025-203",
+      "unit_id": "fp_312:profile4",
+      "unit_ids": [
+        "fp_312:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic2",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "щим начать бизнес, предоставлены услуги и сервисы на цифровой платформе мсп.рф количество полученных в рамках цифровой платформы мсп.рф услуг и сервисов за период 2025-2030 годов составит более 3,5 млн единиц предоставлен доступ",
+      "unit_id": "fp_312:profile4",
+      "unit_ids": [
+        "fp_312:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic3",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "н доступ к услугам, мерам поддержки и сервисам не менее 5 федеральных органов власти и институтов развития на цифровой платформе мсп.рф, необходимым для создания и развития бизнеса развит функционал цифровой платформы мсп.рф за ",
+      "unit_id": "fp_312:profile5",
+      "unit_ids": [
+        "fp_312:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic4",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "ститутов развития на цифровой платформе мсп.рф, необходимым для создания и развития бизнеса развит функционал цифровой платформы мсп.рф за счет предоставления доступа к услугам, мерам поддержки и сервисам не менее 5 федеральных ",
+      "unit_id": "fp_312:profile5",
+      "unit_ids": [
+        "fp_312:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic5",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифрового",
+      "context": " развития бизнеса обеспечено расширение перечня видов сведений, не менее 2 видов, используемых для наполнения цифрового профиля предпринимателя на цифровой платформе мсп.рф доработан цифровой профиль предпринимателя в части расши",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic6",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "ие перечня видов сведений, не менее 2 видов, используемых для наполнения цифрового профиля предпринимателя на цифровой платформе мсп.рф доработан цифровой профиль предпринимателя в части расширения перечня видов сведений, а такж",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic7",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "2 видов, используемых для наполнения цифрового профиля предпринимателя на цифровой платформе мсп.рф доработан цифровой профиль предпринимателя в части расширения перечня видов сведений, а также развит проактивный подбор услуг, с",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic8",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "части расширения перечня видов сведений, а также развит проактивный подбор услуг, сервисов и мер поддержки на цифровой платформе мсп.рф субъектам малого и среднего предпринимательства обеспечен льготный доступ к производственным",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic9",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "бъектам мсп и гражданам, желающим вести бизнес предоставлен доступ к сервису \"электронный документооборот\" на цифровой платформе мсп.рф сервис \"электронный документооборот\" цифровой платформы мсп.рф введен в эксплуатацию обеспеч",
+      "unit_id": "fp_312:profile9",
+      "unit_ids": [
+        "fp_312:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic10",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "туп к сервису \"электронный документооборот\" на цифровой платформе мсп.рф сервис \"электронный документооборот\" цифровой платформы мсп.рф введен в эксплуатацию обеспечена деятельность и содержание акционерного общества \"федеральна",
+      "unit_id": "fp_312:profile9",
+      "unit_ids": [
+        "fp_312:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic11",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "лючая финансово-гарантийную поддержку субъектов мсп предоставлен доступ к сервису \"электронная отчетность\" на цифровой платформе мсп.рф создан сервис \"электронная отчетность\" на цифровой платформе мсп.рф увеличен объем внебюджет",
+      "unit_id": "fp_312:profile11",
+      "unit_ids": [
+        "fp_312:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic12",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "туп к сервису \"электронная отчетность\" на цифровой платформе мсп.рф создан сервис \"электронная отчетность\" на цифровой платформе мсп.рф увеличен объем внебюджетных инвестиций в основной капитал субъектов мсп, получивших доступ к",
+      "unit_id": "fp_312:profile11",
+      "unit_ids": [
+        "fp_312:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic13",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "ная на развитие и поддержку женского предпринимательства предоставлен доступ к сервису \"логистика для мсп\" на цифровой платформе мсп.рф сервис \"логистика для мсп\" цифровой платформы мсп.рф введен в эксплуатацию предоставлены кре",
+      "unit_id": "fp_312:profile14",
+      "unit_ids": [
+        "fp_312:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic14",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "тва предоставлен доступ к сервису \"логистика для мсп\" на цифровой платформе мсп.рф сервис \"логистика для мсп\" цифровой платформы мсп.рф введен в эксплуатацию предоставлены кредиты субъектам мсп по льготной ставке в рамках програ",
+      "unit_id": "fp_312:profile14",
+      "unit_ids": [
+        "fp_312:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic15",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "мсп в приоритетных отраслях обеспечение реального роста дохода на одного работника субъекта малого и среднего предпринимательства в 1,2 раз выше, чем рост валового внутреннего продукта за счет расширения доступа к финансовым ресурсам субъе",
+      "unit_id": "fp_312:profile3",
+      "unit_ids": [
+        "fp_312:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic16",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ния охвата субъектов мсп услугами и мерами инфраструктуры поддержки субъектов мсп субъектам малого и среднего предпринимательства и гражданам, желающим начать бизнес, предоставлены услуги и сервисы на цифровой платформе мсп.рф количество п",
+      "unit_id": "fp_312:profile4",
+      "unit_ids": [
+        "fp_312:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic17",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "труктуры поддержки субъектов мсп субъектам малого и среднего предпринимательства и гражданам, желающим начать бизнес, предоставлены услуги и сервисы на цифровой платформе мсп.рф количество полученных в рамках цифровой платформ",
+      "unit_id": "fp_312:profile4",
+      "unit_ids": [
+        "fp_312:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic18",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "альных органов власти и институтов развития на цифровой платформе мсп.рф, необходимым для создания и развития бизнеса развит функционал цифровой платформы мсп.рф за счет предоставления доступа к услугам, мерам поддержки и серви",
+      "unit_id": "fp_312:profile5",
+      "unit_ids": [
+        "fp_312:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic19",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "и и сервисам не менее 5 федеральных органов власти и институтов развития, необходимым для создания и развития бизнеса обеспечено расширение перечня видов сведений, не менее 2 видов, используемых для наполнения цифрового профиля",
+      "unit_id": "fp_312:profile5",
+      "unit_ids": [
+        "fp_312:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic20",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателя",
+      "context": "обеспечено расширение перечня видов сведений, не менее 2 видов, используемых для наполнения цифрового профиля предпринимателя на цифровой платформе мсп.рф доработан цифровой профиль предпринимателя в части расширения перечня видов свед",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic21",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателя",
+      "context": "емых для наполнения цифрового профиля предпринимателя на цифровой платформе мсп.рф доработан цифровой профиль предпринимателя в части расширения перечня видов сведений, а также развит проактивный подбор услуг, сервисов и мер поддержки ",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic22",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "т проактивный подбор услуг, сервисов и мер поддержки на цифровой платформе мсп.рф субъектам малого и среднего предпринимательства обеспечен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агро",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic23",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "производственным",
+      "context": "ржки на цифровой платформе мсп.рф субъектам малого и среднего предпринимательства обеспечен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарк",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic24",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "еднего предпринимательства обеспечен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков в целях создания (разв",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic25",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "оступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков в целях создания (развития) производственных и инновационных ко",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic26",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "щадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков в целях создания (развития) производственных и инновационных компаний к концу 2030 года количеств",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic27",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "производственных",
+      "context": "ов, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков в целях создания (развития) производственных и инновационных компаний к концу 2030 года количество субъектов мсп - резидентов, которым предоставлен льготн",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic28",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "производственным",
+      "context": "нных компаний к концу 2030 года количество субъектов мсп - резидентов, которым предоставлен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарк",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic29",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "п - резидентов, которым предоставлен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков, составит не менее 2 т",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic30",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "оступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков, составит не менее 2 тыс. единиц субъектам малого и среднего пр",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic31",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "щадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков, составит не менее 2 тыс. единиц субъектам малого и среднего предпринимательства и гражданам, жел",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic32",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ес-парков, технопарков, промышленных технопарков, составит не менее 2 тыс. единиц субъектам малого и среднего предпринимательства и гражданам, желающим вести бизнес, обеспечено оказание услуг и мер поддержки организациями инфраструктуры по",
+      "unit_id": "fp_312:profile8",
+      "unit_ids": [
+        "fp_312:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic33",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": ", составит не менее 2 тыс. единиц субъектам малого и среднего предпринимательства и гражданам, желающим вести бизнес, обеспечено оказание услуг и мер поддержки организациями инфраструктуры поддержки малого и среднего предприни",
+      "unit_id": "fp_312:profile8",
+      "unit_ids": [
+        "fp_312:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic34",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ти бизнес, обеспечено оказание услуг и мер поддержки организациями инфраструктуры поддержки малого и среднего предпринимательства инфраструктурой поддержки малого и среднего предпринимательства ежегодно предоставляются услуги и меры поддер",
+      "unit_id": "fp_312:profile8",
+      "unit_ids": [
+        "fp_312:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic35",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ми инфраструктуры поддержки малого и среднего предпринимательства инфраструктурой поддержки малого и среднего предпринимательства ежегодно предоставляются услуги и меры поддержки субъектам мсп и гражданам, желающим вести бизнес предоставле",
+      "unit_id": "fp_312:profile8",
+      "unit_ids": [
+        "fp_312:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic36",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "редпринимательства ежегодно предоставляются услуги и меры поддержки субъектам мсп и гражданам, желающим вести бизнес предоставлен доступ к сервису \"электронный документооборот\" на цифровой платформе мсп.рф сервис \"электронный ",
+      "unit_id": "fp_312:profile8",
+      "unit_ids": [
+        "fp_312:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic37",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "спечена деятельность и содержание акционерного общества \"федеральная корпорация по развитию малого и среднего предпринимательства\" в целях осуществления задач и реализации функций в рамках федерального закона № 209-фз \"о развитии малого и ",
+      "unit_id": "fp_312:profile10",
+      "unit_ids": [
+        "fp_312:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic38",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": " осуществления задач и реализации функций в рамках федерального закона № 209-фз \"о развитии малого и среднего предпринимательства российской федерации\", национального/федерального проекта финансирование затрат акционерного общества \"федера",
+      "unit_id": "fp_312:profile10",
+      "unit_ids": [
+        "fp_312:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic39",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ого проекта финансирование затрат акционерного общества \"федеральная корпорация по развитию малого и среднего предпринимательства\", связанных с обеспечением деятельности (фонд оплаты труда, налоги иные обязательные платежи, расходы на соде",
+      "unit_id": "fp_312:profile10",
+      "unit_ids": [
+        "fp_312:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic40",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ществлением функций, предусмотренным федеральным законом от 24.07.2007 № 209-фз \"о развитии малого и среднего предпринимательства в российской федерации\", достижением целей национального / федерального проекта, включая финансово-гарантийну",
+      "unit_id": "fp_312:profile10",
+      "unit_ids": [
+        "fp_312:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic41",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "тформе мсп.рф создан сервис \"электронная отчетность\" на цифровой платформе мсп.рф увеличен объем внебюджетных инвестиций в основной капитал субъектов мсп, получивших доступ к производственным площадям и помещениям индустриальных (",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic42",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "производственным",
+      "context": "платформе мсп.рф увеличен объем внебюджетных инвестиций в основной капитал субъектов мсп, получивших доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарк",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic43",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": " в основной капитал субъектов мсп, получивших доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков объем внебюджетных инв",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic44",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "оступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков объем внебюджетных инвестиций в основной капитал, вложенных суб",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic45",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "щадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков объем внебюджетных инвестиций в основной капитал, вложенных субъектами малого и среднего предприн",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic46",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков объем внебюджетных инвестиций в основной капитал, вложенных субъектами малого и среднего предпринимательства - резидентами промышленных пар",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic47",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ышленных технопарков объем внебюджетных инвестиций в основной капитал, вложенных субъектами малого и среднего предпринимательства - резидентами промышленных парков и технопарков, к 2030 году составит не менее 66 млрд рублей обеспечено пров",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic48",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "етных инвестиций в основной капитал, вложенных субъектами малого и среднего предпринимательства - резидентами промышленных парков и технопарков, к 2030 году составит не менее 66 млрд рублей обеспечено проведение федеральной программ",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic49",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предприниматель",
+      "context": "технопарков, к 2030 году составит не менее 66 млрд рублей обеспечено проведение федеральной программы \"мама - предприниматель\" в субъектах российской федерации проведена программа, направленная на развитие и поддержку женского предприн",
+      "unit_id": "fp_312:profile13",
+      "unit_ids": [
+        "fp_312:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic50",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ниматель\" в субъектах российской федерации проведена программа, направленная на развитие и поддержку женского предпринимательства предоставлен доступ к сервису \"логистика для мсп\" на цифровой платформе мсп.рф сервис \"логистика для мсп\" циф",
+      "unit_id": "fp_312:profile13",
+      "unit_ids": [
+        "fp_312:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic51",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "недополученные доходы по выданным ими кредитам по льготной ставке расширен доступ субъектов малого и среднего предпринимательства к закупкам крупнейших заказчиков объем закупок крупнейших заказчиков у субъектов малого и среднего предприним",
+      "unit_id": "fp_312:profile16",
+      "unit_ids": [
+        "fp_312:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[13]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic52",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "мательства к закупкам крупнейших заказчиков объем закупок крупнейших заказчиков у субъектов малого и среднего предпринимательства за период 2025-2030 годов составит не менее 62,4 трлн рублей обеспечено проведение ао \"корпорация \"мсп\" монит",
+      "unit_id": "fp_312:profile16",
+      "unit_ids": [
+        "fp_312:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[13]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic53",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ниторинга направлены в адрес минэкономразвития россии, минфин россии, фас россии субъектами малого и среднего предпринимательства размещены ценные бумаги на фондовой бирже и на инвестиционных платформах (количество размещенных субъектами м",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic54",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "и, фас россии субъектами малого и среднего предпринимательства размещены ценные бумаги на фондовой бирже и на инвестиционных платформах (количество размещенных субъектами мсп выпусков ценных бумаг на фондовой бирже и на инвестиционных",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic55",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "инвестиционных платформах (количество размещенных субъектами мсп выпусков ценных бумаг на фондовой бирже и на инвестиционных платформах, по которым в том числе оказана поддержка за счет средств федерального бюджета, ежегодно) компенса",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic56",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "сле оказана поддержка за счет средств федерального бюджета, ежегодно) компенсация субъектам малого и среднего предпринимательства за счет средств федерального бюджета понесенных затрат, связанных с размещением ценных бумаг на фондовой бирж",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic57",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "т средств федерального бюджета понесенных затрат, связанных с размещением ценных бумаг на фондовой бирже и на инвестиционных платформах (компенсация 50% понесенных затрат по договорам об оказании услуг по привлечению/содействию в прив",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic58",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "мах (компенсация 50% понесенных затрат по договорам об оказании услуг по привлечению/содействию в привлечении инвестиций, включая услуги организатора размещения/андеррайтера или инвестиционной платформы, оценщика, аудитора, рейтин",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic59",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционной",
+      "context": "г по привлечению/содействию в привлечении инвестиций, включая услуги организатора размещения/андеррайтера или инвестиционной платформы, оценщика, аудитора, рейтингового агентства) обеспечен объем гарантий и поручительств, предоставлен",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic60",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "сп\" российским кредитным организациям в целях обеспечения исполнения обязательств субъектов малого и среднего предпринимательства по кредитам в рамках мероприятия (результата) будет обеспечено достижение объема гарантий и поручительств, пр",
+      "unit_id": "fp_312:profile19",
+      "unit_ids": [
+        "fp_312:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[16]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[16]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic61",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "оставленных ао \"корпорация \"мсп\" российским кредитным организациям обеспечено предоставление субъектам малого предпринимательства льготной лизинговой поддержки ао \"мсп лизинг\" за счет применения пониженной ставки объем льготной лизинговой ",
+      "unit_id": "fp_312:profile20",
+      "unit_ids": [
+        "fp_312:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[17]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[17]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic62",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "овой поддержки (сумма льготного лизингового финансирования), предоставленной ао \"мсп лизинг\" субъектам малого предпринимательства за период 2025-2030 годов, составит 18,0 млрд рублей субъектам малого и среднего предпринимательства обеспече",
+      "unit_id": "fp_312:profile20",
+      "unit_ids": [
+        "fp_312:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[17]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[17]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic63",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "м малого предпринимательства за период 2025-2030 годов, составит 18,0 млрд рублей субъектам малого и среднего предпринимательства обеспечен льготный доступ к заемным средствам государственных (муниципальных) микрофинансовых организаций объ",
+      "unit_id": "fp_312:profile21",
+      "unit_ids": [
+        "fp_312:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[18]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[18]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic64",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "нсовой поддержки, предоставленной государственными микрофинансовыми организациями субъектам малого и среднего предпринимательства к концу 2030 года составит не менее 250 000,0 млн рублей субъектами малого и среднего предпринимательства обе",
+      "unit_id": "fp_312:profile21",
+      "unit_ids": [
+        "fp_312:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[18]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[18]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic65",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "его предпринимательства к концу 2030 года составит не менее 250 000,0 млн рублей субъектами малого и среднего предпринимательства обеспечено привлечение финансирования за счет поручительств (независимых гарантий) фондов содействия кредитов",
+      "unit_id": "fp_312:profile22",
+      "unit_ids": [
+        "fp_312:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[19]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[19]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic66",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "арантийных фондов, фондов поручительств) объем финансовых ресурсов, привлеченных субъектами малого и среднего предпринимательства по поручительства (независимые гарантии) фондов содействия кредитованию (гарантийных фондов, фондов поручител",
+      "unit_id": "fp_312:profile22",
+      "unit_ids": [
+        "fp_312:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[19]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[19]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic67",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "сетных\" договоров. нарастающий итог организован и расширен сбыт продукции и услуг субъектов малого и среднего предпринимательства обеспечено ежегодное предоставление услуг и мер поддержки субъектам мсп в целях заключения сделок с торговыми",
+      "unit_id": "fp_312:profile24",
+      "unit_ids": [
+        "fp_312:profile24"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[21]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[21]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic68",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "авит более 3 тыс. единиц прокси-показатель \"темп роста налогов на одного работника субъекта малого и среднего предпринимательства\" доля субъектов мсп, превысивших предельные значения для определения категорий субъектов мсп (микро-, малые, ",
+      "unit_id": "fp_312:profile25",
+      "unit_ids": [
+        "fp_312:profile25"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic69",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": ", средние) уровень удовлетворенности потенциальных и действующих субъектов мсп, осуществляющих деятельность в промышленных (индустриальных) парках, технопарках, бизнес-парках, а также получивших услуги иных организаций инфраструктур",
+      "unit_id": "fp_312:profile27",
+      "unit_ids": [
+        "fp_312:profile27"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic70",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "и действующих субъектов мсп, осуществляющих деятельность в промышленных (индустриальных) парках, технопарках, бизнес-парках, а также получивших услуги иных организаций инфраструктуры поддержки субъектов мсп",
+      "unit_id": "fp_312:profile27",
+      "unit_ids": [
+        "fp_312:profile27"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic71",
+      "document_id": "fp_312",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ьства за период 2025-2030 годов составит не менее 62,4 трлн рублей обеспечено проведение ао \"корпорация \"мсп\" мониторинга аффилированности между поставщиками-субъектами мсп и заказчиками, осуществляющими закупки в период 2025-2030 ",
+      "unit_id": "fp_312:profile17",
+      "unit_ids": [
+        "fp_312:profile17"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[14]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[14]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic72",
+      "document_id": "fp_312",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": " мсп и заказчиками, осуществляющими закупки в период 2025-2030 гг. ао \"корпорация \"мсп\" обеспечено проведение мониторинга аффилированности между поставщиками-субъектами мсп и заказчиками, осуществляющими закупки в рамках федерально",
+      "unit_id": "fp_312:profile17",
+      "unit_ids": [
+        "fp_312:profile17"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[14]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[14]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic73",
+      "document_id": "fp_312",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ках товаров, работ, услуг отдельными видами юридических лиц\", не реже 4 раз в год (ежеквартально), результаты мониторинга направлены в адрес минэкономразвития россии, минфин россии, фас россии субъектами малого и среднего предприни",
+      "unit_id": "fp_312:profile17",
+      "unit_ids": [
+        "fp_312:profile17"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[14]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[14]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic74",
+      "document_id": "fp_312",
+      "frame": "income_support",
+      "matched": "дохода",
+      "context": "в мсп расширен доступ к финансовым ресурсам субъектов мсп в приоритетных отраслях обеспечение реального роста дохода на одного работника субъекта малого и среднего предпринимательства в 1,2 раз выше, чем рост валового внутренн",
+      "unit_id": "fp_312:profile3",
+      "unit_ids": [
+        "fp_312:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic75",
+      "document_id": "fp_312",
+      "frame": "income_support",
+      "matched": "доходы",
+      "context": "отного кредитования кредитным организациям и специализированным финансовым обществам возмещены недополученные доходы по выданным ими кредитам по льготной ставке расширен доступ субъектов малого и среднего предпринимательства к",
+      "unit_id": "fp_312:profile15",
+      "unit_ids": [
+        "fp_312:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[12]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic76",
+      "document_id": "fp_312",
+      "frame": "science_innovation",
+      "matched": "инновационных",
+      "context": "х парков, бизнес-парков, технопарков, промышленных технопарков в целях создания (развития) производственных и инновационных компаний к концу 2030 года количество субъектов мсп - резидентов, которым предоставлен льготный доступ к прои",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic77",
+      "document_id": "fp_312",
+      "frame": "transport_logistics",
+      "matched": "логистика",
+      "context": "а программа, направленная на развитие и поддержку женского предпринимательства предоставлен доступ к сервису \"логистика для мсп\" на цифровой платформе мсп.рф сервис \"логистика для мсп\" цифровой платформы мсп.рф введен в эксплуата",
+      "unit_id": "fp_312:profile14",
+      "unit_ids": [
+        "fp_312:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic78",
+      "document_id": "fp_312",
+      "frame": "transport_logistics",
+      "matched": "логистика",
+      "context": "го предпринимательства предоставлен доступ к сервису \"логистика для мсп\" на цифровой платформе мсп.рф сервис \"логистика для мсп\" цифровой платформы мсп.рф введен в эксплуатацию предоставлены кредиты субъектам мсп по льготной став",
+      "unit_id": "fp_312:profile14",
+      "unit_ids": [
+        "fp_312:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_312:kwic1",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": " малого и среднего предпринимательства и гражданам, желающим начать бизнес, предоставлены услуги и сервисы на цифровой платформе мсп.рф количество полученных в рамках цифровой платформы мсп.рф услуг и сервисов за период 2025-203",
+      "unit_id": "fp_312:profile4",
+      "unit_ids": [
+        "fp_312:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic2",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "щим начать бизнес, предоставлены услуги и сервисы на цифровой платформе мсп.рф количество полученных в рамках цифровой платформы мсп.рф услуг и сервисов за период 2025-2030 годов составит более 3,5 млн единиц предоставлен доступ",
+      "unit_id": "fp_312:profile4",
+      "unit_ids": [
+        "fp_312:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic3",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "н доступ к услугам, мерам поддержки и сервисам не менее 5 федеральных органов власти и институтов развития на цифровой платформе мсп.рф, необходимым для создания и развития бизнеса развит функционал цифровой платформы мсп.рф за ",
+      "unit_id": "fp_312:profile5",
+      "unit_ids": [
+        "fp_312:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic4",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "ститутов развития на цифровой платформе мсп.рф, необходимым для создания и развития бизнеса развит функционал цифровой платформы мсп.рф за счет предоставления доступа к услугам, мерам поддержки и сервисам не менее 5 федеральных ",
+      "unit_id": "fp_312:profile5",
+      "unit_ids": [
+        "fp_312:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic5",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифрового",
+      "context": " развития бизнеса обеспечено расширение перечня видов сведений, не менее 2 видов, используемых для наполнения цифрового профиля предпринимателя на цифровой платформе мсп.рф доработан цифровой профиль предпринимателя в части расши",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic6",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "ие перечня видов сведений, не менее 2 видов, используемых для наполнения цифрового профиля предпринимателя на цифровой платформе мсп.рф доработан цифровой профиль предпринимателя в части расширения перечня видов сведений, а такж",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic7",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "2 видов, используемых для наполнения цифрового профиля предпринимателя на цифровой платформе мсп.рф доработан цифровой профиль предпринимателя в части расширения перечня видов сведений, а также развит проактивный подбор услуг, с",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic8",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "части расширения перечня видов сведений, а также развит проактивный подбор услуг, сервисов и мер поддержки на цифровой платформе мсп.рф субъектам малого и среднего предпринимательства обеспечен льготный доступ к производственным",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic9",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "бъектам мсп и гражданам, желающим вести бизнес предоставлен доступ к сервису \"электронный документооборот\" на цифровой платформе мсп.рф сервис \"электронный документооборот\" цифровой платформы мсп.рф введен в эксплуатацию обеспеч",
+      "unit_id": "fp_312:profile9",
+      "unit_ids": [
+        "fp_312:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic10",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "туп к сервису \"электронный документооборот\" на цифровой платформе мсп.рф сервис \"электронный документооборот\" цифровой платформы мсп.рф введен в эксплуатацию обеспечена деятельность и содержание акционерного общества \"федеральна",
+      "unit_id": "fp_312:profile9",
+      "unit_ids": [
+        "fp_312:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[6]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic11",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "лючая финансово-гарантийную поддержку субъектов мсп предоставлен доступ к сервису \"электронная отчетность\" на цифровой платформе мсп.рф создан сервис \"электронная отчетность\" на цифровой платформе мсп.рф увеличен объем внебюджет",
+      "unit_id": "fp_312:profile11",
+      "unit_ids": [
+        "fp_312:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic12",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "туп к сервису \"электронная отчетность\" на цифровой платформе мсп.рф создан сервис \"электронная отчетность\" на цифровой платформе мсп.рф увеличен объем внебюджетных инвестиций в основной капитал субъектов мсп, получивших доступ к",
+      "unit_id": "fp_312:profile11",
+      "unit_ids": [
+        "fp_312:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic13",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "ная на развитие и поддержку женского предпринимательства предоставлен доступ к сервису \"логистика для мсп\" на цифровой платформе мсп.рф сервис \"логистика для мсп\" цифровой платформы мсп.рф введен в эксплуатацию предоставлены кре",
+      "unit_id": "fp_312:profile14",
+      "unit_ids": [
+        "fp_312:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic14",
+      "document_id": "fp_312",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "тва предоставлен доступ к сервису \"логистика для мсп\" на цифровой платформе мсп.рф сервис \"логистика для мсп\" цифровой платформы мсп.рф введен в эксплуатацию предоставлены кредиты субъектам мсп по льготной ставке в рамках програ",
+      "unit_id": "fp_312:profile14",
+      "unit_ids": [
+        "fp_312:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic15",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "мсп в приоритетных отраслях обеспечение реального роста дохода на одного работника субъекта малого и среднего предпринимательства в 1,2 раз выше, чем рост валового внутреннего продукта за счет расширения доступа к финансовым ресурсам субъе",
+      "unit_id": "fp_312:profile3",
+      "unit_ids": [
+        "fp_312:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic16",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ния охвата субъектов мсп услугами и мерами инфраструктуры поддержки субъектов мсп субъектам малого и среднего предпринимательства и гражданам, желающим начать бизнес, предоставлены услуги и сервисы на цифровой платформе мсп.рф количество п",
+      "unit_id": "fp_312:profile4",
+      "unit_ids": [
+        "fp_312:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic17",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "труктуры поддержки субъектов мсп субъектам малого и среднего предпринимательства и гражданам, желающим начать бизнес, предоставлены услуги и сервисы на цифровой платформе мсп.рф количество полученных в рамках цифровой платформ",
+      "unit_id": "fp_312:profile4",
+      "unit_ids": [
+        "fp_312:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic18",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "альных органов власти и институтов развития на цифровой платформе мсп.рф, необходимым для создания и развития бизнеса развит функционал цифровой платформы мсп.рф за счет предоставления доступа к услугам, мерам поддержки и серви",
+      "unit_id": "fp_312:profile5",
+      "unit_ids": [
+        "fp_312:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic19",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "и и сервисам не менее 5 федеральных органов власти и институтов развития, необходимым для создания и развития бизнеса обеспечено расширение перечня видов сведений, не менее 2 видов, используемых для наполнения цифрового профиля",
+      "unit_id": "fp_312:profile5",
+      "unit_ids": [
+        "fp_312:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic20",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателя",
+      "context": "обеспечено расширение перечня видов сведений, не менее 2 видов, используемых для наполнения цифрового профиля предпринимателя на цифровой платформе мсп.рф доработан цифровой профиль предпринимателя в части расширения перечня видов свед",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic21",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателя",
+      "context": "емых для наполнения цифрового профиля предпринимателя на цифровой платформе мсп.рф доработан цифровой профиль предпринимателя в части расширения перечня видов сведений, а также развит проактивный подбор услуг, сервисов и мер поддержки ",
+      "unit_id": "fp_312:profile6",
+      "unit_ids": [
+        "fp_312:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic22",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "т проактивный подбор услуг, сервисов и мер поддержки на цифровой платформе мсп.рф субъектам малого и среднего предпринимательства обеспечен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агро",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic23",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "производственным",
+      "context": "ржки на цифровой платформе мсп.рф субъектам малого и среднего предпринимательства обеспечен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарк",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic24",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "еднего предпринимательства обеспечен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков в целях создания (разв",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic25",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "оступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков в целях создания (развития) производственных и инновационных ко",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic26",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "щадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков в целях создания (развития) производственных и инновационных компаний к концу 2030 года количеств",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic27",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "производственных",
+      "context": "ов, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков в целях создания (развития) производственных и инновационных компаний к концу 2030 года количество субъектов мсп - резидентов, которым предоставлен льготн",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic28",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "производственным",
+      "context": "нных компаний к концу 2030 года количество субъектов мсп - резидентов, которым предоставлен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарк",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic29",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "п - резидентов, которым предоставлен льготный доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков, составит не менее 2 т",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic30",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "оступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков, составит не менее 2 тыс. единиц субъектам малого и среднего пр",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic31",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "щадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков, составит не менее 2 тыс. единиц субъектам малого и среднего предпринимательства и гражданам, жел",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic32",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ес-парков, технопарков, промышленных технопарков, составит не менее 2 тыс. единиц субъектам малого и среднего предпринимательства и гражданам, желающим вести бизнес, обеспечено оказание услуг и мер поддержки организациями инфраструктуры по",
+      "unit_id": "fp_312:profile8",
+      "unit_ids": [
+        "fp_312:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic33",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": ", составит не менее 2 тыс. единиц субъектам малого и среднего предпринимательства и гражданам, желающим вести бизнес, обеспечено оказание услуг и мер поддержки организациями инфраструктуры поддержки малого и среднего предприни",
+      "unit_id": "fp_312:profile8",
+      "unit_ids": [
+        "fp_312:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic34",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ти бизнес, обеспечено оказание услуг и мер поддержки организациями инфраструктуры поддержки малого и среднего предпринимательства инфраструктурой поддержки малого и среднего предпринимательства ежегодно предоставляются услуги и меры поддер",
+      "unit_id": "fp_312:profile8",
+      "unit_ids": [
+        "fp_312:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic35",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ми инфраструктуры поддержки малого и среднего предпринимательства инфраструктурой поддержки малого и среднего предпринимательства ежегодно предоставляются услуги и меры поддержки субъектам мсп и гражданам, желающим вести бизнес предоставле",
+      "unit_id": "fp_312:profile8",
+      "unit_ids": [
+        "fp_312:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic36",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "редпринимательства ежегодно предоставляются услуги и меры поддержки субъектам мсп и гражданам, желающим вести бизнес предоставлен доступ к сервису \"электронный документооборот\" на цифровой платформе мсп.рф сервис \"электронный ",
+      "unit_id": "fp_312:profile8",
+      "unit_ids": [
+        "fp_312:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic37",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "спечена деятельность и содержание акционерного общества \"федеральная корпорация по развитию малого и среднего предпринимательства\" в целях осуществления задач и реализации функций в рамках федерального закона № 209-фз \"о развитии малого и ",
+      "unit_id": "fp_312:profile10",
+      "unit_ids": [
+        "fp_312:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic38",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": " осуществления задач и реализации функций в рамках федерального закона № 209-фз \"о развитии малого и среднего предпринимательства российской федерации\", национального/федерального проекта финансирование затрат акционерного общества \"федера",
+      "unit_id": "fp_312:profile10",
+      "unit_ids": [
+        "fp_312:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic39",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ого проекта финансирование затрат акционерного общества \"федеральная корпорация по развитию малого и среднего предпринимательства\", связанных с обеспечением деятельности (фонд оплаты труда, налоги иные обязательные платежи, расходы на соде",
+      "unit_id": "fp_312:profile10",
+      "unit_ids": [
+        "fp_312:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic40",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ществлением функций, предусмотренным федеральным законом от 24.07.2007 № 209-фз \"о развитии малого и среднего предпринимательства в российской федерации\", достижением целей национального / федерального проекта, включая финансово-гарантийну",
+      "unit_id": "fp_312:profile10",
+      "unit_ids": [
+        "fp_312:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic41",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "тформе мсп.рф создан сервис \"электронная отчетность\" на цифровой платформе мсп.рф увеличен объем внебюджетных инвестиций в основной капитал субъектов мсп, получивших доступ к производственным площадям и помещениям индустриальных (",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic42",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "производственным",
+      "context": "платформе мсп.рф увеличен объем внебюджетных инвестиций в основной капитал субъектов мсп, получивших доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарк",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic43",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": " в основной капитал субъектов мсп, получивших доступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков объем внебюджетных инв",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic44",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "оступ к производственным площадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков объем внебюджетных инвестиций в основной капитал, вложенных суб",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic45",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "щадям и помещениям индустриальных (промышленных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков объем внебюджетных инвестиций в основной капитал, вложенных субъектами малого и среднего предприн",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic46",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ных) парков, агропромышленных парков, бизнес-парков, технопарков, промышленных технопарков объем внебюджетных инвестиций в основной капитал, вложенных субъектами малого и среднего предпринимательства - резидентами промышленных пар",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic47",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ышленных технопарков объем внебюджетных инвестиций в основной капитал, вложенных субъектами малого и среднего предпринимательства - резидентами промышленных парков и технопарков, к 2030 году составит не менее 66 млрд рублей обеспечено пров",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic48",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "етных инвестиций в основной капитал, вложенных субъектами малого и среднего предпринимательства - резидентами промышленных парков и технопарков, к 2030 году составит не менее 66 млрд рублей обеспечено проведение федеральной программ",
+      "unit_id": "fp_312:profile12",
+      "unit_ids": [
+        "fp_312:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic49",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предприниматель",
+      "context": "технопарков, к 2030 году составит не менее 66 млрд рублей обеспечено проведение федеральной программы \"мама - предприниматель\" в субъектах российской федерации проведена программа, направленная на развитие и поддержку женского предприн",
+      "unit_id": "fp_312:profile13",
+      "unit_ids": [
+        "fp_312:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic50",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ниматель\" в субъектах российской федерации проведена программа, направленная на развитие и поддержку женского предпринимательства предоставлен доступ к сервису \"логистика для мсп\" на цифровой платформе мсп.рф сервис \"логистика для мсп\" циф",
+      "unit_id": "fp_312:profile13",
+      "unit_ids": [
+        "fp_312:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic51",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "недополученные доходы по выданным ими кредитам по льготной ставке расширен доступ субъектов малого и среднего предпринимательства к закупкам крупнейших заказчиков объем закупок крупнейших заказчиков у субъектов малого и среднего предприним",
+      "unit_id": "fp_312:profile16",
+      "unit_ids": [
+        "fp_312:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[13]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic52",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "мательства к закупкам крупнейших заказчиков объем закупок крупнейших заказчиков у субъектов малого и среднего предпринимательства за период 2025-2030 годов составит не менее 62,4 трлн рублей обеспечено проведение ао \"корпорация \"мсп\" монит",
+      "unit_id": "fp_312:profile16",
+      "unit_ids": [
+        "fp_312:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[13]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic53",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "ниторинга направлены в адрес минэкономразвития россии, минфин россии, фас россии субъектами малого и среднего предпринимательства размещены ценные бумаги на фондовой бирже и на инвестиционных платформах (количество размещенных субъектами м",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic54",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "и, фас россии субъектами малого и среднего предпринимательства размещены ценные бумаги на фондовой бирже и на инвестиционных платформах (количество размещенных субъектами мсп выпусков ценных бумаг на фондовой бирже и на инвестиционных",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic55",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "инвестиционных платформах (количество размещенных субъектами мсп выпусков ценных бумаг на фондовой бирже и на инвестиционных платформах, по которым в том числе оказана поддержка за счет средств федерального бюджета, ежегодно) компенса",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic56",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "сле оказана поддержка за счет средств федерального бюджета, ежегодно) компенсация субъектам малого и среднего предпринимательства за счет средств федерального бюджета понесенных затрат, связанных с размещением ценных бумаг на фондовой бирж",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic57",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "т средств федерального бюджета понесенных затрат, связанных с размещением ценных бумаг на фондовой бирже и на инвестиционных платформах (компенсация 50% понесенных затрат по договорам об оказании услуг по привлечению/содействию в прив",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic58",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "мах (компенсация 50% понесенных затрат по договорам об оказании услуг по привлечению/содействию в привлечении инвестиций, включая услуги организатора размещения/андеррайтера или инвестиционной платформы, оценщика, аудитора, рейтин",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic59",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционной",
+      "context": "г по привлечению/содействию в привлечении инвестиций, включая услуги организатора размещения/андеррайтера или инвестиционной платформы, оценщика, аудитора, рейтингового агентства) обеспечен объем гарантий и поручительств, предоставлен",
+      "unit_id": "fp_312:profile18",
+      "unit_ids": [
+        "fp_312:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[15]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic60",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "сп\" российским кредитным организациям в целях обеспечения исполнения обязательств субъектов малого и среднего предпринимательства по кредитам в рамках мероприятия (результата) будет обеспечено достижение объема гарантий и поручительств, пр",
+      "unit_id": "fp_312:profile19",
+      "unit_ids": [
+        "fp_312:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[16]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[16]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic61",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "оставленных ао \"корпорация \"мсп\" российским кредитным организациям обеспечено предоставление субъектам малого предпринимательства льготной лизинговой поддержки ао \"мсп лизинг\" за счет применения пониженной ставки объем льготной лизинговой ",
+      "unit_id": "fp_312:profile20",
+      "unit_ids": [
+        "fp_312:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[17]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[17]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic62",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "овой поддержки (сумма льготного лизингового финансирования), предоставленной ао \"мсп лизинг\" субъектам малого предпринимательства за период 2025-2030 годов, составит 18,0 млрд рублей субъектам малого и среднего предпринимательства обеспече",
+      "unit_id": "fp_312:profile20",
+      "unit_ids": [
+        "fp_312:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[17]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[17]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic63",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "м малого предпринимательства за период 2025-2030 годов, составит 18,0 млрд рублей субъектам малого и среднего предпринимательства обеспечен льготный доступ к заемным средствам государственных (муниципальных) микрофинансовых организаций объ",
+      "unit_id": "fp_312:profile21",
+      "unit_ids": [
+        "fp_312:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[18]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[18]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic64",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "нсовой поддержки, предоставленной государственными микрофинансовыми организациями субъектам малого и среднего предпринимательства к концу 2030 года составит не менее 250 000,0 млн рублей субъектами малого и среднего предпринимательства обе",
+      "unit_id": "fp_312:profile21",
+      "unit_ids": [
+        "fp_312:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[18]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[18]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic65",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "его предпринимательства к концу 2030 года составит не менее 250 000,0 млн рублей субъектами малого и среднего предпринимательства обеспечено привлечение финансирования за счет поручительств (независимых гарантий) фондов содействия кредитов",
+      "unit_id": "fp_312:profile22",
+      "unit_ids": [
+        "fp_312:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[19]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[19]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic66",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "арантийных фондов, фондов поручительств) объем финансовых ресурсов, привлеченных субъектами малого и среднего предпринимательства по поручительства (независимые гарантии) фондов содействия кредитованию (гарантийных фондов, фондов поручител",
+      "unit_id": "fp_312:profile22",
+      "unit_ids": [
+        "fp_312:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[19]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[19]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic67",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "сетных\" договоров. нарастающий итог организован и расширен сбыт продукции и услуг субъектов малого и среднего предпринимательства обеспечено ежегодное предоставление услуг и мер поддержки субъектам мсп в целях заключения сделок с торговыми",
+      "unit_id": "fp_312:profile24",
+      "unit_ids": [
+        "fp_312:profile24"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[21]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[21]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic68",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательства",
+      "context": "авит более 3 тыс. единиц прокси-показатель \"темп роста налогов на одного работника субъекта малого и среднего предпринимательства\" доля субъектов мсп, превысивших предельные значения для определения категорий субъектов мсп (микро-, малые, ",
+      "unit_id": "fp_312:profile25",
+      "unit_ids": [
+        "fp_312:profile25"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic69",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": ", средние) уровень удовлетворенности потенциальных и действующих субъектов мсп, осуществляющих деятельность в промышленных (индустриальных) парках, технопарках, бизнес-парках, а также получивших услуги иных организаций инфраструктур",
+      "unit_id": "fp_312:profile27",
+      "unit_ids": [
+        "fp_312:profile27"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic70",
+      "document_id": "fp_312",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "и действующих субъектов мсп, осуществляющих деятельность в промышленных (индустриальных) парках, технопарках, бизнес-парках, а также получивших услуги иных организаций инфраструктуры поддержки субъектов мсп",
+      "unit_id": "fp_312:profile27",
+      "unit_ids": [
+        "fp_312:profile27"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic71",
+      "document_id": "fp_312",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ьства за период 2025-2030 годов составит не менее 62,4 трлн рублей обеспечено проведение ао \"корпорация \"мсп\" мониторинга аффилированности между поставщиками-субъектами мсп и заказчиками, осуществляющими закупки в период 2025-2030 ",
+      "unit_id": "fp_312:profile17",
+      "unit_ids": [
+        "fp_312:profile17"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[14]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[14]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic72",
+      "document_id": "fp_312",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": " мсп и заказчиками, осуществляющими закупки в период 2025-2030 гг. ао \"корпорация \"мсп\" обеспечено проведение мониторинга аффилированности между поставщиками-субъектами мсп и заказчиками, осуществляющими закупки в рамках федерально",
+      "unit_id": "fp_312:profile17",
+      "unit_ids": [
+        "fp_312:profile17"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[14]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[14]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic73",
+      "document_id": "fp_312",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ках товаров, работ, услуг отдельными видами юридических лиц\", не реже 4 раз в год (ежеквартально), результаты мониторинга направлены в адрес минэкономразвития россии, минфин россии, фас россии субъектами малого и среднего предприни",
+      "unit_id": "fp_312:profile17",
+      "unit_ids": [
+        "fp_312:profile17"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[14]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[14]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic74",
+      "document_id": "fp_312",
+      "frame": "income_support",
+      "matched": "дохода",
+      "context": "в мсп расширен доступ к финансовым ресурсам субъектов мсп в приоритетных отраслях обеспечение реального роста дохода на одного работника субъекта малого и среднего предпринимательства в 1,2 раз выше, чем рост валового внутренн",
+      "unit_id": "fp_312:profile3",
+      "unit_ids": [
+        "fp_312:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic75",
+      "document_id": "fp_312",
+      "frame": "income_support",
+      "matched": "доходы",
+      "context": "отного кредитования кредитным организациям и специализированным финансовым обществам возмещены недополученные доходы по выданным ими кредитам по льготной ставке расширен доступ субъектов малого и среднего предпринимательства к",
+      "unit_id": "fp_312:profile15",
+      "unit_ids": [
+        "fp_312:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[12]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic76",
+      "document_id": "fp_312",
+      "frame": "science_innovation",
+      "matched": "инновационных",
+      "context": "х парков, бизнес-парков, технопарков, промышленных технопарков в целях создания (развития) производственных и инновационных компаний к концу 2030 года количество субъектов мсп - резидентов, которым предоставлен льготный доступ к прои",
+      "unit_id": "fp_312:profile7",
+      "unit_ids": [
+        "fp_312:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic77",
+      "document_id": "fp_312",
+      "frame": "transport_logistics",
+      "matched": "логистика",
+      "context": "а программа, направленная на развитие и поддержку женского предпринимательства предоставлен доступ к сервису \"логистика для мсп\" на цифровой платформе мсп.рф сервис \"логистика для мсп\" цифровой платформы мсп.рф введен в эксплуата",
+      "unit_id": "fp_312:profile14",
+      "unit_ids": [
+        "fp_312:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_312:kwic78",
+      "document_id": "fp_312",
+      "frame": "transport_logistics",
+      "matched": "логистика",
+      "context": "го предпринимательства предоставлен доступ к сервису \"логистика для мсп\" на цифровой платформе мсп.рф сервис \"логистика для мсп\" цифровой платформы мсп.рф введен в эксплуатацию предоставлены кредиты субъектам мсп по льготной став",
+      "unit_id": "fp_312:profile14",
+      "unit_ids": [
+        "fp_312:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "source_url": "https://databudget.ru/projects/fp/312",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/312",
+  "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6"
+}

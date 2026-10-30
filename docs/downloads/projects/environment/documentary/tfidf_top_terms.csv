@@ -1,0 +1,241 @@
+﻿document_id,rank,term,weight,origin
+project,1,окружающей,0.11293970937244799,independently_recomputed
+project,2,отходов,0.0958945078222451,independently_recomputed
+project,3,накопленного,0.08001059814457318,independently_recomputed
+project,4,вреда,0.08001059814457318,independently_recomputed
+project,5,природной,0.07953926479290065,independently_recomputed
+project,6,окружающей среды,0.07938207907970266,independently_recomputed
+project,7,объектов,0.07935923971620332,independently_recomputed
+project,8,накопленного вреда,0.07555772070341381,independently_recomputed
+project,9,окружающую среду,0.07497845051350112,independently_recomputed
+project,10,окружающую,0.07497845051350112,independently_recomputed
+project,11,опасных,0.07436392803248791,independently_recomputed
+project,12,вреда окружающей,0.07415568410704265,independently_recomputed
+project,13,окружающей среде,0.07415568410704265,independently_recomputed
+project,14,среду,0.07193956438083973,independently_recomputed
+project,15,экологического,0.07142963592350893,independently_recomputed
+project,16,среде,0.07022409731520016,independently_recomputed
+project,17,территории,0.06828472162100717,independently_recomputed
+project,18,водных объектов,0.06624804741878867,independently_recomputed
+project,19,природных,0.06601967060012319,independently_recomputed
+project,20,вод,0.06456559520929822,independently_recomputed
+project,21,загрязняющих,0.06398549590392026,independently_recomputed
+project,22,загрязняющих веществ,0.06398549590392026,independently_recomputed
+project,23,водных,0.06343517636133789,independently_recomputed
+project,24,объектов накопленного,0.06318168065664122,independently_recomputed
+project,25,веществ,0.061441932076611395,independently_recomputed
+project,26,воздействие,0.060233563382603515,independently_recomputed
+project,27,сточных вод,0.05976220922091521,independently_recomputed
+project,28,сточных,0.05976220922091521,independently_recomputed
+project,29,среды,0.05938459524639132,independently_recomputed
+project,30,природной территории,0.05901574016521915,independently_recomputed
+fp_246,1,накопленного вреда,0.11162602479629771,independently_recomputed
+fp_246,2,окружающей среде,0.10708584522169108,independently_recomputed
+fp_246,3,вреда окружающей,0.10708584522169108,independently_recomputed
+fp_246,4,вреда,0.10570783511199101,independently_recomputed
+fp_246,5,накопленного,0.10570783511199101,independently_recomputed
+fp_246,6,среде,0.10140836682287868,independently_recomputed
+fp_246,7,окружающей,0.09678395401348104,independently_recomputed
+fp_246,8,объектов накопленного,0.09226204866687379,independently_recomputed
+fp_246,9,ликвидации накопленного,0.09083579929930245,independently_recomputed
+fp_246,10,ликвидации,0.08944998650361663,independently_recomputed
+fp_246,11,бор,0.08490358181301186,independently_recomputed
+fp_246,12,красный,0.08490358181301186,independently_recomputed
+fp_246,13,красный бор,0.08490358181301186,independently_recomputed
+fp_246,14,отходов,0.07799146449323265,independently_recomputed
+fp_246,15,полигоне промышленных,0.07764313439068582,independently_recomputed
+fp_246,16,байкальского,0.07764313439068582,independently_recomputed
+fp_246,17,ликвидации нвос,0.07764313439068582,independently_recomputed
+fp_246,18,полигоне,0.07764313439068582,independently_recomputed
+fp_246,19,промышленных отходов,0.07764313439068582,independently_recomputed
+fp_246,20,проекты ликвидации,0.07764313439068582,independently_recomputed
+fp_246,21,нвос,0.07122090725854067,independently_recomputed
+fp_246,22,разработаны проекты,0.07122090725854067,independently_recomputed
+fp_246,23,ликвидации объектов,0.0682827896750062,independently_recomputed
+fp_246,24,комсомольского сернокислотного,0.0682827896750062,independently_recomputed
+fp_246,25,защитного сооружения,0.0682827896750062,independently_recomputed
+fp_246,26,защитного,0.0682827896750062,independently_recomputed
+fp_246,27,затонувшего,0.0682827896750062,independently_recomputed
+fp_246,28,затонувшего имущества,0.0682827896750062,independently_recomputed
+fp_246,29,завесы,0.0682827896750062,independently_recomputed
+fp_246,30,комсомольского,0.0682827896750062,independently_recomputed
+fp_247,1,лесных,0.10756523498948867,independently_recomputed
+fp_247,2,лесов,0.10664378807955067,independently_recomputed
+fp_247,3,лесного,0.10024406242666416,independently_recomputed
+fp_247,4,воспроизводства,0.08029120132109803,independently_recomputed
+fp_247,5,лесовосстановления,0.0750476203525101,independently_recomputed
+fp_247,6,воспроизводства лесов,0.0750476203525101,independently_recomputed
+fp_247,7,пожаров,0.0750476203525101,independently_recomputed
+fp_247,8,площади,0.07491246231945564,independently_recomputed
+fp_247,9,лесными,0.07481859191255164,independently_recomputed
+fp_247,10,пород,0.07481859191255164,independently_recomputed
+fp_247,11,лесных пожаров,0.07481859191255164,independently_recomputed
+fp_247,12,лесных насаждений,0.0686299959118816,independently_recomputed
+fp_247,13,техникой,0.0686299959118816,independently_recomputed
+fp_247,14,леса,0.0686299959118816,independently_recomputed
+fp_247,15,базы генетических,0.06579876270370848,independently_recomputed
+fp_247,16,воспроизводству,0.06579876270370848,independently_recomputed
+fp_247,17,лесообразующих пород,0.06579876270370848,independently_recomputed
+fp_247,18,лесообразующих,0.06579876270370848,independently_recomputed
+fp_247,19,лесного фонда,0.06579876270370848,independently_recomputed
+fp_247,20,травянистой,0.06579876270370848,independently_recomputed
+fp_247,21,воспроизводству лесов,0.06579876270370848,independently_recomputed
+fp_247,22,семян,0.06579876270370848,independently_recomputed
+fp_247,23,референсной,0.06579876270370848,independently_recomputed
+fp_247,24,референсной базы,0.06579876270370848,independently_recomputed
+fp_247,25,основных лесообразующих,0.06579876270370848,independently_recomputed
+fp_247,26,приобретается,0.06579876270370848,independently_recomputed
+fp_247,27,техникой оборудованием,0.06579876270370848,independently_recomputed
+fp_247,28,древесно-кустарниковой,0.06579876270370848,independently_recomputed
+fp_247,29,данных основных,0.06579876270370848,independently_recomputed
+fp_247,30,воспроизводстве,0.06579876270370848,independently_recomputed
+fp_250,1,воздух,0.08696964650796568,independently_recomputed
+fp_250,2,атмосферный,0.08318057633191418,independently_recomputed
+fp_250,3,атмосферный воздух,0.08318057633191418,independently_recomputed
+fp_250,4,веществ атмосферный,0.08023638627710308,independently_recomputed
+fp_250,5,загрязняющих веществ,0.07744733581103158,independently_recomputed
+fp_250,6,загрязняющих,0.07744733581103158,independently_recomputed
+fp_250,7,выбросов,0.07701263740491564,independently_recomputed
+fp_250,8,атмосферного,0.07499503474656911,independently_recomputed
+fp_250,9,воздуха,0.07499503474656911,independently_recomputed
+fp_250,10,атмосферного воздуха,0.07499503474656911,independently_recomputed
+fp_250,11,веществ,0.0714748227109315,independently_recomputed
+fp_250,12,опасных загрязняющих,0.06872217478958902,independently_recomputed
+fp_250,13,снижению выбросов,0.06789760058056138,independently_recomputed
+fp_250,14,выбросов загрязняющих,0.06789760058056138,independently_recomputed
+fp_250,15,выбросов опасных,0.0667945336147197,independently_recomputed
+fp_250,16,опасных,0.06597260689745996,independently_recomputed
+fp_250,17,эксперимента квотированию,0.06495341052575028,independently_recomputed
+fp_250,18,состояния окружающей,0.06495341052575028,independently_recomputed
+fp_250,19,квотированию,0.06495341052575028,independently_recomputed
+fp_250,20,фгис состояния,0.0615545925431807,independently_recomputed
+fp_250,21,квотированию выбросов,0.0615545925431807,independently_recomputed
+fp_250,22,загрязнения атмосферного,0.0615545925431807,independently_recomputed
+fp_250,23,окружающей среды,0.06098631890455863,independently_recomputed
+fp_250,24,эксперимента,0.05958080986147471,independently_recomputed
+fp_250,25,окружающей,0.058514535645077206,independently_recomputed
+fp_250,26,планов снижению,0.05753464409705135,independently_recomputed
+fp_250,27,загрязнением атмосферного,0.05753464409705135,independently_recomputed
+fp_250,28,загрязнением,0.05753464409705135,independently_recomputed
+fp_250,29,городах-участниках,0.056463124025825526,independently_recomputed
+fp_250,30,загрязнения,0.056463124025825526,independently_recomputed
+fp_251,1,сточных,0.10543549041525728,independently_recomputed
+fp_251,2,сточных вод,0.10543549041525728,independently_recomputed
+fp_251,3,водных объектов,0.1041380751653874,independently_recomputed
+fp_251,4,водных,0.10088195302459817,independently_recomputed
+fp_251,5,вод,0.09868983281811122,independently_recomputed
+fp_251,6,водохранилищ,0.09081871057339147,independently_recomputed
+fp_251,7,сооружения,0.08342503448918474,independently_recomputed
+fp_251,8,очистки,0.08330666985365412,independently_recomputed
+fp_251,9,водотоков,0.08305243665418562,independently_recomputed
+fp_251,10,водотоков водоемов,0.08305243665418562,independently_recomputed
+fp_251,11,очистки сточных,0.08305243665418562,independently_recomputed
+fp_251,12,очистные,0.08305243665418562,independently_recomputed
+fp_251,13,водоемов,0.08305243665418562,independently_recomputed
+fp_251,14,экологического состояния,0.08305243665418562,independently_recomputed
+fp_251,15,негативного воздействия,0.07797679214190859,independently_recomputed
+fp_251,16,негативного,0.07797679214190859,independently_recomputed
+fp_251,17,вблизи водных,0.07618278080815291,independently_recomputed
+fp_251,18,вблизи,0.07618278080815291,independently_recomputed
+fp_251,19,воздействия,0.0738426178065624,independently_recomputed
+fp_251,20,этапу,0.07303996816407297,independently_recomputed
+fp_251,21,комплексного плана,0.07303996816407297,independently_recomputed
+fp_251,22,очистные сооружения,0.07303996816407297,independently_recomputed
+fp_251,23,гидрографической сети,0.07303996816407297,independently_recomputed
+fp_251,24,гидрографической,0.07303996816407297,independently_recomputed
+fp_251,25,улучшено экологическое,0.07303996816407297,independently_recomputed
+fp_251,26,проживания вблизи,0.07303996816407297,independently_recomputed
+fp_251,27,экологическое состояние,0.07303996816407297,independently_recomputed
+fp_251,28,разработке комплексного,0.07303996816407297,independently_recomputed
+fp_251,29,сети водотоков,0.07303996816407297,independently_recomputed
+fp_251,30,плана оздоровления,0.07303996816407297,independently_recomputed
+fp_255,1,отходами,0.08377176458160122,independently_recomputed
+fp_255,2,отходов,0.08257481886868497,independently_recomputed
+fp_255,3,твердых,0.07546595430131914,independently_recomputed
+fp_255,4,коммунальными отходами,0.07475028867844491,independently_recomputed
+fp_255,5,твердыми,0.07475028867844491,independently_recomputed
+fp_255,6,твердыми коммунальными,0.07475028867844491,independently_recomputed
+fp_255,7,коммунальными,0.07475028867844491,independently_recomputed
+fp_255,8,коммунальных отходов,0.0747357430078757,independently_recomputed
+fp_255,9,твердых коммунальных,0.0747357430078757,independently_recomputed
+fp_255,10,вторичных,0.07317931023474486,independently_recomputed
+fp_255,11,вторичных ресурсов,0.07147443102707383,independently_recomputed
+fp_255,12,вторичного,0.07096411326229646,independently_recomputed
+fp_255,13,вторичного сырья,0.07096411326229646,independently_recomputed
+fp_255,14,ресурсов вторичного,0.0679580693031379,independently_recomputed
+fp_255,15,обращения твердыми,0.0679580693031379,independently_recomputed
+fp_255,16,вторичными,0.0679580693031379,independently_recomputed
+fp_255,17,ресурсами вторичным,0.06626128778734539,independently_recomputed
+fp_255,18,вторичными ресурсами,0.06626128778734539,independently_recomputed
+fp_255,19,вторичным сырьем,0.06626128778734539,independently_recomputed
+fp_255,20,вторичным,0.06626128778734539,independently_recomputed
+fp_255,21,замкнутого цикла,0.06440267392610155,independently_recomputed
+fp_255,22,замкнутого,0.06440267392610155,independently_recomputed
+fp_255,23,сырья,0.0641804721298753,independently_recomputed
+fp_255,24,обращения,0.0633048915730938,independently_recomputed
+fp_255,25,коммунальных,0.06321505304020068,independently_recomputed
+fp_255,26,ресурсами,0.060780506471929875,independently_recomputed
+fp_255,27,сырьем,0.060780506471929875,independently_recomputed
+fp_255,28,утилизации,0.060780506471929875,independently_recomputed
+fp_255,29,обращения вторичными,0.06005122166390626,independently_recomputed
+fp_255,30,тко,0.05744726794403435,independently_recomputed
+fp_256,1,природных,0.1031032574320263,independently_recomputed
+fp_256,2,охраняемых природных,0.10205846000629143,independently_recomputed
+fp_256,3,охраняемых,0.10205846000629143,independently_recomputed
+fp_256,4,особо охраняемых,0.0988025463293608,independently_recomputed
+fp_256,5,особо,0.09552886144907884,independently_recomputed
+fp_256,6,животных,0.09516274450882424,independently_recomputed
+fp_256,7,оопт,0.09405211147229799,independently_recomputed
+fp_256,8,природных территориях,0.08790984614736677,independently_recomputed
+fp_256,9,природных территорий,0.08063841122216814,independently_recomputed
+fp_256,10,природных комплексов,0.08039232094727078,independently_recomputed
+fp_256,11,редких,0.08039232094727078,independently_recomputed
+fp_256,12,восстановлению,0.07374269572470095,independently_recomputed
+fp_256,13,конфискованных диких,0.07070054533226834,independently_recomputed
+fp_256,14,конфискованных,0.07070054533226834,independently_recomputed
+fp_256,15,оопт значения,0.07070054533226834,independently_recomputed
+fp_256,16,мероприятия сохранению,0.07070054533226834,independently_recomputed
+fp_256,17,травмированных,0.07070054533226834,independently_recomputed
+fp_256,18,территориях значения,0.07070054533226834,independently_recomputed
+fp_256,19,диких,0.07070054533226834,independently_recomputed
+fp_256,20,диких животных,0.07070054533226834,independently_recomputed
+fp_256,21,реабилитации травмированных,0.07070054533226834,independently_recomputed
+fp_256,22,травмированных конфискованных,0.07070054533226834,independently_recomputed
+fp_256,23,популяций,0.07070054533226834,independently_recomputed
+fp_256,24,природных пожаров,0.07070054533226834,independently_recomputed
+fp_256,25,комплексов объектов,0.0648525722429076,independently_recomputed
+fp_256,26,пожаров,0.0648525722429076,independently_recomputed
+fp_256,27,экологических,0.0648525722429076,independently_recomputed
+fp_256,28,видов животных,0.0648525722429076,independently_recomputed
+fp_256,29,сохранению,0.06237508632346245,independently_recomputed
+fp_256,30,экологического,0.05984701614391405,independently_recomputed
+np_25,1,отходов,0.14996647081752784,independently_recomputed
+np_25,2,опасных,0.11621072808990635,independently_recomputed
+np_25,3,твердых,0.10918647061386762,independently_recomputed
+np_25,4,коммунальных отходов,0.10918647061386762,independently_recomputed
+np_25,5,твердых коммунальных,0.10918647061386762,independently_recomputed
+np_25,6,окружающей,0.1007590638818456,independently_recomputed
+np_25,7,негативное,0.09678234447915131,independently_recomputed
+np_25,8,воздействие,0.09678234447915131,independently_recomputed
+np_25,9,негативное воздействие,0.09678234447915131,independently_recomputed
+np_25,10,окружающую среду,0.0923551202321036,independently_recomputed
+np_25,11,окружающую,0.0923551202321036,independently_recomputed
+np_25,12,площади,0.0923551202321036,independently_recomputed
+np_25,13,коммунальных,0.0923551202321036,independently_recomputed
+np_25,14,среду,0.08861195546634096,independently_recomputed
+np_25,15,сточных вод,0.08809095699734454,independently_recomputed
+np_25,16,неочищенных,0.08809095699734454,independently_recomputed
+np_25,17,сбрасываемых,0.08809095699734454,independently_recomputed
+np_25,18,водные,0.08809095699734454,independently_recomputed
+np_25,19,сточных,0.08809095699734454,independently_recomputed
+np_25,20,опасных загрязняющих,0.08809095699734454,independently_recomputed
+np_25,21,водные объекты,0.08809095699734454,independently_recomputed
+np_25,22,неочищенных сточных,0.08809095699734454,independently_recomputed
+np_25,23,вод сбрасываемых,0.08809095699734454,independently_recomputed
+np_25,24,отходов отраслях,0.08809095699734454,independently_recomputed
+np_25,25,объектов накопленного,0.08245498536228481,independently_recomputed
+np_25,26,загрязняющих веществ,0.08245498536228481,independently_recomputed
+np_25,27,сохранены,0.08245498536228481,independently_recomputed
+np_25,28,загрязняющих,0.08245498536228481,independently_recomputed
+np_25,29,вод,0.08245498536228481,independently_recomputed
+np_25,30,водных объектов,0.08245498536228481,independently_recomputed

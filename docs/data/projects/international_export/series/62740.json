@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "project_id": "international_export",
+  "source_id": "62740",
+  "title": "Минимальная годовая средняя эффективность мер поддержки по федеральному проекту \"Экспорт продукции АПК\"",
+  "unit": "единица",
+  "source_url": "https://www.fedstat.ru/indicator/62740",
+  "published_at": "2026-10-15T19:25:09+00:00",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": "b1d7ac0e5ec16648fe97a372eb1021adf76b580f233f9a47f4f01557e8f074b0",
+  "origin_kind": "live_emiss",
+  "semantic_note": "Годовая расчётная эффективность мер поддержки. Отношение экспорта и бюджетной поддержки не является оценкой причинной отдачи расходов; согласуются период, валюта числителя и рублёвая единица знаменателя.",
+  "observations": [
+    {
+      "id": "34f0a5a56e7b7d8866d232e93fb8627d3e4f782f92fc1604dcdb1b7dee47ce20",
+      "source_id": "62740",
+      "source_observation_key": "cbc27a164c1d42c0573541f75a8c868dc355d804ca4a9e840c6ab8da60778c61",
+      "indicator_code": "2.14.М4.2",
+      "catalog_indicator_code": "2.14.М4.2",
+      "name": "Российская Федерация",
+      "code": null,
+      "map_id": null,
+      "geo_level": "national",
+      "fd": null,
+      "territory_code_source": "",
+      "period": "2025",
+      "year": 2025,
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "frequency": "annual",
+      "source_frequency": "annual",
+      "source_period_start": "2025-01-01",
+      "source_period_end": "2025-12-31",
+      "source_period_label": "значение показателя за год",
+      "period_semantics": "support_formula_ratio",
+      "value": 15.41,
+      "raw": "15.41",
+      "unit": "единица",
+      "category": {},
+      "quality_flags": [
+        {
+          "code": "support_formula_ratio",
+          "exclude_from_analysis": false,
+          "message": "Годовая расчётная эффективность мер поддержки. Отношение экспорта и бюджетной поддержки не является оценкой причинной отдачи расходов; согласуются период, валюта числителя и рублёвая единица знаменателя."
+        }
+      ],
+      "excluded": false,
+      "analytical_value": 15.41,
+      "status": "ok",
+      "annual_comparison_eligible": true,
+      "annual_equivalent_eligible": false,
+      "geographic_comparison_eligible": false,
+      "methodology_version": "not_determined_for_individual_historical_cell",
+      "acquired_at": "2026-10-15T19:25:09+00:00",
+      "snapshot_id": "b1d7ac0e5ec16648fe97a372eb1021adf76b580f233f9a47f4f01557e8f074b0",
+      "origin_kind": "live_emiss",
+      "source_url": "https://www.fedstat.ru/indicator/62740",
+      "source_cell_attributes": {
+        "source_cell": "R5C3",
+        "source_format": "official_excel",
+        "source_sheet": "Данные"
+      }
+    }
+  ]
+}

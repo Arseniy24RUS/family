@@ -1,5 +1,6 @@
 import { h, svg, fmt, bindTip, button, codeRegion } from '../core/dom.js';
-import { base, ramp, extent, panZoom } from './charts.js';
+import { base, extent, panZoom } from './charts.js';
+import { ramp, labelColor } from '../platform/theme.js';
 export function mapView(geo, regions, values, { unit = '', selected = null, onSelect = null, tile = false, title = 'Региональная картограмма', categorical = null, domain = null } = {}) {
     const W = 1050, H = 580, root = base(W, H, title), group = svg('g', {});
     root.append(svg('defs', {}, svg('pattern', { id: 'missing', patternUnits: 'userSpaceOnUse', width: 8, height: 8 }, svg('rect', { width: 8, height: 8, fill: '#F4F6FA' }), svg('path', { d: 'M-2,2L2,-2M0,8L8,0M6,10L10,6', stroke: '#D9DEE8', 'stroke-width': 1.1 }))), group);
@@ -12,11 +13,12 @@ export function mapView(geo, regions, values, { unit = '', selected = null, onSe
         const r = regions.find(r => r.id === feature.id), row = values.get(feature.id);
         const v = row?.value;
         const color = categorical ? categorical.color(row) : Number.isFinite(v) ? ramp((v - lo) / (hi - lo || 1)) : 'url(#missing)';
+        const ink=/^#[0-9a-f]{6}$/i.test(color)?labelColor(color):'#0A132D';
         let mark;
         if (tile) {
             mark = svg('g', {});
             const x = tileLeft + (r.tile_x - tx0) * tileSize, y = tileTop + (r.tile_y - ty0) * tileSize;
-            mark.append(svg('rect', { x, y, width: tileSize - 3, height: tileSize - 3, rx: 3, fill: color, stroke: selected === r.id ? '#0A132D' : '#D9DEE8', 'stroke-width': selected === r.id ? 3 : .6 }), svg('text', { x: x + (tileSize - 3) / 2, y: y + tileSize * .38, 'font-size': 10, 'text-anchor': 'middle', fill: !categorical && Number.isFinite(v) && (v - lo) / (hi - lo) > .66 ? 'white' : '#0A132D', 'font-weight': 700 }, r.tile_label), svg('text', { x: x + (tileSize - 3) / 2, y: y + tileSize * .76, 'font-size': 9, 'text-anchor': 'middle', fill: !categorical && Number.isFinite(v) && (v - lo) / (hi - lo) > .66 ? 'white' : '#0A132D' }, categorical ? row?.category || '—' : Number.isFinite(v) ? fmt(v, 1) : '—'));
+            mark.append(svg('rect', { x, y, width: tileSize - 3, height: tileSize - 3, rx: 3, fill: color, stroke: selected === r.id ? '#0A132D' : '#D9DEE8', 'stroke-width': selected === r.id ? 3 : .6 }), svg('text', { x: x + (tileSize - 3) / 2, y: y + tileSize * .38, 'font-size': 10, 'text-anchor': 'middle', fill: ink, 'font-weight': 700 }, r.tile_label), svg('text', { x: x + (tileSize - 3) / 2, y: y + tileSize * .76, 'font-size': 9, 'text-anchor': 'middle', fill: ink }, categorical ? row?.category || '—' : Number.isFinite(v) ? fmt(v, 1) : '—'));
         }
         else
             mark = svg('path', { d: feature.path, fill: color, 'fill-rule': 'evenodd', stroke: selected === r.id ? '#0A132D' : '#D9DEE8', 'stroke-width': selected === r.id ? 2.5 : .6, 'vector-effect': 'non-scaling-stroke' });

@@ -1,0 +1,66 @@
+{
+  "retrieved_at": "2026-10-28",
+  "font_source": "https://newbrandbook.nationalpriority.ru/newbrandbook/6_%D0%A8%D1%80%D0%B8%D1%84%D1%82%D1%8B/",
+  "license_sources": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/roboto/OFL.txt",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/OFL.txt"
+  ],
+  "processing": "Official TTF retained. WOFF container conversion with fontTools; no glyph changes.",
+  "files": [
+    {
+      "file": "BebasNeue-OFL.txt",
+      "size": 4337,
+      "sha256": "72082f6cb4d04be2ecf7cc7d9e1e7d73787f0af8a5a278a47cade70c16b78341"
+    },
+    {
+      "file": "BebasNeue-Regular.ttf",
+      "size": 57676,
+      "sha256": "830ea186acffc2316ed1a4e42319246ba3b46b04e33a211079249bf901193f04"
+    },
+    {
+      "file": "BebasNeue-Regular.woff",
+      "size": 27392,
+      "sha256": "1244ab3c542568149735ca13fb58626a2410154b88e570f324f0d617ee5aa77d"
+    },
+    {
+      "file": "Roboto-Bold.ttf",
+      "size": 146768,
+      "sha256": "deb990e241954e1af87c6033d40a76cf0f48e0d112541794526051ac4a3ee2c8"
+    },
+    {
+      "file": "Roboto-Bold.woff",
+      "size": 86624,
+      "sha256": "295d271ea1336dd05a5556aa93b946ecfa13eed6fbbf609b0255c53eb85544de"
+    },
+    {
+      "file": "Roboto-OFL.txt",
+      "size": 4394,
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "file": "Roboto-Regular.ttf",
+      "size": 146004,
+      "sha256": "dbd285b518e398832f6f4a736109c355ce25a49546bfce41bab256c9ef7e56eb"
+    },
+    {
+      "file": "Roboto-Regular.woff",
+      "size": 84752,
+      "sha256": "56a5e2c258a56da89569d1c2e21d5ed15dcb32d0ccc5a6b1f2e7ad37a6a4e4c9"
+    },
+    {
+      "file": "Roboto-SemiBold.ttf",
+      "size": 146760,
+      "sha256": "57b40c38d6cc65f07c23ec0319b82904fe65e05dc40b5a13ac60a18fb5943bf1"
+    },
+    {
+      "file": "Roboto-SemiBold.woff",
+      "size": 86568,
+      "sha256": "2bd23ed943a23c76bb495669a50aaafddd509c38bea9a1e91b7944de8b1d6399"
+    },
+    {
+      "file": "validation.json",
+      "size": 600,
+      "sha256": "3ad75cafe732c3e64659f1a894d11c95d46068efc60c3c963edc95c704c2cd52"
+    }
+  ]
+}

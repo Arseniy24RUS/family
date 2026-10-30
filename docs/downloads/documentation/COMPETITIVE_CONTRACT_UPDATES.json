@@ -1,0 +1,23 @@
+{
+  "changes": [
+    {
+      "source_id": "62979",
+      "old_input_sha256": "7e0f74f711587d97321ffaa6a988ccb92f7269e34a4851d012044ad08d05c2b8",
+      "input_sha256": "42c256d98e4fa35c37d3bf1d4ec3a8c5a61cb8cbdc82d7a229f427befbbe4a2d",
+      "reason": "subject-specific scenario and binary-status constraints; retained official evidence and published observation bytes unchanged"
+    },
+    {
+      "source_id": "63089",
+      "old_input_sha256": "6c50cc24331e452d393a7d62944447775eb5edf9927f8ad8d8bff96e634b030f",
+      "input_sha256": "26adb8898b9cf59434c21dcb2d515e66076796f792d1e81ec179dea9f39859fa",
+      "reason": "subject-specific scenario and binary-status constraints; retained official evidence and published observation bytes unchanged"
+    },
+    {
+      "source_id": "63176",
+      "old_input_sha256": "c64dbeac8ae6b8307bea6b31d1c5dc6597f3ef506496b8dd06553e0ed9248095",
+      "input_sha256": "a27761e6803f4e7b8fe9e798289e6088e1277d282188cc5d80a834e09a6b2b5c",
+      "reason": "subject-specific scenario and binary-status constraints; retained official evidence and published observation bytes unchanged"
+    }
+  ],
+  "source_values_changed": false
+}

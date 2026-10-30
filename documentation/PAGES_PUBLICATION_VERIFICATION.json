@@ -1,0 +1,40 @@
+{
+  "schema": "national-projects.pages-build/1",
+  "source": "docs/",
+  "output": "temporary_compact_publication",
+  "copy_mode": "hardlink_unchanged_files",
+  "input_files": 3130,
+  "output_files": 3374,
+  "input_bytes": 1252793765,
+  "output_bytes": 934027240,
+  "limit_bytes": 1000000000,
+  "headroom_bytes": 65972760,
+  "saved_bytes": 318766525,
+  "series_count": 243,
+  "series_original_bytes": 341468282,
+  "series_compressed_bytes": 22528740,
+  "unchanged_files_verified": 2886,
+  "source_files_verified_unchanged": 3130,
+  "gzip_roundtrips_verified": 243,
+  "copied_files": 0,
+  "linked_files": 2886,
+  "excluded_paths": [
+    {
+      "reason": "hidden_or_temporary",
+      "count": 4
+    }
+  ],
+  "checks": {
+    "every_source_unchanged": true,
+    "every_unmodified_output_byte_identical": true,
+    "every_transport_hash_and_roundtrip": true,
+    "every_forwarding_envelope": true,
+    "exact_output_inventory": true,
+    "publication_within_size_limit": true
+  },
+  "transport_manifest": "data/series-transport.json",
+  "transport_manifest_sha256": "e4a54e427c43d12f6a2b01e1c80df20dc882f1c808ca5226487cd73e8fff193c",
+  "original_index_sha256": "90fdc3567025d26ad085d7b084f4c9fd1bb38a52ae0745ec102d8698c29ea74b",
+  "published_index_sha256": "44eba996cb0d1bbb1c6569829afbfea2cea8e951be4004f643d95779b60c2743",
+  "verification_scope": "Snapshot immediately before final documentation synchronization; later changes are documentation and test code only."
+}

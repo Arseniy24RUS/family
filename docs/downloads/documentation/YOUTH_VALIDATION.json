@@ -1,0 +1,173 @@
+{
+  "schema": "national-projects.youth-validation/1",
+  "release": "2.1.0-youth.1",
+  "base_release": "2.0.0-foundation.3",
+  "date": "2026-10-29",
+  "timezone": "Europe/Moscow",
+  "result": "passed_with_documented_external_access_limit",
+  "unit_tests": {
+    "javascript": {
+      "passed": 67,
+      "failed": 0,
+      "skipped": 0,
+      "command": "node --test --test-isolation=none --test-reporter=spec tests/*.test.mjs"
+    },
+    "python": {
+      "passed": 120,
+      "failed": 0,
+      "command": "python3 -m unittest discover -s tests -p 'test_*.py'",
+      "youth_statistical_tests": 27,
+      "youth_documentary_tests": 6
+    }
+  },
+  "browser": {
+    "engine": "Chromium / Playwright",
+    "serving": "Real local HTTP with GitHub Pages /family/ prefix",
+    "passed": 864,
+    "failed": 0,
+    "page_errors": 0,
+    "console_errors": 0,
+    "local_http_errors": 0,
+    "suites": [
+      {
+        "script": "tests/browser_check.py",
+        "checks": 89
+      },
+      {
+        "script": "tests/browser_upgrade.py",
+        "checks": 42
+      },
+      {
+        "script": "tests/browser_redesign.py",
+        "checks": 29
+      },
+      {
+        "script": "tests/browser_live.py",
+        "checks": 424
+      },
+      {
+        "script": "tests/browser_youth.py",
+        "checks": 280
+      }
+    ],
+    "youth_desktop_routes": 21,
+    "youth_mobile_routes": 21,
+    "youth_static_pages": 21,
+    "other_foundation_projects": 9,
+    "youth_viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 740
+      }
+    ],
+    "published_downloads_verified_over_http_before_final_release_documentation": 316,
+    "observed_family_cohort_workers_verified": 85,
+    "verified": [
+      "Project switching and supported page preservation",
+      "Reload and browser back restore filters",
+      "Regional map and tiles, period selection, district filtering and CSV",
+      "Historical rows and missing values",
+      "Finance year and units, source-labelled SVG/PNG/CSV",
+      "Three embedded Roboto WOFF faces in SVG export",
+      "Changing scenario parameters changes calculations",
+      "Laboratory quartile calculation",
+      "Documentary network layers",
+      "Keyword-in-context file is loaded on demand",
+      "Full text corpus is not automatically downloaded",
+      "Mobile menu, focus, inert background and Escape",
+      "All Youth download SHA-256 values"
+    ],
+    "timing_note": "Final release notes and this validation report are added after the browser run. The final offline build validator checks the complete download manifest again.",
+    "not_executed": [
+      "Production GitHub Pages deployment",
+      "Remote GitHub Actions refresh",
+      "Successful live EMISS retrieval from this environment",
+      "Safari and Firefox execution"
+    ]
+  },
+  "preservation": {
+    "files_compared_with_foundation_sha256": 534,
+    "missing": 0,
+    "changed": 0,
+    "scope": "Existing Family baseline/latest/projection data, original page and content files, official brand assets and fonts"
+  },
+  "report": {
+    "source_docx_sha256": "07e3634b09db2ef98ec25bbfcf3282781af6c789a2c6d8796e728417dab53fb2",
+    "rendered_pages": 92,
+    "substantive_blocks": 303,
+    "tables": 12,
+    "figures": 17,
+    "source_notes": 83,
+    "original_formulas": 4,
+    "interactive_routes": 21,
+    "static_pages": 21,
+    "coverage_manifest": "public/downloads/projects/youth_children/report/coverage_manifest.json"
+  },
+  "statistical_validation": {
+    "verified_emiss_sources": 29,
+    "initial_cells": 3596,
+    "numeric_cells": 3414,
+    "missing_cells": 182,
+    "quality_excluded_numeric_cells": 4,
+    "numeric_sources": 10,
+    "metadata_only_sources": 19,
+    "unmapped_registry_indicators": 8,
+    "original_source_packet_sha256": "all_verified",
+    "original_values_and_periods": "preserved_exactly",
+    "annual_target_comparisons": 2,
+    "operational_target_comparisons": 16,
+    "statistical_snapshot": "2026-10-15"
+  },
+  "independent_text_replication": {
+    "profile_hashes_checked": 137,
+    "tfidf_features": 20000,
+    "numeric_comparisons": 1246,
+    "tfidf_max_abs_error": 6.661338147750939e-16,
+    "frame_cells_checked": 432,
+    "frame_max_abs_error": 0,
+    "stemming_comparisons": 10,
+    "stemming_max_abs_error": 9.43689570931383e-16,
+    "passed": true
+  },
+  "refresh_verification": {
+    "last_attempt_utc": "2026-10-28T23:35:48+00:00",
+    "date_moscow": "2026-10-29",
+    "attempted_sources": 3,
+    "successful_sources": 0,
+    "deferred_sources": 26,
+    "collector_result": "DNS resolution failure; circuit breaker retained last validated data",
+    "single_public_card_probe_status": 403,
+    "public_card_probe_timestamp_utc": "2026-10-28T23:50:27+00:00",
+    "published_snapshot_changed": false,
+    "scope_note": "These observations describe access from this environment; they do not establish a global EMISS outage.",
+    "tested_contracts": [
+      "Source identity and unit validation",
+      "Real SDMX response parsing",
+      "All 29 original source hashes and 3596 cells",
+      "Successful revision",
+      "Retention after failure following a successful revision",
+      "Metadata-only response preserves last numeric publication date",
+      "Unknown and future period rejection",
+      "Quality exclusions",
+      "Circuit breaker",
+      "Current raw-response download persists after an outage"
+    ]
+  },
+  "package_validation": {
+    "required": [
+      "ZIP CRC for every member",
+      "SHA-256 for every entry in RELEASE_MANIFEST.json",
+      "One full ZIP, no split parts",
+      "Compressed size below 500000000 bytes"
+    ],
+    "receipt": "DOWNLOAD_MANIFEST.json generated alongside the final archive; RELEASE_MANIFEST.json is included inside it."
+  }
+}

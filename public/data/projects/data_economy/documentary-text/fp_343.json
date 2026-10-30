@@ -1,0 +1,1172 @@
+{
+  "document": {
+    "project_id": "data_economy",
+    "kind": "fp",
+    "id": "fp_343",
+    "url": "https://databudget.ru/projects/fp/343",
+    "sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+    "retrieved_at": "2026-10-19T14:38:54.248999+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/dc/dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11.html",
+    "document_id": "fp_343",
+    "code": "Ц6",
+    "title": "[Ц6] Прикладные исследования и перспективные разработки",
+    "publisher_version": "26.19",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 452,
+    "n_tokens": 452,
+    "source_url": "https://databudget.ru/projects/fp/343",
+    "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+    "profile_text_sha256": "3eb229d454dbf7f8f6e175c199365d307c64a1d9245696c44040280aa5124cf7",
+    "archive_entry": "data_economy/fp_343.html",
+    "bytes": 1179124,
+    "archive_profile_token_count": 452,
+    "archive_profile_text_sha256": "9b45f7dd80139638cefc57d278d3318e86cb852abba27d546e652d7f974c15d5",
+    "download_path": "downloads/projects/data_economy/documentary/sources/fp_343.html",
+    "profile_original_document_id": "html:dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_343:profile1",
+      "document_id": "fp_343",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечены развитие и доступность новых квантовых и телекоммуникационных технологий",
+      "node_id": "fp_343:passport-task-05:3ae369840cddd816",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_343:profile2",
+      "document_id": "fp_343",
+      "project_id": "data_economy",
+      "kind": "goal",
+      "text": "устойчивое технологическое развитие российской федерации в сфере информационных технологий за счет развития и внедрения перспективных квантовых и телекоммуникационных технологий",
+      "node_id": "fp_343:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "n_tokens": 16,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_343:profile3",
+      "document_id": "fp_343",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "разработаны прототипы квантовых процессоров в соответствии с дорожной картой \"квантовые вычисления\" под значениями результата (мероприятия) понимается количество кубитов в прототипе квантового процессора на отчетный год (единица). основным инструментом достижения результата (мероприятия) является дорожная карта развития высокотехнологичной области \"квантовые вычисления\" на период до 2030 г. (далее - \"дорожная карта\"), являющаяся основным механизмом исполнения соглашения о намерениях госкорпорации \"росатом\" с правительством российской федерации в целях развития высокотехнологичного направления \"квантовые вычисления\". в рамках достижения результата (мероприятия) выполняется предусмотренный \"дорожной картой\" комплекс мероприятий, включающий создание прототипов квантовых вычислителей на различных технологических платформах, разработку и реализацию квантовых алгоритмов / приложений с использованием созданных квантовых процессоров, развитие отечественного сервиса расчетов с использованием квантовых вычислителей (облачная платформа для квантовых вычислений), проверку научных гипотез по использованию квантовых вычислений в народном хозяйстве, а также ввод в эксплуатацию квантового вычислителя на одной из технологических платформ для проведения квантовых вычислений на облачной платформе (с характеристикой 50 - 140 кубит). предусмотренные \"дорожной картой\" научно-исследовательские и опытно-конструкторские работы в области развития квантовых вычислений обеспечивают также формирование научно-технологичных заделов (формируется материально-техническая база, создаются экспериментальные образцы и макеты, регистрируются результаты интеллектуальной деятельности и способы их изготовления, включающие патенты на изобретения, полезные модели, программы для электронных вычислительных машин и пр.). оценка достижения результата (мероприятия) в отчетном периоде осуществляется по факту реализации \"дорожной карты\" в календарном году. подтверждением достижения результата (мероприятия) является отчет госкорпорации \"росатом\" о выполнении значения в отчетном периоде, направленный в минцифры росс",
+      "node_id": "fp_343:passport-result-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "n_tokens": 197,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_343:profile4",
+      "document_id": "fp_343",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "разработаны и внедрены экспериментальные образцы квантовых сенсоров в отраслях экономики в рамках мероприятия планируется проведение исследований по разработке квантовых сенсоров и создание линейки отечественных экспериментальных образцов квантовых сенсоров для квантовой и смежных отраслей с целью последующего их промышленного внедрения в отраслях экономики.",
+      "node_id": "fp_343:passport-result-37:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "n_tokens": 35,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_343:profile5",
+      "document_id": "fp_343",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "разработаны критические технологии создания оборудования для сетей связи 5g advanced/6g мероприятие предполагает разработку критических технологий создания оборудования для сетей связи 5g advanced/6g/ конечной целью проводимых работ является обеспечение технологического суверенитета российской федерации в области создания отечественных решений для отрасли связи, включая технологии, стандарты и опытные образцы, что является необходимым для будущего экономического роста и обеспечения национальной безопасности россии. мероприятие будет реализовываться в рамках исполнения поднаправления 6 \"разработка критических технологий создания оборудования для сетей связи 5g advanced/6g\" \"дорожной карты\" развития высокотехнологичного направления \"современные и перспективные сети мобильной связи\" на период до 2030 года.",
+      "node_id": "fp_343:passport-result-31:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "n_tokens": 82,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_343:profile6",
+      "document_id": "fp_343",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "обеспечено создание квантовых сетей в соответствии с мероприятиями дорожной карты \"квантовые коммуникации\" в рамках достижения результата обеспечена реализация дорожной карты высокотехнологичного направления \"квантовые коммуникации\" на период до 2030 года путем: 1) создания квантовых сетей 2) разработки результатов интеллектуальной деятельности в рамках развития высокотехнологичного направления 3) разработки продуктов, по которым создан опытный образец 4) разработки продуктов, по которым подтверждены рабочие характеристики в условиях, приближенных к реальности 5) разработки продуктов, по которым запущены опытно-промышленное производство и сертификация 6) реализации технологическими компаниями продукции в рамках развития высокотехнологичного направления",
+      "node_id": "fp_343:passport-result-37:72821f34f9410810",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "n_tokens": 70,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_343:profile7",
+      "document_id": "fp_343",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "протяженность созданных квантовых сетей для национальной системы защищенных коммуникаций",
+      "node_id": "fp_343:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_343:profile8",
+      "document_id": "fp_343",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "степень готовности разрабатываемого прототипа квантового процессора (прокси-показатель к показателю № п03849-ц6)",
+      "node_id": "fp_343:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_343:profile9",
+      "document_id": "fp_343",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "объем инвестиций в разработку перспективных отечественных решений в сфере информационных технологий (квантовых и телекоммуникационных)",
+      "node_id": "fp_343:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "n_tokens": 11,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_343:profile10",
+      "document_id": "fp_343",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "количество кубитов в разработанном отечественном квантовом процессоре на отчетный год",
+      "node_id": "fp_343:passport-purpose-4:6037cf73209c66ef",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_343:profile11",
+      "document_id": "fp_343",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля субъектов российской федерации, охваченных магистральной квантовой сетью",
+      "node_id": "fp_343:passport-purpose-5:dc38845c3885b87f",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_343:kwic1",
+      "document_id": "fp_343",
+      "frame": "access_rights",
+      "matched": "доступность",
+      "context": "обеспечены развитие и доступность новых квантовых и телекоммуникационных технологий устойчивое технологическое развитие российской федерации в ",
+      "unit_id": "fp_343:profile1",
+      "unit_ids": [
+        "fp_343:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic2",
+      "document_id": "fp_343",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": " квантовых и телекоммуникационных технологий устойчивое технологическое развитие российской федерации в сфере информационных технологий за счет развития и внедрения перспективных квантовых и телекоммуникационных технологий разработаны прототипы ",
+      "unit_id": "fp_343:profile2",
+      "unit_ids": [
+        "fp_343:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic3",
+      "document_id": "fp_343",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "оказатель к показателю № п03849-ц6) объем инвестиций в разработку перспективных отечественных решений в сфере информационных технологий (квантовых и телекоммуникационных) количество кубитов в разработанном отечественном квантовом процессоре на о",
+      "unit_id": "fp_343:profile9",
+      "unit_ids": [
+        "fp_343:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic4",
+      "document_id": "fp_343",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "венных экспериментальных образцов квантовых сенсоров для квантовой и смежных отраслей с целью последующего их промышленного внедрения в отраслях экономики. разработаны критические технологии создания оборудования для сетей связи 5g a",
+      "unit_id": "fp_343:profile4",
+      "unit_ids": [
+        "fp_343:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic5",
+      "document_id": "fp_343",
+      "frame": "enterprise_industry",
+      "matched": "промышленное",
+      "context": "очие характеристики в условиях, приближенных к реальности 5) разработки продуктов, по которым запущены опытно-промышленное производство и сертификация 6) реализации технологическими компаниями продукции в рамках развития высокотехно",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic6",
+      "document_id": "fp_343",
+      "frame": "enterprise_industry",
+      "matched": "производство",
+      "context": "истики в условиях, приближенных к реальности 5) разработки продуктов, по которым запущены опытно-промышленное производство и сертификация 6) реализации технологическими компаниями продукции в рамках развития высокотехнологичного нап",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic7",
+      "document_id": "fp_343",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "отовности разрабатываемого прототипа квантового процессора (прокси-показатель к показателю № п03849-ц6) объем инвестиций в разработку перспективных отечественных решений в сфере информационных технологий (квантовых и телекоммуника",
+      "unit_id": "fp_343:profile9",
+      "unit_ids": [
+        "fp_343:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic8",
+      "document_id": "fp_343",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "я, включающие патенты на изобретения, полезные модели, программы для электронных вычислительных машин и пр.). оценка достижения результата (мероприятия) в отчетном периоде осуществляется по факту реализации \"дорожной карты\" в ",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic9",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "технологическое",
+      "context": "обеспечены развитие и доступность новых квантовых и телекоммуникационных технологий устойчивое технологическое развитие российской федерации в сфере информационных технологий за счет развития и внедрения перспективных кв",
+      "unit_id": "fp_343:profile2",
+      "unit_ids": [
+        "fp_343:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic10",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "ый \"дорожной картой\" комплекс мероприятий, включающий создание прототипов квантовых вычислителей на различных технологических платформах, разработку и реализацию квантовых алгоритмов / приложений с использованием созданных квантовых пр",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic11",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработку",
+      "context": "с мероприятий, включающий создание прототипов квантовых вычислителей на различных технологических платформах, разработку и реализацию квантовых алгоритмов / приложений с использованием созданных квантовых процессоров, развитие оте",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic12",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "научных",
+      "context": "виса расчетов с использованием квантовых вычислителей (облачная платформа для квантовых вычислений), проверку научных гипотез по использованию квантовых вычислений в народном хозяйстве, а также ввод в эксплуатацию квантового вы",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic13",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "нию квантовых вычислений в народном хозяйстве, а также ввод в эксплуатацию квантового вычислителя на одной из технологических платформ для проведения квантовых вычислений на облачной платформе (с характеристикой 50 - 140 кубит). предус",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic14",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "нтовых вычислений на облачной платформе (с характеристикой 50 - 140 кубит). предусмотренные \"дорожной картой\" научно-исследовательские и опытно-конструкторские работы в области развития квантовых вычислений обеспечивают также ",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic15",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "ьские и опытно-конструкторские работы в области развития квантовых вычислений обеспечивают также формирование научно-технологичных заделов (формируется материально-техническая база, создаются экспериментальные образцы и макеты",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic16",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "исследований",
+      "context": "экспериментальные образцы квантовых сенсоров в отраслях экономики в рамках мероприятия планируется проведение исследований по разработке квантовых сенсоров и создание линейки отечественных экспериментальных образцов квантовых сенсор",
+      "unit_id": "fp_343:profile4",
+      "unit_ids": [
+        "fp_343:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic17",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработке",
+      "context": "е образцы квантовых сенсоров в отраслях экономики в рамках мероприятия планируется проведение исследований по разработке квантовых сенсоров и создание линейки отечественных экспериментальных образцов квантовых сенсоров для квантов",
+      "unit_id": "fp_343:profile4",
+      "unit_ids": [
+        "fp_343:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic18",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработку",
+      "context": "работаны критические технологии создания оборудования для сетей связи 5g advanced/6g мероприятие предполагает разработку критических технологий создания оборудования для сетей связи 5g advanced/6g/ конечной целью проводимых работ ",
+      "unit_id": "fp_343:profile5",
+      "unit_ids": [
+        "fp_343:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic19",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "ий создания оборудования для сетей связи 5g advanced/6g/ конечной целью проводимых работ является обеспечение технологического суверенитета российской федерации в области создания отечественных решений для отрасли связи, включая техноло",
+      "unit_id": "fp_343:profile5",
+      "unit_ids": [
+        "fp_343:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic20",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработка",
+      "context": "ния национальной безопасности россии. мероприятие будет реализовываться в рамках исполнения поднаправления 6 \"разработка критических технологий создания оборудования для сетей связи 5g advanced/6g\" \"дорожной карты\" развития высоко",
+      "unit_id": "fp_343:profile5",
+      "unit_ids": [
+        "fp_343:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic21",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработки",
+      "context": "нологичного направления \"квантовые коммуникации\" на период до 2030 года путем: 1) создания квантовых сетей 2) разработки результатов интеллектуальной деятельности в рамках развития высокотехнологичного направления 3) разработки пр",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic22",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработки",
+      "context": "2) разработки результатов интеллектуальной деятельности в рамках развития высокотехнологичного направления 3) разработки продуктов, по которым создан опытный образец 4) разработки продуктов, по которым подтверждены рабочие характе",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic23",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработки",
+      "context": "амках развития высокотехнологичного направления 3) разработки продуктов, по которым создан опытный образец 4) разработки продуктов, по которым подтверждены рабочие характеристики в условиях, приближенных к реальности 5) разработки",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic24",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработки",
+      "context": "разработки продуктов, по которым подтверждены рабочие характеристики в условиях, приближенных к реальности 5) разработки продуктов, по которым запущены опытно-промышленное производство и сертификация 6) реализации технологическими",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic25",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "технологическими",
+      "context": "ти 5) разработки продуктов, по которым запущены опытно-промышленное производство и сертификация 6) реализации технологическими компаниями продукции в рамках развития высокотехнологичного направления протяженность созданных квантовых сет",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic26",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработку",
+      "context": "рабатываемого прототипа квантового процессора (прокси-показатель к показателю № п03849-ц6) объем инвестиций в разработку перспективных отечественных решений в сфере информационных технологий (квантовых и телекоммуникационных) коли",
+      "unit_id": "fp_343:profile9",
+      "unit_ids": [
+        "fp_343:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_343:kwic1",
+      "document_id": "fp_343",
+      "frame": "access_rights",
+      "matched": "доступность",
+      "context": "обеспечены развитие и доступность новых квантовых и телекоммуникационных технологий устойчивое технологическое развитие российской федерации в ",
+      "unit_id": "fp_343:profile1",
+      "unit_ids": [
+        "fp_343:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic2",
+      "document_id": "fp_343",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": " квантовых и телекоммуникационных технологий устойчивое технологическое развитие российской федерации в сфере информационных технологий за счет развития и внедрения перспективных квантовых и телекоммуникационных технологий разработаны прототипы ",
+      "unit_id": "fp_343:profile2",
+      "unit_ids": [
+        "fp_343:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic3",
+      "document_id": "fp_343",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "оказатель к показателю № п03849-ц6) объем инвестиций в разработку перспективных отечественных решений в сфере информационных технологий (квантовых и телекоммуникационных) количество кубитов в разработанном отечественном квантовом процессоре на о",
+      "unit_id": "fp_343:profile9",
+      "unit_ids": [
+        "fp_343:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic4",
+      "document_id": "fp_343",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "венных экспериментальных образцов квантовых сенсоров для квантовой и смежных отраслей с целью последующего их промышленного внедрения в отраслях экономики. разработаны критические технологии создания оборудования для сетей связи 5g a",
+      "unit_id": "fp_343:profile4",
+      "unit_ids": [
+        "fp_343:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic5",
+      "document_id": "fp_343",
+      "frame": "enterprise_industry",
+      "matched": "промышленное",
+      "context": "очие характеристики в условиях, приближенных к реальности 5) разработки продуктов, по которым запущены опытно-промышленное производство и сертификация 6) реализации технологическими компаниями продукции в рамках развития высокотехно",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic6",
+      "document_id": "fp_343",
+      "frame": "enterprise_industry",
+      "matched": "производство",
+      "context": "истики в условиях, приближенных к реальности 5) разработки продуктов, по которым запущены опытно-промышленное производство и сертификация 6) реализации технологическими компаниями продукции в рамках развития высокотехнологичного нап",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic7",
+      "document_id": "fp_343",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "отовности разрабатываемого прототипа квантового процессора (прокси-показатель к показателю № п03849-ц6) объем инвестиций в разработку перспективных отечественных решений в сфере информационных технологий (квантовых и телекоммуника",
+      "unit_id": "fp_343:profile9",
+      "unit_ids": [
+        "fp_343:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic8",
+      "document_id": "fp_343",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "я, включающие патенты на изобретения, полезные модели, программы для электронных вычислительных машин и пр.). оценка достижения результата (мероприятия) в отчетном периоде осуществляется по факту реализации \"дорожной карты\" в ",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic9",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "технологическое",
+      "context": "обеспечены развитие и доступность новых квантовых и телекоммуникационных технологий устойчивое технологическое развитие российской федерации в сфере информационных технологий за счет развития и внедрения перспективных кв",
+      "unit_id": "fp_343:profile2",
+      "unit_ids": [
+        "fp_343:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic10",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "ый \"дорожной картой\" комплекс мероприятий, включающий создание прототипов квантовых вычислителей на различных технологических платформах, разработку и реализацию квантовых алгоритмов / приложений с использованием созданных квантовых пр",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic11",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработку",
+      "context": "с мероприятий, включающий создание прототипов квантовых вычислителей на различных технологических платформах, разработку и реализацию квантовых алгоритмов / приложений с использованием созданных квантовых процессоров, развитие оте",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic12",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "научных",
+      "context": "виса расчетов с использованием квантовых вычислителей (облачная платформа для квантовых вычислений), проверку научных гипотез по использованию квантовых вычислений в народном хозяйстве, а также ввод в эксплуатацию квантового вы",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic13",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "технологических",
+      "context": "нию квантовых вычислений в народном хозяйстве, а также ввод в эксплуатацию квантового вычислителя на одной из технологических платформ для проведения квантовых вычислений на облачной платформе (с характеристикой 50 - 140 кубит). предус",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic14",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "нтовых вычислений на облачной платформе (с характеристикой 50 - 140 кубит). предусмотренные \"дорожной картой\" научно-исследовательские и опытно-конструкторские работы в области развития квантовых вычислений обеспечивают также ",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic15",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "ьские и опытно-конструкторские работы в области развития квантовых вычислений обеспечивают также формирование научно-технологичных заделов (формируется материально-техническая база, создаются экспериментальные образцы и макеты",
+      "unit_id": "fp_343:profile3",
+      "unit_ids": [
+        "fp_343:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic16",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "исследований",
+      "context": "экспериментальные образцы квантовых сенсоров в отраслях экономики в рамках мероприятия планируется проведение исследований по разработке квантовых сенсоров и создание линейки отечественных экспериментальных образцов квантовых сенсор",
+      "unit_id": "fp_343:profile4",
+      "unit_ids": [
+        "fp_343:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic17",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработке",
+      "context": "е образцы квантовых сенсоров в отраслях экономики в рамках мероприятия планируется проведение исследований по разработке квантовых сенсоров и создание линейки отечественных экспериментальных образцов квантовых сенсоров для квантов",
+      "unit_id": "fp_343:profile4",
+      "unit_ids": [
+        "fp_343:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic18",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработку",
+      "context": "работаны критические технологии создания оборудования для сетей связи 5g advanced/6g мероприятие предполагает разработку критических технологий создания оборудования для сетей связи 5g advanced/6g/ конечной целью проводимых работ ",
+      "unit_id": "fp_343:profile5",
+      "unit_ids": [
+        "fp_343:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic19",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "ий создания оборудования для сетей связи 5g advanced/6g/ конечной целью проводимых работ является обеспечение технологического суверенитета российской федерации в области создания отечественных решений для отрасли связи, включая техноло",
+      "unit_id": "fp_343:profile5",
+      "unit_ids": [
+        "fp_343:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic20",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработка",
+      "context": "ния национальной безопасности россии. мероприятие будет реализовываться в рамках исполнения поднаправления 6 \"разработка критических технологий создания оборудования для сетей связи 5g advanced/6g\" \"дорожной карты\" развития высоко",
+      "unit_id": "fp_343:profile5",
+      "unit_ids": [
+        "fp_343:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic21",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработки",
+      "context": "нологичного направления \"квантовые коммуникации\" на период до 2030 года путем: 1) создания квантовых сетей 2) разработки результатов интеллектуальной деятельности в рамках развития высокотехнологичного направления 3) разработки пр",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic22",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработки",
+      "context": "2) разработки результатов интеллектуальной деятельности в рамках развития высокотехнологичного направления 3) разработки продуктов, по которым создан опытный образец 4) разработки продуктов, по которым подтверждены рабочие характе",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic23",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработки",
+      "context": "амках развития высокотехнологичного направления 3) разработки продуктов, по которым создан опытный образец 4) разработки продуктов, по которым подтверждены рабочие характеристики в условиях, приближенных к реальности 5) разработки",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic24",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработки",
+      "context": "разработки продуктов, по которым подтверждены рабочие характеристики в условиях, приближенных к реальности 5) разработки продуктов, по которым запущены опытно-промышленное производство и сертификация 6) реализации технологическими",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic25",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "технологическими",
+      "context": "ти 5) разработки продуктов, по которым запущены опытно-промышленное производство и сертификация 6) реализации технологическими компаниями продукции в рамках развития высокотехнологичного направления протяженность созданных квантовых сет",
+      "unit_id": "fp_343:profile6",
+      "unit_ids": [
+        "fp_343:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_343:kwic26",
+      "document_id": "fp_343",
+      "frame": "science_innovation",
+      "matched": "разработку",
+      "context": "рабатываемого прототипа квантового процессора (прокси-показатель к показателю № п03849-ц6) объем инвестиций в разработку перспективных отечественных решений в сфере информационных технологий (квантовых и телекоммуникационных) коли",
+      "unit_id": "fp_343:profile9",
+      "unit_ids": [
+        "fp_343:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_url": "https://databudget.ru/projects/fp/343",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/343",
+  "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11"
+}

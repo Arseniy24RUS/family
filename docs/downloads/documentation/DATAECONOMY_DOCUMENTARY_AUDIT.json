@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "project_id": "data_economy",
+  "release_version": "2.8.0-dataeconomy.1",
+  "status": "passed",
+  "unit_test_evidence": {
+    "log": "documentary-tests.log",
+    "log_sha256": "62ceb778a428957c0288c52177b897a926b2403f75ed980f570c91ab48dc859b",
+    "tests": 27,
+    "passed": [
+      "test_all_194_nodes_resolve_to_unique_source_locations",
+      "test_all_frame_frequencies_and_kwic_counts_have_real_denominators",
+      "test_all_reference_profiles_and_original_code_are_checksum_pinned",
+      "test_all_source_year_totals_reconcile_exactly",
+      "test_all_target_cells_and_original_years_are_source_addressed",
+      "test_author_node_tie_rule_reconstructed_from_source_identity",
+      "test_budget_all_372_cells_match_original_html",
+      "test_budget_change_components_and_rounding_are_distinct",
+      "test_budget_total_and_components_remain_separate_levels",
+      "test_compact_runtime_pairs_roundtrip_to_full_export",
+      "test_digital_profiles_match_exact_html_source_nodes",
+      "test_finance_total_is_independently_summed_from_visible_sources",
+      "test_footnotes_and_formula_mean_notation_are_retained",
+      "test_intergovernmental_components_are_not_added_twice",
+      "test_missing_internet_year_and_extended_government_horizon",
+      "test_network_shared_pairs_resolve_both_memberships",
+      "test_original_finance_cells_decimal_and_years",
+      "test_original_report_and_all_images_are_unchanged",
+      "test_orphan_transfer_cells_do_not_claim_complete_result_cost",
+      "test_passport_bytes_dates_and_shared_reference",
+      "test_report_complete_single_assignment",
+      "test_report_tables_and_csv_retain_every_cell",
+      "test_semantic_candidates_are_top3_across_national_project",
+      "test_sensitivity_preserves_corpus_and_genre_scope",
+      "test_target_registry_identity_and_separate_proxy_cards",
+      "test_text_model_matches_reference_without_rounding_away_errors",
+      "test_unresolved_influence_never_becomes_a_direct_edge"
+    ],
+    "production_parsers_imported_by_test_suite": false
+  },
+  "report_coverage": {
+    "report_pages": 119,
+    "routes": 21,
+    "substantive_blocks": 383,
+    "assigned_blocks": 383,
+    "unmapped_substantive_blocks": [],
+    "duplicate_assignments": [],
+    "tables": 15,
+    "figures": 14,
+    "footnotes": 140,
+    "formulas": 7,
+    "verified_page_locators": 324,
+    "blocks_by_page": {
+      "overview": 13,
+      "framework": 11,
+      "logic": 6,
+      "domains": 24,
+      "audit": 53,
+      "methods": 5,
+      "targets": 21,
+      "projections": 2,
+      "structure": 11,
+      "map": 10,
+      "regions": 13,
+      "population": 14,
+      "finance": 64,
+      "network": 8,
+      "texts": 28,
+      "proposals": 15,
+      "lab": 10,
+      "causal": 7,
+      "explorer": 3,
+      "library": 7,
+      "updates": 2
+    }
+  },
+  "report_original_sha256": "9327e9be19dc565d1175da75d14b2c7b657b52e985fc814ea1a0463faa8a801f",
+  "rendered_formula_pages_visually_checked": [
+    23,
+    33,
+    93,
+    94,
+    106,
+    107,
+    110
+  ],
+  "physical_source_inventory": [
+    {
+      "document_id": "fp_337",
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_funding_year_cells": 16,
+      "target_year_cells": 38,
+      "header_finance_year_totals_retained_in_raw_html": 5
+    },
+    {
+      "document_id": "fp_338",
+      "source_sha256": "d350ea17478255bf8893758d763434ec2d88da07f2036a296dcac59577da85fd",
+      "source_funding_year_cells": 52,
+      "target_year_cells": 114,
+      "nested_regional_finance_year_cells_retained_in_raw_html": 1963,
+      "header_finance_year_totals_retained_in_raw_html": 6
+    },
+    {
+      "document_id": "fp_339",
+      "source_sha256": "86cdfe4de6792a984b813353f3dd1e11d95c9d1d214dca085a1966d8abdf0678",
+      "source_funding_year_cells": 70,
+      "target_year_cells": 133,
+      "header_finance_year_totals_retained_in_raw_html": 6
+    },
+    {
+      "document_id": "fp_340",
+      "source_sha256": "ca9ed9f0b2ef51fa9928004ac59ff7ca5502ecddea9fa3e4ca7c4309c3e73143",
+      "source_funding_year_cells": 199,
+      "target_year_cells": 209,
+      "nested_regional_finance_year_cells_retained_in_raw_html": 4446,
+      "header_finance_year_totals_retained_in_raw_html": 12
+    },
+    {
+      "document_id": "fp_341",
+      "source_sha256": "b39f8dc8d3c08b0acf42a3ffa0a742c12e78fe8db8a562f8e36735bf244f2298",
+      "source_funding_year_cells": 86,
+      "target_year_cells": 114,
+      "nested_regional_finance_year_cells_retained_in_raw_html": 1511,
+      "header_finance_year_totals_retained_in_raw_html": 6
+    },
+    {
+      "document_id": "fp_342",
+      "source_sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "source_funding_year_cells": 30,
+      "target_year_cells": 38,
+      "header_finance_year_totals_retained_in_raw_html": 6
+    },
+    {
+      "document_id": "fp_343",
+      "source_sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "source_funding_year_cells": 42,
+      "target_year_cells": 95,
+      "header_finance_year_totals_retained_in_raw_html": 6
+    },
+    {
+      "document_id": "fp_344",
+      "source_sha256": "f1a76e69bc9abcc315c29e8d0cf400af6d95783e008d5554a382f4705b8b4080",
+      "source_funding_year_cells": 50,
+      "target_year_cells": 114,
+      "header_finance_year_totals_retained_in_raw_html": 6
+    },
+    {
+      "document_id": "fp_358",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_funding_year_cells": 35,
+      "target_year_cells": 57,
+      "header_finance_year_totals_retained_in_raw_html": 6
+    },
+    {
+      "document_id": "np_23",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_funding_year_cells": 18,
+      "target_year_cells": 228,
+      "header_finance_year_totals_retained_in_raw_html": 6
+    }
+  ],
+  "source_funding_year_cells": {
+    "raw": 598,
+    "exported": 598,
+    "missing": 0,
+    "extra": 0
+  },
+  "target_year_cells": {
+    "raw": 1140,
+    "exported": 1140,
+    "missing": 0,
+    "extra": 0
+  },
+  "finance": {
+    "national_2025_2030_thousand_rub_decimal": "1212749112.29",
+    "sum_federal_projects_2025_2030_thousand_rub_decimal": "1212749112.29",
+    "national_and_project_source_cells": 112,
+    "result_source_cells": 486,
+    "result_nodes": 90,
+    "result_cost_completeness_claimed": false,
+    "orphan_transfer_component_cells": 12,
+    "budget_numeric_cells_checked": 372,
+    "budget_table_parts": [
+      "/html/body/div[1]/section[1]/div[1]/div[1]/table[46]",
+      "/html/body/div[1]/section[1]/div[1]/div[1]/table[47]"
+    ],
+    "coverage_note": "All 598 published source-funding year cells are exported. Repeated header totals and 7920 nested regional finance cells are retained in the complete raw HTML and are not added to these source totals. Missing values remain null. Result sums include disclosed parent source rows only; completeness is not established."
+  },
+  "network": {
+    "source_addressed_nodes": 194,
+    "result_task_memberships": 90,
+    "shared_task_pairs": 632,
+    "same_project_pairs": 673,
+    "unresolved_source_weight_claims": 168,
+    "verified_direct_indicator_result_links": 0,
+    "semantic_candidates": 150,
+    "causal_interpretation_permitted": false
+  },
+  "text": {
+    "source_code_url": "downloads/projects/personnel/documentary/original_code/text_analysis.py",
+    "source_code_sha256": "2f1249199e6baf44f05c198b462f952c30ddcf57ef83853fb4bc61f2b3469511",
+    "shared_profiles_url": "downloads/projects/personnel/documentary/documentary_inputs.json.gz",
+    "shared_profiles_sha256": "45af856c235b152dcbcae7daf112198af8b020a959eb89e556d9edea962d6265",
+    "documents": 137,
+    "compared_structured_projects": 10,
+    "digital_documents": 10,
+    "digital_tokens": 12479,
+    "max_features": 20000,
+    "semantic_candidates": 150,
+    "candidate_results": 68,
+    "genreExcludedProfiles": [
+      "family"
+    ],
+    "absentFromOriginalCorpus": [
+      "health_technologies"
+    ],
+    "baseline_and_stemming_match_reference": true,
+    "maximum_numeric_difference": 4.996003610813204e-16,
+    "all_digital_source_profiles_verified": true,
+    "replication_checks": 199,
+    "replication_status": "author_137_document_model_replayed_with_independent_data_economy_source_matching",
+    "sensitivity_specifications": 6,
+    "frame_frequency_cells": 180,
+    "kwic_contexts": 1179
+  },
+  "artifacts": [
+    {
+      "path": "public/data/projects/data_economy/expertise.json",
+      "bytes": 1024712,
+      "sha256": "5dc20055d71fb2f774d6a87b11c3707300d36431cecc850624e160523579196b"
+    },
+    {
+      "path": "public/data/projects/data_economy/documentary.json",
+      "bytes": 4343378,
+      "sha256": "a4c2d54a67321de5b91936104c94d11af0876ed3c15281d3dfea6a64d91882ce"
+    },
+    {
+      "path": "public/data/projects/data_economy/documentary-finance/results.json",
+      "bytes": 799642,
+      "sha256": "517aa34c1ae50b0c56262a11af6d6ab8dffd9842c6af524928126f7220b6314f"
+    },
+    {
+      "path": "public/data/projects/data_economy/targets.json",
+      "bytes": 821080,
+      "sha256": "f5db88c8c32612b1a8b8f5ceccd02c7bf1342fb741548a2da2cf623f9d2091d4"
+    },
+    {
+      "path": "public/downloads/projects/data_economy/documentary/documentary_full.json",
+      "bytes": 8922286,
+      "sha256": "f879923542aaa93d6159d91c171eedb2fe523e2ce512ef0c9da2f083388cd45d"
+    },
+    {
+      "path": "public/downloads/projects/data_economy/report/expertise_dataeconomy_2026.docx",
+      "bytes": 2693961,
+      "sha256": "9327e9be19dc565d1175da75d14b2c7b657b52e985fc814ea1a0463faa8a801f"
+    },
+    {
+      "path": "public/downloads/projects/data_economy/report/coverage_manifest.json",
+      "bytes": 95599,
+      "sha256": "66eb72a29cc1fb299a18490a39021fa8dfcc3652be90f16cc9943057c6926f10"
+    },
+    {
+      "path": "tests/test_dataeconomy_documentary.py",
+      "bytes": 21106,
+      "sha256": "a251470039aae98a5caf4e012387518451f9832606cbf182637347eba142b573"
+    }
+  ]
+}

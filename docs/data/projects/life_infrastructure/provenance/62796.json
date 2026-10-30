@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source_id": "62796",
+  "source_url": "https://www.fedstat.ru/indicator/62796",
+  "research_release": "NationalProjects_Analytics_1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": "0256e8780fbf04b9713e139fa4cea6c3e1cef93f88cd7ea364f6add085a12a92",
+  "acquired_at": "2026-10-15T19:17:31+00:00",
+  "origin_kind": "live_emiss",
+  "unit": "процент",
+  "observations": 26,
+  "numeric": 17,
+  "published_sha256": "5fd9dc1caf97ac2f592d5c6ee1f495a397c7968ae859c6872c7dcee2ab551adf",
+  "input_sha256": "b1436c8621fb01b20aed6c8f3f336386cf42f16f6a56f281e8ea1ab05510dab9",
+  "input_bundle": "downloads/projects/life_infrastructure/statistics/emiss_inputs/62796.zip",
+  "published_file": "data/projects/life_infrastructure/series/62796.json",
+  "period_policy": "Original source labels retained. Explicit year-end rows are separate from December. January–December mortgage accumulation is labelled, never silently relabelled. Dated snapshots, calendar accumulation, monthly observations and independent annual facts stay distinct.",
+  "export_format": "excel",
+  "missing_policy": "No imputation, no substitution by a report image or by another indicator."
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "transport.browser-verification/1",
+  "version": "2.10.0-transport.1",
+  "date": "2026-10-29",
+  "environment": "Chrome via managed Sites preview and CUA",
+  "desktop": {
+    "viewport_width": 1363,
+    "viewport_height": 936,
+    "document_width": 1348,
+    "routes_verified": 21,
+    "meaningful_content": true,
+    "application_errors": 0,
+    "extension_messages_excluded": true
+  },
+  "responsive": {
+    "method": "same-origin iframes in real Chrome; not physical devices",
+    "iframe_widths": [
+      390,
+      320
+    ],
+    "available_document_widths": [
+      375,
+      305
+    ],
+    "document_scroll_widths_after_fix": [
+      375,
+      305
+    ],
+    "transport_scoped_min_width_fix": true,
+    "menu_navigation": true,
+    "project_rail_scroll": true,
+    "network_lexical_layout": true
+  },
+  "interactions": [
+    "ports: positive and negative change bars",
+    "network: visible 15 versus 16 caveat",
+    "generalized cost: 210 RUB and missing-input guard",
+    "capacity index:112.8 percent",
+    "digital index:10 percent",
+    "CSV 62820:24 records",
+    "CSV 62841:21 records"
+  ],
+  "full_report": {
+    "tables": 16,
+    "figures": 9,
+    "math_nodes": 20,
+    "original_figure_lazy_loading_verified": true
+  },
+  "screenshot": "NationalProjects_Transport_2.10.0_preview.jpg",
+  "limitations": [
+    "The Python Playwright browser_transport.py suite was not executed in this managed environment.",
+    "Compact publication was tested by the real fetch adapter in DOM QA; this Chrome pass used ordinary docs/.",
+    "Narrow-width tests used iframes rather than physical mobile devices."
+  ],
+  "status": "passed"
+}

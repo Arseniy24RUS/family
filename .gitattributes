@@ -1,5 +1,6 @@
 *.js text eol=lf
 *.mjs text eol=lf
+*.css text eol=lf
 *.py text eol=lf
 *.yml text eol=lf
 *.md text eol=lf
@@ -13,4 +14,6 @@
 public/downloads/** -text
 docs/downloads/** -text
 inputs/upstream/** -text
+# Author inputs retain the exact bytes recorded by source manifests.
+inputs/** -text
 *.sh text eol=lf

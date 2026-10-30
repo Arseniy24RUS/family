@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "project_id": "personnel",
+  "source_materials": "Kadry_Research_Materials_2026.zip",
+  "source_materials_sha256": "e0fc547e7fe88e073810ed0a2cedac9cb242ecac3902f390f1a3950b792046cf",
+  "acquired_at": "2026-10-27",
+  "source_url": "https://rosstat.gov.ru/storage/mediabank/RUS_SDG_in_Russia_2025.pdf",
+  "source_page": 61,
+  "source_type": "preserved_web_extracted_official_table",
+  "source_retrieval_note": "Сохранённый в авторском исследовательском комплекте полный текст таблицы Росстата. PDF при исходной подготовке был недоступен; контрольная сумма относится к сохранённому фрагменту, не к PDF.",
+  "cross_validation": "Сохранённая авторская сверка: общероссийская величина и десять сибирских регионов с Томскстатом, 28.03.2025.",
+  "cross_validation_url": "https://70.rosstat.gov.ru/news/document/257234",
+  "files": [
+    {
+      "path": "downloads/projects/personnel/statistical/context/regional_unemployment_2024.csv",
+      "sha256": "7ba67823d0499c05592b9919e3491facb67e0dc98eeb1873d1159308d023a6e8",
+      "bytes": 4220
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/context/region_join.csv",
+      "sha256": "98516b5bc1b501daa288f393aaf8027b2424cb761be9b7400666f639b4797961",
+      "bytes": 3979
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/context/regional_source_excerpt.txt",
+      "sha256": "b40dd9202b378dae1e797cf8dfd9b62bd7b0cc59553411d0298b5cd22098456d",
+      "bytes": 5196
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/context/sources.json",
+      "sha256": "e0308009df12983ba28e1ea572ddc18306912878dee25e967df7afc82956deb1",
+      "bytes": 1438
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/context/facts.json",
+      "sha256": "6ec052b8d25a6beba7bb9bb62d9784bdc546ae7c318692b5e3e65514d0aab4ca",
+      "bytes": 983
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/quant/M142.html",
+      "sha256": "69e0fbb78dc385c7b3c4a8a9cbf1c9e18ac23ce17cad570f68be10b3c8fb7f52",
+      "bytes": 57609
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/quant/M142.txt",
+      "sha256": "d3dd13a964489d7e29a29946df420636df3de7f8e2e2553238c688fab069ef13",
+      "bytes": 22898
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/quant/M127.html",
+      "sha256": "aa578958d54fbf76de42d1ac523095ee2e5342caaf8fce92664a57cd0325896d",
+      "bytes": 69031
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/quant/M127.txt",
+      "sha256": "465a68d90810128db74ede21bd19d4bfbe84924a683e351a7639d4a54fb171a6",
+      "bytes": 32722
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/quant/M472.html",
+      "sha256": "c1feadfd92b1658ec0ea537171ea084c1b3921300eecdf535ce13a031713dcc9",
+      "bytes": 56649
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/quant/M472.txt",
+      "sha256": "848108c3fa21e71d5824938d4d332cc780165c5d383acc1e62612e610d5ca545",
+      "bytes": 22387
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/quant/M645.html",
+      "sha256": "28a9473c08166366cc94a9ea5334dac019dc62580ef01b365db31cde31a49493",
+      "bytes": 59764
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/quant/M645.txt",
+      "sha256": "3f9cfddc22cf01ca2ffe0ea2cfffadd273b61e865547fb554643500a2cd67527",
+      "bytes": 24933
+    },
+    {
+      "path": "downloads/projects/personnel/statistical/policy/audit_126_web.json",
+      "sha256": "2c3aa67c511419b04654f55cd4b7c004e0720a22ce54260dd18bae318b2f5e9c",
+      "bytes": 25006
+    }
+  ]
+}

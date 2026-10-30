@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "audit_kind": "independent_read_of_original_XLS_and_HTML_without_builder_imports",
+  "counts": {
+    "statistical_input_hashes": 42,
+    "numeric_cells": 191,
+    "excluded_numeric_cells": 127,
+    "source_cells": 233,
+    "usable_cells": 64,
+    "missing_cells": 42,
+    "numerical_publications": 14,
+    "document_source_hashes": 6,
+    "original_financial_cells": 78,
+    "published_federal_financial_cells": 22,
+    "missing_federal_financial_cells": 8,
+    "all_document_target_cells": 399,
+    "current_target_cells": 126,
+    "current_missing_targets": 8,
+    "official_news_sources": 3
+  },
+  "national_plan_thousand_rub": "16213442.40",
+  "statistics_sha256": "7a6c295a4594b7c9b491ea27d3586cdb466d0620f183b9dd93c30995ea7612d2",
+  "documentary_sha256": "2f32f2bdf71c2a282a6426cf421e9123c3907b878f3765364625fb06ea04524e",
+  "evidence_note": "Original workbook cells, metadata dates, source bytes and exact HTML locators were checked independently. Counts describe this release, not future refresh acceptance limits."
+}

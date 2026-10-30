@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "url": "downloads/projects/youth_children/availability.csv",
+      "bytes": 18801,
+      "sha256": "56894d4eb3ba5bc8acf137cc618cb6656e0a7b757f18f028711124721d8f1f7c"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/concept_cooccurrence.csv",
+      "bytes": 17570,
+      "sha256": "f33963eeaaff91ae030c93804f45b5c1e2b05f0acdc8afcb5641ff56e3ee607e"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/document_projects.csv",
+      "bytes": 3672,
+      "sha256": "a4a57d3eb77a3cf773c4178eb99658b858f2ee5e3fa4510f55640eda6a4e240c"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/document_similarity.csv",
+      "bytes": 671343,
+      "sha256": "7e4e20b578bd3fb8b0820065adfa0231047175f4b936f610ec69cb1c6edb8c06"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/documentary_sources.zip",
+      "bytes": 21595294,
+      "sha256": "4bbf46e9e9c04e063aac2690e5e2d89a4e7d531108c4d995a839ee58e0ee4257"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/documents.csv",
+      "bytes": 18774,
+      "sha256": "55d7c17045840bcfadf6958b213aa2b073dbf1a1c7c941a0b9d7c41112a057c9"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/domain_evidence.csv",
+      "bytes": 22371,
+      "sha256": "6f8a0691c42ac6dae826d2b1eecc2bfd6b3ba00c8b6714d6c70aaf151f49e275"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/edges.csv",
+      "bytes": 406887,
+      "sha256": "f693659a00bed7019bf6c28e1d459004c2466de1110c5a1b824816ec87c4317f"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/f_cashflows.csv",
+      "bytes": 1981064,
+      "sha256": "753b970831ee915b97bed49d5aed52b16f3fa451c04a36d7c6cec8cd28a2e790"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/f_concentration.csv",
+      "bytes": 3537,
+      "sha256": "d62d4a69a52ce9d88635312de72de45d21afa03f9b7da510c11f4db604ea9269"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/f_documents.csv",
+      "bytes": 5368,
+      "sha256": "29fc7b52a6f7ef9c5aae5cb3c8b0913507be1aa717577eb4b41eed512a99ae5f"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/f_federal_shares.csv",
+      "bytes": 23210,
+      "sha256": "b1c485d359c3b830058e513027e1e1bd505a7d8ca1f89705c36707940388a965"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/f_project_year.csv",
+      "bytes": 1670,
+      "sha256": "767541ffdf286e4361993f478c1d0f0b6ee71dd473e1fec65948d4b5c04f8685"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/f_source_reconciliation.csv",
+      "bytes": 15213,
+      "sha256": "0e26f93ed900932f1537d3f11edfe9944da6a568a9100aafe531471eb5b3a53e"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/formal_text_features.csv",
+      "bytes": 36081,
+      "sha256": "588d0e12ae2aa72e7c8346ce731fbc1c3e60368c626a6055dcaf2d41768c6d66"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/frame_scores.csv",
+      "bytes": 116422,
+      "sha256": "525a13cc61ab63257b5b451a3091c9375cf3781ac15b8c33c66ff8e760fa599d"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/indicator_registry_links.csv",
+      "bytes": 6640,
+      "sha256": "25a39244d7186d3af6e871802c94cad23bdf272b28b777c93d0c2af222299148"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/kwic.csv",
+      "bytes": 11062691,
+      "sha256": "27dd977acc5299508e0daed1cc3fa15e811a0b4f72c3db3176f71a7d5471859e"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/lexical_frequencies.csv",
+      "bytes": 303118,
+      "sha256": "ae63f5bcf0cd76678556fc157294cfabbf68436bb0d3fddd427f252ca60b4a3a"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/link_claims.csv",
+      "bytes": 842235,
+      "sha256": "f0da6c0839538c949285ff4c93ca4c094b69a20dda95911db2c6c857a718bdef"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/link_coverage.csv",
+      "bytes": 593,
+      "sha256": "48abe894d932c7709be67bda967e9236d97276bcea34ef37712e25a2bf238dfb"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/network_node_metrics.csv",
+      "bytes": 91875,
+      "sha256": "0a49f8ba15676d3ab6ad8353a99a52757b189c0b9c5a39796b4e600fb9a1de3a"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/network_summary.csv",
+      "bytes": 359,
+      "sha256": "97c6db06486ad06df5795c15ff8df197ab8e68afdf73772f7cb2565bc66d3cbe"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/nodes.csv",
+      "bytes": 1070580,
+      "sha256": "9f0721757361af1b50624c1cc16ccbe0c4130b9a57d37179d674169c7cd2dda8"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/project_frame_scores.csv",
+      "bytes": 2163,
+      "sha256": "31f90fef23bedae823f7eab7159560da01868ece642cd095e61a6976a3edac2f"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/project_similarity.csv",
+      "bytes": 591,
+      "sha256": "d2a6d01fc06bcffb3f2de67c08aca04cdba7812c893deb4e284407dcce806492"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/result_indicator_shared_task.csv",
+      "bytes": 725335,
+      "sha256": "d4f641f6b7e84f17bb3f56c86e173ceaaffc753d6269f0e4e34c8a63aee3276d"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/semantic_candidates.csv",
+      "bytes": 152519,
+      "sha256": "b287ebf65f7b3c152945de4abde45f1a05211ef12c9333f3528b25069cdc54d7"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/stemming_project_sensitivity.csv",
+      "bytes": 1046,
+      "sha256": "621571a77eb21728bf41e2fcac42364cb3f148f805dfb866785d2f4254d7e3b9"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/targets.csv",
+      "bytes": 754704,
+      "sha256": "70f5830d94c5717f3bc57e49475a31fbb853d914515f26f86c787b69e1fff5f9"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/tfidf_top_terms.csv",
+      "bytes": 412119,
+      "sha256": "5ba253f82a60b5fd080955ff82f42ae6adf4a0d944fdec1cf4082d83d3b6bbf5"
+    },
+    {
+      "url": "downloads/projects/youth_children/documentary/units.csv",
+      "bytes": 17103435,
+      "sha256": "8f49aa930932de1eb7d5a8d1867f7a082112c0691c623be6f50018c8e538b259"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/62895.zip",
+      "bytes": 35959,
+      "sha256": "4323e00bee1052abe3d11a1d6a5cd12bb8c0841b701726455cd7dd3e2215bf3c"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/62898.zip",
+      "bytes": 35129,
+      "sha256": "1880f754db5aa07c3eccfd5681bd40463dda0c0f678588c0635de316fd1caab1"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/62931.zip",
+      "bytes": 21445,
+      "sha256": "f0e2e4ebf302b6be497f7b74f2cb96e5b8aec3331693f101840d6fae9eb286ca"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/62932.zip",
+      "bytes": 37982,
+      "sha256": "351209978c57e12b305b2d5e1c26fec89e9ca8ea193f82b60748eb1cf5f36b7d"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/62934.zip",
+      "bytes": 40697,
+      "sha256": "dca8ba970e3d08faba2d5fc343e52b8454294ae4da21a09ea4b40d657f21772e"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/62935.zip",
+      "bytes": 38587,
+      "sha256": "5068aa62db6c068bd74d2f392f1bfc9b3b82a0cc7ebef625bbb48e3b85522d0f"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/62936.zip",
+      "bytes": 21641,
+      "sha256": "738559a25ec1ac97044e6c5573325ca5872e15312a56a351a6c0166ca4e87b16"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/62968.zip",
+      "bytes": 213637,
+      "sha256": "45e8c70a7f99ca26e5c555e54fc8bc1faf471d977b718980bf54428739ea5052"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/62969.zip",
+      "bytes": 195070,
+      "sha256": "fa5b19f3c8c039a89c7ea6194d8107fb4390a30d5e54bdf8523cac4ab6d88a32"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63036.zip",
+      "bytes": 35606,
+      "sha256": "fbd3513d3ee3c8dadb133531daf7f08aa2d2cf8cf8fca26b0ed488022118b3dc"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63185.zip",
+      "bytes": 9726,
+      "sha256": "5f2ca6e15f51ed70a23c86c595067f49668715f37b5fe3430a5a49f135cf7816"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63186.zip",
+      "bytes": 9443,
+      "sha256": "bca27b516cf248bf4d02b61cc50a37e958938fa4a112e1ddc11d04e7a60d5489"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63187.zip",
+      "bytes": 9912,
+      "sha256": "a4349e7a20e7820c66f2a8597086ae5033f44c130d5b13e9f7bbab1dad2c5d93"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63188.zip",
+      "bytes": 9634,
+      "sha256": "5aa03cc5d698ff568a05fcc902e9fbd10e820d3b4779a0dba86baf24c5cc8710"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63189.zip",
+      "bytes": 10490,
+      "sha256": "947af283445c0b02fea5a03973c29bd014d7232ce66e90af1c34fc4c0342b31e"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63206.zip",
+      "bytes": 9338,
+      "sha256": "c2e9e3ce7c7f9a1dbd070f0948df02ed4e612d376e79c35ff50b6dd883c6659c"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63207.zip",
+      "bytes": 9250,
+      "sha256": "d4131faed250eb950be62b353f6d671426bcf7cd7ed740b68a4c550798098b1f"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63208.zip",
+      "bytes": 9212,
+      "sha256": "4e6d5ba7f6d3c4bd976caea7980d393fd9561a4cfef0143c6bbfc8fb685849d7"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63209.zip",
+      "bytes": 9344,
+      "sha256": "82adf1440db8275f8453772604250f92582756f13f1fe8d0789e002e7edce8f5"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63210.zip",
+      "bytes": 9299,
+      "sha256": "46e30cd7a6fa4b20949d33b66a6526ca70e6b54cb2ffb99d45cf7f2690be0c54"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63211.zip",
+      "bytes": 9333,
+      "sha256": "4cc149679edd12cb9c608c043834025b701d23741f9d04ef6354edf69421b178"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63212.zip",
+      "bytes": 9242,
+      "sha256": "d26db967a6190d44b364348c0412fe9d69be4c2ef3bcdcf510a5ff2da4a5a532"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63213.zip",
+      "bytes": 9316,
+      "sha256": "a66675bb34020b90310be218a2a4585c8a6b194cd0ef3cfe3fc26f3462bb0b6d"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63214.zip",
+      "bytes": 9372,
+      "sha256": "726a9fa84caafb8b4a2c7087b81e49284acbdcbace29f1e5088650a52d588201"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63215.zip",
+      "bytes": 9360,
+      "sha256": "94f81cd3461b17aadeabbe0b92fee27af6743b3af88cef18b4e8ed308df5b6ee"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63216.zip",
+      "bytes": 9292,
+      "sha256": "406362141ded0d314a8a4b706eb7847608f9eb8c8622d4a754fdb948e80da26e"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63217.zip",
+      "bytes": 9308,
+      "sha256": "36fd1054000e8a184cc2f2df09c5caf5479f81037641a7314c29fb3545b18bac"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63218.zip",
+      "bytes": 9258,
+      "sha256": "112d7e22e909e5426e406852a1e4863002e2c8b20dcce223bafd05c58361a11f"
+    },
+    {
+      "url": "downloads/projects/youth_children/emiss_inputs/63219.zip",
+      "bytes": 9284,
+      "sha256": "53ac06c944ab65ea71ef426418961ea75fb69a3d89c83b9ac496044843d8fa8c"
+    },
+    {
+      "url": "downloads/projects/youth_children/observations.csv",
+      "bytes": 1095349,
+      "sha256": "136384790050ea5b0b39ff738d3355d15cfe469980b8d809a899b304d1badcde"
+    },
+    {
+      "url": "downloads/projects/youth_children/quality_flags.csv",
+      "bytes": 1275,
+      "sha256": "6163eede0e67e8e706b314f662be80b304fd31b08607622abc7e0801b2e4c52f"
+    },
+    {
+      "url": "downloads/projects/youth_children/regional_latest.csv",
+      "bytes": 51996,
+      "sha256": "3046b0be54175a62e3c5882a6f03dfc0d1504d39546be93172911c8d39ba6094"
+    },
+    {
+      "url": "downloads/projects/youth_children/regional_summaries.csv",
+      "bytes": 600,
+      "sha256": "32abf40c03f56974be6dafcb4d84b203ad19780e00070226f739e2a5feb0cb12"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_01.csv",
+      "bytes": 2262,
+      "sha256": "ae6e773895bd88d3879a52c224c9e7a1d6f0f7f7e767525fca76a75e79c2d8bf"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_02.csv",
+      "bytes": 1382,
+      "sha256": "36faf997d404e79d748490eef4382e4c3a89c48845cb43390e6aa64d823f794a"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_03.csv",
+      "bytes": 1635,
+      "sha256": "8148cf6631e898d6fd0cab11cf7c3cbbe277953a4db5a5271e43b316e1f509b6"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_04.csv",
+      "bytes": 1069,
+      "sha256": "0f9ba4225fdb603352a3060ebbccd2b5acd0b2cadd15b8f02c067e25dbff7702"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_05.csv",
+      "bytes": 677,
+      "sha256": "e0e663346bb50cc5519af88ec40cee35ec3aa6a18d1387d269e49b54402ddbeb"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_06.csv",
+      "bytes": 447,
+      "sha256": "9646dd83c2eda6fb470997bc19dcaee2bed41c079512df7d8588b127ed6dbadf"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_07.csv",
+      "bytes": 1437,
+      "sha256": "4ef3829de9034842dbe8f7e38dd117f91f36ae772e8fca04eedb73ead1b8ae03"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_08.csv",
+      "bytes": 1191,
+      "sha256": "19be9ef75bf82844b841552a3ddcf740f9cb9e6b0fecffc7c1cced00bac7c89a"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_09.csv",
+      "bytes": 2144,
+      "sha256": "7930ca4599efbf2b3075577845de26c3e3a76638b6de34899c004a1cdcfda877"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_10.csv",
+      "bytes": 11118,
+      "sha256": "210190709d98b047b17249741cd0d958ec89ac09e1a39b11e670a6a6831f5b79"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_11.csv",
+      "bytes": 1108,
+      "sha256": "87c784e9ac8dcd05b102f6ab0a2468ffc7e2fc4b19c4175f64040cdfcaa8cb00"
+    },
+    {
+      "url": "downloads/projects/youth_children/report/table_12.csv",
+      "bytes": 525,
+      "sha256": "4a87ea0f665909e7a3b60a125652a0c2ffcd8053f7f2aa420febf3ec935d7590"
+    },
+    {
+      "url": "downloads/projects/youth_children/same_month_changes.csv",
+      "bytes": 17809,
+      "sha256": "0ef2dbfb3ec4599bca45103eb8076864121c70c95f132b5abeb44a28992a17d6"
+    },
+    {
+      "url": "downloads/projects/youth_children/source_registry.csv",
+      "bytes": 22187,
+      "sha256": "ff29133a45dd916aed970685f27e96e3ffbf0999165717b31acd7ab3a69510ed"
+    },
+    {
+      "url": "downloads/projects/youth_children/target_comparisons.csv",
+      "bytes": 295917,
+      "sha256": "7c19bb2c2b68ad6f0152cc8dc977a6083140514c1219e6f8922dc25bc1e70d6a"
+    }
+  ]
+}

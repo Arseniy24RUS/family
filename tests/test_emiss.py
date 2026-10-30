@@ -220,11 +220,13 @@ class Contract(unittest.TestCase):
             (root/'public/data/baseline/data_21.json').write_text(json.dumps(base), encoding='utf-8')
             client=Fake();one=run(root,client=client)
             self.assertEqual(one['state'],'success');self.assertEqual(one['sources'][0]['revisions'],1)
+            self.assertEqual(one['snapshot'],one['sources'][0]['fetched_at'][:10])
             data_path=root/'public/data/latest/data_21.json';before=data_path.read_bytes()
             self.assertTrue((root/'public/data/latest/data_21_raw_sdmx.zip').exists())
             client.failed=True;two=run(root,client=client)
             self.assertEqual(two['state'],'failed');self.assertEqual(data_path.read_bytes(),before)
             self.assertEqual(two['last_success'],one['last_success'])
+            self.assertEqual(two['snapshot'],one['snapshot'])
             self.assertEqual(two['sources'][0]['published_file'],one['sources'][0]['published_file'])
 
 if __name__=='__main__':unittest.main()

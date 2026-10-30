@@ -1,0 +1,421 @@
+﻿document_id,rank,term,weight,origin
+project,1,автомобильных,0.11355962080012655,independently_recomputed
+project,2,дорог,0.11012512974388557,independently_recomputed
+project,3,автомобильных дорог,0.10947658629799878,independently_recomputed
+project,4,строительства,0.10665804350329591,independently_recomputed
+project,5,объектов,0.10068260651927216,independently_recomputed
+project,6,значения,0.0821552136934092,independently_recomputed
+project,7,дорожного,0.07578610120360843,independently_recomputed
+project,8,граждан счет,0.07433756331239773,independently_recomputed
+project,9,жилищного,0.07312936969251013,independently_recomputed
+project,10,транспортной,0.07237788790592316,independently_recomputed
+project,11,граждан,0.06660575579692482,independently_recomputed
+project,12,инфраструктуры,0.0661076228326015,independently_recomputed
+project,13,транспорта,0.06501366791379425,independently_recomputed
+project,14,счет,0.06386790889384789,independently_recomputed
+project,15,городских,0.06308481753760395,independently_recomputed
+project,16,строительство реконструкция,0.06252656734116273,independently_recomputed
+project,17,дорожной,0.06093783198945285,independently_recomputed
+project,18,жилищного строительства,0.06059549823371515,independently_recomputed
+project,19,дорожной сети,0.059603209698034114,independently_recomputed
+project,20,строительство,0.059574088295401624,independently_recomputed
+project,21,качество,0.05955964078283365,independently_recomputed
+project,22,комфортной,0.058180163407987026,independently_recomputed
+project,23,повышения,0.05788308099867915,independently_recomputed
+project,24,среды,0.0578633134404662,independently_recomputed
+project,25,реконструкция,0.057544163794908836,independently_recomputed
+project,26,улучшено качество,0.05674285726782114,independently_recomputed
+project,27,транспортных средств,0.056684665924842635,independently_recomputed
+project,28,дорогах,0.05605475490217664,independently_recomputed
+project,29,пунктов,0.054373241639183084,independently_recomputed
+project,30,населенных,0.05425596517680806,independently_recomputed
+fp_245,1,водоотведения,0.14039550035404574,independently_recomputed
+fp_245,2,коммунальной инфраструктуры,0.13856009085431062,independently_recomputed
+fp_245,3,коммунальных услуг,0.12727972336718202,independently_recomputed
+fp_245,4,коммунальной,0.1270991370700466,independently_recomputed
+fp_245,5,качество предоставления,0.1270991370700466,independently_recomputed
+fp_245,6,тепло-водоснабжения водоотведения,0.12671125912073272,independently_recomputed
+fp_245,7,объектов тепло-водоснабжения,0.12671125912073272,independently_recomputed
+fp_245,8,тепло-водоснабжения,0.12671125912073272,independently_recomputed
+fp_245,9,водоснабжения,0.12136886225238573,independently_recomputed
+fp_245,10,улучшено качество,0.11896746095045414,independently_recomputed
+fp_245,11,тепло,0.1162303776795133,independently_recomputed
+fp_245,12,тепло водоснабжения,0.1162303776795133,independently_recomputed
+fp_245,13,коммунальных,0.11501799217168565,independently_recomputed
+fp_245,14,улучшено,0.11266004293167248,independently_recomputed
+fp_245,15,услуг посредством,0.11143545818822757,independently_recomputed
+fp_245,16,субъектах байконуре,0.11143545818822757,independently_recomputed
+fp_245,17,предусмотренных региональными,0.11143545818822757,independently_recomputed
+fp_245,18,региональными комплексными,0.11143545818822757,independently_recomputed
+fp_245,19,байконуре,0.11143545818822757,independently_recomputed
+fp_245,20,гражданам коммунальных,0.11143545818822757,independently_recomputed
+fp_245,21,водоснабжения водоотведения,0.10879407395365229,independently_recomputed
+fp_245,22,байконура,0.10221810975586815,independently_recomputed
+fp_245,23,объектов питьевого,0.10221810975586815,independently_recomputed
+fp_245,24,водоподготовки,0.10221810975586815,independently_recomputed
+fp_245,25,комплексными планами,0.10221810975586815,independently_recomputed
+fp_245,26,комплексными,0.10221810975586815,independently_recomputed
+fp_245,27,субъектов байконура,0.10221810975586815,independently_recomputed
+fp_245,28,территориях субъектов,0.10221810975586815,independently_recomputed
+fp_245,29,предоставления гражданам,0.10221810975586815,independently_recomputed
+fp_245,30,питьевого водоснабжения,0.10221810975586815,independently_recomputed
+fp_248,1,строительной отрасли,0.0867051096812888,independently_recomputed
+fp_248,2,строительной,0.0867051096812888,independently_recomputed
+fp_248,3,строительстве,0.08242406979297415,independently_recomputed
+fp_248,4,производительности,0.07333931378432261,independently_recomputed
+fp_248,5,производительности труда,0.07333931378432261,independently_recomputed
+fp_248,6,стройкомплекс,0.07324741463945622,independently_recomputed
+fp_248,7,стройкомплекс рф,0.07324741463945622,independently_recomputed
+fp_248,8,бережливого,0.07036686207170756,independently_recomputed
+fp_248,9,проектирования,0.06718877806651755,independently_recomputed
+fp_248,10,еис стройкомплекс,0.06441700025783542,independently_recomputed
+fp_248,11,устаревших технологий,0.06441700025783542,independently_recomputed
+fp_248,12,использование устаревших,0.06441700025783542,independently_recomputed
+fp_248,13,ограничений использование,0.06441700025783542,independently_recomputed
+fp_248,14,проектирования строительства,0.06441700025783542,independently_recomputed
+fp_248,15,установления ограничений,0.06441700025783542,independently_recomputed
+fp_248,16,технологий проектировании,0.06441700025783542,independently_recomputed
+fp_248,17,проектировании строительстве,0.06441700025783542,independently_recomputed
+fp_248,18,технологий установления,0.06441700025783542,independently_recomputed
+fp_248,19,проектировании,0.06441700025783542,independently_recomputed
+fp_248,20,жкх,0.06289010700782272,independently_recomputed
+fp_248,21,проекты повышению,0.06289010700782272,independently_recomputed
+fp_248,22,центр компетенций,0.059555798693808594,independently_recomputed
+fp_248,23,повышению производительности,0.059555798693808594,independently_recomputed
+fp_248,24,строительства,0.05918718614689791,independently_recomputed
+fp_248,25,еис,0.059088768598026246,independently_recomputed
+fp_248,26,внедрения передовых,0.059088768598026246,independently_recomputed
+fp_248,27,устаревших,0.059088768598026246,independently_recomputed
+fp_248,28,труда,0.05779999537482261,independently_recomputed
+fp_248,29,документов,0.057372933575006765,independently_recomputed
+fp_248,30,капитального строительства,0.05589185715110159,independently_recomputed
+fp_249,1,дорожного движения,0.08275406743251404,independently_recomputed
+fp_249,2,безопасности дорожного,0.07801389779385336,independently_recomputed
+fp_249,3,дорожного,0.0747817989254228,independently_recomputed
+fp_249,4,госавтоинспекции,0.06944712985266413,independently_recomputed
+fp_249,5,движения,0.06724750928444698,independently_recomputed
+fp_249,6,безопасность дорожного,0.06475484222114283,independently_recomputed
+fp_249,7,дорожно-транспортных,0.06291895021376583,independently_recomputed
+fp_249,8,происшествий,0.05772493619474247,independently_recomputed
+fp_249,9,дорожно-транспортных происшествий,0.05772493619474247,independently_recomputed
+fp_249,10,транспортных средств,0.056966182660412285,independently_recomputed
+fp_249,11,подразделений госавтоинспекции,0.054871553175633046,independently_recomputed
+fp_249,12,дтп,0.054871553175633046,independently_recomputed
+fp_249,13,области обеспечения,0.05384963027179364,independently_recomputed
+fp_249,14,транспортных,0.052573335787861566,independently_recomputed
+fp_249,15,последствий,0.05040438459488004,independently_recomputed
+fp_249,16,отрядов,0.050332870131047334,independently_recomputed
+fp_249,17,мвд россии,0.050332870131047334,independently_recomputed
+fp_249,18,мвд,0.050332870131047334,independently_recomputed
+fp_249,19,безопасность,0.050242222463700345,independently_recomputed
+fp_249,20,инспекторов движения,0.05017926554411176,independently_recomputed
+fp_249,21,функции области,0.05017926554411176,independently_recomputed
+fp_249,22,юид,0.05017926554411176,independently_recomputed
+fp_249,23,детско-юношеских,0.05017926554411176,independently_recomputed
+fp_249,24,мероприятий безопасность,0.05017926554411176,independently_recomputed
+fp_249,25,надзорные,0.05017926554411176,independently_recomputed
+fp_249,26,надзорные функции,0.05017926554411176,independently_recomputed
+fp_249,27,отрядов юных,0.05017926554411176,independently_recomputed
+fp_249,28,подготовлен сводный,0.05017926554411176,independently_recomputed
+fp_249,29,травматизма,0.05017926554411176,independently_recomputed
+fp_249,30,сводный,0.05017926554411176,independently_recomputed
+fp_253,1,эскроу,0.106972614934094,independently_recomputed
+fp_253,2,жилых домов,0.10137505747964208,independently_recomputed
+fp_253,3,счетов эскроу,0.10137505747964208,independently_recomputed
+fp_253,4,использованием счетов,0.10137505747964208,independently_recomputed
+fp_253,5,подряда использованием,0.10137505747964208,independently_recomputed
+fp_253,6,жилищного,0.1004391602476189,independently_recomputed
+fp_253,7,счетов,0.09812440916010522,independently_recomputed
+fp_253,8,договорам строительного,0.0947545522020597,independently_recomputed
+fp_253,9,строительного подряда,0.0947545522020597,independently_recomputed
+fp_253,10,строительного,0.0947545522020597,independently_recomputed
+fp_253,11,жилищного строительства,0.09439696065126243,independently_recomputed
+fp_253,12,подряда,0.09298985188770205,independently_recomputed
+fp_253,13,индивидуального жилищного,0.09298985188770205,independently_recomputed
+fp_253,14,земельных,0.09298985188770205,independently_recomputed
+fp_253,15,земельных участков,0.09298985188770205,independently_recomputed
+fp_253,16,жилых,0.09184650725525907,independently_recomputed
+fp_253,17,домов,0.09091945686217759,independently_recomputed
+fp_253,18,комплексного развития,0.08691695959555447,independently_recomputed
+fp_253,19,развития территорий,0.08691695959555447,independently_recomputed
+fp_253,20,жилья,0.08676042531448294,independently_recomputed
+fp_253,21,домов договорам,0.08665170860466898,independently_recomputed
+fp_253,22,индивидуального,0.0824257421992152,independently_recomputed
+fp_253,23,социальной газификации,0.0762053263313688,independently_recomputed
+fp_253,24,целях комплексного,0.0762053263313688,independently_recomputed
+fp_253,25,индивидуальных жилых,0.0762053263313688,independently_recomputed
+fp_253,26,инфраструктуры объектов,0.0762053263313688,independently_recomputed
+fp_253,27,газификации,0.0762053263313688,independently_recomputed
+fp_253,28,жилищного фонда,0.0743990112604302,independently_recomputed
+fp_253,29,договорам,0.07270585020019242,independently_recomputed
+fp_253,30,участков,0.07027004265603722,independently_recomputed
+fp_254,1,агломерациях,0.11987614670676568,independently_recomputed
+fp_254,2,транспортные средства,0.11423854525883893,independently_recomputed
+fp_254,3,наземного,0.11031528538993758,independently_recomputed
+fp_254,4,электрического,0.11031528538993758,independently_recomputed
+fp_254,5,транспорта,0.105661827511925,independently_recomputed
+fp_254,6,подвижного,0.10126047831638424,independently_recomputed
+fp_254,7,подвижного состава,0.10126047831638424,independently_recomputed
+fp_254,8,электрического транспорта,0.10088178079155105,independently_recomputed
+fp_254,9,транспортные,0.09662840572832539,independently_recomputed
+fp_254,10,приобретены транспортные,0.0925373764237601,independently_recomputed
+fp_254,11,городских агломерациях,0.0925373764237601,independently_recomputed
+fp_254,12,наземного электрического,0.08871987811785087,independently_recomputed
+fp_254,13,транспортом,0.08871987811785087,independently_recomputed
+fp_254,14,новые транспортные,0.08871987811785087,independently_recomputed
+fp_254,15,пассажирского транспорта,0.08871987811785087,independently_recomputed
+fp_254,16,пассажирского,0.08871987811785087,independently_recomputed
+fp_254,17,поставлены,0.08871987811785087,independently_recomputed
+fp_254,18,целях обновления,0.08871987811785087,independently_recomputed
+fp_254,19,городского наземного,0.08871987811785087,independently_recomputed
+fp_254,20,состава субъектах,0.08871987811785087,independently_recomputed
+fp_254,21,средства мероприятий,0.08871987811785087,independently_recomputed
+fp_254,22,поставлены новые,0.08871987811785087,independently_recomputed
+fp_254,23,городских,0.08786069978161398,independently_recomputed
+fp_254,24,общественного транспорта,0.08661692730521008,independently_recomputed
+fp_254,25,городского,0.08212277724861744,independently_recomputed
+fp_254,26,поездов,0.0813814416562051,independently_recomputed
+fp_254,27,приобретены,0.07827252293741914,independently_recomputed
+fp_254,28,развития вэб,0.07617473812580222,independently_recomputed
+fp_254,29,состава,0.07510190462754826,independently_recomputed
+fp_254,30,обновления,0.0751001276305821,independently_recomputed
+fp_259,1,ипотечных,0.1664924030984563,independently_recomputed
+fp_259,2,жилищных,0.1536419172203621,independently_recomputed
+fp_259,3,улучшения жилищных,0.1464375585109655,independently_recomputed
+fp_259,4,приобретение создание,0.1464375585109655,independently_recomputed
+fp_259,5,жилищного,0.14082720889722442,independently_recomputed
+fp_259,6,объектов индивидуального,0.1343250224984184,independently_recomputed
+fp_259,7,траншей,0.1343250224984184,independently_recomputed
+fp_259,8,траншей рублях,0.1343250224984184,independently_recomputed
+fp_259,9,ипотечных жилищных,0.1343250224984184,independently_recomputed
+fp_259,10,иностранной валюте,0.1343250224984184,independently_recomputed
+fp_259,11,жилищных кредитов,0.1343250224984184,independently_recomputed
+fp_259,12,индивидуального жилищного,0.1343250224984184,independently_recomputed
+fp_259,13,кредитов траншей,0.1343250224984184,independently_recomputed
+fp_259,14,рублях иностранной,0.1343250224984184,independently_recomputed
+fp_259,15,создание объектов,0.1343250224984184,independently_recomputed
+fp_259,16,валюте,0.1343250224984184,independently_recomputed
+fp_259,17,иностранной,0.1257310414306152,independently_recomputed
+fp_259,18,жилищные,0.1257310414306152,independently_recomputed
+fp_259,19,рублях,0.1257310414306152,independently_recomputed
+fp_259,20,физическим,0.11906503183518537,independently_recomputed
+fp_259,21,жилищного строительства,0.11906503183518537,independently_recomputed
+fp_259,22,индивидуального,0.11906503183518537,independently_recomputed
+fp_259,23,жилищных условий,0.11361850541806812,independently_recomputed
+fp_259,24,жилья,0.11361850541806812,independently_recomputed
+fp_259,25,кредитов,0.1090135329471245,independently_recomputed
+fp_259,26,улучшения,0.10502452435026487,independently_recomputed
+fp_259,27,приобретение,0.09835851475483506,independently_recomputed
+fp_259,28,процентной,0.08648838104111936,independently_recomputed
+fp_259,29,ставки ипотечному,0.08648838104111936,independently_recomputed
+fp_259,30,средний уровень,0.08648838104111936,independently_recomputed
+fp_260,1,центрального транспортного,0.20335505477939153,independently_recomputed
+fp_260,2,узла,0.1865346061909618,independently_recomputed
+fp_260,3,транспортного узла,0.1865346061909618,independently_recomputed
+fp_260,4,инфраструктуры центрального,0.1788393853985923,independently_recomputed
+fp_260,5,центрального,0.17460030799187437,independently_recomputed
+fp_260,6,железнодорожной инфраструктуры,0.16534334713960044,independently_recomputed
+fp_260,7,железнодорожной,0.15777985940344466,independently_recomputed
+fp_260,8,транспортного,0.15138502164045228,independently_recomputed
+fp_260,9,пассажирской,0.14428649007524574,independently_recomputed
+fp_260,10,пассажирской инфраструктуры,0.14428649007524574,independently_recomputed
+fp_260,11,развития железнодорожной,0.12388413768978757,independently_recomputed
+fp_260,12,плановые значения,0.12388413768978757,independently_recomputed
+fp_260,13,плановые,0.11731604725511635,independently_recomputed
+fp_260,14,транспортной доступности,0.11731604725511635,independently_recomputed
+fp_260,15,бизнеса граждан,0.11731604725511635,independently_recomputed
+fp_260,16,граждан счет,0.10348178530432936,independently_recomputed
+fp_260,17,счет развития,0.09410829952386977,independently_recomputed
+fp_260,18,инфраструктуры,0.08619630991881715,independently_recomputed
+fp_260,19,регионов московской,0.08521792537109997,independently_recomputed
+fp_260,20,реконструкция железнодорожной,0.08521792537109997,independently_recomputed
+fp_260,21,повышению транспортной,0.08521792537109997,independently_recomputed
+fp_260,22,предполагает реализацию,0.08521792537109997,independently_recomputed
+fp_260,23,развитие железнодорожной,0.08521792537109997,independently_recomputed
+fp_260,24,результата отражены,0.08521792537109997,independently_recomputed
+fp_260,25,сообщении,0.08521792537109997,independently_recomputed
+fp_260,26,сообщении цту,0.08521792537109997,independently_recomputed
+fp_260,27,узла объектов,0.08521792537109997,independently_recomputed
+fp_260,28,транспорта москвы,0.08521792537109997,independently_recomputed
+fp_260,29,цту,0.08521792537109997,independently_recomputed
+fp_260,30,узла части,0.08521792537109997,independently_recomputed
+fp_262,1,автомобильных,0.12652860760159937,independently_recomputed
+fp_262,2,регионального межмуниципального,0.12388357781222267,independently_recomputed
+fp_262,3,межмуниципального,0.12388357781222267,independently_recomputed
+fp_262,4,местного значения,0.12340879065608579,independently_recomputed
+fp_262,5,межмуниципального местного,0.12340879065608579,independently_recomputed
+fp_262,6,автомобильных дорог,0.1233545518940365,independently_recomputed
+fp_262,7,дорог,0.12189868973886696,independently_recomputed
+fp_262,8,искусственных,0.10457336913431627,independently_recomputed
+fp_262,9,дорог регионального,0.10457336913431627,independently_recomputed
+fp_262,10,дорожная сеть,0.10425423475694981,independently_recomputed
+fp_262,11,сети числе,0.09563087893352194,independently_recomputed
+fp_262,12,повышения комфорта,0.09563087893352194,independently_recomputed
+fp_262,13,связанности повышения,0.09563087893352194,independently_recomputed
+fp_262,14,доведено,0.09563087893352194,independently_recomputed
+fp_262,15,искусственных сооружений,0.09563087893352194,independently_recomputed
+fp_262,16,доведено нормативного,0.09563087893352194,independently_recomputed
+fp_262,17,комфорта граждан,0.09563087893352194,independently_recomputed
+fp_262,18,дорогах регионального,0.09563087893352194,independently_recomputed
+fp_262,19,доступностью автомобильных,0.09168576256616841,independently_recomputed
+fp_262,20,показателей региональная,0.09168576256616841,independently_recomputed
+fp_262,21,региональная,0.09168576256616841,independently_recomputed
+fp_262,22,значения искусственных,0.09168576256616841,independently_recomputed
+fp_262,23,минобороны,0.09168576256616841,independently_recomputed
+fp_262,24,местная,0.09168576256616841,independently_recomputed
+fp_262,25,местная дорожная,0.09168576256616841,independently_recomputed
+fp_262,26,минобороны россии,0.09168576256616841,independently_recomputed
+fp_262,27,качеством доступностью,0.09168576256616841,independently_recomputed
+fp_262,28,объектов автомобильных,0.09168576256616841,independently_recomputed
+fp_262,29,доступностью,0.09168576256616841,independently_recomputed
+fp_262,30,региональная местная,0.09168576256616841,independently_recomputed
+fp_265,1,опорных населенных,0.1290667515722708,independently_recomputed
+fp_265,2,среды жизни,0.1212654228176814,independently_recomputed
+fp_265,3,опорных,0.11190571886471355,independently_recomputed
+fp_265,4,третей задолженности,0.10665839472999855,independently_recomputed
+fp_265,5,списанием,0.10665839472999855,independently_recomputed
+fp_265,6,списанием двух,0.10665839472999855,independently_recomputed
+fp_265,7,специализированным обществом,0.10665839472999855,independently_recomputed
+fp_265,8,третей,0.10665839472999855,independently_recomputed
+fp_265,9,обществом проектного,0.10665839472999855,independently_recomputed
+fp_265,10,механизма инфраструктурных,0.10665839472999855,independently_recomputed
+fp_265,11,субъектов бюджетным,0.10665839472999855,independently_recomputed
+fp_265,12,связи списанием,0.10665839472999855,independently_recomputed
+fp_265,13,задолженности,0.10665839472999855,independently_recomputed
+fp_265,14,задолженности субъектов,0.10665839472999855,independently_recomputed
+fp_265,15,инфраструктуры субъектах,0.10665839472999855,independently_recomputed
+fp_265,16,источников механизма,0.10665839472999855,independently_recomputed
+fp_265,17,инфраструктурные,0.10665839472999855,independently_recomputed
+fp_265,18,инфраструктурных облигаций,0.10665839472999855,independently_recomputed
+fp_265,19,заемщиками,0.10665839472999855,independently_recomputed
+fp_265,20,займа специализированным,0.10665839472999855,independently_recomputed
+fp_265,21,договоров займа,0.10665839472999855,independently_recomputed
+fp_265,22,двух третей,0.10665839472999855,independently_recomputed
+fp_265,23,бюджетным кредитам,0.10665839472999855,independently_recomputed
+fp_265,24,внебюджетных источников,0.10665839472999855,independently_recomputed
+fp_265,25,инфраструктурных,0.10096801747948199,independently_recomputed
+fp_265,26,облигаций,0.09783617958011384,independently_recomputed
+fp_265,27,жизни опорных,0.09783617958011384,independently_recomputed
+fp_265,28,качество среды,0.09783617958011384,independently_recomputed
+fp_265,29,проектного финансирования,0.09783617958011384,independently_recomputed
+fp_265,30,обязательства,0.09783617958011384,independently_recomputed
+fp_266,1,автомобильных дорог,0.17502320362910873,independently_recomputed
+fp_266,2,автомобильных,0.1734633961461717,independently_recomputed
+fp_266,3,дорог,0.17193889313910102,independently_recomputed
+fp_266,4,дорожного агентства,0.1683642610282106,independently_recomputed
+fp_266,5,агентства,0.14455727133136895,independently_recomputed
+fp_266,6,пользования значения,0.13581963143740358,independently_recomputed
+fp_266,7,дорог общего,0.13581963143740358,independently_recomputed
+fp_266,8,дорожного,0.13063107510366165,independently_recomputed
+fp_266,9,дорог дорожного,0.11945947596053985,independently_recomputed
+fp_266,10,строительства автомобильных,0.11945947596053985,independently_recomputed
+fp_266,11,автодор,0.11945947596053985,independently_recomputed
+fp_266,12,гк автодор,0.11945947596053985,independently_recomputed
+fp_266,13,гк,0.11945947596053985,independently_recomputed
+fp_266,14,значения дорожного,0.11945947596053985,independently_recomputed
+fp_266,15,строительство реконструкция,0.11308614279642,independently_recomputed
+fp_266,16,реконструкция автомобильных,0.10957842345375629,independently_recomputed
+fp_266,17,обходов,0.10957842345375629,independently_recomputed
+fp_266,18,автодорожных,0.10957842345375629,independently_recomputed
+fp_266,19,дорог значения,0.10957842345375629,independently_recomputed
+fp_266,20,общего пользования,0.10619311222754156,independently_recomputed
+fp_266,21,пользования,0.10619311222754156,independently_recomputed
+fp_266,22,значения,0.10617499583592241,independently_recomputed
+fp_266,23,реконструкция,0.10407492048148365,independently_recomputed
+fp_266,24,реконструкция объектов,0.1025677051297568,independently_recomputed
+fp_266,25,дорожной сети,0.09712976952692888,independently_recomputed
+fp_266,26,ремонту,0.09712976952692888,independently_recomputed
+fp_266,27,нормативное состояние,0.09712976952692888,independently_recomputed
+fp_266,28,нормативное,0.09268665262297324,independently_recomputed
+fp_266,29,завершено строительство,0.08567593429897373,independently_recomputed
+fp_266,30,состояние,0.0828056001161897,independently_recomputed
+fp_267,1,автомобильных,0.10517179582683688,independently_recomputed
+fp_267,2,весогабаритного,0.1034105761113372,independently_recomputed
+fp_267,3,весогабаритного контроля,0.1034105761113372,independently_recomputed
+fp_267,4,контроля транспортных,0.09456752102772063,independently_recomputed
+fp_267,5,дорожного,0.09058036762326703,independently_recomputed
+fp_267,6,автомобильных дорог,0.09058036762326703,independently_recomputed
+fp_267,7,дорогах,0.08995550386908081,independently_recomputed
+fp_267,8,автомобильных дорогах,0.08995550386908081,independently_recomputed
+fp_267,9,дорожного движения,0.08878814671336327,independently_recomputed
+fp_267,10,местного значения,0.08674539864523229,independently_recomputed
+fp_267,11,дорогах регионального,0.08674539864523229,independently_recomputed
+fp_267,12,повышения безопасности,0.08674539864523229,independently_recomputed
+fp_267,13,межмуниципального местного,0.08674539864523229,independently_recomputed
+fp_267,14,дорог,0.08372896642233886,independently_recomputed
+fp_267,15,пункты весогабаритного,0.0831668401732788,independently_recomputed
+fp_267,16,автоматические пункты,0.0831668401732788,independently_recomputed
+fp_267,17,размещены автоматические,0.0831668401732788,independently_recomputed
+fp_267,18,автоматические,0.0831668401732788,independently_recomputed
+fp_267,19,регионального межмуниципального,0.08119551449252391,independently_recomputed
+fp_267,20,межмуниципального,0.08119551449252391,independently_recomputed
+fp_267,21,населением свыше,0.07628772147660132,independently_recomputed
+fp_267,22,пункты,0.07628772147660132,independently_recomputed
+fp_267,23,свыше человек,0.07628772147660132,independently_recomputed
+fp_267,24,сохранности,0.07628772147660132,independently_recomputed
+fp_267,25,средств автомобильных,0.07628772147660132,independently_recomputed
+fp_267,26,сохранности автомобильных,0.07628772147660132,independently_recomputed
+fp_267,27,городов,0.07416571731538933,independently_recomputed
+fp_267,28,нарушений,0.07140690908676176,independently_recomputed
+fp_267,29,свыше,0.07140690908676176,independently_recomputed
+fp_267,30,транспортных средств,0.07039955919854636,independently_recomputed
+fp_297,1,городской среды,0.1578520233336236,independently_recomputed
+fp_297,2,комфортной городской,0.15762806061878554,independently_recomputed
+fp_297,3,городской,0.14948302320265253,independently_recomputed
+fp_297,4,победителей всероссийского,0.14414864995120727,independently_recomputed
+fp_297,5,общественных пространств,0.13820200170749777,independently_recomputed
+fp_297,6,общественных,0.13686363010002187,independently_recomputed
+fp_297,7,комфортной,0.13332932558910182,independently_recomputed
+fp_297,8,создания комфортной,0.12777264634846106,independently_recomputed
+fp_297,9,общественных территорий,0.12677066715296267,independently_recomputed
+fp_297,10,лучших создания,0.12677066715296267,independently_recomputed
+fp_297,11,конкурса лучших,0.11866000621130399,independently_recomputed
+fp_297,12,пространств,0.11866000621130399,independently_recomputed
+fp_297,13,победителей,0.11270531071034534,independently_recomputed
+fp_297,14,пространств формирования,0.11150050478704528,independently_recomputed
+fp_297,15,формирования новых,0.11150050478704528,independently_recomputed
+fp_297,16,создания качественных,0.11150050478704528,independently_recomputed
+fp_297,17,новых возможностей,0.11150050478704528,independently_recomputed
+fp_297,18,качественных современных,0.11150050478704528,independently_recomputed
+fp_297,19,возможностей отдыха,0.11150050478704528,independently_recomputed
+fp_297,20,ежегодно территории,0.11150050478704528,independently_recomputed
+fp_297,21,спортом самореализации,0.11150050478704528,independently_recomputed
+fp_297,22,современных общественных,0.11150050478704528,independently_recomputed
+fp_297,23,самореализации людей,0.11150050478704528,independently_recomputed
+fp_297,24,отдыха занятия,0.11150050478704528,independently_recomputed
+fp_297,25,занятия спортом,0.11150050478704528,independently_recomputed
+fp_297,26,всероссийского конкурса,0.10555179406936124,independently_recomputed
+fp_297,27,всероссийского,0.10249634858025826,independently_recomputed
+fp_297,28,поселениях,0.10227777604598168,independently_recomputed
+fp_297,29,занятия,0.10227777604598168,independently_recomputed
+fp_297,30,городах исторических,0.10227777604598168,independently_recomputed
+np_18,1,дорог,0.10678303278460823,independently_recomputed
+np_18,2,автомобильных дорог,0.09546116537886375,independently_recomputed
+np_18,3,нормативного состояния,0.09357237312547666,independently_recomputed
+np_18,4,автомобильных,0.09159211220837593,independently_recomputed
+np_18,5,доведено,0.09141955440464475,independently_recomputed
+np_18,6,доведено нормативного,0.09141955440464475,independently_recomputed
+np_18,7,повышения комфорта,0.09141955440464475,independently_recomputed
+np_18,8,комфорта граждан,0.09141955440464475,independently_recomputed
+np_18,9,сети числе,0.09141955440464475,independently_recomputed
+np_18,10,связанности повышения,0.09141955440464475,independently_recomputed
+np_18,11,нормативного,0.09046596769947318,independently_recomputed
+np_18,12,комфорта,0.08861135212362817,independently_recomputed
+np_18,13,повышения транспортной,0.0855706224248286,independently_recomputed
+np_18,14,транспортной связанности,0.0855706224248286,independently_recomputed
+np_18,15,городских агломераций,0.08103383832059773,independently_recomputed
+np_18,16,агломераций,0.08103383832059773,independently_recomputed
+np_18,17,дорожной сети,0.08103383832059773,independently_recomputed
+np_18,18,крупнейших городских,0.08039837977411678,independently_recomputed
+np_18,19,качество дорожной,0.07525457156318609,independently_recomputed
+np_18,20,доля автомобильных,0.07525457156318609,independently_recomputed
+np_18,21,повышено качество,0.07525457156318609,independently_recomputed
+np_18,22,агломерациях,0.07525457156318609,independently_recomputed
+np_18,23,повышено,0.07525457156318609,independently_recomputed
+np_18,24,дорожно-транспортных,0.07525457156318609,independently_recomputed
+np_18,25,городских,0.0741929420203114,independently_recomputed
+np_18,26,связанности,0.0741929420203114,independently_recomputed
+np_18,27,крупнейших,0.07126472394534866,independently_recomputed
+np_18,28,дорожной,0.07108203747038376,independently_recomputed
+np_18,29,жилищного,0.06800478107552106,independently_recomputed
+np_18,30,коммунальных,0.06800478107552106,independently_recomputed

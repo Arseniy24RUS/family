@@ -1,0 +1,282 @@
+{
+  "status": "passed",
+  "stage": "after full build before final packaging metadata",
+  "base_version": "2.9.0-tourism.1",
+  "current_version": "2.10.0-transport.1",
+  "base_archive": "NationalProjects_Platform_2.9.0-tourism.1_FULL.zip",
+  "base_manifest_entries": 6812,
+  "base_paths_present": 6812,
+  "unchanged_files": 6731,
+  "changed_files": 81,
+  "missing_paths": [],
+  "changed_file_classification_counts": {
+    "shared_platform_integration_routing_build_tests_or_version": 30,
+    "cumulative_release_documentation": 13,
+    "previous_module_release_version_only": 22,
+    "transport_foundation_replaced_by_full_module": 6,
+    "download_index_for_repacked_identical_source_archive": 2,
+    "cumulative_download_index": 2,
+    "archive_metadata_only": 4,
+    "new_transport_research_routes": 2
+  },
+  "critical_group_checks": [
+    {
+      "group": "previous_report_paths",
+      "files": 579,
+      "byte_identical": 579,
+      "changed": [],
+      "missing": []
+    },
+    {
+      "group": "all_previous_docx",
+      "files": 24,
+      "byte_identical": 24,
+      "changed": [],
+      "missing": []
+    },
+    {
+      "group": "previous_report_figures",
+      "files": 252,
+      "byte_identical": 252,
+      "changed": [],
+      "missing": []
+    },
+    {
+      "group": "previous_series_assets",
+      "files": 800,
+      "byte_identical": 800,
+      "changed": [],
+      "missing": []
+    },
+    {
+      "group": "previous_numeric_series_json",
+      "files": 486,
+      "byte_identical": 486,
+      "changed": [],
+      "missing": []
+    },
+    {
+      "group": "previous_expertise_json",
+      "files": 18,
+      "byte_identical": 18,
+      "changed": [],
+      "missing": []
+    },
+    {
+      "group": "previous_page_javascript",
+      "files": 76,
+      "byte_identical": 76,
+      "changed": [],
+      "missing": []
+    },
+    {
+      "group": "previous_source_styles",
+      "files": 44,
+      "byte_identical": 44,
+      "changed": [],
+      "missing": []
+    }
+  ],
+  "critical_previous_files_union": 1523,
+  "critical_previous_files_union_unchanged": 1523,
+  "zip_member_checks": [
+    {
+      "path": "docs/downloads/projections/projections_python.zip",
+      "before_members": 8,
+      "after_members": 8,
+      "member_paths_equal": true,
+      "all_member_bytes_equal": true,
+      "changed_member_paths": [],
+      "interpretation": "ZIP container metadata changed; archived file bytes and member paths are unchanged"
+    },
+    {
+      "path": "docs/downloads/projects/tourism/documentary/documentary_sources.zip",
+      "before_members": 9,
+      "after_members": 9,
+      "member_paths_equal": true,
+      "all_member_bytes_equal": true,
+      "changed_member_paths": [],
+      "interpretation": "ZIP container metadata changed; archived file bytes and member paths are unchanged"
+    },
+    {
+      "path": "public/downloads/projections/projections_python.zip",
+      "before_members": 8,
+      "after_members": 8,
+      "member_paths_equal": true,
+      "all_member_bytes_equal": true,
+      "changed_member_paths": [],
+      "interpretation": "ZIP container metadata changed; archived file bytes and member paths are unchanged"
+    },
+    {
+      "path": "public/downloads/projects/tourism/documentary/documentary_sources.zip",
+      "before_members": 9,
+      "after_members": 9,
+      "member_paths_equal": true,
+      "all_member_bytes_equal": true,
+      "changed_member_paths": [],
+      "interpretation": "ZIP container metadata changed; archived file bytes and member paths are unchanged"
+    }
+  ],
+  "unexpected_changes": [],
+  "new_visible_source_paths_snapshot": 587,
+  "path_count_note": "New-path count is a prepackaging visible-file snapshot excluding caches, hidden files, pyc and temporary files. Packaging creates its authoritative allowlisted manifest later. PACKAGE_COPIES metadata may be regenerated.",
+  "proof": "Every previous manifest entry was hashed with SHA-256. Deduplicated docs entries were resolved through the original PACKAGE_COPIES when old bytes were needed for JSON/ZIP inspection.",
+  "previous_metadata_only_changes": [
+    {
+      "path": "docs/data/projects/competitive_economy/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "docs/data/projects/competitive_economy/methods.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "docs/data/projects/data_economy/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "docs/data/projects/data_economy/methods.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "docs/data/projects/environment/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "docs/data/projects/environment/methods.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "docs/data/projects/health_technologies/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "docs/data/projects/life_infrastructure/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "docs/data/projects/life_infrastructure/methods.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "docs/data/projects/tourism/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "docs/data/projects/tourism/methods.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "public/data/projects/competitive_economy/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "public/data/projects/competitive_economy/methods.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "public/data/projects/data_economy/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "public/data/projects/data_economy/methods.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "public/data/projects/environment/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "public/data/projects/environment/methods.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "public/data/projects/health_technologies/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "public/data/projects/life_infrastructure/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "public/data/projects/life_infrastructure/methods.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "public/data/projects/tourism/foundation.json",
+      "fields": [
+        "/release_version"
+      ]
+    },
+    {
+      "path": "public/data/projects/tourism/methods.json",
+      "fields": [
+        "/release_version"
+      ]
+    }
+  ],
+  "tourism_download_metadata_change": [
+    {
+      "path": "docs/data/projects/tourism/data-downloads.json",
+      "classification": "download_index_for_repacked_identical_source_archive",
+      "differences": [
+        {
+          "path": "/files/3/sha256",
+          "before": "20b24535d6c15b33e23e0b94ecd8731090b36a8466edd61b0cc2d7b02284f960",
+          "after": "543f45bf5ad4903e9cb1419f40a69bb64c23b758f49833fc4d59153289f14fe5"
+        }
+      ]
+    },
+    {
+      "path": "public/data/projects/tourism/data-downloads.json",
+      "classification": "download_index_for_repacked_identical_source_archive",
+      "differences": [
+        {
+          "path": "/files/3/sha256",
+          "before": "20b24535d6c15b33e23e0b94ecd8731090b36a8466edd61b0cc2d7b02284f960",
+          "after": "543f45bf5ad4903e9cb1419f40a69bb64c23b758f49833fc4d59153289f14fe5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "KR_ROSSTAT_SDG": {
+    "gost": "Цели устойчивого развития в Российской Федерации. 2025 : краткий статистический сборник / Росстат. – Москва, 2025. – С. 61. Режим доступа: https://rosstat.gov.ru/storage/mediabank/RUS_SDG_in_Russia_2025.pdf (дата обращения: 27.10.2026).",
+    "url": "https://rosstat.gov.ru/storage/mediabank/RUS_SDG_in_Russia_2025.pdf"
+  },
+  "KR_TOMSKSTAT": {
+    "gost": "Численность занятых и безработных в возрасте 15 лет и старше в Сибирском федеральном округе в среднем за 2024 г. // Томскстат. 28.03.2025. Режим доступа: https://70.rosstat.gov.ru/news/document/257234 (дата обращения: 27.10.2026).",
+    "url": "https://70.rosstat.gov.ru/news/document/257234"
+  },
+  "KR_GEOMETRY": {
+    "gost": "NationalProjects Analytics : электронный исследовательский комплект. Версия 1.2.0. 2026. Картографическая основа: inputs/ru_regions.geojson; справочник: inputs/regions.csv; соответствия: reference/territory_aliases.csv. В метаданных геометрии указан исходный файл Suubjects.geojson. Картографическая обработка: 27.10.2026."
+  }
+}

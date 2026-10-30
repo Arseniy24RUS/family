@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "url": "downloads/projects/competitive_economy/statistics/annual_december_comparisons.csv",
+      "bytes": 2382,
+      "sha256": "aedb3af696f61285775db2636e4a12bba47cb52e2839363f5bc3546586fe0a90"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/availability.csv",
+      "bytes": 15735,
+      "sha256": "b6ea3207baadf529906a59d08b4ef3c72f628dbbcebab9cce913f3f95874393b"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/economic_diagnostics.csv",
+      "bytes": 21431,
+      "sha256": "7e5ed01b540aa27502ac5f9a4390e1d01bbec8bd304d39fa9ba654dd1f62fa32"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/economic_profiles.csv",
+      "bytes": 205492,
+      "sha256": "556f7cb537945e9f06587d65bb3151e722f37f02ece3181179bed8f9345bc97b"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62709.zip",
+      "bytes": 21644,
+      "sha256": "2484335cc5d6161d526c611beb9fed4cad399b9435bc7fea58bfc6e0714f1489"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62710.zip",
+      "bytes": 23196,
+      "sha256": "9ac8e5ae2de95688458d4af671fcd08a779514e3495a1ae9c973236fc4f6566e"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62711.zip",
+      "bytes": 22991,
+      "sha256": "75ffbaa8abcd7ad582a8c74a4a4a9f0bd029b48cb27a460584aa5018ac8219ee"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62712.zip",
+      "bytes": 22355,
+      "sha256": "2c2f09bbe01a09feab671e555d8bb3f26c50fa9a89da5d4277e84d2bd3f0cb4c"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62829.zip",
+      "bytes": 21908,
+      "sha256": "fc21064ab7fe6ebe7e8f1ae047077ddb5ca61ec1d9a08cf9906c716d6a49ddaf"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62960.zip",
+      "bytes": 177565,
+      "sha256": "b6690abe725f6189ec27675f6e8413d91a5b133c6e8e09f0c3c7d7851f73e619"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62961.zip",
+      "bytes": 184708,
+      "sha256": "6b38bbb41e68caeb912db1d61c7af97127035e8a9390188e891f98c1bcb61710"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62962.zip",
+      "bytes": 130285,
+      "sha256": "850e4e81afc630e33557b4c710eb458b71a1e2d29b143681febcc47eabc88cf6"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62978.zip",
+      "bytes": 20279,
+      "sha256": "7da119bb298e6c690454b69bb623b3cc9d700f70162b0eaddf0d79e0985053ab"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62979.zip",
+      "bytes": 81820,
+      "sha256": "42c256d98e4fa35c37d3bf1d4ec3a8c5a61cb8cbdc82d7a229f427befbbe4a2d"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62981.zip",
+      "bytes": 176622,
+      "sha256": "62a328782d134ce4dbb2195fdf20bbd5488409db19760ceb07abaf6f5856e01e"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62990.zip",
+      "bytes": 19922,
+      "sha256": "5a173ebd98fee855335d6b5fb8f14d7517d472f40de8fa8f5fad1401d2fffaf2"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62991.zip",
+      "bytes": 183095,
+      "sha256": "678381c37c2da7c8f88ed728fabd201f24032878e1cc17a64f0e5b3090dbda13"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/62992.zip",
+      "bytes": 20087,
+      "sha256": "9d6d0471f3e6ea7d97e407a69e33d2edb37a0e250143693945d8909bd991e217"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63088.zip",
+      "bytes": 20780,
+      "sha256": "afb760fa8d9fbf7fecae50379e1b87babf0a3fabe46fc36d35944ccdfd29f4b6"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63089.zip",
+      "bytes": 19858,
+      "sha256": "26adb8898b9cf59434c21dcb2d515e66076796f792d1e81ec179dea9f39859fa"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63093.zip",
+      "bytes": 21574,
+      "sha256": "fe990ef1fdc1e80d5038087d349dbd1c896a1bc445a2a1b6152890c7f6bed8f9"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63094.zip",
+      "bytes": 21486,
+      "sha256": "9aaebcbb02af8fef45ef14b1915989c1767a58fafd6e4c9ed0f99999ead2d0a1"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63121.zip",
+      "bytes": 21648,
+      "sha256": "083a2adde74d262631149f7a64c1c83805dfcc210a6316c9aa6f94a63980f2f3"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63126.zip",
+      "bytes": 9683,
+      "sha256": "256ec17eb4d09e8d3297e212c1b0063115aa35782fec3ac268be9ceaca09d808"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63127.zip",
+      "bytes": 9692,
+      "sha256": "70f959581e3416a780cf6aeffc3ad38408e4d80cd2ba760881274859aa777da4"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63128.zip",
+      "bytes": 9780,
+      "sha256": "53faba6b662cb6213843ff20fa81151dea74e04ba552e87f0bafe5204a73307b"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63129.zip",
+      "bytes": 9751,
+      "sha256": "d1fbc9050750512ae4f1eaa023246bee27385af798de7a40c8a89d3149018289"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63136.zip",
+      "bytes": 23031,
+      "sha256": "c4ec253d9c282cb83459a16dededa98cb02149118fc8cf999ceb64e0141fabd2"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63165.zip",
+      "bytes": 21849,
+      "sha256": "6f7e2be5743abc80d98ba9850984b2a708e819ce22163efa4181b26551e1ac57"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63175.zip",
+      "bytes": 9864,
+      "sha256": "475b0159b4d039fe121cf3588c622d26833d9e2bb8eea0da6088c6abb43db10d"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63176.zip",
+      "bytes": 10009,
+      "sha256": "a27761e6803f4e7b8fe9e798289e6088e1277d282188cc5d80a834e09a6b2b5c"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63177.zip",
+      "bytes": 9921,
+      "sha256": "26df1d7da49d0c666c4174c308072b648affd23ac3da574fae4bae1e3b42f5b5"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63195.zip",
+      "bytes": 21581,
+      "sha256": "3cce9279c8fa84fef8e75d8b45d3b018601f22b716c77cf1ac539752d9d201e2"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63196.zip",
+      "bytes": 21525,
+      "sha256": "673c20feb171f6a98ab025e6a1eba03601f1c2c8832e5e8cc5968306a9e21074"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63197.zip",
+      "bytes": 22116,
+      "sha256": "ba6206ecfd45f3a7c92234bbbb22c60d0b20174a21f403cf8b045eb92804dc48"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63222.zip",
+      "bytes": 20667,
+      "sha256": "9480043327f5d0d4c938f0ed01dc156dba4597942e620ebbc7bc5518b32e8ac5"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63232.zip",
+      "bytes": 22844,
+      "sha256": "b5ed70831d6fd47f67fa33ecbd951f16c2caaa81e8836bd0a22d9ed79ac70a47"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63234.zip",
+      "bytes": 20947,
+      "sha256": "b7aa19d94009b7d2d37c6c333d9505868d3809ea0f3fd2724c3836e5d4e604e5"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63362.zip",
+      "bytes": 19955,
+      "sha256": "bc1b0688113f688fe649e9056af51ca4d21d508b919d3c46ea77ca34d84e5f29"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63381.zip",
+      "bytes": 22598,
+      "sha256": "b9cf71bf659b1a268908899c87dce6daacee0cba086fc59110b1484feacda858"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/emiss_inputs/63473.zip",
+      "bytes": 21638,
+      "sha256": "f748b7daf2ff57064c9bc34a2bec2f74f5eaa4f0645ae06d6173bc1e71d30f3b"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/national_changes.csv",
+      "bytes": 66839,
+      "sha256": "244fd88a5f092c1a4714bcc00c030b5c58bf7e9337bbc5355cb7d8e7cab01a18"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/quality_flags.csv",
+      "bytes": 4291,
+      "sha256": "0b0e3f9c781f1d90f7f8a818b63e2640828cac2a6752c621a84cb71b60b4e47b"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/regional_summaries.csv",
+      "bytes": 1802,
+      "sha256": "252f241a8522056d6c88e195f6ceb4c756dd580a3a4acbdf41a4311346d3c50f"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62709.csv.gz",
+      "bytes": 1162,
+      "sha256": "a0f30d81ce2d007c52e4352acf80672efdbbc32705fa17cbb90ab7e578281556"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62710.csv.gz",
+      "bytes": 1273,
+      "sha256": "b5bb8e0eb5481efca25be8d9f5a628e5f116dbd2c3f7bb43944fc7e5d07e78cc"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62711.csv.gz",
+      "bytes": 1263,
+      "sha256": "3da2942d7b7f4903f375805a165b6f18c0d80a8ace4b3ae6cdf2a9276452d1e8"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62712.csv.gz",
+      "bytes": 942,
+      "sha256": "84a850a9738aa55dc83217996b2ded267788f114fe9641fc97425170a99b09cc"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62829.csv.gz",
+      "bytes": 878,
+      "sha256": "5ebe5453a3f71151c746ccc4818091201853962534680f2bbc226efe4f8e32ed"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62960.csv.gz",
+      "bytes": 44756,
+      "sha256": "ef680a159b2856ffc93bad24ac8818adc23efae1a84ec91cae7af7b9fd87eebf"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62961.csv.gz",
+      "bytes": 45093,
+      "sha256": "052135375084b46f142238c5eb2802e35c4a468e44b24f2fc7ad7ae3d3f9de9f"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62962.csv.gz",
+      "bytes": 32371,
+      "sha256": "148264858a1ba419efdb3130ef7c77af9cb28c548b814a904aed278642fe5859"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62978.csv.gz",
+      "bytes": 509,
+      "sha256": "0071e98d23f1272bbe62c8347724779fd79d5e3a16e676fd7e56b94f0ebb4ef0"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62979.csv.gz",
+      "bytes": 16145,
+      "sha256": "a0b4e3d90d7562c4689b9a4b3dc36ffaea038edec878291c3d8cea66e2d41477"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62981.csv.gz",
+      "bytes": 40002,
+      "sha256": "b325c6c56ba3c5b48c864b5b05253b69aad9a7bcbd172ac79645e3ec78e048ff"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62990.csv.gz",
+      "bytes": 383,
+      "sha256": "63b5e20389a21f4af5526e3a7faed508c0091c0ff2f07740ae9df45a3c7e8b4a"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62991.csv.gz",
+      "bytes": 40951,
+      "sha256": "3f42adb8073848413c3cfb27e73e954231f8f936f4e27760466936bb6da7b310"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/62992.csv.gz",
+      "bytes": 492,
+      "sha256": "d86b13981ab60a5f781ba5db0eadc526947862ba2c70925888687c8089652b46"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63088.csv.gz",
+      "bytes": 671,
+      "sha256": "4a510d56c87bf80fbb028895a9845c82144af5a25b414d704d937ba5d086ef0b"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63089.csv.gz",
+      "bytes": 371,
+      "sha256": "af152ca78a176e93110dafdcfefdc9f5e5333c977a92458e9ec2994c1cb9ee8b"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63093.csv.gz",
+      "bytes": 952,
+      "sha256": "58694205cb9531cb0deb1583418cbb4c66845cd140dca1f3eb23fc355250fd88"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63094.csv.gz",
+      "bytes": 919,
+      "sha256": "57a20d17e4f65e8b2a1305ece8ad43a01ddf9ffee099d4bb851ae9728995ab93"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63121.csv.gz",
+      "bytes": 921,
+      "sha256": "4344ca9fa2dc6699e963405eefacb1f7b40a57fd8206efb42c4f43bcf23f3b22"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63126.csv.gz",
+      "bytes": 185,
+      "sha256": "a013090f687526802d272b69f03e9f7a31145abde2c0bdd839469f03bc6fd89e"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63127.csv.gz",
+      "bytes": 185,
+      "sha256": "a013090f687526802d272b69f03e9f7a31145abde2c0bdd839469f03bc6fd89e"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63128.csv.gz",
+      "bytes": 185,
+      "sha256": "a013090f687526802d272b69f03e9f7a31145abde2c0bdd839469f03bc6fd89e"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63129.csv.gz",
+      "bytes": 185,
+      "sha256": "a013090f687526802d272b69f03e9f7a31145abde2c0bdd839469f03bc6fd89e"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63136.csv.gz",
+      "bytes": 1217,
+      "sha256": "4a02e9622124857f9bb50c020f1948821c22003fbae0d46695bee3d6daef574c"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63165.csv.gz",
+      "bytes": 1008,
+      "sha256": "d7795e42efbd3b99dfa3ac746d093a3eb9af0430eb5bdd9f50db86de702f2609"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63175.csv.gz",
+      "bytes": 185,
+      "sha256": "a013090f687526802d272b69f03e9f7a31145abde2c0bdd839469f03bc6fd89e"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63176.csv.gz",
+      "bytes": 185,
+      "sha256": "a013090f687526802d272b69f03e9f7a31145abde2c0bdd839469f03bc6fd89e"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63177.csv.gz",
+      "bytes": 185,
+      "sha256": "a013090f687526802d272b69f03e9f7a31145abde2c0bdd839469f03bc6fd89e"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63195.csv.gz",
+      "bytes": 782,
+      "sha256": "edc01cf21dd0f3aa894f53c7e6101f29e576dff8b32e213482b18fd00db0e36a"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63196.csv.gz",
+      "bytes": 782,
+      "sha256": "acfa9f8669aa1cce6ac0cb27ed2a70716c942bbf87b6067b70457619d6514a52"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63197.csv.gz",
+      "bytes": 800,
+      "sha256": "11654bcc3a1ff0e08dd871548f762d88acaf2923a8e8410cb28afe710c05e2d7"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63222.csv.gz",
+      "bytes": 563,
+      "sha256": "e0dcc81ceb1c68b2038236b1169545767826dbab2bbc339c91bc5ba663c71bc2"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63232.csv.gz",
+      "bytes": 1064,
+      "sha256": "09a72781e119db0537466a601d93c0fb225a130f6f6bcdfdf42e3d1fe7f7f32e"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63234.csv.gz",
+      "bytes": 1054,
+      "sha256": "2fc5bc641869583778ef9b21a34a77d987cd34732f3cd9e8277cfb9527843a0f"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63362.csv.gz",
+      "bytes": 726,
+      "sha256": "03dfc948c440066e58f75991fda052d5086d3efec99f539b0807f8970a12b23a"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63381.csv.gz",
+      "bytes": 1036,
+      "sha256": "05f93f91cc0532e560694db0d2faeb82cffa95d7d40356ce438a373f5d04701c"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/series/63473.csv.gz",
+      "bytes": 761,
+      "sha256": "97ba4d4c8d0ad26cebfa5bd7acf43d31772d6090e7f50c809d20fbe6e44f140f"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/source_registry.csv",
+      "bytes": 33741,
+      "sha256": "cf746d86467c01a2d5b89abaf64e98483518c9bea9d443b3b6428a9fdffdc807"
+    },
+    {
+      "url": "downloads/projects/competitive_economy/statistics/target_comparisons.csv",
+      "bytes": 69843,
+      "sha256": "e3b8881c41addaa8eb24bc9f49ece95b70387e1246df9bc87de840c99ab0ca8d"
+    }
+  ]
+}

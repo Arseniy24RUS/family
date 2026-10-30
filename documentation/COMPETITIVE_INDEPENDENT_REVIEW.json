@@ -1,0 +1,201 @@
+{
+  "schema": "national-projects.independent-documentary-review/1",
+  "project_id": "competitive_economy",
+  "reviewer": "competitive_review",
+  "checked_at": "2026-10-29T16:56:08.159538+00:00",
+  "passed": true,
+  "scope": {
+    "passport_financial_cells": 89,
+    "budget_financial_cells": 188,
+    "project_passports_hash_checked": 8,
+    "semantic_candidates": 192,
+    "cross_document_semantic_candidates": 54
+  },
+  "method": {
+    "raw_verification": "Retained HTML read with lxml XPath. Passport year-value spans and budget table cells parsed by an independent Decimal parser. Application extraction and production normalizer modules were not imported.",
+    "numeric_comparison": "Exact Decimal comparison of directly read source cells with full published documentary values.",
+    "current_code_review": "Read-only confirmation of the two reported UI fixes in the current source file. No broad test suite rerun."
+  },
+  "financial_findings": {
+    "unit": "тыс. руб.",
+    "national_2025_2030": "3673138444.57",
+    "disclosed_federal_projects_2025_2030": "3673136437.07",
+    "federal_minus_national_by_year": {
+      "2025": "0.00",
+      "2026": "-2007.50",
+      "2027": "0.00",
+      "2028": "0.00",
+      "2029": "0.00",
+      "2030": "0.00"
+    },
+    "only_nonzero_source_difference": {
+      "year": 2026,
+      "source_code": "federal",
+      "federal_minus_national": "-2007.50"
+    },
+    "undisclosed_federal_projects": [
+      "Э5",
+      "Э7"
+    ],
+    "undisclosed_values_retained_as_null": true,
+    "passport_and_budget_units_separated": true,
+    "passport_scope": "2025–2030, disclosed sources of finance",
+    "budget_scope": "2026 allocation at 01.09.2026, introduced 2027–2029 budget proposal",
+    "budget_amounts_not_claimed_as_cash_execution": true,
+    "project_finance_factory": {
+      "unit": "млн руб.",
+      "2026": {
+        "total": "181035.4",
+        "factory": "95638.6",
+        "other": "85396.8"
+      },
+      "2027": {
+        "total": "114024.5",
+        "factory": "24620.1",
+        "other": "89404.4"
+      },
+      "change_2027_minus_2026": {
+        "total": "-67010.9",
+        "factory": "-71018.5",
+        "other": "4007.6"
+      }
+    }
+  },
+  "sources": {
+    "passport_archive": {
+      "path": "inputs/healthtech/documentary/passports.zip",
+      "sha256": "f2bc8d7256c46bda5f32c5856e93ca4ac620b7389c6fefa7fce1f8c8f2f941ae"
+    },
+    "passports": [
+      {
+        "document_id": "fp_298",
+        "source_url": "https://databudget.ru/projects/fp/298",
+        "archive_entry": "competitive_economy/fp_298.html",
+        "sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+        "hash_verified_during_raw_review": true
+      },
+      {
+        "document_id": "fp_311",
+        "source_url": "https://databudget.ru/projects/fp/311",
+        "archive_entry": "competitive_economy/fp_311.html",
+        "sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+        "hash_verified_during_raw_review": true
+      },
+      {
+        "document_id": "fp_312",
+        "source_url": "https://databudget.ru/projects/fp/312",
+        "archive_entry": "competitive_economy/fp_312.html",
+        "sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+        "hash_verified_during_raw_review": true
+      },
+      {
+        "document_id": "fp_313",
+        "source_url": "https://databudget.ru/projects/fp/313",
+        "archive_entry": "competitive_economy/fp_313.html",
+        "sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+        "hash_verified_during_raw_review": true
+      },
+      {
+        "document_id": "fp_324",
+        "source_url": "https://databudget.ru/projects/fp/324",
+        "archive_entry": "competitive_economy/fp_324.html",
+        "sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+        "hash_verified_during_raw_review": true
+      },
+      {
+        "document_id": "fp_325",
+        "source_url": "https://databudget.ru/projects/fp/325",
+        "archive_entry": "competitive_economy/fp_325.html",
+        "sha256": "f05392ea159335cab4b5e0b3ee29e14b7a092a843d6e04bf41c6b05bff38d5d4",
+        "hash_verified_during_raw_review": true
+      },
+      {
+        "document_id": "fp_326",
+        "source_url": "https://databudget.ru/projects/fp/326",
+        "archive_entry": "competitive_economy/fp_326.html",
+        "sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+        "hash_verified_during_raw_review": true
+      },
+      {
+        "document_id": "np_21",
+        "source_url": "https://databudget.ru/projects/np/21",
+        "archive_entry": "competitive_economy/np_21.html",
+        "sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+        "hash_verified_during_raw_review": true
+      }
+    ],
+    "budget": {
+      "path": "inputs/healthtech/documentary/budget_2027_2029.html",
+      "source_url": "https://base.garant.ru/411685865/",
+      "sha256": "8174f73fc065629fa57f8c9e72c82a953e6c571d521f8a20e22e8827046ed1cb",
+      "table": "Таблица 4.1.8",
+      "hash_verified_during_raw_review": true
+    }
+  },
+  "text_and_network_review": {
+    "original_text_corpus_documents": 137,
+    "comparable_structured_projects": 10,
+    "economic_passports": 8,
+    "source_passport_archive_documents": 98,
+    "original_text_model_includes_family_in_idf_corpus": true,
+    "family_excluded_from_comparable_project_ranking": true,
+    "health_technologies_absent_from_original_text_corpus": true,
+    "author_variants": [
+      "base",
+      "stemming"
+    ],
+    "additional_platform_variants": [
+      "unigrams",
+      "equal_levels",
+      "federal_only",
+      "national_only"
+    ],
+    "stored_numeric_replication_checks": 239,
+    "stored_numeric_replication_checks_all_equal": true,
+    "review_scope": "Source-code and stored-result consistency examined; all models were not independently fitted again by this reviewer.",
+    "evidence_classes_separated": true,
+    "unresolved_weights_not_assigned_to_causal_edges": true
+  },
+  "resolved_findings": [
+    {
+      "id": "cross_document_source_provenance",
+      "finding": "54 semantic candidate pairs join different documents. The table originally displayed only the result source URL alongside both locators.",
+      "resolution": "Indicator source URL and indicator federal-project columns are now present. The result source is labelled separately. Indicator metadata is hydrated from its own node.",
+      "current_source_confirmation": true
+    },
+    {
+      "id": "text_specification_attribution",
+      "finding": "The earlier common text notice attributed all panels to the original author procedure although four specifications were added by the platform.",
+      "resolution": "The current notice separates the baseline and stemming replay from four additional platform checks.",
+      "current_source_confirmation": true
+    }
+  ],
+  "current_ui_fix_checks": {
+    "separate_result_source_column": true,
+    "separate_indicator_source_column": true,
+    "indicator_federal_project_column": true,
+    "indicator_source_hydrated_from_indicator_node": true,
+    "baseline_and_stemming_attribution": true,
+    "four_platform_variants_attribution": true
+  },
+  "reviewed_files_at_final_record": [
+    {
+      "path": "src/pages/competitive.js",
+      "sha256": "ef1d3051fe41e8e8857dffc24460cc1a4751cd51ce2f72e50a3beeaaf181a187",
+      "qualification": "UI may subsequently change for browser or styling fixes. This hash identifies the source read for this record."
+    },
+    {
+      "path": "public/downloads/projects/competitive_economy/documentary/documentary_full.json",
+      "sha256": "021c04ed8c2bc55c0d11a24be0882d8f72769a69204656356cef60ae74dc56f8"
+    }
+  ],
+  "not_claimed": [
+    "Full browser QA by this reviewer",
+    "New live verification of remote sources",
+    "Independent refitting of all textual models",
+    "Full-page DOCX layout review",
+    "Statistical source-parser or calculator regression testing",
+    "Causal identification or verification of actual budget execution"
+  ],
+  "repository_mutations_performed": false
+}

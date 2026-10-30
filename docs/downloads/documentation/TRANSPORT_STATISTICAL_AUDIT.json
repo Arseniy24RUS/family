@@ -1,0 +1,292 @@
+{
+  "project_id": "efficient_transport",
+  "coverage": {
+    "indicators_total": 24,
+    "registry_indicators": 24,
+    "catalog_indicators_with_numeric": 22,
+    "indicators_with_numeric": 22,
+    "semantically_available_indicators": 22,
+    "confirmed_sources": 22,
+    "known_sources": 22,
+    "numeric_sources": 22,
+    "available_sources": 22,
+    "observations": 463,
+    "numeric_observations": 442,
+    "missing_observations": 21,
+    "usable_observations": 442,
+    "excluded_numeric_observations": 0,
+    "domain_violations": 0,
+    "review_exclusions": 0,
+    "regional_sources": 0,
+    "regions": 0,
+    "independent_annual_national_facts": 0,
+    "annual_equivalent_references": 20,
+    "unmapped_indicators": 2,
+    "metadata_only_sources": 0,
+    "other_territory_observations": 0,
+    "coverage_note": "24 позиции исходного каталога, 22 подтверждённых числовых источника и 22 уникальных показателя выбранных паспортов. Две неподтверждённые кадровые позиции каталога не расширяют действующую паспортную структуру. Все наблюдения общероссийские."
+  },
+  "target_comparisons": 19,
+  "excluded_target_comparisons": [
+    {
+      "source_id": "63268",
+      "reason": "Месячная величина по приказу №174 относится к предыдущему отчётному году. Самостоятельной годовой записи нет."
+    },
+    {
+      "source_id": "63269",
+      "reason": "Месячная величина по приказу №174 относится к предыдущему отчётному году. Самостоятельной годовой записи нет."
+    },
+    {
+      "source_id": "62822",
+      "reason": "Цель 2025 года не опубликована. Наблюдаемый ноль не заменяет отсутствующий план."
+    }
+  ],
+  "source_quality": [
+    {
+      "source_id": "62841",
+      "title": "Рост мощности инфраструктуры Единой опорной транспортной сети",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 2,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62832",
+      "title": "Авиационная подвижность населения Российской Федерации (Т6)",
+      "observations": 15,
+      "numeric": 15,
+      "missing": 0,
+      "unique_numeric_levels": 13,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62820",
+      "title": "Объем перевозок грузов в акватории Северного морского пути (Т2)",
+      "observations": 24,
+      "numeric": 21,
+      "missing": 3,
+      "unique_numeric_levels": 21,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62851",
+      "title": "Индекс цифровой трансформации грузоперевозок (Т8)",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 17,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "63269",
+      "title": "Доля обученных на обновленном оборудовании от среднегодовой численности занятых в транспортной отрасли",
+      "observations": 14,
+      "numeric": 14,
+      "missing": 0,
+      "unique_numeric_levels": 7,
+      "zero_observations": 2,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62850",
+      "title": "Время в пути пассажиров и (или) багажа по маршруту Москва – Санкт-Петербург",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 1,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62849",
+      "title": "Суммарная провозная способность магистралей Восточного полигона",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 1,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62848",
+      "title": "Суммарная провозная способность участков на подходах к морским портам Азово-Черноморского бассейна",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 1,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62847",
+      "title": "Суммарная провозная способность участков на подходах к морским портам Северо-Западного бассейна",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 1,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62846",
+      "title": "Провозная способность железнодорожной инфраструктуры Международного транспортного коридора «Север – Юг»",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 1,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62819",
+      "title": "Прирост мощности опорной сети морских портов на Восточном направлении",
+      "observations": 24,
+      "numeric": 21,
+      "missing": 3,
+      "unique_numeric_levels": 4,
+      "zero_observations": 2,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62824",
+      "title": "Прирост мощности опорной сети морских портов на Северо-Западном направлении",
+      "observations": 24,
+      "numeric": 21,
+      "missing": 3,
+      "unique_numeric_levels": 6,
+      "zero_observations": 4,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62823",
+      "title": "Прирост мощности опорной сети морских портов на МТК «Север – Юг»",
+      "observations": 24,
+      "numeric": 21,
+      "missing": 3,
+      "unique_numeric_levels": 1,
+      "zero_observations": 21,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62822",
+      "title": "Прирост мощности опорной сети морских портов на Азово-Черноморском направлении",
+      "observations": 24,
+      "numeric": 21,
+      "missing": 3,
+      "unique_numeric_levels": 1,
+      "zero_observations": 21,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62821",
+      "title": "Обеспеченность прохода судов с осадкой 3,6 м на ЕГС",
+      "observations": 24,
+      "numeric": 21,
+      "missing": 3,
+      "unique_numeric_levels": 2,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62834",
+      "title": "Доля судоходных гидротехнических сооружений, удовлетворяющих требованиям к дальнейшей эксплуатации",
+      "observations": 24,
+      "numeric": 21,
+      "missing": 3,
+      "unique_numeric_levels": 5,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62831",
+      "title": "Рост пропускной способности инфраструктуры опорной сети аэродромов",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 3,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62833",
+      "title": "Рост расчетного пассажиропотока аэродромов опорной сети",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 3,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62845",
+      "title": "Пропускная способность автомобильных пунктов пропуска (нарастающим итогом)",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 3,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62844",
+      "title": "Пропускная способность железнодорожных пунктов пропуска (нарастающим итогом)",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 1,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "62878",
+      "title": "Индекс роста эффективности бюджетных инвестиций в транспортную инфраструктуру от реализации проектов, получивших заключение об уровне эффективности в ГИС ТЭБ",
+      "observations": 21,
+      "numeric": 21,
+      "missing": 0,
+      "unique_numeric_levels": 1,
+      "zero_observations": 0,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    },
+    {
+      "source_id": "63268",
+      "title": "Численность обучающихся в период освоения учебных программ, прошедших подготовку на приобретаемых в рамках федерального проекта «Развитие кадрового потенциала транспортной отрасли» тренажерных устройствах и учебных судах",
+      "observations": 14,
+      "numeric": 14,
+      "missing": 0,
+      "unique_numeric_levels": 9,
+      "zero_observations": 2,
+      "independent_annual_rows": 0,
+      "note": "Повторение уровня не создаёт независимых наблюдений. Нулевой прирост мощности и отсутствующая ячейка различаются."
+    }
+  ],
+  "no_regional_synthesis": true,
+  "no_statistical_forecast": true,
+  "zero_capacity_increments_preserved": true,
+  "original_snapshot_sha256": "fdb7af6dad69823d2c2264cf2fe4ec7873c6886115d03b0a18e1b2e9c54fe293"
+}

@@ -1,0 +1,243 @@
+{
+  "base_version": "2.8.0-dataeconomy.1",
+  "source_commit": "50ad21c1ad1c94e3cf07857363333df120558617",
+  "checked_version": "2.9.0-tourism.1",
+  "audit_stage": "after_final_source_sync_before_package_manifest_regeneration",
+  "expected_packaging_changes_after_audit": [
+    "RELEASE_MANIFEST.json",
+    "PACKAGE_COPIES.json"
+  ],
+  "packaging_note": "Упаковщик после этой проверки пересоздаёт манифест выпуска и карту побайтовых копий. Изменение этих двух служебных файлов ожидаемо. Добавление самого отчёта проверки не изменяет прежние исследовательские материалы.",
+  "counts_include_public_and_docs_copies": true,
+  "base_logical_files": 6367,
+  "overall": {
+    "identical": 6292,
+    "changed": 75
+  },
+  "previous_report_material": {
+    "files": 498,
+    "by_status": {
+      "identical": 498
+    },
+    "exceptions": []
+  },
+  "all_previous_docx": {
+    "files": 22,
+    "by_status": {
+      "identical": 22
+    },
+    "exceptions": []
+  },
+  "previous_series": {
+    "files": 788,
+    "by_status": {
+      "identical": 788
+    },
+    "exceptions": []
+  },
+  "previous_expertise_json": {
+    "files": 16,
+    "by_status": {
+      "identical": 16
+    },
+    "exceptions": []
+  },
+  "previous_frontend_modules": {
+    "files": 16,
+    "by_status": {
+      "identical": 16
+    },
+    "exceptions": []
+  },
+  "family_core": {
+    "files": 12,
+    "by_status": {
+      "identical": 12
+    },
+    "exceptions": []
+  },
+  "github_settings": {
+    "files": 5,
+    "by_status": {
+      "identical": 2,
+      "changed": 3
+    },
+    "exceptions": [
+      ".github/workflows/deploy.yml",
+      ".github/workflows/refresh-emiss.yml",
+      ".gitignore"
+    ]
+  },
+  "changed_paths_by_root": {
+    ".github": 2,
+    ".gitignore": 1,
+    "CHANGELOG.md": 1,
+    "README.md": 1,
+    "START_HERE.html": 1,
+    "docs": 29,
+    "documentation": 1,
+    "index.html": 1,
+    "package.json": 1,
+    "public": 25,
+    "scripts": 3,
+    "src": 3,
+    "tests": 5,
+    "PACKAGE_COPIES.json": 1
+  },
+  "previous_project_json_changes": [
+    {
+      "path": "docs/data/projects/competitive_economy/foundation.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "docs/data/projects/competitive_economy/methods.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "docs/data/projects/data_economy/foundation.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "docs/data/projects/data_economy/methods.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "docs/data/projects/environment/foundation.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "docs/data/projects/environment/methods.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "docs/data/projects/health_technologies/foundation.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "docs/data/projects/life_infrastructure/foundation.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "docs/data/projects/life_infrastructure/methods.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "public/data/projects/competitive_economy/foundation.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "public/data/projects/competitive_economy/methods.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "public/data/projects/data_economy/foundation.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "public/data/projects/data_economy/methods.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "public/data/projects/environment/foundation.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "public/data/projects/environment/methods.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "public/data/projects/health_technologies/foundation.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "public/data/projects/life_infrastructure/foundation.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    },
+    {
+      "path": "public/data/projects/life_infrastructure/methods.json",
+      "fields": [
+        "release_version"
+      ],
+      "field_count": 1,
+      "json_equal": false
+    }
+  ],
+  "missing_paths": [],
+  "worktree_changed_by_this_audit": false,
+  "family_projection_code_archive": {
+    "path": "public/downloads/projections/projections_python.zip",
+    "old_members": 8,
+    "current_members": 8,
+    "member_bytes_identical": true,
+    "changed_members": [],
+    "added_members": []
+  }
+}

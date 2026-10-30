@@ -1,0 +1,171 @@
+﻿region_id,region_name,source_name,year,million_usd,source_cell,source_url
+31,Белгородская область,14   Белгородская область,2024,45.93,F11,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+32,Брянская область,15   Брянская область,2024,43.55,F12,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+33,Владимирская область,17   Владимирская область,2024,65.99,F13,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+36,Воронежская область,20   Воронежская область,2024,120.58,F14,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+37,Ивановская область,24   Ивановская область,2024,25.65,F15,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+40,Калужская область,29   Калужская область,2024,66.8,F16,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+44,Костромская область,34   Костромская область,2024,41.11,F17,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+46,Курская область,38   Курская область,2024,28.5,F18,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+48,Липецкая область,42   Липецкая область,2024,41.52,F19,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+50,Московская область,46   Московская область,2024,1396.65,F20,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+57,Орловская область,54   Орловская область,2024,32.23,F21,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+62,Рязанская область,61   Рязанская область,2024,62.26,F22,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+67,Смоленская область,66   Смоленская область,2024,314.05,F23,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+68,Тамбовская область,68   Тамбовская область,2024,34.34,F24,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+69,Тверская область,28   Тверская область,2024,67.42,F25,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+71,Тульская область,70   Тульская область,2024,84.18,F26,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+76,Ярославская область,78   Ярославская область,2024,41.69,F27,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+77,Москва,45   Город Москва столица Российской Федерации город федерального значения,2024,18492.67,F28,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+10,Республика Карелия,86   Республика Карелия,2024,41.0,F30,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+11,Республика Коми,87   Республика Коми,2024,14.63,F31,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+83,Ненецкий автономный округ,Ненецкий автономный округ,2024,67.41,F33,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+29,Архангельская область,Архангельская область без данных по Ненецкому автономному округу,2024,19.12,F34,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+35,Вологодская область,19   Вологодская область,2024,46.39,F35,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+39,Калининградская область,27   Калининградская область,2024,188.08,F36,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+47,Ленинградская область,41   Ленинградская область,2024,729.24,F37,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+51,Мурманская область,47   Мурманская область,2024,101.81,F38,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+53,Новгородская область,49   Новгородская область,2024,26.33,F39,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+60,Псковская область,58   Псковская область,2024,70.42,F40,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+78,Санкт-Петербург,40   Город Санкт-Петербург город федерального значения,2024,3359.7,F41,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+01,Республика Адыгея,79   Республика Адыгея (Адыгея),2024,15.06,F43,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+08,Республика Калмыкия,85   Республика Калмыкия,2024,19.76,F44,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+91,Республика Крым,35   Республика Крым,2024,24.33,F45,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+23,Краснодарский край,3   Краснодарский край,2024,3067.6,F46,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+30,Астраханская область,12   Астраханская область,2024,197.58,F47,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+34,Волгоградская область,18   Волгоградская область,2024,70.77,F48,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+61,Ростовская область,60   Ростовская область,2024,387.13,F49,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+92,Севастополь,67   Город федерального значения Севастополь,2024,3.35,F50,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+05,Республика Дагестан,82   Республика Дагестан,2024,82.63,F52,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+06,Республика Ингушетия,26   Республика Ингушетия,2024,5.71,F53,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+07,Кабардино-Балкарская Республика,83   Кабардино-Балкарская Республика,2024,20.51,F54,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+09,Карачаево-Черкесская Республика,91   Карачаево-Черкесская Республика,2024,9.31,F55,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+15,Республика Северная Осетия - Алания,90   Республика Северная Осетия-Алания,2024,54.17,F56,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+20,Чеченская Республика,96   Чеченская Республика,2024,24.06,F57,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+26,Ставропольский край,7   Ставропольский край,2024,119.04,F58,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+02,Республика Башкортостан,80   Республика Башкортостан,2024,273.8,F60,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+12,Республика Марий Эл,88   Республика Марий Эл,2024,43.66,F61,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+13,Республика Мордовия,89   Республика Мордовия,2024,32.0,F62,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+16,Республика Татарстан,92   Республика Татарстан (Татарстан),2024,447.79,F63,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+18,Удмуртская Республика,94   Удмуртская Республика,2024,38.37,F64,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+21,Чувашская Республика - Чувашия,97   Чувашская Республика - Чувашия,2024,40.15,F65,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+59,Пермский край,57   Пермский край,2024,141.64,F66,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+43,Кировская область,33   Кировская область,2024,17.77,F67,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+52,Нижегородская область,22   Нижегородская область,2024,2125.8,F68,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+56,Оренбургская область,53   Оренбургская область,2024,177.15,F69,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+58,Пензенская область,56   Пензенская область,2024,45.31,F70,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+63,Самарская область,36   Самарская область,2024,303.7,F71,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+64,Саратовская область,63   Саратовская область,2024,56.11,F72,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+73,Ульяновская область,73   Ульяновская область,2024,129.11,F73,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+45,Курганская область,37   Курганская область,2024,60.88,F75,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+66,Свердловская область,65   Свердловская область,2024,846.5,F76,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+86,Ханты-Мансийский автономный округ - Югра,Ханты-Мансийский автономный округ,2024,46.47,F78,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+89,Ямало-Ненецкий автономный округ,Ямало-Ненецкий автономный округ,2024,26.13,F79,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+72,Тюменская область,Тюменская область без данных по Ханты-Мансийскому автономному округу -Югре и Ямало-Ненецкому автономному округу,2024,298.08,F80,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+74,Челябинская область,75   Челябинская область,2024,252.02,F81,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+04,Республика Алтай,84   Республика Алтай,2024,19.58,F83,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+17,Республика Тыва,93   Республика Тыва,2024,15.7,F84,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+19,Республика Хакасия,95   Республика Хакасия,2024,941.51,F85,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+22,Алтайский край,1   Алтайский край,2024,97.62,F86,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+24,Красноярский край,4   Красноярский край,2024,677.79,F87,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+38,Иркутская область,25   Иркутская область,2024,1043.83,F88,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+42,Кемеровская область - Кузбасс,32   Кемеровская область - Кузбасс,2024,485.09,F89,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+54,Новосибирская область,50   Новосибирская область,2024,370.65,F90,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+55,Омская область,52   Омская область,2024,163.08,F91,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+70,Томская область,69   Томская область,2024,95.44,F92,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+03,Республика Бурятия,81   Республика Бурятия,2024,64.94,F94,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+14,Республика Саха (Якутия),98   Республика Саха (Якутия),2024,42.7,F95,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+75,Забайкальский край,76   Забайкальский край,2024,77.94,F96,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+41,Камчатский край,30   Камчатский край,2024,20.16,F97,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+25,Приморский край,5   Приморский край,2024,1215.99,F98,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+27,Хабаровский край,8   Хабаровский край,2024,156.04,F99,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+28,Амурская область,10   Амурская область,2024,128.25,F100,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+49,Магаданская область,44   Магаданская область,2024,8.68,F101,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+65,Сахалинская область,64   Сахалинская область,2024,168.58,F102,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+79,Еврейская автономная область,99   Еврейская автономная область,2024,9.41,F103,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+87,Чукотский автономный округ,77   Чукотский автономный округ,2024,2.47,F104,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx
+31,Белгородская область,14   Белгородская область,2025,68.39,F11,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+32,Брянская область,15   Брянская область,2025,55.6,F12,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+33,Владимирская область,17   Владимирская область,2025,84.38,F13,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+36,Воронежская область,20   Воронежская область,2025,142.93,F14,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+37,Ивановская область,24   Ивановская область,2025,31.15,F15,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+40,Калужская область,29   Калужская область,2025,83.23,F16,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+44,Костромская область,34   Костромская область,2025,22.83,F17,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+46,Курская область,38   Курская область,2025,48.79,F18,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+48,Липецкая область,42   Липецкая область,2025,48.0,F19,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+50,Московская область,46   Московская область,2025,1681.39,F20,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+57,Орловская область,54   Орловская область,2025,41.5,F21,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+62,Рязанская область,61   Рязанская область,2025,69.09,F22,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+67,Смоленская область,66   Смоленская область,2025,370.27,F23,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+68,Тамбовская область,68   Тамбовская область,2025,44.9,F24,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+69,Тверская область,28   Тверская область,2025,84.02,F25,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+71,Тульская область,70   Тульская область,2025,79.22,F26,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+76,Ярославская область,78   Ярославская область,2025,56.07,F27,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+77,Москва,45   Город Москва столица Российской Федерации город федерального значения,2025,21241.97,F28,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+10,Республика Карелия,86   Республика Карелия,2025,37.95,F30,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+11,Республика Коми,87   Республика Коми,2025,11.84,F31,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+83,Ненецкий автономный округ,Ненецкий автономный округ,2025,0.37,F33,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+29,Архангельская область,Архангельская область без данных по Ненецкому автономному округу,2025,29.12,F34,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+35,Вологодская область,19   Вологодская область,2025,49.48,F35,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+39,Калининградская область,27   Калининградская область,2025,174.69,F36,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+47,Ленинградская область,41   Ленинградская область,2025,438.68,F37,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+51,Мурманская область,47   Мурманская область,2025,84.96,F38,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+53,Новгородская область,49   Новгородская область,2025,34.17,F39,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+60,Псковская область,58   Псковская область,2025,65.03,F40,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+78,Санкт-Петербург,40   Город Санкт-Петербург город федерального значения,2025,3842.55,F41,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+01,Республика Адыгея,79   Республика Адыгея (Адыгея),2025,23.84,F43,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+08,Республика Калмыкия,85   Республика Калмыкия,2025,17.21,F44,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+91,Республика Крым,35   Республика Крым,2025,29.11,F45,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+23,Краснодарский край,3   Краснодарский край,2025,3547.73,F46,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+30,Астраханская область,12   Астраханская область,2025,163.81,F47,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+34,Волгоградская область,18   Волгоградская область,2025,88.22,F48,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+61,Ростовская область,60   Ростовская область,2025,447.13,F49,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+92,Севастополь,67   Город федерального значения Севастополь,2025,4.17,F50,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+05,Республика Дагестан,82   Республика Дагестан,2025,78.5,F52,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+06,Республика Ингушетия,26   Республика Ингушетия,2025,6.62,F53,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+07,Кабардино-Балкарская Республика,83   Кабардино-Балкарская Республика,2025,23.05,F54,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+09,Карачаево-Черкесская Республика,91   Карачаево-Черкесская Республика,2025,9.59,F55,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+15,Республика Северная Осетия - Алания,90   Республика Северная Осетия-Алания,2025,61.34,F56,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+20,Чеченская Республика,96   Чеченская Республика,2025,29.86,F57,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+26,Ставропольский край,7   Ставропольский край,2025,126.6,F58,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+02,Республика Башкортостан,80   Республика Башкортостан,2025,310.97,F60,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+12,Республика Марий Эл,88   Республика Марий Эл,2025,71.74,F61,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+13,Республика Мордовия,89   Республика Мордовия,2025,42.0,F62,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+16,Республика Татарстан,92   Республика Татарстан (Татарстан),2025,570.73,F63,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+18,Удмуртская Республика,94   Удмуртская Республика,2025,47.24,F64,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+21,Чувашская Республика - Чувашия,97   Чувашская Республика - Чувашия,2025,42.39,F65,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+59,Пермский край,57   Пермский край,2025,172.26,F66,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+43,Кировская область,33   Кировская область,2025,22.37,F67,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+52,Нижегородская область,22   Нижегородская область,2025,1800.16,F68,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+56,Оренбургская область,53   Оренбургская область,2025,167.9,F69,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+58,Пензенская область,56   Пензенская область,2025,53.1,F70,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+63,Самарская область,36   Самарская область,2025,323.26,F71,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+64,Саратовская область,63   Саратовская область,2025,79.59,F72,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+73,Ульяновская область,73   Ульяновская область,2025,122.79,F73,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+45,Курганская область,37   Курганская область,2025,161.49,F75,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+66,Свердловская область,65   Свердловская область,2025,683.11,F76,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+86,Ханты-Мансийский автономный округ - Югра,Ханты-Мансийский автономный округ,2025,105.57,F78,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+89,Ямало-Ненецкий автономный округ,Ямало-Ненецкий автономный округ,2025,19.41,F79,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+72,Тюменская область,Тюменская область без данных по Ханты-Мансийскому автономному округу -Югре и Ямало-Ненецкому автономному округу,2025,305.75,F80,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+74,Челябинская область,75   Челябинская область,2025,262.07,F81,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+04,Республика Алтай,84   Республика Алтай,2025,19.07,F83,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+17,Республика Тыва,93   Республика Тыва,2025,19.71,F84,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+19,Республика Хакасия,95   Республика Хакасия,2025,750.63,F85,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+22,Алтайский край,1   Алтайский край,2025,106.31,F86,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+24,Красноярский край,4   Красноярский край,2025,703.3,F87,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+38,Иркутская область,25   Иркутская область,2025,1350.35,F88,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+42,Кемеровская область - Кузбасс,32   Кемеровская область - Кузбасс,2025,472.86,F89,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+54,Новосибирская область,50   Новосибирская область,2025,381.2,F90,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+55,Омская область,52   Омская область,2025,168.45,F91,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+70,Томская область,69   Томская область,2025,106.0,F92,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+03,Республика Бурятия,81   Республика Бурятия,2025,70.46,F94,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+14,Республика Саха (Якутия),98   Республика Саха (Якутия),2025,53.28,F95,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+75,Забайкальский край,76   Забайкальский край,2025,81.96,F96,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+41,Камчатский край,30   Камчатский край,2025,32.71,F97,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+25,Приморский край,5   Приморский край,2025,1084.85,F98,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+27,Хабаровский край,8   Хабаровский край,2025,155.04,F99,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+28,Амурская область,10   Амурская область,2025,174.64,F100,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+49,Магаданская область,44   Магаданская область,2025,10.54,F101,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+65,Сахалинская область,64   Сахалинская область,2025,188.74,F102,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+79,Еврейская автономная область,99   Еврейская автономная область,2025,14.82,F103,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx
+87,Чукотский автономный округ,77   Чукотский автономный округ,2025,7.54,F104,https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx

@@ -1,0 +1,44 @@
+[
+  {
+    "source_id": "62900",
+    "raw_excel_cells": 1806,
+    "normalized_cells": 1806,
+    "published_cells": 1806,
+    "values_periods_units_equal": true
+  },
+  {
+    "source_id": "62159",
+    "raw_excel_cells": 52,
+    "normalized_cells": 52,
+    "published_cells": 52,
+    "values_periods_units_equal": true
+  },
+  {
+    "source_id": "62903",
+    "raw_excel_cells": 13,
+    "normalized_cells": 13,
+    "published_cells": 13,
+    "values_periods_units_equal": true
+  },
+  {
+    "source_id": "62902",
+    "raw_excel_cells": 18,
+    "normalized_cells": 18,
+    "published_cells": 18,
+    "values_periods_units_equal": true
+  },
+  {
+    "source_id": "63347",
+    "raw_excel_cells": 14,
+    "normalized_cells": 14,
+    "published_cells": 14,
+    "values_periods_units_equal": true
+  },
+  {
+    "source_id": "62780",
+    "raw_excel_cells": 21,
+    "normalized_cells": 21,
+    "published_cells": 21,
+    "values_periods_units_equal": true
+  }
+]

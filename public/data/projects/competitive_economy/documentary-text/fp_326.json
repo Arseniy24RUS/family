@@ -1,0 +1,1353 @@
+{
+  "document": {
+    "project_id": "competitive_economy",
+    "kind": "fp",
+    "id": "fp_326",
+    "url": "https://databudget.ru/projects/fp/326",
+    "sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+    "retrieved_at": "2026-10-19T14:38:59.359941+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/77/775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe.html",
+    "document_id": "fp_326",
+    "code": "Э7",
+    "title": "[Э7] Развитие конкуренции",
+    "publisher_version": "26.2",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 649,
+    "n_tokens": 649,
+    "source_url": "https://databudget.ru/projects/fp/326",
+    "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+    "profile_text_sha256": "096a6b5906923e674b4ebdfe92fb0f2a25838777efcad7c7ba2d28f520ff9178",
+    "archive_entry": "competitive_economy/fp_326.html",
+    "bytes": 2141391,
+    "download_path": "downloads/projects/competitive_economy/documentary/sources/fp_326.html",
+    "profile_original_document_id": "html:775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_326:profile1",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "рост уровня развития конкуренции на товарных рынках",
+      "node_id": "fp_326:passport-task-37:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile2",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "улучшены условия функционирования товарных рынков по перечню",
+      "node_id": "fp_326:passport-task-35:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile3",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "усовершенствована система национальных ценовых индикаторов",
+      "node_id": "fp_326:passport-task-38:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 5,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile4",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "goal",
+      "text": "повышение экономической эффективности и конкурентоспособности хозяйствующих субъектов, а также повышение удовлетворенности потребителей за счет улучшения условий функционирования товарных рынков, обеспечения равного доступа к товарам и услугам субъектов естественных монополий, снижения административных барьеров, развития системы ценовых индикаторов",
+      "node_id": "fp_326:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 32,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile5",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "проведены мониторинги уровня развития конкуренции на товарных рынках проведена оценка состояния конкуренции в соответствии с методикой, определены проблемные рынки",
+      "node_id": "fp_326:passport-result-1:afaf57dfc746f9f4",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 17,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile6",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "утвержден стандарт развития конкуренции в субъектах российской федерации стандарт развития конкуренции в субъектах российской федерации содержит перечень товарных рынков, на которых регион разрабатывает мероприятия, способствующие повышению уровня развития конкуренции",
+      "node_id": "fp_326:passport-result-37:ab4839ae6f87cf77",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 27,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile7",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "утверждена \"дорожная карта\" по развитию конкуренции на товарных рынках, на которых выявлены проблемы \"дорожная карта\" содержит мероприятия по развитию конкуренции на проблемных товарных рынках",
+      "node_id": "fp_326:passport-result-7:3f0fefc72237025b",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 24,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile8",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "реализованы мероприятия национального плана («дорожной карты») развития конкуренции в российской федерации на 2026–2030 годы информация о ходе реализации мероприятий национального плана («дорожной карты») развития конкуренции в российской федерации на 2026–2030 годы",
+      "node_id": "fp_326:passport-result-7:215fd1b309336df8",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 26,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile9",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "утверждена методика оценки уровня развития конкуренции на товарных рынках методика содержит в том числе: понятие \"товарный рынок\", порядок определения состава хозяйствующих субъектов, действующих на товарных рынках, уровня развития конкуренции на них, определения барьеров входа на них и осуществления деятельности на них",
+      "node_id": "fp_326:passport-result-39:15afe96c437323a1",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 39,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile10",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "развита конкуренция на рынках лекарственных препаратов определение взаимозаменяемости лекарственных препаратов (с 57% в 2023 году до 90% в 2030 году)",
+      "node_id": "fp_326:passport-result-7:4f0b6b7180db15a0",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 13,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile11",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "увеличено количество исполненных договоров в рамках социальной догазификации обеспечение исполнения договоров в рамках социальной догазификации с 874910 в 2023 году до 2400000 в 2030 году",
+      "node_id": "fp_326:passport-result-7:ffd4fbec20ef1ea8",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 16,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile12",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "расширен перечень страховых организаций, услугами которых могут воспользоваться заемщики при кредитовании внесение изменений в нормативный акт в целях расширения перечня страховых организаций, услугами которых могут воспользоваться заемщики при кредитовании",
+      "node_id": "fp_326:passport-result-37:6a47f814c17b9f63",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[8]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 27,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile13",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "установлены рекомендации по определению доли парка подвижного состава, находящегося во владении операторов, для размещения на электронной торговой площадке и формирования ценовых индикаторов выработка рекомендаций для операторов железнодорожного подвижного состава по формированию рыночных (доступных) ценовых индикаторов за счет размещения части парка подвижного состава на электронной торговой площадке",
+      "node_id": "fp_326:passport-result-9:dd32e55a71fc26a7",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 45,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile14",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "развита конкуренция на цифровых рынках выделение конкурентной деятельности на смежных с системообразующей цифровой платформой товарных рынках в отдельные юридические лица",
+      "node_id": "fp_326:passport-result-10:78bfc1ca94ccd7d4",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 18,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile15",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "реализован механизм обязательного уведомления уполномоченного государственного органа перевозчиком/владельцем инфраструктуры о решениях в сфере перевозки грузов (прекращение или ограничение приема груза /порожнего вагона к перевозке), включая определение критериев принятия таких решений, обеспечение публичности принимаемых решений -",
+      "node_id": "fp_326:passport-result-10:b75161c468313e30",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 32,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile16",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "произведено поэтапное отчуждение долей участия перевозчика - владельца инфраструктуры в хозяйствующих субъектах, осуществляющих деятельность на конкурентных рынках, в соответствии со сформированным планом мероприятий по поэтапному отчуждению долей с оценкой влияния данных решений на социально-значимые перевозки пассажиров и грузов поэтапное отчуждение долей участия перевозчика - владельца инфраструктуры в хозяйствующих субъектах (логистических операторов, операторов подвижного состав, операторов транспортно-логистических центров, экспедиторов), осуществляющих деятельность на конкурентных рынках, с учетом необходимости обеспечения доступности подвижного состава для социальных, воинских и специальных перевозок, а также обеспечения реализации проектов развития инфраструктуры, предусмотренных документами стратегического планирования российской федерации, со 100% в 2023 году до 30% в 2030 году, предусмотренное планом мероприятий, утвержденным в 2026 году",
+      "node_id": "fp_326:passport-result-7:7a30646fb7ccde1c",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 88,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile17",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "укрупнена территория оптового рынка электроэнергетики с рыночным (конкурентным) ценообразованием в рамках единой энергосистемы россии отнесение к ценовым зонам оптового рынка территорий неценовых зон дальнего востока, архангельской области, республики коми, донецкой народной республики, луганской народной республики, запорожской и херсонской областей. в результате мероприятия территория оптового рынка с рыночным (конкурентным) ценообразованием составит 97,5% территории российской федерации",
+      "node_id": "fp_326:passport-result-7:32ff066a732b5af2",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[13]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 47,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile18",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "утверждены новые правила недискриминационного доступа на товарных рынках обеспечение равных условий предоставления соответствующих услуг их потребителям независимо от их организационно-правовой формы и правовых отношений с лицом, оказывающим эти услуги",
+      "node_id": "fp_326:passport-result-8:55d395b00c75daec",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[14]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 27,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile19",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "усовершенствована процедура обязательных отраслевых торгов по реализации государственного и муниципального имущества, в том числе имущественных прав обеспечение равного доступа хозяйствующих субъектов к государственному и муниципальному имуществу",
+      "node_id": "fp_326:passport-result-17:52fbb258bfacac01",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[15]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 22,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile20",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "увеличен объем нефтепродуктов, реализованных на бирже адвокатирование биржевой торговли в целях увеличения объема реализации нефтепродуктов на бирже с 31000000,0 в 2023 году до 34000000,0 в 2030 году",
+      "node_id": "fp_326:passport-result-9:098b7116663b3b30",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[16]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 19,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile21",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "организованы мониторинги удовлетворенности хозяйствующих субъектов /потребителей условиями функционирования товарных рынков проведение мониторинга удовлетворенности хозяйствующих субъектов/потребителей условиями функционирования товарных рынков и оценка динамики удовлетворенности",
+      "node_id": "fp_326:passport-result-37:301dd01f39a26bdf",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[17]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile22",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "утверждены торговые политики (практики) хозяйствующих субъектов, занимающих доминирующее положение правила формирования экономически обоснованного уровня цен",
+      "node_id": "fp_326:passport-result-37:6c2af96058dace70",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[18]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 15,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile23",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "расширен перечень биржевых товаров дополнение перечня биржевых товаров (увеличение количества с 30 в 2023 году до 40 в 2030 году)",
+      "node_id": "fp_326:passport-result-37:ed3d4fdb3c7bfed0",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[19]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 13,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile24",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "расширен перечень товаров, внебиржевые сделки по которым регистрируются на бирже дополнение перечня товаров, по которым регистрируются внебиржевые договоры на бирже (увеличение количества с 38 в 2023 году до 50 в 2030 году)",
+      "node_id": "fp_326:passport-result-37:952e60b7ea1adbb2",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[20]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 25,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile25",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "сформированы национальные ценовые индикаторы обеспечение стабильности ценообразования (увеличение количества ценовых индикаторов с 21 в 2023 году до 35 в 2030 году)",
+      "node_id": "fp_326:passport-result-7:cc4325b709263ea1",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[21]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 14,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile26",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "расширен перечень товаров, используемых для создания национальных ценовых индикаторов",
+      "node_id": "fp_326:passport-purpose-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile27",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "создана система развития конкуренции на товарных рынках",
+      "node_id": "fp_326:passport-purpose-2:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_326:profile28",
+      "document_id": "fp_326",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "рост совокупной удовлетворенности участников рынка",
+      "node_id": "fp_326:passport-purpose-3:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "n_tokens": 5,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_326:kwic1",
+      "document_id": "fp_326",
+      "frame": "access_rights",
+      "matched": "доступных",
+      "context": "дикаторов выработка рекомендаций для операторов железнодорожного подвижного состава по формированию рыночных (доступных) ценовых индикаторов за счет размещения части парка подвижного состава на электронной торговой площадке разви",
+      "unit_id": "fp_326:profile13",
+      "unit_ids": [
+        "fp_326:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic2",
+      "document_id": "fp_326",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "ентров, экспедиторов), осуществляющих деятельность на конкурентных рынках, с учетом необходимости обеспечения доступности подвижного состава для социальных, воинских и специальных перевозок, а также обеспечения реализации проектов ",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic3",
+      "document_id": "fp_326",
+      "frame": "access_rights",
+      "matched": "прав",
+      "context": "ельных отраслевых торгов по реализации государственного и муниципального имущества, в том числе имущественных прав обеспечение равного доступа хозяйствующих субъектов к государственному и муниципальному имуществу увеличен об",
+      "unit_id": "fp_326:profile19",
+      "unit_ids": [
+        "fp_326:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[15]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic4",
+      "document_id": "fp_326",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "ров за счет размещения части парка подвижного состава на электронной торговой площадке развита конкуренция на цифровых рынках выделение конкурентной деятельности на смежных с системообразующей цифровой платформой товарных рынках",
+      "unit_id": "fp_326:profile14",
+      "unit_ids": [
+        "fp_326:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic5",
+      "document_id": "fp_326",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "дке развита конкуренция на цифровых рынках выделение конкурентной деятельности на смежных с системообразующей цифровой платформой товарных рынках в отдельные юридические лица реализован механизм обязательного уведомления уполном",
+      "unit_id": "fp_326:profile14",
+      "unit_ids": [
+        "fp_326:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic6",
+      "document_id": "fp_326",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " рынках, в соответствии со сформированным планом мероприятий по поэтапному отчуждению долей с оценкой влияния данных решений на социально-значимые перевозки пассажиров и грузов поэтапное отчуждение долей участия перевозчика - ",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic7",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "товарных рынков по перечню усовершенствована система национальных ценовых индикаторов повышение экономической эффективности и конкурентоспособности хозяйствующих субъектов, а также повышение удовлетворенности потребителей за счет улу",
+      "unit_id": "fp_326:profile4",
+      "unit_ids": [
+        "fp_326:profile4"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic8",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "мониторинги",
+      "context": "ов естественных монополий, снижения административных барьеров, развития системы ценовых индикаторов проведены мониторинги уровня развития конкуренции на товарных рынках проведена оценка состояния конкуренции в соответствии с методи",
+      "unit_id": "fp_326:profile5",
+      "unit_ids": [
+        "fp_326:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic9",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "ия системы ценовых индикаторов проведены мониторинги уровня развития конкуренции на товарных рынках проведена оценка состояния конкуренции в соответствии с методикой, определены проблемные рынки утвержден стандарт развития кон",
+      "unit_id": "fp_326:profile5",
+      "unit_ids": [
+        "fp_326:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic10",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "оценки",
+      "context": "го плана («дорожной карты») развития конкуренции в российской федерации на 2026–2030 годы утверждена методика оценки уровня развития конкуренции на товарных рынках методика содержит в том числе: понятие \"товарный рынок\", поряд",
+      "unit_id": "fp_326:profile9",
+      "unit_ids": [
+        "fp_326:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic11",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "оценкой",
+      "context": " на конкурентных рынках, в соответствии со сформированным планом мероприятий по поэтапному отчуждению долей с оценкой влияния данных решений на социально-значимые перевозки пассажиров и грузов поэтапное отчуждение долей участия",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic12",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "мониторинги",
+      "context": "ния объема реализации нефтепродуктов на бирже с 31000000,0 в 2023 году до 34000000,0 в 2030 году организованы мониторинги удовлетворенности хозяйствующих субъектов /потребителей условиями функционирования товарных рынков проведение",
+      "unit_id": "fp_326:profile21",
+      "unit_ids": [
+        "fp_326:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[17]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[17]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic13",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "удовлетворенности хозяйствующих субъектов /потребителей условиями функционирования товарных рынков проведение мониторинга удовлетворенности хозяйствующих субъектов/потребителей условиями функционирования товарных рынков и оценка ди",
+      "unit_id": "fp_326:profile21",
+      "unit_ids": [
+        "fp_326:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[17]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[17]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic14",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "ниторинга удовлетворенности хозяйствующих субъектов/потребителей условиями функционирования товарных рынков и оценка динамики удовлетворенности утверждены торговые политики (практики) хозяйствующих субъектов, занимающих домини",
+      "unit_id": "fp_326:profile21",
+      "unit_ids": [
+        "fp_326:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[17]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[17]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic15",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "железнодорожного",
+      "context": "ния на электронной торговой площадке и формирования ценовых индикаторов выработка рекомендаций для операторов железнодорожного подвижного состава по формированию рыночных (доступных) ценовых индикаторов за счет размещения части парка по",
+      "unit_id": "fp_326:profile13",
+      "unit_ids": [
+        "fp_326:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic16",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозчиком",
+      "context": "ельные юридические лица реализован механизм обязательного уведомления уполномоченного государственного органа перевозчиком/владельцем инфраструктуры о решениях в сфере перевозки грузов (прекращение или ограничение приема груза /поро",
+      "unit_id": "fp_326:profile15",
+      "unit_ids": [
+        "fp_326:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic17",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозки",
+      "context": "уведомления уполномоченного государственного органа перевозчиком/владельцем инфраструктуры о решениях в сфере перевозки грузов (прекращение или ограничение приема груза /порожнего вагона к перевозке), включая определение критерие",
+      "unit_id": "fp_326:profile15",
+      "unit_ids": [
+        "fp_326:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic18",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозке",
+      "context": "раструктуры о решениях в сфере перевозки грузов (прекращение или ограничение приема груза /порожнего вагона к перевозке), включая определение критериев принятия таких решений, обеспечение публичности принимаемых решений - произве",
+      "unit_id": "fp_326:profile15",
+      "unit_ids": [
+        "fp_326:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic19",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозчика",
+      "context": "я таких решений, обеспечение публичности принимаемых решений - произведено поэтапное отчуждение долей участия перевозчика - владельца инфраструктуры в хозяйствующих субъектах, осуществляющих деятельность на конкурентных рынках, в с",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic20",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозки",
+      "context": "нным планом мероприятий по поэтапному отчуждению долей с оценкой влияния данных решений на социально-значимые перевозки пассажиров и грузов поэтапное отчуждение долей участия перевозчика - владельца инфраструктуры в хозяйствующих",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic21",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозчика",
+      "context": "влияния данных решений на социально-значимые перевозки пассажиров и грузов поэтапное отчуждение долей участия перевозчика - владельца инфраструктуры в хозяйствующих субъектах (логистических операторов, операторов подвижного состав,",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic22",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "логистических",
+      "context": "и грузов поэтапное отчуждение долей участия перевозчика - владельца инфраструктуры в хозяйствующих субъектах (логистических операторов, операторов подвижного состав, операторов транспортно-логистических центров, экспедиторов), осущес",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic23",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "транспортно",
+      "context": " инфраструктуры в хозяйствующих субъектах (логистических операторов, операторов подвижного состав, операторов транспортно-логистических центров, экспедиторов), осуществляющих деятельность на конкурентных рынках, с учетом необходимо",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic24",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "логистических",
+      "context": "уры в хозяйствующих субъектах (логистических операторов, операторов подвижного состав, операторов транспортно-логистических центров, экспедиторов), осуществляющих деятельность на конкурентных рынках, с учетом необходимости обеспечени",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic25",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": "ках, с учетом необходимости обеспечения доступности подвижного состава для социальных, воинских и специальных перевозок, а также обеспечения реализации проектов развития инфраструктуры, предусмотренных документами стратегического",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_326:kwic1",
+      "document_id": "fp_326",
+      "frame": "access_rights",
+      "matched": "доступных",
+      "context": "дикаторов выработка рекомендаций для операторов железнодорожного подвижного состава по формированию рыночных (доступных) ценовых индикаторов за счет размещения части парка подвижного состава на электронной торговой площадке разви",
+      "unit_id": "fp_326:profile13",
+      "unit_ids": [
+        "fp_326:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic2",
+      "document_id": "fp_326",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "ентров, экспедиторов), осуществляющих деятельность на конкурентных рынках, с учетом необходимости обеспечения доступности подвижного состава для социальных, воинских и специальных перевозок, а также обеспечения реализации проектов ",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic3",
+      "document_id": "fp_326",
+      "frame": "access_rights",
+      "matched": "прав",
+      "context": "ельных отраслевых торгов по реализации государственного и муниципального имущества, в том числе имущественных прав обеспечение равного доступа хозяйствующих субъектов к государственному и муниципальному имуществу увеличен об",
+      "unit_id": "fp_326:profile19",
+      "unit_ids": [
+        "fp_326:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[15]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[15]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic4",
+      "document_id": "fp_326",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "ров за счет размещения части парка подвижного состава на электронной торговой площадке развита конкуренция на цифровых рынках выделение конкурентной деятельности на смежных с системообразующей цифровой платформой товарных рынках",
+      "unit_id": "fp_326:profile14",
+      "unit_ids": [
+        "fp_326:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic5",
+      "document_id": "fp_326",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "дке развита конкуренция на цифровых рынках выделение конкурентной деятельности на смежных с системообразующей цифровой платформой товарных рынках в отдельные юридические лица реализован механизм обязательного уведомления уполном",
+      "unit_id": "fp_326:profile14",
+      "unit_ids": [
+        "fp_326:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic6",
+      "document_id": "fp_326",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " рынках, в соответствии со сформированным планом мероприятий по поэтапному отчуждению долей с оценкой влияния данных решений на социально-значимые перевозки пассажиров и грузов поэтапное отчуждение долей участия перевозчика - ",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic7",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "товарных рынков по перечню усовершенствована система национальных ценовых индикаторов повышение экономической эффективности и конкурентоспособности хозяйствующих субъектов, а также повышение удовлетворенности потребителей за счет улу",
+      "unit_id": "fp_326:profile4",
+      "unit_ids": [
+        "fp_326:profile4"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic8",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "мониторинги",
+      "context": "ов естественных монополий, снижения административных барьеров, развития системы ценовых индикаторов проведены мониторинги уровня развития конкуренции на товарных рынках проведена оценка состояния конкуренции в соответствии с методи",
+      "unit_id": "fp_326:profile5",
+      "unit_ids": [
+        "fp_326:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic9",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "ия системы ценовых индикаторов проведены мониторинги уровня развития конкуренции на товарных рынках проведена оценка состояния конкуренции в соответствии с методикой, определены проблемные рынки утвержден стандарт развития кон",
+      "unit_id": "fp_326:profile5",
+      "unit_ids": [
+        "fp_326:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic10",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "оценки",
+      "context": "го плана («дорожной карты») развития конкуренции в российской федерации на 2026–2030 годы утверждена методика оценки уровня развития конкуренции на товарных рынках методика содержит в том числе: понятие \"товарный рынок\", поряд",
+      "unit_id": "fp_326:profile9",
+      "unit_ids": [
+        "fp_326:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic11",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "оценкой",
+      "context": " на конкурентных рынках, в соответствии со сформированным планом мероприятий по поэтапному отчуждению долей с оценкой влияния данных решений на социально-значимые перевозки пассажиров и грузов поэтапное отчуждение долей участия",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic12",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "мониторинги",
+      "context": "ния объема реализации нефтепродуктов на бирже с 31000000,0 в 2023 году до 34000000,0 в 2030 году организованы мониторинги удовлетворенности хозяйствующих субъектов /потребителей условиями функционирования товарных рынков проведение",
+      "unit_id": "fp_326:profile21",
+      "unit_ids": [
+        "fp_326:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[17]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[17]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic13",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "удовлетворенности хозяйствующих субъектов /потребителей условиями функционирования товарных рынков проведение мониторинга удовлетворенности хозяйствующих субъектов/потребителей условиями функционирования товарных рынков и оценка ди",
+      "unit_id": "fp_326:profile21",
+      "unit_ids": [
+        "fp_326:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[17]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[17]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic14",
+      "document_id": "fp_326",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "ниторинга удовлетворенности хозяйствующих субъектов/потребителей условиями функционирования товарных рынков и оценка динамики удовлетворенности утверждены торговые политики (практики) хозяйствующих субъектов, занимающих домини",
+      "unit_id": "fp_326:profile21",
+      "unit_ids": [
+        "fp_326:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[17]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[17]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic15",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "железнодорожного",
+      "context": "ния на электронной торговой площадке и формирования ценовых индикаторов выработка рекомендаций для операторов железнодорожного подвижного состава по формированию рыночных (доступных) ценовых индикаторов за счет размещения части парка по",
+      "unit_id": "fp_326:profile13",
+      "unit_ids": [
+        "fp_326:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic16",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозчиком",
+      "context": "ельные юридические лица реализован механизм обязательного уведомления уполномоченного государственного органа перевозчиком/владельцем инфраструктуры о решениях в сфере перевозки грузов (прекращение или ограничение приема груза /поро",
+      "unit_id": "fp_326:profile15",
+      "unit_ids": [
+        "fp_326:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic17",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозки",
+      "context": "уведомления уполномоченного государственного органа перевозчиком/владельцем инфраструктуры о решениях в сфере перевозки грузов (прекращение или ограничение приема груза /порожнего вагона к перевозке), включая определение критерие",
+      "unit_id": "fp_326:profile15",
+      "unit_ids": [
+        "fp_326:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic18",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозке",
+      "context": "раструктуры о решениях в сфере перевозки грузов (прекращение или ограничение приема груза /порожнего вагона к перевозке), включая определение критериев принятия таких решений, обеспечение публичности принимаемых решений - произве",
+      "unit_id": "fp_326:profile15",
+      "unit_ids": [
+        "fp_326:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic19",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозчика",
+      "context": "я таких решений, обеспечение публичности принимаемых решений - произведено поэтапное отчуждение долей участия перевозчика - владельца инфраструктуры в хозяйствующих субъектах, осуществляющих деятельность на конкурентных рынках, в с",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic20",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозки",
+      "context": "нным планом мероприятий по поэтапному отчуждению долей с оценкой влияния данных решений на социально-значимые перевозки пассажиров и грузов поэтапное отчуждение долей участия перевозчика - владельца инфраструктуры в хозяйствующих",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic21",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозчика",
+      "context": "влияния данных решений на социально-значимые перевозки пассажиров и грузов поэтапное отчуждение долей участия перевозчика - владельца инфраструктуры в хозяйствующих субъектах (логистических операторов, операторов подвижного состав,",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic22",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "логистических",
+      "context": "и грузов поэтапное отчуждение долей участия перевозчика - владельца инфраструктуры в хозяйствующих субъектах (логистических операторов, операторов подвижного состав, операторов транспортно-логистических центров, экспедиторов), осущес",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic23",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "транспортно",
+      "context": " инфраструктуры в хозяйствующих субъектах (логистических операторов, операторов подвижного состав, операторов транспортно-логистических центров, экспедиторов), осуществляющих деятельность на конкурентных рынках, с учетом необходимо",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic24",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "логистических",
+      "context": "уры в хозяйствующих субъектах (логистических операторов, операторов подвижного состав, операторов транспортно-логистических центров, экспедиторов), осуществляющих деятельность на конкурентных рынках, с учетом необходимости обеспечени",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_326:kwic25",
+      "document_id": "fp_326",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": "ках, с учетом необходимости обеспечения доступности подвижного состава для социальных, воинских и специальных перевозок, а также обеспечения реализации проектов развития инфраструктуры, предусмотренных документами стратегического",
+      "unit_id": "fp_326:profile16",
+      "unit_ids": [
+        "fp_326:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "source_url": "https://databudget.ru/projects/fp/326",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/326",
+  "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe"
+}

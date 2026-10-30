@@ -36,7 +36,7 @@ def valid(row):
 
 
 def period_rows(rows):
-    regional = [r for r in rows if r.get('r') and isinstance(r.get('value'), (int, float))]
+    regional = [r for r in rows if r.get('r') and valid(r)]
     pool = regional or rows
     if not pool:
         return None, {}
@@ -51,9 +51,9 @@ def period_rows(rows):
     for rid, group in grouped.items():
         parts = [r for r in group if re.search(r'кроме|без.*автоном', r['territory'], re.I)]
         candidates = parts or group
-        numbers = {r['value'] for r in candidates if isinstance(r.get('value'), (int, float))}
+        numbers = {r['value'] for r in candidates if valid(r)}
         if len(numbers) == 1:
-            result[rid] = next(r for r in candidates if r.get('value') is not None)
+            result[rid] = next(r for r in candidates if valid(r))
     return key, result
 
 
@@ -100,20 +100,33 @@ def build(root=ROOT):
     packets, periods, selected, provenance = {}, {}, {}, []
     for d in cat['datasets']:
         info = sources.get(d['id'], {})
-        path = info.get('published_file') or f"data/baseline/{d['id']}.json"
+        path = info.get('published_file')
+        if not path: raise ValueError(f"No published current data for {d['id']}; archive substitution is forbidden")
         packed = read(public/path)
+        if packed.get('source_id') != d['id']: raise ValueError(f"Published source identity mismatch: {d['id']}")
         rows = [dict(zip(packed['columns'], row)) for row in packed['rows']]
         packets[d['id']] = rows
         key, selected[d['id']] = period_rows(rows)
         periods[d['id']] = key
         regions = {r['r'] for r in rows if r.get('r') and valid(r)}
         d.update(n_rows=len(rows), regional_count=len(regions), flags=sum(bool(r.get('flag')) for r in rows))
+        period_index = {}
+        for row in rows:
+            pkey = row['type'] + '|' + row['end']
+            p = period_index.setdefault(pkey, dict(key=pkey, type=row['type'], start=row['start'], end=row['end'], label=row['label'], n=0, region_ids=set()))
+            p['n'] += 1
+            if row.get('r') and valid(row): p['region_ids'].add(row['r'])
+        d['periods'] = [{**{k:v for k,v in p.items() if k != 'region_ids'}, 'regions':len(p['region_ids'])} for p in sorted(period_index.values(),key=lambda p:(p['end'],p['type']))]
+        d['min_year'] = min(r['year'] for r in rows)
+        d['max_year'] = max(r['year'] for r in rows)
         provenance.append(dict(id=d['id'], label=d['label'], period=key, source=path,
                                sha256=hashlib.sha256((public/path).read_bytes()).hexdigest(),
                                basis='latest' if info.get('published_file') else 'baseline',
                                state=info.get('state'), fetched_at=info.get('fetched_at')))
     cat['n_observations'] = sum(len(rows) for rows in packets.values())
     cat['basis'] = 'current'
+    cat['document_snapshot_date'] = cat.get('snapshot_date')
+    cat['snapshot_date'] = manifest.get('snapshot')
     cat['checked_at'] = manifest.get('checked_at')
     for i in cat['indicators']:
         rows = [r for sid in i['datasets'] for r in packets[sid]]

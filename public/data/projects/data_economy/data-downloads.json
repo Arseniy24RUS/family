@@ -1,0 +1,635 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "url": "downloads/projects/data_economy/statistics/annual_december_comparisons.csv",
+      "bytes": 5,
+      "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/availability.csv",
+      "bytes": 35987,
+      "sha256": "3b698ffd9be66bd82175fbf2d354ed8cde133afab37a71a94558f8088ca19efd"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/digital_diagnostics.csv",
+      "bytes": 26562,
+      "sha256": "eadeb41c5ebf271235d8020ee943de85b2bf9cf8343dfc37d822deabb322dfe5"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/digital_profiles.csv",
+      "bytes": 381784,
+      "sha256": "4d9aa170920e08b4c9b95232d4d19aa79263ccd148f81aba2400707cb314c072"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62751.zip",
+      "bytes": 23184,
+      "sha256": "3d68aca623684ac9e7c671371df8501d062bafce1bfce6c45c9e08dd83f57d22"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62752.zip",
+      "bytes": 141609,
+      "sha256": "e3d2be37685679a5a59ebd7e6b1b142c483e87e63dc826a82b7e1a6f559f0e26"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62753.zip",
+      "bytes": 25592,
+      "sha256": "3c111e0af5e95e3a6987d2fb7dd4b0d47226a4d21c10f4770d9a1d216ce4ef8a"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62754.zip",
+      "bytes": 23542,
+      "sha256": "9e0002f0941b608618991b533edc0b674e9b0cd808d81038d0512d33fd6d593f"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62755.zip",
+      "bytes": 23566,
+      "sha256": "b71c92e1f3888a93be1246986d21d58ed791d8b6b438daa6e26432733e4b5adc"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62756.zip",
+      "bytes": 23527,
+      "sha256": "17723e62844e88fc83fc77295efc8caa4e3b38a41a5dd671355dd01a31109fbc"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62757.zip",
+      "bytes": 91263,
+      "sha256": "9a0bff6a468dbe1894d8fd21fb7070e03e319cadbd97b3b3095b1b851f21a2eb"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62758.zip",
+      "bytes": 23612,
+      "sha256": "c9b6fcc06955d035ef63ac4a9b341a9023e2efbe42435e68ece7ad1ad2c67f83"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62759.zip",
+      "bytes": 22938,
+      "sha256": "64b1ef255b73a1edd4cb8dbae28f985192692ec64f37b6d1b0ba0e9d4e6e0e9c"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62760.zip",
+      "bytes": 192081,
+      "sha256": "25ac684e72fde4d184303dfd8e9bb9274f7fbc08c24e4a1c7ac06a8e0826c146"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62761.zip",
+      "bytes": 22828,
+      "sha256": "495ab1fa9de2b6ab1ddb9ee2131540b6de9e50fac02fd3f603357a5736026539"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62763.zip",
+      "bytes": 192583,
+      "sha256": "6ee8f54ca4816529ea3d983b5df31ddedbf9455584f3db87fd54f265573797c2"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62764.zip",
+      "bytes": 23759,
+      "sha256": "ed6ed03c3d92f3c0133b391808ae72ac82c0191ffefebf3337cef05aa036725c"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62765.zip",
+      "bytes": 23049,
+      "sha256": "cebfcad7ed78e7d95418531aadf0be4336b2553c0a984a14e585cccd16264638"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62766.zip",
+      "bytes": 197490,
+      "sha256": "e606e0ef7b7692e68d5f60dd0101e6be64ebaeeb8eebd1c9cff383c9d8b7508a"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62767.zip",
+      "bytes": 170169,
+      "sha256": "145c6294745f1aeb5379d7f826f3357e0b0cd2291c3ebe1697f54bc69c499c45"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62803.zip",
+      "bytes": 23082,
+      "sha256": "71d9cd5c97968a07994031a8cf0d114a57ddce9c989be3b38891c114bec6813d"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62805.zip",
+      "bytes": 22854,
+      "sha256": "1a8bae9545dbb8f80ace51c71c4dd8d5db2a58ed9d0e27ed88eab88220ac3e17"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62806.zip",
+      "bytes": 22433,
+      "sha256": "a0ae603be63231ed13fb295ee1a385614f874da8eb31292541b451a9c68fdabe"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62807.zip",
+      "bytes": 23328,
+      "sha256": "1b9876e56ce5240169a72b8d5cc79bc69a440d0f621271dca8087af69707b677"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62808.zip",
+      "bytes": 23127,
+      "sha256": "c3249ffce7eb1cad976e50c0deedb525cce4250dfbd83fd126a3edaa12b95df9"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62809.zip",
+      "bytes": 23234,
+      "sha256": "727b15a1443e1d5ffcff5acc53c190a566177c4f0358948e6cecb77bbb7db212"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62810.zip",
+      "bytes": 22940,
+      "sha256": "a8c346a4d3ee8639699d43728cffaf85a5fc41916e504d9223e0ad38b8c94326"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62811.zip",
+      "bytes": 22321,
+      "sha256": "94f9a0c786fb890ad04dd6f44c0804b75aef4e3cc4f5ff8e0350724a3c77e1c7"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62813.zip",
+      "bytes": 22810,
+      "sha256": "46092cba34591d769788005fc15d619d648ae1df4565a5268ba93c95f49dbc72"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62814.zip",
+      "bytes": 23676,
+      "sha256": "7bcfd291636f82de03a8d512344759570d4ad11c6f80abb20608f08fdef30610"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62815.zip",
+      "bytes": 196237,
+      "sha256": "056916bc0a9c5cae7aae4ec12b2bd761d31b5b84b299ea698b9a3a5484361d75"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62816.zip",
+      "bytes": 23028,
+      "sha256": "ac3bb7e2e618e37c994fb5ba256916ea0a482a54e1b0f159dd2a3b74fae3789c"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62817.zip",
+      "bytes": 22530,
+      "sha256": "628cc347f38d271afa3569546741aeb33523fcb2744c7a455496f6f1591b9337"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62818.zip",
+      "bytes": 22539,
+      "sha256": "612c9809a460a595b5bf33084d16d87420b3df94804a0d98882edd421d2854d4"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62830.zip",
+      "bytes": 22711,
+      "sha256": "429be6651f4fe0a3f5bfa16b2aad9bafec4a125cef559b6d86442b810b89c9f5"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62856.zip",
+      "bytes": 24690,
+      "sha256": "e58ca3814e08513e2c00c7d7bb483752629e04a5b6e61692a8dd1f53b712704d"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62857.zip",
+      "bytes": 22415,
+      "sha256": "6a82514aeb865a6d80a16d2c3baf4ecda301aa1e0d3a6ab8e50b6ecd5482f358"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62864.zip",
+      "bytes": 22962,
+      "sha256": "e6d100b78c87fc10af718b734d05f70a13c3ca08a76c77c833fc0a0598915d0c"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62866.zip",
+      "bytes": 22679,
+      "sha256": "90d04e77a890c2f5c5b7d3c3f38bfa9d80f1b9c6e3a383f49e798eedcdaf8938"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62867.zip",
+      "bytes": 22817,
+      "sha256": "6920ce7690c29b30b0703ab31abad474ada80e7c1f5d155b53f4da62439af9e4"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62868.zip",
+      "bytes": 22889,
+      "sha256": "9c68b0fc7815a6487047666f6c182fa9ee7a31240ac44f1e4f72ccf1473cd789"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62869.zip",
+      "bytes": 22931,
+      "sha256": "7b77c016976736ab173839b79e9f682ffcfd95473300e1e3e8df6b5b5ce28774"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62870.zip",
+      "bytes": 23256,
+      "sha256": "f4260bfca9ad56a3d04cf288b40e426a6dbc28a37013248e7a2a0a6a52a3112b"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62880.zip",
+      "bytes": 24048,
+      "sha256": "49dd676cec4482de4d3257561ecc0d77dbfe7b41635c7091c78d7a8fdde39051"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62883.zip",
+      "bytes": 23393,
+      "sha256": "6608b1b57c740272fe2a5b5d5266abfaebedecda60ec4c75d807b6bde5ff1fb6"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62888.zip",
+      "bytes": 20783,
+      "sha256": "0116080ebd622b72608e21022d71b47cde324a2ea94e114059512e78c4f511d8"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62889.zip",
+      "bytes": 22698,
+      "sha256": "fdfbe38861ef826acb4035b2f8bc78d8982ac5cb38f386239cdae40a4186becf"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/62904.zip",
+      "bytes": 22868,
+      "sha256": "a299980ffcd53b46dee8a33c86770ec158378448e6f56257326447d8b49df58e"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/63143.zip",
+      "bytes": 21708,
+      "sha256": "07dfa1010451e47d2b93d0cbdcbf8dab1a3efaeb5371a741fdb5e43828e2fed5"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/63144.zip",
+      "bytes": 23031,
+      "sha256": "ca6b84935890bf8ec3c059961eb0dde796792de99cbd043af7c68969085abf91"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/63145.zip",
+      "bytes": 23073,
+      "sha256": "9dd72bd4236538e553d75c95cb7d60c46be94fac2a3c7451eb621fb416bce728"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/emiss_inputs/63475.zip",
+      "bytes": 20661,
+      "sha256": "967b8e05939517cd20ed3c342cd1cf65b730bf5d709f3dfb803ef58de4cad643"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/multivariate.json",
+      "bytes": 353348,
+      "sha256": "d7da5c2941bd251ccf7710b16d37153ce8eeac0e13fd5ccacce7c800b8cf24b1"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/multivariate_features.csv",
+      "bytes": 920,
+      "sha256": "0782a552e5b73535e774467616dae38557ae515c3d44ecf0feb7d5721364cc7b"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/multivariate_imputations.csv",
+      "bytes": 360,
+      "sha256": "6fbb201bf3adf693fca6ec7949a1ad6d6d69527409c4a26e78e756a9dee2748f"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/multivariate_inputs.csv",
+      "bytes": 56268,
+      "sha256": "b26cbe9429f23fd342661b1304a5bc449d55a168ecda5159eb0a3c4872168469"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/multivariate_pca_scores.csv",
+      "bytes": 8857,
+      "sha256": "dfbc11d2c3054ee84877129bd033d471740399e25da92fcd3abfbcd9cf4f271a"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/multivariate_replication.csv",
+      "bytes": 6025,
+      "sha256": "6906edb380e5234e14e7941dccd7a81a50726fa3647452d2a64674a004da7e54"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/multivariate_temporal_inputs.csv",
+      "bytes": 64935,
+      "sha256": "e1ada14f3daf7d922ba66b5208ce591aa1bab86f22931ddc0ee089dd1e187dec"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/national_changes.csv",
+      "bytes": 231456,
+      "sha256": "b9a1b340414fc8c2580102fff2a5619fd6ad9722d210c96035eb340b0994ad3a"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/original_code/quantitative_analysis.py",
+      "bytes": 42309,
+      "sha256": "84770926ff330f10826dbb47ded46e4644ea05cbfc9ff8dcd5cd9731f4ad27cd"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/quality_flags.csv",
+      "bytes": 8135,
+      "sha256": "9527ed072515250c264b1f7bfb00b0a195941b2ec6492cac17cb42c56393f850"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/multivariate_reference.json",
+      "bytes": 879766,
+      "sha256": "efe49268fab7d3cd2d9f30fd7179d1d28b08fbcd73bc9368aed5eb42b54c5b7f"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_baseline_features.csv",
+      "bytes": 655,
+      "sha256": "aeb0cffaeaafcb7a84686d8556b22d0c59403d767b14a810b99a46b7eaf803fe"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_baseline_inputs.csv",
+      "bytes": 71284,
+      "sha256": "073addd9549d089f1583e3bad2a22328b2d193954c08aa0c47cac264671c97fb"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_baseline_panels.csv",
+      "bytes": 385,
+      "sha256": "cb1f9c66e5d2bfd91ba33b9fd892b057587529e28ddadfd63b98b0a41386fd20"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_cluster_seed_candidates.csv",
+      "bytes": 2181,
+      "sha256": "833a887a22208a4ae6c0ec35e592a3a43b0de9ad711c17942440ad94d99dbd75"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_cluster_seed_memberships.csv",
+      "bytes": 35697,
+      "sha256": "43d1e462e7108bedebb9a7a37ce257499530336dae0ae57c2d42a6589452f52c"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_cluster_seed_runs.csv",
+      "bytes": 1496,
+      "sha256": "c9bc65d3cab13415e2f326378ce2693d2c581f316cec950997fffca1ea455049"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_feature_memberships.csv",
+      "bytes": 32377,
+      "sha256": "9470e7e321cc15f5747c10a5cddd2e811d402dd5c3875e6598233ea119427872"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_feature_sensitivity.csv",
+      "bytes": 1272,
+      "sha256": "2f34fc095bd06eb619c7e880a2c167cb35d2a1dbcbb3b889093e4d57b4c8d99f"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_outlier_seed_runs.csv",
+      "bytes": 740,
+      "sha256": "02536cfc402e9af0357344f209016eb6ba12fa2c433484daf67b19861556415e"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_outlier_stability.csv",
+      "bytes": 18460,
+      "sha256": "5fb2ad2dc098681c27e46a30b442aca97649e92d12c58460445b8aab96b0a8be"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_temporal_comparison.csv",
+      "bytes": 858,
+      "sha256": "a19082387e0a27e709a6d2009cd90fcddfbe1a515b05096533f00f6cbad0409b"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/reference/q_temporal_inputs.csv",
+      "bytes": 154010,
+      "sha256": "ac984cb874d5cb514529499a44c66f38f13badf684146dbc47aabc38e73c846d"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/regional_summaries.csv",
+      "bytes": 2071,
+      "sha256": "2c501e80887bfc0c7ccd4ee4884af52f7e0d73857e444f7959fb842d9a7a7bc9"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62751.csv.gz",
+      "bytes": 1152,
+      "sha256": "8098ac2d6d4a57ad12c174d86dbfcfa644d61ed362aa4cae532c9460470a5291"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62752.csv.gz",
+      "bytes": 29911,
+      "sha256": "07152c4713041d3a89748b78f6c4d7ca220134ac8aa284d7e7394c2130041466"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62753.csv.gz",
+      "bytes": 1137,
+      "sha256": "08a53ff914eadf2d2ff3cc7126715c0c61b004bb540386d2c74f061ec1ad1784"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62754.csv.gz",
+      "bytes": 1116,
+      "sha256": "1b017e3d614160eb8a4e6cb173c6db020cc453e406cf5895eda559fae2f32b64"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62755.csv.gz",
+      "bytes": 1117,
+      "sha256": "427344c5f79482434d816c0a24bf52133626e4dcb7abc3deb4dff0e9b8b835e8"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62756.csv.gz",
+      "bytes": 1149,
+      "sha256": "c305c10f939a81313556519f7bbdc745c0b1e3ae300e9d228f32d96738b8e8a6"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62757.csv.gz",
+      "bytes": 17749,
+      "sha256": "9dd65cb7562f5654fc77ec9bf86acd35f5821112bf8070c97f1cd5a5a96922eb"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62758.csv.gz",
+      "bytes": 1113,
+      "sha256": "58390e0d843d9ea2365e67b7d5aea9e5db6329cb7bf6ca92402e562e9d83d98e"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62759.csv.gz",
+      "bytes": 1142,
+      "sha256": "710cb6bb219bea487dc302b4cd94d6a1a2e63f537224685ee9b115efcebb4c9d"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62760.csv.gz",
+      "bytes": 47352,
+      "sha256": "e853def56d79a68447fe8f1a9e9cc9f6d60d820a5289163fa0f8ad485cba2605"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62761.csv.gz",
+      "bytes": 1203,
+      "sha256": "b20d862d70ae719e1d697c1784bfbc4d6f63a52b7fb6433994565e5b45d4a86a"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62763.csv.gz",
+      "bytes": 40465,
+      "sha256": "5c85ec3cee98037be893a48f672a8aeca8316a0b68a95c89051c8b7e9b9d90d1"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62764.csv.gz",
+      "bytes": 1129,
+      "sha256": "55b9c2f8eb2b90370e96294c2d818f849adb61ac8b39c1e85d7143d0b32ae3b4"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62765.csv.gz",
+      "bytes": 1146,
+      "sha256": "55e34aa605f77c470d14af87cefe1f8a637fa446cfad1030824b34f7a7c70ea6"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62766.csv.gz",
+      "bytes": 48094,
+      "sha256": "3cf57ecb39dcb34790652cae8673a4bd294bdf38c150a849e95eed21100280b9"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62767.csv.gz",
+      "bytes": 38326,
+      "sha256": "837ded984b65091c2c806436497f8831921eb5e48d23f033bf673572484a3804"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62803.csv.gz",
+      "bytes": 1086,
+      "sha256": "e758398253a1a5b6ae572252ad7acb3dc790e00be1ab7f92f6b1b9c3dcb0db92"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62805.csv.gz",
+      "bytes": 1098,
+      "sha256": "42f198934a68b0bbffd63db895bb355dbeecd4aeba700ccc214f7e9a0bf0de77"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62806.csv.gz",
+      "bytes": 1082,
+      "sha256": "506f4d753d9ed1ad572e5faf49b1993d56e173e5b1c667c3966bd527283fc2f6"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62807.csv.gz",
+      "bytes": 1112,
+      "sha256": "0b8bf61e790b353fc94e7f26c5a512bef907475b5886f38636d0cbb44cf5dfb1"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62808.csv.gz",
+      "bytes": 1080,
+      "sha256": "e5613d6dd91a59ee247ad603b8dcbca09595cd47b1aeee2d2b18f578260c4df2"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62809.csv.gz",
+      "bytes": 1262,
+      "sha256": "6295514909955461b09a48ce7b17706a842918e13ad5a2655b10f5b6a45aeeb9"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62810.csv.gz",
+      "bytes": 1141,
+      "sha256": "ea4154bcbd72c7f743af61afd99f91d8fafea35cd9bd1f114d338678f0379b8a"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62811.csv.gz",
+      "bytes": 1145,
+      "sha256": "1bf760b5f60138c1f268874afa4147c55f7aad2ba6835d1a5bb3c2d342b02625"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62813.csv.gz",
+      "bytes": 1079,
+      "sha256": "ea25e62b11dfa814335718e3bfdc362cd98f173bb7b4b71389a604a2ae41b4b4"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62814.csv.gz",
+      "bytes": 1159,
+      "sha256": "6b51469a60a95e223750f4f8584df7369df34f5ad14523fe535395b0180fcb54"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62815.csv.gz",
+      "bytes": 49924,
+      "sha256": "c797dd3e529b65fc0fbfd93fdd619d783d31f6a4f536c750960a3b8fe2b7d17f"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62816.csv.gz",
+      "bytes": 1089,
+      "sha256": "fa6806e63c77d9e6f96b5c8a45c830b40ab25ae651a284ff342ae9ef1c38c109"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62817.csv.gz",
+      "bytes": 1195,
+      "sha256": "ef55e70741ad8f586168258e04550a7b8bd9babc23596aa0d721955697352715"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62818.csv.gz",
+      "bytes": 1070,
+      "sha256": "27b024d03120e593e6ce65d45cf2905859625172357b93d896d1a2f465dc2998"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62830.csv.gz",
+      "bytes": 1179,
+      "sha256": "86052edfa1f7ed596589f3cec20f3500bf15526cdd3a81d3b3d465f95282d4a5"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62856.csv.gz",
+      "bytes": 1190,
+      "sha256": "2a114c2ea1a12df320a39eb575f50d8c80bb28be127bf5f21d88532bc05935f8"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62857.csv.gz",
+      "bytes": 1164,
+      "sha256": "1d06596e7ef8158f78ab0a2cb3d804f962b772cd011ee74d89562e981c380592"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62864.csv.gz",
+      "bytes": 1182,
+      "sha256": "274793dcbcb253b967ce84646e14a0c068f468c38c33c91977b70ba3e69d6922"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62866.csv.gz",
+      "bytes": 1129,
+      "sha256": "a013a33f1f1cb99508d37e7ab526b15285a304b95de0d92136346942597e0855"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62867.csv.gz",
+      "bytes": 1114,
+      "sha256": "713df594349b68d6e3065a83d79802aa29a4f8aa1acb4292bf7bfb73776784c7"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62868.csv.gz",
+      "bytes": 1116,
+      "sha256": "a2bfa5fb4dd5659b053bfb483272c9c2dc7ec5b3e82cf166dc30ae85a971493f"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62869.csv.gz",
+      "bytes": 1101,
+      "sha256": "86fd306be3551d867c1641df9f40670268e558edf0d199447ceeffbfda9a566d"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62870.csv.gz",
+      "bytes": 1148,
+      "sha256": "43a1a752862598aecd63a3bf083ac4bf17dc1e842433390c29f5a5a4cb53918a"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62880.csv.gz",
+      "bytes": 1103,
+      "sha256": "3892327670b7e9a0b0a3fe52ce15335733a66a224bda6838fbbab85fa24ab4be"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62883.csv.gz",
+      "bytes": 1094,
+      "sha256": "b9696ee9ab22596487305768b1467faf51be93f9b97c2485feaf005232eb0b7f"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62888.csv.gz",
+      "bytes": 1246,
+      "sha256": "370d462762270ab056c3a4cd9f93a868b69e587b4da192d7962a6078a9760d4a"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62889.csv.gz",
+      "bytes": 1143,
+      "sha256": "534d1a8c5b06d4bdd6e874a541c7402b44aa0bf270c7b42e4d40a87dd0a2bf50"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/62904.csv.gz",
+      "bytes": 1210,
+      "sha256": "2b64893b1e05c4dbfac8c66531f8af4fd5f2a8b03cdc7138c91d3d5f1b4bbf0b"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/63143.csv.gz",
+      "bytes": 1170,
+      "sha256": "d7eeea4c36f2c0a95eea5116ff8393f3465236b9f1ed215e723f38a7de681308"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/63144.csv.gz",
+      "bytes": 1216,
+      "sha256": "5638e2aad422f86655f351b0b3e702e29a6a998b36811170e85b221dde1656c8"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/63145.csv.gz",
+      "bytes": 1139,
+      "sha256": "3a71149bcc7e8260045ca6b117fd519ad71a27396e762b963361b6ecc2b3a540"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/series/63475.csv.gz",
+      "bytes": 451,
+      "sha256": "91693641858e3c4c3e0ec8c3d617fdd9e0501117f65739876e5455a417c7338e"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/source_registry.csv",
+      "bytes": 47104,
+      "sha256": "ca24f3e3e84dbdb717131b5d8fe2e255050835230cec03227fe20dc24d1ebdef"
+    },
+    {
+      "url": "downloads/projects/data_economy/statistics/target_comparisons.csv",
+      "bytes": 322824,
+      "sha256": "cb830f4169a78c2fee6ff4ad008f3ecb337e580a31734b87611ba09a31e1d0fe"
+    }
+  ]
+}

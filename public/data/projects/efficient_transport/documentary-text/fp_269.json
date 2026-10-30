@@ -1,0 +1,218 @@
+{
+  "document": {
+    "project_id": "efficient_transport",
+    "kind": "fp",
+    "id": "fp_269",
+    "url": "https://databudget.ru/projects/fp/269",
+    "sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+    "retrieved_at": "2026-10-19T14:38:31.086236+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/35/35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad.html",
+    "document_id": "fp_269",
+    "code": "Т5",
+    "title": "[Т5] Внутренние водные пути",
+    "publisher_version": "26.18",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 115,
+    "n_tokens": 115,
+    "source_url": "https://databudget.ru/projects/fp/269",
+    "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+    "profile_text_sha256": "3705803bed2427534e2abb075a60dd3f4695a3122e2e4e20e00d27cd5c194f5f",
+    "archive_entry": "efficient_transport/fp_269.html",
+    "bytes": 650192,
+    "download_path": "downloads/projects/efficient_transport/documentary/sources/fp_269.html",
+    "profile_original_document_id": "html:35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_269:profile1",
+      "document_id": "fp_269",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года)",
+      "node_id": "fp_269:passport-task-07:3ae369840cddd816",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "source_url": "https://databudget.ru/projects/fp/269",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_269:profile2",
+      "document_id": "fp_269",
+      "project_id": "efficient_transport",
+      "kind": "goal",
+      "text": "увеличена мощность опорной сети внутренних водных путей в составе единой опорной транспортной сети для удовлетворения потребностей государства, бизнеса и населения за счет устранения лимитирующих участков.",
+      "node_id": "fp_269:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "source_url": "https://databudget.ru/projects/fp/269",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_269:profile3",
+      "document_id": "fp_269",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "созданы/реконструированы объекты инфраструктуры внутренних водных путей реализованы мероприятия, направленные на сокращение лимитирующих участков внутренних водных путей на единой глубоководной системе европейской части российской федерации, не обеспечивающих проход судов с осадкой 3,6 м, с 667 км в 2025 году до 68 км в 2030 году, а также мероприятия, направленные на обеспечение безопасности судоходных гидротехнических сооружений (повышение/поддержание уровня безопасности судоходных гидротехнических сооружений до нормального и/или пониженного).",
+      "node_id": "fp_269:passport-result-1:8c12445f9799d75d",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "source_url": "https://databudget.ru/projects/fp/269",
+      "n_tokens": 55,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_269:profile4",
+      "document_id": "fp_269",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "обеспеченность прохода судов с осадкой 3,6 м на егс",
+      "node_id": "fp_269:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "source_url": "https://databudget.ru/projects/fp/269",
+      "n_tokens": 6,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_269:profile5",
+      "document_id": "fp_269",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "доля судоходных гидротехнических сооружений, удовлетворяющих требованиям к дальнейшей эксплуатации",
+      "node_id": "fp_269:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "source_url": "https://databudget.ru/projects/fp/269",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_269:kwic1",
+      "document_id": "fp_269",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "утренних водных путей в составе единой опорной транспортной сети для удовлетворения потребностей государства, бизнеса и населения за счет устранения лимитирующих участков. созданы/реконструированы объекты инфраструктуры внутрен",
+      "unit_id": "fp_269:profile2",
+      "unit_ids": [
+        "fp_269:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "source_url": "https://databudget.ru/projects/fp/269",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_269:kwic2",
+      "document_id": "fp_269",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_269:profile1",
+      "unit_ids": [
+        "fp_269:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "source_url": "https://databudget.ru/projects/fp/269",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_269:kwic3",
+      "document_id": "fp_269",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "30 года (к уровню 2024 года) увеличена мощность опорной сети внутренних водных путей в составе единой опорной транспортной сети для удовлетворения потребностей государства, бизнеса и населения за счет устранения лимитирующих участко",
+      "unit_id": "fp_269:profile2",
+      "unit_ids": [
+        "fp_269:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "source_url": "https://databudget.ru/projects/fp/269",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_269:kwic1",
+      "document_id": "fp_269",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "утренних водных путей в составе единой опорной транспортной сети для удовлетворения потребностей государства, бизнеса и населения за счет устранения лимитирующих участков. созданы/реконструированы объекты инфраструктуры внутрен",
+      "unit_id": "fp_269:profile2",
+      "unit_ids": [
+        "fp_269:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "source_url": "https://databudget.ru/projects/fp/269",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_269:kwic2",
+      "document_id": "fp_269",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_269:profile1",
+      "unit_ids": [
+        "fp_269:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "source_url": "https://databudget.ru/projects/fp/269",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_269:kwic3",
+      "document_id": "fp_269",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "30 года (к уровню 2024 года) увеличена мощность опорной сети внутренних водных путей в составе единой опорной транспортной сети для удовлетворения потребностей государства, бизнеса и населения за счет устранения лимитирующих участко",
+      "unit_id": "fp_269:profile2",
+      "unit_ids": [
+        "fp_269:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "source_url": "https://databudget.ru/projects/fp/269",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/269",
+  "source_sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad"
+}

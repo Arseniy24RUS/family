@@ -1,0 +1,896 @@
+{
+  "schema_version": 1,
+  "project_id": "international_export",
+  "project_name": "Национальный проект «Международная кооперация и экспорт»",
+  "release_version": "2.12.0-platform.1",
+  "statistical_as_of": "2026-10-15",
+  "documentary_as_of": "2026-10-16",
+  "release_date": "2026-10-30",
+  "author_expertise_status": "published",
+  "registry": {
+    "project_id": "international_export",
+    "project_name": "Национальный проект «Международная кооперация и экспорт»",
+    "n_registry": 21,
+    "n_with_numeric": 17,
+    "original_catalog_numeric_indicators": 18,
+    "source_mapping_status": "source_cells_frequencies_and_indicator_definitions_reviewed",
+    "n_numeric_sources": 18,
+    "n_with_regional": 0,
+    "n_with_national": 18,
+    "n_unique_cells": 181,
+    "n_numeric": 181,
+    "n_usable": 181,
+    "n_domain_violations": 0,
+    "n_review_exclusions": 0,
+    "coverage_pct": 80.95238095238095,
+    "qualification": "Наличие числовой ячейки отделено от сопоставимости определения, годового результата и редакции цели. Таблицы Банка России имеют самостоятельный охват."
+  },
+  "panel": {
+    "project_id": "international_export",
+    "status": "not_applicable",
+    "reason": "Сопоставимая региональная панель нескольких показателей проекта отсутствует. Отдельная таблица экспорта услуг не заменяет её.",
+    "n_regions": 0,
+    "n_features": 0,
+    "n_imputed_cells": 0,
+    "common_regional_panel": false,
+    "k": null,
+    "silhouette": null,
+    "pc12_variance": null,
+    "pca_performed": false,
+    "clustering_performed": false,
+    "ranking_validated": false,
+    "spatial_autocorrelation_performed": false,
+    "external_context": {
+      "source": "Банк России",
+      "subject": "Экспорт услуг",
+      "years": [
+        2024,
+        2025
+      ],
+      "regions": 85,
+      "observations": 170,
+      "imputation": false,
+      "national_project_emiss_panel": false
+    }
+  },
+  "research": {
+    "project_id": "international_export",
+    "project_name": "Национальный проект «Международная кооперация и экспорт»",
+    "registry_indicators": 21,
+    "indicators_with_numeric": 17,
+    "original_catalog_numeric_indicators": 18,
+    "indicators_with_regional": 0,
+    "observations_numeric": 181,
+    "documents": 8,
+    "documentary_network_summary": {
+      "results": 47,
+      "tasks": 12,
+      "indicatorCards": 25,
+      "uniqueIndicators": 21,
+      "federalIndicatorCards": 18,
+      "goals": 5,
+      "structuralPairs": 284,
+      "structuralResults": 47,
+      "structuralIndicatorCards": 18,
+      "ambiguousClaims": 101,
+      "resolvedDirectLinks": 0,
+      "lexicalPairs": 15,
+      "lexicalResults": 15,
+      "lexicalIndicators": 10,
+      "resultsWithoutLexicalCandidate": 32
+    },
+    "multivariate_status": "not_applicable",
+    "passport_financing_2025_2030_thousand_rub": 723311645.1,
+    "adjusted_passport_financing_2025_2030_thousand_rub": 721973288.8,
+    "known_duplicate_transfer_thousand_rub": 1338356.3,
+    "financing_total_meaning": "Паспортные назначения в выбранной редакции, не исполненные расходы. Из арифметической суммы 2025–2030 исключён документально подтверждённый повторный трансферт 2025 года. Состав региональных назначений 2028–2029 раскрыт не полностью, поэтому полная консолидация не установлена. Кредиты, страховое покрытие, контракты и экспортная выручка к бюджетному плану не прибавляются.",
+    "strict_financing_hhi": null,
+    "arithmetic_financing_hhi": 0.3910959094263704,
+    "financing_status": "known_duplicate_removed_full_consolidation_unresolved",
+    "causal_effect_status": "not_identified_in_existing_sources",
+    "author_expertise_text_status": "published"
+  },
+  "results": {
+    "project_id": "international_export",
+    "project_name": "Национальный проект «Международная кооперация и экспорт»",
+    "n_registry": 21,
+    "n_numeric_indicators": 17,
+    "n_regional_indicators": 0,
+    "n_forecast_indicators": 0,
+    "n_projected_series": 0,
+    "forecast_status": "model_not_validated",
+    "n_documented_target_indicators": 21,
+    "n_eligible_annual_comparisons": 0,
+    "n_conditional_target_comparisons": 11,
+    "target_status": "source_linked_comparisons_with_explicit_period_status"
+  },
+  "corpus": {
+    "project_documents": 5,
+    "documentary_sources": 8,
+    "source_corpus_documents": 65,
+    "source_corpus_projects": 4,
+    "documentary_snapshot": "2026-10-16",
+    "qualification": "Пять паспортов, 65 текстовых профилей и источники авторского доклада являются самостоятельными единицами учёта. Точная авторская обработка текста не предоставлена."
+  },
+  "method_summary": {
+    "total": 39,
+    "by_status": {
+      "author_framework_published": 1,
+      "source_structure_published": 1,
+      "source_inventory_published": 1,
+      "evidence_classes_separated": 1,
+      "source_cells_and_frequencies_checked": 1,
+      "source_coverage_published": 1,
+      "annual_monthly_scope_separated": 1,
+      "qualified_source_comparisons": 1,
+      "model_not_validated": 1,
+      "external_cbr_context_joined": 1,
+      "external_services_context_mapped": 1,
+      "external_services_distribution_computed": 1,
+      "not_computed_incomparable_series": 1,
+      "not_applicable_without_regional_panel": 3,
+      "not_applicable_without_multivariate_model": 1,
+      "not_computed_without_spatial_design": 2,
+      "not_computed_without_common_features": 1,
+      "source_values_and_denominators_preserved": 1,
+      "financial_horizon_and_transfer_separated": 1,
+      "gross_plan_concentration_with_limits": 1,
+      "known_duplicate_removed_full_consolidation_unresolved": 1,
+      "documentary_network_published": 1,
+      "fixed_profile_corpus_terms_published": 1,
+      "explicit_dictionary_context_published": 1,
+      "independent_replication_with_disclosed_difference": 1,
+      "not_recomputed_in_current_study": 2,
+      "source_documents_published": 1,
+      "author_qualitative_analysis_published": 1,
+      "not_computed_without_scoring_protocol": 1,
+      "conditional_arithmetic_without_estimated_effect": 1,
+      "design_proposed_effect_not_identified": 1,
+      "effect_not_identified": 1,
+      "author_recommendations_published": 1,
+      "not_applicable_to_available_inputs": 1,
+      "source_backed_and_conditional_calculations": 1
+    }
+  },
+  "sections": [
+    {
+      "id": "framework",
+      "title": "Предмет и критерии оценки",
+      "question": "Какие вопросы ставит экспертиза и по каким критериям оценивается проект?",
+      "order": 1,
+      "publication_status": "published",
+      "evidence": "Экономический результат определяется с учётом цен, физических объёмов, повторных продаж, расходов государства и условий сопоставления поддержанных предприятий."
+    },
+    {
+      "id": "logic",
+      "title": "Механизмы экспортного результата",
+      "question": "Как связаны цели, мероприятия, ресурсы и ожидаемые результаты?",
+      "order": 2,
+      "publication_status": "published",
+      "evidence": "Кредитование, страхование, транспортные компенсации, зарубежные объекты, сертификация и цифровые услуги влияют на разные стадии экспортной операции."
+    },
+    {
+      "id": "audit",
+      "title": "Аудит показателей",
+      "question": "Какие результаты измеряет система мониторинга и чего в ней недостаёт?",
+      "order": 3,
+      "publication_status": "published",
+      "evidence": "Взвешенный инфраструктурный охват, поддержанные сделки, получатели помощи и накопленные цифровые счётчики имеют самостоятельные определения и правила наблюдения."
+    },
+    {
+      "id": "targets",
+      "title": "Цели и наблюдаемые результаты",
+      "question": "Что показывают сопоставимые ряды и насколько обоснованы ориентиры?",
+      "order": 4,
+      "publication_status": "published",
+      "evidence": "Планы выбранной редакции сопоставлены с годовыми итогами и одинаковыми накопленными периодами. Точность вывода зависит от методики, периода и редакции наблюдения."
+    },
+    {
+      "id": "map",
+      "title": "Территориальная концентрация экспорта",
+      "question": "Как различаются ситуации в субъектах России?",
+      "order": 5,
+      "publication_status": "published",
+      "evidence": "Региональная статистика услуг раскрывает распределение учтённых операций между 85 непересекающимися территориями. Место регистрации экспортёра может отличаться от места выполнения работ."
+    },
+    {
+      "id": "regions",
+      "title": "Региональные профили и охват",
+      "question": "Какие устойчивые сочетания условий и результатов можно выделить?",
+      "order": 6,
+      "publication_status": "published",
+      "evidence": "Аграрный экспорт, внедрение региональных инструментов и распределение субсидии центрам поддержки рассматриваются в пределах собственных территориальных совокупностей."
+    },
+    {
+      "id": "finance",
+      "title": "Финансирование и стоимость поддержки",
+      "question": "Как расходы соотносятся с задачами, результатами и территориальными потребностями?",
+      "order": 7,
+      "publication_status": "published",
+      "evidence": "Шестилетние паспортные назначения согласованы по горизонту и известному повторному учёту трансферта. Бюджетные предложения, кассовое исполнение и долгосрочные обязательства сохраняют самостоятельный статус."
+    },
+    {
+      "id": "network",
+      "title": "Связи мероприятий и показателей",
+      "question": "Какие направления связаны между собой и где возникают разрывы?",
+      "order": 8,
+      "publication_status": "published",
+      "evidence": "Принадлежность общей задаче образует 284 пары результатов и показателей. Экономическое содержание каждой связи проверяется по механизму, сроку и подтверждающим наблюдениям."
+    },
+    {
+      "id": "texts",
+      "title": "Документы и межпроектные связи",
+      "question": "Как сформулированы задачи и что остаётся за пределами языка документов?",
+      "order": 9,
+      "publication_status": "published",
+      "evidence": "Корпус из 47 профилей результатов и 18 наименований показателей используется для лексического сопоставления. Чувствительность к порогам и тематические пересечения ограничивают интерпретацию сходства."
+    },
+    {
+      "id": "domains",
+      "title": "Четыре федеральных направления",
+      "question": "Какие содержательные механизмы требуют отдельной проверки?",
+      "order": 10,
+      "publication_status": "published",
+      "evidence": "Промышленный экспорт, зарубежная инфраструктура, системные меры и экспорт продукции АПК объединяют 47 результатов и 18 вхождений показателей федеральных проектов."
+    },
+    {
+      "id": "causal",
+      "title": "Дополнительность поддержки",
+      "question": "Какие данные и сравнения позволят оценить вклад конкретных мер?",
+      "order": 11,
+      "publication_status": "published",
+      "evidence": "Дополнительный результат требует обоснованного сравнения с развитием без поддержки, согласованных цен, предшествующих наблюдений и проверки отбора участников."
+    },
+    {
+      "id": "proposals",
+      "title": "Предложения экспертизы",
+      "question": "Какие изменения следуют из проверенных результатов и как оценить их последствия?",
+      "order": 12,
+      "publication_status": "published",
+      "evidence": "Согласование определений, регистр сделок, наблюдение за эксплуатацией инфраструктуры и последовательная апробация дополнительных показателей формируют программу совершенствования мониторинга."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Экспертиза национального проекта «Международная кооперация и экспорт»",
+      "url": "downloads/projects/international_export/report/expertise_export_2026.docx",
+      "format": "DOCX",
+      "edition_date": "2026-10-29",
+      "qualification": "Исходный доклад сохранён полностью. Авторские выводы и первичные источники сохраняют собственные даты и основания."
+    },
+    {
+      "title": "Паспорт национального проекта «Международная кооперация и экспорт»",
+      "url": "https://economy.gov10.ru/upload/iblock/777/p1qi8nrhepfbuz2mrj6saxdqxpl7439g/NP-MKiE.pdf",
+      "urls": [
+        "https://economy.gov10.ru/upload/iblock/777/p1qi8nrhepfbuz2mrj6saxdqxpl7439g/NP-MKiE.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "national",
+      "sha256": "ab487272ea2f29681c031f2842cb081d02c29f6f7055bc07865ecf63234f6188",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T14:20:50+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/ab/ab487272ea2f29681c031f2842cb081d02c29f6f7055bc07865ecf63234f6188.pdf"
+    },
+    {
+      "title": "Паспорт национального проекта «Международная кооперация и экспорт»",
+      "url": "https://www.export04.ru/images/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82_%D0%9D%D0%9F_%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B8_%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82_2025-2030.pdf",
+      "urls": [
+        "https://www.export04.ru/images/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82_%D0%9D%D0%9F_%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B8_%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82_2025-2030.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "national",
+      "sha256": "daf13624baa54907228dfbb4de1096fa6444b175ca227391d386ba1978646874",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T14:13:03+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/da/daf13624baa54907228dfbb4de1096fa6444b175ca227391d386ba1978646874.pdf"
+    },
+    {
+      "title": "[М] Международная кооперация и экспорт",
+      "url": "https://databudget.ru/projects/np/27",
+      "urls": [
+        "https://databudget.ru/projects/np/27"
+      ],
+      "format": "HTML",
+      "document_level": "national",
+      "sha256": "b75432ae638d70250d5746d859beca3b0c65294183cf93297b614812eb216ea2",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+      "publisher_version_label": "Версия 26.21",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/b7/b75432ae638d70250d5746d859beca3b0c65294183cf93297b614812eb216ea2.html"
+    },
+    {
+      "title": "Презентация национального проекта «Международная кооперация и экспорт»",
+      "url": "https://export04.ru/images/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F_%D0%9D%D0%9F_%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B8_%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82-_%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9_%D0%B4%D0%BE_2030_%D0%B3.pdf",
+      "urls": [
+        "https://export04.ru/images/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F_%D0%9D%D0%9F_%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B8_%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82-_%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9_%D0%B4%D0%BE_2030_%D0%B3.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "presentation",
+      "sha256": "ac39d6fbf9fbc1ccd1c8480e55dc759a6629bd75d108b9e100c5fa9b2deb0c1f",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:42:20Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/ac/ac39d6fbf9fbc1ccd1c8480e55dc759a6629bd75d108b9e100c5fa9b2deb0c1f.pdf"
+    },
+    {
+      "title": "[М1] Промышленный экспорт",
+      "url": "https://databudget.ru/projects/fp/244",
+      "urls": [
+        "https://databudget.ru/projects/fp/244"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "8a77c7b3abfe6f3d7a9c0789e0cae1e8c9451d500974cae48d19a911089bec89",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:33.959377+00:00",
+      "publisher_version_label": "Версия 26.18",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/8a/8a77c7b3abfe6f3d7a9c0789e0cae1e8c9451d500974cae48d19a911089bec89.html"
+    },
+    {
+      "title": "[М2] Создание зарубежной инфраструктуры",
+      "url": "https://databudget.ru/projects/fp/263",
+      "urls": [
+        "https://databudget.ru/projects/fp/263"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "509f10bf201d9f0f35b943638cefc182188e6792c23d6f54758c81fe32afe383",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:35.198942+00:00",
+      "publisher_version_label": "Версия 26.19",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/50/509f10bf201d9f0f35b943638cefc182188e6792c23d6f54758c81fe32afe383.html"
+    },
+    {
+      "title": "[М3] Системные меры развития международной кооперации и экспорта",
+      "url": "https://databudget.ru/projects/fp/252",
+      "urls": [
+        "https://databudget.ru/projects/fp/252"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "cc8d6537528a5b798ac177bdabbeec0a8032ef8bf6125a5e11ead17618cef5c6",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:34.082479+00:00",
+      "publisher_version_label": "Версия 26.27",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/cc/cc8d6537528a5b798ac177bdabbeec0a8032ef8bf6125a5e11ead17618cef5c6.html"
+    },
+    {
+      "title": "[М4] Экспорт продукции агропромышленного комплекса",
+      "url": "https://databudget.ru/projects/fp/264",
+      "urls": [
+        "https://databudget.ru/projects/fp/264"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "a9027faf2b81bcb1c24099a9275cd586562fcdef566154b441158846b2c0ab4e",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:36.950236+00:00",
+      "publisher_version_label": "Версия 26.23",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/a9/a9027faf2b81bcb1c24099a9275cd586562fcdef566154b441158846b2c0ab4e.html"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Аудит 339 показателей",
+      "url": "downloads/projects/shared/indicator_audit.csv",
+      "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+      "bytes": 166183
+    },
+    {
+      "title": "Сводный аудит 11 нацпроектов",
+      "url": "downloads/projects/shared/project_audit.csv",
+      "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+      "bytes": 1810
+    },
+    {
+      "title": "Матрица методов по нацпроектам",
+      "url": "downloads/projects/shared/project_method_matrix.csv",
+      "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+      "bytes": 283115
+    },
+    {
+      "title": "Применимость методов и доступность данных",
+      "url": "downloads/projects/shared/project_method_eligibility.csv",
+      "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+      "bytes": 2507
+    }
+  ],
+  "registry_source_url": "https://www.fedstat.ru/organizations/#group1854003",
+  "interpretation": "Полный авторский отчёт сопровождается исходными материалами и проверенными описательными расчётами. Годовые и месячные записи, территориальный контекст, бюджетный план и причинный эффект имеют самостоятельные основания. Дата сборки не заменяет дату наблюдения.",
+  "legacy_release_metadata": {
+    "source_release": "1.2.0",
+    "qualification": "Метаданные предыдущего исследовательского выпуска сохраняют собственную редакцию. Поля верхнего уровня характеризуют текущую публикацию.",
+    "original": {
+      "schema_version": 1,
+      "project_id": "international_export",
+      "project_name": "Национальный проект «Международная кооперация и экспорт»",
+      "release_version": "1.2.0",
+      "statistical_as_of": "2026-10-15",
+      "documentary_as_of": "2026-10-19",
+      "release_date": "2026-10-27",
+      "author_expertise_status": "next_requested_stage",
+      "registry": {
+        "project_id": "international_export",
+        "project_name": "Национальный проект «Международная кооперация и экспорт»",
+        "n_registry": 21,
+        "n_with_numeric": 18,
+        "n_with_regional": 0,
+        "n_with_national": 18,
+        "n_unique_cells": 181,
+        "n_numeric": 181,
+        "n_usable": 181,
+        "n_domain_violations": 0,
+        "coverage_pct": 85.71428571428571
+      },
+      "panel": {
+        "project_id": "international_export",
+        "panel_id": "",
+        "status": "no_regional_data",
+        "frequency": "",
+        "period_end": "",
+        "n_regions": null,
+        "n_features": null,
+        "n_imputed_cells": null,
+        "imputed_pct": null,
+        "k": null,
+        "silhouette": null,
+        "pc12_variance": null,
+        "cluster_status": "",
+        "n_communities": null,
+        "complete_case_ari": null,
+        "n_complete_case": null,
+        "seed": null
+      },
+      "research": {
+        "project_id": "international_export",
+        "project_name": "Национальный проект «Международная кооперация и экспорт»",
+        "registry_indicators": 21,
+        "indicators_with_numeric": 18,
+        "indicators_with_regional": 0,
+        "observations_numeric": 181,
+        "documents": 8,
+        "goal_nodes": 5,
+        "task_nodes": 12,
+        "indicator_nodes": 25,
+        "result_nodes": 47,
+        "unresolved_link_claims": 101,
+        "shared_task_result_indicator_links": 284,
+        "results_linked_through_documented_task": 47,
+        "results_with_lexical_candidate": 35,
+        "explicit_result_indicator_links": 0,
+        "family_original_manual_edges": null,
+        "multivariate_status": "not_applicable_to_available_input",
+        "passport_financing_2025_2030_thousand_rub": 723311645.1,
+        "strict_financing_hhi": 0.3910959094263704,
+        "financing_status": "computed_complete_visible_fp_headers",
+        "causal_effect_status": "not_identified_in_existing_sources",
+        "author_expertise_text_status": "next_requested_stage"
+      },
+      "results": {
+        "project_id": "international_export",
+        "project_name": "Национальный проект «Международная кооперация и экспорт»",
+        "n_registry": 21,
+        "n_numeric_indicators": 18,
+        "n_regional_indicators": 0,
+        "n_forecast_indicators": 2,
+        "n_series": 21,
+        "n_projected_series": 21,
+        "n_diagnostic_forecast_series": 2,
+        "n_reference_scenario_series": 19,
+        "n_series_with_review_flags": 21,
+        "n_documented_target_indicators": 20,
+        "target_status": "source_backed_targets_available"
+      },
+      "corpus": {
+        "project": "export",
+        "project_name": "Международная кооперация и экспорт",
+        "unique_pdf_files": 1,
+        "pages": 5,
+        "national_passport_files": 0,
+        "federal_passport_files": 0,
+        "presentation_files": 1,
+        "legal_reprints": 0,
+        "note": "Counts of files, not distinct federal project names; shared presentations cover all ten target projects."
+      },
+      "method_summary": {
+        "total": 39,
+        "by_status": {
+          "documentary_structure_completed_substantive_review_deferred": 2,
+          "computed_with_documented_scope": 11,
+          "documentary_and_structural_links_computed_candidates_unapproved": 1,
+          "retained_with_input_and_coverage_checks": 2,
+          "retained_from_1_1_source_unchanged": 4,
+          "not_computable_current_input_no_regional_observations": 4,
+          "not_computable_current_input_no_regional_data": 6,
+          "not_computable_current_input_input_panel_not_computed": 1,
+          "financial_measurement_bridge_computed_not_cost_effectiveness": 1,
+          "evidence_matrix_completed_expert_scores_deferred": 1,
+          "designs_and_readiness_audit_completed_no_effect_estimated": 3,
+          "deferred_by_user": 1,
+          "specialized_family_extension_not_generalized": 1,
+          "reproducible_analysis_code_available": 1
+        }
+      },
+      "sections": [
+        {
+          "order": 1,
+          "section_id": "framework",
+          "title": "Методологическая рамка экспертизы",
+          "family_report_pages": "7–9",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L2",
+          "publication_status": "planned",
+          "evidence": "Реестр методов и их ограничений подготовлен; содержательные выводы требуют отдельной авторской экспертизы.",
+          "method_ids": [
+            "theory_of_change"
+          ]
+        },
+        {
+          "order": 2,
+          "section_id": "logic",
+          "title": "Нормативно-логическая модель",
+          "family_report_pages": "9–11",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L3",
+          "publication_status": "planned",
+          "evidence": "В исследовательском корпусе: 5 целей, 12 задач, 47 результатов. Документальная связь не является доказательством причинного эффекта.",
+          "method_ids": [
+            "project_hierarchy",
+            "activity_inventory",
+            "activity_indicator_links"
+          ]
+        },
+        {
+          "order": 3,
+          "section_id": "audit",
+          "title": "Аудит данных и показателей",
+          "family_report_pages": "11–19",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L4",
+          "publication_status": "planned",
+          "evidence": "В реестре 21 показателей; числовые данные доступны для 18, региональные для 0.",
+          "method_ids": [
+            "source_quality",
+            "observability",
+            "time_dynamics"
+          ]
+        },
+        {
+          "order": 4,
+          "section_id": "targets",
+          "title": "Целевые траектории и прогноз",
+          "family_report_pages": "19–24",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L5",
+          "publication_status": "planned",
+          "evidence": "Паспортные цели и статистические ряды сопоставляются только при подтверждённом совпадении показателя, единицы измерения, территории и периода.",
+          "method_ids": [
+            "target_comparison",
+            "forecasting"
+          ]
+        },
+        {
+          "order": 5,
+          "section_id": "map",
+          "title": "Территориальная экспертиза",
+          "family_report_pages": "24–43",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L6",
+          "publication_status": "planned",
+          "evidence": "Региональные данные имеются для 0 показателей. Карты требуют отдельной проверки сопоставимости выбранного периода.",
+          "method_ids": [
+            "geographical_join",
+            "regional_maps",
+            "regional_descriptive"
+          ]
+        },
+        {
+          "order": 6,
+          "section_id": "regions",
+          "title": "Типология и пространственные связи",
+          "family_report_pages": "43–52",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L7",
+          "publication_status": "planned",
+          "evidence": "Статус многомерной панели: no_regional_data; территорий: 0, признаков: 0. Региональная типология не тождественна оценке эффективности.",
+          "method_ids": [
+            "correlations",
+            "pca",
+            "kmeans",
+            "multivariate_stability",
+            "isolation_forest",
+            "moran_global",
+            "moran_local",
+            "regional_similarity",
+            "relative_profiles"
+          ]
+        },
+        {
+          "order": 7,
+          "section_id": "finance",
+          "title": "Финансовая экспертиза",
+          "family_report_pages": "52–55",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L8",
+          "publication_status": "planned",
+          "evidence": "Финансовые суммы и доли сохраняют единицы исходного паспорта. Оценка распределения средств зависит от сопоставимости заголовков федеральных проектов.",
+          "method_ids": [
+            "budget_registry",
+            "budget_hhi",
+            "budget_observability"
+          ]
+        },
+        {
+          "order": 8,
+          "section_id": "network",
+          "title": "Мероприятия и показатели",
+          "family_report_pages": "55–61",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L9",
+          "publication_status": "planned",
+          "evidence": "В корпусе разделены документальные связи, совместная принадлежность задаче и лексические кандидаты. Автоматическая похожесть не превращается в доказанную связь.",
+          "method_ids": [
+            "activity_network"
+          ]
+        },
+        {
+          "order": 9,
+          "section_id": "texts",
+          "title": "Лингвистическая и смысловая экспертиза",
+          "family_report_pages": "61–65",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L10",
+          "publication_status": "planned",
+          "evidence": "Документальная основа исследовательского модуля: 8 документов. Лексические признаки рассматриваются совместно с контекстом.",
+          "method_ids": [
+            "lexical_frequencies",
+            "dictionary_frames",
+            "tfidf_cosine",
+            "text_clustering",
+            "concept_cooccurrence",
+            "context_search"
+          ]
+        },
+        {
+          "order": 10,
+          "section_id": "domains",
+          "title": "Охват сфер жизнедеятельности",
+          "family_report_pages": "65–68",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L11",
+          "publication_status": "planned",
+          "evidence": "Сферы жизнедеятельности выделяются по корпусу и словарям; полнота охвата требует содержательной проверки экспертом.",
+          "method_ids": [
+            "domain_evidence",
+            "expert_domain_scale"
+          ]
+        },
+        {
+          "order": 11,
+          "section_id": "causal",
+          "title": "Сценарии и причинная оценка",
+          "family_report_pages": "68–71",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L12",
+          "publication_status": "planned",
+          "evidence": "Причинный эффект нацпроекта в имеющемся наборе источников не идентифицирован. Для его оценки нужен самостоятельный исследовательский дизайн.",
+          "method_ids": [
+            "policy_scenario_framework",
+            "causal_designs",
+            "heterogeneous_causal_effects"
+          ]
+        },
+        {
+          "order": 12,
+          "section_id": "proposals",
+          "title": "Предложения по корректировке",
+          "family_report_pages": "71–73",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L13",
+          "publication_status": "planned",
+          "evidence": "Рекомендации формируются после проверки фактов и содержательной экспертизы, с указанием адресата, механизма и ожидаемого результата.",
+          "method_ids": [
+            "recommendations"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Паспорт национального проекта «Международная кооперация и экспорт»",
+          "url": "https://economy.gov10.ru/upload/iblock/777/p1qi8nrhepfbuz2mrj6saxdqxpl7439g/NP-MKiE.pdf",
+          "urls": [
+            "https://economy.gov10.ru/upload/iblock/777/p1qi8nrhepfbuz2mrj6saxdqxpl7439g/NP-MKiE.pdf"
+          ],
+          "format": "PDF",
+          "document_level": "national",
+          "sha256": "ab487272ea2f29681c031f2842cb081d02c29f6f7055bc07865ecf63234f6188",
+          "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+          "retrieved_at": "2026-10-19T14:20:50+00:00",
+          "publisher_version_label": "",
+          "publisher_updated_label": "",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "public_pdf_copy",
+          "source_file_in_research_package": "corpus/data/pdfs/ab/ab487272ea2f29681c031f2842cb081d02c29f6f7055bc07865ecf63234f6188.pdf"
+        },
+        {
+          "title": "Паспорт национального проекта «Международная кооперация и экспорт»",
+          "url": "https://www.export04.ru/images/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82_%D0%9D%D0%9F_%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B8_%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82_2025-2030.pdf",
+          "urls": [
+            "https://www.export04.ru/images/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82_%D0%9D%D0%9F_%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B8_%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82_2025-2030.pdf"
+          ],
+          "format": "PDF",
+          "document_level": "national",
+          "sha256": "daf13624baa54907228dfbb4de1096fa6444b175ca227391d386ba1978646874",
+          "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+          "retrieved_at": "2026-10-19T14:13:03+00:00",
+          "publisher_version_label": "",
+          "publisher_updated_label": "",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "public_pdf_copy",
+          "source_file_in_research_package": "corpus/data/pdfs/da/daf13624baa54907228dfbb4de1096fa6444b175ca227391d386ba1978646874.pdf"
+        },
+        {
+          "title": "[М] Международная кооперация и экспорт",
+          "url": "https://databudget.ru/projects/np/27",
+          "urls": [
+            "https://databudget.ru/projects/np/27"
+          ],
+          "format": "HTML",
+          "document_level": "national",
+          "sha256": "b75432ae638d70250d5746d859beca3b0c65294183cf93297b614812eb216ea2",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+          "publisher_version_label": "Версия 26.21",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/b7/b75432ae638d70250d5746d859beca3b0c65294183cf93297b614812eb216ea2.html"
+        },
+        {
+          "title": "Презентация национального проекта «Международная кооперация и экспорт»",
+          "url": "https://export04.ru/images/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F_%D0%9D%D0%9F_%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B8_%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82-_%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9_%D0%B4%D0%BE_2030_%D0%B3.pdf",
+          "urls": [
+            "https://export04.ru/images/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F_%D0%9D%D0%9F_%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B8_%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82-_%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9_%D0%B4%D0%BE_2030_%D0%B3.pdf"
+          ],
+          "format": "PDF",
+          "document_level": "presentation",
+          "sha256": "ac39d6fbf9fbc1ccd1c8480e55dc759a6629bd75d108b9e100c5fa9b2deb0c1f",
+          "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+          "retrieved_at": "2026-10-19T11:42:20Z",
+          "publisher_version_label": "",
+          "publisher_updated_label": "",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "public_pdf_copy",
+          "source_file_in_research_package": "corpus/data/pdfs/ac/ac39d6fbf9fbc1ccd1c8480e55dc759a6629bd75d108b9e100c5fa9b2deb0c1f.pdf"
+        },
+        {
+          "title": "[М1] Промышленный экспорт",
+          "url": "https://databudget.ru/projects/fp/244",
+          "urls": [
+            "https://databudget.ru/projects/fp/244"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "8a77c7b3abfe6f3d7a9c0789e0cae1e8c9451d500974cae48d19a911089bec89",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:33.959377+00:00",
+          "publisher_version_label": "Версия 26.18",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/8a/8a77c7b3abfe6f3d7a9c0789e0cae1e8c9451d500974cae48d19a911089bec89.html"
+        },
+        {
+          "title": "[М2] Создание зарубежной инфраструктуры",
+          "url": "https://databudget.ru/projects/fp/263",
+          "urls": [
+            "https://databudget.ru/projects/fp/263"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "509f10bf201d9f0f35b943638cefc182188e6792c23d6f54758c81fe32afe383",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:35.198942+00:00",
+          "publisher_version_label": "Версия 26.19",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/50/509f10bf201d9f0f35b943638cefc182188e6792c23d6f54758c81fe32afe383.html"
+        },
+        {
+          "title": "[М3] Системные меры развития международной кооперации и экспорта",
+          "url": "https://databudget.ru/projects/fp/252",
+          "urls": [
+            "https://databudget.ru/projects/fp/252"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "cc8d6537528a5b798ac177bdabbeec0a8032ef8bf6125a5e11ead17618cef5c6",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:34.082479+00:00",
+          "publisher_version_label": "Версия 26.27",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/cc/cc8d6537528a5b798ac177bdabbeec0a8032ef8bf6125a5e11ead17618cef5c6.html"
+        },
+        {
+          "title": "[М4] Экспорт продукции агропромышленного комплекса",
+          "url": "https://databudget.ru/projects/fp/264",
+          "urls": [
+            "https://databudget.ru/projects/fp/264"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "a9027faf2b81bcb1c24099a9275cd586562fcdef566154b441158846b2c0ab4e",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:36.950236+00:00",
+          "publisher_version_label": "Версия 26.23",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/a9/a9027faf2b81bcb1c24099a9275cd586562fcdef566154b441158846b2c0ab4e.html"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Аудит 339 показателей",
+          "url": "downloads/projects/shared/indicator_audit.csv",
+          "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+          "bytes": 166183
+        },
+        {
+          "title": "Сводный аудит 11 нацпроектов",
+          "url": "downloads/projects/shared/project_audit.csv",
+          "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+          "bytes": 1810
+        },
+        {
+          "title": "Матрица методов по нацпроектам",
+          "url": "downloads/projects/shared/project_method_matrix.csv",
+          "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+          "bytes": 283115
+        },
+        {
+          "title": "Применимость методов и доступность данных",
+          "url": "downloads/projects/shared/project_method_eligibility.csv",
+          "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+          "bytes": 2507
+        }
+      ],
+      "registry_source_url": "https://www.fedstat.ru/organizations/#group1854003",
+      "interpretation": "Актуальный доступный статистический срез на указанную дату. Дата сборки сайта не означает обновление первичных данных. Новые авторские страницы экспертизы добавляются после отдельной проверки."
+    }
+  },
+  "author_edition_date": "2026-10-29"
+}

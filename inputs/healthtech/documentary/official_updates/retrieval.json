@@ -1,0 +1,29 @@
+[
+  {
+    "url": "http://government.ru/news/58193/",
+    "resolved_url": "http://government.ru/news/58193/",
+    "status": 200,
+    "bytes": 104140,
+    "sha256": "5a2390b7955c4a1848888f35871bc0a9f25bf7c1b4525b7c591e8f97f9d39624",
+    "filename": "58193.html",
+    "retrieved_at": "2026-10-29"
+  },
+  {
+    "url": "http://government.ru/news/58763/",
+    "resolved_url": "http://government.ru/news/58763/",
+    "status": 200,
+    "bytes": 101348,
+    "sha256": "be417b49fdd954b20353c626a2a07496b48ac76b8b2ec68e3ece1327a997f4ff",
+    "filename": "58763.html",
+    "retrieved_at": "2026-10-29"
+  },
+  {
+    "url": "http://government.ru/news/59445/",
+    "resolved_url": "http://government.ru/news/59445/",
+    "status": 200,
+    "bytes": 103657,
+    "sha256": "e524cf3c37504d057710982bc372136de0b3fda67643f18e64b032c100ea35a3",
+    "filename": "59445.html",
+    "retrieved_at": "2026-10-29"
+  }
+]

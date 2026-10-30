@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "project_id": "personnel",
+  "source_id": "63238",
+  "unit": "процент",
+  "source_url": "https://www.fedstat.ru/indicator/63238",
+  "published_at": "2026-10-15T12:49:14+00:00",
+  "snapshot_id": "7649f29b4a12e9fc2a2a3909fcf6d496b18ebe0b95a56412e27c0367c8e07062",
+  "origin_kind": "live_emiss",
+  "observations": [
+    {
+      "id": "1adc780c917a161725bc627ffb1b6ab0d765be3380f3c668e51132080be84ff9",
+      "source_id": "63238",
+      "source_observation_key": "0a452e7922d8579c5134a7e57e1285510389f5d654eda334a4d19115193ae61a",
+      "name": "Российская Федерация",
+      "code": null,
+      "map_id": null,
+      "geo_level": "national",
+      "territory_code_source": null,
+      "territory_level_source": "national",
+      "period": "2025-Q3",
+      "period_start": "2025-07-01",
+      "period_end": "2025-09-30",
+      "year": 2025,
+      "frequency": "quarterly",
+      "value": 73.0,
+      "raw": "73",
+      "unit": "процент",
+      "source_frequency": "monthly",
+      "source_period_start": "2025-09-01",
+      "source_period_end": "2025-09-30",
+      "source_period_label": "сентябрь",
+      "period_transformations": [
+        {
+          "code": "quarter_end_label",
+          "basis": "Приказ Минтруда России от 30.07.2025 № 472, пункты 7–9",
+          "description": "Подпись последнего месяца квартала в ЕМИСС приведена к квартальной периодичности; значение не усреднялось."
+        }
+      ],
+      "original_analysis_status": null,
+      "original_quality_flags": null,
+      "category": {},
+      "quality_flags": [
+        {
+          "code": "survey_sampling_uncertainty_unavailable",
+          "message": "Опубликованная доля не содержит фактической стандартной ошибки и весов данной опросной волны.",
+          "severity": "info",
+          "exclude_from_analysis": false
+        }
+      ],
+      "excluded": false,
+      "analytical_value": 73.0,
+      "status": "valid"
+    },
+    {
+      "id": "bcd52019fd670f069f4d6a67454d86572100a26730f02e386635fd98eb35d7f2",
+      "source_id": "63238",
+      "source_observation_key": "0908dd6a0e6de39796d1e37c4e5f9a3f030bf9915e1c777872fc6999fa68a89c",
+      "name": "Российская Федерация",
+      "code": null,
+      "map_id": null,
+      "geo_level": "national",
+      "territory_code_source": null,
+      "territory_level_source": "national",
+      "period": "2025-Q4",
+      "period_start": "2025-10-01",
+      "period_end": "2025-12-31",
+      "year": 2025,
+      "frequency": "quarterly",
+      "value": 72.0,
+      "raw": "72",
+      "unit": "процент",
+      "source_frequency": "monthly",
+      "source_period_start": "2025-12-01",
+      "source_period_end": "2025-12-31",
+      "source_period_label": "декабрь",
+      "period_transformations": [
+        {
+          "code": "quarter_end_label",
+          "basis": "Приказ Минтруда России от 30.07.2025 № 472, пункты 7–9",
+          "description": "Подпись последнего месяца квартала в ЕМИСС приведена к квартальной периодичности; значение не усреднялось."
+        }
+      ],
+      "original_analysis_status": null,
+      "original_quality_flags": null,
+      "category": {},
+      "quality_flags": [
+        {
+          "code": "survey_sampling_uncertainty_unavailable",
+          "message": "Опубликованная доля не содержит фактической стандартной ошибки и весов данной опросной волны.",
+          "severity": "info",
+          "exclude_from_analysis": false
+        }
+      ],
+      "excluded": false,
+      "analytical_value": 72.0,
+      "status": "valid"
+    },
+    {
+      "id": "127d7eddbc8aada39a39bbb9ba1ab8ec22f0a4f6c027a77e931d25d040429ca0",
+      "source_id": "63238",
+      "source_observation_key": "73f1fd08027d5cc44b1cdf260bab8e7c90bc4503638a0551fd742a86e74fe46a",
+      "name": "Российская Федерация",
+      "code": null,
+      "map_id": null,
+      "geo_level": "national",
+      "territory_code_source": null,
+      "territory_level_source": "national",
+      "period": "2026-Q1",
+      "period_start": "2026-01-01",
+      "period_end": "2026-03-31",
+      "year": 2026,
+      "frequency": "quarterly",
+      "value": 74.0,
+      "raw": "74",
+      "unit": "процент",
+      "source_frequency": "monthly",
+      "source_period_start": "2026-03-01",
+      "source_period_end": "2026-03-31",
+      "source_period_label": "март",
+      "period_transformations": [
+        {
+          "code": "quarter_end_label",
+          "basis": "Приказ Минтруда России от 30.07.2025 № 472, пункты 7–9",
+          "description": "Подпись последнего месяца квартала в ЕМИСС приведена к квартальной периодичности; значение не усреднялось."
+        }
+      ],
+      "original_analysis_status": null,
+      "original_quality_flags": null,
+      "category": {},
+      "quality_flags": [
+        {
+          "code": "survey_sampling_uncertainty_unavailable",
+          "message": "Опубликованная доля не содержит фактической стандартной ошибки и весов данной опросной волны.",
+          "severity": "info",
+          "exclude_from_analysis": false
+        }
+      ],
+      "excluded": false,
+      "analytical_value": 74.0,
+      "status": "valid"
+    },
+    {
+      "id": "0bc98d245301f2c0a288ed2849caea351e279aba7a0e255e81bf6c47546ddd96",
+      "source_id": "63238",
+      "source_observation_key": "3c2d3fd585b162566c37964e3118db600060d6c104b4dc5bfe11b4df083d74cc",
+      "name": "Российская Федерация",
+      "code": null,
+      "map_id": null,
+      "geo_level": "national",
+      "territory_code_source": null,
+      "territory_level_source": "national",
+      "period": "2026-Q2",
+      "period_start": "2026-04-01",
+      "period_end": "2026-06-30",
+      "year": 2026,
+      "frequency": "quarterly",
+      "value": 70.0,
+      "raw": "70",
+      "unit": "процент",
+      "source_frequency": "monthly",
+      "source_period_start": "2026-06-01",
+      "source_period_end": "2026-06-30",
+      "source_period_label": "июнь",
+      "period_transformations": [
+        {
+          "code": "quarter_end_label",
+          "basis": "Приказ Минтруда России от 30.07.2025 № 472, пункты 7–9",
+          "description": "Подпись последнего месяца квартала в ЕМИСС приведена к квартальной периодичности; значение не усреднялось."
+        }
+      ],
+      "original_analysis_status": null,
+      "original_quality_flags": null,
+      "category": {},
+      "quality_flags": [
+        {
+          "code": "survey_sampling_uncertainty_unavailable",
+          "message": "Опубликованная доля не содержит фактической стандартной ошибки и весов данной опросной волны.",
+          "severity": "info",
+          "exclude_from_analysis": false
+        }
+      ],
+      "excluded": false,
+      "analytical_value": 70.0,
+      "status": "valid"
+    },
+    {
+      "id": "96335251e4ed1db4bd98771973ed6a948135719789fed422d6ec76db41af2eb0",
+      "source_id": "63238",
+      "source_observation_key": "304222bec44ee94a7579732beb241c3262b45d4742efa5084d84a13fca0ee39d",
+      "name": "Российская Федерация",
+      "code": null,
+      "map_id": null,
+      "geo_level": "national",
+      "territory_code_source": null,
+      "territory_level_source": "national",
+      "period": "2026-Q3",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "year": 2026,
+      "frequency": "quarterly",
+      "value": 72.0,
+      "raw": "72",
+      "unit": "процент",
+      "source_frequency": "monthly",
+      "source_period_start": "2026-09-01",
+      "source_period_end": "2026-09-30",
+      "source_period_label": "сентябрь",
+      "period_transformations": [
+        {
+          "code": "quarter_end_label",
+          "basis": "Приказ Минтруда России от 30.07.2025 № 472, пункты 7–9",
+          "description": "Подпись последнего месяца квартала в ЕМИСС приведена к квартальной периодичности; значение не усреднялось."
+        }
+      ],
+      "original_analysis_status": null,
+      "original_quality_flags": null,
+      "category": {},
+      "quality_flags": [
+        {
+          "code": "survey_sampling_uncertainty_unavailable",
+          "message": "Опубликованная доля не содержит фактической стандартной ошибки и весов данной опросной волны.",
+          "severity": "info",
+          "exclude_from_analysis": false
+        }
+      ],
+      "excluded": false,
+      "analytical_value": 72.0,
+      "status": "valid"
+    }
+  ]
+}

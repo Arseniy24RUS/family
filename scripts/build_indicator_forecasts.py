@@ -21,7 +21,7 @@ def observations_for(rows,region):
     for d,g in sorted(groups.items()):
         parts=[r for r in g if re.search(r'кроме|без.*автоном',r['territory'],re.I)]
         pool=parts or g
-        values={r['value'] for r in pool if isinstance(r.get('value'),(int,float))}
+        values={r['value'] for r in pool if isinstance(r.get('value'),(int,float)) and not r.get('flag')}
         if len(values)>1: raise ValueError('Противоречивые значения для одной территории и месяца: '+d)
         obs.append({'date':d,'value':next(iter(values)) if values else None,'territory':pool[0]['territory']})
     # Live exports include empty cells for periods not yet released. Do not
@@ -37,7 +37,10 @@ def run(root=ROOT):
     names={'RU':'Российская Федерация',**{r['id']:r['name'] for r in cat['regions']}}
     for sid in ['data_21','data_22']:
         info=next((x for x in latest.get('sources',[]) if x['source_id']==sid),{})
-        rel=info.get('published_file') or f'data/baseline/{sid}.json';packet=load(root/'public'/rel)
+        rel=info.get('published_file')
+        if not rel: raise ValueError(f'No published current data for {sid}; archive substitution is forbidden')
+        packet=load(root/'public'/rel)
+        if packet.get('source_id') != sid: raise ValueError(f'Published source identity mismatch: {sid}')
         rows=[dict(zip(packet['columns'],x)) for x in packet['rows']]
         for rid,name in names.items():
             entry={'indicator_id':sid,'region_id':rid,'region_name':name,'checked_at':now}

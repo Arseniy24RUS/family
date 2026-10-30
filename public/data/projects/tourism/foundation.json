@@ -1,0 +1,948 @@
+{
+  "schema_version": 1,
+  "project_id": "tourism",
+  "project_name": "Национальный проект «Туризм и гостеприимство»",
+  "release_version": "2.12.0-platform.1",
+  "statistical_as_of": "2026-10-15",
+  "documentary_as_of": "2026-10-16",
+  "release_date": "2026-10-29",
+  "author_expertise_status": "published",
+  "registry": {
+    "project_id": "tourism",
+    "project_name": "Национальный проект «Туризм и гостеприимство»",
+    "n_registry": 10,
+    "n_with_numeric": 6,
+    "original_catalog_numeric_indicators": 5,
+    "source_mapping_status": "definitions_reviewed_original_catalog_links_preserved",
+    "n_numeric_sources": 6,
+    "n_with_regional": 1,
+    "n_with_national": 6,
+    "n_unique_cells": 1924,
+    "n_numeric": 1924,
+    "n_usable": 1910,
+    "n_domain_violations": 0,
+    "n_review_exclusions": 14,
+    "coverage_pct": 60,
+    "qualification": "Исходная каталожная привязка и предметно проверенная обеспеченность различаются. Источник иностранных размещений учитывается по его определению, отдельно от экспорта услуг."
+  },
+  "panel": {
+    "project_id": "tourism",
+    "status": "not_applicable",
+    "reason": "Сопоставимая региональная панель содержит один признак: туристические поездки. PCA, кластеризация, корреляционная матрица и Isolation Forest не рассчитываются на искусственно дополненных данных.",
+    "n_regions": 85,
+    "n_features": 1,
+    "n_imputed_cells": 0,
+    "common_regional_panel": false,
+    "k": null,
+    "silhouette": null,
+    "pc12_variance": null,
+    "pca_performed": false,
+    "clustering_performed": false,
+    "ranking_validated": false,
+    "spatial_autocorrelation_performed": false
+  },
+  "research": {
+    "project_id": "tourism",
+    "project_name": "Национальный проект «Туризм и гостеприимство»",
+    "registry_indicators": 10,
+    "indicators_with_numeric": 6,
+    "original_catalog_numeric_indicators": 5,
+    "indicators_with_regional": 1,
+    "observations_numeric": 1924,
+    "documents": 9,
+    "documentary_network_summary": {
+      "results": 31,
+      "tasks": 20,
+      "indicatorCards": 14,
+      "uniqueIndicators": 11,
+      "goals": 6,
+      "structuralPairs": 49,
+      "structuralResults": 31,
+      "structuralIndicatorCards": 11,
+      "ambiguousClaims": 73,
+      "resolvedDirectLinks": 0,
+      "lexicalPairs": 20,
+      "lexicalResults": 13,
+      "lexicalIndicators": 9,
+      "resultsWithoutLexicalCandidate": 18
+    },
+    "multivariate_status": "not_applicable",
+    "passport_financing_2025_2030_thousand_rub": 1787964010.59,
+    "financing_total_meaning": "arithmetic_sum_of_published_rows_not_consolidated",
+    "strict_financing_hhi": null,
+    "arithmetic_financing_hhi": [
+      {
+        "year": 2025,
+        "value": null,
+        "status": "not_calculated_missing_p5_2025"
+      },
+      {
+        "year": 2026,
+        "value": 0.48503534105428614,
+        "status": "conditional_structure_of_arithmetic_sum"
+      },
+      {
+        "year": 2027,
+        "value": 0.5040282378634483,
+        "status": "conditional_structure_of_arithmetic_sum"
+      },
+      {
+        "year": 2028,
+        "value": 0.6068894602190273,
+        "status": "conditional_structure_of_arithmetic_sum"
+      },
+      {
+        "year": 2029,
+        "value": 0.6584064278506674,
+        "status": "conditional_structure_of_arithmetic_sum"
+      },
+      {
+        "year": 2030,
+        "value": 0.715097160676864,
+        "status": "conditional_structure_of_arithmetic_sum"
+      }
+    ],
+    "financing_status": "arithmetic_row_sum_without_consolidated_resource_claim",
+    "causal_effect_status": "not_identified_in_existing_sources",
+    "author_expertise_text_status": "published"
+  },
+  "results": {
+    "project_id": "tourism",
+    "project_name": "Национальный проект «Туризм и гостеприимство»",
+    "n_registry": 10,
+    "n_numeric_indicators": 6,
+    "n_regional_indicators": 1,
+    "n_forecast_indicators": 0,
+    "n_projected_series": 0,
+    "forecast_status": "model_not_validated",
+    "n_documented_target_indicators": 11,
+    "n_eligible_annual_comparisons": 0,
+    "n_conditional_target_comparisons": 6,
+    "target_status": "source_linked_comparisons_with_explicit_period_status"
+  },
+  "corpus": {
+    "project_documents": 6,
+    "documentary_sources": 9,
+    "source_corpus_documents": 137,
+    "source_corpus_projects": null,
+    "documentary_snapshot": "2026-10-16",
+    "qualification": "Число документов тематического корпуса, число паспортов и число источников экспертизы обозначают разные единицы учёта."
+  },
+  "method_summary": {
+    "total": 39,
+    "by_status": {
+      "author_framework_published": 1,
+      "source_structure_published": 1,
+      "source_inventory_published": 1,
+      "evidence_classes_separated": 1,
+      "definitions_and_periods_checked": 1,
+      "source_coverage_published": 1,
+      "source_periods_preserved": 1,
+      "source_linked_comparisons": 1,
+      "model_not_validated": 1,
+      "explicit_territory_scope": 1,
+      "single_source_slices": 1,
+      "unweighted_source_distribution": 1,
+      "not_computed_single_regional_feature": 1,
+      "not_applicable_single_regional_feature": 3,
+      "not_applicable_without_multivariate_model": 1,
+      "not_recomputed_in_current_study": 4,
+      "single_indicator_comparison": 1,
+      "source_values_preserved": 1,
+      "financial_sources_and_scopes_separated": 1,
+      "row_concentration_with_scope_limits": 1,
+      "financial_measurement_limits_published": 1,
+      "documentary_network_published": 1,
+      "fixed_corpus_terms_published": 1,
+      "source_dictionary_evidence_published": 1,
+      "fixed_corpus_similarity_published": 1,
+      "source_documents_published": 1,
+      "author_qualitative_analysis_published": 1,
+      "not_computed_without_scoring_protocol": 1,
+      "conditional_arithmetic_without_estimated_effect": 1,
+      "design_proposed_effect_not_identified": 1,
+      "effect_not_identified": 1,
+      "author_recommendations_published": 1,
+      "not_applicable_to_available_inputs": 1,
+      "source_backed_and_conditional_calculations": 1
+    }
+  },
+  "sections": [
+    {
+      "id": "framework",
+      "title": "Предмет и методология",
+      "question": "Какие вопросы ставит экспертиза и по каким критериям оценивается проект?",
+      "order": 1,
+      "publication_status": "published",
+      "evidence": "Предмет экспертизы охватывает измеримость результатов, согласованность механизмов и достаточность оснований для оценки экономической и социальной отдачи."
+    },
+    {
+      "id": "logic",
+      "title": "Механизмы развития туризма",
+      "question": "Как связаны цели, мероприятия, ресурсы и ожидаемые результаты?",
+      "order": 2,
+      "publication_status": "published",
+      "evidence": "Создание инфраструктуры, фактическое использование, экономический результат и доступность услуг образуют последовательность проверяемых переходов."
+    },
+    {
+      "id": "audit",
+      "title": "Аудит показателей",
+      "question": "Какие результаты измеряет система мониторинга и чего в ней недостаёт?",
+      "order": 3,
+      "publication_status": "published",
+      "evidence": "Десять статистических кодов, один дополнительный паспортный показатель и шесть таблиц ЕМИСС сопоставлены с методиками и статусами оценок."
+    },
+    {
+      "id": "targets",
+      "title": "Цели и наблюдаемые результаты",
+      "question": "Что показывают сопоставимые ряды и насколько обоснованы ориентиры?",
+      "order": 4,
+      "publication_status": "published",
+      "evidence": "Годовые итоги 2025 года сопоставлены с редакцией целей от 16 октября 2026 года. Различия оперативных публикаций сохранены с их источниками и периодами."
+    },
+    {
+      "id": "map",
+      "title": "Территориальная концентрация поездок",
+      "question": "Как различаются ситуации в субъектах России?",
+      "order": 5,
+      "publication_status": "published",
+      "evidence": "Распределение приёма поездок по 85 территориям согласуется с общероссийским итогом. Масштаб приёма рассматривается отдельно от доступности путешествий для жителей."
+    },
+    {
+      "id": "regions",
+      "title": "Региональные профили и сезонность",
+      "question": "Какие устойчивые сочетания условий и результатов можно выделить?",
+      "order": 6,
+      "publication_status": "published",
+      "evidence": "Региональный объём приёма, локальная сезонность и курортные риски требуют разных пространственных и временных единиц наблюдения."
+    },
+    {
+      "id": "finance",
+      "title": "Финансирование и стоимость результатов",
+      "question": "Как расходы соотносятся с задачами, результатами и территориальными потребностями?",
+      "order": 7,
+      "publication_status": "published",
+      "evidence": "Федеральные строки, региональные расходы с трансфертами, внебюджетный план, бюджетные предложения и кассовое исполнение имеют самостоятельный статус."
+    },
+    {
+      "id": "network",
+      "title": "Связи мер и показателей",
+      "question": "Какие направления связаны между собой и где возникают разрывы?",
+      "order": 8,
+      "publication_status": "published",
+      "evidence": "Общая задача связывает 31 результат с показателями через 49 пар. Лексические соответствия и неразрешённые записи влияния выделены отдельно."
+    },
+    {
+      "id": "texts",
+      "title": "Документы и межпроектные связи",
+      "question": "Как сформулированы задачи и что остаётся за пределами языка документов?",
+      "order": 9,
+      "publication_status": "published",
+      "evidence": "Шесть паспортных профилей сопоставлены в корпусе из 137 документов. Лексическая близость проверяется по содержанию и чувствительности к обработке слов."
+    },
+    {
+      "id": "domains",
+      "title": "Пять федеральных направлений",
+      "question": "Какие содержательные механизмы требуют отдельной проверки?",
+      "order": 10,
+      "publication_status": "published",
+      "evidence": "Номерной фонд, крупные курорты, туристическая привлекательность, подготовка кадров и отечественное оборудование имеют разные механизмы и сроки результата."
+    },
+    {
+      "id": "causal",
+      "title": "Оценка дополнительного эффекта",
+      "question": "Какие данные и сравнения позволят оценить вклад конкретных мер?",
+      "order": 11,
+      "publication_status": "published",
+      "evidence": "Дополнительность поддержки оценивается по объектам и территориям с учётом отбора получателей, предшествующей динамики, сезонности и перераспределения спроса."
+    },
+    {
+      "id": "proposals",
+      "title": "Предложения экспертизы",
+      "question": "Какие изменения следуют из проверенных результатов и как оценить их последствия?",
+      "order": 12,
+      "publication_status": "published",
+      "evidence": "Предложения связывают согласование определений и финансов, наблюдение работающей мощности, доступность отдыха и подготовку оценки воздействия."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Авторская экспертиза национального проекта «Туризм и гостеприимство»",
+      "url": "downloads/projects/tourism/report/expertise_tourism_2026.docx",
+      "format": "DOCX",
+      "edition_date": "2026-10-29",
+      "qualification": "Исходный отчёт сохранён полностью. Авторские выводы, статистические наблюдения и документальные редакции сохраняют собственные даты."
+    },
+    {
+      "title": "Паспорт национального проекта «Туризм и гостеприимство»",
+      "url": "https://unifirst-files.storage.yandexcloud.net/media/files/2025-03/fayl-no1_0.pdf",
+      "urls": [
+        "https://unifirst-files.storage.yandexcloud.net/media/files/2025-03/fayl-no1_0.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "national",
+      "sha256": "c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:43:09Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/c8/c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f.pdf"
+    },
+    {
+      "title": "[П] Туризм и гостеприимство",
+      "url": "https://databudget.ru/projects/np/26",
+      "urls": [
+        "https://databudget.ru/projects/np/26"
+      ],
+      "format": "HTML",
+      "document_level": "national",
+      "sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:37:17.966663+00:00",
+      "publisher_version_label": "Версия 26.23",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/7b/7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57.html"
+    },
+    {
+      "title": "Паспорт федерального проекта «Кадры для туризма»",
+      "url": "https://dlk.tomsk.gov.ru/files/front/download?id=652452",
+      "urls": [
+        "https://dlk.tomsk.gov.ru/files/front/download?id=652452",
+        "https://unifirst-files.storage.yandexcloud.net/media/files/2025-03/pasport-federalnogo-proekta-kadry-i-turizma.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:43:10Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/ce/ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c.pdf"
+    },
+    {
+      "title": "Паспорт федерального проекта «Создание номерного фонда, инфраструктуры и новых точек притяжения»",
+      "url": "https://tourism.gov-murman.ru/documents/fp_sozdanie_nomernogo_fonda._infrastruktury_i_novyx_tochek_prityazheniya_turizm.pdf",
+      "urls": [
+        "https://tourism.gov-murman.ru/documents/fp_sozdanie_nomernogo_fonda._infrastruktury_i_novyx_tochek_prityazheniya_turizm.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T14:20:17+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/f5/f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b.pdf"
+    },
+    {
+      "title": "[П1] Создание номерного фонда",
+      "url": "https://databudget.ru/projects/fp/308",
+      "urls": [
+        "https://databudget.ru/projects/fp/308"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:51.582437+00:00",
+      "publisher_version_label": "Версия 26.28",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/a1/a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a.html"
+    },
+    {
+      "title": "[П2] Морские курорты",
+      "url": "https://databudget.ru/projects/fp/303",
+      "urls": [
+        "https://databudget.ru/projects/fp/303"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:51.430901+00:00",
+      "publisher_version_label": "Версия 26.20",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/22/221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538.html"
+    },
+    {
+      "title": "[П3] Туристическая привлекательность страны",
+      "url": "https://databudget.ru/projects/fp/301",
+      "urls": [
+        "https://databudget.ru/projects/fp/301"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:51.878244+00:00",
+      "publisher_version_label": "Версия 26.20",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/fe/fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4.html"
+    },
+    {
+      "title": "[П4] Кадры",
+      "url": "https://databudget.ru/projects/fp/309",
+      "urls": [
+        "https://databudget.ru/projects/fp/309"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:49.887413+00:00",
+      "publisher_version_label": "Версия 26.14",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/ac/ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456.html"
+    },
+    {
+      "title": "[П5] Промышленное обеспечение туризма",
+      "url": "https://databudget.ru/projects/fp/310",
+      "urls": [
+        "https://databudget.ru/projects/fp/310"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "18ba9cada1e6e3eb650d0bd8b2be06c971433f4bc1f034f7832f32d6b53d38f7",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:51.415446+00:00",
+      "publisher_version_label": "Версия 26.5",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/18/18ba9cada1e6e3eb650d0bd8b2be06c971433f4bc1f034f7832f32d6b53d38f7.html"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Аудит 339 показателей",
+      "url": "downloads/projects/shared/indicator_audit.csv",
+      "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+      "bytes": 166183
+    },
+    {
+      "title": "Сводный аудит 11 нацпроектов",
+      "url": "downloads/projects/shared/project_audit.csv",
+      "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+      "bytes": 1810
+    },
+    {
+      "title": "Матрица методов по нацпроектам",
+      "url": "downloads/projects/shared/project_method_matrix.csv",
+      "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+      "bytes": 283115
+    },
+    {
+      "title": "Применимость методов и доступность данных",
+      "url": "downloads/projects/shared/project_method_eligibility.csv",
+      "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+      "bytes": 2507
+    }
+  ],
+  "registry_source_url": "https://www.fedstat.ru/organizations/#group1853942",
+  "interpretation": "Полный авторский отчёт сопровождается источниками и проверенными описательными расчётами. Дата сборки сайта не заменяет дату первичного наблюдения. Спорные публикации, исправленные привязки и условные сценарии имеют отдельные пояснения.",
+  "legacy_release_metadata": {
+    "source_release": "1.2.0",
+    "qualification": "Метаданные предыдущего исследовательского выпуска. Его расчёты и статусы сохраняют собственную редакцию. Поля верхнего уровня относятся к текущему разделу.",
+    "original": {
+      "schema_version": 1,
+      "project_id": "tourism",
+      "project_name": "Национальный проект «Туризм и гостеприимство»",
+      "release_version": "1.2.0",
+      "statistical_as_of": "2026-10-15",
+      "documentary_as_of": "2026-10-19",
+      "release_date": "2026-10-27",
+      "author_expertise_status": "next_requested_stage",
+      "registry": {
+        "project_id": "tourism",
+        "project_name": "Национальный проект «Туризм и гостеприимство»",
+        "n_registry": 10,
+        "n_with_numeric": 5,
+        "n_with_regional": 1,
+        "n_with_national": 5,
+        "n_unique_cells": 1924,
+        "n_numeric": 1924,
+        "n_usable": 1924,
+        "n_domain_violations": 0,
+        "coverage_pct": 50
+      },
+      "panel": {
+        "project_id": "tourism",
+        "panel_id": "",
+        "status": "fewer_than_two_comparable_regional_features",
+        "frequency": "",
+        "period_end": "",
+        "n_regions": null,
+        "n_features": null,
+        "n_imputed_cells": null,
+        "imputed_pct": null,
+        "k": null,
+        "silhouette": null,
+        "pc12_variance": null,
+        "cluster_status": "",
+        "n_communities": null,
+        "complete_case_ari": null,
+        "n_complete_case": null,
+        "seed": null
+      },
+      "research": {
+        "project_id": "tourism",
+        "project_name": "Национальный проект «Туризм и гостеприимство»",
+        "registry_indicators": 10,
+        "indicators_with_numeric": 5,
+        "indicators_with_regional": 1,
+        "observations_numeric": 1924,
+        "documents": 9,
+        "goal_nodes": 6,
+        "task_nodes": 20,
+        "indicator_nodes": 14,
+        "result_nodes": 31,
+        "unresolved_link_claims": 73,
+        "shared_task_result_indicator_links": 49,
+        "results_linked_through_documented_task": 31,
+        "results_with_lexical_candidate": 13,
+        "explicit_result_indicator_links": 0,
+        "family_original_manual_edges": null,
+        "multivariate_status": "not_applicable_to_available_input",
+        "passport_financing_2025_2030_thousand_rub": 1787964010.59,
+        "strict_financing_hhi": 0.5394917287756826,
+        "financing_status": "computed_complete_visible_fp_headers",
+        "causal_effect_status": "not_identified_in_existing_sources",
+        "author_expertise_text_status": "next_requested_stage"
+      },
+      "results": {
+        "project_id": "tourism",
+        "project_name": "Национальный проект «Туризм и гостеприимство»",
+        "n_registry": 10,
+        "n_numeric_indicators": 5,
+        "n_regional_indicators": 1,
+        "n_forecast_indicators": 2,
+        "n_series": 92,
+        "n_projected_series": 91,
+        "n_diagnostic_forecast_series": 2,
+        "n_reference_scenario_series": 89,
+        "n_series_with_review_flags": 90,
+        "n_documented_target_indicators": 10,
+        "target_status": "source_backed_targets_available"
+      },
+      "corpus": {
+        "project": "tourism",
+        "project_name": "Туризм и гостеприимство",
+        "unique_pdf_files": 2,
+        "pages": 101,
+        "national_passport_files": 1,
+        "federal_passport_files": 1,
+        "presentation_files": 0,
+        "legal_reprints": 0,
+        "note": "Counts of files, not distinct federal project names; shared presentations cover all ten target projects."
+      },
+      "method_summary": {
+        "total": 39,
+        "by_status": {
+          "documentary_structure_completed_substantive_review_deferred": 2,
+          "computed_with_documented_scope": 11,
+          "documentary_and_structural_links_computed_candidates_unapproved": 1,
+          "retained_with_input_and_coverage_checks": 2,
+          "retained_from_1_1_source_unchanged": 6,
+          "not_computable_current_input_fewer_than_two_comparable_regional_features": 6,
+          "retained_and_independently_verified": 2,
+          "not_computable_current_input_input_panel_not_computed": 1,
+          "financial_measurement_bridge_computed_not_cost_effectiveness": 1,
+          "evidence_matrix_completed_expert_scores_deferred": 1,
+          "designs_and_readiness_audit_completed_no_effect_estimated": 3,
+          "deferred_by_user": 1,
+          "specialized_family_extension_not_generalized": 1,
+          "reproducible_analysis_code_available": 1
+        }
+      },
+      "sections": [
+        {
+          "order": 1,
+          "section_id": "framework",
+          "title": "Методологическая рамка экспертизы",
+          "family_report_pages": "7–9",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L2",
+          "publication_status": "planned",
+          "evidence": "Реестр методов и их ограничений подготовлен; содержательные выводы требуют отдельной авторской экспертизы.",
+          "method_ids": [
+            "theory_of_change"
+          ]
+        },
+        {
+          "order": 2,
+          "section_id": "logic",
+          "title": "Нормативно-логическая модель",
+          "family_report_pages": "9–11",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L3",
+          "publication_status": "planned",
+          "evidence": "В исследовательском корпусе: 6 целей, 20 задач, 31 результатов. Документальная связь не является доказательством причинного эффекта.",
+          "method_ids": [
+            "project_hierarchy",
+            "activity_inventory",
+            "activity_indicator_links"
+          ]
+        },
+        {
+          "order": 3,
+          "section_id": "audit",
+          "title": "Аудит данных и показателей",
+          "family_report_pages": "11–19",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L4",
+          "publication_status": "planned",
+          "evidence": "В реестре 10 показателей; числовые данные доступны для 5, региональные для 1.",
+          "method_ids": [
+            "source_quality",
+            "observability",
+            "time_dynamics"
+          ]
+        },
+        {
+          "order": 4,
+          "section_id": "targets",
+          "title": "Целевые траектории и прогноз",
+          "family_report_pages": "19–24",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L5",
+          "publication_status": "planned",
+          "evidence": "Паспортные цели и статистические ряды сопоставляются только при подтверждённом совпадении показателя, единицы измерения, территории и периода.",
+          "method_ids": [
+            "target_comparison",
+            "forecasting"
+          ]
+        },
+        {
+          "order": 5,
+          "section_id": "map",
+          "title": "Территориальная экспертиза",
+          "family_report_pages": "24–43",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L6",
+          "publication_status": "planned",
+          "evidence": "Региональные данные имеются для 1 показателей. Карты требуют отдельной проверки сопоставимости выбранного периода.",
+          "method_ids": [
+            "geographical_join",
+            "regional_maps",
+            "regional_descriptive"
+          ]
+        },
+        {
+          "order": 6,
+          "section_id": "regions",
+          "title": "Типология и пространственные связи",
+          "family_report_pages": "43–52",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L7",
+          "publication_status": "planned",
+          "evidence": "Статус многомерной панели: fewer_than_two_comparable_regional_features; территорий: 0, признаков: 0. Региональная типология не тождественна оценке эффективности.",
+          "method_ids": [
+            "correlations",
+            "pca",
+            "kmeans",
+            "multivariate_stability",
+            "isolation_forest",
+            "moran_global",
+            "moran_local",
+            "regional_similarity",
+            "relative_profiles"
+          ]
+        },
+        {
+          "order": 7,
+          "section_id": "finance",
+          "title": "Финансовая экспертиза",
+          "family_report_pages": "52–55",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L8",
+          "publication_status": "planned",
+          "evidence": "Финансовые суммы и доли сохраняют единицы исходного паспорта. Оценка распределения средств зависит от сопоставимости заголовков федеральных проектов.",
+          "method_ids": [
+            "budget_registry",
+            "budget_hhi",
+            "budget_observability"
+          ]
+        },
+        {
+          "order": 8,
+          "section_id": "network",
+          "title": "Мероприятия и показатели",
+          "family_report_pages": "55–61",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L9",
+          "publication_status": "planned",
+          "evidence": "В корпусе разделены документальные связи, совместная принадлежность задаче и лексические кандидаты. Автоматическая похожесть не превращается в доказанную связь.",
+          "method_ids": [
+            "activity_network"
+          ]
+        },
+        {
+          "order": 9,
+          "section_id": "texts",
+          "title": "Лингвистическая и смысловая экспертиза",
+          "family_report_pages": "61–65",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L10",
+          "publication_status": "planned",
+          "evidence": "Документальная основа исследовательского модуля: 9 документов. Лексические признаки рассматриваются совместно с контекстом.",
+          "method_ids": [
+            "lexical_frequencies",
+            "dictionary_frames",
+            "tfidf_cosine",
+            "text_clustering",
+            "concept_cooccurrence",
+            "context_search"
+          ]
+        },
+        {
+          "order": 10,
+          "section_id": "domains",
+          "title": "Охват сфер жизнедеятельности",
+          "family_report_pages": "65–68",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L11",
+          "publication_status": "planned",
+          "evidence": "Сферы жизнедеятельности выделяются по корпусу и словарям; полнота охвата требует содержательной проверки экспертом.",
+          "method_ids": [
+            "domain_evidence",
+            "expert_domain_scale"
+          ]
+        },
+        {
+          "order": 11,
+          "section_id": "causal",
+          "title": "Сценарии и причинная оценка",
+          "family_report_pages": "68–71",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L12",
+          "publication_status": "planned",
+          "evidence": "Причинный эффект нацпроекта в имеющемся наборе источников не идентифицирован. Для его оценки нужен самостоятельный исследовательский дизайн.",
+          "method_ids": [
+            "policy_scenario_framework",
+            "causal_designs",
+            "heterogeneous_causal_effects"
+          ]
+        },
+        {
+          "order": 12,
+          "section_id": "proposals",
+          "title": "Предложения по корректировке",
+          "family_report_pages": "71–73",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L13",
+          "publication_status": "planned",
+          "evidence": "Рекомендации формируются после проверки фактов и содержательной экспертизы, с указанием адресата, механизма и ожидаемого результата.",
+          "method_ids": [
+            "recommendations"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Паспорт национального проекта «Туризм и гостеприимство»",
+          "url": "https://unifirst-files.storage.yandexcloud.net/media/files/2025-03/fayl-no1_0.pdf",
+          "urls": [
+            "https://unifirst-files.storage.yandexcloud.net/media/files/2025-03/fayl-no1_0.pdf"
+          ],
+          "format": "PDF",
+          "document_level": "national",
+          "sha256": "c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f",
+          "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+          "retrieved_at": "2026-10-19T11:43:09Z",
+          "publisher_version_label": "",
+          "publisher_updated_label": "",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "public_pdf_copy",
+          "source_file_in_research_package": "corpus/data/pdfs/c8/c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f.pdf"
+        },
+        {
+          "title": "[П] Туризм и гостеприимство",
+          "url": "https://databudget.ru/projects/np/26",
+          "urls": [
+            "https://databudget.ru/projects/np/26"
+          ],
+          "format": "HTML",
+          "document_level": "national",
+          "sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:37:17.966663+00:00",
+          "publisher_version_label": "Версия 26.23",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/7b/7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57.html"
+        },
+        {
+          "title": "Паспорт федерального проекта «Кадры для туризма»",
+          "url": "https://dlk.tomsk.gov.ru/files/front/download?id=652452",
+          "urls": [
+            "https://dlk.tomsk.gov.ru/files/front/download?id=652452",
+            "https://unifirst-files.storage.yandexcloud.net/media/files/2025-03/pasport-federalnogo-proekta-kadry-i-turizma.pdf"
+          ],
+          "format": "PDF",
+          "document_level": "federal",
+          "sha256": "ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c",
+          "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+          "retrieved_at": "2026-10-19T11:43:10Z",
+          "publisher_version_label": "",
+          "publisher_updated_label": "",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "public_pdf_copy",
+          "source_file_in_research_package": "corpus/data/pdfs/ce/ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c.pdf"
+        },
+        {
+          "title": "Паспорт федерального проекта «Создание номерного фонда, инфраструктуры и новых точек притяжения»",
+          "url": "https://tourism.gov-murman.ru/documents/fp_sozdanie_nomernogo_fonda._infrastruktury_i_novyx_tochek_prityazheniya_turizm.pdf",
+          "urls": [
+            "https://tourism.gov-murman.ru/documents/fp_sozdanie_nomernogo_fonda._infrastruktury_i_novyx_tochek_prityazheniya_turizm.pdf"
+          ],
+          "format": "PDF",
+          "document_level": "federal",
+          "sha256": "f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b",
+          "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+          "retrieved_at": "2026-10-19T14:20:17+00:00",
+          "publisher_version_label": "",
+          "publisher_updated_label": "",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "public_pdf_copy",
+          "source_file_in_research_package": "corpus/data/pdfs/f5/f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b.pdf"
+        },
+        {
+          "title": "[П1] Создание номерного фонда",
+          "url": "https://databudget.ru/projects/fp/308",
+          "urls": [
+            "https://databudget.ru/projects/fp/308"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:51.582437+00:00",
+          "publisher_version_label": "Версия 26.28",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/a1/a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a.html"
+        },
+        {
+          "title": "[П2] Морские курорты",
+          "url": "https://databudget.ru/projects/fp/303",
+          "urls": [
+            "https://databudget.ru/projects/fp/303"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:51.430901+00:00",
+          "publisher_version_label": "Версия 26.20",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/22/221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538.html"
+        },
+        {
+          "title": "[П3] Туристическая привлекательность страны",
+          "url": "https://databudget.ru/projects/fp/301",
+          "urls": [
+            "https://databudget.ru/projects/fp/301"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:51.878244+00:00",
+          "publisher_version_label": "Версия 26.20",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/fe/fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4.html"
+        },
+        {
+          "title": "[П4] Кадры",
+          "url": "https://databudget.ru/projects/fp/309",
+          "urls": [
+            "https://databudget.ru/projects/fp/309"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:49.887413+00:00",
+          "publisher_version_label": "Версия 26.14",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/ac/ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456.html"
+        },
+        {
+          "title": "[П5] Промышленное обеспечение туризма",
+          "url": "https://databudget.ru/projects/fp/310",
+          "urls": [
+            "https://databudget.ru/projects/fp/310"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "18ba9cada1e6e3eb650d0bd8b2be06c971433f4bc1f034f7832f32d6b53d38f7",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:51.415446+00:00",
+          "publisher_version_label": "Версия 26.5",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/18/18ba9cada1e6e3eb650d0bd8b2be06c971433f4bc1f034f7832f32d6b53d38f7.html"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Аудит 339 показателей",
+          "url": "downloads/projects/shared/indicator_audit.csv",
+          "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+          "bytes": 166183
+        },
+        {
+          "title": "Сводный аудит 11 нацпроектов",
+          "url": "downloads/projects/shared/project_audit.csv",
+          "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+          "bytes": 1810
+        },
+        {
+          "title": "Матрица методов по нацпроектам",
+          "url": "downloads/projects/shared/project_method_matrix.csv",
+          "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+          "bytes": 283115
+        },
+        {
+          "title": "Применимость методов и доступность данных",
+          "url": "downloads/projects/shared/project_method_eligibility.csv",
+          "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+          "bytes": 2507
+        }
+      ],
+      "registry_source_url": "https://www.fedstat.ru/organizations/#group1853942",
+      "interpretation": "Актуальный доступный статистический срез на указанную дату. Дата сборки сайта не означает обновление первичных данных. Новые авторские страницы экспертизы добавляются после отдельной проверки."
+    }
+  }
+}

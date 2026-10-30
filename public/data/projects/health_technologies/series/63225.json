@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "health_technologies",
+  "source_id": "63225",
+  "title": "Доля внедренных в клиническую практику иных медицинских организаций новых регенеративных технологий, технологий превентивной медицины и обеспечения активного и здорового долголетия, разработанных в рамках федерального проекта",
+  "unit": "процент",
+  "origin_kind": "no_numeric_publication_recovered",
+  "direct_emiss_verified": false,
+  "published_at": null,
+  "acquired_at": null,
+  "snapshot_id": null,
+  "observations": []
+}

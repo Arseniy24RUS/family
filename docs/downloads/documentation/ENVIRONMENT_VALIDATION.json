@@ -1,0 +1,468 @@
+{
+  "schema": "national-projects.release-validation/1",
+  "version": "2.6.0-environment.1",
+  "base_release": "2.5.0-infrastructure.1",
+  "checked_at": "2026-10-29T16:18:24.606741+00:00",
+  "status": "passed",
+  "scope": {
+    "selectable_projects": 12,
+    "complete_projects": [
+      "family",
+      "youth_children",
+      "personnel",
+      "long_active_life",
+      "health_technologies",
+      "life_infrastructure",
+      "environment"
+    ],
+    "new_project_routes": 21,
+    "new_project_static_pages": 21,
+    "official_color": "#87C879",
+    "authors_only": "family"
+  },
+  "execution": {
+    "python": "3.12.14",
+    "node": "v24.22.1",
+    "browser": "Chromium with Playwright",
+    "browser_plugin": "Unavailable; Playwright fallback used",
+    "http_base_path": "/family/",
+    "github_push_or_deployment_performed": false
+  },
+  "tests": {
+    "javascript": {
+      "passed": 147,
+      "failed": 0,
+      "runner": "node --test --test-isolation=none tests/*.test.mjs"
+    },
+    "python": {
+      "passed": 370,
+      "failed": 0
+    },
+    "browser": {
+      "suites": [
+        {
+          "suite": "browser_check",
+          "passed": 89,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_upgrade",
+          "passed": 42,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_redesign",
+          "passed": 29,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_live",
+          "passed": 1167,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_youth",
+          "passed": 280,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_personnel",
+          "passed": 324,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_longlife",
+          "passed": 398,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_healthtech",
+          "passed": 388,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_infrastructure",
+          "passed": 414,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_environment",
+          "passed": 451,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        }
+      ],
+      "passed": 3582,
+      "failed": 0,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    },
+    "final_semantic_labels": {
+      "checks": [
+        {
+          "name": "calendar_reset_clarified",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "budget_frame_federal_source_label",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "text_denominator_tokens",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "updates_attempt_29oct_preserved_15oct",
+          "passed": true,
+          "detail": [
+            "29.10.2026",
+            "15.10.2026",
+            "15.10.2026",
+            "0"
+          ]
+        },
+        {
+          "name": "updates_zero_new_confirmations",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "updates_preserves_origin_proof",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "population_stats_no_internal_overflow",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "exposure_readable_input_390",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "air_scroll_reaches_values_390",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "exposure_readable_input_320",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "air_scroll_reaches_values_320",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no_page_errors",
+          "passed": true,
+          "detail": []
+        }
+      ],
+      "passed": 12,
+      "failed": 0
+    },
+    "compact_package_restoration": {
+      "tests": 14,
+      "failed": 0,
+      "scope": "Byte identity, source corruption, unsafe paths, existing user edits, absent sources, dry run, non-hard-link filesystem and two actual process-kill recovery cases."
+    }
+  },
+  "visual_review": {
+    "primary_agent_images": [
+      "overview-desktop.png",
+      "map-detail-desktop.png",
+      "finance-mobile-320.png",
+      "waste-scatter-desktop.png",
+      "air-mobile-320.png",
+      "contexts-desktop.png"
+    ],
+    "report_pages_reviewed": [
+      12,
+      48,
+      50,
+      55,
+      56,
+      65,
+      69,
+      72
+    ],
+    "screenshots_are_internal_qa_only": true
+  },
+  "report": {
+    "source_docx_sha256": "d5adb758afb0d75b8d599a563711e0c6ee42f3e7e5fcf5d754a4ed705b2ccabb",
+    "rendered_pages": 84,
+    "coverage": {
+      "report_pages": 84,
+      "routes": 21,
+      "substantive_blocks": 285,
+      "assigned_blocks": 285,
+      "unmapped_substantive_blocks": [],
+      "duplicate_assignments": [],
+      "tables": 10,
+      "figures": 12,
+      "footnotes": 112,
+      "formulas": 3,
+      "verified_page_locators": 238,
+      "blocks_by_page": {
+        "overview": 14,
+        "framework": 8,
+        "logic": 11,
+        "audit": 12,
+        "targets": 3,
+        "map": 12,
+        "regions": 23,
+        "finance": 17,
+        "network": 13,
+        "texts": 29,
+        "domains": 31,
+        "causal": 5,
+        "proposals": 16,
+        "projections": 3,
+        "population": 10,
+        "structure": 14,
+        "methods": 12,
+        "lab": 5,
+        "explorer": 3,
+        "library": 4,
+        "updates": 3
+      }
+    }
+  },
+  "statistics": {
+    "coverage": {
+      "indicators_total": 18,
+      "registry_indicators": 18,
+      "confirmed_sources": 18,
+      "known_sources": 18,
+      "numeric_sources": 18,
+      "available_sources": 18,
+      "indicators_with_numeric": 18,
+      "observations": 10282,
+      "numeric_observations": 9316,
+      "missing_observations": 966,
+      "usable_observations": 9280,
+      "excluded_numeric_observations": 36,
+      "independent_annual_national_facts": 15,
+      "annual_equivalent_references": 0,
+      "regional_sources": 9,
+      "regions": 85,
+      "other_territory_observations": 352,
+      "project_territory_observations": 1540,
+      "project_territories": 41,
+      "metadata_only_sources": 0,
+      "unmapped_indicators": 0,
+      "discontinued_sources": 1
+    },
+    "independent_physical_audit": {
+      "sources": 18,
+      "observations": 10282,
+      "numeric": 9316,
+      "missing": 966,
+      "evidence_files": 72,
+      "physical_observations_by_format": {
+        "xls": 4331,
+        "grid": 4059,
+        "sdmx": 1892
+      }
+    },
+    "independent_audit_failures": {},
+    "script": "scripts/audit_environment_sources.py",
+    "script_sha256": "a1e134cec14ceccd0c94999fd74cd30499f49adaa6adb55d51a741267010ecf1",
+    "second_independent_review": {
+      "scope": "Independent spot review of eight source series and all their physical cells; all headline ecological calculations. No production module imported.",
+      "sources": 8,
+      "source_cells": 9297,
+      "physical_counts": {
+        "62777": 21,
+        "62781": 1980,
+        "62782": 1980,
+        "62792": 1892,
+        "62793": 1892,
+        "62862": 506,
+        "62863": 1012,
+        "62871": 14
+      },
+      "passed": true,
+      "interpretive_notes": [
+        "Source targets are from a later dated republication and do not certify fulfilment of the originally approved assignment.",
+        "62861 future source zeros are preserved but have no explicit cessation metadata. They should not be treated as a desired falling trajectory.",
+        "62782 uses source frequency labels retained from the input. The separate period_semantics field identifies multi-year accumulation."
+      ]
+    },
+    "portable_input_replay": {
+      "input_sources": 18,
+      "external_database_or_network_used": false,
+      "series_byte_identical": 18,
+      "analytical_blocks_identical": [
+        "coverage",
+        "correlations",
+        "air_groups",
+        "forest_2025",
+        "target_comparisons",
+        "national_changes"
+      ],
+      "passed": true
+    }
+  },
+  "documentary": {
+    "project_passports": 7,
+    "shared_corpus_documents": 98,
+    "target_cells": 108,
+    "numeric_targets": 100,
+    "network_summary": {
+      "results": 89,
+      "indicators": 25,
+      "tasks": 28,
+      "goals": 7,
+      "standalone_tasks": 17,
+      "repeated_structure_tasks": 11,
+      "unresolved_weight_claims": 151,
+      "reviewed_direct_links": 0,
+      "shared_task_pairs": 157,
+      "same_project_pairs": 287,
+      "semantic_candidates": 287
+    },
+    "national_plan_thousand_rub": "1519365026.42",
+    "federal_plan_thousand_rub": "1519117214.38",
+    "text_replication_audit": [
+      {
+        "metric": "corpus_documents",
+        "author_report": 98,
+        "platform_recomputed": 98,
+        "difference": 0,
+        "equal": true
+      },
+      {
+        "metric": "corpus_tokens",
+        "author_report": 75539,
+        "platform_recomputed": 75367,
+        "difference": -172,
+        "equal": false
+      },
+      {
+        "metric": "environment_tokens",
+        "author_report": 6110,
+        "platform_recomputed": 6085,
+        "difference": -25,
+        "equal": false
+      },
+      {
+        "metric": "features",
+        "author_report": 46519,
+        "platform_recomputed": 45885,
+        "difference": -634,
+        "equal": false
+      },
+      {
+        "metric": "stemming_features",
+        "author_report": 35510,
+        "platform_recomputed": 35048,
+        "difference": -462,
+        "equal": false
+      },
+      {
+        "metric": "unigram_features",
+        "author_report": 10329,
+        "platform_recomputed": 10471,
+        "difference": 142,
+        "equal": false
+      }
+    ],
+    "text_specifications": 6,
+    "author_exact_code_available": false
+  },
+  "methods": {
+    "catalogue_items": 39,
+    "items_with_current_evidence_status": 39,
+    "historical_metadata_preserved_separately": true
+  },
+  "preservation": {
+    "base_version": "2.5.0-infrastructure.1",
+    "candidate_version": "2.6.0-environment.1",
+    "checked_at": "2026-10-29T16:18:24.531117+00:00",
+    "baseline_files": 4441,
+    "identical_files": 4367,
+    "changed_files": 74,
+    "missing_files": [],
+    "unexplained_changes": [],
+    "changed_categories": {
+      "shared_integration": 20,
+      "new_project_metadata": 6,
+      "release_metadata": 6,
+      "published_copy": 34,
+      "download_registry": 2,
+      "zip_metadata_only": 2,
+      "new_project_page": 2,
+      "sitemap": 2
+    },
+    "prior_download_urls": 921,
+    "missing_prior_download_urls": [],
+    "stale_published_copies": [],
+    "twelve_project_registry_preserved": true,
+    "previous_research_map_preserved": true,
+    "previous_changelog_preserved": true,
+    "previous_notice_preserved": true,
+    "passed": true
+  },
+  "last_live_refresh": {
+    "schema_version": 1,
+    "project_id": "environment",
+    "state": "failed",
+    "checked_at": "2026-10-29T16:05:53+00:00",
+    "published_at": "2026-10-15T19:44:13+00:00",
+    "statistical_as_of": "2026-10-15",
+    "last_success": "2026-10-15T19:44:13+00:00",
+    "attempted_sources": 3,
+    "successful_sources": 0,
+    "published_sources": 0,
+    "updated_sources": 0,
+    "failed_sources": 3,
+    "deferred_sources": 15,
+    "message": "Запрошено источников: 3; подтверждено: 0; отложено: 15. Неуспешные запросы не заменяют последние проверенные данные."
+  },
+  "refresh_preservation": {
+    "attempt_at": "2026-10-29T16:05:53+00:00",
+    "state": "failed",
+    "attempted": 3,
+    "successful": 0,
+    "deferred": 15,
+    "failure_detail": "Temporary failure in name resolution (DNS in the executing environment)",
+    "preserved_publication": "2026-10-15T19:44:13+00:00",
+    "unchanged_source_and_provenance_files": 36,
+    "changed_source_files": []
+  },
+  "packaging": {
+    "mode": "single_copy_payload_for_byte_identical_docs",
+    "copy_manifest": "PACKAGE_COPIES.json",
+    "logical_manifest": "RELEASE_MANIFEST.json",
+    "first_launch": "Restores missing published copies from retained sources before starting HTTP.",
+    "existing_files": "Never overwritten.",
+    "final_gate": "The packager subsequently validates CRC and every logical SHA-256; a clean extraction, restoration and HTTP check follow before delivery."
+  },
+  "interpretation_limits": [
+    "Source fidelity does not remove limitations in methods, geography or available periods.",
+    "The failed live attempt did not acquire newer observations.",
+    "Plans and budget proposals do not establish cash execution.",
+    "Correlation, document membership and lexical proximity are not causal effects.",
+    "Conditional calculators are not validated predictive models."
+  ]
+}

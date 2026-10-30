@@ -1,0 +1,38 @@
+{
+  "n_regions": 85,
+  "national": 2.5,
+  "min": 1.0,
+  "max": 26.4,
+  "median_unweighted": 2.4,
+  "class_counts": [
+    22,
+    42,
+    10,
+    9,
+    2
+  ],
+  "class_bounds": [
+    2,
+    3,
+    5,
+    10
+  ],
+  "missing_codes": [
+    "90",
+    "93",
+    "94",
+    "95"
+  ],
+  "geometry_overlap_initial": {
+    "29": 0.0,
+    "72": 8.835110111521561e-05
+  },
+  "n_below_national": 45,
+  "n_equal_national": 3,
+  "n_above_national": 37,
+  "source_url": "https://rosstat.gov.ru/storage/mediabank/RUS_SDG_in_Russia_2025.pdf",
+  "source_page": 61,
+  "source_retrieval": "Web-extracted full text of the regional table; the PDF download returned HTTP503; the extracted table is preserved verbatim in regional_source_excerpt.txt.",
+  "cross_validation": "Country and ten Siberian regions agree with Tomskstat publication 28.03.2025; extremes agree with Komistat 2025 p.11.",
+  "interpretation": "Baseline labour-market context for2024, not national-project result or a vacancy measure."
+}

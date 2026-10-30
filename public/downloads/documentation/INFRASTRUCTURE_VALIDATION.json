@@ -1,0 +1,371 @@
+{
+  "schema": "national-projects.release-validation/1",
+  "version": "2.5.0-infrastructure.1",
+  "base_release": "2.4.0-healthtech.1",
+  "checked_at": "2026-10-29T15:22:17.949409+00:00",
+  "status": "passed",
+  "scope": {
+    "selectable_projects": 12,
+    "complete_projects": [
+      "family",
+      "youth_children",
+      "personnel",
+      "long_active_life",
+      "health_technologies",
+      "life_infrastructure"
+    ],
+    "new_project_routes": 21,
+    "new_project_static_pages": 21,
+    "official_color": "#45B97C",
+    "authors_only": "family"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "node": "v24.22.1",
+    "browser": "Chromium with Playwright",
+    "browser_plugin": "Unavailable; Playwright fallback used",
+    "http_base_path": "/family/",
+    "github_push_or_deployment_performed": false
+  },
+  "tests": {
+    "javascript": {
+      "passed": 120,
+      "failed": 0,
+      "runner": "node --test --test-isolation=none tests/*.test.mjs"
+    },
+    "python": {
+      "passed": 309,
+      "failed": 0
+    },
+    "browser": {
+      "suites": [
+        {
+          "suite": "browser_check",
+          "passed": 89,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_upgrade",
+          "passed": 42,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_redesign",
+          "passed": 29,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_live",
+          "passed": 1029,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_youth",
+          "passed": 280,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_personnel",
+          "passed": 324,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_longlife",
+          "passed": 398,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_healthtech",
+          "passed": 388,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_infrastructure",
+          "passed": 414,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        }
+      ],
+      "passed": 2993,
+      "failed": 0,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    },
+    "presentation_details": {
+      "passed": 20,
+      "failed": 0,
+      "checks": [
+        "budget_title_present",
+        "finance-budget-2027-desktop.png_no_page_overflow",
+        "housing_output_31_4286",
+        "housing_difference_6_4286",
+        "housing_explicit_arithmetic",
+        "housing-decomposition-desktop.png_no_page_overflow",
+        "lcc_output_109_9174",
+        "lcc_initial_repair_retained",
+        "lcc_updated_repair_retained",
+        "lcc_recalculated_114_0496",
+        "lcc-years-desktop.png_no_page_overflow",
+        "lcc-years-mobile-390.png_no_page_overflow",
+        "mobile_lcc_container_scrollable",
+        "mobile_lcc_reaches_horizontal_end",
+        "mobile_lcc_maximum_100_visible",
+        "lcc-form-mobile-320.png_no_page_overflow",
+        "accessibility_initial_text_retained",
+        "accessibility_updated_text_retained",
+        "accessibility_threshold_inclusive",
+        "no_errors"
+      ],
+      "scope": "Budget chart, housing decomposition, life-cycle costs, retained user inputs, inclusive accessibility threshold."
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Primary agent and interface agent",
+    "primary_agent_images": [
+      "overview-desktop.png",
+      "map-desktop.png",
+      "map-detail-desktop.png",
+      "contexts-desktop.png",
+      "contexts-mobile-320.png",
+      "finance-mobile-320.png",
+      "finance-budget-2027-desktop.png",
+      "lcc-years-mobile-390.png",
+      "housing-decomposition-desktop.png"
+    ],
+    "screenshots_are_internal_qa_only": true
+  },
+  "report": {
+    "source_docx_sha256": "2098f0b0b25b2539f693d80ddc1e7f76a3502f1d5c9dac4994109a4f930938c4",
+    "rendered_pages": 76,
+    "coverage": {
+      "report_pages": 76,
+      "routes": 21,
+      "substantive_blocks": 271,
+      "assigned_blocks": 271,
+      "unmapped_substantive_blocks": [],
+      "duplicate_assignments": [],
+      "tables": 11,
+      "figures": 12,
+      "footnotes": 91,
+      "formulas": 5,
+      "verified_page_locators": 220,
+      "blocks_by_page": {
+        "overview": 17,
+        "framework": 8,
+        "logic": 9,
+        "audit": 13,
+        "targets": 21,
+        "map": 9,
+        "regions": 7,
+        "finance": 14,
+        "network": 14,
+        "texts": 33,
+        "domains": 12,
+        "causal": 4,
+        "proposals": 17,
+        "projections": 3,
+        "population": 19,
+        "structure": 12,
+        "methods": 6,
+        "lab": 9,
+        "explorer": 2,
+        "library": 2,
+        "updates": 2
+      }
+    }
+  },
+  "statistics": {
+    "coverage": {
+      "indicators_total": 32,
+      "registry_indicators": 32,
+      "confirmed_sources": 34,
+      "known_sources": 34,
+      "numeric_sources": 34,
+      "available_sources": 34,
+      "indicators_with_numeric": 32,
+      "observations": 93631,
+      "numeric_observations": 91025,
+      "missing_observations": 2606,
+      "usable_observations": 90738,
+      "excluded_numeric_observations": 287,
+      "independent_annual_national_facts": 109,
+      "annual_equivalent_references": 0,
+      "regional_sources": 19,
+      "regions": 89,
+      "other_territory_observations": 7541,
+      "metadata_only_sources": 0,
+      "unmapped_indicators": 0
+    },
+    "independent_audit": {
+      "sources": 34,
+      "observations": 93631,
+      "numeric": 91025,
+      "missing": 2606,
+      "evidence_files": 136,
+      "physical_observations_by_format": {
+        "sdmx": 46841,
+        "xls": 43220,
+        "grid": 3570
+      }
+    },
+    "independent_audit_failures": {},
+    "script": "scripts/audit_infrastructure_sources.py",
+    "script_sha256": "efa7563323bad00db138ebd4bd12188a756aa031dc53faada40d19655f34ead7",
+    "source_audit_document": "documentation/INFRASTRUCTURE_SOURCE_AUDIT.json"
+  },
+  "documentary": {
+    "passed": true,
+    "project_id": "life_infrastructure",
+    "corpus_documents": 98,
+    "corpus_projects": 12,
+    "corpus_tokens": 75367,
+    "infrastructure_tokens": 5886,
+    "source_passports": 13,
+    "target_cards": 51,
+    "target_cells": 192,
+    "numeric_targets": 188,
+    "missing_targets": 4,
+    "finance_national_total_thousand_rub": "15094430617.02",
+    "finance_federal_total_thousand_rub": "15098801767.71",
+    "finance_federal_minus_national_thousand_rub": 4371150.69,
+    "budget_source_cells": 268,
+    "unique_nodes": 191,
+    "results": 85,
+    "indicators": 51,
+    "tasks": 42,
+    "goals": 13,
+    "standalone_tasks": 26,
+    "repeated_structure_tasks": 16,
+    "unresolved_weight_claims": 160,
+    "reviewed_direct_links": 0,
+    "shared_task_pairs": 266,
+    "same_project_pairs": 300,
+    "semantic_candidates": 300,
+    "thematic_cells": 104,
+    "context_count": 605,
+    "features": 45885,
+    "replication_audit": [
+      {
+        "metric": "corpus_documents",
+        "author_report": 98,
+        "platform_recomputed": 98,
+        "difference": 0,
+        "equal": true
+      },
+      {
+        "metric": "corpus_tokens",
+        "author_report": 75539,
+        "platform_recomputed": 75367,
+        "difference": -172,
+        "equal": false
+      },
+      {
+        "metric": "infrastructure_tokens",
+        "author_report": 5889,
+        "platform_recomputed": 5886,
+        "difference": -3,
+        "equal": false
+      },
+      {
+        "metric": "features",
+        "author_report": 46519,
+        "platform_recomputed": 45885,
+        "difference": -634,
+        "equal": false
+      },
+      {
+        "metric": "stemming_features",
+        "author_report": 35510,
+        "platform_recomputed": 35048,
+        "difference": -462,
+        "equal": false
+      },
+      {
+        "metric": "unigram_features",
+        "author_report": 10329,
+        "platform_recomputed": 10471,
+        "difference": 142,
+        "equal": false
+      }
+    ]
+  },
+  "methods": {
+    "catalogue_items": 39,
+    "items_with_current_evidence_status": 39,
+    "historical_method_fields_preserved": true
+  },
+  "preservation": {
+    "base_version": "2.4.0-healthtech.1",
+    "candidate_version": "2.5.0-infrastructure.1",
+    "checked_at": "2026-10-29T15:20:52.075855+00:00",
+    "baseline_files": 3825,
+    "identical_files": 3758,
+    "changed_files": 67,
+    "missing_files": [],
+    "unexplained_changes": [],
+    "changed_categories": {
+      "shared_integration": 19,
+      "release_metadata": 2,
+      "new_project_metadata": 6,
+      "published_copy": 32,
+      "download_registry": 2,
+      "zip_metadata_only": 2,
+      "new_project_page": 2,
+      "sitemap": 2
+    },
+    "prior_download_urls": 744,
+    "missing_prior_download_urls": [],
+    "stale_published_copies": [],
+    "twelve_project_registry_preserved": true,
+    "previous_research_map_preserved": true,
+    "previous_changelog_preserved": true,
+    "previous_notice_preserved": true,
+    "passed": true
+  },
+  "last_live_refresh": {
+    "schema_version": 1,
+    "project_id": "life_infrastructure",
+    "state": "failed",
+    "checked_at": "2026-10-29T14:55:39+00:00",
+    "published_at": "2026-10-15T19:45:34+00:00",
+    "statistical_as_of": "2026-10-15",
+    "last_success": "2026-10-15T19:45:34+00:00",
+    "attempted_sources": 3,
+    "successful_sources": 0,
+    "published_sources": 0,
+    "updated_sources": 0,
+    "failed_sources": 3,
+    "deferred_sources": 31,
+    "message": "Запрошено источников: 3; подтверждено: 0; отложено: 31. Неуспешные запросы не заменяют последние проверенные данные."
+  },
+  "release_gate_notes": [
+    "Build and source-linked validation completed successfully.",
+    "The archive packager subsequently checks CRC and every included file against SHA-256.",
+    "A separate final HTTP check covers the complete download catalogue after documentation synchronization."
+  ],
+  "interpretation_limits": [
+    "Source fidelity does not remove source-methodology or geographic comparability restrictions.",
+    "The failed 29 October live attempt did not acquire or publish newer numerical observations.",
+    "Financial plans are not cash execution; source horizons and units remain separate.",
+    "Correlation, document membership and lexical proximity are not causal effects.",
+    "Conditional calculators are not validated predictive models."
+  ],
+  "package_source_deduplication": {
+    "removed_duplicate_zip_only": true,
+    "selected_passports": 13,
+    "all_original_bytes_verified_in_shared_corpus_and_individual_html": true,
+    "analytics_unchanged": true,
+    "shared_archive_download": "downloads/projects/health_technologies/documentary/documentary_sources.zip"
+  }
+}
