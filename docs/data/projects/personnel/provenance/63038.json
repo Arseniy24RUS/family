@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "source_id": "63038",
+  "source_url": "https://www.fedstat.ru/indicator/63038",
+  "research_release": "NationalProjects_Analytics_1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": "ab850dafa7e7e366805ef7877982bc0a59e777f5363cc4ca53c9fab21f77a09d",
+  "acquired_at": "2026-10-15T12:49:07+00:00",
+  "origin_kind": "live_emiss",
+  "unit": "процент",
+  "observations": 19,
+  "numeric": 19,
+  "published_sha256": "5c92c577919232033324c7c0bdc217535638d1aec26757f5539f016d75a35c34",
+  "input_sha256": "15c895aff4deec8e2f48cd41e3054c121dde13e782699f946780bcdb370ea50a",
+  "input_bundle": "downloads/projects/personnel/statistical/emiss_inputs/63038.zip",
+  "published_file": "data/projects/personnel/series/63038.json",
+  "period_policy": "Separate annual facts, source-specific annual-equivalent references, cumulative monthly measurements and quarterly surveys. Original periods are preserved.",
+  "missing_policy": "No imputation, no substitution by a report image or by another indicator."
+}

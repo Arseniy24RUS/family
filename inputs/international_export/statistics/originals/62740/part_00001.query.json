@@ -1,0 +1,92 @@
+{
+  "selected": {
+    "0": [
+      {
+        "id": "62740",
+        "title": "Минимальная годовая средняя эффективность мер поддержки по федеральному проекту \"Экспорт продукции АПК\""
+      }
+    ],
+    "3": [
+      {
+        "id": "2025",
+        "title": "2025"
+      }
+    ],
+    "3301": [
+      {
+        "id": "1678127",
+        "title": "Российская Федерация"
+      }
+    ],
+    "30611": [
+      {
+        "id": "950475",
+        "title": "единица"
+      }
+    ],
+    "33560": [
+      {
+        "id": "1558883",
+        "title": "значение показателя за год"
+      }
+    ]
+  },
+  "form": [
+    [
+      "format",
+      "excel"
+    ],
+    [
+      "id",
+      "62740"
+    ],
+    [
+      "indicator_title",
+      "Минимальная годовая средняя эффективность мер поддержки по федеральному проекту \"Экспорт продукции АПК\""
+    ],
+    [
+      "filterObjectIds",
+      "0"
+    ],
+    [
+      "selectedFilterIds",
+      "0_62740"
+    ],
+    [
+      "columnObjectIds",
+      "3"
+    ],
+    [
+      "selectedFilterIds",
+      "3_2025"
+    ],
+    [
+      "lineObjectIds",
+      "3301"
+    ],
+    [
+      "selectedFilterIds",
+      "3301_1678127"
+    ],
+    [
+      "lineObjectIds",
+      "30611"
+    ],
+    [
+      "selectedFilterIds",
+      "30611_950475"
+    ],
+    [
+      "columnObjectIds",
+      "33560"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1558883"
+    ]
+  ],
+  "download_url": "https://www.fedstat.ru/indicator/downloadData.do?format=excel",
+  "requested_at": "2026-10-15T19:25:07+00:00",
+  "received_at": "2026-10-15T19:25:09+00:00",
+  "csrf": "single-use session token; omitted"
+}

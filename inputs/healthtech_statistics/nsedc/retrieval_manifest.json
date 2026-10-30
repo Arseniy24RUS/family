@@ -1,0 +1,456 @@
+{
+  "62986": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_62986",
+      "retrieved_at": "2026-10-29T11:15:23.005448+00:00",
+      "status": 200,
+      "bytes": 17209,
+      "sha256": "708cd56245ee5e2dae6e18f90cf0520b7ce09cb1d4160d60320c0a97d3938874",
+      "file": "62986/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/62986.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:23.605658+00:00",
+      "status": 200,
+      "bytes": 304,
+      "sha256": "c74b582852c8f95ad557564cdaf7f43cabe088e88e5559c1c966bd5f7cf29fb4",
+      "file": "62986/62986.csv.gz",
+      "content_type": "application/gzip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/62986.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:25.808593+00:00",
+      "status": 200,
+      "bytes": 10356,
+      "sha256": "d01594ae6cfb34e904d8a32d15b50e1ddc0da3baf514c7e6525aee0af481e6df",
+      "file": "62986/62986.xls.zip",
+      "content_type": "application/zip"
+    }
+  ],
+  "62987": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_62987",
+      "retrieved_at": "2026-10-29T11:15:23.006489+00:00",
+      "status": 200,
+      "bytes": 18788,
+      "sha256": "8dc710ada360fc7863a589848e03a97e5c73c568b3e47de1cfb22d92bd3b6756",
+      "file": "62987/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/62987.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:23.684912+00:00",
+      "status": 200,
+      "bytes": 272,
+      "sha256": "28ed1d510f8a8b5bf9c0fa0c6e1951c3ecb9eccdb68c36f8e88a6cb8f0607d59",
+      "file": "62987/62987.csv.gz",
+      "content_type": "application/gzip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/62987.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:25.809061+00:00",
+      "status": 200,
+      "bytes": 9844,
+      "sha256": "939b3f9e7d8523c35b3e1d00c68d56c88678b202596e0193108b60736b33006f",
+      "file": "62987/62987.xls.zip",
+      "content_type": "application/zip"
+    }
+  ],
+  "63062": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63062",
+      "retrieved_at": "2026-10-29T11:15:23.007051+00:00",
+      "status": 200,
+      "bytes": 20468,
+      "sha256": "c9cce07e0288c2c57c43e58e4a4e86785b2faab29dd03f4933169e370a3f12fd",
+      "file": "63062/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/63062.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:23.666590+00:00",
+      "status": 200,
+      "bytes": 184,
+      "sha256": "1809b635c6be4c1d9ad5e7d584977d270326cec5d762588da2b29904fdd7c901",
+      "file": "63062/63062.csv.gz",
+      "content_type": "application/gzip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/63062.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:24.521301+00:00",
+      "status": 200,
+      "bytes": 10868,
+      "sha256": "ebcd75ac3a67384e080681780d1c6c8e8c1015072674e9efa2fbcf5632617987",
+      "file": "63062/63062.xls.zip",
+      "content_type": "application/zip"
+    }
+  ],
+  "63059": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63059",
+      "retrieved_at": "2026-10-29T11:15:23.007700+00:00",
+      "status": 200,
+      "bytes": 21173,
+      "sha256": "38cda1d973a62c5dc39a46c5324cc151f526830caee111ad9ce8b2ab229a931e",
+      "file": "63059/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/63059.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:23.569364+00:00",
+      "status": 200,
+      "bytes": 193,
+      "sha256": "4a10fdc7b1325325e1035daef9150795272cad3d824ac80cd5cfea0a948929f6",
+      "file": "63059/63059.csv.gz",
+      "content_type": "application/gzip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/63059.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:24.528120+00:00",
+      "status": 200,
+      "bytes": 9844,
+      "sha256": "a6a798b33d40f3281514575c78f6fce34a5f741e85c5960cdb54e93a31dbab96",
+      "file": "63059/63059.xls.zip",
+      "content_type": "application/zip"
+    }
+  ],
+  "63130": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63130",
+      "retrieved_at": "2026-10-29T11:15:24.829478+00:00",
+      "status": 200,
+      "bytes": 22449,
+      "sha256": "e9b1b4754ee41aa3b3b617741426fc69c8ea793ea4ddc3d599bd3877d8e90763",
+      "file": "63130/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/63130.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:25.151110+00:00",
+      "status": 200,
+      "bytes": 276,
+      "sha256": "f397b0678f03ae6f74761365763fa5225bbb4a111a2050003e3a6354322ef979",
+      "file": "63130/63130.csv.gz",
+      "content_type": "application/gzip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/63130.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:25.285802+00:00",
+      "status": 200,
+      "bytes": 12916,
+      "sha256": "355a674f372f7c0369ac08632c1337819773da9863c4ce54e3b160746303384e",
+      "file": "63130/63130.xls.zip",
+      "content_type": "application/zip"
+    }
+  ],
+  "63132": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63132",
+      "retrieved_at": "2026-10-29T11:15:25.472174+00:00",
+      "status": 200,
+      "bytes": 21487,
+      "sha256": "db7e0dab1f7eac30c0b02f5b95654c6e3b9a6413304660a98df5db30170fd1e1",
+      "file": "63132/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/63132.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:25.761339+00:00",
+      "status": 200,
+      "bytes": 344,
+      "sha256": "bc63aed9fc5b55fa9e65beae4c006f4d9a5c1f2989a8acdf6b5a6535a87232d3",
+      "file": "63132/63132.csv.gz",
+      "content_type": "application/gzip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/63132.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:25.909887+00:00",
+      "status": 200,
+      "bytes": 18548,
+      "sha256": "144b03c3f2bad3a883513b441d81fda29f753217dbba95699e232844863c421f",
+      "file": "63132/63132.xls.zip",
+      "content_type": "application/zip"
+    }
+  ],
+  "62985": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_62985",
+      "retrieved_at": "2026-10-29T11:15:25.809527+00:00",
+      "status": 200,
+      "bytes": 21314,
+      "sha256": "e0e94755515030a9b35434dc0fcf9638fc8c2dd479ad365487c11ae1491bae60",
+      "file": "62985/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/62985.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:25.974084+00:00",
+      "status": 200,
+      "bytes": 270,
+      "sha256": "e4005bacdad6d4427833bc67de7937658bf9594520f7186daabe86506d951dc2",
+      "file": "62985/62985.csv.gz",
+      "content_type": "application/gzip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/62985.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:26.185153+00:00",
+      "status": 200,
+      "bytes": 10868,
+      "sha256": "7f43bd58ef0d79494dc1824667d692ac7cd7314b5acd51f769b391a815f3d0d5",
+      "file": "62985/62985.xls.zip",
+      "content_type": "application/zip"
+    }
+  ],
+  "62928": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_62928",
+      "retrieved_at": "2026-10-29T11:15:26.083294+00:00",
+      "status": 200,
+      "bytes": 18657,
+      "sha256": "f0104c204ee6cbe7c1c98dcb06897ed77ccf04fb2b3c12acc58121fb782e9cd8",
+      "file": "62928/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/62928.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:26.371152+00:00",
+      "status": 200,
+      "bytes": 269,
+      "sha256": "56903d297a6727c1676d4e1d31eab88a77ec17011ca23eb50121b93cecc1f027",
+      "file": "62928/62928.csv.gz",
+      "content_type": "application/gzip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/62928.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:26.507307+00:00",
+      "status": 200,
+      "bytes": 9332,
+      "sha256": "24438f6b638d1fef8a5f5441c54e09fd1053b4fb159861f203339fe86e2cabe0",
+      "file": "62928/62928.xls.zip",
+      "content_type": "application/zip"
+    }
+  ],
+  "62984": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_62984",
+      "retrieved_at": "2026-10-29T11:15:26.107181+00:00",
+      "status": 200,
+      "bytes": 21522,
+      "sha256": "8812a7431fc712f4f3e88dfa39e5aa0b2b37351a4a9aeb9a82e3f89495628a9f",
+      "file": "62984/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/62984.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:26.266192+00:00",
+      "status": 200,
+      "bytes": 265,
+      "sha256": "63091ee25c9d8c34a11d7e9ef95807112c39683ff469a6ed8f714325afeb9acd",
+      "file": "62984/62984.csv.gz",
+      "content_type": "application/gzip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/62984.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:26.422644+00:00",
+      "status": 200,
+      "bytes": 11380,
+      "sha256": "be75356d8c7e35815c91f355bc857102dbb1b59969db43f7efc265fd340fd7b3",
+      "file": "62984/62984.xls.zip",
+      "content_type": "application/zip"
+    }
+  ],
+  "63446": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63446",
+      "retrieved_at": "2026-10-29T11:15:52.992024+00:00",
+      "status": 200,
+      "bytes": 14934,
+      "sha256": "5078e3d93a1d60cba9549515a2f96aa4b9a2abf2a6fc9ccaeb22f496ad961bbe",
+      "file": "63446/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/63446.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:53.561159+00:00",
+      "status": 200,
+      "bytes": 8308,
+      "sha256": "a66e6dfc89c7622eaaca01e78e06cf8ecf1644964d62e099b819af7db5c0db6f",
+      "file": "63446/63446.xls.zip",
+      "content_type": "application/zip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/63446.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:54.032655+00:00",
+      "status": 200,
+      "bytes": 196,
+      "sha256": "df9e5128f75b43e6a46a53480478bedd1de34e007dd7979a13779e4e5767219d",
+      "file": "63446/63446.csv.gz",
+      "content_type": "application/gzip"
+    }
+  ],
+  "63447": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63447",
+      "retrieved_at": "2026-10-29T11:15:52.993148+00:00",
+      "status": 200,
+      "bytes": 15117,
+      "sha256": "3e9616376e627bd78252d38dda964c125e285a5bca11cf293bcbb93b26ca9c14",
+      "file": "63447/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/63447.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:53.711619+00:00",
+      "status": 200,
+      "bytes": 8308,
+      "sha256": "d04f973b4d5c9ff830e1db08b10adaef8600e2d2300c02c81fb7d803e6fbfb9b",
+      "file": "63447/63447.xls.zip",
+      "content_type": "application/zip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/63447.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:54.006156+00:00",
+      "status": 200,
+      "bytes": 191,
+      "sha256": "3a4db42983b26bfdbdb69e102f39350440060496b4ab80e0cfc9c4db741c5a68",
+      "file": "63447/63447.csv.gz",
+      "content_type": "application/gzip"
+    }
+  ],
+  "62929": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_62929",
+      "retrieved_at": "2026-10-29T11:15:26.426263+00:00",
+      "status": 200,
+      "bytes": 20171,
+      "sha256": "fe924606c383372e8a606211f52449135f3a3a7d1afbc9af09d47a0eda1927ad",
+      "file": "62929/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/62929.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:26.588071+00:00",
+      "status": 200,
+      "bytes": 268,
+      "sha256": "e939f42b05c59fa52e72c479788b7c54e77a40ba9c260afaa5b0f2a86303ac7f",
+      "file": "62929/62929.csv.gz",
+      "content_type": "application/gzip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/62929.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:26.736664+00:00",
+      "status": 200,
+      "bytes": 9844,
+      "sha256": "eada2ad72fcb940b39b2ac79fd65fdfb32be12c7f73fa4de59393771d61b6696",
+      "file": "62929/62929.xls.zip",
+      "content_type": "application/zip"
+    }
+  ],
+  "62988": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_62988",
+      "retrieved_at": "2026-10-29T11:15:52.994079+00:00",
+      "status": 200,
+      "bytes": 21569,
+      "sha256": "e73ddbdac1da638716cd87a8a6f7449ea096b653aba9064b0d849ea10eb5c7fd",
+      "file": "62988/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/62988.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:53.685615+00:00",
+      "status": 200,
+      "bytes": 10868,
+      "sha256": "6a6bc62eb7f009b6cfb485f07c8a13ce4989b1e01b0f003b9cea1783950a536a",
+      "file": "62988/62988.xls.zip",
+      "content_type": "application/zip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/62988.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:54.599622+00:00",
+      "status": 200,
+      "bytes": 246,
+      "sha256": "a1643642e3e51130fe4d1bc9f92c53b95c20c4a6846b2eeed76d81f2aef8c4b4",
+      "file": "62988/62988.csv.gz",
+      "content_type": "application/gzip"
+    }
+  ],
+  "63445": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63445",
+      "retrieved_at": "2026-10-29T11:15:52.994872+00:00",
+      "status": 200,
+      "bytes": 17209,
+      "sha256": "25ab3a79325871361d0596c0e2f33972893ebf1afe1cc7f921b1376e53f7cc45",
+      "file": "63445/package.json",
+      "content_type": "application/json;charset=utf-8"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/excel/63445.xls.zip",
+      "retrieved_at": "2026-10-29T11:15:53.560377+00:00",
+      "status": 200,
+      "bytes": 8308,
+      "sha256": "aeab0f39b17b47303617544c76cfcde06d10c7b15982eee7256ad2a80f82e03d",
+      "file": "63445/63445.xls.zip",
+      "content_type": "application/zip"
+    },
+    {
+      "url": "https://761fae42-9959-46a6-80d9-09c7be333a14.selstorage.ru/fedstatru/data/csv/63445.csv.gz",
+      "retrieved_at": "2026-10-29T11:15:54.524283+00:00",
+      "status": 200,
+      "bytes": 190,
+      "sha256": "977ecf7db9e83ef72c5e2825103cd5cd00b25539d59701b3ff784888073bfb4b",
+      "file": "63445/63445.csv.gz",
+      "content_type": "application/gzip"
+    }
+  ],
+  "63223": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63223",
+      "retrieved_at": "2026-10-29T11:15:26.680409+00:00",
+      "error": "HTTPError",
+      "message": "HTTP Error 404: Not Found"
+    }
+  ],
+  "63224": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63224",
+      "retrieved_at": "2026-10-29T11:15:26.744576+00:00",
+      "error": "HTTPError",
+      "message": "HTTP Error 404: Not Found"
+    }
+  ],
+  "63225": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63225",
+      "retrieved_at": "2026-10-29T11:15:26.824961+00:00",
+      "error": "HTTPError",
+      "message": "HTTP Error 404: Not Found"
+    }
+  ],
+  "63226": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63226",
+      "retrieved_at": "2026-10-29T11:15:26.830405+00:00",
+      "error": "HTTPError",
+      "message": "HTTP Error 404: Not Found"
+    }
+  ],
+  "63272": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63272",
+      "retrieved_at": "2026-10-29T11:15:26.904122+00:00",
+      "error": "HTTPError",
+      "message": "HTTP Error 404: Not Found"
+    }
+  ],
+  "63275": [
+    {
+      "url": "https://repository.nsedc.ru/api/3/action/package_show?id=emiss_63275",
+      "retrieved_at": "2026-10-29T11:15:26.952010+00:00",
+      "error": "HTTPError",
+      "message": "HTTP Error 404: Not Found"
+    }
+  ]
+}

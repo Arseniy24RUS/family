@@ -1,0 +1,8 @@
+﻿project_id,panel_id,seed,n_regions,n_flagged,jaccard_vs_seed42,rank_spearman_vs_seed42,contamination,n_estimators
+data_economy,data_economy_monthly_2026-09-30,0,85,13,1.0,0.9839358999413719,0.15,200
+data_economy,data_economy_monthly_2026-09-30,1,85,13,0.8571428571428571,0.9740668360367403,0.15,200
+data_economy,data_economy_monthly_2026-09-30,7,85,13,1.0,0.9766464725425055,0.15,200
+data_economy,data_economy_monthly_2026-09-30,21,85,13,0.8571428571428571,0.977936290795388,0.15,200
+data_economy,data_economy_monthly_2026-09-30,42,85,13,1.0,1.0,0.15,200
+data_economy,data_economy_monthly_2026-09-30,99,85,13,1.0,0.9844440101622044,0.15,200
+data_economy,data_economy_monthly_2026-09-30,2026,85,13,1.0,0.9761969904240766,0.15,200

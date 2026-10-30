@@ -1,0 +1,3709 @@
+{
+  "project_id": "tourism",
+  "documentary_snapshot": "2026-10-16",
+  "basis": "single_source_edition_per_card",
+  "items": [
+    {
+      "document_id": "np_26",
+      "fp": "П",
+      "card_id": "passport-purpose-1",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "title": "Количество туристических поездок по территории Российской Федерации",
+      "unit": "млн поездок",
+      "local_code": "3",
+      "years": {
+        "2025": 98.2,
+        "2026": 107.0,
+        "2027": 116.8,
+        "2028": 127.0,
+        "2029": 133.0,
+        "2030": 140.0
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": "0",
+          "value_raw": "0",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "98.2",
+          "value_raw": "98.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "107",
+          "value_raw": "107",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "116.8",
+          "value_raw": "116.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "127",
+          "value_raw": "127",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "133",
+          "value_raw": "133",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "140",
+          "value_raw": "140",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "83.6000",
+      "base_date": "26.09.2023",
+      "metadata": {
+        "Базовое значение": "83.6000",
+        "Дата базового значения": "26.09.2023",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллион штук",
+        "Код показателя": "3",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет",
+        "Ключевой параметр": "0"
+      },
+      "source_version": "26.23",
+      "publication_date": "16.10.2026",
+      "document_level": "national",
+      "indicator_code": "2.14.П.2",
+      "code": "2.14.П.2",
+      "source_id": "62900",
+      "passport_unit": "Миллион штук",
+      "mapping_status": "reviewed_definition_and_unit_match",
+      "mapping_note": "Паспортная цель выбранной редакции. Срок публикации не является датой утверждения.",
+      "target_is_proxy": false,
+      "basis": "passport_plan_selected_edition",
+      "additional_to_statistical_catalog": false
+    },
+    {
+      "document_id": "np_26",
+      "fp": "П",
+      "card_id": "passport-purpose-2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "title": "Доля туристской отрасли в валовом внутреннем продукте",
+      "unit": "%",
+      "local_code": "2",
+      "years": {
+        "2025": 3.0,
+        "2026": 3.4,
+        "2027": 3.9,
+        "2028": 4.4,
+        "2029": 4.7,
+        "2030": 5.0
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": "0",
+          "value_raw": "0",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "3",
+          "value_raw": "3",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "3.4",
+          "value_raw": "3.4",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "3.9",
+          "value_raw": "3.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "4.4",
+          "value_raw": "4.4",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "4.7",
+          "value_raw": "4.7",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "5",
+          "value_raw": "5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "2.9000",
+      "base_date": "01.01.2024",
+      "metadata": {
+        "Базовое значение": "2.9000",
+        "Дата базового значения": "01.01.2024",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень НПА": "Указ 309",
+        "Не исполняется": "0",
+        "Единица измерения": "Процент",
+        "Код показателя": "2",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Да",
+        "Связанный показатель": "Нет",
+        "Ключевой параметр": "0"
+      },
+      "source_version": "26.23",
+      "publication_date": "16.10.2026",
+      "document_level": "national",
+      "indicator_code": "2.14.П.3",
+      "code": "2.14.П.3",
+      "source_id": "62903",
+      "passport_unit": "Процент",
+      "mapping_status": "reviewed_definition_and_unit_match",
+      "mapping_note": "Паспортная цель выбранной редакции. Срок публикации не является датой утверждения.",
+      "target_is_proxy": false,
+      "basis": "passport_plan_selected_edition",
+      "additional_to_statistical_catalog": false
+    },
+    {
+      "document_id": "np_26",
+      "fp": "П",
+      "card_id": "passport-purpose-3",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "title": "Объем экспорта туристских услуг",
+      "unit": "млрд долл. США",
+      "local_code": "1",
+      "years": {
+        "2025": 4.6,
+        "2026": 5.8,
+        "2027": 7.0,
+        "2028": 8.2,
+        "2029": 9.5,
+        "2030": 10.8
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": "0",
+          "value_raw": "0",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "4.6",
+          "value_raw": "4.6",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "5.8",
+          "value_raw": "5.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "7",
+          "value_raw": "7",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "8.2",
+          "value_raw": "8.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "9.5",
+          "value_raw": "9.5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "10.8",
+          "value_raw": "10.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "3.6000",
+      "base_date": "26.09.2023",
+      "metadata": {
+        "Базовое значение": "3.6000",
+        "Дата базового значения": "26.09.2023",
+        "Ответственный за показатель": "Решетников Максим Геннадьевич",
+        "Должность ответственного": "Министр экономического развития Российской Федерации",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень НПА": "Указ 309",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллиард долларов",
+        "Код показателя": "1",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Да",
+        "Связанный показатель": "Нет",
+        "Ключевой параметр": "0"
+      },
+      "source_version": "26.23",
+      "publication_date": "16.10.2026",
+      "document_level": "national",
+      "indicator_code": "2.14.П.1",
+      "code": "2.14.П.1",
+      "source_id": "62902",
+      "passport_unit": "Миллиард долларов",
+      "mapping_status": "reviewed_definition_and_unit_match",
+      "mapping_note": "Паспортная цель выбранной редакции. Срок публикации не является датой утверждения.",
+      "target_is_proxy": false,
+      "basis": "passport_plan_selected_edition",
+      "additional_to_statistical_catalog": false
+    },
+    {
+      "document_id": "fp_301",
+      "fp": "П3",
+      "card_id": "passport-purpose-1",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "title": "Индекс удовлетворенности граждан в сфере туризма и гостеприимства",
+      "unit": "%",
+      "local_code": "2",
+      "years": {
+        "2025": 52.5,
+        "2026": 61.0,
+        "2027": 65.0,
+        "2028": 71.0,
+        "2029": 76.0,
+        "2030": 80.0
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "52.5",
+          "value_raw": "52.5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "61",
+          "value_raw": "61",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "65",
+          "value_raw": "65",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "71",
+          "value_raw": "71",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "76",
+          "value_raw": "76",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "80",
+          "value_raw": "80",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "0.0000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "0.0000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Процент",
+        "Код показателя": "2",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.20",
+      "publication_date": "16.10.2026",
+      "document_level": "federal",
+      "indicator_code": "2.14.П3.2",
+      "code": "2.14.П3.2",
+      "source_id": null,
+      "passport_unit": "Процент",
+      "mapping_status": "no_verified_numeric_source",
+      "mapping_note": "Паспортная цель выбранной редакции. Срок публикации не является датой утверждения.",
+      "target_is_proxy": false,
+      "basis": "passport_plan_selected_edition",
+      "additional_to_statistical_catalog": false
+    },
+    {
+      "document_id": "fp_301",
+      "fp": "П3",
+      "card_id": "passport-purpose-2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "title": "Численность иностранных граждан, размещенных в коллективных средствах размещения",
+      "unit": "млн человек",
+      "local_code": "3",
+      "years": {
+        "2025": 5.2,
+        "2026": 6.2,
+        "2027": 8.0,
+        "2028": 10.5,
+        "2029": 13.9,
+        "2030": 16.0
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "5.2",
+          "value_raw": "5.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "6.2",
+          "value_raw": "6.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "8",
+          "value_raw": "8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "10.5",
+          "value_raw": "10.5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "13.9",
+          "value_raw": "13.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "16",
+          "value_raw": "16",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "3.9000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "3.9000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллион человек",
+        "Код показателя": "3",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.20",
+      "publication_date": "16.10.2026",
+      "document_level": "federal",
+      "indicator_code": "2.14.П3.1",
+      "code": "2.14.П3.1",
+      "source_id": "63347",
+      "passport_unit": "Миллион человек",
+      "mapping_status": "reviewed_definition_and_unit_match",
+      "mapping_note": "Физическая публикация 63347 сопоставлена с собственным показателем иностранных размещений. Связь каталога с экспортным прокси сохранена отдельно.",
+      "target_is_proxy": false,
+      "basis": "passport_plan_selected_edition",
+      "additional_to_statistical_catalog": false
+    },
+    {
+      "document_id": "fp_301",
+      "fp": "П3",
+      "card_id": "passport-purpose-3",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "title": "Число посещений Национального туристического портала",
+      "unit": "млн единиц",
+      "local_code": "1",
+      "years": {
+        "2025": 6.8,
+        "2026": 7.5,
+        "2027": 8.2,
+        "2028": 8.9,
+        "2029": 9.6,
+        "2030": 10.2
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "6.8",
+          "value_raw": "6.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "7.5",
+          "value_raw": "7.5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "8.2",
+          "value_raw": "8.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "8.9",
+          "value_raw": "8.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "9.6",
+          "value_raw": "9.6",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "10.2",
+          "value_raw": "10.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "6.1000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "6.1000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Уровень НПА": "Указ 309",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллион единиц",
+        "Код показателя": "1",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Да",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.20",
+      "publication_date": "16.10.2026",
+      "document_level": "federal",
+      "indicator_code": "2.14.П3.3",
+      "code": "2.14.П3.3",
+      "source_id": null,
+      "passport_unit": "Миллион единиц",
+      "mapping_status": "no_verified_numeric_source",
+      "mapping_note": "Паспортная цель выбранной редакции. Срок публикации не является датой утверждения.",
+      "target_is_proxy": false,
+      "basis": "passport_plan_selected_edition",
+      "additional_to_statistical_catalog": false
+    },
+    {
+      "document_id": "fp_303",
+      "fp": "П2",
+      "card_id": "passport-purpose-1",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "title": "Число поездок в новые современные круглогодичные гостиничные комплексы",
+      "unit": "млн поездок",
+      "local_code": "1",
+      "years": {
+        "2025": null,
+        "2026": null,
+        "2027": null,
+        "2028": 1.2,
+        "2029": 4.3,
+        "2030": 7.4
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "1.2",
+          "value_raw": "1.2",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "4.3",
+          "value_raw": "4.3",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "7.4",
+          "value_raw": "7.4",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "0.0000",
+      "base_date": "31.12.2023",
+      "metadata": {
+        "Базовое значение": "0.0000",
+        "Дата базового значения": "31.12.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллион штук",
+        "Код показателя": "1",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.20",
+      "publication_date": "16.10.2026",
+      "document_level": "federal",
+      "indicator_code": "2.14.П2.1",
+      "code": "2.14.П2.1",
+      "source_id": null,
+      "passport_unit": "Миллион штук",
+      "mapping_status": "no_verified_numeric_source",
+      "mapping_note": "Паспортная цель выбранной редакции. Срок публикации не является датой утверждения.",
+      "target_is_proxy": false,
+      "basis": "passport_plan_selected_edition",
+      "additional_to_statistical_catalog": false
+    },
+    {
+      "document_id": "fp_308",
+      "fp": "П1",
+      "card_id": "passport-purpose-3",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "title": "Количество номеров в классифицированных средствах размещения",
+      "unit": "тыс. номеров",
+      "local_code": "2",
+      "years": {
+        "2025": 962.3,
+        "2026": 1091.9,
+        "2027": 1224.9,
+        "2028": 1330.8,
+        "2029": 1417.9,
+        "2030": 1486.0
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "962.3",
+          "value_raw": "962.3",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "1091.9",
+          "value_raw": "1 091.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "1224.9",
+          "value_raw": "1 224.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "1330.8",
+          "value_raw": "1 330.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "1417.9",
+          "value_raw": "1 417.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "1486",
+          "value_raw": "1486",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "911.8000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "911.8000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Тысяча номеров",
+        "Код показателя": "2",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.28",
+      "publication_date": "16.10.2026",
+      "document_level": "federal",
+      "indicator_code": "2.14.П1.1",
+      "code": "2.14.П1.1",
+      "source_id": "62159",
+      "passport_unit": "Тысяча номеров",
+      "mapping_status": "reviewed_definition_and_unit_match",
+      "mapping_note": "Паспортная цель выбранной редакции. Срок публикации не является датой утверждения.",
+      "target_is_proxy": false,
+      "basis": "passport_plan_selected_edition",
+      "additional_to_statistical_catalog": false
+    },
+    {
+      "document_id": "fp_309",
+      "fp": "П4",
+      "card_id": "passport-purpose-1",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "title": "Число специалистов, прошедших переподготовку и повышение квалификации по виду экономической деятельности \"деятельность гостиниц и предприятий общественного питания\" в центрах подготовки кадров для туристской индустрии",
+      "unit": "чел.",
+      "local_code": "3",
+      "years": {
+        "2025": null,
+        "2026": 4193.0,
+        "2027": 8511.0,
+        "2028": 12982.0,
+        "2029": 18405.0,
+        "2030": 23870.0
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "4193",
+          "value_raw": "4193",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "8511",
+          "value_raw": "8511",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "12982",
+          "value_raw": "12982",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "18405",
+          "value_raw": "18405",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "23870",
+          "value_raw": "23870",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "0.0000",
+      "base_date": "01.01.2025",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "0.0000",
+        "Дата базового значения": "01.01.2025",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Человек",
+        "Код показателя": "3",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.14",
+      "publication_date": "16.10.2026",
+      "document_level": "federal",
+      "indicator_code": "П04611-П4",
+      "code": "П04611-П4",
+      "source_id": null,
+      "passport_unit": "Человек",
+      "mapping_status": "no_verified_numeric_source",
+      "mapping_note": "Паспортная цель выбранной редакции. Срок публикации не является датой утверждения.",
+      "target_is_proxy": false,
+      "basis": "passport_plan_selected_edition",
+      "additional_to_statistical_catalog": true
+    },
+    {
+      "document_id": "fp_309",
+      "fp": "П4",
+      "card_id": "passport-purpose-2",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "title": "Доля прошедших обучение по программам переподготовки и повышения квалификации по направлению \"деятельность гостиниц и предприятий общественного питания\" в численности занятых в отрасли туризма",
+      "unit": "%",
+      "local_code": "2",
+      "years": {
+        "2025": 4.9,
+        "2026": 7.3,
+        "2027": 9.4,
+        "2028": 11.4,
+        "2029": 13.2,
+        "2030": 15.0
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "4.9",
+          "value_raw": "4.9",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "7.3",
+          "value_raw": "7.3",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "9.4",
+          "value_raw": "9.4",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "11.4",
+          "value_raw": "11.4",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "13.2",
+          "value_raw": "13.2",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "15",
+          "value_raw": "15",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "2.5000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "2.5000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Процент",
+        "Код показателя": "2",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.14",
+      "publication_date": "16.10.2026",
+      "document_level": "federal",
+      "indicator_code": "2.14.П4.1",
+      "code": "2.14.П4.1",
+      "source_id": null,
+      "passport_unit": "Процент",
+      "mapping_status": "no_verified_numeric_source",
+      "mapping_note": "Паспортная цель выбранной редакции. Срок публикации не является датой утверждения.",
+      "target_is_proxy": false,
+      "basis": "passport_plan_selected_edition",
+      "additional_to_statistical_catalog": false
+    },
+    {
+      "document_id": "fp_310",
+      "fp": "П5",
+      "card_id": "passport-purpose-1",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_url": "https://databudget.ru/projects/fp/310",
+      "source_sha256": "18ba9cada1e6e3eb650d0bd8b2be06c971433f4bc1f034f7832f32d6b53d38f7",
+      "title": "Обеспеченность туристской индустрии отечественной промышленной продукцией",
+      "unit": "%",
+      "local_code": "1",
+      "years": {
+        "2025": 30.3,
+        "2026": 41.2,
+        "2027": 45.4,
+        "2028": 46.1,
+        "2029": 65.1,
+        "2030": 84.5
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "30.3",
+          "value_raw": "30.3",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "41.2",
+          "value_raw": "41.2",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "45.4",
+          "value_raw": "45.4",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "46.1",
+          "value_raw": "46.1",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "65.1",
+          "value_raw": "65.1",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "84.5",
+          "value_raw": "84.5",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "63.0000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "63.0000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Процент",
+        "Код показателя": "1",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.5",
+      "publication_date": "16.10.2026",
+      "document_level": "federal",
+      "indicator_code": "2.14.П5.1",
+      "code": "2.14.П5.1",
+      "source_id": "62780",
+      "passport_unit": "Процент",
+      "mapping_status": "reviewed_definition_and_unit_match",
+      "mapping_note": "Паспортная цель выбранной редакции. Срок публикации не является датой утверждения.",
+      "target_is_proxy": false,
+      "basis": "passport_plan_selected_edition",
+      "additional_to_statistical_catalog": false
+    }
+  ],
+  "allCards": [
+    {
+      "document_id": "fp_301",
+      "fp": "П3",
+      "card_id": "passport-purpose-1",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "title": "Индекс удовлетворенности граждан в сфере туризма и гостеприимства",
+      "unit": "Процент",
+      "local_code": "2",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 52.5,
+        "2026": 61.0,
+        "2027": 65.0,
+        "2028": 71.0,
+        "2029": 76.0,
+        "2030": 80.0,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "52.5",
+          "value_raw": "52.5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "61",
+          "value_raw": "61",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "65",
+          "value_raw": "65",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "71",
+          "value_raw": "71",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "76",
+          "value_raw": "76",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "80",
+          "value_raw": "80",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "0.0000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "0.0000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Процент",
+        "Код показателя": "2",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.20",
+      "publication_date": "16.10.2026",
+      "document_level": "federal"
+    },
+    {
+      "document_id": "fp_301",
+      "fp": "П3",
+      "card_id": "passport-purpose-2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "title": "Численность иностранных граждан, размещенных в коллективных средствах размещения",
+      "unit": "Миллион человек",
+      "local_code": "3",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 5.2,
+        "2026": 6.2,
+        "2027": 8.0,
+        "2028": 10.5,
+        "2029": 13.9,
+        "2030": 16.0,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "5.2",
+          "value_raw": "5.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "6.2",
+          "value_raw": "6.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "8",
+          "value_raw": "8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "10.5",
+          "value_raw": "10.5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "13.9",
+          "value_raw": "13.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "16",
+          "value_raw": "16",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "3.9000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "3.9000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллион человек",
+        "Код показателя": "3",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.20",
+      "publication_date": "16.10.2026",
+      "document_level": "federal"
+    },
+    {
+      "document_id": "fp_301",
+      "fp": "П3",
+      "card_id": "passport-purpose-3",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "title": "Число посещений Национального туристического портала",
+      "unit": "Миллион единиц",
+      "local_code": "1",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 6.8,
+        "2026": 7.5,
+        "2027": 8.2,
+        "2028": 8.9,
+        "2029": 9.6,
+        "2030": 10.2,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "6.8",
+          "value_raw": "6.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "7.5",
+          "value_raw": "7.5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "8.2",
+          "value_raw": "8.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "8.9",
+          "value_raw": "8.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "9.6",
+          "value_raw": "9.6",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "10.2",
+          "value_raw": "10.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "6.1000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "6.1000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Уровень НПА": "Указ 309",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллион единиц",
+        "Код показателя": "1",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Да",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.20",
+      "publication_date": "16.10.2026",
+      "document_level": "federal"
+    },
+    {
+      "document_id": "fp_301",
+      "fp": "П3",
+      "card_id": "passport-purpose-4",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_url": "https://databudget.ru/projects/fp/301",
+      "source_sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4",
+      "title": "Объем экспорта туристских услуг",
+      "unit": "Миллиард долларов",
+      "local_code": "1",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 4.6,
+        "2026": 5.8,
+        "2027": 7.0,
+        "2028": 8.2,
+        "2029": 9.5,
+        "2030": 10.8,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "4.6",
+          "value_raw": "4.6",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "5.8",
+          "value_raw": "5.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "7",
+          "value_raw": "7",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "8.2",
+          "value_raw": "8.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "9.5",
+          "value_raw": "9.5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "10.8",
+          "value_raw": "10.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "3.6000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "НП, ГП",
+        "Базовое значение": "3.6000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "НП, ГП",
+        "Уровень НПА": "Указ 309",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллиард долларов",
+        "Код показателя": "1",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Да",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.20",
+      "publication_date": "16.10.2026",
+      "document_level": "federal"
+    },
+    {
+      "document_id": "fp_303",
+      "fp": "П2",
+      "card_id": "passport-purpose-1",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_url": "https://databudget.ru/projects/fp/303",
+      "source_sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538",
+      "title": "Число поездок в новые современные круглогодичные гостиничные комплексы",
+      "unit": "Миллион штук",
+      "local_code": "1",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026": null,
+        "2027": null,
+        "2028": 1.2,
+        "2029": 4.3,
+        "2030": 7.4,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "1.2",
+          "value_raw": "1.2",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "4.3",
+          "value_raw": "4.3",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "7.4",
+          "value_raw": "7.4",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "0.0000",
+      "base_date": "31.12.2023",
+      "metadata": {
+        "Базовое значение": "0.0000",
+        "Дата базового значения": "31.12.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллион штук",
+        "Код показателя": "1",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.20",
+      "publication_date": "16.10.2026",
+      "document_level": "federal"
+    },
+    {
+      "document_id": "fp_308",
+      "fp": "П1",
+      "card_id": "passport-purpose-1",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "title": "Количество туристических поездок по территории Российской Федерации",
+      "unit": "Миллион штук",
+      "local_code": "3",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 98.2,
+        "2026": 107.0,
+        "2027": 116.8,
+        "2028": 127.0,
+        "2029": 133.0,
+        "2030": 140.0,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "98.2",
+          "value_raw": "98.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "107",
+          "value_raw": "107",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "116.8",
+          "value_raw": "116.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "127",
+          "value_raw": "127",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "133",
+          "value_raw": "133",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "140",
+          "value_raw": "140",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "83.6000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "НП, ГП",
+        "Базовое значение": "83.6000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Уровень показателя": "НП, ГП",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллион штук",
+        "Код показателя": "3",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.28",
+      "publication_date": "16.10.2026",
+      "document_level": "federal"
+    },
+    {
+      "document_id": "fp_308",
+      "fp": "П1",
+      "card_id": "passport-purpose-2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "title": "Доля туристской отрасли в валовом внутреннем продукте",
+      "unit": "Процент",
+      "local_code": "2",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 3.0,
+        "2026": 3.4,
+        "2027": 3.9,
+        "2028": 4.4,
+        "2029": 4.7,
+        "2030": 5.0,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "3",
+          "value_raw": "3",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "3.4",
+          "value_raw": "3.4",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "3.9",
+          "value_raw": "3.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "4.4",
+          "value_raw": "4.4",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "4.7",
+          "value_raw": "4.7",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "5",
+          "value_raw": "5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "2.9000",
+      "base_date": "01.01.2024",
+      "metadata": {
+        "Уровень реализации показателя": "НП, ГП",
+        "Базовое значение": "2.9000",
+        "Дата базового значения": "01.01.2024",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "НП, ГП",
+        "Уровень НПА": "Указ 309",
+        "Не исполняется": "0",
+        "Единица измерения": "Процент",
+        "Код показателя": "2",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Да",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.28",
+      "publication_date": "16.10.2026",
+      "document_level": "federal"
+    },
+    {
+      "document_id": "fp_308",
+      "fp": "П1",
+      "card_id": "passport-purpose-3",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_url": "https://databudget.ru/projects/fp/308",
+      "source_sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a",
+      "title": "Количество номеров в классифицированных средствах размещения",
+      "unit": "Тысяча номеров",
+      "local_code": "2",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 962.3,
+        "2026": 1091.9,
+        "2027": 1224.9,
+        "2028": 1330.8,
+        "2029": 1417.9,
+        "2030": 1486.0,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "962.3",
+          "value_raw": "962.3",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "1091.9",
+          "value_raw": "1 091.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "1224.9",
+          "value_raw": "1 224.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "1330.8",
+          "value_raw": "1 330.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "1417.9",
+          "value_raw": "1 417.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "1486",
+          "value_raw": "1486",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "911.8000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "911.8000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Тысяча номеров",
+        "Код показателя": "2",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.28",
+      "publication_date": "16.10.2026",
+      "document_level": "federal"
+    },
+    {
+      "document_id": "fp_309",
+      "fp": "П4",
+      "card_id": "passport-purpose-1",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "title": "Число специалистов, прошедших переподготовку и повышение квалификации по виду экономической деятельности \"деятельность гостиниц и предприятий общественного питания\" в центрах подготовки кадров для туристской индустрии",
+      "unit": "Человек",
+      "local_code": "3",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null,
+        "2026": 4193.0,
+        "2027": 8511.0,
+        "2028": 12982.0,
+        "2029": 18405.0,
+        "2030": 23870.0,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "4193",
+          "value_raw": "4193",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "8511",
+          "value_raw": "8511",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "12982",
+          "value_raw": "12982",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "18405",
+          "value_raw": "18405",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "23870",
+          "value_raw": "23870",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "0.0000",
+      "base_date": "01.01.2025",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "0.0000",
+        "Дата базового значения": "01.01.2025",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Человек",
+        "Код показателя": "3",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.14",
+      "publication_date": "16.10.2026",
+      "document_level": "federal"
+    },
+    {
+      "document_id": "fp_309",
+      "fp": "П4",
+      "card_id": "passport-purpose-2",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "title": "Доля прошедших обучение по программам переподготовки и повышения квалификации по направлению \"деятельность гостиниц и предприятий общественного питания\" в численности занятых в отрасли туризма",
+      "unit": "Процент",
+      "local_code": "2",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 4.9,
+        "2026": 7.3,
+        "2027": 9.4,
+        "2028": 11.4,
+        "2029": 13.2,
+        "2030": 15.0,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "4.9",
+          "value_raw": "4.9",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "7.3",
+          "value_raw": "7.3",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "9.4",
+          "value_raw": "9.4",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "11.4",
+          "value_raw": "11.4",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "13.2",
+          "value_raw": "13.2",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "15",
+          "value_raw": "15",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "2.5000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "2.5000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Процент",
+        "Код показателя": "2",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.14",
+      "publication_date": "16.10.2026",
+      "document_level": "federal"
+    },
+    {
+      "document_id": "fp_310",
+      "fp": "П5",
+      "card_id": "passport-purpose-1",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_url": "https://databudget.ru/projects/fp/310",
+      "source_sha256": "18ba9cada1e6e3eb650d0bd8b2be06c971433f4bc1f034f7832f32d6b53d38f7",
+      "title": "Обеспеченность туристской индустрии отечественной промышленной продукцией",
+      "unit": "Процент",
+      "local_code": "1",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 30.3,
+        "2026": 41.2,
+        "2027": 45.4,
+        "2028": 46.1,
+        "2029": 65.1,
+        "2030": 84.5,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "30.3",
+          "value_raw": "30.3",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "41.2",
+          "value_raw": "41.2",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "45.4",
+          "value_raw": "45.4",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "46.1",
+          "value_raw": "46.1",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "65.1",
+          "value_raw": "65.1",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "84.5",
+          "value_raw": "84.5",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "63.0000",
+      "base_date": "01.01.2023",
+      "metadata": {
+        "Уровень реализации показателя": "ФП",
+        "Базовое значение": "63.0000",
+        "Дата базового значения": "01.01.2023",
+        "Информационная система-источник": "Государственная информационная система \"Цифровая аналитическая платформа предоставления статистических данных\" (ГИС ЦАП)",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень показателя": "ФП",
+        "Не исполняется": "0",
+        "Единица измерения": "Процент",
+        "Код показателя": "1",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет"
+      },
+      "source_version": "26.5",
+      "publication_date": "16.10.2026",
+      "document_level": "federal"
+    },
+    {
+      "document_id": "np_26",
+      "fp": "П",
+      "card_id": "passport-purpose-1",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "title": "Количество туристических поездок по территории Российской Федерации",
+      "unit": "Миллион штук",
+      "local_code": "3",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": 0.0,
+        "2025": 98.2,
+        "2026": 107.0,
+        "2027": 116.8,
+        "2028": 127.0,
+        "2029": 133.0,
+        "2030": 140.0,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": "0",
+          "value_raw": "0",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "98.2",
+          "value_raw": "98.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "107",
+          "value_raw": "107",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "116.8",
+          "value_raw": "116.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "127",
+          "value_raw": "127",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "133",
+          "value_raw": "133",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "140",
+          "value_raw": "140",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "83.6000",
+      "base_date": "26.09.2023",
+      "metadata": {
+        "Базовое значение": "83.6000",
+        "Дата базового значения": "26.09.2023",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллион штук",
+        "Код показателя": "3",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Нет",
+        "Связанный показатель": "Нет",
+        "Ключевой параметр": "0"
+      },
+      "source_version": "26.23",
+      "publication_date": "16.10.2026",
+      "document_level": "national"
+    },
+    {
+      "document_id": "np_26",
+      "fp": "П",
+      "card_id": "passport-purpose-2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "title": "Доля туристской отрасли в валовом внутреннем продукте",
+      "unit": "Процент",
+      "local_code": "2",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": 0.0,
+        "2025": 3.0,
+        "2026": 3.4,
+        "2027": 3.9,
+        "2028": 4.4,
+        "2029": 4.7,
+        "2030": 5.0,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": "0",
+          "value_raw": "0",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "3",
+          "value_raw": "3",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "3.4",
+          "value_raw": "3.4",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "3.9",
+          "value_raw": "3.9",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "4.4",
+          "value_raw": "4.4",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "4.7",
+          "value_raw": "4.7",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "5",
+          "value_raw": "5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "2.9000",
+      "base_date": "01.01.2024",
+      "metadata": {
+        "Базовое значение": "2.9000",
+        "Дата базового значения": "01.01.2024",
+        "Ответственный за показатель": "Вахруков Дмитрий Сергеевич",
+        "Должность ответственного": "Заместитель Министра",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень НПА": "Указ 309",
+        "Не исполняется": "0",
+        "Единица измерения": "Процент",
+        "Код показателя": "2",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Да",
+        "Связанный показатель": "Нет",
+        "Ключевой параметр": "0"
+      },
+      "source_version": "26.23",
+      "publication_date": "16.10.2026",
+      "document_level": "national"
+    },
+    {
+      "document_id": "np_26",
+      "fp": "П",
+      "card_id": "passport-purpose-3",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_url": "https://databudget.ru/projects/np/26",
+      "source_sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57",
+      "title": "Объем экспорта туристских услуг",
+      "unit": "Миллиард долларов",
+      "local_code": "1",
+      "years": {
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": 0.0,
+        "2025": 4.6,
+        "2026": 5.8,
+        "2027": 7.0,
+        "2028": 8.2,
+        "2029": 9.5,
+        "2030": 10.8,
+        "2031": null,
+        "2032": null,
+        "2033": null,
+        "2034": null,
+        "2035": null,
+        "2036": null
+      },
+      "raw_years": {
+        "2018": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[1]"
+        },
+        "2019": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[2]"
+        },
+        "2020": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[3]"
+        },
+        "2021": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[4]"
+        },
+        "2022": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[5]"
+        },
+        "2023": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[6]"
+        },
+        "2024": {
+          "value_decimal": "0",
+          "value_raw": "0",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[7]"
+        },
+        "2025": {
+          "value_decimal": "4.6",
+          "value_raw": "4.6",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[8]"
+        },
+        "2026": {
+          "value_decimal": "5.8",
+          "value_raw": "5.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[9]"
+        },
+        "2027": {
+          "value_decimal": "7",
+          "value_raw": "7",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[10]"
+        },
+        "2028": {
+          "value_decimal": "8.2",
+          "value_raw": "8.2",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[11]"
+        },
+        "2029": {
+          "value_decimal": "9.5",
+          "value_raw": "9.5",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[12]"
+        },
+        "2030": {
+          "value_decimal": "10.8",
+          "value_raw": "10.8",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[13]"
+        },
+        "2031": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[14]"
+        },
+        "2032": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[15]"
+        },
+        "2033": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[16]"
+        },
+        "2034": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[17]"
+        },
+        "2035": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[18]"
+        },
+        "2036": {
+          "value_decimal": null,
+          "value_raw": "—",
+          "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[19]"
+        }
+      },
+      "base_value_raw": "3.6000",
+      "base_date": "26.09.2023",
+      "metadata": {
+        "Базовое значение": "3.6000",
+        "Дата базового значения": "26.09.2023",
+        "Ответственный за показатель": "Решетников Максим Геннадьевич",
+        "Должность ответственного": "Министр экономического развития Российской Федерации",
+        "Организация ответственного исполнителя": "МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "Уровень НПА": "Указ 309",
+        "Не исполняется": "0",
+        "Единица измерения": "Миллиард долларов",
+        "Код показателя": "1",
+        "Установлено Указом 204": "Нет",
+        "Установлено Указом 309": "Да",
+        "Связанный показатель": "Нет",
+        "Ключевой параметр": "0"
+      },
+      "source_version": "26.23",
+      "publication_date": "16.10.2026",
+      "document_level": "national"
+    }
+  ],
+  "source_card_count": 14,
+  "unique_indicator_count": 11,
+  "statistical_catalog_count": 10,
+  "target_cells": 66,
+  "numeric_targets": 62,
+  "missing_targets": 4,
+  "version_policy": "Редакция опубликована 16.10.2026. Сопоставление с 2025 годом ретроспективное, исходные обязательства начала 2025 года этим не восстанавливаются."
+}

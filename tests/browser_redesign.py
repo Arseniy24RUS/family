@@ -6,6 +6,7 @@ import argparse,asyncio,csv,io,json,mimetypes,math,subprocess,sys
 from pathlib import Path
 from urllib.parse import urlparse,unquote
 from playwright.async_api import async_playwright
+from browser_json import get_json as published_json
 ROOT=Path(__file__).resolve().parents[1]
 
 async def execute(args):
@@ -43,7 +44,7 @@ async def execute(args):
    checks.append({'check':'forecast_axis_unit_and_boundary_labels_do_not_overlap','width':w})
    await page.screenshot(path=str(out/f'forecast_{w}.png'))
   await page.set_viewport_size({'width':1440,'height':1000});await go('projections')
-  o=json.loads((ROOT/'docs/data/projections/indicators/data_21/RU.json').read_text(encoding='utf-8')) if args.virtual else await (await ctx.request.get(args.base.rstrip('/')+'/data/projections/indicators/data_21/RU.json')).json()
+  o=json.loads((ROOT/'docs/data/projections/indicators/data_21/RU.json').read_text(encoding='utf-8')) if args.virtual else await published_json(ctx, args.base, 'data/projections/indicators/data_21/RU.json')
   line=page.locator('.data-line[data-series="Прогноз · ансамбль"]')
   coords=await line.evaluate('(x)=>x.getAttribute("d").slice(1).split("L").map(p=>p.split(",").map(Number))')
   data=[o['observations'][-1],*o['forecast']]
@@ -81,8 +82,9 @@ async def execute(args):
   checks.append({'check':'structure_available_for_birth_order_and_region'})
   await go('projections?tab=map');assert await page.locator('[data-region]').count()==89
   checks.append({'check':'new_regional_forecast_maps_keep_missing_regions'})
-  await go('projections?archive=1');assert await page.locator('.data-line[data-series="Прогноз исходной экспертизы"]').count()==1
-  checks.append({'check':'original_research_forecast_remains_separate'})
+  await go('projections?archive=1');assert await page.locator('.data-line[data-series="Прогноз исходной экспертизы"]').count()==0
+  assert await page.get_by_label('Архивный прогноз экспертизы',exact=True).count()==0
+  checks.append({'check':'legacy_archive_parameter_cannot_enable_an_old_forecast'})
   await page.set_viewport_size({'width':390,'height':844});await go('overview')
   await page.get_by_role('button',name='Открыть меню',exact=True).click()
   assert await page.locator('.workspace').evaluate('(x)=>x.inert')

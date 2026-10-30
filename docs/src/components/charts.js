@@ -1,20 +1,14 @@
 import { h, svg, fmt, bindTip, button, icon, tooltip, hideTip } from '../core/dom.js';
 import { quantile, mean } from '../core/stats.js';
-export const C = ['#2947A0','#539D96','#6280D9','#031E4F','#67AEA7','#7F92BB','#315C83','#A7DBD6'];
-export const fieldColors = {HH:'#2947A0',LL:'#A7DBD6',HL:'#6280D9',LH:'#539D96',NS:'#EEF3F9'};
-export function ramp(t) {
- t=Math.max(0,Math.min(1,t));
- const stops=[[238,243,249],[215,239,235],[167,219,214],[103,174,167],[83,157,150],[68,107,164],[41,71,160],[25,47,112],[3,30,79]];
- const u=t*8,i=Math.min(7,Math.floor(u)),f=u-i;
- return '#'+stops[i].map((c,j)=>Math.round(c+(stops[i+1][j]-c)*f).toString(16).padStart(2,'0')).join('');
-}
+import { C, fieldColors, ramp, labelColor, forecastFill } from '../platform/theme.js';
+export { C, fieldColors, ramp };
 export function extent(values) { const a = values.filter(Number.isFinite); if (!a.length)
     return [0, 1]; let lo = Math.min(...a), hi = Math.max(...a); if (lo === hi) {
     const d = Math.abs(lo) * .1 || 1;
     lo -= d;
     hi += d;
 } return [lo, hi]; }
-export function base(w = 1000, ht = 400, label = 'Диаграмма') { return svg('svg', { viewBox: `0 0 ${w} ${ht}`, class: 'chart-svg', role: 'img', 'aria-label': label, style: 'font-family:Onest,Segoe UI,Arial,sans-serif' }, svg('title', {}, label)); }
+export function base(w = 1000, ht = 400, label = 'Диаграмма') { return svg('svg', { viewBox: `0 0 ${w} ${ht}`, class: 'chart-svg', role: 'img', 'aria-label': label, style: 'font-family:Roboto,Segoe UI,Arial,sans-serif' }, svg('title', {}, label)); }
 function text(x, y, t, opts = {}) { return svg('text', { x, y, 'font-size': 12, fill: '#3D4A60', ...opts }, t); }
 const compactAxis = new Intl.NumberFormat('ru-RU', { notation:'compact', maximumFractionDigits:2 });
 const axisValue = value => Math.abs(value)>=10000 ? compactAxis.format(value) : fmt(value,3);
@@ -65,7 +59,7 @@ export function lineChart(series, {
     }
     if(band?.length){
         const b=band.filter(p=>Number.isFinite(p.lo)&&Number.isFinite(p.hi)).sort((a,b)=>a.x-b.x);
-        if(b.length)root.append(svg('path',{class:'forecast-band',d:'M'+b.map(p=>`${X(p.x)},${Y(p.hi)}`).join('L')+'L'+b.slice().reverse().map(p=>`${X(p.x)},${Y(p.lo)}`).join('L')+'Z',fill:'#DCE7F6',opacity:.8}));
+        if(b.length)root.append(svg('path',{class:'forecast-band',d:'M'+b.map(p=>`${X(p.x)},${Y(p.hi)}`).join('L')+'L'+b.slice().reverse().map(p=>`${X(p.x)},${Y(p.lo)}`).join('L')+'Z',fill:forecastFill(),opacity:.8}));
     }
     series.forEach((s,i)=>{
         const ordered=s.points.filter(p=>Number.isFinite(p.x)).sort((a,b)=>a.x-b.x),ps=ordered.filter(p=>Number.isFinite(p.y)),color=s.color||C[i%C.length];
@@ -84,7 +78,7 @@ export function lineChart(series, {
     return root;
 }
 export function legend(items) { return h('div', { class: 'legend' }, items.map((x, i) => h('span', {}, h('i', { style: `background:${x.color || C[i % C.length]}` }), x.name || x))); }
-export function bars(items, { width = 1000, height = null, label = 'Сопоставление значений', unit = '', horizontal = true } = {}) { height = height || Math.max(240, items.length * 42 + 60); const root = base(width, height, label), l = horizontal ? Math.min(width * .38, 340) : 65, r = 45, t = 30, b = horizontal ? 22 : 65; let [lo, hi] = extent(items.map(x => x.value)); lo = Math.min(0, lo); hi = Math.max(0, hi); const W = width - l - r, H = height - t - b; if (horizontal) {
+export function bars(items, { width = 1000, height = null, label = 'Сопоставление значений', unit = '', horizontal = true } = {}) { height = height || Math.max(240, items.length * 42 + 60); const root = base(width, height, label), l = horizontal ? Math.min(width * .38, 340) : 65, valueWidth = Math.max(0,...items.filter(x=>Number.isFinite(x.value)).map(x=>fmt(x.value,2).length*7.4+20)), r = horizontal ? Math.min(width*.35,Math.max(45,valueWidth)) : 45, t = 30, b = horizontal ? 22 : 65; let [lo, hi] = extent(items.map(x => x.value)); lo = Math.min(0, lo); hi = Math.max(0, hi); const W = width - l - r, H = height - t - b; if (horizontal) {
     const xx = v => l + (v - lo) / (hi - lo) * W;
     for (let i = 0; i < 5; i++) {
         let v = lo + (hi - lo) * i / 4, x = xx(v);
@@ -106,7 +100,22 @@ export function scatter(points, { width = 1000, height = 480, xLabel = '', yLabe
     root.append(svg('line', { x1: X(0), x2: X(0), y1: m.t, y2: height - m.b, stroke: '#D9DEE8', 'stroke-dasharray': '4 4' }), svg('line', { x1: m.l, x2: width - m.r, y1: Y(0), y2: Y(0), stroke: '#D9DEE8', 'stroke-dasharray': '4 4' }));
 } ps.forEach(p => { let e = svg('circle', { cx: X(p.x), cy: Y(p.y), r: p.id === selected ? 8 : 5.5, fill: p.color || C[(p.group - 1 || 0) % C.length], stroke: p.id === selected ? '#0A132D' : 'white', 'stroke-width': p.id === selected ? 3 : 1.1, tabindex: 0, role: onSelect ? 'button' : null, 'aria-label': `${p.name}: ${fmt(p.x)}, ${fmt(p.y)}` }); bindTip(e, p.name, [`${xLabel}: ${fmt(p.x, 4)}`, `${yLabel}: ${fmt(p.y, 4)}`, p.detail || ''], () => onSelect?.(p)); root.append(e); if (p.id === selected)
     root.append(text(X(p.x) + 12, Y(p.y) - 10, p.name, { fill: '#0A132D', 'font-weight': 700 })); }); root.append(text(m.l + W / 2, height - 12, xLabel.length > 116 ? xLabel.slice(0,113)+'…' : xLabel, { 'text-anchor': 'middle', 'font-size': 11 }), text(m.l, 19, yLabel.length > 116 ? yLabel.slice(0,113)+'…' : yLabel, { 'font-size': 11 })); return root; }
-export function heatmap(rowLabels, colLabels, values, { width = 1000, cellHeight = 52, label = 'Матрица', min = 0, max = null, format = v => fmt(v, 2), onSelect = null, colors = null, left = 220 } = {}) { const top = 70, hgt = top + rowLabels.length * cellHeight + 20, root = base(width, hgt, label), cw = (width - left - 25) / colLabels.length; max = max ?? Math.max(...values.flat().filter(Number.isFinite)); colLabels.forEach((c, i) => root.append(text(left + (i + .5) * cw, top - 18, c, { 'text-anchor': 'middle', 'font-size': 12 }))); rowLabels.forEach((r, j) => { root.append(text(left - 12, top + (j + .5) * cellHeight + 4, r, { 'text-anchor': 'end', 'font-size': 13 })); colLabels.forEach((c, i) => { const v = values[j][i], t = (v - min) / (max - min || 1), rect = svg('rect', { x: left + i * cw + 2, y: top + j * cellHeight + 2, width: cw - 4, height: cellHeight - 4, rx: 3, fill: v == null ? '#F4F6FA' : colors ? colors(v) : ramp(t), tabindex: 0 }); bindTip(rect, r, [`${c}: ${v == null ? 'Нет данных' : format(v)}`], () => onSelect?.(j, i)); root.append(rect, text(left + (i + .5) * cw, top + (j + .5) * cellHeight + 5, v == null ? '—' : format(v), { 'text-anchor': 'middle', 'font-size': 14, fill: t > .65 ? 'white' : '#0A132D', 'font-weight': 600, 'pointer-events': 'none' })); }); }); return root; }
+export function heatmap(rowLabels, colLabels, values, { width = 1000, cellHeight = 52, label = 'Матрица', min = 0, max = null, format = v => fmt(v, 2), onSelect = null, colors = null, left = 220 } = {}) {
+    const top=70,hgt=top+rowLabels.length*cellHeight+20,root=base(width,hgt,label),cw=(width-left-25)/colLabels.length;
+    max=max??Math.max(...values.flat().filter(Number.isFinite));
+    colLabels.forEach((c,i)=>root.append(text(left+(i+.5)*cw,top-18,c,{'text-anchor':'middle','font-size':12})));
+    rowLabels.forEach((r,j)=>{
+        root.append(text(left-12,top+(j+.5)*cellHeight+4,r,{'text-anchor':'end','font-size':13}));
+        colLabels.forEach((c,i)=>{
+            const v=values[j][i],t=(v-min)/(max-min||1),fill=v==null?'#F4F6FA':colors?colors(v):ramp(t);
+            const rect=svg('rect',{x:left+i*cw+2,y:top+j*cellHeight+2,width:cw-4,height:cellHeight-4,rx:3,fill,tabindex:0});
+            const ink=/^#[0-9a-f]{6}$/i.test(fill)?labelColor(fill):'#0A132D';
+            bindTip(rect,r,[`${c}: ${v==null?'Нет данных':format(v)}`],()=>onSelect?.(j,i));
+            root.append(rect,text(left+(i+.5)*cw,top+(j+.5)*cellHeight+5,v==null?'—':format(v),{'text-anchor':'middle','font-size':14,fill:ink,'font-weight':600,'pointer-events':'none'}));
+        });
+    });
+    return root;
+}
 export function panZoom(root, group, width, height) { let z = 1, tx = 0, ty = 0, start = null, dragged = false; const apply = () => group.setAttribute('transform', `translate(${tx} ${ty}) scale(${z})`); const set = (newz, cx = width / 2, cy = height / 2) => { newz = Math.max(1, Math.min(8, newz)); tx = cx - (cx - tx) * newz / z; ty = cy - (cy - ty) * newz / z; z = newz; if (z === 1) {
     tx = 0;
     ty = 0;

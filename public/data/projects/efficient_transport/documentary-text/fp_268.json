@@ -1,0 +1,408 @@
+{
+  "document": {
+    "project_id": "efficient_transport",
+    "kind": "fp",
+    "id": "fp_268",
+    "url": "https://databudget.ru/projects/fp/268",
+    "sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+    "retrieved_at": "2026-10-19T14:38:31.091239+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/e8/e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff.html",
+    "document_id": "fp_268",
+    "code": "Т1",
+    "title": "[Т1] Высокоскоростные железнодорожные магистрали",
+    "publisher_version": "26.8",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 162,
+    "n_tokens": 162,
+    "source_url": "https://databudget.ru/projects/fp/268",
+    "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+    "profile_text_sha256": "8055aada2a5c646121ba0a07ec5c394dc555adc2dfffb0285469cef8f1d049f5",
+    "archive_entry": "efficient_transport/fp_268.html",
+    "bytes": 477782,
+    "download_path": "downloads/projects/efficient_transport/documentary/sources/fp_268.html",
+    "profile_original_document_id": "html:e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_268:profile1",
+      "document_id": "fp_268",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года)",
+      "node_id": "fp_268:passport-task-07:3ae369840cddd816",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_268:profile2",
+      "document_id": "fp_268",
+      "project_id": "efficient_transport",
+      "kind": "goal",
+      "text": "сокращение времени в пути следования пассажиров по маршруту «москва - санкт-петербург» за счет строительства высокоскоростной железнодорожной магистрали",
+      "node_id": "fp_268:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "n_tokens": 15,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_268:profile3",
+      "document_id": "fp_268",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "завершено строительство участка \"москва - алабушево\" в рамках результата планируется завершение строительства дополнительных v и vi путей на участке москва - алабушево под специализированное пассажирское сообщение (вход высокоскоростной магистрали москва - санкт-петербург в г. москва).",
+      "node_id": "fp_268:passport-result-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "n_tokens": 27,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_268:profile4",
+      "document_id": "fp_268",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "завершено строительство центрального участка всм-1 от станции крюково (алабушево) до станции санкт-петербург-главный в рамках распоряжения правительства российской федерации от 5 июня 2024 г. № 1397-р, а также концессионного соглашения о финансировании, создании и эксплуатации инфраструктуры высокоскоростного железнодорожного транспорта общего пользования от станции крюково (алабушево) до станции санкт-петербург-главный, приобретении и эксплуатации высокоскоростного железнодорожного подвижного состава, предназначенного для перевозки пассажиров и (или) багажа на созданной инфраструктуре по маршруту \"москва - санкт-петербург\" от 05.07.2024 № б/н предусмотрено строительство инфраструктуры высокоскоростного железнодорожного транспорта общего пользования от станции крюково (алабушево) до станции санкт-петербург-главный. плановое значение результата отражает количество комплексных объектов, реализуемых на участке москва - санкт-петербург.",
+      "node_id": "fp_268:passport-result-26:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "n_tokens": 88,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_268:profile5",
+      "document_id": "fp_268",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "время в пути пассажиров и (или) багажа по маршруту \"москва – санкт-петербург\"",
+      "node_id": "fp_268:passport-purpose-1:114dc2bd2242b439",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details",
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_268:kwic1",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_268:profile1",
+      "unit_ids": [
+        "fp_268:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic2",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "ни в пути следования пассажиров по маршруту «москва - санкт-петербург» за счет строительства высокоскоростной железнодорожной магистрали завершено строительство участка \"москва - алабушево\" в рамках результата планируется завершение ст",
+      "unit_id": "fp_268:profile2",
+      "unit_ids": [
+        "fp_268:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic3",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "железнодорожного",
+      "context": " а также концессионного соглашения о финансировании, создании и эксплуатации инфраструктуры высокоскоростного железнодорожного транспорта общего пользования от станции крюково (алабушево) до станции санкт-петербург-главный, приобретении",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic4",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "транспорта",
+      "context": "онного соглашения о финансировании, создании и эксплуатации инфраструктуры высокоскоростного железнодорожного транспорта общего пользования от станции крюково (алабушево) до станции санкт-петербург-главный, приобретении и эксплуат",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic5",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "железнодорожного",
+      "context": "станции крюково (алабушево) до станции санкт-петербург-главный, приобретении и эксплуатации высокоскоростного железнодорожного подвижного состава, предназначенного для перевозки пассажиров и (или) багажа на созданной инфраструктуре по м",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic6",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "перевозки",
+      "context": "вный, приобретении и эксплуатации высокоскоростного железнодорожного подвижного состава, предназначенного для перевозки пассажиров и (или) багажа на созданной инфраструктуре по маршруту \"москва - санкт-петербург\" от 05.07.2024 № ",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic7",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "железнодорожного",
+      "context": "у \"москва - санкт-петербург\" от 05.07.2024 № б/н предусмотрено строительство инфраструктуры высокоскоростного железнодорожного транспорта общего пользования от станции крюково (алабушево) до станции санкт-петербург-главный. плановое зна",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic8",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "транспорта",
+      "context": "-петербург\" от 05.07.2024 № б/н предусмотрено строительство инфраструктуры высокоскоростного железнодорожного транспорта общего пользования от станции крюково (алабушево) до станции санкт-петербург-главный. плановое значение резул",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_268:kwic1",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_268:profile1",
+      "unit_ids": [
+        "fp_268:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic2",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "ни в пути следования пассажиров по маршруту «москва - санкт-петербург» за счет строительства высокоскоростной железнодорожной магистрали завершено строительство участка \"москва - алабушево\" в рамках результата планируется завершение ст",
+      "unit_id": "fp_268:profile2",
+      "unit_ids": [
+        "fp_268:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic3",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "железнодорожного",
+      "context": " а также концессионного соглашения о финансировании, создании и эксплуатации инфраструктуры высокоскоростного железнодорожного транспорта общего пользования от станции крюково (алабушево) до станции санкт-петербург-главный, приобретении",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic4",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "транспорта",
+      "context": "онного соглашения о финансировании, создании и эксплуатации инфраструктуры высокоскоростного железнодорожного транспорта общего пользования от станции крюково (алабушево) до станции санкт-петербург-главный, приобретении и эксплуат",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic5",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "железнодорожного",
+      "context": "станции крюково (алабушево) до станции санкт-петербург-главный, приобретении и эксплуатации высокоскоростного железнодорожного подвижного состава, предназначенного для перевозки пассажиров и (или) багажа на созданной инфраструктуре по м",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic6",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "перевозки",
+      "context": "вный, приобретении и эксплуатации высокоскоростного железнодорожного подвижного состава, предназначенного для перевозки пассажиров и (или) багажа на созданной инфраструктуре по маршруту \"москва - санкт-петербург\" от 05.07.2024 № ",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic7",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "железнодорожного",
+      "context": "у \"москва - санкт-петербург\" от 05.07.2024 № б/н предусмотрено строительство инфраструктуры высокоскоростного железнодорожного транспорта общего пользования от станции крюково (алабушево) до станции санкт-петербург-главный. плановое зна",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_268:kwic8",
+      "document_id": "fp_268",
+      "frame": "transport_logistics",
+      "matched": "транспорта",
+      "context": "-петербург\" от 05.07.2024 № б/н предусмотрено строительство инфраструктуры высокоскоростного железнодорожного транспорта общего пользования от станции крюково (алабушево) до станции санкт-петербург-главный. плановое значение резул",
+      "unit_id": "fp_268:profile4",
+      "unit_ids": [
+        "fp_268:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "source_url": "https://databudget.ru/projects/fp/268",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/268",
+  "source_sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff"
+}

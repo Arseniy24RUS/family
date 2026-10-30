@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "project_id": "personnel",
+  "kind": "analytical_rule_correction",
+  "source_release": "1.2.0",
+  "source_file": "downloads/projects/personnel/statistical/research/observations_1_2_0.json",
+  "source_sha256": "b70b7bc305374e324e587f945370940385c1f2fb3df97d0cbae82a1288232db9",
+  "original_record": {
+    "snapshot_id": "ab850dafa7e7e366805ef7877982bc0a59e777f5363cc4ca53c9fab21f77a09d",
+    "observation_key": "d8a53cc9594cb09ebb2456132abdd463571dd1406177e61fd6601f34b9e18056",
+    "source_id": "63038",
+    "series_id": "dc09e74cc909218f4b3d",
+    "slice_id": "857b306b25d837a5901a",
+    "territory_id": "RU",
+    "region_code": null,
+    "geo_level": "national",
+    "frequency": "monthly",
+    "period_index": 24311.0,
+    "period": "2025-12",
+    "period_end": "2025-12-31",
+    "period_rule": "original",
+    "category_json": "{}",
+    "domain": "proportion_0_100",
+    "value": 112.89,
+    "domain_violation": 1,
+    "after_as_of": 0,
+    "analysis_status": "domain_violation"
+  },
+  "original_raw_value_status": "ok",
+  "current_rule": {
+    "source_id": "63038",
+    "name": "plan_ratio_above_100_allowed",
+    "value": 112.89,
+    "excluded": false,
+    "analysis_status": "valid",
+    "basis": "Приказ Минтруда России от 19.03.2025 № 126: отношение фактической численности участников к плановой; значение может превышать 100%."
+  },
+  "note": "Сохранён прежний аналитический аудит. Его domain_violation является результатом правила выпуска 1.2.0, а не признаком в первичной выгрузке ЕМИСС. Первичная строка не изменена. Текущая проверка применяет предметную область определения отношения к плану, поэтому 112,89 допустимо; 60 числовых наблюдений пригодны."
+}

@@ -36,7 +36,24 @@ export function figureControls(node, {name='figure',title='Семья',source='�
 }
 export function figure(svgNode, { name = 'figure', title = 'Экспертиза национального проекта «Семья»', source = 'Срез экспертизы 14.05.2026', rows = null } = {}) { const wrap = h('div', { class: 'figure' }), actions = h('div', { class: 'figure-tools' }, button('SVG', () => exportSVG(svgNode, name, title, source), 'button mini'), button('PNG', () => exportPNG(svgNode, name, title, source), 'button mini')); if (rows)
     actions.append(button('CSV', () => csvDownload(name + '.csv', rows), 'button mini')); wrap.append(actions, svgNode); return wrap; }
-export function serialized(node, title, source) {
+// Keep serialization synchronous for callers that already have the local font CSS.
+// Export actions load and embed all three Roboto weights before creating a file.
+let exportFontsPromise=null;
+async function exportFontCSS(){
+    if(!exportFontsPromise){
+        exportFontsPromise=Promise.all([['Regular',400],['SemiBold',600],['Bold',700]].map(async([name,weight])=>{
+            const url=new URL('../../assets/fonts/Roboto-'+name+'.woff',import.meta.url);
+            const response=await fetch(url);
+            if(!response.ok)throw Error('Не удалось загрузить Roboto '+name+' (HTTP '+response.status+').');
+            const bytes=new Uint8Array(await response.arrayBuffer());
+            if(!bytes.length)throw Error('Пустой файл шрифта Roboto '+name+'.');
+            let binary='';for(let i=0;i<bytes.length;i+=32768)binary+=String.fromCharCode(...bytes.subarray(i,i+32768));
+            return '@font-face{font-family:Roboto;src:url("data:font/woff;base64,'+btoa(binary)+'") format("woff");font-style:normal;font-weight:'+weight+';}';
+        })).then(styles=>styles.join('\n')).catch(error=>{exportFontsPromise=null;throw error;});
+    }
+    return exportFontsPromise;
+}
+export function serialized(node, title, source, fontCSS='') {
     const copy = node.cloneNode(true);
     const vb = (copy.getAttribute('viewBox') || '0 0 1000 500').split(/\s+/).map(Number);
     const w = vb[2], height = vb[3];
@@ -56,8 +73,9 @@ export function serialized(node, title, source) {
     const sourceLines = wrapText(source, Math.floor((w - 32) / 6));
     const top = titleLines.length * 24 + 16;
     const total = top + height + legendLines.length * 22 + sourceLines.length * 18 + 26;
-    const out = svg('svg', { xmlns: 'http://www.w3.org/2000/svg', viewBox: `0 0 ${w} ${total}`, width: w, height: total, style: 'font-family:Arial,sans-serif' },
+    const out = svg('svg', { xmlns: 'http://www.w3.org/2000/svg', viewBox: `0 0 ${w} ${total}`, width: w, height: total, style: 'font-family:Roboto,Segoe UI,Arial,sans-serif' },
         svg('rect', {width:w, height:total, fill:'white'}), svg('title', {}, title), svg('desc', {}, source));
+    if(fontCSS)out.insertBefore(svg('defs',{},svg('style',{type:'text/css'},fontCSS)),out.firstChild);
     titleLines.forEach((line,i) => out.append(svg('text', {x:16,y:26+i*24,'font-size':17,fill:'#0A132D'}, line)));
     copy.setAttribute('x','0'); copy.setAttribute('y',String(top)); copy.setAttribute('width',String(w)); copy.setAttribute('height',String(height));
     copy.setAttribute('overflow','hidden'); copy.removeAttribute('class'); copy.removeAttribute('data-export-legend');
@@ -70,17 +88,26 @@ export function serialized(node, title, source) {
     sourceLines.forEach(line => {out.append(svg('text', {x:16,y,'font-size':11,fill:'#3D4A60'},line)); y += 18;});
     return new XMLSerializer().serializeToString(out);
 }
-function exportSVG(node, name, title, source) { download(name + '.svg', serialized(node, title, source), 'image/svg+xml;charset=utf-8'); }
-async function exportPNG(node, name, title, source) { const xml = serialized(node, title, source), url = URL.createObjectURL(new Blob([xml], { type: 'image/svg+xml;charset=utf-8' })); try {
+async function exportSVG(node, name, title, source) {
+    try{download(name+'.svg',serialized(node,title,source,await exportFontCSS()),'image/svg+xml;charset=utf-8');}
+    catch(error){announce('Экспорт SVG не выполнен: '+(error?.message||'ошибка браузера'));}
+}
+async function exportPNG(node, name, title, source) {
+    let url;
+    try {
+    const xml=serialized(node,title,source,await exportFontCSS());
+    url=URL.createObjectURL(new Blob([xml],{type:'image/svg+xml;charset=utf-8'}));
     const image = new Image();
-    await new Promise((res, rej) => { image.onload = res; image.onerror = rej; image.src = url; });
+    await new Promise((res, rej) => { image.onload = res; image.onerror = () => rej(Error('Не удалось отобразить SVG для сохранения.')); image.src = url; });
     const canvas = document.createElement('canvas');
     canvas.width = image.width * 2;
     canvas.height = image.height * 2;
-    canvas.getContext('2d').drawImage(image, 0, 0, canvas.width, canvas.height);
-    canvas.toBlob(blob => download(name + '.png', blob), 'image/png');
+    const context=canvas.getContext('2d');if(!context)throw Error('Не удалось создать изображение.');
+    context.drawImage(image, 0, 0, canvas.width, canvas.height);
+    const blob=await new Promise((resolve,reject)=>canvas.toBlob(value=>value?resolve(value):reject(Error('Не удалось создать PNG.')),'image/png'));
+    download(name+'.png',blob);
 }
 catch (error) { announce('Экспорт PNG не выполнен. Используйте SVG: ' + (error?.message || 'ошибка браузера')); }
     finally {
-        URL.revokeObjectURL(url);
+        if(url)URL.revokeObjectURL(url);
     } }

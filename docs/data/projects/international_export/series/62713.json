@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "project_id": "international_export",
+  "source_id": "62713",
+  "title": "Прирост объема экспорта несырьевых неэнергетических товаров к показателю 2023 года",
+  "unit": "процент",
+  "source_url": "https://www.fedstat.ru/indicator/62713",
+  "published_at": "2026-10-15T12:54:12+00:00",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": "a867aea83f602f7c438ac27e489b3da9b2c69d6bec4111c9bdc2984217ac5828",
+  "origin_kind": "live_emiss",
+  "semantic_note": "Прирост к базе 2023 года, а не темп к предыдущему месяцу. В исходном срезе годовая запись 2025 года 10,2% и декабрьская 0,5% сохранены раздельно; декабрьская запись не заменяет самостоятельный годовой результат. Отрицательный прирост и прирост свыше 100% математически допустимы.",
+  "observations": [
+    {
+      "id": "a8b3d9bb744fdde1997c98603d40bc7339b7c9778183c1df4c74b0aa6f0112dc",
+      "source_id": "62713",
+      "source_observation_key": "310b59e245774d9a034e5303b6cf9407190b2ae36433acb5840ee675cd5dbb23",
+      "indicator_code": "2.14.М.1",
+      "catalog_indicator_code": "2.14.М.1",
+      "name": "Российская Федерация",
+      "code": null,
+      "map_id": null,
+      "geo_level": "national",
+      "fd": null,
+      "territory_code_source": "",
+      "period": "2025-12",
+      "year": 2025,
+      "period_start": "2025-12-01",
+      "period_end": "2025-12-31",
+      "frequency": "monthly",
+      "source_frequency": "monthly",
+      "source_period_start": "2025-12-01",
+      "source_period_end": "2025-12-31",
+      "source_period_label": "декабрь",
+      "period_semantics": "growth_from_fixed_base",
+      "value": 0.5,
+      "raw": "0,5",
+      "unit": "процент",
+      "category": {},
+      "quality_flags": [
+        {
+          "code": "growth_from_fixed_base",
+          "exclude_from_analysis": false,
+          "message": "Прирост к базе 2023 года, а не темп к предыдущему месяцу. В исходном срезе годовая запись 2025 года 10,2% и декабрьская 0,5% сохранены раздельно; декабрьская запись не заменяет самостоятельный годовой результат. Отрицательный прирост и прирост свыше 100% математически допустимы."
+        }
+      ],
+      "excluded": false,
+      "analytical_value": 0.5,
+      "status": "ok",
+      "annual_comparison_eligible": false,
+      "annual_equivalent_eligible": true,
+      "geographic_comparison_eligible": false,
+      "methodology_version": "not_determined_for_individual_historical_cell",
+      "acquired_at": "2026-10-15T12:54:12+00:00",
+      "snapshot_id": "a867aea83f602f7c438ac27e489b3da9b2c69d6bec4111c9bdc2984217ac5828",
+      "origin_kind": "live_emiss",
+      "source_url": "https://www.fedstat.ru/indicator/62713",
+      "source_cell_attributes": {
+        "EI": "процент",
+        "PERIOD": "декабрь"
+      }
+    },
+    {
+      "id": "b6e8f144ddc610c3b032b2f7b04abf0bc52449dd2125f68a278ea55c7abe5225",
+      "source_id": "62713",
+      "source_observation_key": "afae4ab7ff388ce1175d7da78cf1d29b568d871c204f60999e8916e160d5f84f",
+      "indicator_code": "2.14.М.1",
+      "catalog_indicator_code": "2.14.М.1",
+      "name": "Российская Федерация",
+      "code": null,
+      "map_id": null,
+      "geo_level": "national",
+      "fd": null,
+      "territory_code_source": "",
+      "period": "2025",
+      "year": 2025,
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "frequency": "annual",
+      "source_frequency": "annual",
+      "source_period_start": "2025-01-01",
+      "source_period_end": "2025-12-31",
+      "source_period_label": "значение показателя за год",
+      "period_semantics": "growth_from_fixed_base",
+      "value": 10.2,
+      "raw": "10,2",
+      "unit": "процент",
+      "category": {},
+      "quality_flags": [
+        {
+          "code": "growth_from_fixed_base",
+          "exclude_from_analysis": false,
+          "message": "Прирост к базе 2023 года, а не темп к предыдущему месяцу. В исходном срезе годовая запись 2025 года 10,2% и декабрьская 0,5% сохранены раздельно; декабрьская запись не заменяет самостоятельный годовой результат. Отрицательный прирост и прирост свыше 100% математически допустимы."
+        }
+      ],
+      "excluded": false,
+      "analytical_value": 10.2,
+      "status": "ok",
+      "annual_comparison_eligible": true,
+      "annual_equivalent_eligible": false,
+      "geographic_comparison_eligible": false,
+      "methodology_version": "not_determined_for_individual_historical_cell",
+      "acquired_at": "2026-10-15T12:54:12+00:00",
+      "snapshot_id": "a867aea83f602f7c438ac27e489b3da9b2c69d6bec4111c9bdc2984217ac5828",
+      "origin_kind": "live_emiss",
+      "source_url": "https://www.fedstat.ru/indicator/62713",
+      "source_cell_attributes": {
+        "EI": "процент",
+        "PERIOD": "значение показателя за год"
+      }
+    }
+  ]
+}

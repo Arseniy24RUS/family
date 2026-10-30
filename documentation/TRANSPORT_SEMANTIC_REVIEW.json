@@ -1,0 +1,104 @@
+{
+  "status": "independent_prebuild_review",
+  "source_docx_sha256": "fcbf95e7aba2d8c647a1852e8b1241b8af0a542a5056504fe6132b013591e079",
+  "checks": [
+    {
+      "check": "national_targets_equal_source_table_2",
+      "passed": true,
+      "evidence": "DOCX B113 / source table 2"
+    },
+    {
+      "check": "high_speed_rail_final_year_2028_missing_not_zero",
+      "passed": true,
+      "evidence": "DOCX B102/B116/B242"
+    },
+    {
+      "check": "azov_black_sea_2025_target_missing",
+      "passed": true,
+      "evidence": "DOCX B116/B172"
+    },
+    {
+      "check": "north_south_ports_2025_target_zero",
+      "passed": true,
+      "evidence": "DOCX B116/B172"
+    },
+    {
+      "check": "financial_total_exact_arithmetic_not_consolidated",
+      "passed": true,
+      "evidence": "DOCX B240/B241/B260/B261; units thousand RUB"
+    },
+    {
+      "check": "two_rail_and_late_year_shares_match_report",
+      "passed": true,
+      "evidence": "DOCX B247/B251"
+    },
+    {
+      "check": "network_shared_task_and_ambiguous_counts",
+      "passed": true,
+      "evidence": "DOCX B304/B306/B307"
+    },
+    {
+      "check": "text_profiles_and_corpus_size",
+      "passed": true,
+      "evidence": "DOCX B301/B309"
+    },
+    {
+      "check": "lexical_discrepancy_preserved",
+      "passed": true,
+      "evidence": "DOCX B323 vs deterministic source SHA tie breaking; source card order recovers 16"
+    },
+    {
+      "check": "national_only_source_geography",
+      "passed": true,
+      "evidence": "DOCX B166/B167"
+    },
+    {
+      "check": "calculator_formula_source_match",
+      "passed": true,
+      "evidence": "Read-only inspection of six formulas in src/pages/efficient_transport.js against original OMML at B84/B87/B94/B124/B151/B155. Investment scope label recommended below."
+    }
+  ],
+  "material_clarifications_sent": [
+    {
+      "owner": "transport_ui",
+      "item": "Expose author 16 vs computed 15 unique lexical indicators at top-three tie boundaries beside candidate matrix and text analysis. JSON already preserves both.",
+      "source_blocks": [
+        323,
+        325
+      ],
+      "status": "fixed_and_read_only_verified"
+    },
+    {
+      "owner": "transport_ui",
+      "item": "Investment calculator Qtotal must explicitly denote federal financing of NP investment measures in the same period, not all project budget.",
+      "source_blocks": [
+        154,
+        156
+      ],
+      "status": "fixed_and_read_only_verified"
+    },
+    {
+      "owner": "transport_data",
+      "item": "62834 source note should explicitly state normal and lowered safety categories both enter numerator.",
+      "source_blocks": [
+        139,
+        209
+      ],
+      "status": "fixed_and_read_only_verified"
+    },
+    {
+      "owner": "transport_ui",
+      "item": "Federal-project target lists must restore membership from allCards: canonical national cards for NSR, aviation mobility and digital transformation are also targets of Т2, Т6, Т8. Current canonical-fp-only filtering omits them.",
+      "source_blocks": [
+        101
+      ],
+      "status": "fixed_and_read_only_verified"
+    }
+  ],
+  "limits": [
+    "No browser or visual layout validation was run in this independent review.",
+    "No independent current Internet retrieval is claimed. Supplied report and preserved inputs are the evidence basis.",
+    "Report DOCX remains unchanged; source page numbering has not been validated."
+  ],
+  "followup_status": "all_review_findings_fixed"
+}

@@ -1,0 +1,310 @@
+{
+  "project_similarity": [
+    {
+      "project_a": "competitive_economy",
+      "project_b": "efficient_transport",
+      "cosine_similarity": "0.1125665841193466",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "data_economy",
+      "project_b": "efficient_transport",
+      "cosine_similarity": "0.14978380568822533",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "environment",
+      "cosine_similarity": "0.11953327481301652",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "family",
+      "cosine_similarity": "0.023541011312264788",
+      "family_genre_mismatch": "1"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "international_export",
+      "cosine_similarity": "0.07091405470647676",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "life_infrastructure",
+      "cosine_similarity": "0.22789361989290324",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "long_active_life",
+      "cosine_similarity": "0.08095643739062298",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "personnel",
+      "cosine_similarity": "0.09029277471619956",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "tourism",
+      "cosine_similarity": "0.10184988101416688",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "youth_children",
+      "cosine_similarity": "0.10409420279555871",
+      "family_genre_mismatch": "0"
+    }
+  ],
+  "stemming_project_sensitivity": [
+    {
+      "project_a": "competitive_economy",
+      "project_b": "efficient_transport",
+      "primary_surface_cosine": "0.1125665841193466",
+      "russian_snowball_cosine": "0.13711075267943654",
+      "difference_stem_minus_surface": "0.024544168560089938",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "data_economy",
+      "project_b": "efficient_transport",
+      "primary_surface_cosine": "0.14978380568822533",
+      "russian_snowball_cosine": "0.1600287238771607",
+      "difference_stem_minus_surface": "0.010244918188935359",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "environment",
+      "primary_surface_cosine": "0.11953327481301652",
+      "russian_snowball_cosine": "0.13643252941236084",
+      "difference_stem_minus_surface": "0.016899254599344313",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "family",
+      "primary_surface_cosine": "0.023541011312264788",
+      "russian_snowball_cosine": "0.044083909748296186",
+      "difference_stem_minus_surface": "0.0205428984360314",
+      "family_genre_mismatch": "1"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "international_export",
+      "primary_surface_cosine": "0.07091405470647676",
+      "russian_snowball_cosine": "0.10997073305227605",
+      "difference_stem_minus_surface": "0.03905667834579929",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "life_infrastructure",
+      "primary_surface_cosine": "0.22789361989290324",
+      "russian_snowball_cosine": "0.26718935876026106",
+      "difference_stem_minus_surface": "0.03929573886735782",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "long_active_life",
+      "primary_surface_cosine": "0.08095643739062298",
+      "russian_snowball_cosine": "0.09946199328693221",
+      "difference_stem_minus_surface": "0.018505555896309228",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "personnel",
+      "primary_surface_cosine": "0.09029277471619956",
+      "russian_snowball_cosine": "0.10879358047674284",
+      "difference_stem_minus_surface": "0.018500805760543276",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "tourism",
+      "primary_surface_cosine": "0.10184988101416688",
+      "russian_snowball_cosine": "0.12608990398938164",
+      "difference_stem_minus_surface": "0.024240022975214756",
+      "family_genre_mismatch": "0"
+    },
+    {
+      "project_a": "efficient_transport",
+      "project_b": "youth_children",
+      "primary_surface_cosine": "0.10409420279555871",
+      "russian_snowball_cosine": "0.125885735576676",
+      "difference_stem_minus_surface": "0.021791532781117298",
+      "family_genre_mismatch": "0"
+    }
+  ],
+  "project_frame_scores": [
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "demography_family",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "0.0",
+      "weighted_frequency_per_1000": "0.0",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "reproductive_health",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "0.0",
+      "weighted_frequency_per_1000": "0.0",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "clinical_health",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "0.0",
+      "weighted_frequency_per_1000": "0.0",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "healthy_life_care",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "0.0",
+      "weighted_frequency_per_1000": "0.0",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "education_youth",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "3.3898305084745766",
+      "weighted_frequency_per_1000": "1.7559262510974538",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "employment_skills",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "3.4312617702448214",
+      "weighted_frequency_per_1000": "2.1949078138718177",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "income_support",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "0.0",
+      "weighted_frequency_per_1000": "0.0",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "housing_urban",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "0.0",
+      "weighted_frequency_per_1000": "0.0",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "transport_logistics",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "56.923659501076486",
+      "weighted_frequency_per_1000": "54.43371378402107",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "environment_climate",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "0.0",
+      "weighted_frequency_per_1000": "0.0",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "tourism",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "0.48543689320388345",
+      "weighted_frequency_per_1000": "0.43898156277436345",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "digital_data",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "5.436039391346654",
+      "weighted_frequency_per_1000": "6.145741878841089",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "enterprise_industry",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "8.481170737504923",
+      "weighted_frequency_per_1000": "7.023705004389815",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "export_trade",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "2.419354838709677",
+      "weighted_frequency_per_1000": "1.3169446883230904",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "culture_values",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "0.0",
+      "weighted_frequency_per_1000": "0.0",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "science_innovation",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "0.8322151939173216",
+      "weighted_frequency_per_1000": "1.7559262510974538",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "access_rights",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "1.2368312332162774",
+      "weighted_frequency_per_1000": "1.3169446883230904",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    },
+    {
+      "project_id": "efficient_transport",
+      "frame_id": "governance_evidence",
+      "documents": "10",
+      "mean_document_frequency_per_1000": "3.4238260606975692",
+      "weighted_frequency_per_1000": "3.5118525021949076",
+      "scope": "deduplicated_structured_html_passports",
+      "comparable_genre_with_other_projects": "1"
+    }
+  ]
+}

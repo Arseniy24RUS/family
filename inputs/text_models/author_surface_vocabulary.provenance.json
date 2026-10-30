@@ -1,0 +1,9 @@
+{
+  "source_archive": "NationalProjects_Complete_1.2.0_2026-10-27.zip",
+  "source_archive_sha256": "4efffb01a65c67d6ed7a07dc4a16b4c6ed7d08226dd887a36721c6f9d72eca86",
+  "archive_entry": "NationalProjects_Analytics_1.2.0/outputs/research/text/tables/vocabulary.csv",
+  "original_sha256": "da25fd272626c05a79e3e45e0a2d37906934d6dee1f7b928cdee66a83194d31c",
+  "original_bytes": 1018957,
+  "compressed_sha256": "4a41177b031239793412c08a68ee9d808882a5552899ffca8882bc2cbdbc0eae",
+  "provenance": "Original author-exported vocabulary, extracted unchanged from the SHA256-verified release archive."
+}

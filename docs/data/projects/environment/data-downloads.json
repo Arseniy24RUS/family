@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "url": "downloads/projects/environment/statistics/air_territories.csv",
+      "bytes": 59992,
+      "sha256": "fce1586e9ad2e332998fa62dad13df313f95e61be460a19ec0e2a07a1ea00b3e"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/annual_december_comparisons.csv",
+      "bytes": 6999,
+      "sha256": "5aaf1ed0af3a7b052d4268e217896aad3b69e6b803aa9cdd5b930567d12ce9bb"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/availability.csv",
+      "bytes": 15265,
+      "sha256": "34286621a967735d8d13de304492874ad37cf2431f0e36e58c03967e536dd0d0"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/correlations.csv",
+      "bytes": 220,
+      "sha256": "34a4acad33e1c0739753bfebd6b113bf3225f0fb7789a4f80ab89458f87a298c"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/correlations_strict.csv",
+      "bytes": 220,
+      "sha256": "9058032889ceb1f8b01f40baa67d2d58a6527330a23f6b5c213aba2e2ed374f0"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62777.zip",
+      "bytes": 22728,
+      "sha256": "6b1f7469f049a0592cf74eac2ca9cb142a0ed64ff003dd1d5e8a92bf2b366508"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62778.zip",
+      "bytes": 24201,
+      "sha256": "ec3b2342658cf5020e620c43ad8fa33aa73075acd132d4814e23fda60e796c20"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62779.zip",
+      "bytes": 23008,
+      "sha256": "8a5b456301661a6581c8d3649735d224b66fb6d60b5966adc60fb02f0653fd0f"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62781.zip",
+      "bytes": 211324,
+      "sha256": "7e5100ab65e650a677a5d7531ba0014d7196d9a2dbcddfe45e645aa5b14c820b"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62782.zip",
+      "bytes": 205861,
+      "sha256": "77afe9593a1e191451fbdb915f8f2a98ad9946457612e4131ae537366c773609"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62786.zip",
+      "bytes": 23862,
+      "sha256": "db550dfc85411d8c2db2f85c603a81c99a7fde21442a5b6c42d80228ed1a1f26"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62787.zip",
+      "bytes": 22611,
+      "sha256": "8ff4f8a8ce6e104716daf560a8137a806b8553d799bcf835443f3ca5e515a2df"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62792.zip",
+      "bytes": 192848,
+      "sha256": "d9c2139707178218c56391ec4ae0a20cf3f29066217ea965652f372e8e61d855"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62793.zip",
+      "bytes": 191557,
+      "sha256": "1bd8a325617511778281250f3bbea1eeed58850aa0c453507cd656e983484aae"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62804.zip",
+      "bytes": 22959,
+      "sha256": "fda3e3ce64ecc2f7938a6096d0390dd13e1414106a8600b8ee72e90adcab56d4"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62828.zip",
+      "bytes": 29034,
+      "sha256": "d1ed52c014141ec75615da70f396a2756c0f3c285f3985aecbf7b526c634c24b"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62854.zip",
+      "bytes": 22188,
+      "sha256": "add8717707c12da9eb3f665208c60ad148ca7a37bfa33f9799ee884247b83238"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62859.zip",
+      "bytes": 22415,
+      "sha256": "475ec46a51048dfa1e5da4c5d5aa0ffc4fcdf2f30eabebbd23b407f1a0b94334"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62860.zip",
+      "bytes": 76317,
+      "sha256": "24eecc8f256bb8fa9dc2063384d39c86dd6d936612d022d211402ddddba8d727"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62861.zip",
+      "bytes": 23851,
+      "sha256": "86f077947c5c00a002191bc22720b35dc7e0cb485c41408f2c6d14e8cebdacd5"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62862.zip",
+      "bytes": 63737,
+      "sha256": "e74fb7d567b10dc21c90398b1891b17d261604c93bbeb493d9ea6fb17f444d25"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62863.zip",
+      "bytes": 106412,
+      "sha256": "ad0592177f647e25928f95fdbb316143b684dafb9ee85f232a646179cadfa2da"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/emiss_inputs/62871.zip",
+      "bytes": 21908,
+      "sha256": "8785e74d2ae11bd5f2da4da15a186667ac7ef7ea31e392ae17ff8fb813ab2cce"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/forest_regions.csv",
+      "bytes": 57482,
+      "sha256": "4c59957ca5982d1af94a2d3f647cc4a132fa00e4e97bcec0d8cf456df6821e85"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/national_changes.csv",
+      "bytes": 76366,
+      "sha256": "6615cf090355d61e07a6f3ffd028c2cd2d01f3cd6c057b1ca3f132916bd5413d"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/quality_flags.csv",
+      "bytes": 6773,
+      "sha256": "704e06d4a30964eeb70fc3b124afd2f780ccaa8415e3f6e824f6e471add66462"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/regional_profiles.csv",
+      "bytes": 16004,
+      "sha256": "b319725947ede5415fc6fd77ff2b547b6a2715b11aac59c4e6ea3a02750d9ac4"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/regional_summaries.csv",
+      "bytes": 2627,
+      "sha256": "97d2169481f93aa8d3d2b2540aa42383dbc1f37e0d33b39eecd62c42107369b2"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62777.csv.gz",
+      "bytes": 1246,
+      "sha256": "89c1e8089a537daf1c0e5b0184b63b3abdcf8ca7ed647edc3e668af25b63e544"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62778.csv.gz",
+      "bytes": 1138,
+      "sha256": "865dd1297e201bc5869db9b3b2b9c747b8528cfe5e588c98ebb66ab440827fed"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62779.csv.gz",
+      "bytes": 1194,
+      "sha256": "033e2ee0d4a05e2931899feaba610889b04e81cc2febfcc7b0ab8021ff5c5c76"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62781.csv.gz",
+      "bytes": 55340,
+      "sha256": "1108abd98e95cdac4ba33e05794bf429b00d293b799c48d87e292c7df51403c8"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62782.csv.gz",
+      "bytes": 51237,
+      "sha256": "c06fc933c1452d2d74b740bc4eccc6be89850b3b52048e43091a320a0cc6d81e"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62786.csv.gz",
+      "bytes": 2274,
+      "sha256": "94ed5aebde17d43958d61473e48c6e1a8f40efc16f44db301c45807c44dce5a7"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62787.csv.gz",
+      "bytes": 1170,
+      "sha256": "b339264eec440339e742c055c72224744a27bd668dc4debf76f12b2ef357c28f"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62792.csv.gz",
+      "bytes": 49695,
+      "sha256": "30f060a219159c45fa7e205e0733a60d91981aa8f9c044d6a4787d1c229e5119"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62793.csv.gz",
+      "bytes": 50815,
+      "sha256": "bf68ed5d96cf7aef4a2705f3c0949e5d44fecb91a78ec9c24e389f55b020cf89"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62804.csv.gz",
+      "bytes": 1304,
+      "sha256": "ddb43739db340c7e954442dec25888a8206b822d1a26fcc91705ac7b80e9dc61"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62828.csv.gz",
+      "bytes": 3180,
+      "sha256": "690e02b3b452c5420118b29a664d0635b89b3610643445c52627c209c45e5cf9"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62854.csv.gz",
+      "bytes": 952,
+      "sha256": "ff3d60bc250fec11c43028e200a8952d24fc6b45f041078791c70cac73089d7c"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62859.csv.gz",
+      "bytes": 1458,
+      "sha256": "d40a8936d493b1b34478fff4e2dbbd6405f2ebe0b7fa7b11f48a5d9476aaa6f9"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62860.csv.gz",
+      "bytes": 14647,
+      "sha256": "6672d2db2538f91a022e35f3e04bd77160efa24d23d2fbcf5c06da1154329988"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62861.csv.gz",
+      "bytes": 1212,
+      "sha256": "f1c3ce26963404e965163e765d9fce0f02f1ea4c0386a648e61e167fd2fda70c"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62862.csv.gz",
+      "bytes": 12866,
+      "sha256": "70bb1e9486b71971d9d4fd2add8325138690269f6c263cf78c3db0e1bca39e4c"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62863.csv.gz",
+      "bytes": 23464,
+      "sha256": "5c114f76b38b72317599ab882fb893029d7ab9668ad7f4ca898a2ec8d83dce61"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/series/62871.csv.gz",
+      "bytes": 916,
+      "sha256": "237a794b29c631eaf1d55bfd96f2e02792b8f9498836cad5dc7626b97b4a4c3d"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/source_registry.csv",
+      "bytes": 18056,
+      "sha256": "003f828389b52eb46920ecf9b537ff82cb05622d1347a9c81d1ff94c59bbb2b5"
+    },
+    {
+      "url": "downloads/projects/environment/statistics/target_comparisons.csv",
+      "bytes": 91234,
+      "sha256": "15a65f9220b296b5961e9c948f1d8292a5f2299ae59f7063062a0411667d0b9c"
+    }
+  ]
+}

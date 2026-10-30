@@ -1,0 +1,952 @@
+{
+  "schema_version": 1,
+  "project_id": "health_technologies",
+  "meta": {
+    "project_id": "health_technologies",
+    "report_as_of": "2026-10-28",
+    "statistical_as_of": "2026-09-10",
+    "acquired_at": "2026-10-29T11:15:54.599622+00:00",
+    "latest_observation_period": "2026-08",
+    "origin_kind": "secondary_emiss_republication",
+    "direct_emiss_verified": false,
+    "origin_note": "Статистические публикации ЕМИСС сохранены в открытом репозитории НЦСЭД. Дата получения, дата обновления данных во встроенном паспорте и отчётный период различаются. Прямая актуальность оригинала подтверждается только отдельным успешным обновлением.",
+    "geography_scope": "national_only",
+    "missing_policy": "preserved_without_zero_fill_or_interpolation",
+    "latest_selection_note": "Последнее пригодное наблюдение выбирается с учётом типа периода и флагов. Все более поздние исходные ячейки доступны в полной таблице."
+  },
+  "coverage": {
+    "registry_indicators": 21,
+    "confirmed_sources": 20,
+    "available_sources": 14,
+    "observations": 233,
+    "numeric_observations": 191,
+    "missing_observations": 42,
+    "usable_observations": 64,
+    "excluded_numeric_observations": 127,
+    "annual_facts": 1,
+    "regional_sources": 0,
+    "territories": 1,
+    "regions": 0,
+    "by_federal_project": [
+      {
+        "code": "С",
+        "title": "Национальный проект",
+        "registry_indicators": 6,
+        "confirmed_sources": 6,
+        "available_sources": 6,
+        "numeric_observations": 88,
+        "missing_observations": 18
+      },
+      {
+        "code": "С1",
+        "title": "Федеральный проект «Управление медицинской наукой»",
+        "registry_indicators": 5,
+        "confirmed_sources": 5,
+        "available_sources": 5,
+        "numeric_observations": 70,
+        "missing_observations": 12
+      },
+      {
+        "code": "С2",
+        "title": "Федеральный проект «Технологии разработки медицинских изделий, лекарственных средств и платформ нового поколения»",
+        "registry_indicators": 3,
+        "confirmed_sources": 3,
+        "available_sources": 3,
+        "numeric_observations": 33,
+        "missing_observations": 12
+      },
+      {
+        "code": "С3",
+        "title": "Федеральный проект «Биомедицинские и когнитивные технологии будущего»",
+        "registry_indicators": 2,
+        "confirmed_sources": 2,
+        "available_sources": 0,
+        "numeric_observations": 0,
+        "missing_observations": 0
+      },
+      {
+        "code": "С4",
+        "title": "Федеральный проект «Регенеративная биомедицина, технологии превентивной медицины, обеспечение активного и здорового долголетия»",
+        "registry_indicators": 2,
+        "confirmed_sources": 2,
+        "available_sources": 0,
+        "numeric_observations": 0,
+        "missing_observations": 0
+      },
+      {
+        "code": "С5",
+        "title": "Федеральный проект «Развитие производства наиболее востребованных лекарственных препаратов и медицинских изделий»",
+        "registry_indicators": 3,
+        "confirmed_sources": 2,
+        "available_sources": 0,
+        "numeric_observations": 0,
+        "missing_observations": 0
+      }
+    ]
+  },
+  "target_comparisons": [
+    {
+      "source_id": "62986",
+      "indicator_code": "2.14.С.1",
+      "target_year": 2025,
+      "target_value": 1.5,
+      "fact_value": 4.55,
+      "fact_period": "2025",
+      "fact_frequency": "annual",
+      "difference": 3.05,
+      "difference_unit": "п.п.",
+      "unit": "процент",
+      "display_unit": "%",
+      "ratio_percent": 303.3333333333333,
+      "comparison_kind": "annual_fact_vs_annual_plan",
+      "annual_comparison_eligible": true,
+      "formal_attainment_eligible": false,
+      "direct_emiss_verified": false,
+      "reference_observation_id": "62986:541bbd40ab6301d4a13a",
+      "target_source": {
+        "indicator_code": "2.14.С.1",
+        "code": "2.14.С.1",
+        "source_id": "62986",
+        "title": "Доля всех исследований, осуществляемых в рамках национального проекта, закончившихся успешной разработкой и внедрением новых лекарственных препаратов, медицинских изделий, биомедицинских клеточных продуктов (БМКП), продуктов тканевой инженерии и медицинских технологий, %",
+        "registry_title": "Доля всех исследований, осуществляемых в рамках национального проекта, закончившихся успешной разработкой и внедрением новых лекарственных препаратов, медицинских изделий, биомедицинских клеточных продуктов (БМКП), продуктов тканевой инженерии, медицинских технологий",
+        "unit": "%",
+        "passport_unit": "Процент",
+        "years": {
+          "2025": 1.5,
+          "2026": 5.0,
+          "2027": 10.0,
+          "2028": 20.0,
+          "2029": 30.0,
+          "2030": 50.0
+        },
+        "source_document": "np_33",
+        "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]",
+        "source_url": "https://databudget.ru/projects/np/33",
+        "source_sha256": "5bc1a4a7be14b395879ca367981dca1593595b229b04d4b47d5ba6864e6e9e0d",
+        "source_version": "26.20",
+        "publication_date": "16.10.2026",
+        "source_card_id": "passport-purpose-3",
+        "local_code": "1",
+        "base_value_raw": "0.0000",
+        "base_date": "01.01.2024",
+        "mapping_status": "reviewed_same_level_definition",
+        "mapping_note": null,
+        "unit_note": null,
+        "raw_years": {
+          "2018": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[1]"
+          },
+          "2019": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[2]"
+          },
+          "2020": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[3]"
+          },
+          "2021": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[4]"
+          },
+          "2022": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[5]"
+          },
+          "2023": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[6]"
+          },
+          "2024": {
+            "value_decimal": "0",
+            "value_raw": "0",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[7]"
+          },
+          "2025": {
+            "value_decimal": "1.5",
+            "value_raw": "1.5",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[8]"
+          },
+          "2026": {
+            "value_decimal": "5",
+            "value_raw": "5",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[9]"
+          },
+          "2027": {
+            "value_decimal": "10",
+            "value_raw": "10",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[10]"
+          },
+          "2028": {
+            "value_decimal": "20",
+            "value_raw": "20",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[11]"
+          },
+          "2029": {
+            "value_decimal": "30",
+            "value_raw": "30",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[12]"
+          },
+          "2030": {
+            "value_decimal": "50",
+            "value_raw": "50",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[13]"
+          },
+          "2031": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[14]"
+          },
+          "2032": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[15]"
+          },
+          "2033": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[16]"
+          },
+          "2034": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[17]"
+          },
+          "2035": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[18]"
+          },
+          "2036": {
+            "value_decimal": null,
+            "value_raw": "—",
+            "source_locator": "/html/body/main/div/section[2]/div/details[3]/div/div/details[3]/div/div[1]/div[2]/div[19]"
+          }
+        },
+        "origin": "independently_extracted_passport_plan",
+        "federal_project_code": null
+      },
+      "interpretation": "Арифметическое сопоставление одного опубликованного годового значения с выбранной редакцией плана. Не является интегральной оценкой проекта или причинного эффекта."
+    }
+  ],
+  "annual_december_audit": [
+    {
+      "source_id": "62986",
+      "year": 2025,
+      "annual_value": 4.55,
+      "december_value": 0,
+      "annual_observation_id": "62986:541bbd40ab6301d4a13a",
+      "december_observation_id": "62986:6a269aa48ed3ab431217",
+      "same_value": false,
+      "interpretation": "Тип периода сохранён. Декабрьская ячейка не заменяет самостоятельную годовую запись."
+    }
+  ],
+  "matched_period_changes": [
+    {
+      "source_id": "63130",
+      "title": "Допущенные разработки НП",
+      "from_period": "2025-05",
+      "to_period": "2026-05",
+      "from_value": 1,
+      "to_value": 6,
+      "difference": 5.0,
+      "relative_change_percent": 500.0,
+      "unit": "единица",
+      "difference_unit": "ед.",
+      "reference_observation_ids": [
+        "63130:9f50af19b556918dfbae",
+        "63130:6220b3942605739610d6"
+      ],
+      "comparison_kind": "same_calendar_slice",
+      "interpretation": "Число учтённых допусков накоплено с 2025 года. Месячные значения не суммируются. Совокупность может пересекаться с прокси С2; оба счётчика нельзя складывать."
+    },
+    {
+      "source_id": "63130",
+      "title": "Допущенные разработки НП",
+      "from_period": "2025-06",
+      "to_period": "2026-06",
+      "from_value": 1,
+      "to_value": 7,
+      "difference": 6.0,
+      "relative_change_percent": 600.0,
+      "unit": "единица",
+      "difference_unit": "ед.",
+      "reference_observation_ids": [
+        "63130:a5282e3fdef7179cda64",
+        "63130:7b176809f0f00e3c6a1f"
+      ],
+      "comparison_kind": "same_calendar_slice",
+      "interpretation": "Число учтённых допусков накоплено с 2025 года. Месячные значения не суммируются. Совокупность может пересекаться с прокси С2; оба счётчика нельзя складывать."
+    },
+    {
+      "source_id": "63130",
+      "title": "Допущенные разработки НП",
+      "from_period": "2025-07",
+      "to_period": "2026-07",
+      "from_value": 2,
+      "to_value": 7,
+      "difference": 5.0,
+      "relative_change_percent": 250.0,
+      "unit": "единица",
+      "difference_unit": "ед.",
+      "reference_observation_ids": [
+        "63130:f81be8150bf729182a65",
+        "63130:05377c79eb4ad70d4d04"
+      ],
+      "comparison_kind": "same_calendar_slice",
+      "interpretation": "Число учтённых допусков накоплено с 2025 года. Месячные значения не суммируются. Совокупность может пересекаться с прокси С2; оба счётчика нельзя складывать."
+    },
+    {
+      "source_id": "63130",
+      "title": "Допущенные разработки НП",
+      "from_period": "2025-08",
+      "to_period": "2026-08",
+      "from_value": 2,
+      "to_value": 7,
+      "difference": 5.0,
+      "relative_change_percent": 250.0,
+      "unit": "единица",
+      "difference_unit": "ед.",
+      "reference_observation_ids": [
+        "63130:1cb6d10004cae33aa8d5",
+        "63130:2d991cd2ea27887ebcfb"
+      ],
+      "comparison_kind": "same_calendar_slice",
+      "interpretation": "Число учтённых допусков накоплено с 2025 года. Месячные значения не суммируются. Совокупность может пересекаться с прокси С2; оба счётчика нельзя складывать."
+    },
+    {
+      "source_id": "63132",
+      "title": "Объём коммерциализации РИД",
+      "from_period": "2025-05",
+      "to_period": "2026-05",
+      "from_value": 235.88,
+      "to_value": 29.95,
+      "difference": -205.93,
+      "relative_change_percent": -87.30286586399865,
+      "unit": "миллион рублей",
+      "difference_unit": "млн руб.",
+      "reference_observation_ids": [
+        "63132:19219d62c981540ab4f5",
+        "63132:927ec91f3f80e6df7610"
+      ],
+      "comparison_kind": "same_calendar_slice",
+      "interpretation": "Объём накоплен с января. Включает денежные поступления, имущественные оценки и операции с капиталом. Месячные точки не суммируются, разные календарные срезы не образуют межгодовое сравнение."
+    },
+    {
+      "source_id": "63132",
+      "title": "Объём коммерциализации РИД",
+      "from_period": "2025-06",
+      "to_period": "2026-06",
+      "from_value": 267.69,
+      "to_value": 48.8,
+      "difference": -218.89,
+      "relative_change_percent": -81.76995778699242,
+      "unit": "миллион рублей",
+      "difference_unit": "млн руб.",
+      "reference_observation_ids": [
+        "63132:b2bc96ff924dd26a12f5",
+        "63132:bd1ab0aede35f686d3da"
+      ],
+      "comparison_kind": "same_calendar_slice",
+      "interpretation": "Объём накоплен с января. Включает денежные поступления, имущественные оценки и операции с капиталом. Месячные точки не суммируются, разные календарные срезы не образуют межгодовое сравнение."
+    },
+    {
+      "source_id": "63132",
+      "title": "Объём коммерциализации РИД",
+      "from_period": "2025-07",
+      "to_period": "2026-07",
+      "from_value": 270.36,
+      "to_value": 50.91,
+      "difference": -219.45,
+      "relative_change_percent": -81.16955170883267,
+      "unit": "миллион рублей",
+      "difference_unit": "млн руб.",
+      "reference_observation_ids": [
+        "63132:51a10fa7d723126e54dc",
+        "63132:6408c1c00135643e28e5"
+      ],
+      "comparison_kind": "same_calendar_slice",
+      "interpretation": "Объём накоплен с января. Включает денежные поступления, имущественные оценки и операции с капиталом. Месячные точки не суммируются, разные календарные срезы не образуют межгодовое сравнение."
+    },
+    {
+      "source_id": "63132",
+      "title": "Объём коммерциализации РИД",
+      "from_period": "2025-08",
+      "to_period": "2026-08",
+      "from_value": 272.8,
+      "to_value": 51.32,
+      "difference": -221.48,
+      "relative_change_percent": -81.18768328445748,
+      "unit": "миллион рублей",
+      "difference_unit": "млн руб.",
+      "reference_observation_ids": [
+        "63132:fc0316bb6d344035b781",
+        "63132:f8022783b8bd7a71861c"
+      ],
+      "comparison_kind": "same_calendar_slice",
+      "interpretation": "Объём накоплен с января. Включает денежные поступления, имущественные оценки и операции с капиталом. Месячные точки не суммируются, разные календарные срезы не образуют межгодовое сравнение."
+    }
+  ],
+  "within_year_changes": [
+    {
+      "source_id": "63062",
+      "title": "Технологическая независимость",
+      "from_period": "2025-Q1",
+      "to_period": "2025-Q4",
+      "from_value": 41.3,
+      "to_value": 42,
+      "difference": 0.7,
+      "unit": "процент",
+      "difference_unit": "п.п.",
+      "reference_observation_ids": [
+        "63062:266157cd0acb8d9a781c",
+        "63062:26ce658ae57ba425c7a4"
+      ],
+      "comparison_kind": "within_calendar_year",
+      "interpretation": "Индекс оценок технологической готовности и критических компонентов. Квартальная запись не заменяет самостоятельный годовой итог и не является долей пациентов или изделий."
+    },
+    {
+      "source_id": "63130",
+      "title": "Допущенные разработки НП",
+      "from_period": "2025-05",
+      "to_period": "2025-12",
+      "from_value": 1,
+      "to_value": 3,
+      "difference": 2.0,
+      "unit": "единица",
+      "difference_unit": "ед.",
+      "reference_observation_ids": [
+        "63130:9f50af19b556918dfbae",
+        "63130:2901971825fafde909fe"
+      ],
+      "comparison_kind": "within_calendar_year",
+      "interpretation": "Число учтённых допусков накоплено с 2025 года. Месячные значения не суммируются. Совокупность может пересекаться с прокси С2; оба счётчика нельзя складывать."
+    },
+    {
+      "source_id": "63130",
+      "title": "Допущенные разработки НП",
+      "from_period": "2026-01",
+      "to_period": "2026-08",
+      "from_value": 3,
+      "to_value": 7,
+      "difference": 4.0,
+      "unit": "единица",
+      "difference_unit": "ед.",
+      "reference_observation_ids": [
+        "63130:83c98a0beae1da44674a",
+        "63130:2d991cd2ea27887ebcfb"
+      ],
+      "comparison_kind": "within_calendar_year",
+      "interpretation": "Число учтённых допусков накоплено с 2025 года. Месячные значения не суммируются. Совокупность может пересекаться с прокси С2; оба счётчика нельзя складывать."
+    },
+    {
+      "source_id": "63132",
+      "title": "Объём коммерциализации РИД",
+      "from_period": "2025-05",
+      "to_period": "2025-12",
+      "from_value": 235.88,
+      "to_value": 357.28,
+      "difference": 121.4,
+      "unit": "миллион рублей",
+      "difference_unit": "млн руб.",
+      "reference_observation_ids": [
+        "63132:19219d62c981540ab4f5",
+        "63132:be9e9887ce9ef2cb9aa5"
+      ],
+      "comparison_kind": "within_calendar_year",
+      "interpretation": "Объём накоплен с января. Включает денежные поступления, имущественные оценки и операции с капиталом. Месячные точки не суммируются, разные календарные срезы не образуют межгодовое сравнение."
+    },
+    {
+      "source_id": "63132",
+      "title": "Объём коммерциализации РИД",
+      "from_period": "2026-01",
+      "to_period": "2026-08",
+      "from_value": 0.89,
+      "to_value": 51.32,
+      "difference": 50.43,
+      "unit": "миллион рублей",
+      "difference_unit": "млн руб.",
+      "reference_observation_ids": [
+        "63132:fd8f91a4f736c4fe068f",
+        "63132:f8022783b8bd7a71861c"
+      ],
+      "comparison_kind": "within_calendar_year",
+      "interpretation": "Объём накоплен с января. Включает денежные поступления, имущественные оценки и операции с капиталом. Месячные точки не суммируются, разные календарные срезы не образуют межгодовое сравнение."
+    },
+    {
+      "source_id": "63446",
+      "title": "Прокси С1: медицинские изделия",
+      "from_period": "2026-04",
+      "to_period": "2026-08",
+      "from_value": 82,
+      "to_value": 105,
+      "difference": 23.0,
+      "unit": "единица",
+      "difference_unit": "ед.",
+      "reference_observation_ids": [
+        "63446:d648b449cb64ee31576f",
+        "63446:40b276d975fd7a466c94"
+      ],
+      "comparison_kind": "within_calendar_year",
+      "interpretation": "Окно включает текущий и четыре предшествующих года: для 2026 года – 2022–2026. Показатель не равен числу изделий только текущего года и не измеряет объём продаж."
+    },
+    {
+      "source_id": "63447",
+      "title": "Прокси С1: лекарственные препараты",
+      "from_period": "2026-04",
+      "to_period": "2026-08",
+      "from_value": 19,
+      "to_value": 21,
+      "difference": 2.0,
+      "unit": "единица",
+      "difference_unit": "ед.",
+      "reference_observation_ids": [
+        "63447:8cf6aa8970fe262e720c",
+        "63447:5d48004f2f80c0162a16"
+      ],
+      "comparison_kind": "within_calendar_year",
+      "interpretation": "Окно включает текущий и четыре предшествующих года: для 2026 года – 2022–2026. Показатель не равен числу лекарств только текущего года; переход календарного года меняет состав окна."
+    },
+    {
+      "source_id": "62988",
+      "title": "Охват пациентов С2",
+      "from_period": "2026-01",
+      "to_period": "2026-08",
+      "from_value": 0,
+      "to_value": 0.24,
+      "difference": 0.24,
+      "unit": "процент",
+      "difference_unit": "п.п.",
+      "reference_observation_ids": [
+        "62988:7ad70422755a3a400e61",
+        "62988:915b00869803ed804264"
+      ],
+      "comparison_kind": "within_calendar_year",
+      "interpretation": "Числитель и знаменатель накоплены с января. Знаменатель – специализированная помощь в федеральных организациях с клиниками. В исходной републикации отсутствовала строка июня 2026 года; пропуск не интерполируется."
+    },
+    {
+      "source_id": "63445",
+      "title": "Допущенные разработки С2",
+      "from_period": "2026-04",
+      "to_period": "2026-08",
+      "from_value": 4,
+      "to_value": 7,
+      "difference": 3.0,
+      "unit": "единица",
+      "difference_unit": "ед.",
+      "reference_observation_ids": [
+        "63445:a2ee42cb2ac0502fa534",
+        "63445:e1505eab3696225914e8"
+      ],
+      "comparison_kind": "within_calendar_year",
+      "interpretation": "Учтённые допуски федерального проекта. Совокупность пересекается с национальным прокси и не складывается с ним без пообъектного реестра."
+    }
+  ],
+  "commercialization_reconciliation": {
+    "published_amount": 357.28,
+    "amount_unit": "млн руб.",
+    "published_growth": 249.59,
+    "growth_unit": "%",
+    "assumed_baseline_2023": 91,
+    "baseline_unit": "млн руб.",
+    "baseline_status": "author_report_transcription",
+    "baseline_source": "Авторская экспертиза, раздел 3.5, абзац о согласовании денежного прокси и прироста к 2023 году.",
+    "mechanical_implied_growth": 292.61538461538464,
+    "difference_from_published_growth": 43.02538461538462,
+    "reference_observation_ids": [
+      "63132:be9e9887ce9ef2cb9aa5",
+      "62987:26653e5f295fbf5a4f11"
+    ],
+    "interpretation": "Условная арифметическая проверка доступных агрегатов. Несовпадение не доказывает ошибку ведомства: состав учреждений, база, компоненты и редакции не согласованы. Показатели не исправляются и не подменяются друг другом."
+  },
+  "quality_summary": {
+    "monthly_cell_for_annual_indicator": 134,
+    "zero_preserved": 126,
+    "source_missing": 42,
+    "december_not_annual": 10,
+    "methodology_break_unresolved": 4,
+    "before_source_effective_start": 8,
+    "unit_conflict": 24
+  },
+  "forecast_eligibility": [
+    {
+      "source_id": "62986",
+      "title": "Успешные исследования",
+      "annual_observations": 1,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "62987",
+      "title": "Прирост коммерциализации РИД",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63062",
+      "title": "Технологическая независимость",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63059",
+      "title": "Прирост добавленной стоимости",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "methodology_break_unresolved",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63130",
+      "title": "Допущенные разработки НП",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63132",
+      "title": "Объём коммерциализации РИД",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "62985",
+      "title": "Медизделия на 1 млрд руб.",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "62928",
+      "title": "Учёт и мониторинг исследований",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "62984",
+      "title": "Лекарства на 5 млрд руб.",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63446",
+      "title": "Прокси С1: медицинские изделия",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63447",
+      "title": "Прокси С1: лекарственные препараты",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "62929",
+      "title": "Доля допущенных разработок С2",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "62988",
+      "title": "Охват пациентов С2",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63445",
+      "title": "Допущенные разработки С2",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63223",
+      "title": "Внедрение технологий С3",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63224",
+      "title": "Пациенты технологий С3",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63225",
+      "title": "Внедрение технологий С4",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63226",
+      "title": "Доступ к технологиям С4",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63272",
+      "title": "Стратегические лекарства полного цикла",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    },
+    {
+      "source_id": "63275",
+      "title": "Локальные радиофармпрепараты",
+      "annual_observations": 0,
+      "eligible": false,
+      "status": "insufficient_independent_annual_history",
+      "reason": "Проверенная прогнозная модель отсутствует; частые оперативные клетки не заменяют независимые сопоставимые годовые наблюдения."
+    }
+  ],
+  "territorial_readiness": {
+    "eligible": false,
+    "available_regions": 0,
+    "status": "national_only",
+    "reason": "Нет региональных наблюдений. Для территориальной оценки нужны место проживания, маршрутизация и сведения об организациях."
+  },
+  "clinical_readiness": {
+    "eligible": false,
+    "status": "administrative_outputs_only",
+    "reason": "Счётчики продуктов и доли пациентов не содержат сравнения клинических исходов."
+  },
+  "diagnostics": {
+    "pca": {
+      "eligible": false,
+      "reason": "Нет региональной матрицы"
+    },
+    "clustering": {
+      "eligible": false,
+      "reason": "Нет сопоставимых объектов"
+    },
+    "moran": {
+      "eligible": false,
+      "reason": "Нет региональных наблюдений"
+    },
+    "causal": {
+      "eligible": false,
+      "reason": "Нет контрфактического дизайна"
+    }
+  },
+  "methods": [
+    {
+      "project_id": "health_technologies",
+      "method_id": "source_quality",
+      "method_name": "Проверка исходных ячеек",
+      "section_number": 1,
+      "current_status": "computed",
+      "status": "computed",
+      "current_limitations": "Исходные ячейки сохранённой републикации CSV сверены с оригинальным XLS. Числа, пропуски и единицы сохранены; прямые обновления проходят отдельную проверку контракта.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "observability",
+      "method_name": "Наблюдаемость показателей",
+      "section_number": 2,
+      "current_status": "computed",
+      "status": "computed",
+      "current_limitations": "14 публикаций содержат 191 числовых ячеек. Все наблюдения относятся к Российской Федерации.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "time_dynamics",
+      "method_name": "Сопоставимые временные изменения",
+      "section_number": 3,
+      "current_status": "computed_with_period_contracts",
+      "status": "computed_with_period_contracts",
+      "current_limitations": "Сравниваются одинаковые календарные срезы и отдельно изменения внутри года. Перекрывающиеся окна, месячные нули годовых показателей и разрывы методик ограничивают выводы.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "target_comparison",
+      "method_name": "Годовой факт и план",
+      "section_number": 4,
+      "current_status": "annual_only_comparison",
+      "status": "annual_only_comparison",
+      "current_limitations": "Найдено самостоятельных пригодных годовых фактов: 1. Декабрьские и квартальные записи не объявляются годовыми.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "forecasting",
+      "method_name": "Прогноз достижения целей",
+      "section_number": 5,
+      "current_status": "insufficient_independent_annual_history",
+      "status": "insufficient_independent_annual_history",
+      "current_limitations": "Вероятностный прогноз и экстраполяция не рассчитаны. Нужны независимая сопоставимая история, состав портфеля и проверенные переходы между стадиями.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "regional_comparison",
+      "method_name": "Сравнение регионов",
+      "section_number": 6,
+      "current_status": "ineligible_no_regional_observations",
+      "status": "ineligible_no_regional_observations",
+      "current_limitations": "Наблюдения по субъектам России отсутствуют в восстановленных публикациях. Значение РФ не копируется в регионы.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "regional_pca",
+      "method_name": "Главные компоненты и региональные профили",
+      "section_number": 7,
+      "current_status": "ineligible_no_regional_matrix",
+      "status": "ineligible_no_regional_matrix",
+      "current_limitations": "Нет региональной матрицы объектов и признаков; PCA и кластеризация не применяются.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "spatial_autocorrelation",
+      "method_name": "Пространственная автокорреляция",
+      "section_number": 8,
+      "current_status": "ineligible_no_regional_observations",
+      "status": "ineligible_no_regional_observations",
+      "current_limitations": "Индексы Морана и локальные кластеры не вычисляются без сопоставимых территориальных наблюдений.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "causal_evaluation",
+      "method_name": "Оценка причинного эффекта",
+      "section_number": 9,
+      "current_status": "ineligible_no_counterfactual_design",
+      "status": "ineligible_no_counterfactual_design",
+      "current_limitations": "Агрегаты РФ не содержат контрольной группы, даты внедрения и результатов сопоставимых объектов; DiD, RDD и причинный ATT не оцениваются.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "clinical_effectiveness",
+      "method_name": "Клиническая доказательность",
+      "section_number": 10,
+      "current_status": "requires_patient_level_design",
+      "status": "requires_patient_level_design",
+      "current_limitations": "Регистрационные допуски и счётчики технологий не измеряют сравнительный клинический эффект. Нужны дизайн, компаратор, исходы и сроки наблюдения.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "cost_effectiveness",
+      "method_name": "Экономическая оценка технологий",
+      "section_number": 11,
+      "current_status": "requires_cost_and_outcome_components",
+      "status": "requires_cost_and_outcome_components",
+      "current_limitations": "ICER и QALY не рассчитываются из финансового плана и агрегатов коммерциализации без сопоставимых затрат и исходов.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "portfolio_scenarios",
+      "method_name": "Сценарии технологического портфеля",
+      "section_number": 12,
+      "current_status": "user_assumptions_only",
+      "status": "user_assumptions_only",
+      "current_limitations": "Условные сценарии задаются пользователем. Вероятности прохождения стадий не оценены по открытым данным.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "publication_semantics",
+      "method_name": "Проверка периода и редакции",
+      "section_number": 13,
+      "current_status": "computed",
+      "status": "computed",
+      "current_limitations": "В исходной републикации годовой факт 4,55% отделён от декабрьского нуля. Квартальная ВДС с неоднозначной редакцией заблокирована для сравнения с целью.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    },
+    {
+      "project_id": "health_technologies",
+      "method_id": "commercialization_check",
+      "method_name": "Согласование показателей коммерциализации",
+      "section_number": 14,
+      "current_status": "conditional_arithmetic_check",
+      "status": "conditional_arithmetic_check",
+      "current_limitations": "Проверка суммы и прироста к базе показывает необходимость раскрытия компонентов. Условная база 91 млн руб. имеет статус транскрипции авторского отчёта.",
+      "evidence_scope": "health_technologies_project_specific",
+      "numeric_indicators": 14,
+      "regional_indicators": 0,
+      "multivariate_input_status": "no_regional_matrix"
+    }
+  ]
+}

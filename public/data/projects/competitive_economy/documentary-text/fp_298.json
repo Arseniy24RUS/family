@@ -1,0 +1,1892 @@
+{
+  "document": {
+    "project_id": "competitive_economy",
+    "kind": "fp",
+    "id": "fp_298",
+    "url": "https://databudget.ru/projects/fp/298",
+    "sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+    "retrieved_at": "2026-10-19T14:38:58.192199+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/cb/cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0.html",
+    "document_id": "fp_298",
+    "code": "Э4",
+    "title": "[Э4] Низкоуглеродное развитие",
+    "publisher_version": "26.13",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 495,
+    "n_tokens": 495,
+    "source_url": "https://databudget.ru/projects/fp/298",
+    "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+    "profile_text_sha256": "e1dafa37478e6dfb66520b88801ad7f6d4ace02f3ef650dee0fa48ca7fc86e2f",
+    "archive_entry": "competitive_economy/fp_298.html",
+    "bytes": 883067,
+    "download_path": "downloads/projects/competitive_economy/documentary/sources/fp_298.html",
+    "profile_original_document_id": "html:cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_298:profile1",
+      "document_id": "fp_298",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "снижена уязвимость экономики к неблагоприятным последствиям изменения климата",
+      "node_id": "fp_298:passport-task-03:83875dcde77ed500",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_298:profile2",
+      "document_id": "fp_298",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "обеспечено создание условий, включая экспертное обеспечение выработки решений в сфере климатической политики, создание правовой основы и инфраструктурных решений, для реализации мер по сокращению и предотвращению выбросов парниковых газов, а также по увеличению поглощения таких газов в интересах органов государственной власти, бизнеса и граждан российской федерации",
+      "node_id": "fp_298:passport-task-04:4dbf9c23492a0959",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "n_tokens": 39,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_298:profile3",
+      "document_id": "fp_298",
+      "project_id": "competitive_economy",
+      "kind": "goal",
+      "text": "создание условий, включая развитие научно-методической базы, правовых основ и необходимой инфраструктуры, для реализации мер по ограничению выбросов парниковых газов и снижению уязвимости экономики к неблагоприятным последствиям изменения климата на федеральном, региональном и корпоративном уровнях",
+      "node_id": "fp_298:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "n_tokens": 30,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_298:profile4",
+      "document_id": "fp_298",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено организационное,нормативно-правовое,научно-методическое и информационное сопровождение политики адаптации к изменениям климата обеспечение методологической поддержки по вопросам адаптации к изменениям климата, включая синхронизацию с национальными стандартами в сфере изменения климата, совершенствование механизмов снижения уязвимости экономики к неблагоприятным последствиям изменения климата, обеспечение сквозной взаимосвязи мер по повышению устойчивости к изменениям климата, реализуемых на федеральном,",
+      "node_id": "fp_298:passport-result-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "n_tokens": 46,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_298:profile5",
+      "document_id": "fp_298",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено информационно-аналитическое, экспертное и организационное сопровождение в сфере климатической повестки и важнейшего проекта государственного значения единая национальная система мониторинга климатически активных веществ в целях разработки единой рамки планирования и реализации политики ограничения выбросов парниковых газов фондом центр стратегических разработок подготовлены и представлены экспертно-аналитические и отчетные материалы: 1. отчет о результатах информационно-аналитического и организационного сопровождения по вопросам функционирования национальной системы климатического регулирования 2. отчет о результатах информационно-аналитического и организационного сопровождения министерства экономического развития российской федерации при реализации государственной политики в области энергосбережения и повышения энергетической эффективности 3. отчет о результатах экспертно-аналитического и информационного сопровождения реализации мероприятий целевого сценария стратегии социально-экономического развития российской федерации с низким уровнем выбросов парниковых газов до 2050 года, утвержденной распоряжением правительства российской федерации от 29 октября 2021 г. № 3052-р 4. отчет о результатах экспертно-аналитического сопровождения по вопросам реализации эксперимента по ограничению выбросов парниковых газов в субъектах российской федерации 5. отчет о результатах экспертного и аналитического сопровождения международных климатических переговоров 6. отчет о результатах систематизации актуальных прогнозов низкоуглеродного развития российской федерации и мира в средне- и долгосрочной перспективе, подготовленных научными и иными организациями 7. отчет о результатах экспертно-аналитического сопровождения по вопросам углеродного следа продукции 8. справочные, аналитические и информационные материалы по вопросам климатической политики в зарубежных странах 9. отчет о результатах методического, информационного и экспертно-аналитического сопровождения по вопросам политики адаптации к изменениям климата 10. отчет о формировании и визуализации обобщенных аналитических и информационных материалов, подготовленных в рамках субсидии, и проведенных мероприятиях по информированию общественност",
+      "node_id": "fp_298:passport-result-37:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "n_tokens": 185,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_298:profile6",
+      "document_id": "fp_298",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено развитие реестра выбросов парниковых газов, выполнена интеграция с иными государственными и ведомственными информационными системами, в том числе с реестром углеродных единиц, национальным кадастром парниковых газов проведена интеграция реестра выбросов парниковых газов с государственными и ведомственными информационными системами, реестром углеродных единиц, национальным кадастром парниковых газов, фгис росаккредитации",
+      "node_id": "fp_298:passport-result-38:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "n_tokens": 41,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_298:profile7",
+      "document_id": "fp_298",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "разработан комплексный научно-технический проект национальной системы мониторинга климатически активных веществ разработан комплексный научно-технический проект национальной системы мониторинга климатических веществ (далее – национальная система) в количестве 1 единица, описывающий целевой образ национальной системы мониторинга климатических веществ и включающий: - архитектуру национальной системы, - номенклатуру национальной системы, - качественные и количественные характеристики предоставляемых национальной системой сервисов и продукции, поставщиков и потребителей этих сервисов и продукции, - необходимые технические и организационные решения для создания национальной системы с учетом инфраструктуры федеральных органов исполнительной власти и организаций, находящихся в их ведении.",
+      "node_id": "fp_298:passport-result-8:72821f34f9410810",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "n_tokens": 70,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_298:profile8",
+      "document_id": "fp_298",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информационной системы в области энергосбережения и повышения энергетической эффективности обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информационной системы в области энергосбережения и повышения энергетической эффективности, в том числе по обработке информации, содержащейся в ней.",
+      "node_id": "fp_298:passport-result-7:40e4a8a3cec0d7be",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "n_tokens": 33,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_298:profile9",
+      "document_id": "fp_298",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "объем выпущенных углеродных единиц, млн тонн co2-экв. (накопленным итогом)",
+      "node_id": "fp_298:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_298:profile10",
+      "document_id": "fp_298",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "объем нетто-выбросов парниковых газов в российской федерации (с учетом поглощений в секторе землепользование, изменения в землепользовании и лесное хозяйство - зизлх), млн тонн co2-экв.",
+      "node_id": "fp_298:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "n_tokens": 19,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_298:profile11",
+      "document_id": "fp_298",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "доля субъектов адаптации, реализующих планы адаптации на региональном и отраслевом уровнях, от общего количества субъектов адаптации",
+      "node_id": "fp_298:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "n_tokens": 15,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_298:kwic1",
+      "document_id": "fp_298",
+      "frame": "digital_data",
+      "matched": "информационными системами",
+      "context": "но развитие реестра выбросов парниковых газов, выполнена интеграция с иными государственными и ведомственными информационными системами, в том числе с реестром углеродных единиц, национальным кадастром парниковых газов проведена интеграция реест",
+      "unit_id": "fp_298:profile6",
+      "unit_ids": [
+        "fp_298:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic2",
+      "document_id": "fp_298",
+      "frame": "digital_data",
+      "matched": "информационными системами",
+      "context": "м парниковых газов проведена интеграция реестра выбросов парниковых газов с государственными и ведомственными информационными системами, реестром углеродных единиц, национальным кадастром парниковых газов, фгис росаккредитации разработан комплек",
+      "unit_id": "fp_298:profile6",
+      "unit_ids": [
+        "fp_298:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic3",
+      "document_id": "fp_298",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "ведении. обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информационной системы в области энергосбережения и повышения энергетической эффективности обеспечено организационно-технологическое",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic4",
+      "document_id": "fp_298",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "тивности обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информационной системы в области энергосбережения и повышения энергетической эффективности, в том числе по обработке информации, сод",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic5",
+      "document_id": "fp_298",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "ов парниковых газов, а также по увеличению поглощения таких газов в интересах органов государственной власти, бизнеса и граждан российской федерации создание условий, включая развитие научно-методической базы, правовых основ и ",
+      "unit_id": "fp_298:profile2",
+      "unit_ids": [
+        "fp_298:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic6",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "снижена уязвимость экономики к неблагоприятным последствиям изменения климата обеспечено создание условий, включая экспертное обеспечение выработки решений в сфере климатической политики,",
+      "unit_id": "fp_298:profile1",
+      "unit_ids": [
+        "fp_298:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic7",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатической",
+      "context": "твиям изменения климата обеспечено создание условий, включая экспертное обеспечение выработки решений в сфере климатической политики, создание правовой основы и инфраструктурных решений, для реализации мер по сокращению и предотвраще",
+      "unit_id": "fp_298:profile2",
+      "unit_ids": [
+        "fp_298:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic8",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "итики, создание правовой основы и инфраструктурных решений, для реализации мер по сокращению и предотвращению выбросов парниковых газов, а также по увеличению поглощения таких газов в интересах органов государственной власти, би",
+      "unit_id": "fp_298:profile2",
+      "unit_ids": [
+        "fp_298:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic9",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "итие научно-методической базы, правовых основ и необходимой инфраструктуры, для реализации мер по ограничению выбросов парниковых газов и снижению уязвимости экономики к неблагоприятным последствиям изменения климата на федераль",
+      "unit_id": "fp_298:profile3",
+      "unit_ids": [
+        "fp_298:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic10",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "граничению выбросов парниковых газов и снижению уязвимости экономики к неблагоприятным последствиям изменения климата на федеральном, региональном и корпоративном уровнях обеспечено организационное,нормативно-правовое,научно-ме",
+      "unit_id": "fp_298:profile3",
+      "unit_ids": [
+        "fp_298:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic11",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "ионное,нормативно-правовое,научно-методическое и информационное сопровождение политики адаптации к изменениям климата обеспечение методологической поддержки по вопросам адаптации к изменениям климата, включая синхронизацию с на",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic12",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "тики адаптации к изменениям климата обеспечение методологической поддержки по вопросам адаптации к изменениям климата, включая синхронизацию с национальными стандартами в сфере изменения климата, совершенствование механизмов сн",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic13",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": " вопросам адаптации к изменениям климата, включая синхронизацию с национальными стандартами в сфере изменения климата, совершенствование механизмов снижения уязвимости экономики к неблагоприятным последствиям изменения климата,",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic14",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": " климата, совершенствование механизмов снижения уязвимости экономики к неблагоприятным последствиям изменения климата, обеспечение сквозной взаимосвязи мер по повышению устойчивости к изменениям климата, реализуемых на федераль",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic15",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "м последствиям изменения климата, обеспечение сквозной взаимосвязи мер по повышению устойчивости к изменениям климата, реализуемых на федеральном, обеспечено информационно-аналитическое, экспертное и организационное сопровожден",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic16",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатической",
+      "context": "ых на федеральном, обеспечено информационно-аналитическое, экспертное и организационное сопровождение в сфере климатической повестки и важнейшего проекта государственного значения единая национальная система мониторинга климатически ",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic17",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатически",
+      "context": "климатической повестки и важнейшего проекта государственного значения единая национальная система мониторинга климатически активных веществ в целях разработки единой рамки планирования и реализации политики ограничения выбросов парн",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic18",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": " климатически активных веществ в целях разработки единой рамки планирования и реализации политики ограничения выбросов парниковых газов фондом центр стратегических разработок подготовлены и представлены экспертно-аналитические и",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic19",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатического",
+      "context": "формационно-аналитического и организационного сопровождения по вопросам функционирования национальной системы климатического регулирования 2. отчет о результатах информационно-аналитического и организационного сопровождения министерст",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic20",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "роприятий целевого сценария стратегии социально-экономического развития российской федерации с низким уровнем выбросов парниковых газов до 2050 года, утвержденной распоряжением правительства российской федерации от 29 октября 20",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic21",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "отчет о результатах экспертно-аналитического сопровождения по вопросам реализации эксперимента по ограничению выбросов парниковых газов в субъектах российской федерации 5. отчет о результатах экспертного и аналитического сопрово",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic22",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатических",
+      "context": "убъектах российской федерации 5. отчет о результатах экспертного и аналитического сопровождения международных климатических переговоров 6. отчет о результатах систематизации актуальных прогнозов низкоуглеродного развития российской ф",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic23",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатической",
+      "context": "я по вопросам углеродного следа продукции 8. справочные, аналитические и информационные материалы по вопросам климатической политики в зарубежных странах 9. отчет о результатах методического, информационного и экспертно-аналитическог",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic24",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "ческого, информационного и экспертно-аналитического сопровождения по вопросам политики адаптации к изменениям климата 10. отчет о формировании и визуализации обобщенных аналитических и информационных материалов, подготовленных ",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic25",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "ных в рамках субсидии, и проведенных мероприятиях по информированию общественност обеспечено развитие реестра выбросов парниковых газов, выполнена интеграция с иными государственными и ведомственными информационными системами, в",
+      "unit_id": "fp_298:profile6",
+      "unit_ids": [
+        "fp_298:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic26",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": " том числе с реестром углеродных единиц, национальным кадастром парниковых газов проведена интеграция реестра выбросов парниковых газов с государственными и ведомственными информационными системами, реестром углеродных единиц, н",
+      "unit_id": "fp_298:profile6",
+      "unit_ids": [
+        "fp_298:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic27",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатически",
+      "context": "газов, фгис росаккредитации разработан комплексный научно-технический проект национальной системы мониторинга климатически активных веществ разработан комплексный научно-технический проект национальной системы мониторинга климатичес",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic28",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатических",
+      "context": "иматически активных веществ разработан комплексный научно-технический проект национальной системы мониторинга климатических веществ (далее – национальная система) в количестве 1 единица, описывающий целевой образ национальной системы",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic29",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатических",
+      "context": "ее – национальная система) в количестве 1 единица, описывающий целевой образ национальной системы мониторинга климатических веществ и включающий: - архитектуру национальной системы, - номенклатуру национальной системы, - качественные",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic30",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "и, содержащейся в ней. объем выпущенных углеродных единиц, млн тонн co2-экв. (накопленным итогом) объем нетто-выбросов парниковых газов в российской федерации (с учетом поглощений в секторе землепользование, изменения в землепол",
+      "unit_id": "fp_298:profile10",
+      "unit_ids": [
+        "fp_298:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic31",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ние в сфере климатической повестки и важнейшего проекта государственного значения единая национальная система мониторинга климатически активных веществ в целях разработки единой рамки планирования и реализации политики ограничения ",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic32",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "йской федерации при реализации государственной политики в области энергосбережения и повышения энергетической эффективности 3. отчет о результатах экспертно-аналитического и информационного сопровождения реализации мероприятий целево",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic33",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": " парниковых газов, фгис росаккредитации разработан комплексный научно-технический проект национальной системы мониторинга климатически активных веществ разработан комплексный научно-технический проект национальной системы мониторин",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic34",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ниторинга климатически активных веществ разработан комплексный научно-технический проект национальной системы мониторинга климатических веществ (далее – национальная система) в количестве 1 единица, описывающий целевой образ национ",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic35",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "веществ (далее – национальная система) в количестве 1 единица, описывающий целевой образ национальной системы мониторинга климатических веществ и включающий: - архитектуру национальной системы, - номенклатуру национальной системы, ",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic36",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "вание и развитие государственной информационной системы в области энергосбережения и повышения энергетической эффективности обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информац",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic37",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "вание и развитие государственной информационной системы в области энергосбережения и повышения энергетической эффективности, в том числе по обработке информации, содержащейся в ней. объем выпущенных углеродных единиц, млн тонн co2-эк",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic38",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "сах органов государственной власти, бизнеса и граждан российской федерации создание условий, включая развитие научно-методической базы, правовых основ и необходимой инфраструктуры, для реализации мер по ограничению выбросов па",
+      "unit_id": "fp_298:profile3",
+      "unit_ids": [
+        "fp_298:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic39",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "я климата на федеральном, региональном и корпоративном уровнях обеспечено организационное,нормативно-правовое,научно-методическое и информационное сопровождение политики адаптации к изменениям климата обеспечение методологичес",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic40",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "разработки",
+      "context": "оекта государственного значения единая национальная система мониторинга климатически активных веществ в целях разработки единой рамки планирования и реализации политики ограничения выбросов парниковых газов фондом центр стратегиче",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic41",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "научными",
+      "context": "ов низкоуглеродного развития российской федерации и мира в средне- и долгосрочной перспективе, подготовленных научными и иными организациями 7. отчет о результатах экспертно-аналитического сопровождения по вопросам углеродного с",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic42",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "стром углеродных единиц, национальным кадастром парниковых газов, фгис росаккредитации разработан комплексный научно-технический проект национальной системы мониторинга климатически активных веществ разработан комплексный науч",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic43",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "учно-технический проект национальной системы мониторинга климатически активных веществ разработан комплексный научно-технический проект национальной системы мониторинга климатических веществ (далее – национальная система) в ко",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic44",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "технологическое",
+      "context": " федеральных органов исполнительной власти и организаций, находящихся в их ведении. обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информационной системы в области энергосбережения ",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic45",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "технологическое",
+      "context": "ционной системы в области энергосбережения и повышения энергетической эффективности обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информационной системы в области энергосбережения ",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_298:kwic1",
+      "document_id": "fp_298",
+      "frame": "digital_data",
+      "matched": "информационными системами",
+      "context": "но развитие реестра выбросов парниковых газов, выполнена интеграция с иными государственными и ведомственными информационными системами, в том числе с реестром углеродных единиц, национальным кадастром парниковых газов проведена интеграция реест",
+      "unit_id": "fp_298:profile6",
+      "unit_ids": [
+        "fp_298:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic2",
+      "document_id": "fp_298",
+      "frame": "digital_data",
+      "matched": "информационными системами",
+      "context": "м парниковых газов проведена интеграция реестра выбросов парниковых газов с государственными и ведомственными информационными системами, реестром углеродных единиц, национальным кадастром парниковых газов, фгис росаккредитации разработан комплек",
+      "unit_id": "fp_298:profile6",
+      "unit_ids": [
+        "fp_298:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic3",
+      "document_id": "fp_298",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "ведении. обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информационной системы в области энергосбережения и повышения энергетической эффективности обеспечено организационно-технологическое",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic4",
+      "document_id": "fp_298",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "тивности обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информационной системы в области энергосбережения и повышения энергетической эффективности, в том числе по обработке информации, сод",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic5",
+      "document_id": "fp_298",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "ов парниковых газов, а также по увеличению поглощения таких газов в интересах органов государственной власти, бизнеса и граждан российской федерации создание условий, включая развитие научно-методической базы, правовых основ и ",
+      "unit_id": "fp_298:profile2",
+      "unit_ids": [
+        "fp_298:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic6",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "снижена уязвимость экономики к неблагоприятным последствиям изменения климата обеспечено создание условий, включая экспертное обеспечение выработки решений в сфере климатической политики,",
+      "unit_id": "fp_298:profile1",
+      "unit_ids": [
+        "fp_298:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic7",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатической",
+      "context": "твиям изменения климата обеспечено создание условий, включая экспертное обеспечение выработки решений в сфере климатической политики, создание правовой основы и инфраструктурных решений, для реализации мер по сокращению и предотвраще",
+      "unit_id": "fp_298:profile2",
+      "unit_ids": [
+        "fp_298:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic8",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "итики, создание правовой основы и инфраструктурных решений, для реализации мер по сокращению и предотвращению выбросов парниковых газов, а также по увеличению поглощения таких газов в интересах органов государственной власти, би",
+      "unit_id": "fp_298:profile2",
+      "unit_ids": [
+        "fp_298:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic9",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "итие научно-методической базы, правовых основ и необходимой инфраструктуры, для реализации мер по ограничению выбросов парниковых газов и снижению уязвимости экономики к неблагоприятным последствиям изменения климата на федераль",
+      "unit_id": "fp_298:profile3",
+      "unit_ids": [
+        "fp_298:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic10",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "граничению выбросов парниковых газов и снижению уязвимости экономики к неблагоприятным последствиям изменения климата на федеральном, региональном и корпоративном уровнях обеспечено организационное,нормативно-правовое,научно-ме",
+      "unit_id": "fp_298:profile3",
+      "unit_ids": [
+        "fp_298:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic11",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "ионное,нормативно-правовое,научно-методическое и информационное сопровождение политики адаптации к изменениям климата обеспечение методологической поддержки по вопросам адаптации к изменениям климата, включая синхронизацию с на",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic12",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "тики адаптации к изменениям климата обеспечение методологической поддержки по вопросам адаптации к изменениям климата, включая синхронизацию с национальными стандартами в сфере изменения климата, совершенствование механизмов сн",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic13",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": " вопросам адаптации к изменениям климата, включая синхронизацию с национальными стандартами в сфере изменения климата, совершенствование механизмов снижения уязвимости экономики к неблагоприятным последствиям изменения климата,",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic14",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": " климата, совершенствование механизмов снижения уязвимости экономики к неблагоприятным последствиям изменения климата, обеспечение сквозной взаимосвязи мер по повышению устойчивости к изменениям климата, реализуемых на федераль",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic15",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "м последствиям изменения климата, обеспечение сквозной взаимосвязи мер по повышению устойчивости к изменениям климата, реализуемых на федеральном, обеспечено информационно-аналитическое, экспертное и организационное сопровожден",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic16",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатической",
+      "context": "ых на федеральном, обеспечено информационно-аналитическое, экспертное и организационное сопровождение в сфере климатической повестки и важнейшего проекта государственного значения единая национальная система мониторинга климатически ",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic17",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатически",
+      "context": "климатической повестки и важнейшего проекта государственного значения единая национальная система мониторинга климатически активных веществ в целях разработки единой рамки планирования и реализации политики ограничения выбросов парн",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic18",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": " климатически активных веществ в целях разработки единой рамки планирования и реализации политики ограничения выбросов парниковых газов фондом центр стратегических разработок подготовлены и представлены экспертно-аналитические и",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic19",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатического",
+      "context": "формационно-аналитического и организационного сопровождения по вопросам функционирования национальной системы климатического регулирования 2. отчет о результатах информационно-аналитического и организационного сопровождения министерст",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic20",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "роприятий целевого сценария стратегии социально-экономического развития российской федерации с низким уровнем выбросов парниковых газов до 2050 года, утвержденной распоряжением правительства российской федерации от 29 октября 20",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic21",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "отчет о результатах экспертно-аналитического сопровождения по вопросам реализации эксперимента по ограничению выбросов парниковых газов в субъектах российской федерации 5. отчет о результатах экспертного и аналитического сопрово",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic22",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатических",
+      "context": "убъектах российской федерации 5. отчет о результатах экспертного и аналитического сопровождения международных климатических переговоров 6. отчет о результатах систематизации актуальных прогнозов низкоуглеродного развития российской ф",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic23",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатической",
+      "context": "я по вопросам углеродного следа продукции 8. справочные, аналитические и информационные материалы по вопросам климатической политики в зарубежных странах 9. отчет о результатах методического, информационного и экспертно-аналитическог",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic24",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "ческого, информационного и экспертно-аналитического сопровождения по вопросам политики адаптации к изменениям климата 10. отчет о формировании и визуализации обобщенных аналитических и информационных материалов, подготовленных ",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic25",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "ных в рамках субсидии, и проведенных мероприятиях по информированию общественност обеспечено развитие реестра выбросов парниковых газов, выполнена интеграция с иными государственными и ведомственными информационными системами, в",
+      "unit_id": "fp_298:profile6",
+      "unit_ids": [
+        "fp_298:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic26",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": " том числе с реестром углеродных единиц, национальным кадастром парниковых газов проведена интеграция реестра выбросов парниковых газов с государственными и ведомственными информационными системами, реестром углеродных единиц, н",
+      "unit_id": "fp_298:profile6",
+      "unit_ids": [
+        "fp_298:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic27",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатически",
+      "context": "газов, фгис росаккредитации разработан комплексный научно-технический проект национальной системы мониторинга климатически активных веществ разработан комплексный научно-технический проект национальной системы мониторинга климатичес",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic28",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатических",
+      "context": "иматически активных веществ разработан комплексный научно-технический проект национальной системы мониторинга климатических веществ (далее – национальная система) в количестве 1 единица, описывающий целевой образ национальной системы",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic29",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "климатических",
+      "context": "ее – национальная система) в количестве 1 единица, описывающий целевой образ национальной системы мониторинга климатических веществ и включающий: - архитектуру национальной системы, - номенклатуру национальной системы, - качественные",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic30",
+      "document_id": "fp_298",
+      "frame": "environment_climate",
+      "matched": "выбросов",
+      "context": "и, содержащейся в ней. объем выпущенных углеродных единиц, млн тонн co2-экв. (накопленным итогом) объем нетто-выбросов парниковых газов в российской федерации (с учетом поглощений в секторе землепользование, изменения в землепол",
+      "unit_id": "fp_298:profile10",
+      "unit_ids": [
+        "fp_298:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic31",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ние в сфере климатической повестки и важнейшего проекта государственного значения единая национальная система мониторинга климатически активных веществ в целях разработки единой рамки планирования и реализации политики ограничения ",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic32",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "йской федерации при реализации государственной политики в области энергосбережения и повышения энергетической эффективности 3. отчет о результатах экспертно-аналитического и информационного сопровождения реализации мероприятий целево",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic33",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": " парниковых газов, фгис росаккредитации разработан комплексный научно-технический проект национальной системы мониторинга климатически активных веществ разработан комплексный научно-технический проект национальной системы мониторин",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic34",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ниторинга климатически активных веществ разработан комплексный научно-технический проект национальной системы мониторинга климатических веществ (далее – национальная система) в количестве 1 единица, описывающий целевой образ национ",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic35",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "веществ (далее – национальная система) в количестве 1 единица, описывающий целевой образ национальной системы мониторинга климатических веществ и включающий: - архитектуру национальной системы, - номенклатуру национальной системы, ",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic36",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "вание и развитие государственной информационной системы в области энергосбережения и повышения энергетической эффективности обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информац",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic37",
+      "document_id": "fp_298",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "вание и развитие государственной информационной системы в области энергосбережения и повышения энергетической эффективности, в том числе по обработке информации, содержащейся в ней. объем выпущенных углеродных единиц, млн тонн co2-эк",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic38",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "сах органов государственной власти, бизнеса и граждан российской федерации создание условий, включая развитие научно-методической базы, правовых основ и необходимой инфраструктуры, для реализации мер по ограничению выбросов па",
+      "unit_id": "fp_298:profile3",
+      "unit_ids": [
+        "fp_298:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic39",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "я климата на федеральном, региональном и корпоративном уровнях обеспечено организационное,нормативно-правовое,научно-методическое и информационное сопровождение политики адаптации к изменениям климата обеспечение методологичес",
+      "unit_id": "fp_298:profile4",
+      "unit_ids": [
+        "fp_298:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic40",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "разработки",
+      "context": "оекта государственного значения единая национальная система мониторинга климатически активных веществ в целях разработки единой рамки планирования и реализации политики ограничения выбросов парниковых газов фондом центр стратегиче",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic41",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "научными",
+      "context": "ов низкоуглеродного развития российской федерации и мира в средне- и долгосрочной перспективе, подготовленных научными и иными организациями 7. отчет о результатах экспертно-аналитического сопровождения по вопросам углеродного с",
+      "unit_id": "fp_298:profile5",
+      "unit_ids": [
+        "fp_298:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic42",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "стром углеродных единиц, национальным кадастром парниковых газов, фгис росаккредитации разработан комплексный научно-технический проект национальной системы мониторинга климатически активных веществ разработан комплексный науч",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic43",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "научно",
+      "context": "учно-технический проект национальной системы мониторинга климатически активных веществ разработан комплексный научно-технический проект национальной системы мониторинга климатических веществ (далее – национальная система) в ко",
+      "unit_id": "fp_298:profile7",
+      "unit_ids": [
+        "fp_298:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic44",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "технологическое",
+      "context": " федеральных органов исполнительной власти и организаций, находящихся в их ведении. обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информационной системы в области энергосбережения ",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_298:kwic45",
+      "document_id": "fp_298",
+      "frame": "science_innovation",
+      "matched": "технологическое",
+      "context": "ционной системы в области энергосбережения и повышения энергетической эффективности обеспечено организационно-технологическое сопровождение, функционирование и развитие государственной информационной системы в области энергосбережения ",
+      "unit_id": "fp_298:profile8",
+      "unit_ids": [
+        "fp_298:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "source_url": "https://databudget.ru/projects/fp/298",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/298",
+  "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0"
+}

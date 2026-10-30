@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "project_id": "personnel",
+  "project_name": "Национальный проект «Кадры»",
+  "release_version": "1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "documentary_as_of": "2026-10-19",
+  "release_date": "2026-10-27",
+  "author_expertise_status": "published",
+  "registry": {
+    "project_id": "personnel",
+    "project_name": "Национальный проект «Кадры»",
+    "n_registry": 11,
+    "n_with_numeric": 5,
+    "n_with_regional": 0,
+    "n_with_national": 5,
+    "n_unique_cells": 60,
+    "n_numeric": 60,
+    "n_usable": 60,
+    "n_domain_violations": 0,
+    "coverage_pct": 45.45454545454545
+  },
+  "panel": {
+    "project_id": "personnel",
+    "panel_id": "",
+    "status": "no_regional_data",
+    "frequency": "",
+    "period_end": "",
+    "n_regions": null,
+    "n_features": null,
+    "n_imputed_cells": null,
+    "imputed_pct": null,
+    "k": null,
+    "silhouette": null,
+    "pc12_variance": null,
+    "cluster_status": "",
+    "n_communities": null,
+    "complete_case_ari": null,
+    "n_complete_case": null,
+    "seed": null
+  },
+  "research": {
+    "project_id": "personnel",
+    "project_name": "Национальный проект «Кадры»",
+    "registry_indicators": 11,
+    "indicators_with_numeric": 5,
+    "indicators_with_regional": 0,
+    "observations_numeric": 60,
+    "documents": 11,
+    "goal_nodes": 5,
+    "task_nodes": 15,
+    "indicator_nodes": 11,
+    "result_nodes": 32,
+    "unresolved_link_claims": 58,
+    "shared_task_result_indicator_links": 67,
+    "results_linked_through_documented_task": 32,
+    "results_with_lexical_candidate": 10,
+    "explicit_result_indicator_links": 0,
+    "family_original_manual_edges": null,
+    "multivariate_status": "not_applicable_to_available_input",
+    "passport_financing_2025_2030_thousand_rub": 177331609.71,
+    "strict_financing_hhi": 0.3985102649800975,
+    "financing_status": "computed_complete_visible_fp_headers",
+    "causal_effect_status": "not_identified_in_existing_sources",
+    "author_expertise_text_status": "published"
+  },
+  "results": {
+    "project_id": "personnel",
+    "project_name": "Национальный проект «Кадры»",
+    "n_registry": 11,
+    "n_numeric_indicators": 5,
+    "n_regional_indicators": 0,
+    "n_forecast_indicators": 0,
+    "n_series": 6,
+    "n_projected_series": 0,
+    "n_diagnostic_forecast_series": 0,
+    "n_reference_scenario_series": 5,
+    "n_series_with_review_flags": 5,
+    "n_documented_target_indicators": 11,
+    "target_status": "source_backed_targets_available",
+    "forecast_status": "insufficient_independent_annual_history",
+    "n_annual_facts": 2,
+    "n_annual_equivalent_references": 3
+  },
+  "corpus": {
+    "project": "personnel",
+    "project_name": "Кадры",
+    "unique_pdf_files": 1,
+    "pages": 4,
+    "national_passport_files": 0,
+    "federal_passport_files": 0,
+    "presentation_files": 1,
+    "legal_reprints": 0,
+    "note": "Counts of files, not distinct federal project names; shared presentations cover all ten target projects."
+  },
+  "method_summary": {
+    "total": 39,
+    "by_status": {
+      "documentary_structure_completed_substantive_review_deferred": 2,
+      "computed_with_documented_scope": 11,
+      "documentary_and_structural_links_computed_candidates_unapproved": 1,
+      "retained_with_input_and_coverage_checks": 2,
+      "retained_from_1_1_source_unchanged": 4,
+      "not_computable_current_input_no_regional_observations": 4,
+      "not_computable_current_input_no_regional_data": 6,
+      "not_computable_current_input_input_panel_not_computed": 1,
+      "financial_measurement_bridge_computed_not_cost_effectiveness": 1,
+      "evidence_matrix_completed_expert_scores_deferred": 1,
+      "designs_and_readiness_audit_completed_no_effect_estimated": 3,
+      "deferred_by_user": 1,
+      "specialized_family_extension_not_generalized": 1,
+      "reproducible_analysis_code_available": 1
+    }
+  },
+  "sections": [
+    {
+      "order": 1,
+      "section_id": "framework",
+      "title": "Методологическая рамка экспертизы",
+      "family_report_pages": "7–9",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L2",
+      "publication_status": "published",
+      "evidence": "Реестр методов и их ограничений подготовлен; содержательные выводы требуют отдельной авторской экспертизы.",
+      "method_ids": [
+        "theory_of_change"
+      ]
+    },
+    {
+      "order": 2,
+      "section_id": "logic",
+      "title": "Нормативно-логическая модель",
+      "family_report_pages": "9–11",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L3",
+      "publication_status": "published",
+      "evidence": "В исследовательском корпусе: 5 целей, 15 задач, 32 результатов. Документальная связь не является доказательством причинного эффекта.",
+      "method_ids": [
+        "project_hierarchy",
+        "activity_inventory",
+        "activity_indicator_links"
+      ]
+    },
+    {
+      "order": 3,
+      "section_id": "audit",
+      "title": "Аудит данных и показателей",
+      "family_report_pages": "11–19",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L4",
+      "publication_status": "published",
+      "evidence": "В реестре 11 показателей; числовые данные доступны для 5, региональные для 0.",
+      "method_ids": [
+        "source_quality",
+        "observability",
+        "time_dynamics"
+      ]
+    },
+    {
+      "order": 4,
+      "section_id": "targets",
+      "title": "Целевые траектории и прогноз",
+      "family_report_pages": "19–24",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L5",
+      "publication_status": "published",
+      "evidence": "Паспортные цели и статистические ряды сопоставляются только при подтверждённом совпадении показателя, единицы измерения, территории и периода.",
+      "method_ids": [
+        "target_comparison",
+        "forecasting"
+      ]
+    },
+    {
+      "order": 5,
+      "section_id": "map",
+      "title": "Территориальная экспертиза",
+      "family_report_pages": "24–43",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L6",
+      "publication_status": "published",
+      "evidence": "Проектные региональные ряды отсутствуют. Представлен самостоятельный контекст безработицы 2024 года для 85 территорий.",
+      "method_ids": [
+        "geographical_join",
+        "regional_maps",
+        "regional_descriptive"
+      ]
+    },
+    {
+      "order": 6,
+      "section_id": "regions",
+      "title": "Типология и пространственные связи",
+      "family_report_pages": "43–52",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L7",
+      "publication_status": "published",
+      "evidence": "Статус многомерной панели: no_regional_data; территорий: 0, признаков: 0. Региональная типология не тождественна оценке эффективности.",
+      "method_ids": [
+        "correlations",
+        "pca",
+        "kmeans",
+        "multivariate_stability",
+        "isolation_forest",
+        "moran_global",
+        "moran_local",
+        "regional_similarity",
+        "relative_profiles"
+      ]
+    },
+    {
+      "order": 7,
+      "section_id": "finance",
+      "title": "Финансовая экспертиза",
+      "family_report_pages": "52–55",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L8",
+      "publication_status": "published",
+      "evidence": "Финансовые суммы и доли сохраняют единицы исходного паспорта. Оценка распределения средств зависит от сопоставимости заголовков федеральных проектов.",
+      "method_ids": [
+        "budget_registry",
+        "budget_hhi",
+        "budget_observability"
+      ]
+    },
+    {
+      "order": 8,
+      "section_id": "network",
+      "title": "Мероприятия и показатели",
+      "family_report_pages": "55–61",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L9",
+      "publication_status": "published",
+      "evidence": "В корпусе разделены документальные связи, совместная принадлежность задаче и лексические кандидаты. Автоматическая похожесть не превращается в доказанную связь.",
+      "method_ids": [
+        "activity_network"
+      ]
+    },
+    {
+      "order": 9,
+      "section_id": "texts",
+      "title": "Лингвистическая и смысловая экспертиза",
+      "family_report_pages": "61–65",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L10",
+      "publication_status": "published",
+      "evidence": "Документальная основа исследовательского модуля: 11 документов. Лексические признаки рассматриваются совместно с контекстом.",
+      "method_ids": [
+        "lexical_frequencies",
+        "dictionary_frames",
+        "tfidf_cosine",
+        "text_clustering",
+        "concept_cooccurrence",
+        "context_search"
+      ]
+    },
+    {
+      "order": 10,
+      "section_id": "domains",
+      "title": "Охват сфер жизнедеятельности",
+      "family_report_pages": "65–68",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L11",
+      "publication_status": "published",
+      "evidence": "Сферы жизнедеятельности выделяются по корпусу и словарям; полнота охвата требует содержательной проверки экспертом.",
+      "method_ids": [
+        "domain_evidence",
+        "expert_domain_scale"
+      ]
+    },
+    {
+      "order": 11,
+      "section_id": "causal",
+      "title": "Сценарии и причинная оценка",
+      "family_report_pages": "68–71",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L12",
+      "publication_status": "published",
+      "evidence": "Причинный эффект нацпроекта в имеющемся наборе источников не идентифицирован. Для его оценки нужен самостоятельный исследовательский дизайн.",
+      "method_ids": [
+        "policy_scenario_framework",
+        "causal_designs",
+        "heterogeneous_causal_effects"
+      ]
+    },
+    {
+      "order": 12,
+      "section_id": "proposals",
+      "title": "Предложения по корректировке",
+      "family_report_pages": "71–73",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L13",
+      "publication_status": "published",
+      "evidence": "Рекомендации формируются после проверки фактов и содержательной экспертизы, с указанием адресата, механизма и ожидаемого результата.",
+      "method_ids": [
+        "recommendations"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "\"Паспорт национального проекта \"Кадры\"",
+      "url": "https://legalacts.ru/doc/pasport-natsionalnogo-proekta-kadry/",
+      "urls": [
+        "https://legalacts.ru/doc/pasport-natsionalnogo-proekta-kadry/"
+      ],
+      "format": "HTML",
+      "document_level": "national",
+      "sha256": "75abb1dc6c8f94ece22c62834f5af51d2267066d24a4f499644dadbc3c1352c4",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:46:53.978338+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "legal_text_republication",
+      "source_file_in_research_package": "corpus/data/web/75/75abb1dc6c8f94ece22c62834f5af51d2267066d24a4f499644dadbc3c1352c4.html"
+    },
+    {
+      "title": "[Л] Кадры",
+      "url": "https://databudget.ru/projects/np/24",
+      "urls": [
+        "https://databudget.ru/projects/np/24"
+      ],
+      "format": "HTML",
+      "document_level": "national",
+      "sha256": "3773e85de219ba80178806d0e711707fca109eb9026ea0afdc35b37f951c8286",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+      "publisher_version_label": "Версия 26.10",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/37/3773e85de219ba80178806d0e711707fca109eb9026ea0afdc35b37f951c8286.html"
+    },
+    {
+      "title": "Паспорт федерального проекта «Управление рынком труда»",
+      "url": "https://xwiki.czn-office.ru/bin/downloadrev/02.%20%D0%94%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%A1%D0%97%D0%9D/%D0%A1%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D0%BE%D1%81%D1%82%D0%B8%20/01.%20%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82%20%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0/WebHome/FP_Upravlenie_rynkom_truda%20%282%29.pdf?rev=1.1",
+      "urls": [
+        "https://xwiki.czn-office.ru/bin/downloadrev/02.%20%D0%94%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%A1%D0%97%D0%9D/%D0%A1%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D0%BE%D1%81%D1%82%D0%B8%20/01.%20%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82%20%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0/WebHome/FP_Upravlenie_rynkom_truda%20%282%29.pdf?rev=1.1"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "9613fa53bf6408a294622337dc27646e7805cc35276f2a84f020b60044f35522",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T13:35:33+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/96/9613fa53bf6408a294622337dc27646e7805cc35276f2a84f020b60044f35522.pdf"
+    },
+    {
+      "title": "Презентация национального проекта «Кадры»",
+      "url": "https://storage.strategy24.ru/files/project/202506/2067828af48409147797c431a08b6ccd.pdf",
+      "urls": [
+        "https://storage.strategy24.ru/files/project/202506/2067828af48409147797c431a08b6ccd.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "presentation",
+      "sha256": "f0ac97d37785736b34bae6f8c3794325e5af22e4f85ba4b49b18c647419aaf43",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:42:19Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/f0/f0ac97d37785736b34bae6f8c3794325e5af22e4f85ba4b49b18c647419aaf43.pdf"
+    },
+    {
+      "title": "\"Паспорт федерального проекта \"Активные меры содействия занятости\"",
+      "url": "https://legalacts.ru/doc/pasport-federalnogo-proekta-aktivnye-mery-sodeistvija-zanjatosti/",
+      "urls": [
+        "https://legalacts.ru/doc/pasport-federalnogo-proekta-aktivnye-mery-sodeistvija-zanjatosti/"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "776bb188f56558968a68f405f682369c480622eaf88cfc4f4a600beb0fca0b65",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:46:53.979339+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "legal_text_republication",
+      "source_file_in_research_package": "corpus/data/web/77/776bb188f56558968a68f405f682369c480622eaf88cfc4f4a600beb0fca0b65.html"
+    },
+    {
+      "title": "\"Паспорт федерального проекта \"Человек труда\"",
+      "url": "https://legalacts.ru/doc/pasport-federalnogo-proekta-chelovek-truda/",
+      "urls": [
+        "https://legalacts.ru/doc/pasport-federalnogo-proekta-chelovek-truda/"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "8695ac82eb62bddd851621a21ee182d8aad5a6ed1a32a9047ffbcb8e48cf8125",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:46:53.979339+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "legal_text_republication",
+      "source_file_in_research_package": "corpus/data/web/86/8695ac82eb62bddd851621a21ee182d8aad5a6ed1a32a9047ffbcb8e48cf8125.html"
+    },
+    {
+      "title": "[Л1] Управление рынком труда",
+      "url": "https://databudget.ru/projects/fp/332",
+      "urls": [
+        "https://databudget.ru/projects/fp/332"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "4484c2a30913d6e319881722b4d021ba66fae0793e4f8a515b625375068698b7",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+      "publisher_version_label": "Версия 26.15",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/44/4484c2a30913d6e319881722b4d021ba66fae0793e4f8a515b625375068698b7.html"
+    },
+    {
+      "title": "[Л2] Образование для рынка труда",
+      "url": "https://databudget.ru/projects/fp/334",
+      "urls": [
+        "https://databudget.ru/projects/fp/334"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "9dd67bcc73091df9ed611f697ba2eb098678287e591dec649d0b5876d602387e",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+      "publisher_version_label": "Версия 26.11",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/9d/9dd67bcc73091df9ed611f697ba2eb098678287e591dec649d0b5876d602387e.html"
+    },
+    {
+      "title": "[Л3] Активные меры содействия занятости",
+      "url": "https://databudget.ru/projects/fp/335",
+      "urls": [
+        "https://databudget.ru/projects/fp/335"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "db83595abc0007e01fd5027ae550fa80b3089f4582e250fb24524d005609d85e",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+      "publisher_version_label": "Версия 26.14",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/db/db83595abc0007e01fd5027ae550fa80b3089f4582e250fb24524d005609d85e.html"
+    },
+    {
+      "title": "[Л4] Человек труда",
+      "url": "https://databudget.ru/projects/fp/333",
+      "urls": [
+        "https://databudget.ru/projects/fp/333"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "42fb6a6b64506e686fad43f0f0bd56dc29367805e3cf1288e40e12e79363443e",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+      "publisher_version_label": "Версия 26.7",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/42/42fb6a6b64506e686fad43f0f0bd56dc29367805e3cf1288e40e12e79363443e.html"
+    },
+    {
+      "title": "Паспорт федерального проекта Образование для рынка труда",
+      "url": "https://sudact.ru/law/pasport-federalnogo-proekta-obrazovanie-dlia-rynka-truda/",
+      "urls": [
+        "https://sudact.ru/law/pasport-federalnogo-proekta-obrazovanie-dlia-rynka-truda/"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "e89c1531ba1d3b9dcc8863e72456f5861ab15c309cf16c972d54d8497ddcfe7c",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:46:54.336009+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "legal_text_republication",
+      "source_file_in_research_package": "corpus/data/web/e8/e89c1531ba1d3b9dcc8863e72456f5861ab15c309cf16c972d54d8497ddcfe7c.html"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Аудит 339 показателей",
+      "url": "downloads/projects/shared/indicator_audit.csv",
+      "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+      "bytes": 166183
+    },
+    {
+      "title": "Сводный аудит 11 нацпроектов",
+      "url": "downloads/projects/shared/project_audit.csv",
+      "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+      "bytes": 1810
+    },
+    {
+      "title": "Матрица методов по нацпроектам",
+      "url": "downloads/projects/shared/project_method_matrix.csv",
+      "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+      "bytes": 283115
+    },
+    {
+      "title": "Применимость методов и доступность данных",
+      "url": "downloads/projects/shared/project_method_eligibility.csv",
+      "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+      "bytes": 2507
+    }
+  ],
+  "registry_source_url": "https://www.fedstat.ru/organizations/#group1854300",
+  "interpretation": "Актуальный доступный статистический срез на указанную дату. Дата сборки сайта не означает обновление первичных данных. Новые авторские страницы экспертизы добавляются после отдельной проверки.",
+  "source_release_registry": {
+    "project_id": "personnel",
+    "project_name": "Национальный проект «Кадры»",
+    "n_registry": 11,
+    "n_with_numeric": 5,
+    "n_with_regional": 0,
+    "n_with_national": 5,
+    "n_unique_cells": 60,
+    "n_numeric": 60,
+    "n_usable": 59,
+    "n_domain_violations": 1,
+    "coverage_pct": 45.45454545454545
+  },
+  "source_release_results": {
+    "project_id": "personnel",
+    "project_name": "Национальный проект «Кадры»",
+    "n_registry": 11,
+    "n_numeric_indicators": 5,
+    "n_regional_indicators": 0,
+    "n_forecast_indicators": 2,
+    "n_series": 6,
+    "n_projected_series": 6,
+    "n_diagnostic_forecast_series": 2,
+    "n_reference_scenario_series": 4,
+    "n_series_with_review_flags": 5,
+    "n_documented_target_indicators": 11,
+    "target_status": "source_backed_targets_available"
+  },
+  "context": {
+    "kind": "pre_project_context",
+    "year": 2024,
+    "n_regions": 85,
+    "source": "https://rosstat.gov.ru/storage/mediabank/RUS_SDG_in_Russia_2025.pdf"
+  }
+}

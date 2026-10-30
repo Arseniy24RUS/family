@@ -1,0 +1,537 @@
+{
+  "project_id": "competitive_economy",
+  "mapping": {
+    "https://databudget.ru/projects/np/21#passport-purpose-1": {
+      "indicator_code": "2.14.Э.9",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "title": "Утверждены программы адаптации к изменениям климата на федеральном, региональном и корпоративных уровнях",
+      "unit": "Штука",
+      "mapping_status": "approved",
+      "mapping_id": "f5cb6b1e5b3a00af966ae66c",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/21#passport-purpose-2": {
+      "indicator_code": "2.14.Э.3",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "title": "Доля государственных и муниципальных организаций социальной сферы, вовлеченных в реализацию проектов, направленных на повышение производительности труда",
+      "unit": "Процент",
+      "mapping_status": "conditional",
+      "mapping_id": "2c11e53d06d1c958bf9f17df",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/21#passport-purpose-3": {
+      "indicator_code": "2.14.Э.10",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "title": "Реализованы программы адаптации к изменениям климата на федеральном, региональном и корпоративном уровнях",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "7198f9b484a3055720399955",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/21#passport-purpose-4": {
+      "indicator_code": "2.14.Э.1",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "title": "Рост производительности труда в экономике Российской Федерации по отношению к 2023 году",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "77e8ad34413c4f66d08b91f5",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/21#passport-purpose-5": {
+      "indicator_code": "2.14.Э.5",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "title": "Прирост объема инвестиций в основной капитал к 2020 году",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "5f353e097642ba1c53a0465f",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/21#passport-purpose-6": {
+      "indicator_code": "2.14.Э.7",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "title": "Объем капитализации фондового рынка относительно ВВП",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "822edd3bf49787a8ca41aaad",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/21#passport-purpose-7": {
+      "indicator_code": "2.14.Э.6",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "title": "Объем выручки малых технологических компаний",
+      "unit": "Миллион рублей",
+      "mapping_status": "approved",
+      "mapping_id": "86435188a62d656e9bc02ef7",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/21#passport-purpose-8": {
+      "indicator_code": "2.14.Э.4",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "title": "Реальный рост дохода на одного работника субъекта малого и среднего предпринимательства",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "d6654c4d84e63061ae22247c",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/21#passport-purpose-9": {
+      "indicator_code": "2.14.Э.8",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "title": "Доля долгосрочных сбережений граждан в общем объеме их сбережений",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "aa37f5692d6a72375f3b4faa",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/21#passport-purpose-10": {
+      "indicator_code": "2.14.Э.2",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "title": "Доля средних и крупных предприятий базовых несырьевых отраслей экономики, вовлеченных в реализацию проектов, направленных на повышение производительности труда",
+      "unit": "Процент",
+      "mapping_status": "conditional",
+      "mapping_id": "83a6f0e3547e10c39bdada62",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/21#passport-purpose-11": {
+      "indicator_code": "2.14.Э.11",
+      "source_sha256": "2ed77d78cab5f3c73101bcb114f1d567b82d56dea6661d7e6ae144e20785a8b6",
+      "title": "Создана национальная система мониторинга климатически активных веществ",
+      "unit": "Штука",
+      "mapping_status": "approved",
+      "mapping_id": "e7b8f885d4b2643c2e7bb7d1",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-1": {
+      "indicator_code": "2.14.Э2.7",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Рост случаев проведенного диспансерного наблюдения в расчете на одну занятую должность врача, оказывающего первичную медико-санитарную помощь в амбулаторных условиях",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "c800605247a33f9fb8434a7e",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-2": {
+      "indicator_code": "2.14.Э2.11",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Численность обучающихся на одного работника образовательной организации высшего образования",
+      "unit": "Человек",
+      "mapping_status": "approved",
+      "mapping_id": "37730f8477fa00a108763f72",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-3": {
+      "indicator_code": "2.14.Э2.6",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Доля медицинских организаций, вовлеченных в реализацию проектов, направленных на повышение производительности труда",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "5c36d1decc2645d817754789",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-4": {
+      "indicator_code": "2.14.Э2.10",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Доля организаций социального обслуживания, медико-социальной экспертизы, вовлеченных в реализацию проектов, направленных на повышение производительности труда",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "270e00aff6922966c2b5033d",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-5": {
+      "indicator_code": "2.14.Э2.16",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Доля государственных и муниципальных организаций сферы физической культуры и спорта, вовлеченных в реализацию проектов, направленных на повышение производительности труда",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "8eca767801acdf7e11945c4a",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-6": {
+      "indicator_code": "2.14.Э2.5",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Доля государственных и муниципальных дошкольных образовательных организаций, общеобразовательных организаций, профессиональных образовательных организаций и организаций дополнительного образования детей субъектов Российской Федерации, вовлеченных в реализацию проектов, направленных на повышение производительности труда",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "322068ebed063261f5e3c1b1",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-7": {
+      "indicator_code": "2.14.Э2.3",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Количество обучающихся в профессиональных образовательных организациях в расчете на одного работника организации",
+      "unit": "Человек",
+      "mapping_status": "approved",
+      "mapping_id": "ec8e5b6ec2c4e82b77a6101c",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-8": {
+      "indicator_code": "2.14.Э2.8",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Увеличение оборота койки",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "e924c5f2cb49e3a3b6f687f1",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-9": {
+      "indicator_code": "2.14.Э2.1",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Доля предприятий, достигших ежегодного 5%-ного прироста производительности труда на предприятиях-участниках, внедряющих мероприятия по повышению производительности труда под федеральным и региональным управлением",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "69f9c80a31bc58285f1a1bbc",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-10": {
+      "indicator_code": "2.14.Э2.4",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Количество обучающихся в дошкольных образовательных организациях и общеобразовательных организациях в расчете на одного работника организации",
+      "unit": "Человек",
+      "mapping_status": "approved",
+      "mapping_id": "ab6ca2810e34462a3573d68f",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-11": {
+      "indicator_code": "2.14.Э2.9",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Увеличение количества социальных услуг, предоставленных организацией социального обслуживания, в расчете на одного работника организации социального обслуживания",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "e021a6e5dd6dda0d75bbac3e",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-12": {
+      "indicator_code": "2.14.Э2.14",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Доля государственных и муниципальных организаций культуры, вовлеченных в реализацию проектов, направленных на повышение производительности труда",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "cb4a88614f1c609b7dd8a0b5",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-13": {
+      "indicator_code": "2.14.Э2.2",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Увеличение количества граждан, систематически занимающихся физической культурой и спортом, в расчете на одного работника сферы физической культуры и спорта",
+      "unit": "Человек",
+      "mapping_status": "approved",
+      "mapping_id": "ea539a486d9c32c88c913c85",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-14": {
+      "indicator_code": "2.14.Э2.12",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Численность обучающихся на одного работника категории административный и вспомогательный персонал образовательной организации высшего образования",
+      "unit": "Человек",
+      "mapping_status": "approved",
+      "mapping_id": "a90ce9d2c01626c95ad72c47",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-15": {
+      "indicator_code": "2.14.Э2.15",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Увеличение количества посещений организаций культуры в расчете на одного работника организации",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "5d4890162aa67cadbc89bfdb",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/311#passport-purpose-16": {
+      "indicator_code": "2.14.Э2.13",
+      "source_sha256": "abc9b6175c32ee72507f87b10377972a9bed637b732d14fd7abf1d71353c46cb",
+      "title": "Доля образовательных организаций высшего образования, вовлеченных в реализацию проектов, направленных на повышение производительности труда",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "41f6afd433b3e815655b0791",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/312#passport-purpose-1": {
+      "indicator_code": "2.14.Э1.3",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "title": "Прокси-показатель \"Темп роста налогов на одного работника субъекта малого и среднего предпринимательства\"",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "5972c6fe0450f0693882cbfc",
+      "target_is_proxy": true,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/312#passport-purpose-2": {
+      "indicator_code": "2.14.Э1.1",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "title": "Доля субъектов МСП, превысивших предельные значения для определения категорий субъектов МСП (микро-, малые, средние)",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "ac7a454c6ff1158e06198cd8",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/312#passport-purpose-3": {
+      "indicator_code": "2.14.Э1.2",
+      "source_sha256": "cb70ba2e14882cf4e396666c445b5bdd2fb916b77ee1a6671dc15160fbbef9e6",
+      "title": "Уровень удовлетворенности потенциальных и действующих субъектов МСП, осуществляющих деятельность в промышленных (индустриальных) парках, технопарках, бизнес-парках, а также получивших услуги иных организаций инфраструктуры поддержки субъектов МСП",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "bdadd32185865bd1f31b9b81",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/313#passport-purpose-1": {
+      "indicator_code": "2.14.Э3.3",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "title": "Сокращение удельных издержек строительства групп промышленных объектов по отношению к 2020 году",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "2297c4d6a893a1b55cfeaffa",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/313#passport-purpose-2": {
+      "indicator_code": "2.14.Э3.5",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "title": "Сокращение сроков строительства групп промышленных объектов по отношению к 2020 году",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "bd4b40898b0f6e78de2621df",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/313#passport-purpose-3": {
+      "indicator_code": "2.14.Э3.1",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "title": "Объем привлеченных инвестиций за счет реализации федеральных инвестиционных механизмов",
+      "unit": "Триллион рублей",
+      "mapping_status": "approved",
+      "mapping_id": "6b8c5c065fbdef9951e28a8e",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/313#passport-purpose-4": {
+      "indicator_code": "2.14.Э3.6",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "title": "Количество участников специальных административных районов",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "6b5fec082f85aaa155fb2cf6",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/313#passport-purpose-5": {
+      "indicator_code": "2.14.Э3.4",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "title": "Сокращение административных барьеров ведения бизнеса за счет реализации механизма \"Трансформация делового климата\"",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "41fbdea26d3e6182bc74ebe4",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/313#passport-purpose-6": {
+      "indicator_code": "2.14.Э3.2",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "title": "Рост среднего значения интегрального индекса субъектов Российской Федерации в Национальном рейтинге состояния инвестиционного климата в субъектах Российской Федерации",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "2879f7284eb07b1bafd8a98d",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/313#passport-purpose-7": {
+      "indicator_code": "2.14.Э3.7",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "title": "Объём инвестиций, осуществленных резидентами особых экономических зон",
+      "unit": "Миллиард рублей",
+      "mapping_status": "approved",
+      "mapping_id": "29a28ec311f8a05dd201294c",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/324#passport-purpose-1": {
+      "indicator_code": "2.14.Э5.2",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "title": "Количество публичных размещений компаний на российском фондовом рынке",
+      "unit": "Штука",
+      "mapping_status": "approved",
+      "mapping_id": "048d5e236075e99a5495ebfa",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/324#passport-purpose-2": {
+      "indicator_code": "2.14.Э5.6",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "title": "Доля средств физических лиц в паевых инвестиционных фондах и доверительном управлении в суммарном объеме средств в паевых инвестиционных фондах, доверительном управлении и на брокерском обслуживании",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "775c3b61ea0f97036f76290e",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/324#passport-purpose-3": {
+      "indicator_code": "2.14.Э5.4",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "title": "Совокупный объем средств в программе долгосрочных сбережений, на индивидуальных инвестиционных счетах и в долевом страховании жизни",
+      "unit": "Триллион рублей",
+      "mapping_status": "approved",
+      "mapping_id": "0fef6756a3fc13080f6a9577",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/324#passport-purpose-4": {
+      "indicator_code": "2.14.Э.7",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "title": "Объем капитализации фондового рынка относительно ВВП",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "520a2df0d9301641b21d0723",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/324#passport-purpose-5": {
+      "indicator_code": "2.14.Э5.1",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "title": "Доля активов небанковских финансовых организаций к валовому внутреннему продукту",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "6a89bc837737c1001af978f7",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/324#passport-purpose-6": {
+      "indicator_code": "2.14.Э5.5",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "title": "Объем публичных размещений акций компаний на российском фондовом рынке",
+      "unit": "Триллион рублей",
+      "mapping_status": "approved",
+      "mapping_id": "b8cc30ae2cf1bac2da239e5a",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/324#passport-purpose-7": {
+      "indicator_code": "2.14.Э.8",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "title": "Доля долгосрочных сбережений граждан в общем объеме их сбережений",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "52648eebaa10ef066ca7b5ce",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/324#passport-purpose-8": {
+      "indicator_code": "2.14.Э5.3",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "title": "Объем публичных размещений государственных компаний на российском фондовом рынке",
+      "unit": "Триллион рублей",
+      "mapping_status": "approved",
+      "mapping_id": "b16a4a2bb12521f355ab3f5c",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/325#passport-purpose-1": {
+      "indicator_code": "2.14.Э6.1",
+      "source_sha256": "f05392ea159335cab4b5e0b3ee29e14b7a092a843d6e04bf41c6b05bff38d5d4",
+      "title": "Количество технологических компаний, в том числе малых технологических компаний, участвующих в национальных проектах по обеспечению технологического лидерства и кооперационных цепочках крупных компаний",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "6cf736f013588ba94097456d",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/325#passport-purpose-2": {
+      "indicator_code": "2.14.Э6.2",
+      "source_sha256": "f05392ea159335cab4b5e0b3ee29e14b7a092a843d6e04bf41c6b05bff38d5d4",
+      "title": "Количество технологических компаний, в том числе малых технологических компаний, осуществивших внебиржевое и биржевое размещение ценных бумаг",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "860d2589def73ad96bb629ad",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/325#passport-purpose-3": {
+      "indicator_code": "2.14.Э6.3",
+      "source_sha256": "f05392ea159335cab4b5e0b3ee29e14b7a092a843d6e04bf41c6b05bff38d5d4",
+      "title": "Количество университетских стартапов, получивших статус малой технологической компании",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "01b014bcd08f43421e7f6a02",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/326#passport-purpose-1": {
+      "indicator_code": "2.14.Э7.3",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "title": "Расширен перечень товаров, используемых для создания национальных ценовых индикаторов",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "c456eeca40dcd4834aa7d984",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/326#passport-purpose-2": {
+      "indicator_code": "2.14.Э7.1",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "title": "Создана система развития конкуренции на товарных рынках",
+      "unit": "Единица",
+      "mapping_status": "approved",
+      "mapping_id": "a28e58c86ab67165286ba3a1",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/326#passport-purpose-3": {
+      "indicator_code": "2.14.Э7.2",
+      "source_sha256": "775b074bfd960f72b7193f7eaa5d3a434b250f4a4fca7b349d29d93f9808cdfe",
+      "title": "Рост совокупной удовлетворенности участников рынка",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "aa0f6b34a930d27c77ff3c1a",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    }
+  },
+  "unmapped_cards": {
+    "https://databudget.ru/projects/fp/298#passport-purpose-1": {
+      "title": "Объем выпущенных углеродных единиц, млн тонн CO2-экв. (накопленным итогом)",
+      "unit": "Миллион тонн",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "reason": "В исходном реестре 49 кодов соответствие не установлено. Карточка сохраняется без принудительного сопоставления."
+    },
+    "https://databudget.ru/projects/fp/298#passport-purpose-2": {
+      "title": "Объем нетто-выбросов парниковых газов в Российской Федерации (с учетом поглощений в секторе Землепользование, изменения в землепользовании и лесное хозяйство - ЗИЗЛХ), млн тонн CO2-экв.",
+      "unit": "Миллион тонн",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "reason": "В исходном реестре 49 кодов соответствие не установлено. Карточка сохраняется без принудительного сопоставления."
+    },
+    "https://databudget.ru/projects/fp/298#passport-purpose-3": {
+      "title": "Доля субъектов адаптации, реализующих планы адаптации на региональном и отраслевом уровнях, от общего количества субъектов адаптации",
+      "unit": "Процент",
+      "source_sha256": "cb72bd5544f0ec44c79a4695c9f19a4998ea6135e740cb37b9136cd2b17d0de0",
+      "reason": "В исходном реестре 49 кодов соответствие не установлено. Карточка сохраняется без принудительного сопоставления."
+    }
+  },
+  "selection_policy": "Национальная карточка предпочтительна при наличии совпадающего определения. Все 54 исходные карточки и годы сохранены отдельно. Публикация октября 2026 года не удостоверяет задание, утверждённое до начала 2025 года.",
+  "source_overrides": {}
+}

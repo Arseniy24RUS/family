@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "health_technologies",
+  "source_id": "63275",
+  "title": "Доля радиофармацевтических лекарственных препаратов, производство которых осуществляется в Российской Федерации",
+  "unit": "процент",
+  "origin_kind": "no_numeric_publication_recovered",
+  "direct_emiss_verified": false,
+  "published_at": null,
+  "acquired_at": null,
+  "snapshot_id": null,
+  "observations": []
+}

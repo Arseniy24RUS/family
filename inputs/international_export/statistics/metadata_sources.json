@@ -1,0 +1,34 @@
+[
+  {
+    "source_id": "62722",
+    "source_url": "https://www.fedstat.ru/indicator/62722",
+    "status": "identified_source_without_verified_numeric_observations",
+    "numeric_observations": 0,
+    "download_url": "downloads/projects/international_export/statistics/metadata_inputs/62722.zip",
+    "input_sha256": "06190f6e00a92bc74a689f0f1ed8247c30d6bb27d4d38228e88b4f8db0e8d042",
+    "files": [
+      {
+        "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62722/metadata.html",
+        "path": "inputs/international_export/statistics/metadata_only/excel_2026-10-15T191223_0000/62722/metadata.html",
+        "bytes": 50600,
+        "sha256": "ec477f9e11ef3b6fccfedfb58fcdab87741974eccd960682fcfaab81d962a508"
+      }
+    ]
+  },
+  {
+    "source_id": "62732",
+    "source_url": "https://www.fedstat.ru/indicator/62732",
+    "status": "identified_source_without_verified_numeric_observations",
+    "numeric_observations": 0,
+    "download_url": "downloads/projects/international_export/statistics/metadata_inputs/62732.zip",
+    "input_sha256": "a9716eca376fd6ba93b409e3b3e57faf8f4ee3512184c4961a4c3612001c13a5",
+    "files": [
+      {
+        "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62732/metadata.html",
+        "path": "inputs/international_export/statistics/metadata_only/excel_2026-10-15T191223_0000/62732/metadata.html",
+        "bytes": 49229,
+        "sha256": "55141817b4811f3bd163fe94426f728e2382aada2861bca117250f8209ba5987"
+      }
+    ]
+  }
+]

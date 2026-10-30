@@ -1,0 +1,7 @@
+﻿metric,author_report,platform_recomputed,difference,equal
+corpus_documents,98,98,0,True
+corpus_tokens,75539,75367,-172,False
+healthtech_tokens,2571,2571,0,True
+features,46519,45885,-634,False
+stemming_features,35509,35048,-461,False
+unigram_features,10329,10471,142,False

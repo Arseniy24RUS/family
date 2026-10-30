@@ -1,0 +1,1550 @@
+{
+  "document": {
+    "project_id": "efficient_transport",
+    "kind": "fp",
+    "id": "fp_272",
+    "url": "https://databudget.ru/projects/fp/272",
+    "sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+    "retrieved_at": "2026-10-19T14:38:32.427361+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/7e/7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681.html",
+    "document_id": "fp_272",
+    "code": "Т3",
+    "title": "[Т3] Развитие железных дорог",
+    "publisher_version": "26.7",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 376,
+    "n_tokens": 376,
+    "source_url": "https://databudget.ru/projects/fp/272",
+    "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+    "profile_text_sha256": "e5180f45f77ac8d028bb703f4a8f64bea035debf8ca8e5009f44ad88609f509f",
+    "archive_entry": "efficient_transport/fp_272.html",
+    "bytes": 1083822,
+    "download_path": "downloads/projects/efficient_transport/documentary/sources/fp_272.html",
+    "profile_original_document_id": "html:7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_272:profile1",
+      "document_id": "fp_272",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года)",
+      "node_id": "fp_272:passport-task-07:3ae369840cddd816",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_272:profile2",
+      "document_id": "fp_272",
+      "project_id": "efficient_transport",
+      "kind": "goal",
+      "text": "увеличена мощность инфраструктуры единой опорной транспортной сети для бизнеса, государства и граждан за счет развития железнодорожной инфраструктуры",
+      "node_id": "fp_272:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "n_tokens": 16,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_272:profile3",
+      "document_id": "fp_272",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к морским портам азово-черноморского бассейна плановые значения результата отражают количество комплексных объектов, реализуемых на участках северо-кавказской, приволжской, куйбышевской, южно-уральской и юго-восточной железных дорог. комплексные объекты представляют собой совокупность технологически взаимоувязанных различных типов элементов линейной железнодорожной инфраструктуры, на которых осуществляется строительство (реконструкция и(или) модернизация). в 2030 году в целях достижения целевого показателя запланирован ввод комплексных объектов во временную эксплуатацию. структурированная часть характеристики (детализация) отражает количество участков железных дорог, на которых обеспечено проведение соответствующих работ (ежегодно).",
+      "node_id": "fp_272:passport-result-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "n_tokens": 76,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_272:profile4",
+      "document_id": "fp_272",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "осуществлено строительство объектов, предусматривающих развитие новороссийского транспортного узла результат направлен на реализацию мероприятий по строительству объектов железнодорожной инфраструктуры, обеспечивающих развитие инфраструктуры на подходах к портам азово-черноморского бассейна и ликвидацию \"узких мест\" на железнодорожных подходах к морским портам новороссийского транспортного узла с целью равномерного распределения грузопотока и повышения провозной способности.",
+      "node_id": "fp_272:passport-result-33:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "n_tokens": 44,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_272:profile5",
+      "document_id": "fp_272",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "осуществлено строительство (реконструкция) комплексных объектов железнодорожной инфраструктуры восточного полигона плановые значения результата отражают количество комплексных объектов, реализуемых на участках байкало-амурской и транссибирской железнодорожных магистралей. комплексные объекты представляют собой совокупность технологически взаимоувязанных различных типов элементов линейной инфраструктуры железных дорог, на которых осуществляется строительство (реконструкция и(или) модернизация). в 2030 году в целях достижения целевого показателя запланирован ввод комплексных объектов во временную эксплуатацию. структурированная часть характеристики (детализация) отражает количество участков железнодорожных магистралей, на которых обеспечено проведение соответствующих работ (ежегодно).",
+      "node_id": "fp_272:passport-result-45:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "n_tokens": 72,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_272:profile6",
+      "document_id": "fp_272",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к морским портам северо-западного бассейна плановые значения результата отражают количество комплексных объектов, реализуемых на участках октябрьской, московской, горьковской, свердловской и северной железных дорог. комплексные объекты представляют собой совокупность технических взаимоувязанных различных типов элементов линейной инфраструктуры железных дорог, на которых осуществляется строительство (реконструкция и(или) модернизация). в 2030 году в целях достижения целевого показателя запланирован ввод комплексных объектов во временную эксплуатацию. структурированная часть характеристики (детализация) отражает количество участков железных дорог, на которых обеспечено проведение соответствующих работ (ежегодно).",
+      "node_id": "fp_272:passport-result-27:72821f34f9410810",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "n_tokens": 77,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_272:profile7",
+      "document_id": "fp_272",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "осуществлено строительство объекта, предусматривающего комплексное развитие мурманского транспортного узла результат направлен на реализацию мероприятий по строительству железнодорожной инфраструктуры в направлении комплекса перегрузки угля \"лавна\" в морском порту мурманск в целях повышения транспортной доступности мурманского транспортного узла.",
+      "node_id": "fp_272:passport-result-34:40e4a8a3cec0d7be",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "n_tokens": 33,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_272:profile8",
+      "document_id": "fp_272",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "провозная способность железнодорожной инфраструктуры международного транспортного коридора «север – юг»",
+      "node_id": "fp_272:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_272:profile9",
+      "document_id": "fp_272",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "суммарная провозная способность участков на подходах к морским портам азово-черноморского бассейна",
+      "node_id": "fp_272:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_272:profile10",
+      "document_id": "fp_272",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "суммарная провозная способность участков на подходах к морским портам северо-западного бассейна",
+      "node_id": "fp_272:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_272:profile11",
+      "document_id": "fp_272",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "суммарная провозная способность магистралей восточного полигона",
+      "node_id": "fp_272:passport-purpose-4:6037cf73209c66ef",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "n_tokens": 6,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_272:kwic1",
+      "document_id": "fp_272",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "ктуры в направлении комплекса перегрузки угля \"лавна\" в морском порту мурманск в целях повышения транспортной доступности мурманского транспортного узла. провозная способность железнодорожной инфраструктуры международного транспорт",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic2",
+      "document_id": "fp_272",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": " итогам 2030 года (к уровню 2024 года) увеличена мощность инфраструктуры единой опорной транспортной сети для бизнеса, государства и граждан за счет развития железнодорожной инфраструктуры осуществлено строительство (реконструк",
+      "unit_id": "fp_272:profile2",
+      "unit_ids": [
+        "fp_272:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic3",
+      "document_id": "fp_272",
+      "frame": "science_innovation",
+      "matched": "технологически",
+      "context": "бышевской, южно-уральской и юго-восточной железных дорог. комплексные объекты представляют собой совокупность технологически взаимоувязанных различных типов элементов линейной железнодорожной инфраструктуры, на которых осуществляется ",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic4",
+      "document_id": "fp_272",
+      "frame": "science_innovation",
+      "matched": "технологически",
+      "context": "ло-амурской и транссибирской железнодорожных магистралей. комплексные объекты представляют собой совокупность технологически взаимоувязанных различных типов элементов линейной инфраструктуры железных дорог, на которых осуществляется с",
+      "unit_id": "fp_272:profile5",
+      "unit_ids": [
+        "fp_272:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic5",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_272:profile1",
+      "unit_ids": [
+        "fp_272:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic6",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "енее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года) увеличена мощность инфраструктуры единой опорной транспортной сети для бизнеса, государства и граждан за счет развития железнодорожной инфраструктуры осуществлено строител",
+      "unit_id": "fp_272:profile2",
+      "unit_ids": [
+        "fp_272:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic7",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": " мощность инфраструктуры единой опорной транспортной сети для бизнеса, государства и граждан за счет развития железнодорожной инфраструктуры осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к мор",
+      "unit_id": "fp_272:profile2",
+      "unit_ids": [
+        "fp_272:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic8",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": " счет развития железнодорожной инфраструктуры осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к морским портам азово-черноморского бассейна плановые значения результата отражают количество компл",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic9",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": "аструктуры осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к морским портам азово-черноморского бассейна плановые значения результата отражают количество комплексных объектов, реализуем",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic10",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "реализуемых на участках северо-кавказской, приволжской, куйбышевской, южно-уральской и юго-восточной железных дорог. комплексные объекты представляют собой совокупность технологически взаимоувязанных различных типов элементов",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic11",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "ные объекты представляют собой совокупность технологически взаимоувязанных различных типов элементов линейной железнодорожной инфраструктуры, на которых осуществляется строительство (реконструкция и(или) модернизация). в 2030 году в це",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic12",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "нную эксплуатацию. структурированная часть характеристики (детализация) отражает количество участков железных дорог, на которых обеспечено проведение соответствующих работ (ежегодно). осуществлено строительство объектов, пред",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic13",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортного",
+      "context": "ветствующих работ (ежегодно). осуществлено строительство объектов, предусматривающих развитие новороссийского транспортного узла результат направлен на реализацию мероприятий по строительству объектов железнодорожной инфраструктуры, ",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic14",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "ие новороссийского транспортного узла результат направлен на реализацию мероприятий по строительству объектов железнодорожной инфраструктуры, обеспечивающих развитие инфраструктуры на подходах к портам азово-черноморского бассейна и ли",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic15",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": "о строительству объектов железнодорожной инфраструктуры, обеспечивающих развитие инфраструктуры на подходах к портам азово-черноморского бассейна и ликвидацию \"узких мест\" на железнодорожных подходах к морским портам новоросси",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic16",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": "вающих развитие инфраструктуры на подходах к портам азово-черноморского бассейна и ликвидацию \"узких мест\" на железнодорожных подходах к морским портам новороссийского транспортного узла с целью равномерного распределения грузопотока и",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic17",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": "одходах к портам азово-черноморского бассейна и ликвидацию \"узких мест\" на железнодорожных подходах к морским портам новороссийского транспортного узла с целью равномерного распределения грузопотока и повышения провозной спосо",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic18",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортного",
+      "context": "черноморского бассейна и ликвидацию \"узких мест\" на железнодорожных подходах к морским портам новороссийского транспортного узла с целью равномерного распределения грузопотока и повышения провозной способности. осуществлено строитель",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic19",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "рузопотока и повышения провозной способности. осуществлено строительство (реконструкция) комплексных объектов железнодорожной инфраструктуры восточного полигона плановые значения результата отражают количество комплексных объектов, реа",
+      "unit_id": "fp_272:profile5",
+      "unit_ids": [
+        "fp_272:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic20",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": "езультата отражают количество комплексных объектов, реализуемых на участках байкало-амурской и транссибирской железнодорожных магистралей. комплексные объекты представляют собой совокупность технологически взаимоувязанных различных тип",
+      "unit_id": "fp_272:profile5",
+      "unit_ids": [
+        "fp_272:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic21",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": " собой совокупность технологически взаимоувязанных различных типов элементов линейной инфраструктуры железных дорог, на которых осуществляется строительство (реконструкция и(или) модернизация). в 2030 году в целях достижения ",
+      "unit_id": "fp_272:profile5",
+      "unit_ids": [
+        "fp_272:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic22",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": " во временную эксплуатацию. структурированная часть характеристики (детализация) отражает количество участков железнодорожных магистралей, на которых обеспечено проведение соответствующих работ (ежегодно). осуществлено строительство (р",
+      "unit_id": "fp_272:profile5",
+      "unit_ids": [
+        "fp_272:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic23",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": " проведение соответствующих работ (ежегодно). осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к морским портам северо-западного бассейна плановые значения результата отражают количество комплекс",
+      "unit_id": "fp_272:profile6",
+      "unit_ids": [
+        "fp_272:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic24",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": "ежегодно). осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к морским портам северо-западного бассейна плановые значения результата отражают количество комплексных объектов, реализуемых ",
+      "unit_id": "fp_272:profile6",
+      "unit_ids": [
+        "fp_272:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic25",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "сных объектов, реализуемых на участках октябрьской, московской, горьковской, свердловской и северной железных дорог. комплексные объекты представляют собой совокупность технических взаимоувязанных различных типов элементов ли",
+      "unit_id": "fp_272:profile6",
+      "unit_ids": [
+        "fp_272:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic26",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "яют собой совокупность технических взаимоувязанных различных типов элементов линейной инфраструктуры железных дорог, на которых осуществляется строительство (реконструкция и(или) модернизация). в 2030 году в целях достижения ",
+      "unit_id": "fp_272:profile6",
+      "unit_ids": [
+        "fp_272:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic27",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "нную эксплуатацию. структурированная часть характеристики (детализация) отражает количество участков железных дорог, на которых обеспечено проведение соответствующих работ (ежегодно). осуществлено строительство объекта, преду",
+      "unit_id": "fp_272:profile6",
+      "unit_ids": [
+        "fp_272:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic28",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортного",
+      "context": "щих работ (ежегодно). осуществлено строительство объекта, предусматривающего комплексное развитие мурманского транспортного узла результат направлен на реализацию мероприятий по строительству железнодорожной инфраструктуры в направле",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic29",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "ексное развитие мурманского транспортного узла результат направлен на реализацию мероприятий по строительству железнодорожной инфраструктуры в направлении комплекса перегрузки угля \"лавна\" в морском порту мурманск в целях повышения тра",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic30",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "порту",
+      "context": "тий по строительству железнодорожной инфраструктуры в направлении комплекса перегрузки угля \"лавна\" в морском порту мурманск в целях повышения транспортной доступности мурманского транспортного узла. провозная способность жел",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic31",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "ной инфраструктуры в направлении комплекса перегрузки угля \"лавна\" в морском порту мурманск в целях повышения транспортной доступности мурманского транспортного узла. провозная способность железнодорожной инфраструктуры международно",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic32",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортного",
+      "context": "лекса перегрузки угля \"лавна\" в морском порту мурманск в целях повышения транспортной доступности мурманского транспортного узла. провозная способность железнодорожной инфраструктуры международного транспортного коридора «север – юг»",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic33",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "рту мурманск в целях повышения транспортной доступности мурманского транспортного узла. провозная способность железнодорожной инфраструктуры международного транспортного коридора «север – юг» суммарная провозная способность участков на",
+      "unit_id": "fp_272:profile8",
+      "unit_ids": [
+        "fp_272:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic34",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортного",
+      "context": "ступности мурманского транспортного узла. провозная способность железнодорожной инфраструктуры международного транспортного коридора «север – юг» суммарная провозная способность участков на подходах к морским портам азово-черноморско",
+      "unit_id": "fp_272:profile8",
+      "unit_ids": [
+        "fp_272:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic35",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": "ународного транспортного коридора «север – юг» суммарная провозная способность участков на подходах к морским портам азово-черноморского бассейна суммарная провозная способность участков на подходах к морским портам северо-зап",
+      "unit_id": "fp_272:profile9",
+      "unit_ids": [
+        "fp_272:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic36",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": " к морским портам азово-черноморского бассейна суммарная провозная способность участков на подходах к морским портам северо-западного бассейна суммарная провозная способность магистралей восточного полигона",
+      "unit_id": "fp_272:profile10",
+      "unit_ids": [
+        "fp_272:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_272:kwic1",
+      "document_id": "fp_272",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "ктуры в направлении комплекса перегрузки угля \"лавна\" в морском порту мурманск в целях повышения транспортной доступности мурманского транспортного узла. провозная способность железнодорожной инфраструктуры международного транспорт",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic2",
+      "document_id": "fp_272",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": " итогам 2030 года (к уровню 2024 года) увеличена мощность инфраструктуры единой опорной транспортной сети для бизнеса, государства и граждан за счет развития железнодорожной инфраструктуры осуществлено строительство (реконструк",
+      "unit_id": "fp_272:profile2",
+      "unit_ids": [
+        "fp_272:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic3",
+      "document_id": "fp_272",
+      "frame": "science_innovation",
+      "matched": "технологически",
+      "context": "бышевской, южно-уральской и юго-восточной железных дорог. комплексные объекты представляют собой совокупность технологически взаимоувязанных различных типов элементов линейной железнодорожной инфраструктуры, на которых осуществляется ",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic4",
+      "document_id": "fp_272",
+      "frame": "science_innovation",
+      "matched": "технологически",
+      "context": "ло-амурской и транссибирской железнодорожных магистралей. комплексные объекты представляют собой совокупность технологически взаимоувязанных различных типов элементов линейной инфраструктуры железных дорог, на которых осуществляется с",
+      "unit_id": "fp_272:profile5",
+      "unit_ids": [
+        "fp_272:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic5",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_272:profile1",
+      "unit_ids": [
+        "fp_272:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic6",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "енее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года) увеличена мощность инфраструктуры единой опорной транспортной сети для бизнеса, государства и граждан за счет развития железнодорожной инфраструктуры осуществлено строител",
+      "unit_id": "fp_272:profile2",
+      "unit_ids": [
+        "fp_272:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic7",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": " мощность инфраструктуры единой опорной транспортной сети для бизнеса, государства и граждан за счет развития железнодорожной инфраструктуры осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к мор",
+      "unit_id": "fp_272:profile2",
+      "unit_ids": [
+        "fp_272:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic8",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": " счет развития железнодорожной инфраструктуры осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к морским портам азово-черноморского бассейна плановые значения результата отражают количество компл",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic9",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": "аструктуры осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к морским портам азово-черноморского бассейна плановые значения результата отражают количество комплексных объектов, реализуем",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic10",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "реализуемых на участках северо-кавказской, приволжской, куйбышевской, южно-уральской и юго-восточной железных дорог. комплексные объекты представляют собой совокупность технологически взаимоувязанных различных типов элементов",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic11",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "ные объекты представляют собой совокупность технологически взаимоувязанных различных типов элементов линейной железнодорожной инфраструктуры, на которых осуществляется строительство (реконструкция и(или) модернизация). в 2030 году в це",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic12",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "нную эксплуатацию. структурированная часть характеристики (детализация) отражает количество участков железных дорог, на которых обеспечено проведение соответствующих работ (ежегодно). осуществлено строительство объектов, пред",
+      "unit_id": "fp_272:profile3",
+      "unit_ids": [
+        "fp_272:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic13",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортного",
+      "context": "ветствующих работ (ежегодно). осуществлено строительство объектов, предусматривающих развитие новороссийского транспортного узла результат направлен на реализацию мероприятий по строительству объектов железнодорожной инфраструктуры, ",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic14",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "ие новороссийского транспортного узла результат направлен на реализацию мероприятий по строительству объектов железнодорожной инфраструктуры, обеспечивающих развитие инфраструктуры на подходах к портам азово-черноморского бассейна и ли",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic15",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": "о строительству объектов железнодорожной инфраструктуры, обеспечивающих развитие инфраструктуры на подходах к портам азово-черноморского бассейна и ликвидацию \"узких мест\" на железнодорожных подходах к морским портам новоросси",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic16",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": "вающих развитие инфраструктуры на подходах к портам азово-черноморского бассейна и ликвидацию \"узких мест\" на железнодорожных подходах к морским портам новороссийского транспортного узла с целью равномерного распределения грузопотока и",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic17",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": "одходах к портам азово-черноморского бассейна и ликвидацию \"узких мест\" на железнодорожных подходах к морским портам новороссийского транспортного узла с целью равномерного распределения грузопотока и повышения провозной спосо",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic18",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортного",
+      "context": "черноморского бассейна и ликвидацию \"узких мест\" на железнодорожных подходах к морским портам новороссийского транспортного узла с целью равномерного распределения грузопотока и повышения провозной способности. осуществлено строитель",
+      "unit_id": "fp_272:profile4",
+      "unit_ids": [
+        "fp_272:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic19",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "рузопотока и повышения провозной способности. осуществлено строительство (реконструкция) комплексных объектов железнодорожной инфраструктуры восточного полигона плановые значения результата отражают количество комплексных объектов, реа",
+      "unit_id": "fp_272:profile5",
+      "unit_ids": [
+        "fp_272:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic20",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": "езультата отражают количество комплексных объектов, реализуемых на участках байкало-амурской и транссибирской железнодорожных магистралей. комплексные объекты представляют собой совокупность технологически взаимоувязанных различных тип",
+      "unit_id": "fp_272:profile5",
+      "unit_ids": [
+        "fp_272:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic21",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": " собой совокупность технологически взаимоувязанных различных типов элементов линейной инфраструктуры железных дорог, на которых осуществляется строительство (реконструкция и(или) модернизация). в 2030 году в целях достижения ",
+      "unit_id": "fp_272:profile5",
+      "unit_ids": [
+        "fp_272:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic22",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": " во временную эксплуатацию. структурированная часть характеристики (детализация) отражает количество участков железнодорожных магистралей, на которых обеспечено проведение соответствующих работ (ежегодно). осуществлено строительство (р",
+      "unit_id": "fp_272:profile5",
+      "unit_ids": [
+        "fp_272:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic23",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожных",
+      "context": " проведение соответствующих работ (ежегодно). осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к морским портам северо-западного бассейна плановые значения результата отражают количество комплекс",
+      "unit_id": "fp_272:profile6",
+      "unit_ids": [
+        "fp_272:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic24",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": "ежегодно). осуществлено строительство (реконструкция) комплексных объектов железнодорожных подходов к морским портам северо-западного бассейна плановые значения результата отражают количество комплексных объектов, реализуемых ",
+      "unit_id": "fp_272:profile6",
+      "unit_ids": [
+        "fp_272:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic25",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "сных объектов, реализуемых на участках октябрьской, московской, горьковской, свердловской и северной железных дорог. комплексные объекты представляют собой совокупность технических взаимоувязанных различных типов элементов ли",
+      "unit_id": "fp_272:profile6",
+      "unit_ids": [
+        "fp_272:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic26",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "яют собой совокупность технических взаимоувязанных различных типов элементов линейной инфраструктуры железных дорог, на которых осуществляется строительство (реконструкция и(или) модернизация). в 2030 году в целях достижения ",
+      "unit_id": "fp_272:profile6",
+      "unit_ids": [
+        "fp_272:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic27",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "дорог",
+      "context": "нную эксплуатацию. структурированная часть характеристики (детализация) отражает количество участков железных дорог, на которых обеспечено проведение соответствующих работ (ежегодно). осуществлено строительство объекта, преду",
+      "unit_id": "fp_272:profile6",
+      "unit_ids": [
+        "fp_272:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic28",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортного",
+      "context": "щих работ (ежегодно). осуществлено строительство объекта, предусматривающего комплексное развитие мурманского транспортного узла результат направлен на реализацию мероприятий по строительству железнодорожной инфраструктуры в направле",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic29",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "ексное развитие мурманского транспортного узла результат направлен на реализацию мероприятий по строительству железнодорожной инфраструктуры в направлении комплекса перегрузки угля \"лавна\" в морском порту мурманск в целях повышения тра",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic30",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "порту",
+      "context": "тий по строительству железнодорожной инфраструктуры в направлении комплекса перегрузки угля \"лавна\" в морском порту мурманск в целях повышения транспортной доступности мурманского транспортного узла. провозная способность жел",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic31",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "ной инфраструктуры в направлении комплекса перегрузки угля \"лавна\" в морском порту мурманск в целях повышения транспортной доступности мурманского транспортного узла. провозная способность железнодорожной инфраструктуры международно",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic32",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортного",
+      "context": "лекса перегрузки угля \"лавна\" в морском порту мурманск в целях повышения транспортной доступности мурманского транспортного узла. провозная способность железнодорожной инфраструктуры международного транспортного коридора «север – юг»",
+      "unit_id": "fp_272:profile7",
+      "unit_ids": [
+        "fp_272:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic33",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "железнодорожной",
+      "context": "рту мурманск в целях повышения транспортной доступности мурманского транспортного узла. провозная способность железнодорожной инфраструктуры международного транспортного коридора «север – юг» суммарная провозная способность участков на",
+      "unit_id": "fp_272:profile8",
+      "unit_ids": [
+        "fp_272:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic34",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "транспортного",
+      "context": "ступности мурманского транспортного узла. провозная способность железнодорожной инфраструктуры международного транспортного коридора «север – юг» суммарная провозная способность участков на подходах к морским портам азово-черноморско",
+      "unit_id": "fp_272:profile8",
+      "unit_ids": [
+        "fp_272:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic35",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": "ународного транспортного коридора «север – юг» суммарная провозная способность участков на подходах к морским портам азово-черноморского бассейна суммарная провозная способность участков на подходах к морским портам северо-зап",
+      "unit_id": "fp_272:profile9",
+      "unit_ids": [
+        "fp_272:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_272:kwic36",
+      "document_id": "fp_272",
+      "frame": "transport_logistics",
+      "matched": "портам",
+      "context": " к морским портам азово-черноморского бассейна суммарная провозная способность участков на подходах к морским портам северо-западного бассейна суммарная провозная способность магистралей восточного полигона",
+      "unit_id": "fp_272:profile10",
+      "unit_ids": [
+        "fp_272:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "source_url": "https://databudget.ru/projects/fp/272",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/272",
+  "source_sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681"
+}

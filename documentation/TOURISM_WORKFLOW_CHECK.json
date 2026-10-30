@@ -1,0 +1,13 @@
+{
+  "yaml_valid": true,
+  "on_key_is_string": true,
+  "workflow_dispatch_inputs": 10,
+  "tourism_input": "tourism_source",
+  "cron_unchanged": true,
+  "permissions_unchanged": true,
+  "action_versions_unchanged": true,
+  "job_count_unchanged": true,
+  "candidate_inputs_and_outputs_verified": true,
+  "shell_run_blocks_syntax_checked": 16,
+  "network_or_actions_run": false
+}

@@ -1,0 +1,2152 @@
+{
+  "document": {
+    "project_id": "data_economy",
+    "kind": "np",
+    "id": "np_23",
+    "url": "https://databudget.ru/projects/np/23",
+    "sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+    "retrieved_at": "2026-10-19T14:37:18.263001+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/36/36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00.html",
+    "document_id": "np_23",
+    "code": "Ц",
+    "title": "[Ц] Экономика данных и цифровая трансформация государства",
+    "publisher_version": "26.64",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "national",
+    "profile_token_count": 431,
+    "n_tokens": 431,
+    "source_url": "https://databudget.ru/projects/np/23",
+    "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+    "profile_text_sha256": "2da1d073bcc84c705c325486a4f4fb11e1e9f47cf0823802a37462da44dd0241",
+    "archive_entry": "data_economy/np_23.html",
+    "bytes": 660425,
+    "archive_profile_token_count": 431,
+    "archive_profile_text_sha256": "00e9dfc8c8c8f6cd8761886dd10ade778cd7cc1f2cb9c9fd3b19d1b2d35e6253",
+    "download_path": "downloads/projects/data_economy/documentary/sources/np_23.html",
+    "profile_original_document_id": "html:36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "np_23:profile1",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечено развитие инфраструктуры предоставления услуг и сервисов в цифровом виде, в том числе в проактивном режиме или при непосредственном обращении заявителя, а так же реализация для государственных органов типовых решений, имеющих системы поддержки принятия решений на основе данных на базе единой цифровой платформы",
+      "node_id": "np_23:passport-task-09:83875dcde77ed500",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 38,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile2",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "создана единая платформа онлайн обмена данными по противодействию мошенническим действиям в отношении граждан",
+      "node_id": "np_23:passport-task-06:4dbf9c23492a0959",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 12,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile3",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечены развитие и доступность новых квантовых и телекоммуникационных технологий",
+      "node_id": "np_23:passport-task-05:afc03bf5727c94d0",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile4",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечено стимулирование и поддержка ученых и обучающихся в области искусственного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусственного интеллекта для пользователей в государственном управлении, ключевых отраслях экономики и социальной сферы.",
+      "node_id": "np_23:passport-task-03:8a7da69d07977c72",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 30,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile5",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "создана и функционирует низкоорбитальная спутниковая группировка для обеспечения высокоскоростного доступа к сети интернет на всей территории российской федерации, в том числе на подвижных объектах",
+      "node_id": "np_23:passport-task-02:8043bb03f192ed43",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 21,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile6",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечено массовое внедрение цифровых сервисов взаимодействия с гражданами на базе созданных цифровых платформ в отраслях экономики и социальной сферы для исключения административных барьеров и повышения удовлетворенности качеством предоставления услуг в электронном виде",
+      "node_id": "np_23:passport-task-08:f5fb9ff5d71e0d25",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 27,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile7",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы",
+      "node_id": "np_23:passport-task-11:6db36690ad00a710",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 14,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile8",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечено повышение удовлетворенности респондентов и пользователей официальной статистической информацией",
+      "node_id": "np_23:passport-task-12:adfd74d4c5396c21",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[8]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile9",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечена защищенность ключевых государственных информационных систем",
+      "node_id": "np_23:passport-task-07:d0be221b2481f64f",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[9]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 6,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile10",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "российской ит-отраслью обеспечено наличие на рынке отечественных разработок и оборудования, необходимых для снижения зависимости от иностранных решений",
+      "node_id": "np_23:passport-task-04:f6a768477d9d1177",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[10]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 16,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile11",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "сокращение дефицита высококвалифицированных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах",
+      "node_id": "np_23:task:e29f6d21d2b87d6e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 15,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile12",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечение потребности рынка труда в специалистах в сфере информационных технологий, прошедших обучение по актуализированным программам, соответствующим требованиям отрасли",
+      "node_id": "np_23:task:f99ac7357e542fa8",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[2]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 16,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile13",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "goal",
+      "text": "обеспечена цифровая трансформация государственного и муниципального управления, экономики и социальной сферы",
+      "node_id": "np_23:goal:e141bedfe352c256",
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile14",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля массовых социально значимых государственных и муниципальных услуг, предоставляемых в электронной форме",
+      "node_id": "np_23:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile15",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля государственных услуг и сервисов, по которым средняя оценка удовлетворенности качеством работы госслужащих и работников организаций соцсферы по их оказанию в электронном виде с использованием епгу и (или) рпгу выше 4,5",
+      "node_id": "np_23:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 25,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile16",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "количество массовых социально значимых государственных и муниципальных услуг в электронной форме, доступных с использованием единого портала госуслуг, процесс оказания которых обеспечен ведомствами в проактивном режиме либо в момент обращения заявителя",
+      "node_id": "np_23:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 25,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile17",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля российского программного обеспечения, используемого в деятельности государственных органов, государственных корпораций, государственных компаний и хозяйственных обществ, в уставном капитале которых доля участия рф в совокупности превышает 50%, а также в их аффилированных юридических лицах",
+      "node_id": "np_23:passport-purpose-4:6037cf73209c66ef",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 27,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile18",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля трафика российского сегмента информационно-телекоммуникационной сети «интернет», ежегодно обрабатываемого автоматизированной системой обеспечения безопасности (асби), с учетом его ежегодного роста",
+      "node_id": "np_23:passport-purpose-5:dc38845c3885b87f",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 18,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile19",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля российских организаций ключевых отраслей экономики, перешедших на использование базового и прикладного российского по в системах, обеспечивающих основные производственные и управленческие процессы",
+      "node_id": "np_23:passport-purpose-6:323800554f41c925",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[6]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 19,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile20",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "достижение «цифровой зрелости» государственного и муниципального управления и ключевых отраслей социальной сферы, предполагающей автоматизацию большей части транзакций в рамках единых отраслевых цифровых платформ и модели управления на основе данных с учетом ускоренного внедрения технологий обработки больших объемов данных, машинного обучения и искусственного интеллекта",
+      "node_id": "np_23:passport-purpose-7:1f4fdfdc21df0c7a",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 37,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile21",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля домохозяйств, которым обеспечена возможность качественного высокоскоростного широкополосного доступа к информационно-телекоммуникационной сети \"интернет\"",
+      "node_id": "np_23:passport-purpose-8:aa8999c030f04749",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[8]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 12,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile22",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля органов государственной власти и органов местного самоуправления, подключенных к единой цифровой платформе подбора, развития и ротации кадров",
+      "node_id": "np_23:passport-purpose-9:776036a148d24744",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[9]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 15,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile23",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "индекс зрелости рынка данных",
+      "node_id": "np_23:passport-purpose-10:1c42f3a3940bfa88",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[10]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 4,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile24",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля предотвращенных попыток мошеннических действий, совершенных с использованием информационно-телекоммуникационных технологий (по отношению к 2024 году)",
+      "node_id": "np_23:passport-purpose-11:aaa786368dde8e70",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[11]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 12,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_23:profile25",
+      "document_id": "np_23",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "темп роста инвестиций в отечественные решения в сфере информационных технологий",
+      "node_id": "np_23:passport-purpose-12:bfe046fe0623f06f",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[12]",
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "np_23:kwic1",
+      "document_id": "np_23",
+      "frame": "access_rights",
+      "matched": "доступность",
+      "context": "ма онлайн обмена данными по противодействию мошенническим действиям в отношении граждан обеспечены развитие и доступность новых квантовых и телекоммуникационных технологий обеспечено стимулирование и поддержка ученых и обучающихся ",
+      "unit_id": "np_23:profile3",
+      "unit_ids": [
+        "np_23:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic2",
+      "document_id": "np_23",
+      "frame": "access_rights",
+      "matched": "доступных",
+      "context": "гу выше 4,5 количество массовых социально значимых государственных и муниципальных услуг в электронной форме, доступных с использованием единого портала госуслуг, процесс оказания которых обеспечен ведомствами в проактивном режим",
+      "unit_id": "np_23:profile16",
+      "unit_ids": [
+        "np_23:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic3",
+      "document_id": "np_23",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "нтовых и телекоммуникационных технологий обеспечено стимулирование и поддержка ученых и обучающихся в области искусственного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусств",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic4",
+      "document_id": "np_23",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "твенного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусственного интеллекта для пользователей в государственном управлении, ключевых отраслях экономики и социальной сферы. со",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic5",
+      "document_id": "np_23",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "снове данных с учетом ускоренного внедрения технологий обработки больших объемов данных, машинного обучения и искусственного интеллекта доля домохозяйств, которым обеспечена возможность качественного высокоскоростного широкополосного ",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic6",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровом",
+      "context": "обеспечено развитие инфраструктуры предоставления услуг и сервисов в цифровом виде, в том числе в проактивном режиме или при непосредственном обращении заявителя, а так же реализация для ",
+      "unit_id": "np_23:profile1",
+      "unit_ids": [
+        "np_23:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic7",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " реализация для государственных органов типовых решений, имеющих системы поддержки принятия решений на основе данных на базе единой цифровой платформы создана единая платформа онлайн обмена данными по противодействию мошенниче",
+      "unit_id": "np_23:profile1",
+      "unit_ids": [
+        "np_23:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic8",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "рственных органов типовых решений, имеющих системы поддержки принятия решений на основе данных на базе единой цифровой платформы создана единая платформа онлайн обмена данными по противодействию мошенническим действиям в отношен",
+      "unit_id": "np_23:profile1",
+      "unit_ids": [
+        "np_23:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic9",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данными",
+      "context": "ки принятия решений на основе данных на базе единой цифровой платформы создана единая платформа онлайн обмена данными по противодействию мошенническим действиям в отношении граждан обеспечены развитие и доступность новых кванто",
+      "unit_id": "np_23:profile2",
+      "unit_ids": [
+        "np_23:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic10",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "нтовых и телекоммуникационных технологий обеспечено стимулирование и поддержка ученых и обучающихся в области искусственного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусственного инте",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic11",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " поддержка ученых и обучающихся в области искусственного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусственного интеллекта для пользователей в государственном управл",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic12",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "твенного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусственного интеллекта для пользователей в государственном управлении, ключевых отраслях экономики и социальной сферы. создана и фун",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic13",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "ана и функционирует низкоорбитальная спутниковая группировка для обеспечения высокоскоростного доступа к сети интернет на всей территории российской федерации, в том числе на подвижных объектах обеспечено массовое внедрение цифр",
+      "unit_id": "np_23:profile5",
+      "unit_ids": [
+        "np_23:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[5]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic14",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "рнет на всей территории российской федерации, в том числе на подвижных объектах обеспечено массовое внедрение цифровых сервисов взаимодействия с гражданами на базе созданных цифровых платформ в отраслях экономики и социальной сф",
+      "unit_id": "np_23:profile6",
+      "unit_ids": [
+        "np_23:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic15",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "вижных объектах обеспечено массовое внедрение цифровых сервисов взаимодействия с гражданами на базе созданных цифровых платформ в отраслях экономики и социальной сферы для исключения административных барьеров и повышения удовлет",
+      "unit_id": "np_23:profile6",
+      "unit_ids": [
+        "np_23:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic16",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": "ентов и пользователей официальной статистической информацией обеспечена защищенность ключевых государственных информационных систем российской ит-отраслью обеспечено наличие на рынке отечественных разработок и оборудования, необходимых для с",
+      "unit_id": "np_23:profile9",
+      "unit_ids": [
+        "np_23:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[9]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic17",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": " снижения зависимости от иностранных решений сокращение дефицита высококвалифицированных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынк",
+      "unit_id": "np_23:profile11",
+      "unit_ids": [
+        "np_23:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic18",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "рактико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в сфере информационных технологий, прошедших обучение по актуализированным программам, соответствующим требованиям отрасли обеспечена цифровая ",
+      "unit_id": "np_23:profile12",
+      "unit_ids": [
+        "np_23:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[2]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic19",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": "ехнологий, прошедших обучение по актуализированным программам, соответствующим требованиям отрасли обеспечена цифровая трансформация государственного и муниципального управления, экономики и социальной сферы доля массовых социал",
+      "unit_id": "np_23:profile13",
+      "unit_ids": [
+        "np_23:profile13"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic20",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "казания которых обеспечен ведомствами в проактивном режиме либо в момент обращения заявителя доля российского программного обеспечения, используемого в деятельности государственных органов, государственных корпораций, государственных компаний и",
+      "unit_id": "np_23:profile17",
+      "unit_ids": [
+        "np_23:profile17"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic21",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "х аффилированных юридических лицах доля трафика российского сегмента информационно-телекоммуникационной сети «интернет», ежегодно обрабатываемого автоматизированной системой обеспечения безопасности (асби), с учетом его ежегодно",
+      "unit_id": "np_23:profile18",
+      "unit_ids": [
+        "np_23:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[5]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic22",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "ого российского по в системах, обеспечивающих основные производственные и управленческие процессы достижение «цифровой зрелости» государственного и муниципального управления и ключевых отраслей социальной сферы, предполагающей а",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic23",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "х отраслей социальной сферы, предполагающей автоматизацию большей части транзакций в рамках единых отраслевых цифровых платформ и модели управления на основе данных с учетом ускоренного внедрения технологий обработки больших объ",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic24",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "матизацию большей части транзакций в рамках единых отраслевых цифровых платформ и модели управления на основе данных с учетом ускоренного внедрения технологий обработки больших объемов данных, машинного обучения и искусственно",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic25",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "форм и модели управления на основе данных с учетом ускоренного внедрения технологий обработки больших объемов данных, машинного обучения и искусственного интеллекта доля домохозяйств, которым обеспечена возможность качественно",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic26",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "снове данных с учетом ускоренного внедрения технологий обработки больших объемов данных, машинного обучения и искусственного интеллекта доля домохозяйств, которым обеспечена возможность качественного высокоскоростного широкополосного доступа к и",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic27",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "озможность качественного высокоскоростного широкополосного доступа к информационно-телекоммуникационной сети \"интернет\" доля органов государственной власти и органов местного самоуправления, подключенных к единой цифровой платфо",
+      "unit_id": "np_23:profile21",
+      "unit_ids": [
+        "np_23:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[8]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic28",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": " сети \"интернет\" доля органов государственной власти и органов местного самоуправления, подключенных к единой цифровой платформе подбора, развития и ротации кадров индекс зрелости рынка данных доля предотвращенных попыток мошенн",
+      "unit_id": "np_23:profile22",
+      "unit_ids": [
+        "np_23:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[9]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic29",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "управления, подключенных к единой цифровой платформе подбора, развития и ротации кадров индекс зрелости рынка данных доля предотвращенных попыток мошеннических действий, совершенных с использованием информационно-телекоммуника",
+      "unit_id": "np_23:profile23",
+      "unit_ids": [
+        "np_23:profile23"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[10]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic30",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "екоммуникационных технологий (по отношению к 2024 году) темп роста инвестиций в отечественные решения в сфере информационных технологий",
+      "unit_id": "np_23:profile25",
+      "unit_ids": [
+        "np_23:profile25"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[12]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic31",
+      "document_id": "np_23",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "рованных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в сфере информационных технологий, прошедших об",
+      "unit_id": "np_23:profile11",
+      "unit_ids": [
+        "np_23:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic32",
+      "document_id": "np_23",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "сокращение дефицита высококвалифицированных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в с",
+      "unit_id": "np_23:profile11",
+      "unit_ids": [
+        "np_23:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic33",
+      "document_id": "np_23",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "ласти и органов местного самоуправления, подключенных к единой цифровой платформе подбора, развития и ротации кадров индекс зрелости рынка данных доля предотвращенных попыток мошеннических действий, совершенных с использование",
+      "unit_id": "np_23:profile22",
+      "unit_ids": [
+        "np_23:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[9]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic34",
+      "document_id": "np_23",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "нности качеством предоставления услуг в электронном виде обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы обеспечено повышение удовлетворен",
+      "unit_id": "np_23:profile7",
+      "unit_ids": [
+        "np_23:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic35",
+      "document_id": "np_23",
+      "frame": "enterprise_industry",
+      "matched": "производственные",
+      "context": "номики, перешедших на использование базового и прикладного российского по в системах, обеспечивающих основные производственные и управленческие процессы достижение «цифровой зрелости» государственного и муниципального управления и ключе",
+      "unit_id": "np_23:profile19",
+      "unit_ids": [
+        "np_23:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[6]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic36",
+      "document_id": "np_23",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ершенных с использованием информационно-телекоммуникационных технологий (по отношению к 2024 году) темп роста инвестиций в отечественные решения в сфере информационных технологий",
+      "unit_id": "np_23:profile25",
+      "unit_ids": [
+        "np_23:profile25"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[12]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic37",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": "чено стимулирование и поддержка ученых и обучающихся в области искусственного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусственного интеллекта для пользователей в госуд",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic38",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управлении",
+      "context": "данных за счет ускоренного внедрения технологий искусственного интеллекта для пользователей в государственном управлении, ключевых отраслях экономики и социальной сферы. создана и функционирует низкоорбитальная спутниковая группир",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic39",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "вления услуг в электронном виде обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы обеспечено повышение удовлетворенности респондентов и пользо",
+      "unit_id": "np_23:profile7",
+      "unit_ids": [
+        "np_23:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic40",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "чение ее бесперебойной работы обеспечено повышение удовлетворенности респондентов и пользователей официальной статистической информацией обеспечена защищенность ключевых государственных информационных систем российской ит-отраслью обе",
+      "unit_id": "np_23:profile8",
+      "unit_ids": [
+        "np_23:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[8]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic41",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": "ммам, соответствующим требованиям отрасли обеспечена цифровая трансформация государственного и муниципального управления, экономики и социальной сферы доля массовых социально значимых государственных и муниципальных услуг, предост",
+      "unit_id": "np_23:profile13",
+      "unit_ids": [
+        "np_23:profile13"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic42",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "ипальных услуг, предоставляемых в электронной форме доля государственных услуг и сервисов, по которым средняя оценка удовлетворенности качеством работы госслужащих и работников организаций соцсферы по их оказанию в электронном",
+      "unit_id": "np_23:profile15",
+      "unit_ids": [
+        "np_23:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic43",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управленческие",
+      "context": "на использование базового и прикладного российского по в системах, обеспечивающих основные производственные и управленческие процессы достижение «цифровой зрелости» государственного и муниципального управления и ключевых отраслей соци",
+      "unit_id": "np_23:profile19",
+      "unit_ids": [
+        "np_23:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[6]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic44",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": "е производственные и управленческие процессы достижение «цифровой зрелости» государственного и муниципального управления и ключевых отраслей социальной сферы, предполагающей автоматизацию большей части транзакций в рамках единых о",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic45",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": ", предполагающей автоматизацию большей части транзакций в рамках единых отраслевых цифровых платформ и модели управления на основе данных с учетом ускоренного внедрения технологий обработки больших объемов данных, машинного обучен",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic46",
+      "document_id": "np_23",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": "ров и повышения удовлетворенности качеством предоставления услуг в электронном виде обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы обеспечен",
+      "unit_id": "np_23:profile7",
+      "unit_ids": [
+        "np_23:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic47",
+      "document_id": "np_23",
+      "frame": "transport_logistics",
+      "matched": "портала",
+      "context": "иально значимых государственных и муниципальных услуг в электронной форме, доступных с использованием единого портала госуслуг, процесс оказания которых обеспечен ведомствами в проактивном режиме либо в момент обращения заявите",
+      "unit_id": "np_23:profile16",
+      "unit_ids": [
+        "np_23:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "np_23:kwic1",
+      "document_id": "np_23",
+      "frame": "access_rights",
+      "matched": "доступность",
+      "context": "ма онлайн обмена данными по противодействию мошенническим действиям в отношении граждан обеспечены развитие и доступность новых квантовых и телекоммуникационных технологий обеспечено стимулирование и поддержка ученых и обучающихся ",
+      "unit_id": "np_23:profile3",
+      "unit_ids": [
+        "np_23:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic2",
+      "document_id": "np_23",
+      "frame": "access_rights",
+      "matched": "доступных",
+      "context": "гу выше 4,5 количество массовых социально значимых государственных и муниципальных услуг в электронной форме, доступных с использованием единого портала госуслуг, процесс оказания которых обеспечен ведомствами в проактивном режим",
+      "unit_id": "np_23:profile16",
+      "unit_ids": [
+        "np_23:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic3",
+      "document_id": "np_23",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "нтовых и телекоммуникационных технологий обеспечено стимулирование и поддержка ученых и обучающихся в области искусственного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусств",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic4",
+      "document_id": "np_23",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "твенного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусственного интеллекта для пользователей в государственном управлении, ключевых отраслях экономики и социальной сферы. со",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic5",
+      "document_id": "np_23",
+      "frame": "culture_values",
+      "matched": "искусственного",
+      "context": "снове данных с учетом ускоренного внедрения технологий обработки больших объемов данных, машинного обучения и искусственного интеллекта доля домохозяйств, которым обеспечена возможность качественного высокоскоростного широкополосного ",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic6",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровом",
+      "context": "обеспечено развитие инфраструктуры предоставления услуг и сервисов в цифровом виде, в том числе в проактивном режиме или при непосредственном обращении заявителя, а так же реализация для ",
+      "unit_id": "np_23:profile1",
+      "unit_ids": [
+        "np_23:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic7",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " реализация для государственных органов типовых решений, имеющих системы поддержки принятия решений на основе данных на базе единой цифровой платформы создана единая платформа онлайн обмена данными по противодействию мошенниче",
+      "unit_id": "np_23:profile1",
+      "unit_ids": [
+        "np_23:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic8",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "рственных органов типовых решений, имеющих системы поддержки принятия решений на основе данных на базе единой цифровой платформы создана единая платформа онлайн обмена данными по противодействию мошенническим действиям в отношен",
+      "unit_id": "np_23:profile1",
+      "unit_ids": [
+        "np_23:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic9",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данными",
+      "context": "ки принятия решений на основе данных на базе единой цифровой платформы создана единая платформа онлайн обмена данными по противодействию мошенническим действиям в отношении граждан обеспечены развитие и доступность новых кванто",
+      "unit_id": "np_23:profile2",
+      "unit_ids": [
+        "np_23:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic10",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "нтовых и телекоммуникационных технологий обеспечено стимулирование и поддержка ученых и обучающихся в области искусственного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусственного инте",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic11",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " поддержка ученых и обучающихся в области искусственного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусственного интеллекта для пользователей в государственном управл",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic12",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "твенного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусственного интеллекта для пользователей в государственном управлении, ключевых отраслях экономики и социальной сферы. создана и фун",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic13",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "ана и функционирует низкоорбитальная спутниковая группировка для обеспечения высокоскоростного доступа к сети интернет на всей территории российской федерации, в том числе на подвижных объектах обеспечено массовое внедрение цифр",
+      "unit_id": "np_23:profile5",
+      "unit_ids": [
+        "np_23:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[5]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic14",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "рнет на всей территории российской федерации, в том числе на подвижных объектах обеспечено массовое внедрение цифровых сервисов взаимодействия с гражданами на базе созданных цифровых платформ в отраслях экономики и социальной сф",
+      "unit_id": "np_23:profile6",
+      "unit_ids": [
+        "np_23:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic15",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "вижных объектах обеспечено массовое внедрение цифровых сервисов взаимодействия с гражданами на базе созданных цифровых платформ в отраслях экономики и социальной сферы для исключения административных барьеров и повышения удовлет",
+      "unit_id": "np_23:profile6",
+      "unit_ids": [
+        "np_23:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic16",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": "ентов и пользователей официальной статистической информацией обеспечена защищенность ключевых государственных информационных систем российской ит-отраслью обеспечено наличие на рынке отечественных разработок и оборудования, необходимых для с",
+      "unit_id": "np_23:profile9",
+      "unit_ids": [
+        "np_23:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[9]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic17",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": " снижения зависимости от иностранных решений сокращение дефицита высококвалифицированных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынк",
+      "unit_id": "np_23:profile11",
+      "unit_ids": [
+        "np_23:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic18",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "рактико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в сфере информационных технологий, прошедших обучение по актуализированным программам, соответствующим требованиям отрасли обеспечена цифровая ",
+      "unit_id": "np_23:profile12",
+      "unit_ids": [
+        "np_23:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[2]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic19",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": "ехнологий, прошедших обучение по актуализированным программам, соответствующим требованиям отрасли обеспечена цифровая трансформация государственного и муниципального управления, экономики и социальной сферы доля массовых социал",
+      "unit_id": "np_23:profile13",
+      "unit_ids": [
+        "np_23:profile13"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic20",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "программного обеспечения",
+      "context": "казания которых обеспечен ведомствами в проактивном режиме либо в момент обращения заявителя доля российского программного обеспечения, используемого в деятельности государственных органов, государственных корпораций, государственных компаний и",
+      "unit_id": "np_23:profile17",
+      "unit_ids": [
+        "np_23:profile17"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic21",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "х аффилированных юридических лицах доля трафика российского сегмента информационно-телекоммуникационной сети «интернет», ежегодно обрабатываемого автоматизированной системой обеспечения безопасности (асби), с учетом его ежегодно",
+      "unit_id": "np_23:profile18",
+      "unit_ids": [
+        "np_23:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[5]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic22",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "ого российского по в системах, обеспечивающих основные производственные и управленческие процессы достижение «цифровой зрелости» государственного и муниципального управления и ключевых отраслей социальной сферы, предполагающей а",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic23",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "х отраслей социальной сферы, предполагающей автоматизацию большей части транзакций в рамках единых отраслевых цифровых платформ и модели управления на основе данных с учетом ускоренного внедрения технологий обработки больших объ",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic24",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "матизацию большей части транзакций в рамках единых отраслевых цифровых платформ и модели управления на основе данных с учетом ускоренного внедрения технологий обработки больших объемов данных, машинного обучения и искусственно",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic25",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "форм и модели управления на основе данных с учетом ускоренного внедрения технологий обработки больших объемов данных, машинного обучения и искусственного интеллекта доля домохозяйств, которым обеспечена возможность качественно",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic26",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "искусственного интеллекта",
+      "context": "снове данных с учетом ускоренного внедрения технологий обработки больших объемов данных, машинного обучения и искусственного интеллекта доля домохозяйств, которым обеспечена возможность качественного высокоскоростного широкополосного доступа к и",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic27",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "озможность качественного высокоскоростного широкополосного доступа к информационно-телекоммуникационной сети \"интернет\" доля органов государственной власти и органов местного самоуправления, подключенных к единой цифровой платфо",
+      "unit_id": "np_23:profile21",
+      "unit_ids": [
+        "np_23:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[8]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic28",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": " сети \"интернет\" доля органов государственной власти и органов местного самоуправления, подключенных к единой цифровой платформе подбора, развития и ротации кадров индекс зрелости рынка данных доля предотвращенных попыток мошенн",
+      "unit_id": "np_23:profile22",
+      "unit_ids": [
+        "np_23:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[9]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic29",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "управления, подключенных к единой цифровой платформе подбора, развития и ротации кадров индекс зрелости рынка данных доля предотвращенных попыток мошеннических действий, совершенных с использованием информационно-телекоммуника",
+      "unit_id": "np_23:profile23",
+      "unit_ids": [
+        "np_23:profile23"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[10]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic30",
+      "document_id": "np_23",
+      "frame": "digital_data",
+      "matched": "информационных технологий",
+      "context": "екоммуникационных технологий (по отношению к 2024 году) темп роста инвестиций в отечественные решения в сфере информационных технологий",
+      "unit_id": "np_23:profile25",
+      "unit_ids": [
+        "np_23:profile25"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[12]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic31",
+      "document_id": "np_23",
+      "frame": "education_youth",
+      "matched": "образовательных",
+      "context": "рованных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в сфере информационных технологий, прошедших об",
+      "unit_id": "np_23:profile11",
+      "unit_ids": [
+        "np_23:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic32",
+      "document_id": "np_23",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "сокращение дефицита высококвалифицированных специалистов в сфере информационных технологий за счет подготовки кадров на практико-ориентированных образовательных программах обеспечение потребности рынка труда в специалистах в с",
+      "unit_id": "np_23:profile11",
+      "unit_ids": [
+        "np_23:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/article[6]/div/div/div/details[1]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic33",
+      "document_id": "np_23",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "ласти и органов местного самоуправления, подключенных к единой цифровой платформе подбора, развития и ротации кадров индекс зрелости рынка данных доля предотвращенных попыток мошеннических действий, совершенных с использование",
+      "unit_id": "np_23:profile22",
+      "unit_ids": [
+        "np_23:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[9]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic34",
+      "document_id": "np_23",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "нности качеством предоставления услуг в электронном виде обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы обеспечено повышение удовлетворен",
+      "unit_id": "np_23:profile7",
+      "unit_ids": [
+        "np_23:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic35",
+      "document_id": "np_23",
+      "frame": "enterprise_industry",
+      "matched": "производственные",
+      "context": "номики, перешедших на использование базового и прикладного российского по в системах, обеспечивающих основные производственные и управленческие процессы достижение «цифровой зрелости» государственного и муниципального управления и ключе",
+      "unit_id": "np_23:profile19",
+      "unit_ids": [
+        "np_23:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[6]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic36",
+      "document_id": "np_23",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ершенных с использованием информационно-телекоммуникационных технологий (по отношению к 2024 году) темп роста инвестиций в отечественные решения в сфере информационных технологий",
+      "unit_id": "np_23:profile25",
+      "unit_ids": [
+        "np_23:profile25"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[12]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic37",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": "чено стимулирование и поддержка ученых и обучающихся в области искусственного интеллекта, формирование модели управления на основе данных за счет ускоренного внедрения технологий искусственного интеллекта для пользователей в госуд",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic38",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управлении",
+      "context": "данных за счет ускоренного внедрения технологий искусственного интеллекта для пользователей в государственном управлении, ключевых отраслях экономики и социальной сферы. создана и функционирует низкоорбитальная спутниковая группир",
+      "unit_id": "np_23:profile4",
+      "unit_ids": [
+        "np_23:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic39",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "вления услуг в электронном виде обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы обеспечено повышение удовлетворенности респондентов и пользо",
+      "unit_id": "np_23:profile7",
+      "unit_ids": [
+        "np_23:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic40",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "чение ее бесперебойной работы обеспечено повышение удовлетворенности респондентов и пользователей официальной статистической информацией обеспечена защищенность ключевых государственных информационных систем российской ит-отраслью обе",
+      "unit_id": "np_23:profile8",
+      "unit_ids": [
+        "np_23:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[8]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic41",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": "ммам, соответствующим требованиям отрасли обеспечена цифровая трансформация государственного и муниципального управления, экономики и социальной сферы доля массовых социально значимых государственных и муниципальных услуг, предост",
+      "unit_id": "np_23:profile13",
+      "unit_ids": [
+        "np_23:profile13"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic42",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "ипальных услуг, предоставляемых в электронной форме доля государственных услуг и сервисов, по которым средняя оценка удовлетворенности качеством работы госслужащих и работников организаций соцсферы по их оказанию в электронном",
+      "unit_id": "np_23:profile15",
+      "unit_ids": [
+        "np_23:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic43",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управленческие",
+      "context": "на использование базового и прикладного российского по в системах, обеспечивающих основные производственные и управленческие процессы достижение «цифровой зрелости» государственного и муниципального управления и ключевых отраслей соци",
+      "unit_id": "np_23:profile19",
+      "unit_ids": [
+        "np_23:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[6]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic44",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": "е производственные и управленческие процессы достижение «цифровой зрелости» государственного и муниципального управления и ключевых отраслей социальной сферы, предполагающей автоматизацию большей части транзакций в рамках единых о",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic45",
+      "document_id": "np_23",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": ", предполагающей автоматизацию большей части транзакций в рамках единых отраслевых цифровых платформ и модели управления на основе данных с учетом ускоренного внедрения технологий обработки больших объемов данных, машинного обучен",
+      "unit_id": "np_23:profile20",
+      "unit_ids": [
+        "np_23:profile20"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic46",
+      "document_id": "np_23",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": "ров и повышения удовлетворенности качеством предоставления услуг в электронном виде обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы обеспечен",
+      "unit_id": "np_23:profile7",
+      "unit_ids": [
+        "np_23:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_23:kwic47",
+      "document_id": "np_23",
+      "frame": "transport_logistics",
+      "matched": "портала",
+      "context": "иально значимых государственных и муниципальных услуг в электронной форме, доступных с использованием единого портала госуслуг, процесс оказания которых обеспечен ведомствами в проактивном режиме либо в момент обращения заявите",
+      "unit_id": "np_23:profile16",
+      "unit_ids": [
+        "np_23:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "source_url": "https://databudget.ru/projects/np/23",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/np/23",
+  "source_sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00"
+}

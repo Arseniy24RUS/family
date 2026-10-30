@@ -1,0 +1,2 @@
+﻿period_end,code,name,source_id,raw_value,used_value,z,imputed,observation_id,imputation_rule,imputation_median
+2026-09-30,77,Город Москва столица Российской Федерации город федерального значения,62815,,76.83500000000001,0.04109697085845814,True,,within_panel_observed_median,76.83500000000001

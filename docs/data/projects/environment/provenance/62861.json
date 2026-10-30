@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source_id": "62861",
+  "source_url": "https://www.fedstat.ru/indicator/62861",
+  "research_release": "NationalProjects_Analytics_1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": "d8fc95ae4706e9d6a7f978a10d34a42c2902a70a3608263b7851cfbef83f425b",
+  "acquired_at": "2026-10-15T19:24:27+00:00",
+  "origin_kind": "live_emiss",
+  "unit": "процент",
+  "observations": 22,
+  "numeric": 22,
+  "published_sha256": "21b44ac613b3caa78e0f4ccbbbc6f8a51e983b1c2f87b9b3543c036e66f0aedf",
+  "input_sha256": "86f077947c5c00a002191bc22720b35dc7e0cb485c41408f2c6d14e8cebdacd5",
+  "input_bundle": "downloads/projects/environment/statistics/emiss_inputs/62861.zip",
+  "published_file": "data/projects/environment/series/62861.json",
+  "period_policy": "Original periods and frequencies retained. Documented YTD semantics are separately labelled for waste and protected-area visits. Independent annual rows are never substituted by December. Programme accumulation and annual reset are source-specific.",
+  "export_format": "excel",
+  "missing_policy": "No imputation, no substitution by a report image or by another indicator."
+}

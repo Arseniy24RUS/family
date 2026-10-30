@@ -1,0 +1,105 @@
+﻿document_id,title,code,frame,frame_id,frame_name,count,n_tokens,per1000,rate_per1000,origin
+fp_245,[И3] Модернизация коммунальной инфраструктуры,И3,housing,housing,Жильё и ипотека,1,277,3.6101083032490977,3.6101083032490977,independent_platform_dictionary
+fp_245,[И3] Модернизация коммунальной инфраструктуры,И3,utilities,utilities,Коммунальные услуги,34,277,122.74368231046931,122.74368231046931,independent_platform_dictionary
+fp_245,[И3] Модернизация коммунальной инфраструктуры,И3,roads,roads,Дороги,0,277,0.0,0.0,independent_platform_dictionary
+fp_245,[И3] Модернизация коммунальной инфраструктуры,И3,mobility,mobility,Перевозки,0,277,0.0,0.0,independent_platform_dictionary
+fp_245,[И3] Модернизация коммунальной инфраструктуры,И3,environment,environment,Среда населённых пунктов,0,277,0.0,0.0,independent_platform_dictionary
+fp_245,[И3] Модернизация коммунальной инфраструктуры,И3,safety,safety,Безопасность движения,0,277,0.0,0.0,independent_platform_dictionary
+fp_245,[И3] Модернизация коммунальной инфраструктуры,И3,digital,digital,Цифровые решения,0,277,0.0,0.0,independent_platform_dictionary
+fp_245,[И3] Модернизация коммунальной инфраструктуры,И3,inclusion,inclusion,Доступность и включение,0,277,0.0,0.0,independent_platform_dictionary
+fp_248,[ИА] Новый ритм строительства,ИА,housing,housing,Жильё и ипотека,8,771,10.376134889753567,10.376134889753567,independent_platform_dictionary
+fp_248,[ИА] Новый ритм строительства,ИА,utilities,utilities,Коммунальные услуги,5,771,6.485084306095979,6.485084306095979,independent_platform_dictionary
+fp_248,[ИА] Новый ритм строительства,ИА,roads,roads,Дороги,3,771,3.8910505836575875,3.8910505836575875,independent_platform_dictionary
+fp_248,[ИА] Новый ритм строительства,ИА,mobility,mobility,Перевозки,1,771,1.297016861219196,1.297016861219196,independent_platform_dictionary
+fp_248,[ИА] Новый ритм строительства,ИА,environment,environment,Среда населённых пунктов,1,771,1.297016861219196,1.297016861219196,independent_platform_dictionary
+fp_248,[ИА] Новый ритм строительства,ИА,safety,safety,Безопасность движения,0,771,0.0,0.0,independent_platform_dictionary
+fp_248,[ИА] Новый ритм строительства,ИА,digital,digital,Цифровые решения,10,771,12.970168612191959,12.970168612191959,independent_platform_dictionary
+fp_248,[ИА] Новый ритм строительства,ИА,inclusion,inclusion,Доступность и включение,0,771,0.0,0.0,independent_platform_dictionary
+fp_249,[И5] Безопасность дорожного движения,И5,housing,housing,Жильё и ипотека,0,1661,0.0,0.0,independent_platform_dictionary
+fp_249,[И5] Безопасность дорожного движения,И5,utilities,utilities,Коммунальные услуги,1,1661,0.6020469596628537,0.6020469596628537,independent_platform_dictionary
+fp_249,[И5] Безопасность дорожного движения,И5,roads,roads,Дороги,63,1661,37.92895845875979,37.92895845875979,independent_platform_dictionary
+fp_249,[И5] Безопасность дорожного движения,И5,mobility,mobility,Перевозки,41,1661,24.683925346177002,24.683925346177002,independent_platform_dictionary
+fp_249,[И5] Безопасность дорожного движения,И5,environment,environment,Среда населённых пунктов,0,1661,0.0,0.0,independent_platform_dictionary
+fp_249,[И5] Безопасность дорожного движения,И5,safety,safety,Безопасность движения,70,1661,42.14328717639976,42.14328717639976,independent_platform_dictionary
+fp_249,[И5] Безопасность дорожного движения,И5,digital,digital,Цифровые решения,7,1661,4.214328717639976,4.214328717639976,independent_platform_dictionary
+fp_249,[И5] Безопасность дорожного движения,И5,inclusion,inclusion,Доступность и включение,0,1661,0.0,0.0,independent_platform_dictionary
+fp_253,[И2] Жилье,И2,housing,housing,Жильё и ипотека,33,623,52.96950240770466,52.96950240770466,independent_platform_dictionary
+fp_253,[И2] Жилье,И2,utilities,utilities,Коммунальные услуги,10,623,16.051364365971107,16.051364365971107,independent_platform_dictionary
+fp_253,[И2] Жилье,И2,roads,roads,Дороги,0,623,0.0,0.0,independent_platform_dictionary
+fp_253,[И2] Жилье,И2,mobility,mobility,Перевозки,2,623,3.2102728731942216,3.2102728731942216,independent_platform_dictionary
+fp_253,[И2] Жилье,И2,environment,environment,Среда населённых пунктов,0,623,0.0,0.0,independent_platform_dictionary
+fp_253,[И2] Жилье,И2,safety,safety,Безопасность движения,1,623,1.6051364365971108,1.6051364365971108,independent_platform_dictionary
+fp_253,[И2] Жилье,И2,digital,digital,Цифровые решения,2,623,3.2102728731942216,3.2102728731942216,independent_platform_dictionary
+fp_253,[И2] Жилье,И2,inclusion,inclusion,Доступность и включение,3,623,4.815409309791332,4.815409309791332,independent_platform_dictionary
+fp_254,[И6] Развитие общественного транспорта,И6,housing,housing,Жильё и ипотека,0,418,0.0,0.0,independent_platform_dictionary
+fp_254,[И6] Развитие общественного транспорта,И6,utilities,utilities,Коммунальные услуги,0,418,0.0,0.0,independent_platform_dictionary
+fp_254,[И6] Развитие общественного транспорта,И6,roads,roads,Дороги,2,418,4.784688995215311,4.784688995215311,independent_platform_dictionary
+fp_254,[И6] Развитие общественного транспорта,И6,mobility,mobility,Перевозки,48,418,114.83253588516747,114.83253588516747,independent_platform_dictionary
+fp_254,[И6] Развитие общественного транспорта,И6,environment,environment,Среда населённых пунктов,1,418,2.3923444976076556,2.3923444976076556,independent_platform_dictionary
+fp_254,[И6] Развитие общественного транспорта,И6,safety,safety,Безопасность движения,1,418,2.3923444976076556,2.3923444976076556,independent_platform_dictionary
+fp_254,[И6] Развитие общественного транспорта,И6,digital,digital,Цифровые решения,0,418,0.0,0.0,independent_platform_dictionary
+fp_254,[И6] Развитие общественного транспорта,И6,inclusion,inclusion,Доступность и включение,1,418,2.3923444976076556,2.3923444976076556,independent_platform_dictionary
+fp_259,[ИБ] Ипотека,ИБ,housing,housing,Жильё и ипотека,17,106,160.37735849056602,160.37735849056602,independent_platform_dictionary
+fp_259,[ИБ] Ипотека,ИБ,utilities,utilities,Коммунальные услуги,0,106,0.0,0.0,independent_platform_dictionary
+fp_259,[ИБ] Ипотека,ИБ,roads,roads,Дороги,0,106,0.0,0.0,independent_platform_dictionary
+fp_259,[ИБ] Ипотека,ИБ,mobility,mobility,Перевозки,0,106,0.0,0.0,independent_platform_dictionary
+fp_259,[ИБ] Ипотека,ИБ,environment,environment,Среда населённых пунктов,0,106,0.0,0.0,independent_platform_dictionary
+fp_259,[ИБ] Ипотека,ИБ,safety,safety,Безопасность движения,1,106,9.433962264150942,9.433962264150942,independent_platform_dictionary
+fp_259,[ИБ] Ипотека,ИБ,digital,digital,Цифровые решения,0,106,0.0,0.0,independent_platform_dictionary
+fp_259,[ИБ] Ипотека,ИБ,inclusion,inclusion,Доступность и включение,2,106,18.867924528301884,18.867924528301884,independent_platform_dictionary
+fp_260,[ИВ] Развитие железнодорожной инфраструктуры центрального транспортного узла,ИВ,housing,housing,Жильё и ипотека,0,103,0.0,0.0,independent_platform_dictionary
+fp_260,[ИВ] Развитие железнодорожной инфраструктуры центрального транспортного узла,ИВ,utilities,utilities,Коммунальные услуги,0,103,0.0,0.0,independent_platform_dictionary
+fp_260,[ИВ] Развитие железнодорожной инфраструктуры центрального транспортного узла,ИВ,roads,roads,Дороги,5,103,48.543689320388346,48.543689320388346,independent_platform_dictionary
+fp_260,[ИВ] Развитие железнодорожной инфраструктуры центрального транспортного узла,ИВ,mobility,mobility,Перевозки,12,103,116.50485436893204,116.50485436893204,independent_platform_dictionary
+fp_260,[ИВ] Развитие железнодорожной инфраструктуры центрального транспортного узла,ИВ,environment,environment,Среда населённых пунктов,0,103,0.0,0.0,independent_platform_dictionary
+fp_260,[ИВ] Развитие железнодорожной инфраструктуры центрального транспортного узла,ИВ,safety,safety,Безопасность движения,0,103,0.0,0.0,independent_platform_dictionary
+fp_260,[ИВ] Развитие железнодорожной инфраструктуры центрального транспортного узла,ИВ,digital,digital,Цифровые решения,0,103,0.0,0.0,independent_platform_dictionary
+fp_260,[ИВ] Развитие железнодорожной инфраструктуры центрального транспортного узла,ИВ,inclusion,inclusion,Доступность и включение,2,103,19.41747572815534,19.41747572815534,independent_platform_dictionary
+fp_262,[И8] Региональная и местная дорожная сеть,И8,housing,housing,Жильё и ипотека,0,398,0.0,0.0,independent_platform_dictionary
+fp_262,[И8] Региональная и местная дорожная сеть,И8,utilities,utilities,Коммунальные услуги,0,398,0.0,0.0,independent_platform_dictionary
+fp_262,[И8] Региональная и местная дорожная сеть,И8,roads,roads,Дороги,34,398,85.42713567839195,85.42713567839195,independent_platform_dictionary
+fp_262,[И8] Региональная и местная дорожная сеть,И8,mobility,mobility,Перевозки,4,398,10.050251256281408,10.050251256281408,independent_platform_dictionary
+fp_262,[И8] Региональная и местная дорожная сеть,И8,environment,environment,Среда населённых пунктов,2,398,5.025125628140704,5.025125628140704,independent_platform_dictionary
+fp_262,[И8] Региональная и местная дорожная сеть,И8,safety,safety,Безопасность движения,0,398,0.0,0.0,independent_platform_dictionary
+fp_262,[И8] Региональная и местная дорожная сеть,И8,digital,digital,Цифровые решения,0,398,0.0,0.0,independent_platform_dictionary
+fp_262,[И8] Региональная и местная дорожная сеть,И8,inclusion,inclusion,Доступность и включение,3,398,7.537688442211055,7.537688442211055,independent_platform_dictionary
+fp_265,[И1] Развитие инфраструктуры в населенных пунктах,И1,housing,housing,Жильё и ипотека,0,206,0.0,0.0,independent_platform_dictionary
+fp_265,[И1] Развитие инфраструктуры в населенных пунктах,И1,utilities,utilities,Коммунальные услуги,1,206,4.854368932038835,4.854368932038835,independent_platform_dictionary
+fp_265,[И1] Развитие инфраструктуры в населенных пунктах,И1,roads,roads,Дороги,0,206,0.0,0.0,independent_platform_dictionary
+fp_265,[И1] Развитие инфраструктуры в населенных пунктах,И1,mobility,mobility,Перевозки,4,206,19.41747572815534,19.41747572815534,independent_platform_dictionary
+fp_265,[И1] Развитие инфраструктуры в населенных пунктах,И1,environment,environment,Среда населённых пунктов,4,206,19.41747572815534,19.41747572815534,independent_platform_dictionary
+fp_265,[И1] Развитие инфраструктуры в населенных пунктах,И1,safety,safety,Безопасность движения,0,206,0.0,0.0,independent_platform_dictionary
+fp_265,[И1] Развитие инфраструктуры в населенных пунктах,И1,digital,digital,Цифровые решения,0,206,0.0,0.0,independent_platform_dictionary
+fp_265,[И1] Развитие инфраструктуры в населенных пунктах,И1,inclusion,inclusion,Доступность и включение,0,206,0.0,0.0,independent_platform_dictionary
+fp_266,[И7] Развитие федеральной сети,И7,housing,housing,Жильё и ипотека,0,166,0.0,0.0,independent_platform_dictionary
+fp_266,[И7] Развитие федеральной сети,И7,utilities,utilities,Коммунальные услуги,0,166,0.0,0.0,independent_platform_dictionary
+fp_266,[И7] Развитие федеральной сети,И7,roads,roads,Дороги,20,166,120.48192771084338,120.48192771084338,independent_platform_dictionary
+fp_266,[И7] Развитие федеральной сети,И7,mobility,mobility,Перевозки,2,166,12.048192771084338,12.048192771084338,independent_platform_dictionary
+fp_266,[И7] Развитие федеральной сети,И7,environment,environment,Среда населённых пунктов,0,166,0.0,0.0,independent_platform_dictionary
+fp_266,[И7] Развитие федеральной сети,И7,safety,safety,Безопасность движения,1,166,6.024096385542169,6.024096385542169,independent_platform_dictionary
+fp_266,[И7] Развитие федеральной сети,И7,digital,digital,Цифровые решения,0,166,0.0,0.0,independent_platform_dictionary
+fp_266,[И7] Развитие федеральной сети,И7,inclusion,inclusion,Доступность и включение,0,166,0.0,0.0,independent_platform_dictionary
+fp_267,[И9] Общесистемные меры развития дорожного хозяйства,И9,housing,housing,Жильё и ипотека,0,460,0.0,0.0,independent_platform_dictionary
+fp_267,[И9] Общесистемные меры развития дорожного хозяйства,И9,utilities,utilities,Коммунальные услуги,0,460,0.0,0.0,independent_platform_dictionary
+fp_267,[И9] Общесистемные меры развития дорожного хозяйства,И9,roads,roads,Дороги,26,460,56.52173913043478,56.52173913043478,independent_platform_dictionary
+fp_267,[И9] Общесистемные меры развития дорожного хозяйства,И9,mobility,mobility,Перевозки,15,460,32.608695652173914,32.608695652173914,independent_platform_dictionary
+fp_267,[И9] Общесистемные меры развития дорожного хозяйства,И9,environment,environment,Среда населённых пунктов,0,460,0.0,0.0,independent_platform_dictionary
+fp_267,[И9] Общесистемные меры развития дорожного хозяйства,И9,safety,safety,Безопасность движения,7,460,15.217391304347826,15.217391304347826,independent_platform_dictionary
+fp_267,[И9] Общесистемные меры развития дорожного хозяйства,И9,digital,digital,Цифровые решения,5,460,10.869565217391305,10.869565217391305,independent_platform_dictionary
+fp_267,[И9] Общесистемные меры развития дорожного хозяйства,И9,inclusion,inclusion,Доступность и включение,0,460,0.0,0.0,independent_platform_dictionary
+fp_297,[И4] Формирование комфортной городской среды,И4,housing,housing,Жильё и ипотека,1,183,5.46448087431694,5.46448087431694,independent_platform_dictionary
+fp_297,[И4] Формирование комфортной городской среды,И4,utilities,utilities,Коммунальные услуги,1,183,5.46448087431694,5.46448087431694,independent_platform_dictionary
+fp_297,[И4] Формирование комфортной городской среды,И4,roads,roads,Дороги,0,183,0.0,0.0,independent_platform_dictionary
+fp_297,[И4] Формирование комфортной городской среды,И4,mobility,mobility,Перевозки,0,183,0.0,0.0,independent_platform_dictionary
+fp_297,[И4] Формирование комфортной городской среды,И4,environment,environment,Среда населённых пунктов,13,183,71.03825136612022,71.03825136612022,independent_platform_dictionary
+fp_297,[И4] Формирование комфортной городской среды,И4,safety,safety,Безопасность движения,0,183,0.0,0.0,independent_platform_dictionary
+fp_297,[И4] Формирование комфортной городской среды,И4,digital,digital,Цифровые решения,0,183,0.0,0.0,independent_platform_dictionary
+fp_297,[И4] Формирование комфортной городской среды,И4,inclusion,inclusion,Доступность и включение,0,183,0.0,0.0,independent_platform_dictionary
+np_18,[И] Инфраструктура для жизни,И,housing,housing,Жильё и ипотека,10,514,19.45525291828794,19.45525291828794,independent_platform_dictionary
+np_18,[И] Инфраструктура для жизни,И,utilities,utilities,Коммунальные услуги,7,514,13.618677042801556,13.618677042801556,independent_platform_dictionary
+np_18,[И] Инфраструктура для жизни,И,roads,roads,Дороги,17,514,33.0739299610895,33.0739299610895,independent_platform_dictionary
+np_18,[И] Инфраструктура для жизни,И,mobility,mobility,Перевозки,19,514,36.964980544747085,36.964980544747085,independent_platform_dictionary
+np_18,[И] Инфраструктура для жизни,И,environment,environment,Среда населённых пунктов,8,514,15.56420233463035,15.56420233463035,independent_platform_dictionary
+np_18,[И] Инфраструктура для жизни,И,safety,safety,Безопасность движения,9,514,17.509727626459146,17.509727626459146,independent_platform_dictionary
+np_18,[И] Инфраструктура для жизни,И,digital,digital,Цифровые решения,2,514,3.8910505836575875,3.8910505836575875,independent_platform_dictionary
+np_18,[И] Инфраструктура для жизни,И,inclusion,inclusion,Доступность и включение,2,514,3.8910505836575875,3.8910505836575875,independent_platform_dictionary

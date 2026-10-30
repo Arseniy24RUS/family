@@ -1,0 +1,1272 @@
+{
+  "document": {
+    "project_id": "efficient_transport",
+    "kind": "np",
+    "id": "np_20",
+    "url": "https://databudget.ru/projects/np/20",
+    "sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+    "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/d2/d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d.html",
+    "document_id": "np_20",
+    "code": "Т",
+    "title": "[Т] Транспорт",
+    "publisher_version": "26.35",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "national",
+    "profile_token_count": 225,
+    "n_tokens": 225,
+    "source_url": "https://databudget.ru/projects/np/20",
+    "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+    "profile_text_sha256": "de13bbc0119e9fd97c9570f1a9a11e4e1113c7daede1daa43ca40d073bbf1f5c",
+    "archive_entry": "efficient_transport/np_20.html",
+    "bytes": 383413,
+    "download_path": "downloads/projects/efficient_transport/documentary/sources/np_20.html",
+    "profile_original_document_id": "html:d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "np_20:profile1",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "созданы условия для увеличения грузопотока по северному морскому пути не менее чем в 3 раза к уровню 2023 года для удовлетворения потребностей крупного бизнеса (грузоотправители и грузополучатели)",
+      "node_id": "np_20:passport-task-03:83875dcde77ed500",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 22,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile2",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "обеспечен рост авиационной подвижности населения российской федерации к 2030 году не менее чем на 50 % (к уровню 2023 года), в том числе за счет развития инфраструктуры опорной сети аэродромов",
+      "node_id": "np_20:passport-task-01:4dbf9c23492a0959",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile3",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "обеспеченность транспортной отрасли квалифицированными кадрами увеличена не менее чем в 2 раз к уровню 2023 года для возможности удовлетворения потребности населения и экономики российской федерации в комфортных и безопасных перевозках",
+      "node_id": "np_20:passport-task-04:afc03bf5727c94d0",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile4",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 3% и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2023 года",
+      "node_id": "np_20:passport-task-02:8a7da69d07977c72",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 24,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile5",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года)",
+      "node_id": "np_20:passport-task-07:8043bb03f192ed43",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile6",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 6,5 % и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2024 года",
+      "node_id": "np_20:passport-task-06:f5fb9ff5d71e0d25",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 24,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile7",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "к 2030 году созданы условия для обучения кадров по конвенционным и эксплуатационным специальностям для транспортной отрасли в целях возможности удовлетворения потребности населения и экономики российской федерации в комфортных и безопасных перевозках",
+      "node_id": "np_20:passport-task-05:6db36690ad00a710",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 24,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile8",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "goal",
+      "text": "формирование эффективной транспортной системы, удовлетворяющей спрос населения и экономики российской федерации, в том числе в увеличении объема перевозок по международным транспортным коридорам, за счет развития магистральной инфраструктуры единой опорной транспортной сети",
+      "node_id": "np_20:goal:e141bedfe352c256",
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 28,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile9",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "рост мощности инфраструктуры единой опорной транспортной сети",
+      "node_id": "np_20:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile10",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "индекс цифровой трансформации грузоперевозок",
+      "node_id": "np_20:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 4,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile11",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "объем перевозок грузов в акватории северного морского пути",
+      "node_id": "np_20:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile12",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "авиационная подвижность населения российской федерации",
+      "node_id": "np_20:passport-purpose-4:6037cf73209c66ef",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 5,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "np_20:profile13",
+      "document_id": "np_20",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "доля обученных на обновленном оборудовании от среднегодовой численности занятых в транспортной отрасли",
+      "node_id": "np_20:passport-purpose-5:dc38845c3885b87f",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "n_tokens": 11,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "np_20:kwic1",
+      "document_id": "np_20",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "зках обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 3% и роста эффективности бюджетных инвестиций в транспортную инфраструктуру",
+      "unit_id": "np_20:profile4",
+      "unit_ids": [
+        "np_20:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic2",
+      "document_id": "np_20",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "ода) обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 6,5 % и роста эффективности бюджетных инвестиций в транспортную инфраструкт",
+      "unit_id": "np_20:profile6",
+      "unit_ids": [
+        "np_20:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic3",
+      "document_id": "np_20",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "руктуры единой опорной транспортной сети рост мощности инфраструктуры единой опорной транспортной сети индекс цифровой трансформации грузоперевозок объем перевозок грузов в акватории северного морского пути авиационная подвижнос",
+      "unit_id": "np_20:profile10",
+      "unit_ids": [
+        "np_20:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic4",
+      "document_id": "np_20",
+      "frame": "employment_skills",
+      "matched": "кадрами",
+      "context": "а счет развития инфраструктуры опорной сети аэродромов обеспеченность транспортной отрасли квалифицированными кадрами увеличена не менее чем в 2 раз к уровню 2023 года для возможности удовлетворения потребности населения и экон",
+      "unit_id": "np_20:profile3",
+      "unit_ids": [
+        "np_20:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic5",
+      "document_id": "np_20",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": " инвестиций в транспортную инфраструктуру до 101% к уровню 2024 года к 2030 году созданы условия для обучения кадров по конвенционным и эксплуатационным специальностям для транспортной отрасли в целях возможности удовлетворени",
+      "unit_id": "np_20:profile7",
+      "unit_ids": [
+        "np_20:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic6",
+      "document_id": "np_20",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": " по северному морскому пути не менее чем в 3 раза к уровню 2023 года для удовлетворения потребностей крупного бизнеса (грузоотправители и грузополучатели) обеспечен рост авиационной подвижности населения российской федерации к ",
+      "unit_id": "np_20:profile1",
+      "unit_ids": [
+        "np_20:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic7",
+      "document_id": "np_20",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "едерации в комфортных и безопасных перевозках обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 3% и роста эффективности бюджетны",
+      "unit_id": "np_20:profile4",
+      "unit_ids": [
+        "np_20:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic8",
+      "document_id": "np_20",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "государства и населения за счет цифровой трансформации документооборота до 3% и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2023 года увеличена мощность магистральной инфраструктуры един",
+      "unit_id": "np_20:profile4",
+      "unit_ids": [
+        "np_20:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic9",
+      "document_id": "np_20",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "раза по итогам 2030 года (к уровню 2024 года) обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 6,5 % и роста эффективности бюдже",
+      "unit_id": "np_20:profile6",
+      "unit_ids": [
+        "np_20:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic10",
+      "document_id": "np_20",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ударства и населения за счет цифровой трансформации документооборота до 6,5 % и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2024 года к 2030 году созданы условия для обучения кадров по к",
+      "unit_id": "np_20:profile6",
+      "unit_ids": [
+        "np_20:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic11",
+      "document_id": "np_20",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "оперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 3% и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2023 года увеличена мощность магистрально",
+      "unit_id": "np_20:profile4",
+      "unit_ids": [
+        "np_20:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic12",
+      "document_id": "np_20",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "ревозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 6,5 % и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2024 года к 2030 году созданы условия для",
+      "unit_id": "np_20:profile6",
+      "unit_ids": [
+        "np_20:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic13",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "авиационной",
+      "context": "023 года для удовлетворения потребностей крупного бизнеса (грузоотправители и грузополучатели) обеспечен рост авиационной подвижности населения российской федерации к 2030 году не менее чем на 50 % (к уровню 2023 года), в том числе",
+      "unit_id": "np_20:profile2",
+      "unit_ids": [
+        "np_20:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic14",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "50 % (к уровню 2023 года), в том числе за счет развития инфраструктуры опорной сети аэродромов обеспеченность транспортной отрасли квалифицированными кадрами увеличена не менее чем в 2 раз к уровню 2023 года для возможности удовлетв",
+      "unit_id": "np_20:profile3",
+      "unit_ids": [
+        "np_20:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic15",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "перевозках",
+      "context": "я возможности удовлетворения потребности населения и экономики российской федерации в комфортных и безопасных перевозках обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифр",
+      "unit_id": "np_20:profile3",
+      "unit_ids": [
+        "np_20:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic16",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортную",
+      "context": " населения за счет цифровой трансформации документооборота до 3% и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2023 года увеличена мощность магистральной инфраструктуры единой опорной тран",
+      "unit_id": "np_20:profile4",
+      "unit_ids": [
+        "np_20:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic17",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "тную инфраструктуру до 101% к уровню 2023 года увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "np_20:profile5",
+      "unit_ids": [
+        "np_20:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[5]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic18",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортную",
+      "context": "селения за счет цифровой трансформации документооборота до 6,5 % и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2024 года к 2030 году созданы условия для обучения кадров по конвенционным и ",
+      "unit_id": "np_20:profile6",
+      "unit_ids": [
+        "np_20:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic19",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "4 года к 2030 году созданы условия для обучения кадров по конвенционным и эксплуатационным специальностям для транспортной отрасли в целях возможности удовлетворения потребности населения и экономики российской федерации в комфортны",
+      "unit_id": "np_20:profile7",
+      "unit_ids": [
+        "np_20:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic20",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "перевозках",
+      "context": "х возможности удовлетворения потребности населения и экономики российской федерации в комфортных и безопасных перевозках формирование эффективной транспортной системы, удовлетворяющей спрос населения и экономики российской федерац",
+      "unit_id": "np_20:profile7",
+      "unit_ids": [
+        "np_20:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic21",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "ости населения и экономики российской федерации в комфортных и безопасных перевозках формирование эффективной транспортной системы, удовлетворяющей спрос населения и экономики российской федерации, в том числе в увеличении объема пе",
+      "unit_id": "np_20:profile8",
+      "unit_ids": [
+        "np_20:profile8"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic22",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": "ой системы, удовлетворяющей спрос населения и экономики российской федерации, в том числе в увеличении объема перевозок по международным транспортным коридорам, за счет развития магистральной инфраструктуры единой опорной транспо",
+      "unit_id": "np_20:profile8",
+      "unit_ids": [
+        "np_20:profile8"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic23",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортным",
+      "context": " спрос населения и экономики российской федерации, в том числе в увеличении объема перевозок по международным транспортным коридорам, за счет развития магистральной инфраструктуры единой опорной транспортной сети рост мощности инфра",
+      "unit_id": "np_20:profile8",
+      "unit_ids": [
+        "np_20:profile8"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic24",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "ревозок по международным транспортным коридорам, за счет развития магистральной инфраструктуры единой опорной транспортной сети рост мощности инфраструктуры единой опорной транспортной сети индекс цифровой трансформации грузоперевоз",
+      "unit_id": "np_20:profile8",
+      "unit_ids": [
+        "np_20:profile8"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic25",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "тия магистральной инфраструктуры единой опорной транспортной сети рост мощности инфраструктуры единой опорной транспортной сети индекс цифровой трансформации грузоперевозок объем перевозок грузов в акватории северного морского пути ",
+      "unit_id": "np_20:profile9",
+      "unit_ids": [
+        "np_20:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic26",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": "т мощности инфраструктуры единой опорной транспортной сети индекс цифровой трансформации грузоперевозок объем перевозок грузов в акватории северного морского пути авиационная подвижность населения российской федерации доля обучен",
+      "unit_id": "np_20:profile11",
+      "unit_ids": [
+        "np_20:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic27",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "авиационная",
+      "context": " сети индекс цифровой трансформации грузоперевозок объем перевозок грузов в акватории северного морского пути авиационная подвижность населения российской федерации доля обученных на обновленном оборудовании от среднегодовой числен",
+      "unit_id": "np_20:profile12",
+      "unit_ids": [
+        "np_20:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic28",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "еления российской федерации доля обученных на обновленном оборудовании от среднегодовой численности занятых в транспортной отрасли",
+      "unit_id": "np_20:profile13",
+      "unit_ids": [
+        "np_20:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[5]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "np_20:kwic1",
+      "document_id": "np_20",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "зках обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 3% и роста эффективности бюджетных инвестиций в транспортную инфраструктуру",
+      "unit_id": "np_20:profile4",
+      "unit_ids": [
+        "np_20:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic2",
+      "document_id": "np_20",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "ода) обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 6,5 % и роста эффективности бюджетных инвестиций в транспортную инфраструкт",
+      "unit_id": "np_20:profile6",
+      "unit_ids": [
+        "np_20:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic3",
+      "document_id": "np_20",
+      "frame": "digital_data",
+      "matched": "цифровой",
+      "context": "руктуры единой опорной транспортной сети рост мощности инфраструктуры единой опорной транспортной сети индекс цифровой трансформации грузоперевозок объем перевозок грузов в акватории северного морского пути авиационная подвижнос",
+      "unit_id": "np_20:profile10",
+      "unit_ids": [
+        "np_20:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic4",
+      "document_id": "np_20",
+      "frame": "employment_skills",
+      "matched": "кадрами",
+      "context": "а счет развития инфраструктуры опорной сети аэродромов обеспеченность транспортной отрасли квалифицированными кадрами увеличена не менее чем в 2 раз к уровню 2023 года для возможности удовлетворения потребности населения и экон",
+      "unit_id": "np_20:profile3",
+      "unit_ids": [
+        "np_20:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic5",
+      "document_id": "np_20",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": " инвестиций в транспортную инфраструктуру до 101% к уровню 2024 года к 2030 году созданы условия для обучения кадров по конвенционным и эксплуатационным специальностям для транспортной отрасли в целях возможности удовлетворени",
+      "unit_id": "np_20:profile7",
+      "unit_ids": [
+        "np_20:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic6",
+      "document_id": "np_20",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": " по северному морскому пути не менее чем в 3 раза к уровню 2023 года для удовлетворения потребностей крупного бизнеса (грузоотправители и грузополучатели) обеспечен рост авиационной подвижности населения российской федерации к ",
+      "unit_id": "np_20:profile1",
+      "unit_ids": [
+        "np_20:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic7",
+      "document_id": "np_20",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "едерации в комфортных и безопасных перевозках обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 3% и роста эффективности бюджетны",
+      "unit_id": "np_20:profile4",
+      "unit_ids": [
+        "np_20:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic8",
+      "document_id": "np_20",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "государства и населения за счет цифровой трансформации документооборота до 3% и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2023 года увеличена мощность магистральной инфраструктуры един",
+      "unit_id": "np_20:profile4",
+      "unit_ids": [
+        "np_20:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic9",
+      "document_id": "np_20",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "раза по итогам 2030 года (к уровню 2024 года) обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 6,5 % и роста эффективности бюдже",
+      "unit_id": "np_20:profile6",
+      "unit_ids": [
+        "np_20:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic10",
+      "document_id": "np_20",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ударства и населения за счет цифровой трансформации документооборота до 6,5 % и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2024 года к 2030 году созданы условия для обучения кадров по к",
+      "unit_id": "np_20:profile6",
+      "unit_ids": [
+        "np_20:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic11",
+      "document_id": "np_20",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "оперевозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 3% и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2023 года увеличена мощность магистрально",
+      "unit_id": "np_20:profile4",
+      "unit_ids": [
+        "np_20:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic12",
+      "document_id": "np_20",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "ревозок для бизнеса, государства и населения за счет цифровой трансформации документооборота до 6,5 % и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2024 года к 2030 году созданы условия для",
+      "unit_id": "np_20:profile6",
+      "unit_ids": [
+        "np_20:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic13",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "авиационной",
+      "context": "023 года для удовлетворения потребностей крупного бизнеса (грузоотправители и грузополучатели) обеспечен рост авиационной подвижности населения российской федерации к 2030 году не менее чем на 50 % (к уровню 2023 года), в том числе",
+      "unit_id": "np_20:profile2",
+      "unit_ids": [
+        "np_20:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic14",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "50 % (к уровню 2023 года), в том числе за счет развития инфраструктуры опорной сети аэродромов обеспеченность транспортной отрасли квалифицированными кадрами увеличена не менее чем в 2 раз к уровню 2023 года для возможности удовлетв",
+      "unit_id": "np_20:profile3",
+      "unit_ids": [
+        "np_20:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic15",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "перевозках",
+      "context": "я возможности удовлетворения потребности населения и экономики российской федерации в комфортных и безопасных перевозках обеспечено повышение качества и безопасности грузоперевозок для бизнеса, государства и населения за счет цифр",
+      "unit_id": "np_20:profile3",
+      "unit_ids": [
+        "np_20:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic16",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортную",
+      "context": " населения за счет цифровой трансформации документооборота до 3% и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2023 года увеличена мощность магистральной инфраструктуры единой опорной тран",
+      "unit_id": "np_20:profile4",
+      "unit_ids": [
+        "np_20:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic17",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "тную инфраструктуру до 101% к уровню 2023 года увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "np_20:profile5",
+      "unit_ids": [
+        "np_20:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[5]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic18",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортную",
+      "context": "селения за счет цифровой трансформации документооборота до 6,5 % и роста эффективности бюджетных инвестиций в транспортную инфраструктуру до 101% к уровню 2024 года к 2030 году созданы условия для обучения кадров по конвенционным и ",
+      "unit_id": "np_20:profile6",
+      "unit_ids": [
+        "np_20:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[6]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic19",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "4 года к 2030 году созданы условия для обучения кадров по конвенционным и эксплуатационным специальностям для транспортной отрасли в целях возможности удовлетворения потребности населения и экономики российской федерации в комфортны",
+      "unit_id": "np_20:profile7",
+      "unit_ids": [
+        "np_20:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic20",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "перевозках",
+      "context": "х возможности удовлетворения потребности населения и экономики российской федерации в комфортных и безопасных перевозках формирование эффективной транспортной системы, удовлетворяющей спрос населения и экономики российской федерац",
+      "unit_id": "np_20:profile7",
+      "unit_ids": [
+        "np_20:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[7]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic21",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "ости населения и экономики российской федерации в комфортных и безопасных перевозках формирование эффективной транспортной системы, удовлетворяющей спрос населения и экономики российской федерации, в том числе в увеличении объема пе",
+      "unit_id": "np_20:profile8",
+      "unit_ids": [
+        "np_20:profile8"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic22",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": "ой системы, удовлетворяющей спрос населения и экономики российской федерации, в том числе в увеличении объема перевозок по международным транспортным коридорам, за счет развития магистральной инфраструктуры единой опорной транспо",
+      "unit_id": "np_20:profile8",
+      "unit_ids": [
+        "np_20:profile8"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic23",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортным",
+      "context": " спрос населения и экономики российской федерации, в том числе в увеличении объема перевозок по международным транспортным коридорам, за счет развития магистральной инфраструктуры единой опорной транспортной сети рост мощности инфра",
+      "unit_id": "np_20:profile8",
+      "unit_ids": [
+        "np_20:profile8"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic24",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "ревозок по международным транспортным коридорам, за счет развития магистральной инфраструктуры единой опорной транспортной сети рост мощности инфраструктуры единой опорной транспортной сети индекс цифровой трансформации грузоперевоз",
+      "unit_id": "np_20:profile8",
+      "unit_ids": [
+        "np_20:profile8"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[4]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic25",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "тия магистральной инфраструктуры единой опорной транспортной сети рост мощности инфраструктуры единой опорной транспортной сети индекс цифровой трансформации грузоперевозок объем перевозок грузов в акватории северного морского пути ",
+      "unit_id": "np_20:profile9",
+      "unit_ids": [
+        "np_20:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic26",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": "т мощности инфраструктуры единой опорной транспортной сети индекс цифровой трансформации грузоперевозок объем перевозок грузов в акватории северного морского пути авиационная подвижность населения российской федерации доля обучен",
+      "unit_id": "np_20:profile11",
+      "unit_ids": [
+        "np_20:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic27",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "авиационная",
+      "context": " сети индекс цифровой трансформации грузоперевозок объем перевозок грузов в акватории северного морского пути авиационная подвижность населения российской федерации доля обученных на обновленном оборудовании от среднегодовой числен",
+      "unit_id": "np_20:profile12",
+      "unit_ids": [
+        "np_20:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "np_20:kwic28",
+      "document_id": "np_20",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "еления российской федерации доля обученных на обновленном оборудовании от среднегодовой численности занятых в транспортной отрасли",
+      "unit_id": "np_20:profile13",
+      "unit_ids": [
+        "np_20:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[5]"
+      ],
+      "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "source_url": "https://databudget.ru/projects/np/20",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/np/20",
+  "source_sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d"
+}

@@ -1,0 +1,75 @@
+{
+  "project_id": "international_export",
+  "sources": [
+    {
+      "year": 2024,
+      "url": "https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx",
+      "local_file": "downloads/projects/international_export/context/cbr_services_regions_2024.xlsx",
+      "sha256": "5ed31def076acd304e6d3cbf4d8201ef31cd7036f398ebb8f479a8392dee08a2",
+      "bytes": 74220,
+      "source_updated": "Дата последнего обновления: 14 октября 2026 года.",
+      "retrieved_at": "2026-10-30"
+    },
+    {
+      "year": 2025,
+      "url": "https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx",
+      "local_file": "downloads/projects/international_export/context/cbr_services_regions_2025.xlsx",
+      "sha256": "e02d2dbf49817ac96a0758606e73ac95ceb98c0259e439ec0379c91a988162cb",
+      "bytes": 74675,
+      "source_updated": "Дата последнего обновления: 14 июля 2026 года.",
+      "retrieved_at": "2026-10-30"
+    }
+  ],
+  "regional_rows": 170,
+  "regions": 85,
+  "excluded_aggregate_rows": 20,
+  "reconciliation": [
+    {
+      "year": 2024,
+      "regional_sum": 40978.15,
+      "unallocated": 1354.48,
+      "national": 42332.2,
+      "residual": 0.43,
+      "tolerance": 0.435,
+      "unit": "млн долларов США",
+      "note": "Расхождение суммы опубликованных округлённых ячеек и национального итога сохраняется. Верхняя граница округления: (85 субъектов + нераспределённая сумма + национальный итог) × 0,005 млн долларов США."
+    },
+    {
+      "year": 2025,
+      "regional_sum": 44995.71,
+      "unallocated": 1268.04,
+      "national": 46264.08,
+      "residual": -0.33,
+      "tolerance": 0.435,
+      "unit": "млн долларов США",
+      "note": "Расхождение суммы опубликованных округлённых ячеек и национального итога сохраняется. Верхняя граница округления: (85 субъектов + нераспределённая сумма + национальный итог) × 0,005 млн долларов США."
+    }
+  ],
+  "concentration": [
+    {
+      "year": 2024,
+      "n_regions": 85,
+      "allocated_million_usd": 40978.15,
+      "hhi_allocated": 0.22382343401063262,
+      "top10_share_national_pct": 78.47333708146517,
+      "top10_share_allocated_pct": 81.06634877367573,
+      "moscow_share_national_pct": 43.684641951044355
+    },
+    {
+      "year": 2025,
+      "n_regions": 85,
+      "allocated_million_usd": 44995.71,
+      "hhi_allocated": 0.24262762329269644,
+      "top10_share_national_pct": 79.29702698075916,
+      "top10_share_allocated_pct": 81.53230607984628,
+      "moscow_share_national_pct": 45.914605888628934
+    }
+  ],
+  "growth_summary": {
+    "increased": 63,
+    "decreased": 22,
+    "unchanged": 0,
+    "comparable_regions": 85
+  },
+  "status": "passed"
+}

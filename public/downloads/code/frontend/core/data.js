@@ -1,9 +1,18 @@
-const memo = new Map();
-export async function json(path) { if (!memo.has(path))
-    memo.set(path, fetch('./' + path).then(r => { if (!r.ok)
-        throw Error(`Файл ${path}: HTTP ${r.status}`); return r.json(); }).catch(e => { memo.delete(path); throw e; })); return memo.get(path); }
-export async function bootstrap() { const [catalog, research, manifest, currentCatalog, currentResearch] = await Promise.all([json('data/catalog.json'), json('data/research.json'), json('data/latest/manifest.json'), json('data/current/catalog.json'), json('data/current/research.json')]); return { catalog:currentCatalog, research:{...research,...currentResearch}, manifest, archive:{catalog,research} }; }
-export async function series(id, mode = 'latest', manifest = null) { manifest ??= await json('data/latest/manifest.json'); const info = manifest.sources?.find(s => s.source_id === id); const latest = mode !== 'baseline' && info?.published_file; const packet = await json(latest || `data/baseline/${id}.json`); const rows = packet.rows.map(x => Object.fromEntries(packet.columns.map((k, i) => [k, x[i]]))); return { ...packet, rows, usingLatest: !!latest, latestInfo: info, stale: !!latest && !['updated','unchanged'].includes(info?.state) }; }
+import {createAsyncCache} from './cache.js';
+/** One bounded cache for project JSON; retries and concurrent views share work. */
+export function createJSONLoader(fetcher = (...args) => globalThis.fetch(...args), {maxEntries = 24} = {}) {
+    const memo = createAsyncCache({maxEntries});
+    return function loadJSON(path) {
+        const key = String(path).replace(/^\.\//, '');
+        return memo.getOrCreate(key, () => fetcher('./' + key, {cache: 'no-cache'}).then(response => {
+                if (!response.ok) throw Error(`Файл ${key}: HTTP ${response.status}`);
+                return response.json();
+            }));
+    };
+}
+export const json = createJSONLoader();
+export async function bootstrap() { const [research, manifest, currentCatalog, currentResearch] = await Promise.all([json('data/research.json'), json('data/latest/manifest.json'), json('data/current/catalog.json'), json('data/current/research.json')]); return { catalog:currentCatalog, research:{...research,...currentResearch}, manifest }; }
+export async function series(id, mode = 'latest', manifest = null) { manifest ??= await json('data/latest/manifest.json'); const info = manifest.sources?.find(s => s.source_id === id); const latest = info?.published_file; if (!latest) throw Error(`Для источника ${id} не опубликованы актуальные данные.`); const packet = await json(latest); if(packet.source_id!==id) throw Error(`Источник ${id}: опубликованный пакет относится к другому источнику.`); const rows = packet.rows.map(x => Object.fromEntries(packet.columns.map((k, i) => [k, x[i]]))); return { ...packet, rows, usingLatest: true, latestInfo: info, stale: !['updated','unchanged'].includes(info?.state) }; }
 // Preserve source values for audit/export, but never treat flagged values as usable measurements.
 export function analyticalRow(row) { return row?.flag ? {...row, rawValue:row.value, value:null, detail:'Исключено из расчёта: '+qualityFlag(row.flag)+(Number.isFinite(row.value)?' · исходное значение '+row.value:'')} : row; }
 export function qualityFlag(flag) { return ({outside_0_100:'доля вне диапазона 0–100%',negative:'отрицательное значение',missing:'пропуск',conflicting_values:'противоречивые значения'})[flag] || flag; }

@@ -1,0 +1,700 @@
+{
+  "document": {
+    "project_id": "efficient_transport",
+    "kind": "fp",
+    "id": "fp_271",
+    "url": "https://databudget.ru/projects/fp/271",
+    "sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+    "retrieved_at": "2026-10-19T14:38:32.211089+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/e0/e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490.html",
+    "document_id": "fp_271",
+    "code": "Т4",
+    "title": "[Т4] Морские порты",
+    "publisher_version": "26.7",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 124,
+    "n_tokens": 124,
+    "source_url": "https://databudget.ru/projects/fp/271",
+    "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+    "profile_text_sha256": "5d2bdf62e41059195b3696e452772f9784af270f01dea45b327881fe19d47225",
+    "archive_entry": "efficient_transport/fp_271.html",
+    "bytes": 598641,
+    "download_path": "downloads/projects/efficient_transport/documentary/sources/fp_271.html",
+    "profile_original_document_id": "html:e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_271:profile1",
+      "document_id": "fp_271",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года)",
+      "node_id": "fp_271:passport-task-07:3ae369840cddd816",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "n_tokens": 23,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_271:profile2",
+      "document_id": "fp_271",
+      "project_id": "efficient_transport",
+      "kind": "goal",
+      "text": "увеличена мощность опорной сети морских портов в составе единой опорной транспортной сети для удовлетворения растущих потребностей государства и бизнеса за счет создания объектов инфраструктуры морских портов.",
+      "node_id": "fp_271:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "n_tokens": 24,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_271:profile3",
+      "document_id": "fp_271",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "созданы объекты инфраструктуры морских портов реализованы мероприятия (увеличены мощности морских портов) направленные на обеспечение потребности по перевалке растущих объемов экспортной продукции по международным транспортным коридорам в направлении мтк север - юг, в северо-западном, восточном и азово-черноморском направлениях (в том числе для обеспечения транзитных и экспортно-импортных грузопотоков)",
+      "node_id": "fp_271:passport-result-1:8c12445f9799d75d",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "n_tokens": 40,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_271:profile4",
+      "document_id": "fp_271",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "прирост мощности опорной сети морских портов на северо-западном направлении",
+      "node_id": "fp_271:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_271:profile5",
+      "document_id": "fp_271",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "прирост мощности опорной сети морских портов на мтк «север - юг»",
+      "node_id": "fp_271:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_271:profile6",
+      "document_id": "fp_271",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "прирост мощности опорной сети морских портов на восточном направлении",
+      "node_id": "fp_271:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_271:profile7",
+      "document_id": "fp_271",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "прирост мощности опорной сети морских портов на азово-черноморском направлении",
+      "node_id": "fp_271:passport-purpose-4:6037cf73209c66ef",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_271:kwic1",
+      "document_id": "fp_271",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "ских портов в составе единой опорной транспортной сети для удовлетворения растущих потребностей государства и бизнеса за счет создания объектов инфраструктуры морских портов. созданы объекты инфраструктуры морских портов реализ",
+      "unit_id": "fp_271:profile2",
+      "unit_ids": [
+        "fp_271:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic2",
+      "document_id": "fp_271",
+      "frame": "export_trade",
+      "matched": "экспортной",
+      "context": "тия (увеличены мощности морских портов) направленные на обеспечение потребности по перевалке растущих объемов экспортной продукции по международным транспортным коридорам в направлении мтк север - юг, в северо-западном, восточном ",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic3",
+      "document_id": "fp_271",
+      "frame": "export_trade",
+      "matched": "экспортно",
+      "context": " юг, в северо-западном, восточном и азово-черноморском направлениях (в том числе для обеспечения транзитных и экспортно-импортных грузопотоков) прирост мощности опорной сети морских портов на северо-западном направлении прирост м",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic4",
+      "document_id": "fp_271",
+      "frame": "export_trade",
+      "matched": "импортных",
+      "context": "еро-западном, восточном и азово-черноморском направлениях (в том числе для обеспечения транзитных и экспортно-импортных грузопотоков) прирост мощности опорной сети морских портов на северо-западном направлении прирост мощности оп",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic5",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_271:profile1",
+      "unit_ids": [
+        "fp_271:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic6",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "ации не менее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года) увеличена мощность опорной сети морских портов в составе единой опорной транспортной сети для удовлетворения растущих потребностей государства и бизнеса за ",
+      "unit_id": "fp_271:profile2",
+      "unit_ids": [
+        "fp_271:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic7",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "итогам 2030 года (к уровню 2024 года) увеличена мощность опорной сети морских портов в составе единой опорной транспортной сети для удовлетворения растущих потребностей государства и бизнеса за счет создания объектов инфраструктуры ",
+      "unit_id": "fp_271:profile2",
+      "unit_ids": [
+        "fp_271:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic8",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "я удовлетворения растущих потребностей государства и бизнеса за счет создания объектов инфраструктуры морских портов. созданы объекты инфраструктуры морских портов реализованы мероприятия (увеличены мощности морских портов) на",
+      "unit_id": "fp_271:profile2",
+      "unit_ids": [
+        "fp_271:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic9",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "тва и бизнеса за счет создания объектов инфраструктуры морских портов. созданы объекты инфраструктуры морских портов реализованы мероприятия (увеличены мощности морских портов) направленные на обеспечение потребности по перева",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic10",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "ких портов. созданы объекты инфраструктуры морских портов реализованы мероприятия (увеличены мощности морских портов) направленные на обеспечение потребности по перевалке растущих объемов экспортной продукции по международным ",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic11",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "транспортным",
+      "context": ") направленные на обеспечение потребности по перевалке растущих объемов экспортной продукции по международным транспортным коридорам в направлении мтк север - юг, в северо-западном, восточном и азово-черноморском направлениях (в том",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic12",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "ом числе для обеспечения транзитных и экспортно-импортных грузопотоков) прирост мощности опорной сети морских портов на северо-западном направлении прирост мощности опорной сети морских портов на мтк «север - юг» прирост мощно",
+      "unit_id": "fp_271:profile4",
+      "unit_ids": [
+        "fp_271:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic13",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "ост мощности опорной сети морских портов на северо-западном направлении прирост мощности опорной сети морских портов на мтк «север - юг» прирост мощности опорной сети морских портов на восточном направлении прирост мощности оп",
+      "unit_id": "fp_271:profile5",
+      "unit_ids": [
+        "fp_271:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic14",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "влении прирост мощности опорной сети морских портов на мтк «север - юг» прирост мощности опорной сети морских портов на восточном направлении прирост мощности опорной сети морских портов на азово-черноморском направлении",
+      "unit_id": "fp_271:profile6",
+      "unit_ids": [
+        "fp_271:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic15",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "» прирост мощности опорной сети морских портов на восточном направлении прирост мощности опорной сети морских портов на азово-черноморском направлении",
+      "unit_id": "fp_271:profile7",
+      "unit_ids": [
+        "fp_271:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_271:kwic1",
+      "document_id": "fp_271",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "ских портов в составе единой опорной транспортной сети для удовлетворения растущих потребностей государства и бизнеса за счет создания объектов инфраструктуры морских портов. созданы объекты инфраструктуры морских портов реализ",
+      "unit_id": "fp_271:profile2",
+      "unit_ids": [
+        "fp_271:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic2",
+      "document_id": "fp_271",
+      "frame": "export_trade",
+      "matched": "экспортной",
+      "context": "тия (увеличены мощности морских портов) направленные на обеспечение потребности по перевалке растущих объемов экспортной продукции по международным транспортным коридорам в направлении мтк север - юг, в северо-западном, восточном ",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic3",
+      "document_id": "fp_271",
+      "frame": "export_trade",
+      "matched": "экспортно",
+      "context": " юг, в северо-западном, восточном и азово-черноморском направлениях (в том числе для обеспечения транзитных и экспортно-импортных грузопотоков) прирост мощности опорной сети морских портов на северо-западном направлении прирост м",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic4",
+      "document_id": "fp_271",
+      "frame": "export_trade",
+      "matched": "импортных",
+      "context": "еро-западном, восточном и азово-черноморском направлениях (в том числе для обеспечения транзитных и экспортно-импортных грузопотоков) прирост мощности опорной сети морских портов на северо-западном направлении прирост мощности оп",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic5",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "увеличена мощность магистральной инфраструктуры единой опорной транспортной сети для удовлетворения спроса экономики российской федерации не менее чем в 1,5 раза по итогам 2030 года (к ",
+      "unit_id": "fp_271:profile1",
+      "unit_ids": [
+        "fp_271:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic6",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "ации не менее чем в 1,5 раза по итогам 2030 года (к уровню 2024 года) увеличена мощность опорной сети морских портов в составе единой опорной транспортной сети для удовлетворения растущих потребностей государства и бизнеса за ",
+      "unit_id": "fp_271:profile2",
+      "unit_ids": [
+        "fp_271:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic7",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "итогам 2030 года (к уровню 2024 года) увеличена мощность опорной сети морских портов в составе единой опорной транспортной сети для удовлетворения растущих потребностей государства и бизнеса за счет создания объектов инфраструктуры ",
+      "unit_id": "fp_271:profile2",
+      "unit_ids": [
+        "fp_271:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic8",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "я удовлетворения растущих потребностей государства и бизнеса за счет создания объектов инфраструктуры морских портов. созданы объекты инфраструктуры морских портов реализованы мероприятия (увеличены мощности морских портов) на",
+      "unit_id": "fp_271:profile2",
+      "unit_ids": [
+        "fp_271:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic9",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "тва и бизнеса за счет создания объектов инфраструктуры морских портов. созданы объекты инфраструктуры морских портов реализованы мероприятия (увеличены мощности морских портов) направленные на обеспечение потребности по перева",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic10",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "ких портов. созданы объекты инфраструктуры морских портов реализованы мероприятия (увеличены мощности морских портов) направленные на обеспечение потребности по перевалке растущих объемов экспортной продукции по международным ",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic11",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "транспортным",
+      "context": ") направленные на обеспечение потребности по перевалке растущих объемов экспортной продукции по международным транспортным коридорам в направлении мтк север - юг, в северо-западном, восточном и азово-черноморском направлениях (в том",
+      "unit_id": "fp_271:profile3",
+      "unit_ids": [
+        "fp_271:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic12",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "ом числе для обеспечения транзитных и экспортно-импортных грузопотоков) прирост мощности опорной сети морских портов на северо-западном направлении прирост мощности опорной сети морских портов на мтк «север - юг» прирост мощно",
+      "unit_id": "fp_271:profile4",
+      "unit_ids": [
+        "fp_271:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic13",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "ост мощности опорной сети морских портов на северо-западном направлении прирост мощности опорной сети морских портов на мтк «север - юг» прирост мощности опорной сети морских портов на восточном направлении прирост мощности оп",
+      "unit_id": "fp_271:profile5",
+      "unit_ids": [
+        "fp_271:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic14",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "влении прирост мощности опорной сети морских портов на мтк «север - юг» прирост мощности опорной сети морских портов на восточном направлении прирост мощности опорной сети морских портов на азово-черноморском направлении",
+      "unit_id": "fp_271:profile6",
+      "unit_ids": [
+        "fp_271:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_271:kwic15",
+      "document_id": "fp_271",
+      "frame": "transport_logistics",
+      "matched": "портов",
+      "context": "» прирост мощности опорной сети морских портов на восточном направлении прирост мощности опорной сети морских портов на азово-черноморском направлении",
+      "unit_id": "fp_271:profile7",
+      "unit_ids": [
+        "fp_271:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[4]"
+      ],
+      "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "source_url": "https://databudget.ru/projects/fp/271",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/271",
+  "source_sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490"
+}

@@ -1,0 +1,25 @@
+{
+  "token_pattern": "(?u)\\b[а-яa-z][а-яa-z-]{1,}\\b",
+  "ngram_range": [
+    1,
+    2
+  ],
+  "max_features": 20000,
+  "min_df": 1,
+  "max_df": 0.98,
+  "sublinear_tf": true,
+  "smooth_idf": true,
+  "norm": "l2",
+  "shared_profiles_input": "inputs/personnel/documentary_inputs.json.gz",
+  "shared_profiles_download": "downloads/projects/personnel/documentary/documentary_inputs.json.gz",
+  "shared_profiles_sha256": "45af856c235b152dcbcae7daf112198af8b020a959eb89e556d9edea962d6265",
+  "source_code_download": "downloads/projects/personnel/documentary/original_code/text_analysis.py",
+  "source_code_sha256": "2f1249199e6baf44f05c198b462f952c30ddcf57ef83853fb4bc61f2b3469511",
+  "corpus_documents": 137,
+  "compared_structured_projects": 10,
+  "profile_aggregation": "normalize(mean(normalized document vectors))",
+  "equal_levels_formula": "normalize(0.5 * mean(NP normalized vectors) + 0.5 * mean(FP normalized vectors))",
+  "semantic_rule": "top3 indicators in same national project with cosine>=0.10",
+  "additional_variants": "Unigrams, equal-level, federal-only and national-only are platform sensitivity analyses. The report explicitly used surface and Russian stemming.",
+  "bigrams_cross_field_boundaries": true
+}

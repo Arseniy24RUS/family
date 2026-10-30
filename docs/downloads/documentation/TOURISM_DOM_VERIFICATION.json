@@ -1,0 +1,223 @@
+{
+  "schema": "tourism.dom-verification/1",
+  "date": "2026-10-29",
+  "environment": "Node + linkedom; no browser layout engine",
+  "routes": [
+    {
+      "page": "overview",
+      "heading": "Туризм и гостеприимство",
+      "text_characters": 18035,
+      "charts": 0,
+      "tables": 1,
+      "status": "passed"
+    },
+    {
+      "page": "framework",
+      "heading": "Предмет и методология",
+      "text_characters": 11334,
+      "charts": 0,
+      "tables": 1,
+      "status": "passed"
+    },
+    {
+      "page": "logic",
+      "heading": "Механизмы туристического развития",
+      "text_characters": 10372,
+      "charts": 0,
+      "tables": 3,
+      "status": "passed"
+    },
+    {
+      "page": "audit",
+      "heading": "Аудит показателей",
+      "text_characters": 51225,
+      "charts": 0,
+      "tables": 2,
+      "status": "passed"
+    },
+    {
+      "page": "targets",
+      "heading": "Цели и наблюдаемые результаты",
+      "text_characters": 50933,
+      "charts": 1,
+      "tables": 7,
+      "status": "passed"
+    },
+    {
+      "page": "map",
+      "heading": "Территориальные различия",
+      "text_characters": 21965,
+      "charts": 2,
+      "tables": 2,
+      "status": "passed"
+    },
+    {
+      "page": "regions",
+      "heading": "Региональные профили туризма",
+      "text_characters": 18173,
+      "charts": 1,
+      "tables": 2,
+      "status": "passed"
+    },
+    {
+      "page": "finance",
+      "heading": "Финансирование и стоимость результатов",
+      "text_characters": 77353,
+      "charts": 1,
+      "tables": 7,
+      "status": "passed"
+    },
+    {
+      "page": "network",
+      "heading": "Сеть мер и результатов",
+      "text_characters": 24839,
+      "charts": 1,
+      "tables": 4,
+      "status": "passed"
+    },
+    {
+      "page": "texts",
+      "heading": "Документы и смыслы",
+      "text_characters": 29554,
+      "charts": 0,
+      "tables": 5,
+      "status": "passed"
+    },
+    {
+      "page": "domains",
+      "heading": "Пять федеральных направлений",
+      "text_characters": 16066,
+      "charts": 0,
+      "tables": 2,
+      "status": "passed"
+    },
+    {
+      "page": "causal",
+      "heading": "Причинная оценка",
+      "text_characters": 7160,
+      "charts": 0,
+      "tables": 0,
+      "status": "passed"
+    },
+    {
+      "page": "proposals",
+      "heading": "Предложения экспертизы",
+      "text_characters": 9697,
+      "charts": 0,
+      "tables": 3,
+      "status": "passed"
+    },
+    {
+      "page": "projections",
+      "heading": "Плановые траектории",
+      "text_characters": 8335,
+      "charts": 1,
+      "tables": 3,
+      "status": "passed"
+    },
+    {
+      "page": "population",
+      "heading": "Участие в отдыхе и доступность",
+      "text_characters": 16442,
+      "charts": 0,
+      "tables": 2,
+      "status": "passed"
+    },
+    {
+      "page": "structure",
+      "heading": "Мощность, использование и результат",
+      "text_characters": 6674,
+      "charts": 0,
+      "tables": 1,
+      "status": "passed"
+    },
+    {
+      "page": "methods",
+      "heading": "Методы и ограничения",
+      "text_characters": 8467,
+      "charts": 0,
+      "tables": 2,
+      "status": "passed"
+    },
+    {
+      "page": "lab",
+      "heading": "Вычислительная лаборатория",
+      "text_characters": 4546,
+      "charts": 0,
+      "tables": 0,
+      "status": "passed"
+    },
+    {
+      "page": "explorer",
+      "heading": "Исследователь данных",
+      "text_characters": 14294,
+      "charts": 0,
+      "tables": 2,
+      "status": "passed"
+    },
+    {
+      "page": "library",
+      "heading": "Данные, документы и код",
+      "text_characters": 8839,
+      "charts": 0,
+      "tables": 2,
+      "status": "passed"
+    },
+    {
+      "page": "updates",
+      "heading": "Обновление ЕМИСС",
+      "text_characters": 9054,
+      "charts": 0,
+      "tables": 1,
+      "status": "passed"
+    }
+  ],
+  "scenarios": [
+    "targets:62900",
+    "targets:62159",
+    "targets:62903",
+    "targets:62902",
+    "targets:63347",
+    "targets:62780",
+    "finance:passport",
+    "finance:consolidation",
+    "finance:budget",
+    "finance:cost",
+    "network:structural",
+    "network:lexical",
+    "network:ambiguous",
+    "plan:2.14.П.2",
+    "plan:2.14.П.3",
+    "plan:2.14.П.1",
+    "plan:2.14.П3.2",
+    "plan:2.14.П3.1",
+    "plan:2.14.П3.3",
+    "plan:2.14.П2.1",
+    "plan:2.14.П1.1",
+    "plan:П04611-П4",
+    "plan:2.14.П4.1",
+    "plan:2.14.П5.1",
+    "map:map:85_regions_and_selection",
+    "map:tiles:85_regions_and_selection",
+    "explorer:territory_and_period_filter",
+    "text:project:search_and_state",
+    "text:fp_301:search_and_state",
+    "text:fp_303:search_and_state",
+    "text:fp_308:search_and_state",
+    "text:fp_309:search_and_state",
+    "text:fp_310:search_and_state",
+    "text:np_26:search_and_state",
+    "calculator:occupancy:valid_missing_zero",
+    "calculator:seasonality:valid_missing_zero",
+    "calculator:affordability:valid_missing_zero",
+    "calculator:cost:valid_missing_zero",
+    "calculator:did:valid_missing_zero"
+  ],
+  "local_links": 80,
+  "limitations": [
+    "CSS layout, actual desktop/mobile rendering and browser downloads were not verified. CUA backend failed to start."
+  ],
+  "status": "passed",
+  "route_count": 21,
+  "scenario_count": 39
+}

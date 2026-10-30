@@ -1,0 +1,998 @@
+{
+  "schema_version": 1,
+  "project_id": "data_economy",
+  "project_name": "Национальный проект «Экономика данных и цифровая трансформация государства»",
+  "release_version": "2.12.0-platform.1",
+  "statistical_as_of": "2026-10-15",
+  "documentary_as_of": "2026-10-16",
+  "release_date": "2026-10-29",
+  "author_expertise_status": "published",
+  "registry": {
+    "project_id": "data_economy",
+    "project_name": "Национальный проект «Экономика данных и цифровая трансформация государства»",
+    "n_registry": 49,
+    "n_with_numeric": 48,
+    "n_with_regional": 7,
+    "n_with_national": 48,
+    "n_unique_cells": 12159,
+    "n_numeric": 12159,
+    "n_usable": 12151,
+    "n_domain_violations": 0,
+    "n_review_exclusions": 8,
+    "coverage_pct": 97.95918367346938
+  },
+  "panel": {
+    "project_id": "data_economy",
+    "status": "recomputed_with_instability_evidence",
+    "period_end": "2026-09-30",
+    "n_regions": 85,
+    "n_features": 5,
+    "n_imputed_cells": 1,
+    "common_regional_panel": true,
+    "source_ids": [
+      "62760",
+      "62767",
+      "62766",
+      "62815",
+      "62763"
+    ],
+    "k": 2,
+    "silhouette": 0.2437408110804885,
+    "pc12_variance": 0.5138791052081269,
+    "pca_performed": true,
+    "clustering_performed": true,
+    "ranking_validated": false,
+    "eligible_seed_runs": 1,
+    "seed_runs": 7,
+    "eligible_feature_omissions": 1,
+    "feature_omissions": 5,
+    "spatial_autocorrelation_performed": false
+  },
+  "research": {
+    "project_id": "data_economy",
+    "project_name": "Национальный проект «Экономика данных и цифровая трансформация государства»",
+    "registry_indicators": 49,
+    "indicators_with_numeric": 48,
+    "indicators_with_regional": 7,
+    "observations_numeric": 12159,
+    "documents": 10,
+    "documentary_network_summary": {
+      "results": 90,
+      "indicators": 60,
+      "tasks": 34,
+      "goals": 10,
+      "standalone_tasks": 22,
+      "repeated_structure_tasks": 12,
+      "unresolved_weight_claims": 168,
+      "reviewed_direct_links": 0,
+      "shared_task_pairs": 632,
+      "result_task_links": 90,
+      "same_project_pairs": 673,
+      "semantic_candidates": 150,
+      "candidate_results": 68,
+      "results_without_candidate": 22,
+      "shared_task_density": 0.11703703703703704
+    },
+    "multivariate_status": "recomputed_with_seed_feature_and_time_sensitivity",
+    "passport_financing_2025_2030_thousand_rub": 1212749112.29,
+    "strict_financing_hhi": 0.23375492660070102,
+    "financing_status": "matching_years_reconciled_later_commitments_separate",
+    "causal_effect_status": "not_identified_in_existing_sources",
+    "author_expertise_text_status": "published"
+  },
+  "results": {
+    "project_id": "data_economy",
+    "project_name": "Национальный проект «Экономика данных и цифровая трансформация государства»",
+    "n_registry": 49,
+    "n_numeric_indicators": 48,
+    "n_regional_indicators": 7,
+    "n_forecast_indicators": 0,
+    "n_projected_series": 0,
+    "forecast_status": "model_not_validated",
+    "n_documented_target_indicators": 49,
+    "n_eligible_annual_comparisons": 0,
+    "n_conditional_target_comparisons": 44,
+    "target_status": "source_linked_comparisons_with_explicit_period_status"
+  },
+  "corpus": {
+    "documents": 137,
+    "projects": 11,
+    "project_documents": 10,
+    "document_kind": "fixed_mixed_text_corpus_with_structured_passport_comparison",
+    "project_passport_snapshot": "2026-10-16",
+    "compared_structured_projects": 10,
+    "text_profiles_sha256": "45af856c235b152dcbcae7daf112198af8b020a959eb89e556d9edea962d6265",
+    "passport_source_archive_documents": 98,
+    "passport_source_archive_projects": 12,
+    "passport_source_archive_sha256": "f2bc8d7256c46bda5f32c5856e93ca4ac620b7389c6fefa7fce1f8c8f2f941ae",
+    "qualification": "Текстовый корпус из 137 документов и общий архив из 98 паспортов имеют разный состав. Десять паспортов «Экономики данных» сверены с исходными HTML."
+  },
+  "method_summary": {
+    "total": 39,
+    "by_status": {
+      "author_framework_published": 1,
+      "source_structure_extracted": 1,
+      "source_inventory_extracted": 1,
+      "source_relationships_audited": 1,
+      "source_specific_contracts_verified": 1,
+      "computed_from_source_packets": 1,
+      "source_periods_preserved": 1,
+      "conditional_december_comparisons": 1,
+      "model_not_validated": 1,
+      "explicit_scope_mapping": 1,
+      "matched_source_slices": 1,
+      "unweighted_regions": 1,
+      "not_computed_in_current_report": 1,
+      "source_panel_recomputed": 1,
+      "computed_with_instability_evidence": 1,
+      "seed_feature_time_sensitivity_computed": 1,
+      "computed_multiple_initial_states": 1,
+      "not_recomputed_in_current_report": 2,
+      "descriptive_profiles_with_sensitivity": 1,
+      "source_values_and_standardization_published": 1,
+      "matching_horizon_plans_reconciled": 1,
+      "computed_common_horizon": 1,
+      "documentary_financial_boundaries_audited": 1,
+      "evidence_classes_separated": 1,
+      "fixed_corpus_audited": 1,
+      "dictionary_frames_audited": 1,
+      "source_corpus_and_sensitivity_audited": 1,
+      "not_computed": 3,
+      "source_contexts_published": 1,
+      "author_qualitative_analysis_published": 1,
+      "conditional_arithmetic_no_causal_effect": 1,
+      "design_proposed_effect_not_identified": 1,
+      "effect_not_identified": 1,
+      "author_synthesis_published": 1,
+      "not_implemented_without_transition_inputs": 1,
+      "source_backed_and_conditional_calculations": 1
+    }
+  },
+  "sections": [
+    {
+      "id": "framework",
+      "title": "Предмет и критерии оценки",
+      "question": "Какие вопросы ставит экспертиза и по каким критериям оценивается проект?",
+      "order": 1,
+      "publication_status": "published",
+      "evidence": "Техническая возможность, использование, завершённая услуга и дополнительный эффект требуют самостоятельных наблюдений."
+    },
+    {
+      "id": "logic",
+      "title": "Архитектура цифровой трансформации",
+      "question": "Как связаны цели, мероприятия, ресурсы и ожидаемые результаты?",
+      "order": 2,
+      "publication_status": "published",
+      "evidence": "Девять федеральных направлений образуют взаимосвязанную систему связи, платформ, технологий, безопасности, кадров и статистики."
+    },
+    {
+      "id": "audit",
+      "title": "Определения и сопоставимость показателей",
+      "question": "Какие результаты измеряет система мониторинга и чего в ней недостаёт?",
+      "order": 3,
+      "publication_status": "published",
+      "evidence": "Доли, индексы к базе, накопленные количества и состояния имеют разные допустимые значения и правила временного сравнения."
+    },
+    {
+      "id": "targets",
+      "title": "Наблюдаемые результаты и паспортные цели",
+      "question": "Что показывают сопоставимые ряды и насколько обоснованы ориентиры?",
+      "order": 4,
+      "publication_status": "published",
+      "evidence": "Сопоставление требует одинакового определения, периода и статуса факта. Цели от 16 октября 2026 года сохраняют дату своей редакции."
+    },
+    {
+      "id": "map",
+      "title": "Территориальное распределение",
+      "question": "Как различаются ситуации в субъектах России?",
+      "order": 5,
+      "publication_status": "published",
+      "evidence": "Карта показывает опубликованные значения отдельного показателя и собственную совокупность наблюдаемых территорий."
+    },
+    {
+      "id": "regions",
+      "title": "Региональные различия и устойчивость сравнения",
+      "question": "Какие устойчивые сочетания условий и результатов можно выделить?",
+      "order": 6,
+      "publication_status": "published",
+      "evidence": "Распределения и проверки чувствительности не устанавливают устойчивого общего рейтинга цифрового благополучия."
+    },
+    {
+      "id": "finance",
+      "title": "Финансовое обеспечение и полная стоимость",
+      "question": "Как расходы соотносятся с задачами, результатами и территориальными потребностями?",
+      "order": 7,
+      "publication_status": "published",
+      "evidence": "Паспортные ресурсы, бюджетные назначения, кассовое исполнение и полная стоимость цифровых услуг имеют самостоятельный статус."
+    },
+    {
+      "id": "network",
+      "title": "Связи мероприятий, задач и показателей",
+      "question": "Какие направления связаны между собой и где возникают разрывы?",
+      "order": 8,
+      "publication_status": "published",
+      "evidence": "Общая адресуемая задача, запись влияния и лексическая близость разделены по основаниям связи."
+    },
+    {
+      "id": "texts",
+      "title": "Лингвистическая экспертиза",
+      "question": "Как сформулированы задачи и что остаётся за пределами языка документов?",
+      "order": 9,
+      "publication_status": "published",
+      "evidence": "Десять паспортов проекта сопоставлены с исходными профилями корпуса из 137 документов. Авторские спецификации отделены от дополнительных проверок платформы."
+    },
+    {
+      "id": "domains",
+      "title": "Девять федеральных направлений",
+      "question": "Какие содержательные механизмы требуют отдельной проверки?",
+      "order": 10,
+      "publication_status": "published",
+      "evidence": "Каждое направление сохраняет собственный объект воздействия, механизм передачи результата и критерии проверки."
+    },
+    {
+      "id": "causal",
+      "title": "Оценка дополнительного эффекта",
+      "question": "Какие данные и сравнения позволят оценить вклад конкретных мер?",
+      "order": 11,
+      "publication_status": "published",
+      "evidence": "Дополнительный эффект устанавливается по сопоставимой группе, общей временной базе и условиям исследовательского дизайна."
+    },
+    {
+      "id": "proposals",
+      "title": "Предложения по совершенствованию",
+      "question": "Какие изменения следуют из проверенных результатов и как оценить их последствия?",
+      "order": 12,
+      "publication_status": "published",
+      "evidence": "Предложения связывают контроль определений, завершённые процессы, качество услуг, полную стоимость и независимую оценку эффекта."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Авторская экспертиза национального проекта «Экономика данных и цифровая трансформация государства»",
+      "url": "downloads/projects/data_economy/report/expertise_dataeconomy_2026.docx",
+      "format": "DOCX",
+      "edition_date": "2026-10-28",
+      "qualification": "Исходный отчёт сохранён полностью. Авторские выводы, статистические срезы и документальные редакции имеют собственные даты и источники."
+    },
+    {
+      "title": "Паспорт национального проекта «Экономика данных и цифровая трансформация государства»",
+      "url": "https://mirs.permkrai.ru/upload/iblock/12f/ld0jct3xdmsjfbk6dakfmapfm7ohgo3r.pdf",
+      "urls": [
+        "https://mirs.permkrai.ru/upload/iblock/12f/ld0jct3xdmsjfbk6dakfmapfm7ohgo3r.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "national",
+      "sha256": "d55abb5930a3af1e432e692f0ccb258be1e5e54485db762cc88606d1a49554f5",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T12:30:40+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/d5/d55abb5930a3af1e432e692f0ccb258be1e5e54485db762cc88606d1a49554f5.pdf"
+    },
+    {
+      "title": "[Ц] Экономика данных и цифровая трансформация государства",
+      "url": "https://databudget.ru/projects/np/23",
+      "urls": [
+        "https://databudget.ru/projects/np/23"
+      ],
+      "format": "HTML",
+      "document_level": "national",
+      "sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:37:18.263001+00:00",
+      "publisher_version_label": "Версия 26.64",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/36/36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00.html"
+    },
+    {
+      "title": "[Ц1] Инфраструктура доступа к информационно-телекоммуникационной сети \"Интернет\"",
+      "url": "https://databudget.ru/projects/fp/337",
+      "urls": [
+        "https://databudget.ru/projects/fp/337"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:52.829887+00:00",
+      "publisher_version_label": "Версия 26.11",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/55/55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091.html"
+    },
+    {
+      "title": "[Ц2] Цифровые платформы в отраслях социальной сферы",
+      "url": "https://databudget.ru/projects/fp/338",
+      "urls": [
+        "https://databudget.ru/projects/fp/338"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "d350ea17478255bf8893758d763434ec2d88da07f2036a296dcac59577da85fd",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:54.839468+00:00",
+      "publisher_version_label": "Версия 26.22",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/d3/d350ea17478255bf8893758d763434ec2d88da07f2036a296dcac59577da85fd.html"
+    },
+    {
+      "title": "[Ц3] Искусственный интеллект",
+      "url": "https://databudget.ru/projects/fp/339",
+      "urls": [
+        "https://databudget.ru/projects/fp/339"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "86cdfe4de6792a984b813353f3dd1e11d95c9d1d214dca085a1966d8abdf0678",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:52.833750+00:00",
+      "publisher_version_label": "Версия 26.15",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/86/86cdfe4de6792a984b813353f3dd1e11d95c9d1d214dca085a1966d8abdf0678.html"
+    },
+    {
+      "title": "[Ц4] Цифровое государственное управление",
+      "url": "https://databudget.ru/projects/fp/340",
+      "urls": [
+        "https://databudget.ru/projects/fp/340"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "ca9ed9f0b2ef51fa9928004ac59ff7ca5502ecddea9fa3e4ca7c4309c3e73143",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:54.330877+00:00",
+      "publisher_version_label": "Версия 26.68",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/ca/ca9ed9f0b2ef51fa9928004ac59ff7ca5502ecddea9fa3e4ca7c4309c3e73143.html"
+    },
+    {
+      "title": "[Ц5] Отечественные решения",
+      "url": "https://databudget.ru/projects/fp/341",
+      "urls": [
+        "https://databudget.ru/projects/fp/341"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "b39f8dc8d3c08b0acf42a3ffa0a742c12e78fe8db8a562f8e36735bf244f2298",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:54.235547+00:00",
+      "publisher_version_label": "Версия 26.18",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/b3/b39f8dc8d3c08b0acf42a3ffa0a742c12e78fe8db8a562f8e36735bf244f2298.html"
+    },
+    {
+      "title": "[Ц6] Прикладные исследования и перспективные разработки",
+      "url": "https://databudget.ru/projects/fp/343",
+      "urls": [
+        "https://databudget.ru/projects/fp/343"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:54.248999+00:00",
+      "publisher_version_label": "Версия 26.19",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/dc/dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11.html"
+    },
+    {
+      "title": "[Ц7] Инфраструктура кибербезопасности",
+      "url": "https://databudget.ru/projects/fp/344",
+      "urls": [
+        "https://databudget.ru/projects/fp/344"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "f1a76e69bc9abcc315c29e8d0cf400af6d95783e008d5554a382f4705b8b4080",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:52.831736+00:00",
+      "publisher_version_label": "Версия 26.15",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/f1/f1a76e69bc9abcc315c29e8d0cf400af6d95783e008d5554a382f4705b8b4080.html"
+    },
+    {
+      "title": "[Ц8] Кадры для цифровой трансформации",
+      "url": "https://databudget.ru/projects/fp/342",
+      "urls": [
+        "https://databudget.ru/projects/fp/342"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:53.860734+00:00",
+      "publisher_version_label": "Версия 26.9",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/f2/f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac.html"
+    },
+    {
+      "title": "[Ц9] Государственная статистика",
+      "url": "https://databudget.ru/projects/fp/358",
+      "urls": [
+        "https://databudget.ru/projects/fp/358"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:51.800138+00:00",
+      "publisher_version_label": "Версия 26.17",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/af/af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824.html"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Аудит 339 показателей",
+      "url": "downloads/projects/shared/indicator_audit.csv",
+      "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+      "bytes": 166183
+    },
+    {
+      "title": "Сводный аудит 11 нацпроектов",
+      "url": "downloads/projects/shared/project_audit.csv",
+      "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+      "bytes": 1810
+    },
+    {
+      "title": "Матрица методов по нацпроектам",
+      "url": "downloads/projects/shared/project_method_matrix.csv",
+      "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+      "bytes": 283115
+    },
+    {
+      "title": "Применимость методов и доступность данных",
+      "url": "downloads/projects/shared/project_method_eligibility.csv",
+      "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+      "bytes": 2507
+    }
+  ],
+  "registry_source_url": "https://www.fedstat.ru/organizations/#group1854427",
+  "interpretation": "Полный авторский отчёт сопровождается расчётами по сохранённым источникам. Дата сборки сайта не означает обновление первичных данных. Период наблюдения и результат последней попытки обновления указаны отдельно.",
+  "legacy_release_metadata": {
+    "source_release": "1.2.0",
+    "qualification": "Метаданные предыдущего исследовательского этапа. Текущие результаты определяются полями верхнего уровня и опубликованными источниками.",
+    "original": {
+      "schema_version": 1,
+      "project_id": "data_economy",
+      "project_name": "Национальный проект «Экономика данных и цифровая трансформация государства»",
+      "release_version": "1.2.0",
+      "statistical_as_of": "2026-10-15",
+      "documentary_as_of": "2026-10-19",
+      "release_date": "2026-10-27",
+      "author_expertise_status": "next_requested_stage",
+      "registry": {
+        "project_id": "data_economy",
+        "project_name": "Национальный проект «Экономика данных и цифровая трансформация государства»",
+        "n_registry": 49,
+        "n_with_numeric": 48,
+        "n_with_regional": 7,
+        "n_with_national": 48,
+        "n_unique_cells": 12159,
+        "n_numeric": 12159,
+        "n_usable": 12147,
+        "n_domain_violations": 12,
+        "coverage_pct": 97.95918367346938
+      },
+      "panel": {
+        "project_id": "data_economy",
+        "panel_id": "data_economy_monthly_2026-09-30",
+        "status": "computed",
+        "frequency": "monthly",
+        "period_end": "2026-09-30",
+        "n_regions": 85,
+        "n_features": 5,
+        "n_imputed_cells": 1,
+        "imputed_pct": 0.2352941176470588,
+        "k": 2,
+        "silhouette": 0.2437408110804886,
+        "pc12_variance": 0.5138791052081269,
+        "cluster_status": "selected_by_silhouette",
+        "n_communities": 6,
+        "complete_case_ari": 1,
+        "n_complete_case": 84,
+        "seed": 42
+      },
+      "research": {
+        "project_id": "data_economy",
+        "project_name": "Национальный проект «Экономика данных и цифровая трансформация государства»",
+        "registry_indicators": 49,
+        "indicators_with_numeric": 48,
+        "indicators_with_regional": 7,
+        "observations_numeric": 12159,
+        "documents": 11,
+        "goal_nodes": 10,
+        "task_nodes": 34,
+        "indicator_nodes": 60,
+        "result_nodes": 90,
+        "unresolved_link_claims": 168,
+        "shared_task_result_indicator_links": 632,
+        "results_linked_through_documented_task": 90,
+        "results_with_lexical_candidate": 68,
+        "explicit_result_indicator_links": 0,
+        "family_original_manual_edges": null,
+        "multivariate_status": "computed",
+        "passport_financing_2025_2030_thousand_rub": 1212749112.29,
+        "strict_financing_hhi": 0.23375492660070102,
+        "financing_status": "computed_complete_visible_fp_headers",
+        "causal_effect_status": "not_identified_in_existing_sources",
+        "author_expertise_text_status": "next_requested_stage"
+      },
+      "results": {
+        "project_id": "data_economy",
+        "project_name": "Национальный проект «Экономика данных и цифровая трансформация государства»",
+        "n_registry": 49,
+        "n_numeric_indicators": 48,
+        "n_regional_indicators": 7,
+        "n_forecast_indicators": 46,
+        "n_series": 631,
+        "n_projected_series": 631,
+        "n_diagnostic_forecast_series": 629,
+        "n_reference_scenario_series": 2,
+        "n_series_with_review_flags": 260,
+        "n_documented_target_indicators": 47,
+        "target_status": "source_backed_targets_available"
+      },
+      "corpus": {
+        "project": "data_economy",
+        "project_name": "Экономика данных и цифровая трансформация государства",
+        "unique_pdf_files": 0,
+        "pages": 0,
+        "national_passport_files": 0,
+        "federal_passport_files": 0,
+        "presentation_files": 0,
+        "legal_reprints": 0,
+        "note": "Counts of files, not distinct federal project names; shared presentations cover all ten target projects."
+      },
+      "method_summary": {
+        "total": 39,
+        "by_status": {
+          "documentary_structure_completed_substantive_review_deferred": 2,
+          "computed_with_documented_scope": 11,
+          "documentary_and_structural_links_computed_candidates_unapproved": 1,
+          "retained_with_input_and_coverage_checks": 2,
+          "retained_from_1_1_source_unchanged": 7,
+          "retained_and_independently_verified": 7,
+          "robustness_computed_for_eligible_panels": 1,
+          "financial_measurement_bridge_computed_not_cost_effectiveness": 1,
+          "evidence_matrix_completed_expert_scores_deferred": 1,
+          "designs_and_readiness_audit_completed_no_effect_estimated": 3,
+          "deferred_by_user": 1,
+          "specialized_family_extension_not_generalized": 1,
+          "reproducible_analysis_code_available": 1
+        }
+      },
+      "sections": [
+        {
+          "order": 1,
+          "section_id": "framework",
+          "title": "Методологическая рамка экспертизы",
+          "family_report_pages": "7–9",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L2",
+          "publication_status": "planned",
+          "evidence": "Реестр методов и их ограничений подготовлен; содержательные выводы требуют отдельной авторской экспертизы.",
+          "method_ids": [
+            "theory_of_change"
+          ]
+        },
+        {
+          "order": 2,
+          "section_id": "logic",
+          "title": "Нормативно-логическая модель",
+          "family_report_pages": "9–11",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L3",
+          "publication_status": "planned",
+          "evidence": "В исследовательском корпусе: 10 целей, 34 задач, 90 результатов. Документальная связь не является доказательством причинного эффекта.",
+          "method_ids": [
+            "project_hierarchy",
+            "activity_inventory",
+            "activity_indicator_links"
+          ]
+        },
+        {
+          "order": 3,
+          "section_id": "audit",
+          "title": "Аудит данных и показателей",
+          "family_report_pages": "11–19",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L4",
+          "publication_status": "planned",
+          "evidence": "В реестре 49 показателей; числовые данные доступны для 48, региональные для 7.",
+          "method_ids": [
+            "source_quality",
+            "observability",
+            "time_dynamics"
+          ]
+        },
+        {
+          "order": 4,
+          "section_id": "targets",
+          "title": "Целевые траектории и прогноз",
+          "family_report_pages": "19–24",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L5",
+          "publication_status": "planned",
+          "evidence": "Паспортные цели и статистические ряды сопоставляются только при подтверждённом совпадении показателя, единицы измерения, территории и периода.",
+          "method_ids": [
+            "target_comparison",
+            "forecasting"
+          ]
+        },
+        {
+          "order": 5,
+          "section_id": "map",
+          "title": "Территориальная экспертиза",
+          "family_report_pages": "24–43",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L6",
+          "publication_status": "planned",
+          "evidence": "Региональные данные имеются для 7 показателей. Карты требуют отдельной проверки сопоставимости выбранного периода.",
+          "method_ids": [
+            "geographical_join",
+            "regional_maps",
+            "regional_descriptive"
+          ]
+        },
+        {
+          "order": 6,
+          "section_id": "regions",
+          "title": "Типология и пространственные связи",
+          "family_report_pages": "43–52",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L7",
+          "publication_status": "planned",
+          "evidence": "Статус многомерной панели: computed; территорий: 85, признаков: 5. Региональная типология не тождественна оценке эффективности.",
+          "method_ids": [
+            "correlations",
+            "pca",
+            "kmeans",
+            "multivariate_stability",
+            "isolation_forest",
+            "moran_global",
+            "moran_local",
+            "regional_similarity",
+            "relative_profiles"
+          ]
+        },
+        {
+          "order": 7,
+          "section_id": "finance",
+          "title": "Финансовая экспертиза",
+          "family_report_pages": "52–55",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L8",
+          "publication_status": "planned",
+          "evidence": "Финансовые суммы и доли сохраняют единицы исходного паспорта. Оценка распределения средств зависит от сопоставимости заголовков федеральных проектов.",
+          "method_ids": [
+            "budget_registry",
+            "budget_hhi",
+            "budget_observability"
+          ]
+        },
+        {
+          "order": 8,
+          "section_id": "network",
+          "title": "Мероприятия и показатели",
+          "family_report_pages": "55–61",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L9",
+          "publication_status": "planned",
+          "evidence": "В корпусе разделены документальные связи, совместная принадлежность задаче и лексические кандидаты. Автоматическая похожесть не превращается в доказанную связь.",
+          "method_ids": [
+            "activity_network"
+          ]
+        },
+        {
+          "order": 9,
+          "section_id": "texts",
+          "title": "Лингвистическая и смысловая экспертиза",
+          "family_report_pages": "61–65",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L10",
+          "publication_status": "planned",
+          "evidence": "Документальная основа исследовательского модуля: 11 документов. Лексические признаки рассматриваются совместно с контекстом.",
+          "method_ids": [
+            "lexical_frequencies",
+            "dictionary_frames",
+            "tfidf_cosine",
+            "text_clustering",
+            "concept_cooccurrence",
+            "context_search"
+          ]
+        },
+        {
+          "order": 10,
+          "section_id": "domains",
+          "title": "Охват сфер жизнедеятельности",
+          "family_report_pages": "65–68",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L11",
+          "publication_status": "planned",
+          "evidence": "Сферы жизнедеятельности выделяются по корпусу и словарям; полнота охвата требует содержательной проверки экспертом.",
+          "method_ids": [
+            "domain_evidence",
+            "expert_domain_scale"
+          ]
+        },
+        {
+          "order": 11,
+          "section_id": "causal",
+          "title": "Сценарии и причинная оценка",
+          "family_report_pages": "68–71",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L12",
+          "publication_status": "planned",
+          "evidence": "Причинный эффект нацпроекта в имеющемся наборе источников не идентифицирован. Для его оценки нужен самостоятельный исследовательский дизайн.",
+          "method_ids": [
+            "policy_scenario_framework",
+            "causal_designs",
+            "heterogeneous_causal_effects"
+          ]
+        },
+        {
+          "order": 12,
+          "section_id": "proposals",
+          "title": "Предложения по корректировке",
+          "family_report_pages": "71–73",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L13",
+          "publication_status": "planned",
+          "evidence": "Рекомендации формируются после проверки фактов и содержательной экспертизы, с указанием адресата, механизма и ожидаемого результата.",
+          "method_ids": [
+            "recommendations"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Паспорт национального проекта «Экономика данных и цифровая трансформация государства»",
+          "url": "https://mirs.permkrai.ru/upload/iblock/12f/ld0jct3xdmsjfbk6dakfmapfm7ohgo3r.pdf",
+          "urls": [
+            "https://mirs.permkrai.ru/upload/iblock/12f/ld0jct3xdmsjfbk6dakfmapfm7ohgo3r.pdf"
+          ],
+          "format": "PDF",
+          "document_level": "national",
+          "sha256": "d55abb5930a3af1e432e692f0ccb258be1e5e54485db762cc88606d1a49554f5",
+          "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+          "retrieved_at": "2026-10-19T12:30:40+00:00",
+          "publisher_version_label": "",
+          "publisher_updated_label": "",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "public_pdf_copy",
+          "source_file_in_research_package": "corpus/data/pdfs/d5/d55abb5930a3af1e432e692f0ccb258be1e5e54485db762cc88606d1a49554f5.pdf"
+        },
+        {
+          "title": "[Ц] Экономика данных и цифровая трансформация государства",
+          "url": "https://databudget.ru/projects/np/23",
+          "urls": [
+            "https://databudget.ru/projects/np/23"
+          ],
+          "format": "HTML",
+          "document_level": "national",
+          "sha256": "36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:37:18.263001+00:00",
+          "publisher_version_label": "Версия 26.64",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/36/36c53bb51c832e57bf7c1e4a27f0ce7e3a155fbd92f10a78bc1f869956eb3e00.html"
+        },
+        {
+          "title": "[Ц1] Инфраструктура доступа к информационно-телекоммуникационной сети \"Интернет\"",
+          "url": "https://databudget.ru/projects/fp/337",
+          "urls": [
+            "https://databudget.ru/projects/fp/337"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:52.829887+00:00",
+          "publisher_version_label": "Версия 26.11",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/55/55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091.html"
+        },
+        {
+          "title": "[Ц2] Цифровые платформы в отраслях социальной сферы",
+          "url": "https://databudget.ru/projects/fp/338",
+          "urls": [
+            "https://databudget.ru/projects/fp/338"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "d350ea17478255bf8893758d763434ec2d88da07f2036a296dcac59577da85fd",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:54.839468+00:00",
+          "publisher_version_label": "Версия 26.22",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/d3/d350ea17478255bf8893758d763434ec2d88da07f2036a296dcac59577da85fd.html"
+        },
+        {
+          "title": "[Ц3] Искусственный интеллект",
+          "url": "https://databudget.ru/projects/fp/339",
+          "urls": [
+            "https://databudget.ru/projects/fp/339"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "86cdfe4de6792a984b813353f3dd1e11d95c9d1d214dca085a1966d8abdf0678",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:52.833750+00:00",
+          "publisher_version_label": "Версия 26.15",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/86/86cdfe4de6792a984b813353f3dd1e11d95c9d1d214dca085a1966d8abdf0678.html"
+        },
+        {
+          "title": "[Ц4] Цифровое государственное управление",
+          "url": "https://databudget.ru/projects/fp/340",
+          "urls": [
+            "https://databudget.ru/projects/fp/340"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "ca9ed9f0b2ef51fa9928004ac59ff7ca5502ecddea9fa3e4ca7c4309c3e73143",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:54.330877+00:00",
+          "publisher_version_label": "Версия 26.68",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/ca/ca9ed9f0b2ef51fa9928004ac59ff7ca5502ecddea9fa3e4ca7c4309c3e73143.html"
+        },
+        {
+          "title": "[Ц5] Отечественные решения",
+          "url": "https://databudget.ru/projects/fp/341",
+          "urls": [
+            "https://databudget.ru/projects/fp/341"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "b39f8dc8d3c08b0acf42a3ffa0a742c12e78fe8db8a562f8e36735bf244f2298",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:54.235547+00:00",
+          "publisher_version_label": "Версия 26.18",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/b3/b39f8dc8d3c08b0acf42a3ffa0a742c12e78fe8db8a562f8e36735bf244f2298.html"
+        },
+        {
+          "title": "[Ц6] Прикладные исследования и перспективные разработки",
+          "url": "https://databudget.ru/projects/fp/343",
+          "urls": [
+            "https://databudget.ru/projects/fp/343"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:54.248999+00:00",
+          "publisher_version_label": "Версия 26.19",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/dc/dce695a15e562df88aa3d267fdbc5c5c8bdbc18e6254f7277a3f5fe269baec11.html"
+        },
+        {
+          "title": "[Ц7] Инфраструктура кибербезопасности",
+          "url": "https://databudget.ru/projects/fp/344",
+          "urls": [
+            "https://databudget.ru/projects/fp/344"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "f1a76e69bc9abcc315c29e8d0cf400af6d95783e008d5554a382f4705b8b4080",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:52.831736+00:00",
+          "publisher_version_label": "Версия 26.15",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/f1/f1a76e69bc9abcc315c29e8d0cf400af6d95783e008d5554a382f4705b8b4080.html"
+        },
+        {
+          "title": "[Ц8] Кадры для цифровой трансформации",
+          "url": "https://databudget.ru/projects/fp/342",
+          "urls": [
+            "https://databudget.ru/projects/fp/342"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:53.860734+00:00",
+          "publisher_version_label": "Версия 26.9",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/f2/f226d31dc086593f204af276ae79b2dcdcd6eb74cc68f5632f9b0ae62507f6ac.html"
+        },
+        {
+          "title": "[Ц9] Государственная статистика",
+          "url": "https://databudget.ru/projects/fp/358",
+          "urls": [
+            "https://databudget.ru/projects/fp/358"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:51.800138+00:00",
+          "publisher_version_label": "Версия 26.17",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/af/af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824.html"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Аудит 339 показателей",
+          "url": "downloads/projects/shared/indicator_audit.csv",
+          "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+          "bytes": 166183
+        },
+        {
+          "title": "Сводный аудит 11 нацпроектов",
+          "url": "downloads/projects/shared/project_audit.csv",
+          "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+          "bytes": 1810
+        },
+        {
+          "title": "Матрица методов по нацпроектам",
+          "url": "downloads/projects/shared/project_method_matrix.csv",
+          "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+          "bytes": 283115
+        },
+        {
+          "title": "Применимость методов и доступность данных",
+          "url": "downloads/projects/shared/project_method_eligibility.csv",
+          "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+          "bytes": 2507
+        }
+      ],
+      "registry_source_url": "https://www.fedstat.ru/organizations/#group1854427",
+      "interpretation": "Актуальный доступный статистический срез на указанную дату. Дата сборки сайта не означает обновление первичных данных. Новые авторские страницы экспертизы добавляются после отдельной проверки."
+    }
+  }
+}

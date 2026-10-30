@@ -1,0 +1,105 @@
+/* Youth project uses the shared project theme; no independent colour palette. */
+.youth-page { min-width: 0; }
+.youth-page .page-heading { align-items: flex-start; }
+.youth-page .page-heading h1 { max-width: 100%; overflow-wrap: anywhere; }
+.youth-findings { border-left: 4px solid var(--blue); padding: 2px 0 2px 20px; margin: 0 0 28px; max-width: 1040px; }
+.youth-findings p { font-size: 17px; line-height: 1.75; margin: 7px 0; }
+.youth-dates { display: flex; flex-wrap: wrap; gap: 12px 32px; color: var(--muted); font-size: 13px; margin: 0 0 22px; }
+.youth-dates strong { color: var(--ink); }
+.youth-card-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; margin: 24px 0; }
+.youth-card-grid .project-card { margin: 0; }
+.youth-step-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(175px,1fr)); gap: 18px; }
+.youth-step-grid article { border-top: 2px solid var(--border); padding-top: 16px; min-width: 0; }
+.youth-step-grid h3 { margin: 6px 0 10px; font-size: 17px; line-height: 1.4; }
+.youth-step-grid p { color: var(--muted); font-size: 14px; line-height: 1.7; }
+.youth-step { color: var(--blue); font-family: 'Bebas Neue',Roboto,sans-serif; font-size: 28px; line-height: 1; }
+.youth-page .source-foot { flex-wrap: wrap; align-items: flex-start; gap: 10px 20px; }
+.youth-page .source-foot > span { flex: 1 1 280px; overflow-wrap: anywhere; }
+.youth-page .source-foot a { flex-shrink: 0; }
+.youth-references { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 12px; line-height: 1.6; margin-top: 9px; color: var(--muted); }
+.youth-references a { overflow-wrap: anywhere; max-width: 100%; }
+.youth-report { border: 1px solid var(--border); border-radius: 12px; margin: 28px 0; background: #fff; }
+.youth-report > summary { display: flex; align-items: center; gap: 12px; padding: 20px; cursor: pointer; font-weight: 600; line-height: 1.5; }
+.youth-report > summary > span { margin-left: auto; white-space: nowrap; }
+.youth-report > summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.youth-report[open] > summary { border-bottom: 1px solid var(--border); }
+.youth-report-body { padding: 24px; }
+.youth-report-body > div { margin: 18px 0; }
+.youth-report-block { line-height: 1.85; }
+.youth-report-body h2 { font-size: 23px; margin-top: 34px; }
+.youth-report-body h3 { font-size: 19px; margin-top: 26px; }
+.youth-report-body .formula { overflow-x: auto; white-space: normal; overflow-wrap: anywhere; }
+.youth-figure-reference { padding: 16px 18px; border-left: 3px solid var(--blue); background: var(--blue-light, #f4f2fa); border-radius: 0 8px 8px 0; }
+.youth-figure-reference strong { display: block; }
+.youth-figure-reference p { margin: 8px 0; }
+.youth-search { display: flex; gap: 8px; align-items: center; flex: 1 1 320px; }
+.youth-search input { min-width: 100px; width: 100%; }
+.youth-page .toolbar .field { min-width: 190px; flex: 1 1 230px; }
+.youth-page .toolbar select { width: 100%; max-width: 100%; }
+.youth-page .field input { padding: 10px 12px; border: 1px solid var(--border); border-radius: 7px; font: inherit; width: 100%; background: #fff; }
+.youth-page .field input:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.youth-page .atlas-layout { grid-template-columns: minmax(0,1fr) 240px; }
+.youth-page .atlas-aside .field { max-width: 100%; }
+.youth-page .atlas-aside select { max-width: 100%; width: 100%; }
+.youth-page .region-reading h3 { margin-bottom: 14px; }
+.youth-page .figure { min-width: 0; }
+.youth-page .map-surface { min-width: 0; }
+.youth-reading { margin: 20px 0; }
+.youth-reading h3 { margin-bottom: 8px; }
+.youth-mechanism > p { line-height: 1.85; }
+.youth-proposal-reading { max-width: 1040px; }
+.youth-proposal-reading h2,.youth-proposal-reading h3 { margin-top: 34px; }
+.youth-proposal-reading p { line-height: 1.85; }
+.youth-download-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+.youth-download { display: flex; gap: 13px; align-items: flex-start; padding: 15px; border: 1px solid var(--border); border-radius: 9px; text-decoration: none; color: var(--ink); }
+.youth-download:hover,.youth-download:focus-visible { border-color: var(--blue); background: var(--blue-light, #f4f2fa); }
+.youth-download > svg { color: var(--blue); flex-shrink: 0; margin-top: 2px; }
+.youth-download strong { display: block; font-size: 14px; line-height: 1.5; }
+.youth-download small { color: var(--muted); display: block; margin-top: 4px; }
+.youth-inline-links { display: flex; gap: 9px 18px; flex-wrap: wrap; }
+.youth-inline-links a { white-space: normal; }
+.youth-page .data-table td { vertical-align: top; }
+.youth-page .data-table td:first-child { max-width: 370px; }
+.youth-page .data-table .text-link { white-space: normal; }
+.youth-page .stats { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.youth-page .stat { min-width: 0; }
+.youth-page .stat strong { overflow-wrap: anywhere; font-size: clamp(23px,2.7vw,36px); }
+.youth-network-card { border-left: 4px solid var(--blue); padding-left: 18px; margin: 20px 0; }
+.youth-network-card p { line-height: 1.75; }
+.youth-context { font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.youth-page mark { background: #eee7fb; color: #362254; padding: 1px 2px; }
+.youth-page .youth-wide-chart { overflow-x: auto; padding-bottom: 8px; }
+.youth-page .youth-wide-chart > .chart-svg { min-width: 660px; }
+.youth-page .youth-wide-chart:focus-visible { outline: 2px solid var(--blue); }
+@media (max-width:1100px) {
+ .youth-page .stats { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .youth-page .atlas-layout { grid-template-columns: minmax(0,1fr); }
+ .youth-page .atlas-aside { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+ .youth-page .atlas-aside .region-reading { margin: 0; }
+}
+@media (max-width:600px) {
+ .youth-findings { padding-left: 14px; margin-bottom: 22px; }
+ .youth-findings p { font-size: 15px; line-height: 1.75; }
+ .youth-page .page-heading h1 { font-size: 29px; }
+ .youth-card-grid,.youth-download-grid { grid-template-columns: 1fr; gap: 12px; }
+ .youth-step-grid { grid-template-columns: 1fr; gap: 12px; }
+ .youth-step-grid article { padding-top: 12px; }
+ .youth-step-grid p { margin-bottom: 4px; }
+ .youth-report > summary { padding: 16px 12px; align-items: flex-start; }
+ .youth-report > summary > span { display: none; }
+ .youth-report-body { padding: 14px; }
+ .youth-report-body h2 { font-size: 21px; }
+ .youth-report-block { font-size: 14px; line-height: 1.85; }
+ .youth-search { flex-wrap: wrap; }
+ .youth-search input { flex: 1 1 100%; }
+ .youth-page .toolbar .field { min-width: 0; flex: 1 1 100%; }
+ .youth-page .atlas-aside { display: block; }
+ .youth-page .stat { padding: 14px 12px; }
+ .youth-page .stat strong { font-size: 26px; }
+ .youth-page .stat small { font-size: 11px; }
+ .youth-dates { flex-direction: column; gap: 8px; font-size: 12px; }
+ .youth-page .map-hint { position: static; padding: 8px 4px; font-size: 11px; }
+ .youth-page .source-foot a { flex-shrink: 1; }
+ .youth-page .legend { font-size: 11px; }
+}
+@media (prefers-reduced-motion:reduce) { .youth-page * { scroll-behavior: auto; } }

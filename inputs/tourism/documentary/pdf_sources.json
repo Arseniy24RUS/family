@@ -1,0 +1,57 @@
+[
+  {
+    "document_id": "pdf:c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f",
+    "project_id": "tourism",
+    "title": "Паспорт национального проекта «Туризм и гостеприимство»",
+    "source_kind": "public_pdf_copy",
+    "document_level": "national",
+    "source_url": "https://unifirst-files.storage.yandexcloud.net/media/files/2025-03/fayl-no1_0.pdf",
+    "source_urls": [
+      "https://unifirst-files.storage.yandexcloud.net/media/files/2025-03/fayl-no1_0.pdf"
+    ],
+    "sha256": "c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f",
+    "source_sha256": "c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f",
+    "download_url": "downloads/projects/tourism/documentary/sources/c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f.pdf",
+    "retrieved_at": "2026-10-19T11:43:09Z",
+    "page_count": 15,
+    "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+    "used_for_same_genre_tfidf": false
+  },
+  {
+    "document_id": "pdf:ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c",
+    "project_id": "tourism",
+    "title": "Паспорт федерального проекта «Кадры для туризма»",
+    "source_kind": "public_pdf_copy",
+    "document_level": "federal",
+    "source_url": "https://dlk.tomsk.gov.ru/files/front/download?id=652452",
+    "source_urls": [
+      "https://dlk.tomsk.gov.ru/files/front/download?id=652452",
+      "https://unifirst-files.storage.yandexcloud.net/media/files/2025-03/pasport-federalnogo-proekta-kadry-i-turizma.pdf"
+    ],
+    "sha256": "ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c",
+    "source_sha256": "ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c",
+    "download_url": "downloads/projects/tourism/documentary/sources/ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c.pdf",
+    "retrieved_at": "2026-10-19T11:43:10Z",
+    "page_count": 86,
+    "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+    "used_for_same_genre_tfidf": false
+  },
+  {
+    "document_id": "pdf:f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b",
+    "project_id": "tourism",
+    "title": "Паспорт федерального проекта «Создание номерного фонда, инфраструктуры и новых точек притяжения»",
+    "source_kind": "public_pdf_copy",
+    "document_level": "federal",
+    "source_url": "https://tourism.gov-murman.ru/documents/fp_sozdanie_nomernogo_fonda._infrastruktury_i_novyx_tochek_prityazheniya_turizm.pdf",
+    "source_urls": [
+      "https://tourism.gov-murman.ru/documents/fp_sozdanie_nomernogo_fonda._infrastruktury_i_novyx_tochek_prityazheniya_turizm.pdf"
+    ],
+    "sha256": "f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b",
+    "source_sha256": "f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b",
+    "download_url": "downloads/projects/tourism/documentary/sources/f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b.pdf",
+    "retrieved_at": "2026-10-19T14:20:17+00:00",
+    "page_count": 28,
+    "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+    "used_for_same_genre_tfidf": false
+  }
+]

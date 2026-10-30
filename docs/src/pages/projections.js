@@ -36,7 +36,7 @@ async function trajectory(model,compare,ctx){
  const obs=model.observations,fc=state.horizon==='24'?model.forecast.slice(0,24):model.forecast;
  const limit=fc.at(-1)?.date||obs.at(-1).date,visible=rows=>rows.filter(p=>p.date<=limit);
  const ss=[
-  {name:'Наблюдения',color:'#031E4F',width:2.1,markers:true,radius:3,points:points(obs)},
+  {name:'Наблюдения',color:C[3],width:2.1,markers:true,radius:3,points:points(obs)},
   {name:'Прогноз · ансамбль',color:C[0],width:2.9,markers:false,points:points([obs.at(-1),...fc])}
  ];
  if(compare)ss.push(
@@ -48,15 +48,11 @@ async function trajectory(model,compare,ctx){
   const original=await json('data/forecasts.json'),code=sid==='data_21'?'2.14.Я.2':'2.14.Я.3';
   ss.push({name:'Цель нацпроекта · паспорт 2025 года',color:C[1],width:1.7,dash:'6 5',markers:true,points:original.targets.filter(p=>p.indicator_code===code&&p.target_year<=2030&&p.target_year+'-12-31'<=limit).map(p=>({x:dt(p.target_year+'-12-31'),y:p.target_value,label:String(p.target_year)}))});
  }
- if(rid==='RU'&&state.archive==='1'){
-  const original=await json('data/forecasts.json'),code=sid==='data_21'?'2.14.Я.2':'2.14.Я.3';
-  ss.push({name:'Прогноз исходной экспертизы',color:'#7F92BB',width:1.8,dash:'2 5',markers:false,points:original.points.filter(p=>p.indicator_code===code&&p.forecast_date<=limit).map(p=>({x:dt(p.forecast_date),y:p.forecast_ensemble_median,label:monthText(p.forecast_date)}))});
- }
  const band=state.band==='none'?null:fc.map(p=>({x:dt(p.date),lo:p[state.band==='80'?'lo80':'lo95'],hi:p[state.band==='80'?'hi80':'hi95']}));
  const canvas=lineChart(ss,{width:chartWidth(),height:innerWidth<=760?300:380,unit:'детей на женщину',label:LABELS[sid]+' · '+model.region_name,band,forecastStart:dt(obs.at(-1).date),tickPlacement:'start',monthlyTicks:state.horizon==='24'});
  canvas.dataset.modelVersion=model.model_version;
  const chart=figure(canvas,{name:'forecast_'+sid+'_'+rid,title:LABELS[sid]+' · '+model.region_name,
-  source:'Наблюдения по '+monthText(model.source_as_of)+' включительно; '+model.model_version+'. '+(state.band==='none'?'Полоса скрыта.':'Условная '+(state.band==='80'?'80':'95')+'%-полоса; покрытие не валидировано.')+(rid==='RU'&&state.targets!=='0'?' Цели паспорта: архив 14.05.2026.':''),
+  source:'Наблюдения по '+monthText(model.source_as_of)+' включительно; '+model.model_version+'. '+(state.band==='none'?'Полоса скрыта.':'Условная '+(state.band==='80'?'80':'95')+'%-полоса; покрытие не валидировано.')+(rid==='RU'&&state.targets!=='0'?' Цели паспорта: документальная версия 14.05.2026.':''),
   rows:fc.map(({members,...p})=>({...p,...members}))});
  const end=model.forecast.at(-1)||obs.at(-1);
  const names=[['','Без сравнения'],...ctx.manifest.series.filter(e=>e.indicator_id===sid&&e.file&&e.region_id!==rid).map(e=>[e.region_id,e.region_name])];
@@ -69,8 +65,7 @@ async function trajectory(model,compare,ctx){
   h('div',{class:'forecast-options'},
    check('Отдельные модели',state.members==='1',v=>set({members:v?'1':null})),
    hasStructure(model)?check('Тренд без колебаний',state.trend==='1',v=>set({trend:v?'1':null})):null,
-   rid==='RU'?check('Целевые значения паспорта',state.targets!=='0',v=>set({targets:v?null:'0'})):null,
-   rid==='RU'?check('Архивный прогноз экспертизы',state.archive==='1',v=>set({archive:v?'1':null})):null));
+   rid==='RU'?check('Целевые значения паспорта',state.targets!=='0',v=>set({targets:v?null:'0'})):null));
  const body=h('div',{},h('div',{class:'forecast-view-controls'},rangeSwitch(state,set)),legend(ss),
   h('div',{class:'forecast-workspace'},h('div',{class:'projection-chart'},chart),aside),
   h('p',{class:'forecast-note'},hasStructure(model)?'Изгибы рассчитываются по данным: гармоническая регрессия и гауссовский процесс дополняют три простые модели. Период 12 месяцев задан как гипотеза; короткая история не подтверждает устойчивую сезонность.':'Сохранён предыдущий расчёт; сведения о его модели находятся в JSON.'));
@@ -157,7 +152,7 @@ export async function indicatorProjections(ctx){
   root.append(h('div',{class:'forecast-meta'},
    h('span',{},h('strong',{},model.n_observations),' месячных наблюдений'),
    h('span',{},'Последний месяц данных: ',h('strong',{},monthText(model.source_as_of))),
-   h('span',{},model.source?.startsWith('data/baseline')?'Архив экспертизы':'Проверенный слой ЕМИСС'),
+   h('span',{},'Проверенный слой ЕМИСС'),
    h('span',{},'Пересчёт: ',localDate(model.calculated_at)),
    h('span',{},'Расчётных территорий: ',h('strong',{},available.length))),
    h('div',{class:'projection-links'},

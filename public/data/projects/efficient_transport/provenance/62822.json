@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "source_id": "62822",
+  "source_url": "https://www.fedstat.ru/indicator/62822",
+  "snapshot_id": "5f75396dcd20033bde8fbef535314cee255eaf5c7d14dc067e575cead41eb5fe",
+  "acquired_at": "2026-10-15T19:15:57+00:00",
+  "statistical_as_of": "2026-10-15",
+  "origin_kind": "live_emiss",
+  "observations": 24,
+  "numeric": 21,
+  "published_file": "data/projects/efficient_transport/series/62822.json",
+  "published_sha256": "eaacd1fe7082f542044cf8a7f327cff727b373d8a8b73216a577f0b17deaa7b3",
+  "input_bundle": "downloads/projects/efficient_transport/statistics/emiss_inputs/62822.zip",
+  "input_sha256": "9e1da07c14dca632d7a1e70075624ecbd78b356cce05490408840c066f6a1011",
+  "evidence_files": [
+    {
+      "path": "source/metadata.html",
+      "bytes": 81821,
+      "sha256": "29b7f0fb7e618986cb9207d9d15c1201867acf8a9fb813a68e4eefb1e9818ba4"
+    },
+    {
+      "path": "source/metadata.json",
+      "bytes": 2789,
+      "sha256": "b5b1e413034c2871439f8889c160faf54dee6e16cf3b3f13f66b0fdd4530792e"
+    },
+    {
+      "path": "source/part_00001.query.json",
+      "bytes": 3640,
+      "sha256": "8e4a23cbc36fb321bb284e8c626f65826659c7c22af8452db06477620751a173"
+    },
+    {
+      "path": "source/part_00001.xls",
+      "bytes": 9728,
+      "sha256": "eaeeff618ed2ade37a11641da5da18296b5ec88a023e8c96db8e52f0e12b15d1"
+    }
+  ],
+  "period_policy": "Original source periods and frequencies are retained separately. Analytical YTD applies only to 62820,62832,62851. Capacity stocks and project-cumulative increases do not reset in January. Staff monthly observations are not current-year annual results. Missing cells and valid zero capacity increments are distinct."
+}

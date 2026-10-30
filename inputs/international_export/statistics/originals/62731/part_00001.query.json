@@ -1,0 +1,88 @@
+{
+  "selected": {
+    "0": [
+      {
+        "id": "62731",
+        "title": "Количество субъектов Российской Федерации, в которых внедрен Региональный экспортный стандарт 2.0"
+      }
+    ],
+    "3": [
+      {
+        "id": "2025",
+        "title": "2025"
+      }
+    ],
+    "3301": [
+      {
+        "id": "1678127",
+        "title": "Российская Федерация"
+      }
+    ],
+    "30611": [
+      {
+        "id": "950475",
+        "title": "единица"
+      }
+    ],
+    "33560": [
+      {
+        "id": "1540283",
+        "title": "январь"
+      },
+      {
+        "id": "1540282",
+        "title": "февраль"
+      }
+    ]
+  },
+  "form": [
+    [
+      "lineObjectIds",
+      "0"
+    ],
+    [
+      "selectedFilterIds",
+      "0_62731"
+    ],
+    [
+      "columnObjectIds",
+      "3"
+    ],
+    [
+      "selectedFilterIds",
+      "3_2025"
+    ],
+    [
+      "lineObjectIds",
+      "3301"
+    ],
+    [
+      "selectedFilterIds",
+      "3301_1678127"
+    ],
+    [
+      "lineObjectIds",
+      "30611"
+    ],
+    [
+      "selectedFilterIds",
+      "30611_950475"
+    ],
+    [
+      "columnObjectIds",
+      "33560"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540283"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540282"
+    ]
+  ],
+  "request_url": "https://www.fedstat.ru/indicator/dataGrid.do?id=62731",
+  "requested_at": "2026-10-15T19:43:28+00:00",
+  "received_at": "2026-10-15T19:43:29+00:00",
+  "source_format": "official_grid_json"
+}

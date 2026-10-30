@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "health_technologies",
+  "source_id": "63272",
+  "title": "Доля лекарственных средств по перечню стратегически значимых лекарственных средств для медицинского применения, производство которых осуществляется в Российской Федерации по полному циклу, включая синтез фармацевтической субстанции",
+  "unit": "процент",
+  "origin_kind": "no_numeric_publication_recovered",
+  "direct_emiss_verified": false,
+  "published_at": null,
+  "acquired_at": null,
+  "snapshot_id": null,
+  "observations": []
+}

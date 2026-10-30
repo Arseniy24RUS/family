@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "url": "downloads/projects/tourism/current/expertise_tourism_2026-10-30.docx",
+      "bytes": 1834240,
+      "sha256": "84abf075aba492cf81e11d6b72df442ce6019e43433be18da804740c47380181"
+    },
+    {
+      "url": "downloads/projects/tourism/current/expertise_tourism_2026-10-30.pdf",
+      "bytes": 2830448,
+      "sha256": "7f6593d8c6fe3d26471419d8ac6d57ead8b3d52b64a82ab56f5e4733c0c19a3f"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/author_project_similarity.csv",
+      "bytes": 525,
+      "sha256": "404c4acdac3ed71eec130f301cd3d2f997d32579f51f4adb63ac906c5e157a0b"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/document_similarity.csv",
+      "bytes": 2562,
+      "sha256": "b0e66da2d60c8f6873a3cef42984d366baef3294e1dc9b3ee01442caf091c24a"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/documentary_full.json",
+      "bytes": 1313297,
+      "sha256": "5e25716c139f35afa82468746a4dadca100b285f72535744f79e108ce7f096f9"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/documentary_sources.zip",
+      "bytes": 809314,
+      "sha256": "933ee9e68a3e018edd92d724484899dad1133249467a193f6603b2c726c41fcf"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/finance_all_source_rows.csv",
+      "bytes": 163979,
+      "sha256": "779a626127d1e6ed20fc96eb6055b7e1b6135cac3dead776331b0129374315a9"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/finance_project_years.csv",
+      "bytes": 9396,
+      "sha256": "3184840889a0314b74e438f1c2cabf86e2ca30b2b4bf418d9bcc354da831c38c"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/finance_source_rows.csv",
+      "bytes": 6198,
+      "sha256": "d06e61816d8919d500b8c3515cbcf36442e7614d49f9659e1e93c307b4d070f0"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/finance_year_totals.csv",
+      "bytes": 5814,
+      "sha256": "811635bdfdd3d19b155031b09d8fd919c2d93315f0a7f2e2a92e5d3869a037d5"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/frame_scores.csv",
+      "bytes": 28201,
+      "sha256": "e84c7182a9356888460e48054dc5ecfb8dd9efbff27f4602d05e9868fc2732a6"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/network_ambiguous_claims.csv",
+      "bytes": 62303,
+      "sha256": "34faae2b739b0b147dc66a689245f146cf8450473fd46886163921707fd3b86d"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/network_lexical_candidates.csv",
+      "bytes": 25260,
+      "sha256": "57bdee386b39c0342acc2fe6a260d671f9dd8d209edc33a8f8ff62ed2295557a"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/network_nodes.csv",
+      "bytes": 170788,
+      "sha256": "e6f888fc68c7b494b14b2a8f6f665c849521648ea4a16c142c8ee5bb0b2b0b50"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/network_shared_tasks.csv",
+      "bytes": 70696,
+      "sha256": "b02ade22a290176f57f9bd2ccb3bfffd36bc12aca7fe77725937c8d3330dc692"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/project_frame_scores.csv",
+      "bytes": 1789,
+      "sha256": "01fd789eb3736f50e76787b86f7dad93972bceb06e9f125b7b0099d3c41eca63"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/project_similarity.csv",
+      "bytes": 2561,
+      "sha256": "e488b748932e50e65613627b839e3e6d08ee6038f1ba68434319d0f47cc197ee"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/sources.csv",
+      "bytes": 8611,
+      "sha256": "1e15ad2bcc7c31705599db436a7378bff9aaae45665927576c70c15bfd9f59e8"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/sources/c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f.pdf",
+      "bytes": 72743,
+      "sha256": "c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/sources/ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c.pdf",
+      "bytes": 431757,
+      "sha256": "ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/sources/f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b.pdf",
+      "bytes": 160501,
+      "sha256": "f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/sources/fp_301.html",
+      "bytes": 1526214,
+      "sha256": "fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/sources/fp_303.html",
+      "bytes": 1031217,
+      "sha256": "221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/sources/fp_308.html",
+      "bytes": 2259066,
+      "sha256": "a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/sources/fp_309.html",
+      "bytes": 1112906,
+      "sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/sources/fp_310.html",
+      "bytes": 423239,
+      "sha256": "18ba9cada1e6e3eb650d0bd8b2be06c971433f4bc1f034f7832f32d6b53d38f7"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/sources/np_26.html",
+      "bytes": 163118,
+      "sha256": "7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/targets.csv",
+      "bytes": 47635,
+      "sha256": "88d8da9e990c7f650004881801f5db54df8f86860ae699d96c55c62390a28620"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/text_corpus_profiles.csv",
+      "bytes": 104655,
+      "sha256": "94ed6c7b6af1b824157694e17b5f7659229a0003c3c6c092798d8519179a2f41"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/text_kwic.csv",
+      "bytes": 206547,
+      "sha256": "75ba6d0c0499840a054edf1f8bc9cc4dae8c96d7c852179b9cde12a9f9730c4d"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/text_replication_audit.csv",
+      "bytes": 3736,
+      "sha256": "e97ba6fd727a9148c707fe5d3b93933d8865d7f477075c5f28f24040e4a51da0"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/text_sensitivity.csv",
+      "bytes": 3018,
+      "sha256": "153727119303789a5eb87b4210495c75bb752052395b0f2d96e877d33b92805a"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/text_units.csv",
+      "bytes": 61476,
+      "sha256": "6823a2b668c6f8df3c279a7819336303a4c0c7394c1e15a2f0d41965a44b0e2c"
+    },
+    {
+      "url": "downloads/projects/tourism/documentary/tfidf_top_terms.csv",
+      "bytes": 29079,
+      "sha256": "44acc0b077ebaed2f9aeb13864b691689c2e10203403ce21ce00bfd474317710"
+    },
+    {
+      "url": "downloads/projects/tourism/report/coverage_manifest.json",
+      "bytes": 95923,
+      "sha256": "3eca2f5cf802cddc51ac8e11b2aadc614dfef2eefc2ebc741d7c3ea8b789b702"
+    },
+    {
+      "url": "downloads/projects/tourism/report/expertise_tourism_2026.docx",
+      "bytes": 1834704,
+      "sha256": "bc1950af5a03bdfa2609317a581f06af4fe5ef3f714176e3f8947e926401aac5"
+    },
+    {
+      "url": "downloads/projects/tourism/report/expertise_tourism_2026.html",
+      "bytes": 570674,
+      "sha256": "54cdca874530ceb10e4aedd4113099f68f6d0e65c0eb8f621f93b7951625c2a8"
+    },
+    {
+      "url": "downloads/projects/tourism/report/expertise_tourism_2026.md",
+      "bytes": 488375,
+      "sha256": "b36a80098eb266d5263a743c51524834c350e36bd523e2475ba2fdd5875bd410"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_01.png",
+      "bytes": 136420,
+      "sha256": "fb131857b6b5c8bc479b46f566a3ab750f80eb749d09e6ca3c0429616e2d1ad3"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_02.png",
+      "bytes": 95189,
+      "sha256": "548fd17734a88cd735985508c73bee25eb36bf332c8069bce9fbc0724fca6c7e"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_03.png",
+      "bytes": 376388,
+      "sha256": "3cf6d5f7ed83c4d0e8ef6d6df402ad72c4a442a3a9529be160b5bfb528708d4a"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_04.png",
+      "bytes": 154565,
+      "sha256": "bd8eaa12e8f2dade3c9e509084ff4a07da023ffc04ee1aab1d96fe491a578513"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_05.png",
+      "bytes": 86457,
+      "sha256": "1d092e5b920f6a2b26423f8579e61ef4fe66f5864b38ae0649f740712a903598"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_06.png",
+      "bytes": 118783,
+      "sha256": "5dd55bf2809b752561dc46375e9e9a48ad34d5ce47ab51ccda8d609e261e9f1b"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_07.png",
+      "bytes": 130058,
+      "sha256": "92cc377cb4306c7f9061c5972e35069c00577464ac6ebadc1eaae5b8c3af6f0e"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_08.png",
+      "bytes": 144641,
+      "sha256": "43889f5ea258f7380a9bd73b1bbfefdb5f9e4e2f23499b3bab8688d7d0ecb3de"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_09.png",
+      "bytes": 161424,
+      "sha256": "920a8613fdaa17db62d7b9f6158978fdee1304655470843bfbdfde650ed73fc6"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_10.png",
+      "bytes": 179599,
+      "sha256": "0ee4e58bfe2ea2478daf049105d6c7caf5c89819a593fa7fec3e33bfa143e6a8"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_11.png",
+      "bytes": 177317,
+      "sha256": "315e138c5ffcdccb6f181951545224106b814dae9af67909e8902665f9935468"
+    },
+    {
+      "url": "downloads/projects/tourism/report/figure_12.png",
+      "bytes": 162449,
+      "sha256": "b422a42c0d4dc9f8ab8a3b52e8b03d0ef0448ec3682a64ff0d07ea57371ece20"
+    },
+    {
+      "url": "downloads/projects/tourism/report/report_extraction.json",
+      "bytes": 922424,
+      "sha256": "8985777a3b945ba0e28b37387f346ad2aea31f0110c6e6c6a1bc1f7bcb5e8d38"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_01.csv",
+      "bytes": 1545,
+      "sha256": "73df569a5f2c17a5a7f6e30baa4da722d26ee438ec621075d3c0a8e6fbdd708d"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_02.csv",
+      "bytes": 1371,
+      "sha256": "3932d180f09caffccd728e905c4a23669076d53ab354a981b3090210eeb12a8d"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_03.csv",
+      "bytes": 1142,
+      "sha256": "7806ad8305379b9b9a89e9f3ea8f11b09031acbe83ebbc151a914952203a841d"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_04.csv",
+      "bytes": 1331,
+      "sha256": "373cea6afe577b6aefd03e1cde1f59c95ad13e365a651941919aed2599016e0a"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_05.csv",
+      "bytes": 1096,
+      "sha256": "247c198e7f6ef0e8add9f900d1e9b65390ec66a415f56e0357a89c5ffc2fb923"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_06.csv",
+      "bytes": 535,
+      "sha256": "a3906d5e57cde0c507b540ccc64dabe60087bf8e4603f0e4e8b62c6280666985"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_07.csv",
+      "bytes": 831,
+      "sha256": "a35bb66e135a838b953612c0dc2c15dcb9446259e26e2c4964e1d8be7726431c"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_08.csv",
+      "bytes": 507,
+      "sha256": "8a37dfa8de26d7e309c79be341c10894032260ef64636c6c5bc8b53970fb6683"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_09.csv",
+      "bytes": 719,
+      "sha256": "08419a20ef556d2f2bfbd36598973969f7ca0b8a94a407cfa50992c364b929fa"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_10.csv",
+      "bytes": 851,
+      "sha256": "2b3d48d3f30dfc3205e937f5bcfec986c74b0549381667c8b75c9494346e611b"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_11.csv",
+      "bytes": 1829,
+      "sha256": "7bf05b99e8ce0693d4ec9fb8612ac4e2f6038bb68de01952cbed253c5a56ea62"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_12.csv",
+      "bytes": 1414,
+      "sha256": "07da7f91ef93d27d0c552097d680adad801b8f6c38d1a470451d145e6ae63167"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_13.csv",
+      "bytes": 1222,
+      "sha256": "8fe82ce9d247c45173b76c985c54518be83670ee13b101c7421d7ed184284692"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_14.csv",
+      "bytes": 2068,
+      "sha256": "1ea1cffaa576fbc7e105e05765afa4229998f02d18602c02828c0f4f7756fc68"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_15.csv",
+      "bytes": 1512,
+      "sha256": "6e02c1f9409e0e8c029f952c0cdb71d09b5dcf021d3226d123aac10a9668b0b1"
+    },
+    {
+      "url": "downloads/projects/tourism/report/table_16.csv",
+      "bytes": 4348,
+      "sha256": "dfb4cb8a5c27a38b4038116fd3dff7bde9c3b21e378a35e063aacf70c7b9e085"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/districts_2025.csv",
+      "bytes": 1246,
+      "sha256": "edba9d4985e448c9e96c47a69ee240819e4128bc4af6df540dd80e15d61a36cb"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/emiss_inputs/62159.zip",
+      "bytes": 24571,
+      "sha256": "b2f7ff03162fd0a9638c632ee776893849488b40255a97819e086f63ea5c2086"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/emiss_inputs/62780.zip",
+      "bytes": 22234,
+      "sha256": "49a294e28b11837097fc2044662863bda41ff1f23a82ce5373d5a7328aeae8f8"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/emiss_inputs/62900.zip",
+      "bytes": 173096,
+      "sha256": "fc2d237b04b0c10da5de812e43073832898f28b58310ba5cd920d85bdce8fe03"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/emiss_inputs/62902.zip",
+      "bytes": 20451,
+      "sha256": "36a8bb2363470f71ff8c2d6da5f1dde4a1b0fb96cacdc23a0e48041a300c6e2f"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/emiss_inputs/62903.zip",
+      "bytes": 19889,
+      "sha256": "bce54e389ef2c0de730ac8401f9f4172145adde75470c2feba01a5e1538f832e"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/emiss_inputs/63347.zip",
+      "bytes": 20548,
+      "sha256": "f07c51d2a041d115484ce3db28f77be4930e82086e57af0bf649b0f302800022"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/national_changes.csv",
+      "bytes": 3180,
+      "sha256": "c3b1195da7d952ca8128456c97c394268f0dda41361e84438de2d952c749eb23"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/observations.csv",
+      "bytes": 2173633,
+      "sha256": "d20776f25775ac35b53b9e6ab5fc683353ca727d674a476bb53fd18439fa28c6"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/observations_62159.csv",
+      "bytes": 54482,
+      "sha256": "5a26fc10cb79d2d4a4bc96703c66bc81ba8ba8658d37723d279f37e0980e292f"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/observations_62780.csv",
+      "bytes": 25258,
+      "sha256": "236130daba21fe027e7108c8888ee9f0e5b60d26cdbca4aaf7a650833e720694"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/observations_62900.csv",
+      "bytes": 2043081,
+      "sha256": "f5cde18a708b633f470a291ac51032c4e6f15284f5796206e3268bfafe1650cd"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/observations_62902.csv",
+      "bytes": 21871,
+      "sha256": "b7ae58fbdb637fbfe588c6601d8e70cade79fbf7314fb42d8958ee678a389435"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/observations_62903.csv",
+      "bytes": 16063,
+      "sha256": "345f6d2f6f07bd954cd12b3732f578d8d75e6e7ef72c6fa073ee20530923cf4f"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/observations_63347.csv",
+      "bytes": 15348,
+      "sha256": "109b6d22a3bfedfb26b8a1c9d8419223b0871171f621a02950fc4a906b1e15f0"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/observations_snapshot.csv.gz",
+      "bytes": 129619,
+      "sha256": "0643510166e71f87b77ba464f426f22b5ddda69ed196a18993d7d28da2203b69"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/regional_2025.csv",
+      "bytes": 98786,
+      "sha256": "c8d7c85bcdb015d0863fa71930063812cd2e21ea6470188b771791b696214d51"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/regional_latest.csv",
+      "bytes": 97154,
+      "sha256": "60d0a8ad2e90babea5596f326eb408f3974c769e1d4390aef18e835fbdababf1"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/regional_reconciliation.csv",
+      "bytes": 1224,
+      "sha256": "5272fd985f52330ddba47a62f62b6ae78611ff89d92aa9b36d4344a3714ed063"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/registry.csv",
+      "bytes": 17338,
+      "sha256": "05b89aa2d3c7408cd595258a1f1a32eb1efc44a363d7017555090d403389c343"
+    },
+    {
+      "url": "downloads/projects/tourism/statistics/target_comparisons.csv",
+      "bytes": 5153,
+      "sha256": "0861f7e469e70e16c67769b1d0b72dbca28745e2d934a503fbf55acae6fac13b"
+    }
+  ]
+}

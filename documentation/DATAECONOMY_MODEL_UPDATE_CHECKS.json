@@ -1,0 +1,122 @@
+{
+  "regression_cases": {
+    "previous_period_revision": {
+      "root": "/workspace/scratch/a2f8fe86d988/qa_dataeconomy/previous_period_revision",
+      "multivariate_path": "/workspace/scratch/a2f8fe86d988/qa_dataeconomy/previous_period_revision/multivariate.json",
+      "observations_path": "/workspace/scratch/a2f8fe86d988/qa_dataeconomy/previous_period_revision/observations.json",
+      "observations": 9177,
+      "period_end": "2026-09-30",
+      "summary": {
+        "regions": 85,
+        "features": 5,
+        "raw_cells": 425,
+        "imputed_cells": 1,
+        "baseline_k": 2,
+        "silhouette": 0.2437408110804885,
+        "pc1_variance": 0.2786809002477803,
+        "pc2_variance": 0.23519820496034652,
+        "pc12_variance": 0.5138791052081269,
+        "seed_runs": 7,
+        "eligible_seed_runs": 1,
+        "feature_omissions": 5,
+        "eligible_feature_omissions": 1,
+        "ranking_validated": false
+      },
+      "temporal_status": "computed",
+      "temporal_previous_period": "2026-08-31",
+      "replication": {
+        "reference_period": "2026-09-30",
+        "reference_input_identical": false,
+        "baseline_reference_input_identical": true,
+        "temporal_reference_input_identical": false,
+        "checked_scopes": [
+          "baseline"
+        ],
+        "skipped_scopes": [
+          "temporal"
+        ],
+        "passed": true,
+        "status": "current_input_differs_from_reference",
+        "reference_download": "downloads/projects/data_economy/statistics/reference/multivariate_reference.json"
+      },
+      "reference_checks": 159,
+      "reference_checks_passed": 159
+    },
+    "august_baseline": {
+      "root": "/workspace/scratch/a2f8fe86d988/qa_dataeconomy/august_baseline",
+      "multivariate_path": "/workspace/scratch/a2f8fe86d988/qa_dataeconomy/august_baseline/multivariate.json",
+      "observations_path": "/workspace/scratch/a2f8fe86d988/qa_dataeconomy/august_baseline/observations.json",
+      "observations": 8740,
+      "period_end": "2026-08-31",
+      "summary": {
+        "regions": 85,
+        "features": 5,
+        "raw_cells": 425,
+        "imputed_cells": 1,
+        "baseline_k": 0,
+        "silhouette": null,
+        "pc1_variance": 0.2912608534604764,
+        "pc2_variance": 0.20709203679597485,
+        "pc12_variance": 0.49835289025645124,
+        "seed_runs": 7,
+        "eligible_seed_runs": 0,
+        "feature_omissions": 5,
+        "eligible_feature_omissions": 2,
+        "ranking_validated": false
+      },
+      "temporal_status": "computed",
+      "temporal_previous_period": "2026-07-31",
+      "replication": {
+        "reference_period": "2026-09-30",
+        "reference_input_identical": false,
+        "baseline_reference_input_identical": false,
+        "temporal_reference_input_identical": false,
+        "checked_scopes": [],
+        "skipped_scopes": [
+          "baseline",
+          "temporal"
+        ],
+        "passed": false,
+        "status": "current_input_differs_from_reference",
+        "reference_download": "downloads/projects/data_economy/statistics/reference/multivariate_reference.json"
+      },
+      "reference_checks": 0,
+      "reference_checks_passed": 0
+    },
+    "production_source_packets_unchanged": true,
+    "compared_source_packet_count": 96
+  },
+  "independent_javascript": {
+    "passed": true,
+    "scenarios": [
+      {
+        "scenario": "august_baseline",
+        "status": "passed",
+        "baseline_k": 0,
+        "replication": "current_input_differs_from_reference",
+        "reference_checks": 0
+      },
+      {
+        "scenario": "previous_period_revision",
+        "status": "passed",
+        "baseline_k": 2,
+        "replication": "current_input_differs_from_reference",
+        "reference_checks": 159
+      }
+    ]
+  },
+  "unavailable_exports": {
+    "status": "no_common_publication_period",
+    "status_json_replaced": true,
+    "csv_exports_replaced": {
+      "multivariate_inputs": true,
+      "multivariate_pca_scores": true,
+      "multivariate_features": true,
+      "multivariate_replication": true,
+      "multivariate_temporal_inputs": true,
+      "multivariate_imputations": true
+    },
+    "all_passed": true,
+    "production_files_modified": false
+  }
+}

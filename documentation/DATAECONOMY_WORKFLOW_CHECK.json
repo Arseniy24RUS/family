@@ -1,0 +1,197 @@
+{
+  "workflow_yaml": "passed",
+  "manual_inputs": 9,
+  "new_input": "dataeconomy_source",
+  "jobs": {
+    "refresh": {
+      "timeout_minutes": 240
+    },
+    "deploy": {
+      "timeout_minutes": null
+    }
+  },
+  "shell_blocks": [
+    {
+      "job": "refresh",
+      "step": "Install isolated refresh dependencies",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Test parser and retention contracts without live requests",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Establish the verified home VPN route for EMISS",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Fetch and validate EMISS through the home router",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Close VPN and remove temporary credentials",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Record source outcome independently of site publication",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Recompute monthly TFR and TFR3+ forecasts",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Refresh observed age inputs and cohort projections",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Cache official author portraits when available",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Validate complete candidate site before committing any update",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Write readable job summary",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Install browser QA dependencies",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Test refreshed site through real HTTP before committing data",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Commit checked series and diagnostics",
+      "status": "passed"
+    },
+    {
+      "job": "refresh",
+      "step": "Verify and build published site",
+      "status": "passed"
+    },
+    {
+      "job": "deploy",
+      "step": "Report unsuccessful data refresh after publishing retained data and diagnostics",
+      "status": "passed"
+    }
+  ],
+  "shell_blocks_checked": 16,
+  "candidate_reference_included": true,
+  "workflow_executed": false,
+  "offline_minimal_candidate": {
+    "build_module": "/workspace/scratch/a2f8fe86d988/qa_dataeconomy/refresh_candidate/scripts/build_dataeconomy_analytics.py",
+    "build_argument": ".",
+    "network_attempts": [],
+    "statistics_project_id": "data_economy",
+    "analytics_project_id": "data_economy",
+    "published_at": "2026-10-15T19:45:47+00:00",
+    "last_checked_at": "2026-10-29T17:49:25+00:00",
+    "coverage": {
+      "indicators_total": 49,
+      "registry_indicators": 49,
+      "confirmed_sources": 48,
+      "known_sources": 48,
+      "numeric_sources": 48,
+      "available_sources": 48,
+      "indicators_with_numeric": 48,
+      "observations": 12159,
+      "numeric_observations": 12159,
+      "missing_observations": 0,
+      "usable_observations": 12151,
+      "excluded_numeric_observations": 8,
+      "domain_violations": 0,
+      "review_exclusions": 8,
+      "independent_annual_national_facts": 0,
+      "annual_equivalent_references": 3,
+      "regional_sources": 7,
+      "regions": 89,
+      "other_territory_observations": 0,
+      "project_territory_observations": 0,
+      "project_territories": 0,
+      "metadata_only_sources": 0,
+      "unmapped_indicators": 1,
+      "discontinued_sources": 0
+    },
+    "multivariate_status": "computed",
+    "multivariate_summary": {
+      "regions": 85,
+      "features": 5,
+      "raw_cells": 425,
+      "imputed_cells": 1,
+      "baseline_k": 2,
+      "silhouette": 0.2437408110804885,
+      "pc1_variance": 0.2786809002477803,
+      "pc2_variance": 0.23519820496034652,
+      "pc12_variance": 0.5138791052081269,
+      "seed_runs": 7,
+      "eligible_seed_runs": 1,
+      "feature_omissions": 5,
+      "eligible_feature_omissions": 1,
+      "ranking_validated": false
+    },
+    "replication": {
+      "reference_period": "2026-09-30",
+      "reference_input_identical": true,
+      "baseline_reference_input_identical": true,
+      "temporal_reference_input_identical": true,
+      "checked_scopes": [
+        "baseline",
+        "temporal"
+      ],
+      "skipped_scopes": [],
+      "passed": true,
+      "status": "matched",
+      "reference_download": "downloads/projects/data_economy/statistics/reference/multivariate_reference.json"
+    },
+    "replication_checks": 164,
+    "replication_checks_passed": 164,
+    "methodology": {
+      "imputation": "none_in_source_series;explicit_mask_only_in_profile_matrix",
+      "year_end_policy": "reviewed_december_equivalence_separate_from_independent_annual",
+      "forecast": "not_validated",
+      "clustering": "computed_with_seed_feature_and_time_sensitivity",
+      "pca": "computed_descriptive_not_ranking",
+      "source_date_semantics": "verified EMISS acquisition, distinct from platform build and network attempt"
+    },
+    "refresh": {
+      "checked_at": "2026-10-29T17:49:25+00:00",
+      "published_at": "2026-10-15T19:45:47+00:00",
+      "last_success": "2026-10-15T19:45:47+00:00",
+      "attempted_sources": 3,
+      "failed_sources": 3,
+      "deferred_sources": 45,
+      "published_sources": 0
+    },
+    "candidate_root": "/workspace/scratch/a2f8fe86d988/qa_dataeconomy/refresh_candidate",
+    "copied_relative_paths": [
+      "scripts",
+      "public/data/catalog.json",
+      "public/data/projects/data_economy",
+      "public/downloads/projects/data_economy",
+      "inputs/dataeconomy/statistics/multivariate_reference.json"
+    ],
+    "copied_source_packet_count": 96,
+    "source_packets_copied_identically": true,
+    "candidate_source_packets_unchanged": true,
+    "production_source_packets_unchanged": true,
+    "exit_code": 0,
+    "passed": true
+  }
+}

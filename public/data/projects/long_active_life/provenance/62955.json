@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source_id": "62955",
+  "source_url": "https://www.fedstat.ru/indicator/62955",
+  "research_release": "NationalProjects_Analytics_1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": "f3c40df4ec2de5e9630cea0dd7985c1ea59df598c08ead4dd5f5b4e91f0701d2",
+  "acquired_at": "2026-10-15T19:45:05+00:00",
+  "origin_kind": "live_emiss",
+  "unit": "процент",
+  "observations": 1980,
+  "numeric": 1980,
+  "published_sha256": "1496db99af3f792caa67dad92bea25d353faf1c668c0855cac6072bafc4a0187",
+  "input_sha256": "3a4c55bfa738268428d717db1b5df056ed1ba82bd1fb2caa095821895740b356",
+  "input_bundle": "downloads/projects/long_active_life/statistical/emiss_inputs/62955.zip",
+  "published_file": "data/projects/long_active_life/series/62955.json",
+  "period_policy": "Separate annual facts and operational monitoring; no unverified December equivalence. Alcohol uses overlapping twelve-month windows; original source periods are preserved.",
+  "export_format": "grid",
+  "missing_policy": "No imputation, no substitution by a report image or by another indicator."
+}

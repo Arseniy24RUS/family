@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "health_technologies",
+  "source_id": "63224",
+  "title": "Доля граждан, пролеченных с применением новых биомедицинских и когнитивных технологий (в рамках федерального проекта) в различных условиях в медицинских организациях, от числа пролеченных в медицинских организациях, внедривших данные технологии",
+  "unit": "процент",
+  "origin_kind": "no_numeric_publication_recovered",
+  "direct_emiss_verified": false,
+  "published_at": null,
+  "acquired_at": null,
+  "snapshot_id": null,
+  "observations": []
+}

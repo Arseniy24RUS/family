@@ -1,0 +1,259 @@
+{
+  "project_id": "environment",
+  "mapping": {
+    "https://databudget.ru/projects/np/25#passport-purpose-1": {
+      "indicator_code": "2.14.Ч.2",
+      "source_sha256": "f08b7db4980a69dd93944b1a4491ac28ade0e43319749d52da9adb3f55ee2cec",
+      "title": "Снижение совокупного объема выбросов опасных загрязняющих веществ в 29 городах-участниках федерального проекта",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "ac1d175bf6c2c1de58c16bcc",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/25#passport-purpose-2": {
+      "indicator_code": "2.14.Ч.7",
+      "source_sha256": "f08b7db4980a69dd93944b1a4491ac28ade0e43319749d52da9adb3f55ee2cec",
+      "title": "Количество посетителей особо охраняемых природных территорий федерального значения",
+      "unit": "Миллион человек",
+      "mapping_status": "approved",
+      "mapping_id": "ba57c384bca6ee40ac9cb5c4",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/25#passport-purpose-3": {
+      "indicator_code": "2.14.Ч.1",
+      "source_sha256": "f08b7db4980a69dd93944b1a4491ac28ade0e43319749d52da9adb3f55ee2cec",
+      "title": "Индекс использования вторичных ресурсов и сырья из отходов в отраслях экономики",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "f1b47250d87d50b2f4ad6242",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/25#passport-purpose-4": {
+      "indicator_code": "2.14.Ч.5",
+      "source_sha256": "f08b7db4980a69dd93944b1a4491ac28ade0e43319749d52da9adb3f55ee2cec",
+      "title": "Снижение негативного воздействия на Центральную экологическую зону Байкальской природной территории",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "588d776d22d3a28aac647f9f",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/25#passport-purpose-5": {
+      "indicator_code": "2.14.Ч.6",
+      "source_sha256": "f08b7db4980a69dd93944b1a4491ac28ade0e43319749d52da9adb3f55ee2cec",
+      "title": "Отношение площади лесовосстановления и лесоразведения к площади вырубленных и погибших лесных насаждений",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "b07d56ef91e07b0c4945a3b6",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/25#passport-purpose-6": {
+      "indicator_code": "2.14.Ч.4",
+      "source_sha256": "f08b7db4980a69dd93944b1a4491ac28ade0e43319749d52da9adb3f55ee2cec",
+      "title": "Снижение объема неочищенных сточных вод, сбрасываемых в основные водные объекты",
+      "unit": "Миллион кубических метров",
+      "mapping_status": "approved",
+      "mapping_id": "b55eb7ac8bb7ecf158ea8ccf",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/np/25#passport-purpose-7": {
+      "indicator_code": "2.14.Ч.3",
+      "source_sha256": "f08b7db4980a69dd93944b1a4491ac28ade0e43319749d52da9adb3f55ee2cec",
+      "title": "Количество ликвидированных опасных для населения и окружающей среды объектов накопленного вреда окружающей среде",
+      "unit": "Штука",
+      "mapping_status": "approved",
+      "mapping_id": "3b9f3bfa92f28e47263623a6",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/246#passport-purpose-1": {
+      "indicator_code": "2.14.Ч.3",
+      "source_sha256": "e43bf9676f30eac2c6fde24c99a19c2953c2e1e75825afdf39767821d441bf60",
+      "title": "Количество ликвидированных опасных для населения и окружающей среды объектов накопленного вреда окружающей среде",
+      "unit": "Штука",
+      "mapping_status": "approved",
+      "mapping_id": "cae9ef273516d77c5ca94cbb",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/246#passport-purpose-2": {
+      "indicator_code": "2.14.Ч1.1",
+      "source_sha256": "e43bf9676f30eac2c6fde24c99a19c2953c2e1e75825afdf39767821d441bf60",
+      "title": "Количество удаленного затонувшего имущества",
+      "unit": "Штука",
+      "mapping_status": "approved",
+      "mapping_id": "0abfcf74f82b0c159d06e6be",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/247#passport-purpose-2": {
+      "indicator_code": "2.14.Ч.6",
+      "source_sha256": "6c64f827cc10c8f35fdb23f41500bf13c3b13b2f9847bb5f25888bc05c94c714",
+      "title": "Отношение площади лесовосстановления и лесоразведения к площади вырубленных и погибших лесных насаждений",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "fc1a845bd82f75bef7ce3f91",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/247#passport-purpose-3": {
+      "indicator_code": "2.14.Ч6.2",
+      "source_sha256": "6c64f827cc10c8f35fdb23f41500bf13c3b13b2f9847bb5f25888bc05c94c714",
+      "title": "Отнесение площадей лесовосстановления к землям, на которых расположены леса",
+      "unit": "Тысяча гектаров",
+      "mapping_status": "approved",
+      "mapping_id": "0b7b3b912d09c85018296129",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/250#passport-purpose-1": {
+      "indicator_code": "2.14.Ч4.2",
+      "source_sha256": "7b69746e0136eb54f94ad362c97e5851917f44134db0aee5965151c3bd97036b",
+      "title": "Снижение совокупного объема выбросов опасных загрязняющих веществ в 12 городах-участниках федерального проекта",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "2b435e65139e4b4b5f158051",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/250#passport-purpose-2": {
+      "indicator_code": "2.14.Ч4.1",
+      "source_sha256": "7b69746e0136eb54f94ad362c97e5851917f44134db0aee5965151c3bd97036b",
+      "title": "Численность населения, качество жизни которого улучшится в связи с сокращением объема выбросов опасных загрязняющих веществ в 29 городах-участниках федерального проекта",
+      "unit": "Тысяча человек",
+      "mapping_status": "approved",
+      "mapping_id": "1d201041768afd66bfd4561f",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/250#passport-purpose-3": {
+      "indicator_code": "2.14.Ч.2",
+      "source_sha256": "7b69746e0136eb54f94ad362c97e5851917f44134db0aee5965151c3bd97036b",
+      "title": "Снижение совокупного объема выбросов опасных загрязняющих веществ в 29 городах-участниках федерального проекта",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "58333ddb3bf46627b5b5143d",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/250#passport-purpose-4": {
+      "indicator_code": "2.14.Ч4.3",
+      "source_sha256": "7b69746e0136eb54f94ad362c97e5851917f44134db0aee5965151c3bd97036b",
+      "title": "Доля доступной населению информации по основным направлениям экологического мониторинга",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "59ab69e4a947c99d04a8f811",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/251#passport-purpose-1": {
+      "indicator_code": "2.14.Ч5.1",
+      "source_sha256": "b8456feef764f31cf3dea44f5a9c8e50c4260e6d2db8c0d3492037ae97887fd7",
+      "title": "Численность населения, для которого созданы комфортные условия проживания вблизи водных объектов",
+      "unit": "Миллион человек",
+      "mapping_status": "approved",
+      "mapping_id": "838b63ec401301df61002f39",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/251#passport-purpose-2": {
+      "indicator_code": "2.14.Ч.4",
+      "source_sha256": "b8456feef764f31cf3dea44f5a9c8e50c4260e6d2db8c0d3492037ae97887fd7",
+      "title": "Снижение объема неочищенных сточных вод, сбрасываемых в основные водные объекты",
+      "unit": "Миллион кубических метров",
+      "mapping_status": "approved",
+      "mapping_id": "416b350fbb7d8d26208a7b5c",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/251#passport-purpose-3": {
+      "indicator_code": "2.14.Ч.5",
+      "source_sha256": "b8456feef764f31cf3dea44f5a9c8e50c4260e6d2db8c0d3492037ae97887fd7",
+      "title": "Снижение негативного воздействия на Центральную экологическую зону Байкальской природной территории",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "b1aa4a0b5410bb1994c6e56e",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/255#passport-purpose-1": {
+      "indicator_code": "2.14.Ч2.3",
+      "source_sha256": "82530e743acf236fd6e14714de6bdb6adb9736bc155938b03610ebaeeb5bacb6",
+      "title": "Доля утилизированных отходов в общем объеме отходов I и II классов опасности",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "a333c34e5dd2b75b1bf3a5ce",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/255#passport-purpose-2": {
+      "indicator_code": "2.14.Ч2.1",
+      "source_sha256": "82530e743acf236fd6e14714de6bdb6adb9736bc155938b03610ebaeeb5bacb6",
+      "title": "Доля захораниваемых твердых коммунальных отходов в общей массе образованных твердых коммунальных отходов",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "56525946021442977a1bbb55",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/255#passport-purpose-3": {
+      "indicator_code": "2.14.Ч2.2",
+      "source_sha256": "82530e743acf236fd6e14714de6bdb6adb9736bc155938b03610ebaeeb5bacb6",
+      "title": "Доля обрабатываемых твердых коммунальных отходов в общей массе образованных твердых коммунальных отходов",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "bdba16a852677550dd580ed9",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/255#passport-purpose-4": {
+      "indicator_code": "2.14.Ч.1",
+      "source_sha256": "82530e743acf236fd6e14714de6bdb6adb9736bc155938b03610ebaeeb5bacb6",
+      "title": "Индекс использования вторичных ресурсов и сырья из отходов в отраслях экономики",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "a512d6d9aead1aea38756b3c",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/256#passport-purpose-1": {
+      "indicator_code": "2.14.Ч3.1",
+      "source_sha256": "ecc32fb9ad8bbd6472753aac8e51565b3760d1ad3abab588b149051cc6fc7c41",
+      "title": "Доля редких и находящихся под угрозой исчезновения объектов животного мира (птиц и млекопитающих), находящихся под особой охраной, охваченных мероприятиями по восстановлению их численности",
+      "unit": "Процент",
+      "mapping_status": "approved",
+      "mapping_id": "37ef4d38677fafc2fba768ef",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/256#passport-purpose-2": {
+      "indicator_code": "2.14.Ч.7",
+      "source_sha256": "ecc32fb9ad8bbd6472753aac8e51565b3760d1ad3abab588b149051cc6fc7c41",
+      "title": "Количество посетителей особо охраняемых природных территорий федерального значения",
+      "unit": "Миллион человек",
+      "mapping_status": "approved",
+      "mapping_id": "39c4d59bab46b2e39e70d60a",
+      "target_is_proxy": false,
+      "origin": "reviewed_mapping_from_NationalProjects_Analytics_1.2.0"
+    },
+    "https://databudget.ru/projects/fp/247#passport-purpose-1": {
+      "indicator_code": "2.14.Ч6.1",
+      "source_sha256": "6c64f827cc10c8f35fdb23f41500bf13c3b13b2f9847bb5f25888bc05c94c714",
+      "title": "Сокращение площади лесных пожаров на землях лесного фонда по отношению к 2021 году",
+      "unit": "Процент",
+      "mapping_status": "discontinued_source_card_exact_title",
+      "mapping_id": "environment-fire-card-source-review-2026-10-29",
+      "target_is_proxy": false,
+      "origin": "independent_exact_title_and_registry_identifier_review",
+      "note": "The source card states cessation on 21.05.2026. Retain the published 2025 target and all subsequent missing cells without inferring a current target."
+    }
+  },
+  "unmapped_cards": {},
+  "selection_policy": "Use national level when present, otherwise the corresponding federal card. Preserve all 25 source cards separately, including the discontinued fire card. Do not merge editions or sum duplicate levels.",
+  "source_overrides": {}
+}

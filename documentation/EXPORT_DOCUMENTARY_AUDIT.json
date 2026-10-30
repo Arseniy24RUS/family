@@ -1,0 +1,133 @@
+{
+  "project_id": "international_export",
+  "sources": 8,
+  "counts": {
+    "results": 47,
+    "tasks": 12,
+    "indicatorCards": 25,
+    "uniqueIndicators": 21,
+    "federalIndicatorCards": 18,
+    "goals": 5,
+    "structuralPairs": 284,
+    "structuralResults": 47,
+    "structuralIndicatorCards": 18,
+    "ambiguousClaims": 101,
+    "resolvedDirectLinks": 0,
+    "lexicalPairs": 15,
+    "lexicalResults": 15,
+    "lexicalIndicators": 10,
+    "resultsWithoutLexicalCandidate": 32
+  },
+  "text_numeric_checks": [
+    {
+      "metric": "threshold_0.05",
+      "computed": 28,
+      "author_reported": 26,
+      "difference": 2,
+      "equal": false
+    },
+    {
+      "metric": "threshold_0.1",
+      "computed": 15,
+      "author_reported": 15,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "threshold_0.15",
+      "computed": 8,
+      "author_reported": 8,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "threshold_0.2",
+      "computed": 6,
+      "author_reported": 6,
+      "difference": 0,
+      "equal": true
+    }
+  ],
+  "finance_gross_decimal": "723311645.10",
+  "known_transfer_decimal": "1338356.30",
+  "adjusted_plan_decimal": "721973288.80",
+  "finance_is_fully_consolidated": false,
+  "finance_source_reconciliation": [
+    {
+      "year": 2025,
+      "source": "Консолидированные бюджеты субъектов Российской Федерации, всего",
+      "nationalDecimal": "1371638.50",
+      "federalProjectSumDecimal": "1371638.50",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2025,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "104494102.90",
+      "federalProjectSumDecimal": "104494102.90",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2026,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "85259244.30",
+      "federalProjectSumDecimal": "85259244.30",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2027,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "56979223",
+      "federalProjectSumDecimal": "56979223.00",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2028,
+      "source": "Консолидированные бюджеты субъектов Российской Федерации, всего",
+      "nationalDecimal": "200000",
+      "federalProjectSumDecimal": "200000",
+      "differenceDecimal": "0",
+      "equal": true
+    },
+    {
+      "year": 2028,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "154775070.20",
+      "federalProjectSumDecimal": "154775070.20",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2029,
+      "source": "Консолидированные бюджеты субъектов Российской Федерации, всего",
+      "nationalDecimal": "200000",
+      "federalProjectSumDecimal": "200000",
+      "differenceDecimal": "0",
+      "equal": true
+    },
+    {
+      "year": 2029,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "157845976.20",
+      "federalProjectSumDecimal": "157845976.20",
+      "differenceDecimal": "0.00",
+      "equal": true
+    },
+    {
+      "year": 2030,
+      "source": "Федеральный бюджет, всего",
+      "nationalDecimal": "162186390",
+      "federalProjectSumDecimal": "162186390.00",
+      "differenceDecimal": "0.00",
+      "equal": true
+    }
+  ],
+  "target_cards": 25,
+  "target_unique": 21,
+  "target_numeric_cells": 122,
+  "target_missing_cells": 4
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "health_technologies",
+  "source_id": "63223",
+  "title": "Доля внедренных в клиническую практику иных медицинских организаций биомедицинских и когнитивных технологий от количества разработанных в ходе федерального проекта",
+  "unit": "процент",
+  "origin_kind": "no_numeric_publication_recovered",
+  "direct_emiss_verified": false,
+  "published_at": null,
+  "acquired_at": null,
+  "snapshot_id": null,
+  "observations": []
+}

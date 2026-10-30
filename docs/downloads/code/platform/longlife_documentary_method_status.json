@@ -1,0 +1,82 @@
+{
+  "theory_of_change": {
+    "current_status": "author_expertise_completed_with_documentary_evidence",
+    "current_limitations": "Полный авторский анализ 11 федеральных проектов; логические цепочки описывают проверяемые механизмы, а не установленный причинный эффект."
+  },
+  "project_hierarchy": {
+    "current_status": "documentary_hierarchy_published",
+    "current_limitations": "11 федеральных проектов сохранены с исходными кодами Д1–Д9, ДА, ДБ и собственными источниками."
+  },
+  "activity_inventory": {
+    "current_status": "documentary_inventory_published",
+    "current_limitations": "78 документальных карточек результатов, 41 задача и 12 целей; наличие карточки не подтверждает исполнение."
+  },
+  "activity_indicator_links": {
+    "current_status": "reviewed_direct_matrix_and_separate_structural_candidates",
+    "current_limitations": "24 прямые связи независимо прочитаны в PDF Д2, страницы 182–183. Отдельно показаны 282 связи через общую задачу и 160 неутверждённых лексических кандидатов."
+  },
+  "budget_registry": {
+    "current_status": "decimal_recomputed_common_and_published_horizons",
+    "current_limitations": "66 ячеек 2025–2030 и 120 ячеек полных опубликованных горизонтов; у Д9 и ДА нет строк после 2030 года. Номинальные планы не являются кассовым исполнением."
+  },
+  "budget_hhi": {
+    "current_status": "decimal_recomputed_and_manuscript_verified",
+    "current_limitations": "HHI 0,3161542555 по общему горизонту 2025–2030. Концентрация паспортных назначений не оценивает эффективность расходов."
+  },
+  "budget_observability": {
+    "current_status": "plan_measurement_bridge_descriptive_only",
+    "current_limitations": "Согласованы суммы, уровни и редакции планов; результаты не представляют стоимость единицы эффекта или доказательство финансового нарушения."
+  },
+  "activity_network": {
+    "current_status": "reviewed_weighted_documentary_bipartite_matrix",
+    "current_limitations": "Полная матрица Д2: 4 мероприятия × 6 показателей, 24 связи; сумма каждого столбца 100%. Паспортные веса не являются причинными эффектами; одинаковые невзвешенные степени не образуют рейтинг."
+  },
+  "lexical_frequencies": {
+    "current_status": "fixed_corpus_profiles_published",
+    "current_limitations": "15 документов с 12 сопоставимыми HTML-паспортами; профильные частоты и исходные текстовые единицы доступны раздельно."
+  },
+  "dictionary_frames": {
+    "current_status": "independently_reproduced_dictionary_counts",
+    "current_limitations": "18 категорий × 15 документов = 270 проверенных ячеек, численная ошибка 0. Частоты по 12 HTML-паспортам используют общий знаменатель 9094 токена; категории пересекаются."
+  },
+  "tfidf_cosine": {
+    "current_status": "independently_reproduced_tfidf_and_stemming",
+    "current_limitations": "137 профилей, 20 000 признаков, 825 численных сравнений; ошибка ≤ 6,11×10⁻¹⁶. 66 пар однотипных документов и 9 межпроектных сопоставлений; иной жанр «Семьи» вынесен отдельно."
+  },
+  "text_clustering": {
+    "current_status": "pairwise_similarity_available_no_forced_document_typology",
+    "current_limitations": "Выпуск показывает воспроизведённую матрицу сходства; самостоятельная типология документов не навязывается."
+  },
+  "concept_cooccurrence": {
+    "current_status": "documentary_cooccurrence_matrix_published",
+    "current_limitations": "Совместная встречаемость 132 пар категорий сохранена из исходного исследовательского выпуска; она не означает связь мероприятий или эффект."
+  },
+  "context_search": {
+    "current_status": "complete_lazy_context_search_published",
+    "current_limitations": "1565 контекстов KWIC и 4339 текстовых единиц доступны с ленивой загрузкой выбранного документа, без потери полного корпуса."
+  },
+  "domain_evidence": {
+    "current_status": "author_domain_analysis_completed_without_composite_score",
+    "current_limitations": "Предметные механизмы 11 федеральных проектов, пациентские маршруты и документальная матрица сохранены; авторские выводы имеют ссылки и оговорки."
+  },
+  "expert_domain_scale": {
+    "current_status": "not_applied_no_normative_weights",
+    "current_limitations": "Автор прямо отказывается от произвольного сводного рейтинга; численные экспертные баллы 0–4 не изобретаются."
+  },
+  "policy_scenario_framework": {
+    "current_status": "author_designs_and_readiness_protocol_published",
+    "current_limitations": "Инерционный, проектный и стрессовый контуры представлены как условия исследования, без обещания демографического эффекта."
+  },
+  "causal_designs": {
+    "current_status": "author_protocols_published_no_effect_estimated",
+    "current_limitations": "Сохранены дизайны проверки, ATT, ICER и требования к данным; эффект не оценён без идентификации воздействия и сравнения."
+  },
+  "heterogeneous_causal_effects": {
+    "current_status": "research_design_only_insufficient_identifying_data",
+    "current_limitations": "Неоднородность эффектов остаётся исследовательским протоколом; индивидуальные причинные эффекты не рассчитаны по агрегатным паспортам."
+  },
+  "recommendations": {
+    "current_status": "complete_author_recommendations_published",
+    "current_limitations": "Сохранены авторские предложения, основания, риски и этапы; календарные сроки и результаты реализации не придуманы."
+  }
+}

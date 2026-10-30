@@ -1,0 +1,398 @@
+{
+  "project_id": "tourism",
+  "sources": 9,
+  "counts": {
+    "results": 31,
+    "tasks": 20,
+    "indicatorCards": 14,
+    "uniqueIndicators": 11,
+    "goals": 6,
+    "structuralPairs": 49,
+    "structuralResults": 31,
+    "structuralIndicatorCards": 11,
+    "ambiguousClaims": 73,
+    "resolvedDirectLinks": 0,
+    "lexicalPairs": 20,
+    "lexicalResults": 13,
+    "lexicalIndicators": 9,
+    "resultsWithoutLexicalCandidate": 18
+  },
+  "text_numeric_checks": [
+    {
+      "metric": "source_profile_fp_301",
+      "author_report": 586,
+      "platform_recomputed": 586,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_303",
+      "author_report": 289,
+      "platform_recomputed": 289,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_308",
+      "author_report": 594,
+      "platform_recomputed": 594,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_309",
+      "author_report": 420,
+      "platform_recomputed": 420,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_fp_310",
+      "author_report": 153,
+      "platform_recomputed": 153,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "source_profile_np_26",
+      "author_report": 146,
+      "platform_recomputed": 146,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "project_cosine_competitive_economy",
+      "author_report": 0.19159178740931,
+      "platform_recomputed": 0.19159178740930993,
+      "difference": -5.551115123125783e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_competitive_economy",
+      "author_report": 0.21980512909159375,
+      "platform_recomputed": 0.21980512909159394,
+      "difference": 1.942890293094024e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_international_export",
+      "author_report": 0.17280192823164878,
+      "platform_recomputed": 0.1728019282316488,
+      "difference": 2.7755575615628914e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_international_export",
+      "author_report": 0.1839308626607331,
+      "platform_recomputed": 0.18393086266073294,
+      "difference": -1.6653345369377348e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_data_economy",
+      "author_report": 0.16615115934385066,
+      "platform_recomputed": 0.16615115934385072,
+      "difference": 5.551115123125783e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_data_economy",
+      "author_report": 0.1937242316685913,
+      "platform_recomputed": 0.19372423166859115,
+      "difference": -1.3877787807814457e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_life_infrastructure",
+      "author_report": 0.16222164855950186,
+      "platform_recomputed": 0.16222164855950216,
+      "difference": 3.0531133177191805e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_life_infrastructure",
+      "author_report": 0.18785759179504052,
+      "platform_recomputed": 0.18785759179504044,
+      "difference": -8.326672684688674e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_youth_children",
+      "author_report": 0.15624370450363506,
+      "platform_recomputed": 0.15624370450363545,
+      "difference": 3.885780586188048e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_youth_children",
+      "author_report": 0.17733516665729723,
+      "platform_recomputed": 0.17733516665729757,
+      "difference": 3.3306690738754696e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_environment",
+      "author_report": 0.12608297688323955,
+      "platform_recomputed": 0.12608297688323952,
+      "difference": -2.7755575615628914e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_environment",
+      "author_report": 0.15517214695166473,
+      "platform_recomputed": 0.15517214695166467,
+      "difference": -5.551115123125783e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_personnel",
+      "author_report": 0.1145992055919657,
+      "platform_recomputed": 0.11459920559196579,
+      "difference": 9.71445146547012e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_personnel",
+      "author_report": 0.14048070402434493,
+      "platform_recomputed": 0.14048070402434482,
+      "difference": -1.1102230246251565e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_efficient_transport",
+      "author_report": 0.10184988101416688,
+      "platform_recomputed": 0.10184988101416692,
+      "difference": 4.163336342344337e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_efficient_transport",
+      "author_report": 0.12608990398938164,
+      "platform_recomputed": 0.1260899039893817,
+      "difference": 5.551115123125783e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "project_cosine_long_active_life",
+      "author_report": 0.09217675388451363,
+      "platform_recomputed": 0.09217675388451374,
+      "difference": 1.1102230246251565e-16,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "stemmed_cosine_long_active_life",
+      "author_report": 0.11671110540089448,
+      "platform_recomputed": 0.11671110540089458,
+      "difference": 9.71445146547012e-17,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_access_rights",
+      "author_report": 0.9140767824497258,
+      "platform_recomputed": 0.9140767824497258,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_clinical_health",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_culture_values",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_demography_family",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_digital_data",
+      "author_report": 8.226691042047532,
+      "platform_recomputed": 8.226691042047532,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_education_youth",
+      "author_report": 0.4570383912248629,
+      "platform_recomputed": 0.4570383912248629,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_employment_skills",
+      "author_report": 6.39853747714808,
+      "platform_recomputed": 6.39853747714808,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_enterprise_industry",
+      "author_report": 25.137111517367458,
+      "platform_recomputed": 25.137111517367458,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_environment_climate",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_export_trade",
+      "author_report": 2.2851919561243146,
+      "platform_recomputed": 2.2851919561243146,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_governance_evidence",
+      "author_report": 3.19926873857404,
+      "platform_recomputed": 3.19926873857404,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_healthy_life_care",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_housing_urban",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_income_support",
+      "author_report": 0.4570383912248629,
+      "platform_recomputed": 0.4570383912248629,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_reproductive_health",
+      "author_report": 0.0,
+      "platform_recomputed": 0.0,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_science_innovation",
+      "author_report": 5.027422303473492,
+      "platform_recomputed": 5.027422303473492,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_tourism",
+      "author_report": 61.70018281535649,
+      "platform_recomputed": 61.70018281535649,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "frame_frequency_transport_logistics",
+      "author_report": 2.742230347349177,
+      "platform_recomputed": 2.742230347349177,
+      "difference": 0.0,
+      "equal": true,
+      "tolerance": 1e-12
+    },
+    {
+      "metric": "semantic_candidate_count",
+      "author_report": 20,
+      "platform_recomputed": 20,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "candidate_results",
+      "author_report": 13,
+      "platform_recomputed": 13,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "candidate_unique_indicators",
+      "author_report": 9,
+      "platform_recomputed": 9,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "tfidf_features",
+      "author_report": 20000,
+      "platform_recomputed": 20000,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    },
+    {
+      "metric": "tourism_profile_tokens",
+      "author_report": 2188,
+      "platform_recomputed": 2188,
+      "difference": 0,
+      "equal": true,
+      "tolerance": 0
+    }
+  ],
+  "finance_sum_decimal": "1787964010.59",
+  "finance_is_consolidated": false,
+  "target_cards": 14,
+  "target_unique": 11,
+  "target_numeric_cells": 62,
+  "target_missing_cells": 4
+}

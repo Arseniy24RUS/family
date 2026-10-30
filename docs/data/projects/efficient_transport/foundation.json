@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "project_id": "efficient_transport",
+  "project_name": "Национальный проект «Эффективная транспортная система»",
+  "release_version": "2.12.0-platform.1",
+  "statistical_as_of": "2026-10-15",
+  "documentary_as_of": "2026-10-16",
+  "release_date": "2026-10-29",
+  "author_expertise_status": "published",
+  "registry": {
+    "project_id": "efficient_transport",
+    "project_name": "Национальный проект «Эффективная транспортная система»",
+    "n_registry": 24,
+    "n_with_numeric": 22,
+    "original_catalog_numeric_indicators": 22,
+    "source_mapping_status": "source_cells_and_indicator_definitions_reviewed",
+    "n_numeric_sources": 22,
+    "n_with_regional": 0,
+    "n_with_national": 22,
+    "n_unique_cells": 463,
+    "n_numeric": 442,
+    "n_usable": 442,
+    "n_domain_violations": 0,
+    "n_review_exclusions": 0,
+    "coverage_pct": 91.66666666666667,
+    "qualification": "Наличие числовой ячейки не удостоверяет независимость наблюдения, сопоставимость методики и завершённый годовой результат."
+  },
+  "panel": {
+    "project_id": "efficient_transport",
+    "status": "not_applicable",
+    "reason": "В проверенных источниках отсутствует сопоставимая региональная панель.",
+    "n_regions": 0,
+    "n_features": 0,
+    "n_imputed_cells": 0,
+    "common_regional_panel": false,
+    "k": null,
+    "silhouette": null,
+    "pc12_variance": null,
+    "pca_performed": false,
+    "clustering_performed": false,
+    "ranking_validated": false,
+    "spatial_autocorrelation_performed": false
+  },
+  "research": {
+    "project_id": "efficient_transport",
+    "project_name": "Национальный проект «Эффективная транспортная система»",
+    "registry_indicators": 24,
+    "indicators_with_numeric": 22,
+    "original_catalog_numeric_indicators": 22,
+    "indicators_with_regional": 0,
+    "observations_numeric": 442,
+    "documents": 11,
+    "documentary_network_summary": {
+      "results": 30,
+      "tasks": 27,
+      "indicatorCards": 25,
+      "uniqueIndicators": 22,
+      "goals": 10,
+      "structuralPairs": 54,
+      "structuralResults": 30,
+      "structuralIndicatorCards": 20,
+      "ambiguousClaims": 42,
+      "resolvedDirectLinks": 0,
+      "lexicalPairs": 36,
+      "lexicalResults": 17,
+      "lexicalIndicators": 15,
+      "authorReportedLexicalIndicators": 16,
+      "resultsWithoutLexicalCandidate": 13
+    },
+    "multivariate_status": "not_applicable",
+    "passport_financing_2025_2030_thousand_rub": 7622134021.13,
+    "financing_total_meaning": "Арифметическая сумма опубликованных плановых строк. Согласованность сумм не подтверждает договорное обеспечение ресурсов и не исключает повторное отражение межбюджетных перечислений. Внебюджетная строка не равнозначна расходам частного сектора. Консолидированный ресурс и исполненные расходы отдельно не установлены.",
+    "strict_financing_hhi": null,
+    "arithmetic_financing_hhi": 0.3441604200658644,
+    "financing_status": "published_plan_reconciled_without_consolidation_claim",
+    "causal_effect_status": "not_identified_in_existing_sources",
+    "author_expertise_text_status": "published"
+  },
+  "results": {
+    "project_id": "efficient_transport",
+    "project_name": "Национальный проект «Эффективная транспортная система»",
+    "n_registry": 24,
+    "n_numeric_indicators": 22,
+    "n_regional_indicators": 0,
+    "n_forecast_indicators": 0,
+    "n_projected_series": 0,
+    "forecast_status": "model_not_validated",
+    "n_documented_target_indicators": 22,
+    "n_eligible_annual_comparisons": 0,
+    "n_conditional_target_comparisons": 19,
+    "target_status": "source_linked_comparisons_with_explicit_period_status"
+  },
+  "corpus": {
+    "project_documents": 10,
+    "documentary_sources": 11,
+    "source_corpus_documents": 137,
+    "source_corpus_projects": null,
+    "documentary_snapshot": "2026-10-16",
+    "qualification": "Паспорта проекта, документы лексического корпуса и источники авторской экспертизы являются самостоятельными единицами учёта."
+  },
+  "method_summary": {
+    "total": 39,
+    "by_status": {
+      "author_framework_published": 1,
+      "source_structure_published": 1,
+      "source_inventory_published": 1,
+      "evidence_classes_separated": 1,
+      "source_cells_and_definitions_checked": 1,
+      "source_coverage_published": 1,
+      "period_semantics_preserved": 1,
+      "qualified_source_comparisons": 1,
+      "model_not_validated": 1,
+      "no_regional_source_panel": 1,
+      "not_computed_without_regional_observations": 3,
+      "not_computed_incomparable_series": 1,
+      "not_applicable_without_regional_panel": 5,
+      "not_applicable_without_multivariate_model": 1,
+      "source_values_preserved": 1,
+      "financial_scopes_separated": 1,
+      "row_concentration_with_scope_limits": 1,
+      "financial_reconciliation_with_limits": 1,
+      "documentary_network_published": 1,
+      "fixed_corpus_terms_published": 1,
+      "source_dictionary_evidence_published": 1,
+      "fixed_corpus_similarity_published": 1,
+      "not_recomputed_in_current_study": 2,
+      "source_documents_published": 1,
+      "author_qualitative_analysis_published": 1,
+      "not_computed_without_scoring_protocol": 1,
+      "conditional_arithmetic_without_estimated_effect": 1,
+      "design_proposed_effect_not_identified": 1,
+      "effect_not_identified": 1,
+      "author_recommendations_published": 1,
+      "not_applicable_to_available_inputs": 1,
+      "source_backed_and_conditional_calculations": 1
+    }
+  },
+  "sections": [
+    {
+      "id": "framework",
+      "title": "Предмет и критерии оценки",
+      "question": "Какие вопросы ставит экспертиза и по каким критериям оценивается проект?",
+      "order": 1,
+      "publication_status": "published",
+      "evidence": "Предмет экспертизы охватывает девять федеральных проектов, границы отраслевого и проектного результата, согласованность целей и достаточность открытых свидетельств."
+    },
+    {
+      "id": "logic",
+      "title": "Экономические механизмы транспорта",
+      "question": "Как связаны цели, мероприятия, ресурсы и ожидаемые результаты?",
+      "order": 2,
+      "publication_status": "published",
+      "evidence": "Полные издержки, ограничивающее звено маршрута, перераспределение потоков и возможный дополнительный эффект объясняют переход от инфраструктуры к транспортной услуге."
+    },
+    {
+      "id": "audit",
+      "title": "Аудит показателей и методик",
+      "question": "Какие результаты измеряет система мониторинга и чего в ней недостаёт?",
+      "order": 3,
+      "publication_status": "published",
+      "evidence": "Период накопления, состав совокупности, нормативный знаменатель и стадия уточнения определяют смысл авиационных, цифровых, кадровых и инфраструктурных показателей."
+    },
+    {
+      "id": "targets",
+      "title": "Цели и наблюдаемые результаты",
+      "question": "Что показывают сопоставимые ряды и насколько обоснованы ориентиры?",
+      "order": 4,
+      "publication_status": "published",
+      "evidence": "Результаты 2025 года сопоставлены с датированной редакцией целей 2026 года. Состояние мощности, годовой поток и запаздывающие кадровые сведения имеют разные условия сравнения."
+    },
+    {
+      "id": "map",
+      "title": "Морские бассейны и транспортные узлы",
+      "question": "Как различаются ситуации в субъектах России?",
+      "order": 5,
+      "publication_status": "published",
+      "evidence": "Пять морских бассейнов и документированные примеры пограничных узлов показывают географию транспортной работы. Административные региональные рейтинги не рассчитываются без соответствующих наблюдений."
+    },
+    {
+      "id": "regions",
+      "title": "Коридоры и виды сообщения",
+      "question": "Какие устойчивые сочетания условий и результатов можно выделить?",
+      "order": 6,
+      "publication_status": "published",
+      "evidence": "Грузовая работа, накопленные перевозки Севморпути и структура авиационного сообщения сохраняют собственные единицы, территориальные границы и временные периоды."
+    },
+    {
+      "id": "finance",
+      "title": "Финансирование и обязательства",
+      "question": "Как расходы соотносятся с задачами, результатами и территориальными потребностями?",
+      "order": 7,
+      "publication_status": "published",
+      "evidence": "Паспортный план, бюджетные предложения, исполнение и долгосрочные обязательства представлены с самостоятельными статусами и условиями консолидации."
+    },
+    {
+      "id": "network",
+      "title": "Связи мероприятий и показателей",
+      "question": "Какие направления связаны между собой и где возникают разрывы?",
+      "order": 8,
+      "publication_status": "published",
+      "evidence": "Общая задача, неразрешённое ссылочное утверждение и лексическое сходство имеют различную доказательную силу. География и сроки проверяются отдельно для каждого предполагаемого отношения."
+    },
+    {
+      "id": "texts",
+      "title": "Документы и межпроектные связи",
+      "question": "Как сформулированы задачи и что остаётся за пределами языка документов?",
+      "order": 9,
+      "publication_status": "published",
+      "evidence": "Смысловые профили десяти паспортов исследованы в корпусе из 137 документов. Сходство формулировок проверено по обработке слов и предметному содержанию."
+    },
+    {
+      "id": "domains",
+      "title": "Девять федеральных направлений",
+      "question": "Какие содержательные механизмы требуют отдельной проверки?",
+      "order": 10,
+      "publication_status": "published",
+      "evidence": "Высокоскоростное сообщение, Северный морской путь, железные дороги, порты, водные пути, аэродромы, граница, цифровизация и кадры составляют девять направлений проекта."
+    },
+    {
+      "id": "causal",
+      "title": "Проверка дополнительного эффекта",
+      "question": "Какие данные и сравнения позволят оценить вклад конкретных мер?",
+      "order": 11,
+      "publication_status": "published",
+      "evidence": "Даты ввода, предшествующая динамика, сопоставимые маршруты и альтернативные объяснения необходимы для отделения дополнительной услуги от перераспределения существующего потока."
+    },
+    {
+      "id": "proposals",
+      "title": "Предложения экспертизы",
+      "question": "Какие изменения следуют из проверенных результатов и как оценить их последствия?",
+      "order": 12,
+      "publication_status": "published",
+      "evidence": "Предложения соединяют версии методик, готовность маршрута, условия пользования, договоры, кадровые когорты и долгосрочные обязательства."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Экспертиза национального проекта «Эффективная транспортная система»",
+      "url": "downloads/projects/efficient_transport/report/expertise_transport_2026.docx",
+      "format": "DOCX",
+      "edition_date": "2026-10-29",
+      "qualification": "Исходный отчёт сохранён полностью. Авторские выводы и первичные источники сохраняют собственные даты и основания."
+    },
+    {
+      "title": "[Т] Транспорт",
+      "url": "https://databudget.ru/projects/np/20",
+      "urls": [
+        "https://databudget.ru/projects/np/20"
+      ],
+      "format": "HTML",
+      "document_level": "national",
+      "sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+      "publisher_version_label": "Версия 26.35",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/d2/d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d.html"
+    },
+    {
+      "title": "Презентация национального проекта «Эффективная транспортная система»",
+      "url": "https://admkogalym.ru/upload/medialibrary/c46/d949n1dqnmuxytcqwr9351v7l6xfwnn8/34_vn_248_25_11.pdf",
+      "urls": [
+        "https://admkogalym.ru/upload/medialibrary/c46/d949n1dqnmuxytcqwr9351v7l6xfwnn8/34_vn_248_25_11.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "presentation",
+      "sha256": "1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:42:20Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/13/1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c.pdf"
+    },
+    {
+      "title": "[Т1] Высокоскоростные железнодорожные магистрали",
+      "url": "https://databudget.ru/projects/fp/268",
+      "urls": [
+        "https://databudget.ru/projects/fp/268"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:31.091239+00:00",
+      "publisher_version_label": "Версия 26.8",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/e8/e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff.html"
+    },
+    {
+      "title": "[Т2] Большой СМП",
+      "url": "https://databudget.ru/projects/fp/270",
+      "urls": [
+        "https://databudget.ru/projects/fp/270"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+      "publisher_version_label": "Версия 26.34",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/b6/b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5.html"
+    },
+    {
+      "title": "[Т3] Развитие железных дорог",
+      "url": "https://databudget.ru/projects/fp/272",
+      "urls": [
+        "https://databudget.ru/projects/fp/272"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:32.427361+00:00",
+      "publisher_version_label": "Версия 26.7",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/7e/7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681.html"
+    },
+    {
+      "title": "[Т4] Морские порты",
+      "url": "https://databudget.ru/projects/fp/271",
+      "urls": [
+        "https://databudget.ru/projects/fp/271"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:32.211089+00:00",
+      "publisher_version_label": "Версия 26.7",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/e0/e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490.html"
+    },
+    {
+      "title": "[Т5] Внутренние водные пути",
+      "url": "https://databudget.ru/projects/fp/269",
+      "urls": [
+        "https://databudget.ru/projects/fp/269"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:31.086236+00:00",
+      "publisher_version_label": "Версия 26.18",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/35/35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad.html"
+    },
+    {
+      "title": "[Т6] Развитие аэродромов",
+      "url": "https://databudget.ru/projects/fp/273",
+      "urls": [
+        "https://databudget.ru/projects/fp/273"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:32.283058+00:00",
+      "publisher_version_label": "Версия 26.31",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/ed/ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103.html"
+    },
+    {
+      "title": "[Т7] Развитие пунктов пропуска",
+      "url": "https://databudget.ru/projects/fp/274",
+      "urls": [
+        "https://databudget.ru/projects/fp/274"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:33.753501+00:00",
+      "publisher_version_label": "Версия 26.12",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/eb/eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4.html"
+    },
+    {
+      "title": "[Т8] Цифровая трансформация транспорта",
+      "url": "https://databudget.ru/projects/fp/276",
+      "urls": [
+        "https://databudget.ru/projects/fp/276"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "aada567152cd2118a683889050ec152ed0beea3a77d199aa43872eec7169304c",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:33.956847+00:00",
+      "publisher_version_label": "Версия 26.11",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/aa/aada567152cd2118a683889050ec152ed0beea3a77d199aa43872eec7169304c.html"
+    },
+    {
+      "title": "[Т9] Кадры транспортной отрасли",
+      "url": "https://databudget.ru/projects/fp/275",
+      "urls": [
+        "https://databudget.ru/projects/fp/275"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "737224055a65a929709ba0490fccfd8433d9f4a6ad28a7a4b40a8056cb557a7d",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:38:31.138117+00:00",
+      "publisher_version_label": "Версия 26.5",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/73/737224055a65a929709ba0490fccfd8433d9f4a6ad28a7a4b40a8056cb557a7d.html"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Аудит 339 показателей",
+      "url": "downloads/projects/shared/indicator_audit.csv",
+      "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+      "bytes": 166183
+    },
+    {
+      "title": "Сводный аудит 11 нацпроектов",
+      "url": "downloads/projects/shared/project_audit.csv",
+      "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+      "bytes": 1810
+    },
+    {
+      "title": "Матрица методов по нацпроектам",
+      "url": "downloads/projects/shared/project_method_matrix.csv",
+      "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+      "bytes": 283115
+    },
+    {
+      "title": "Применимость методов и доступность данных",
+      "url": "downloads/projects/shared/project_method_eligibility.csv",
+      "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+      "bytes": 2507
+    }
+  ],
+  "registry_source_url": "https://www.fedstat.ru/organizations/#group1854344",
+  "interpretation": "Полный авторский отчёт сопровождается исходными материалами и проверенными описательными расчётами. Мощность, использование сети и доступность услуги представлены отдельно. Дата сборки не заменяет дату наблюдения.",
+  "legacy_release_metadata": {
+    "source_release": "1.2.0",
+    "qualification": "Метаданные предыдущего исследовательского выпуска сохраняют собственную редакцию. Поля верхнего уровня характеризуют текущую публикацию.",
+    "original": {
+      "schema_version": 1,
+      "project_id": "efficient_transport",
+      "project_name": "Национальный проект «Эффективная транспортная система»",
+      "release_version": "1.2.0",
+      "statistical_as_of": "2026-10-15",
+      "documentary_as_of": "2026-10-19",
+      "release_date": "2026-10-27",
+      "author_expertise_status": "next_requested_stage",
+      "registry": {
+        "project_id": "efficient_transport",
+        "project_name": "Национальный проект «Эффективная транспортная система»",
+        "n_registry": 24,
+        "n_with_numeric": 22,
+        "n_with_regional": 0,
+        "n_with_national": 22,
+        "n_unique_cells": 463,
+        "n_numeric": 442,
+        "n_usable": 442,
+        "n_domain_violations": 0,
+        "coverage_pct": 91.66666666666666
+      },
+      "panel": {
+        "project_id": "efficient_transport",
+        "panel_id": "",
+        "status": "no_regional_data",
+        "frequency": "",
+        "period_end": "",
+        "n_regions": null,
+        "n_features": null,
+        "n_imputed_cells": null,
+        "imputed_pct": null,
+        "k": null,
+        "silhouette": null,
+        "pc12_variance": null,
+        "cluster_status": "",
+        "n_communities": null,
+        "complete_case_ari": null,
+        "n_complete_case": null,
+        "seed": null
+      },
+      "research": {
+        "project_id": "efficient_transport",
+        "project_name": "Национальный проект «Эффективная транспортная система»",
+        "registry_indicators": 24,
+        "indicators_with_numeric": 22,
+        "indicators_with_regional": 0,
+        "observations_numeric": 442,
+        "documents": 11,
+        "goal_nodes": 10,
+        "task_nodes": 27,
+        "indicator_nodes": 25,
+        "result_nodes": 30,
+        "unresolved_link_claims": 42,
+        "shared_task_result_indicator_links": 54,
+        "results_linked_through_documented_task": 30,
+        "results_with_lexical_candidate": 17,
+        "explicit_result_indicator_links": 0,
+        "family_original_manual_edges": null,
+        "multivariate_status": "not_applicable_to_available_input",
+        "passport_financing_2025_2030_thousand_rub": 7622134021.13,
+        "strict_financing_hhi": 0.34416042006586434,
+        "financing_status": "computed_complete_visible_fp_headers",
+        "causal_effect_status": "not_identified_in_existing_sources",
+        "author_expertise_text_status": "next_requested_stage"
+      },
+      "results": {
+        "project_id": "efficient_transport",
+        "project_name": "Национальный проект «Эффективная транспортная система»",
+        "n_registry": 24,
+        "n_numeric_indicators": 22,
+        "n_regional_indicators": 0,
+        "n_forecast_indicators": 13,
+        "n_series": 29,
+        "n_projected_series": 29,
+        "n_diagnostic_forecast_series": 13,
+        "n_reference_scenario_series": 16,
+        "n_series_with_review_flags": 22,
+        "n_documented_target_indicators": 22,
+        "target_status": "source_backed_targets_available"
+      },
+      "corpus": {
+        "project": "transport",
+        "project_name": "Эффективная транспортная система",
+        "unique_pdf_files": 1,
+        "pages": 4,
+        "national_passport_files": 0,
+        "federal_passport_files": 0,
+        "presentation_files": 1,
+        "legal_reprints": 0,
+        "note": "Counts of files, not distinct federal project names; shared presentations cover all ten target projects."
+      },
+      "method_summary": {
+        "total": 39,
+        "by_status": {
+          "documentary_structure_completed_substantive_review_deferred": 2,
+          "computed_with_documented_scope": 11,
+          "documentary_and_structural_links_computed_candidates_unapproved": 1,
+          "retained_with_input_and_coverage_checks": 2,
+          "retained_from_1_1_source_unchanged": 4,
+          "not_computable_current_input_no_regional_observations": 4,
+          "not_computable_current_input_no_regional_data": 6,
+          "not_computable_current_input_input_panel_not_computed": 1,
+          "financial_measurement_bridge_computed_not_cost_effectiveness": 1,
+          "evidence_matrix_completed_expert_scores_deferred": 1,
+          "designs_and_readiness_audit_completed_no_effect_estimated": 3,
+          "deferred_by_user": 1,
+          "specialized_family_extension_not_generalized": 1,
+          "reproducible_analysis_code_available": 1
+        }
+      },
+      "sections": [
+        {
+          "order": 1,
+          "section_id": "framework",
+          "title": "Методологическая рамка экспертизы",
+          "family_report_pages": "7–9",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L2",
+          "publication_status": "planned",
+          "evidence": "Реестр методов и их ограничений подготовлен; содержательные выводы требуют отдельной авторской экспертизы.",
+          "method_ids": [
+            "theory_of_change"
+          ]
+        },
+        {
+          "order": 2,
+          "section_id": "logic",
+          "title": "Нормативно-логическая модель",
+          "family_report_pages": "9–11",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L3",
+          "publication_status": "planned",
+          "evidence": "В исследовательском корпусе: 10 целей, 27 задач, 30 результатов. Документальная связь не является доказательством причинного эффекта.",
+          "method_ids": [
+            "project_hierarchy",
+            "activity_inventory",
+            "activity_indicator_links"
+          ]
+        },
+        {
+          "order": 3,
+          "section_id": "audit",
+          "title": "Аудит данных и показателей",
+          "family_report_pages": "11–19",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L4",
+          "publication_status": "planned",
+          "evidence": "В реестре 24 показателей; числовые данные доступны для 22, региональные для 0.",
+          "method_ids": [
+            "source_quality",
+            "observability",
+            "time_dynamics"
+          ]
+        },
+        {
+          "order": 4,
+          "section_id": "targets",
+          "title": "Целевые траектории и прогноз",
+          "family_report_pages": "19–24",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L5",
+          "publication_status": "planned",
+          "evidence": "Паспортные цели и статистические ряды сопоставляются только при подтверждённом совпадении показателя, единицы измерения, территории и периода.",
+          "method_ids": [
+            "target_comparison",
+            "forecasting"
+          ]
+        },
+        {
+          "order": 5,
+          "section_id": "map",
+          "title": "Территориальная экспертиза",
+          "family_report_pages": "24–43",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L6",
+          "publication_status": "planned",
+          "evidence": "Региональные данные имеются для 0 показателей. Карты требуют отдельной проверки сопоставимости выбранного периода.",
+          "method_ids": [
+            "geographical_join",
+            "regional_maps",
+            "regional_descriptive"
+          ]
+        },
+        {
+          "order": 6,
+          "section_id": "regions",
+          "title": "Типология и пространственные связи",
+          "family_report_pages": "43–52",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L7",
+          "publication_status": "planned",
+          "evidence": "Статус многомерной панели: no_regional_data; территорий: 0, признаков: 0. Региональная типология не тождественна оценке эффективности.",
+          "method_ids": [
+            "correlations",
+            "pca",
+            "kmeans",
+            "multivariate_stability",
+            "isolation_forest",
+            "moran_global",
+            "moran_local",
+            "regional_similarity",
+            "relative_profiles"
+          ]
+        },
+        {
+          "order": 7,
+          "section_id": "finance",
+          "title": "Финансовая экспертиза",
+          "family_report_pages": "52–55",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L8",
+          "publication_status": "planned",
+          "evidence": "Финансовые суммы и доли сохраняют единицы исходного паспорта. Оценка распределения средств зависит от сопоставимости заголовков федеральных проектов.",
+          "method_ids": [
+            "budget_registry",
+            "budget_hhi",
+            "budget_observability"
+          ]
+        },
+        {
+          "order": 8,
+          "section_id": "network",
+          "title": "Мероприятия и показатели",
+          "family_report_pages": "55–61",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L9",
+          "publication_status": "planned",
+          "evidence": "В корпусе разделены документальные связи, совместная принадлежность задаче и лексические кандидаты. Автоматическая похожесть не превращается в доказанную связь.",
+          "method_ids": [
+            "activity_network"
+          ]
+        },
+        {
+          "order": 9,
+          "section_id": "texts",
+          "title": "Лингвистическая и смысловая экспертиза",
+          "family_report_pages": "61–65",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L10",
+          "publication_status": "planned",
+          "evidence": "Документальная основа исследовательского модуля: 11 документов. Лексические признаки рассматриваются совместно с контекстом.",
+          "method_ids": [
+            "lexical_frequencies",
+            "dictionary_frames",
+            "tfidf_cosine",
+            "text_clustering",
+            "concept_cooccurrence",
+            "context_search"
+          ]
+        },
+        {
+          "order": 10,
+          "section_id": "domains",
+          "title": "Охват сфер жизнедеятельности",
+          "family_report_pages": "65–68",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L11",
+          "publication_status": "planned",
+          "evidence": "Сферы жизнедеятельности выделяются по корпусу и словарям; полнота охвата требует содержательной проверки экспертом.",
+          "method_ids": [
+            "domain_evidence",
+            "expert_domain_scale"
+          ]
+        },
+        {
+          "order": 11,
+          "section_id": "causal",
+          "title": "Сценарии и причинная оценка",
+          "family_report_pages": "68–71",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L12",
+          "publication_status": "planned",
+          "evidence": "Причинный эффект нацпроекта в имеющемся наборе источников не идентифицирован. Для его оценки нужен самостоятельный исследовательский дизайн.",
+          "method_ids": [
+            "policy_scenario_framework",
+            "causal_designs",
+            "heterogeneous_causal_effects"
+          ]
+        },
+        {
+          "order": 12,
+          "section_id": "proposals",
+          "title": "Предложения по корректировке",
+          "family_report_pages": "71–73",
+          "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L13",
+          "publication_status": "planned",
+          "evidence": "Рекомендации формируются после проверки фактов и содержательной экспертизы, с указанием адресата, механизма и ожидаемого результата.",
+          "method_ids": [
+            "recommendations"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "[Т] Транспорт",
+          "url": "https://databudget.ru/projects/np/20",
+          "urls": [
+            "https://databudget.ru/projects/np/20"
+          ],
+          "format": "HTML",
+          "document_level": "national",
+          "sha256": "d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+          "publisher_version_label": "Версия 26.35",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/d2/d2e3e06a06edf34e45105aab568f9c6aab27495362c483eb696853747526212d.html"
+        },
+        {
+          "title": "Презентация национального проекта «Эффективная транспортная система»",
+          "url": "https://admkogalym.ru/upload/medialibrary/c46/d949n1dqnmuxytcqwr9351v7l6xfwnn8/34_vn_248_25_11.pdf",
+          "urls": [
+            "https://admkogalym.ru/upload/medialibrary/c46/d949n1dqnmuxytcqwr9351v7l6xfwnn8/34_vn_248_25_11.pdf"
+          ],
+          "format": "PDF",
+          "document_level": "presentation",
+          "sha256": "1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c",
+          "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+          "retrieved_at": "2026-10-19T11:42:20Z",
+          "publisher_version_label": "",
+          "publisher_updated_label": "",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "public_pdf_copy",
+          "source_file_in_research_package": "corpus/data/pdfs/13/1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c.pdf"
+        },
+        {
+          "title": "[Т1] Высокоскоростные железнодорожные магистрали",
+          "url": "https://databudget.ru/projects/fp/268",
+          "urls": [
+            "https://databudget.ru/projects/fp/268"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:31.091239+00:00",
+          "publisher_version_label": "Версия 26.8",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/e8/e86bc40e22d4ff370964227bf20f0544a2a4e8b4f5d0f585ab596351ece82cff.html"
+        },
+        {
+          "title": "[Т2] Большой СМП",
+          "url": "https://databudget.ru/projects/fp/270",
+          "urls": [
+            "https://databudget.ru/projects/fp/270"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+          "publisher_version_label": "Версия 26.34",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/b6/b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5.html"
+        },
+        {
+          "title": "[Т3] Развитие железных дорог",
+          "url": "https://databudget.ru/projects/fp/272",
+          "urls": [
+            "https://databudget.ru/projects/fp/272"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:32.427361+00:00",
+          "publisher_version_label": "Версия 26.7",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/7e/7e23e8beb6fa5cd39f4cfe272e9937564352f5a589f221b4179ce7af2557d681.html"
+        },
+        {
+          "title": "[Т4] Морские порты",
+          "url": "https://databudget.ru/projects/fp/271",
+          "urls": [
+            "https://databudget.ru/projects/fp/271"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:32.211089+00:00",
+          "publisher_version_label": "Версия 26.7",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/e0/e05c238178946f070cb2b1a7a451edb11517400fcb5ec591b0fe830cde577490.html"
+        },
+        {
+          "title": "[Т5] Внутренние водные пути",
+          "url": "https://databudget.ru/projects/fp/269",
+          "urls": [
+            "https://databudget.ru/projects/fp/269"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:31.086236+00:00",
+          "publisher_version_label": "Версия 26.18",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/35/35c89b84bf575c865cbdc01b8f57df5e8f04398a7c78b204b82c6c9b9fea62ad.html"
+        },
+        {
+          "title": "[Т6] Развитие аэродромов",
+          "url": "https://databudget.ru/projects/fp/273",
+          "urls": [
+            "https://databudget.ru/projects/fp/273"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:32.283058+00:00",
+          "publisher_version_label": "Версия 26.31",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/ed/ed7dc4eaf006b185a4be6ec349a37bb8f6d959600fb745540a7a9c25a1867103.html"
+        },
+        {
+          "title": "[Т7] Развитие пунктов пропуска",
+          "url": "https://databudget.ru/projects/fp/274",
+          "urls": [
+            "https://databudget.ru/projects/fp/274"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:33.753501+00:00",
+          "publisher_version_label": "Версия 26.12",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/eb/eb7123c0fca529dd81bf326adb87e7bcd217e54c41cdaafc961c4797941f4ad4.html"
+        },
+        {
+          "title": "[Т8] Цифровая трансформация транспорта",
+          "url": "https://databudget.ru/projects/fp/276",
+          "urls": [
+            "https://databudget.ru/projects/fp/276"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "aada567152cd2118a683889050ec152ed0beea3a77d199aa43872eec7169304c",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:33.956847+00:00",
+          "publisher_version_label": "Версия 26.11",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/aa/aada567152cd2118a683889050ec152ed0beea3a77d199aa43872eec7169304c.html"
+        },
+        {
+          "title": "[Т9] Кадры транспортной отрасли",
+          "url": "https://databudget.ru/projects/fp/275",
+          "urls": [
+            "https://databudget.ru/projects/fp/275"
+          ],
+          "format": "HTML",
+          "document_level": "federal",
+          "sha256": "737224055a65a929709ba0490fccfd8433d9f4a6ad28a7a4b40a8056cb557a7d",
+          "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+          "retrieved_at": "2026-10-19T14:38:31.138117+00:00",
+          "publisher_version_label": "Версия 26.5",
+          "publisher_updated_label": "16.10.2026 в 16:35",
+          "approval_date": "",
+          "edition_date": "",
+          "source_type": "secondary_epbs_rendering",
+          "source_file_in_research_package": "corpus/data/web/73/737224055a65a929709ba0490fccfd8433d9f4a6ad28a7a4b40a8056cb557a7d.html"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Аудит 339 показателей",
+          "url": "downloads/projects/shared/indicator_audit.csv",
+          "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+          "bytes": 166183
+        },
+        {
+          "title": "Сводный аудит 11 нацпроектов",
+          "url": "downloads/projects/shared/project_audit.csv",
+          "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+          "bytes": 1810
+        },
+        {
+          "title": "Матрица методов по нацпроектам",
+          "url": "downloads/projects/shared/project_method_matrix.csv",
+          "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+          "bytes": 283115
+        },
+        {
+          "title": "Применимость методов и доступность данных",
+          "url": "downloads/projects/shared/project_method_eligibility.csv",
+          "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+          "bytes": 2507
+        }
+      ],
+      "registry_source_url": "https://www.fedstat.ru/organizations/#group1854344",
+      "interpretation": "Актуальный доступный статистический срез на указанную дату. Дата сборки сайта не означает обновление первичных данных. Новые авторские страницы экспертизы добавляются после отдельной проверки."
+    }
+  }
+}

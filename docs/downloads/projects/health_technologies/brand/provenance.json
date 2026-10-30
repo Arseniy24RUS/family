@@ -1,0 +1,25 @@
+{
+  "id": "health_technologies",
+  "source_url": "https://newbrandbook.nationalpriority.ru/newbrandbook/01_%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D1%8B_%D0%B2%D1%81%D0%B5%20%D0%BD%D0%B0%D1%86%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8%20%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8C%D1%8F/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F/RGB/Tekhnologii_zdorov%27ya.svg",
+  "source_sha256": "dca34c7c71e424bf4aeffe3f87b55d9eed14f9a471dd81836744c95d257f9cb8",
+  "source_filename": "Tekhnologii_zdorov'ya.svg",
+  "file": "health_technologies.svg",
+  "sha256": "e771f4187454df9bf9d996d3c714d919003116c5a10c187ab4f91757ed7cf2d1",
+  "brand_color": "#0A8BBF",
+  "geometry_unchanged": true,
+  "viewbox_padding_fraction_of_max_dimension": 0.12,
+  "retrieved_at": "2026-10-29",
+  "original_bounds": {
+    "x": 676.5352783203125,
+    "y": 305.6099853515625,
+    "width": 566.9248046875,
+    "height": 468.77838134765625
+  },
+  "normalized_viewbox": [
+    608.5043017578125,
+    237.5790087890625,
+    702.9867578125,
+    604.8403344726562
+  ],
+  "font_policy": "Existing local Roboto and Bebas Neue brandbook fonts retained."
+}

@@ -1,0 +1,323 @@
+{
+  "schema": "national-projects.release-validation/1",
+  "version": "2.4.0-healthtech.1",
+  "base_release": "2.3.0-longlife.1",
+  "checked_at": "2026-10-29T11:57:22.172848+00:00",
+  "status": "passed",
+  "scope": {
+    "selectable_projects": 12,
+    "complete_projects": [
+      "family",
+      "youth_children",
+      "personnel",
+      "long_active_life",
+      "health_technologies"
+    ],
+    "new_project_routes": 21,
+    "new_project_static_pages": 21,
+    "official_color": "#0A8BBF",
+    "authors_only": "family"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "node": "v24.22.1",
+    "browser": "Chromium with Playwright",
+    "browser_plugin": "unavailable; Playwright fallback used",
+    "http_base_path": "/family/",
+    "github_push_or_deployment_performed": false
+  },
+  "tests": {
+    "javascript": {
+      "passed": 104,
+      "failed": 0
+    },
+    "python": {
+      "passed": 248,
+      "failed": 0
+    },
+    "browser": {
+      "suites": [
+        {
+          "suite": "browser_check",
+          "passed": 89,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_upgrade",
+          "passed": 42,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_redesign",
+          "passed": 29,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_live",
+          "passed": 852,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_youth",
+          "passed": 280,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_personnel",
+          "passed": 324,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_longlife",
+          "passed": 398,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        },
+        {
+          "suite": "browser_healthtech",
+          "passed": 388,
+          "failed": 0,
+          "unexpected_javascript_or_http_errors": 0
+        }
+      ],
+      "passed": 2402,
+      "failed": 0,
+      "new_project_checks": 388,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    },
+    "final_presentation": {
+      "views_checked": 6,
+      "viewports": [
+        1440,
+        390,
+        320
+      ],
+      "page_errors": 0,
+      "scope": "Final year typography and short source-link wrapping after the complete 8-suite acceptance run."
+    }
+  },
+  "report": {
+    "source_docx_sha256": "49a0b61d96a414e72d22ededb26e6690fd45a5e17424135617b7bb9079fd8913",
+    "pages_in_rendered_original": 105,
+    "coverage": {
+      "report_pages": 105,
+      "routes": 21,
+      "substantive_blocks": 317,
+      "assigned_blocks": 317,
+      "unmapped_substantive_blocks": [],
+      "duplicate_assignments": [],
+      "tables": 15,
+      "figures": 14,
+      "footnotes": 142,
+      "formulas": 5,
+      "verified_page_locators": 256,
+      "blocks_by_page": {
+        "overview": 17,
+        "framework": 14,
+        "logic": 9,
+        "audit": 16,
+        "targets": 11,
+        "map": 5,
+        "regions": 4,
+        "finance": 14,
+        "network": 11,
+        "texts": 35,
+        "domains": 35,
+        "causal": 9,
+        "proposals": 16,
+        "projections": 7,
+        "population": 3,
+        "structure": 6,
+        "methods": 22,
+        "lab": 19,
+        "explorer": 1,
+        "library": 1,
+        "updates": 7
+      }
+    },
+    "footnotes": 142,
+    "table_footnotes_linked_to_cells": 23
+  },
+  "statistics": {
+    "summary": {
+      "registry_indicators": 21,
+      "confirmed_sources": 20,
+      "available_sources": 14,
+      "observations": 233,
+      "numeric_observations": 191,
+      "missing_observations": 42,
+      "usable_observations": 64,
+      "excluded_numeric_observations": 127,
+      "annual_facts": 1,
+      "regional_sources": 0,
+      "territories": 1,
+      "regions": 0,
+      "by_federal_project": [
+        {
+          "code": "С",
+          "title": "Национальный проект",
+          "registry_indicators": 6,
+          "confirmed_sources": 6,
+          "available_sources": 6,
+          "numeric_observations": 88,
+          "missing_observations": 18
+        },
+        {
+          "code": "С1",
+          "title": "Федеральный проект «Управление медицинской наукой»",
+          "registry_indicators": 5,
+          "confirmed_sources": 5,
+          "available_sources": 5,
+          "numeric_observations": 70,
+          "missing_observations": 12
+        },
+        {
+          "code": "С2",
+          "title": "Федеральный проект «Технологии разработки медицинских изделий, лекарственных средств и платформ нового поколения»",
+          "registry_indicators": 3,
+          "confirmed_sources": 3,
+          "available_sources": 3,
+          "numeric_observations": 33,
+          "missing_observations": 12
+        },
+        {
+          "code": "С3",
+          "title": "Федеральный проект «Биомедицинские и когнитивные технологии будущего»",
+          "registry_indicators": 2,
+          "confirmed_sources": 2,
+          "available_sources": 0,
+          "numeric_observations": 0,
+          "missing_observations": 0
+        },
+        {
+          "code": "С4",
+          "title": "Федеральный проект «Регенеративная биомедицина, технологии превентивной медицины, обеспечение активного и здорового долголетия»",
+          "registry_indicators": 2,
+          "confirmed_sources": 2,
+          "available_sources": 0,
+          "numeric_observations": 0,
+          "missing_observations": 0
+        },
+        {
+          "code": "С5",
+          "title": "Федеральный проект «Развитие производства наиболее востребованных лекарственных препаратов и медицинских изделий»",
+          "registry_indicators": 3,
+          "confirmed_sources": 2,
+          "available_sources": 0,
+          "numeric_observations": 0,
+          "missing_observations": 0
+        }
+      ]
+    },
+    "sha256": "7a6c295a4594b7c9b491ea27d3586cdb466d0620f183b9dd93c30995ea7612d2",
+    "origin": "secondary_emiss_republication",
+    "no_fabricated_regional_panel": true,
+    "all_source_cells_independently_checked": 233
+  },
+  "documentary": {
+    "passports": 6,
+    "corpus_documents": 98,
+    "target_cells": 126,
+    "missing_targets": 8,
+    "exact_finance_thousand_rub": "16213442.40",
+    "published_federal_financial_cells": 22,
+    "missing_federal_financial_cells": 8,
+    "financed_result_cards": 15,
+    "original_financial_cells_checked": 78,
+    "original_budget_cells_checked_by_source_test": 28,
+    "unique_network_nodes": 62,
+    "same_federal_project_candidate_pairs": 83,
+    "unresolved_weight_claims": 69,
+    "author_exact_text_code_available": false,
+    "independent_text_replication_differences_disclosed": true,
+    "sha256": "2f32f2bdf71c2a282a6426cf421e9123c3907b878f3765364625fb06ea04524e"
+  },
+  "direct_emiss_attempt": {
+    "checked_at": "2026-10-29T11:25:16+00:00",
+    "state": "failed",
+    "attempted": 3,
+    "successful": 0,
+    "published": 0,
+    "updated": 0,
+    "failed": 3,
+    "deferred": 17,
+    "direct_emiss_verified": false,
+    "retained_publication_date": "2026-09-10",
+    "qualification": "Environment DNS failures; official service-wide availability is not inferred. Saved republications retain their true provenance and update dates."
+  },
+  "preservation": {
+    "base_manifest_files": 3296,
+    "byte_identical": 3081,
+    "classified_changes": 215,
+    "missing_files": 0,
+    "unexplained_changes": 0,
+    "source_protected_files": 1358,
+    "source_protected_files_all_byte_identical": true,
+    "previous_project_data_files_unchanged": 783,
+    "original_input_files_unchanged": 19,
+    "original_author_docs_and_published_copies_unchanged": 12,
+    "old_static_content_changes": "71 prior static HTML files differ solely by the twelfth project navigation link.",
+    "projection_zip_changes": "Every internal file unchanged; only ZIP member timestamps differ.",
+    "youth_units_csv_records": 11000,
+    "youth_units_csv_sha256": "8f49aa930932de1eb7d5a8d1867f7a082112c0691c623be6f50018c8e538b259",
+    "temporary_build_files_excluded": true,
+    "previous_download_catalog_entries": 604,
+    "previous_valid_download_urls_preserved": 603,
+    "legacy_unavailable_download_entries_removed": 1
+  },
+  "final_site_equivalence": {
+    "status": "passed",
+    "compared_files": 1029,
+    "missing": [],
+    "added": [],
+    "changes": [
+      {
+        "path": "src/healthtech.css",
+        "before": "5070102727b33754e73a84fa56263682216ae04904c295b4b47136d282f40545",
+        "after": "d69d39248dfa812451628a35fc54fb8ccab3987854b53c19ad96f33bc4f1e096"
+      },
+      {
+        "path": "src/pages/healthtech.js",
+        "before": "40ae312042f59a2bc3bf9caab011c29f034d55c3776d0ffe5c716cfe14b5c916",
+        "after": "0d9462473bbbd34b23313a50f10cb84c825b13e3d378ed786b78af3e80a79530"
+      }
+    ],
+    "unchanged_files": 1027,
+    "changes_scope": "Health Technologies: ungrouped calendar year text and more specific nowrap for short document links only. Separate targeted presentation checks passed at 1440/390/320 px. All statistical data, research HTML, prior project interface files and other site assets match the complete browser-tested build byte-for-byte."
+  },
+  "reproducibility": {
+    "build_offline": true,
+    "nltk_version": "3.9.2",
+    "all_old_input_and_source_materials_preserved": true,
+    "statistics_rebuild_without_external_sqlite_or_inputs_directory_tested": true,
+    "source_audit_report": "HEALTHTECH_SOURCE_AUDIT.json",
+    "general_validation_command": "npm run validate",
+    "browser_command": "python tests/run_browser.py",
+    "python_command": "python -m unittest discover -s tests -p \"test_*.py\""
+  },
+  "release_integrity": {
+    "download_files_before_two_QA_reports": 742,
+    "download_files_with_two_QA_reports": 744,
+    "required_after_protocol_publication": "Validate every advertised download hash and its packaged manifest membership.",
+    "archive_gate": "package_platform.py checks ZIP CRC and every file SHA256; the completed archive size and checksum are recorded outside the ZIP in DOWNLOAD_MANIFEST.json."
+  },
+  "resolved_defects": [
+    "Source HTML reused IDs for distinct results; full XPath-qualified identities retain all 28 cards and exact financial linkage.",
+    "23 report footnotes inside tables were attached to exact cells and published links.",
+    "The analytical installation now explicitly includes NLTK used by the documented stemming variant.",
+    "An incomplete prior-project CSV generated during preparation was restored byte-for-byte. Atomic write and full-row regression checks protect publication; the original cause was not established.",
+    "Two unfinished CSV temporary files were removed; build and package filters exclude temporary artifacts.",
+    "Final presentation uses ungrouped calendar years and unbroken short source links.",
+    "Archive membership verification removed one inherited catalogue entry for an intermediate file absent from the preceding ZIP and its manifest. All 603 actual previous download URLs are retained. Build and archive filtering now agree."
+  ]
+}

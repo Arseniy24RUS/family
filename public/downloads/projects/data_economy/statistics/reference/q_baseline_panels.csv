@@ -1,0 +1,2 @@
+﻿project_id,panel_id,status,frequency,period_end,n_regions,n_features,n_imputed_cells,imputed_pct,k,silhouette,pc12_variance,cluster_status,n_communities,complete_case_ari,n_complete_case,seed
+data_economy,data_economy_monthly_2026-09-30,computed,monthly,2026-09-30,85.0,5.0,1.0,0.2352941176470588,2.0,0.2437408110804886,0.5138791052081269,selected_by_silhouette,6.0,1.0,84.0,42.0

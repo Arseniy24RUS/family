@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "project_id": "life_infrastructure",
+  "corpus_documents": 98,
+  "corpus_projects": 12,
+  "corpus_tokens": 75367,
+  "infrastructure_tokens": 5886,
+  "source_passports": 13,
+  "target_cards": 51,
+  "target_cells": 192,
+  "numeric_targets": 188,
+  "missing_targets": 4,
+  "finance_national_total_thousand_rub": "15094430617.02",
+  "finance_federal_total_thousand_rub": "15098801767.71",
+  "finance_federal_minus_national_thousand_rub": 4371150.69,
+  "budget_source_cells": 268,
+  "unique_nodes": 191,
+  "results": 85,
+  "indicators": 51,
+  "tasks": 42,
+  "goals": 13,
+  "standalone_tasks": 26,
+  "repeated_structure_tasks": 16,
+  "unresolved_weight_claims": 160,
+  "reviewed_direct_links": 0,
+  "shared_task_pairs": 266,
+  "same_project_pairs": 300,
+  "semantic_candidates": 300,
+  "thematic_cells": 104,
+  "context_count": 605,
+  "features": 45885,
+  "replication_audit": [
+    {
+      "metric": "corpus_documents",
+      "author_report": 98,
+      "platform_recomputed": 98,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "corpus_tokens",
+      "author_report": 75539,
+      "platform_recomputed": 75367,
+      "difference": -172,
+      "equal": false
+    },
+    {
+      "metric": "infrastructure_tokens",
+      "author_report": 5889,
+      "platform_recomputed": 5886,
+      "difference": -3,
+      "equal": false
+    },
+    {
+      "metric": "features",
+      "author_report": 46519,
+      "platform_recomputed": 45885,
+      "difference": -634,
+      "equal": false
+    },
+    {
+      "metric": "stemming_features",
+      "author_report": 35510,
+      "platform_recomputed": 35048,
+      "difference": -462,
+      "equal": false
+    },
+    {
+      "metric": "unigram_features",
+      "author_report": 10329,
+      "platform_recomputed": 10471,
+      "difference": 142,
+      "equal": false
+    }
+  ]
+}

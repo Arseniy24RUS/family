@@ -1,0 +1,44 @@
+{
+  "schema": "national-projects.pages-build/1",
+  "source": "/workspace/scratch/91af86dafde0/platform/docs",
+  "output": "/tmp/nationalprojects-pages-transport-91af86dafde0",
+  "copy_mode": "hardlink_unchanged_files",
+  "input_files": 3359,
+  "output_files": 3625,
+  "input_bytes": 1279889548,
+  "output_bytes": 960183018,
+  "limit_bytes": 1000000000,
+  "headroom_bytes": 39816982,
+  "saved_bytes": 319706530,
+  "series_count": 265,
+  "series_original_bytes": 342508368,
+  "series_compressed_bytes": 22612871,
+  "unchanged_files_verified": 3093,
+  "source_files_verified_unchanged": 3359,
+  "gzip_roundtrips_verified": 265,
+  "copied_files": 0,
+  "linked_files": 3093,
+  "excluded_paths": [
+    {
+      "path": "downloads/projects/long_active_life/documentary/.documentary_full.json.fQzyQQ",
+      "reason": "hidden_or_temporary"
+    },
+    {
+      "path": "downloads/projects/youth_children/documentary/.documentary_full.json.46dhq8",
+      "reason": "hidden_or_temporary"
+    }
+  ],
+  "checks": {
+    "every_source_unchanged": true,
+    "every_unmodified_output_byte_identical": true,
+    "every_transport_hash_and_roundtrip": true,
+    "every_forwarding_envelope": true,
+    "exact_output_inventory": true,
+    "publication_within_size_limit": true
+  },
+  "transport_manifest": "data/series-transport.json",
+  "transport_manifest_sha256": "4dcc3d1071af46180d25bf2e04766215197d285157327e01b2e33cfd4ea06e1f",
+  "original_index_sha256": "3d22353e1e937b43b66711fb6e24f530f7f8bfe54ff6d6255c2e9a27adbf26fe",
+  "published_index_sha256": "2c590991064f8b93ea1c1c103064dbb5df6b8243e52cbf5ce50e20fcac4da30e",
+  "stage": "Pre-package publication, before final documentation synchronization."
+}

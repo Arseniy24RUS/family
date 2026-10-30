@@ -1,0 +1,750 @@
+{
+  "schema_version": 1,
+  "project_id": "youth_children",
+  "project_name": "Национальный проект «Молодежь и дети»",
+  "release_version": "1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "documentary_as_of": "2026-10-19",
+  "release_date": "2026-10-27",
+  "author_expertise_status": "next_requested_stage",
+  "registry": {
+    "project_id": "youth_children",
+    "project_name": "Национальный проект «Молодежь и дети»",
+    "n_registry": 37,
+    "n_with_numeric": 10,
+    "n_with_regional": 2,
+    "n_with_national": 10,
+    "n_unique_cells": 3596,
+    "n_numeric": 3414,
+    "n_usable": 3414,
+    "n_domain_violations": 0,
+    "coverage_pct": 27.027027027027028
+  },
+  "panel": {
+    "project_id": "youth_children",
+    "panel_id": "",
+    "status": "fewer_than_two_comparable_regional_features",
+    "frequency": "",
+    "period_end": "",
+    "n_regions": null,
+    "n_features": null,
+    "n_imputed_cells": null,
+    "imputed_pct": null,
+    "k": null,
+    "silhouette": null,
+    "pc12_variance": null,
+    "cluster_status": "",
+    "n_communities": null,
+    "complete_case_ari": null,
+    "n_complete_case": null,
+    "seed": null
+  },
+  "research": {
+    "project_id": "youth_children",
+    "project_name": "Национальный проект «Молодежь и дети»",
+    "registry_indicators": 37,
+    "indicators_with_numeric": 10,
+    "indicators_with_regional": 2,
+    "observations_numeric": 3414,
+    "documents": 24,
+    "goal_nodes": 10,
+    "task_nodes": 23,
+    "indicator_nodes": 45,
+    "result_nodes": 199,
+    "unresolved_link_claims": 448,
+    "shared_task_result_indicator_links": 434,
+    "results_linked_through_documented_task": 116,
+    "results_with_lexical_candidate": 59,
+    "explicit_result_indicator_links": 0,
+    "family_original_manual_edges": null,
+    "multivariate_status": "not_applicable_to_available_input",
+    "passport_financing_2025_2030_thousand_rub": 6177944262.03,
+    "strict_financing_hhi": 0.22357150656842767,
+    "financing_status": "computed_complete_visible_fp_headers",
+    "causal_effect_status": "not_identified_in_existing_sources",
+    "author_expertise_text_status": "next_requested_stage"
+  },
+  "results": {
+    "project_id": "youth_children",
+    "project_name": "Национальный проект «Молодежь и дети»",
+    "n_registry": 37,
+    "n_numeric_indicators": 10,
+    "n_regional_indicators": 2,
+    "n_forecast_indicators": 4,
+    "n_series": 187,
+    "n_projected_series": 187,
+    "n_diagnostic_forecast_series": 89,
+    "n_reference_scenario_series": 98,
+    "n_series_with_review_flags": 173,
+    "n_documented_target_indicators": 31,
+    "target_status": "source_backed_targets_available"
+  },
+  "corpus": {
+    "project": "youth_children",
+    "project_name": "Молодежь и дети",
+    "unique_pdf_files": 8,
+    "pages": 2135,
+    "national_passport_files": 2,
+    "federal_passport_files": 5,
+    "presentation_files": 1,
+    "legal_reprints": 0,
+    "note": "Counts of files, not distinct federal project names; shared presentations cover all ten target projects."
+  },
+  "method_summary": {
+    "total": 39,
+    "by_status": {
+      "documentary_structure_completed_substantive_review_deferred": 2,
+      "computed_with_documented_scope": 11,
+      "documentary_and_structural_links_computed_candidates_unapproved": 1,
+      "retained_with_input_and_coverage_checks": 2,
+      "retained_from_1_1_source_unchanged": 6,
+      "not_computable_current_input_fewer_than_two_comparable_regional_features": 6,
+      "retained_and_independently_verified": 2,
+      "not_computable_current_input_input_panel_not_computed": 1,
+      "financial_measurement_bridge_computed_not_cost_effectiveness": 1,
+      "evidence_matrix_completed_expert_scores_deferred": 1,
+      "designs_and_readiness_audit_completed_no_effect_estimated": 3,
+      "deferred_by_user": 1,
+      "specialized_family_extension_not_generalized": 1,
+      "reproducible_analysis_code_available": 1
+    }
+  },
+  "sections": [
+    {
+      "order": 1,
+      "section_id": "framework",
+      "title": "Методологическая рамка экспертизы",
+      "family_report_pages": "7–9",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L2",
+      "publication_status": "planned",
+      "evidence": "Реестр методов и их ограничений подготовлен; содержательные выводы требуют отдельной авторской экспертизы.",
+      "method_ids": [
+        "theory_of_change"
+      ]
+    },
+    {
+      "order": 2,
+      "section_id": "logic",
+      "title": "Нормативно-логическая модель",
+      "family_report_pages": "9–11",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L3",
+      "publication_status": "planned",
+      "evidence": "В исследовательском корпусе: 10 целей, 23 задач, 199 результатов. Документальная связь не является доказательством причинного эффекта.",
+      "method_ids": [
+        "project_hierarchy",
+        "activity_inventory",
+        "activity_indicator_links"
+      ]
+    },
+    {
+      "order": 3,
+      "section_id": "audit",
+      "title": "Аудит данных и показателей",
+      "family_report_pages": "11–19",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L4",
+      "publication_status": "planned",
+      "evidence": "В реестре 37 показателей; числовые данные доступны для 10, региональные для 2.",
+      "method_ids": [
+        "source_quality",
+        "observability",
+        "time_dynamics"
+      ]
+    },
+    {
+      "order": 4,
+      "section_id": "targets",
+      "title": "Целевые траектории и прогноз",
+      "family_report_pages": "19–24",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L5",
+      "publication_status": "planned",
+      "evidence": "Паспортные цели и статистические ряды сопоставляются только при подтверждённом совпадении показателя, единицы измерения, территории и периода.",
+      "method_ids": [
+        "target_comparison",
+        "forecasting"
+      ]
+    },
+    {
+      "order": 5,
+      "section_id": "map",
+      "title": "Территориальная экспертиза",
+      "family_report_pages": "24–43",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L6",
+      "publication_status": "planned",
+      "evidence": "Региональные данные имеются для 2 показателей. Карты требуют отдельной проверки сопоставимости выбранного периода.",
+      "method_ids": [
+        "geographical_join",
+        "regional_maps",
+        "regional_descriptive"
+      ]
+    },
+    {
+      "order": 6,
+      "section_id": "regions",
+      "title": "Типология и пространственные связи",
+      "family_report_pages": "43–52",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L7",
+      "publication_status": "planned",
+      "evidence": "Статус многомерной панели: fewer_than_two_comparable_regional_features; территорий: 0, признаков: 0. Региональная типология не тождественна оценке эффективности.",
+      "method_ids": [
+        "correlations",
+        "pca",
+        "kmeans",
+        "multivariate_stability",
+        "isolation_forest",
+        "moran_global",
+        "moran_local",
+        "regional_similarity",
+        "relative_profiles"
+      ]
+    },
+    {
+      "order": 7,
+      "section_id": "finance",
+      "title": "Финансовая экспертиза",
+      "family_report_pages": "52–55",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L8",
+      "publication_status": "planned",
+      "evidence": "Финансовые суммы и доли сохраняют единицы исходного паспорта. Оценка распределения средств зависит от сопоставимости заголовков федеральных проектов.",
+      "method_ids": [
+        "budget_registry",
+        "budget_hhi",
+        "budget_observability"
+      ]
+    },
+    {
+      "order": 8,
+      "section_id": "network",
+      "title": "Мероприятия и показатели",
+      "family_report_pages": "55–61",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L9",
+      "publication_status": "planned",
+      "evidence": "В корпусе разделены документальные связи, совместная принадлежность задаче и лексические кандидаты. Автоматическая похожесть не превращается в доказанную связь.",
+      "method_ids": [
+        "activity_network"
+      ]
+    },
+    {
+      "order": 9,
+      "section_id": "texts",
+      "title": "Лингвистическая и смысловая экспертиза",
+      "family_report_pages": "61–65",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L10",
+      "publication_status": "planned",
+      "evidence": "Документальная основа исследовательского модуля: 24 документов. Лексические признаки рассматриваются совместно с контекстом.",
+      "method_ids": [
+        "lexical_frequencies",
+        "dictionary_frames",
+        "tfidf_cosine",
+        "text_clustering",
+        "concept_cooccurrence",
+        "context_search"
+      ]
+    },
+    {
+      "order": 10,
+      "section_id": "domains",
+      "title": "Охват сфер жизнедеятельности",
+      "family_report_pages": "65–68",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L11",
+      "publication_status": "planned",
+      "evidence": "Сферы жизнедеятельности выделяются по корпусу и словарям; полнота охвата требует содержательной проверки экспертом.",
+      "method_ids": [
+        "domain_evidence",
+        "expert_domain_scale"
+      ]
+    },
+    {
+      "order": 11,
+      "section_id": "causal",
+      "title": "Сценарии и причинная оценка",
+      "family_report_pages": "68–71",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L12",
+      "publication_status": "planned",
+      "evidence": "Причинный эффект нацпроекта в имеющемся наборе источников не идентифицирован. Для его оценки нужен самостоятельный исследовательский дизайн.",
+      "method_ids": [
+        "policy_scenario_framework",
+        "causal_designs",
+        "heterogeneous_causal_effects"
+      ]
+    },
+    {
+      "order": 12,
+      "section_id": "proposals",
+      "title": "Предложения по корректировке",
+      "family_report_pages": "71–73",
+      "family_source": "https://github.com/Arseniy24RUS/family/blob/50ad21c1ad1c94e3cf07857363333df120558617/src/content/sections.js#L13",
+      "publication_status": "planned",
+      "evidence": "Рекомендации формируются после проверки фактов и содержательной экспертизы, с указанием адресата, механизма и ожидаемого результата.",
+      "method_ids": [
+        "recommendations"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Паспорт национального проекта «Молодежь и дети»",
+      "url": "https://minobrnauki.gov.ru/upload/2026/06/N_Molodezh_i_deti_.pdf",
+      "urls": [
+        "https://minobrnauki.gov.ru/upload/2026/06/N_Molodezh_i_deti_.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "national",
+      "sha256": "13722befe18df360380201a2a40dbfac82de1bc01f7b9a891c3fbdc37625d2b1",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T12:30:43+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/13/13722befe18df360380201a2a40dbfac82de1bc01f7b9a891c3fbdc37625d2b1.pdf"
+    },
+    {
+      "title": "Паспорт национального проекта «Молодежь и дети»",
+      "url": "https://www.laplandiya.org/uploads/pages/4551/files/1742890548-n-molodezh-i-deti.pdf",
+      "urls": [
+        "https://www.laplandiya.org/uploads/pages/4551/files/1742890548-n-molodezh-i-deti.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "national",
+      "sha256": "66c709357c2f776c66f370d285032f41fddb5ce206320a131ee75d99e04ec754",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:43:10Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/66/66c709357c2f776c66f370d285032f41fddb5ce206320a131ee75d99e04ec754.pdf"
+    },
+    {
+      "title": "Паспорт национального проекта «Молодежь и дети»",
+      "url": "https://maystro.ru/wp-content/uploads/2025/04/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-%D0%9C%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%B6%D1%8C-%D0%B8-%D0%B4%D0%B5%D1%82%D0%B8-%D0%B4%D0%BE-2030-%D0%B3%D0%BE%D0%B4%D0%B0.pdf",
+      "urls": [
+        "https://maystro.ru/wp-content/uploads/2025/04/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-%D0%9C%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%B6%D1%8C-%D0%B8-%D0%B4%D0%B5%D1%82%D0%B8-%D0%B4%D0%BE-2030-%D0%B3%D0%BE%D0%B4%D0%B0.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "national",
+      "sha256": "f564754a2dec24d476e3a211ba0e42b7badce2f329cc121390eb3ca8be31b176",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:41:29Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/f5/f564754a2dec24d476e3a211ba0e42b7badce2f329cc121390eb3ca8be31b176.pdf"
+    },
+    {
+      "title": "[Ю] Молодежь и дети",
+      "url": "https://databudget.ru/projects/np/22",
+      "urls": [
+        "https://databudget.ru/projects/np/22"
+      ],
+      "format": "HTML",
+      "document_level": "national",
+      "sha256": "08c5af3c4ed90ae5b741079612251233fe0ac974a301b5f64a0bcd4e40a29c6d",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:37:19.507013+00:00",
+      "publisher_version_label": "Версия 26.72",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/08/08c5af3c4ed90ae5b741079612251233fe0ac974a301b5f64a0bcd4e40a29c6d.html"
+    },
+    {
+      "title": "Паспорт регионального проекта «Все лучшее детям (Ярославская область)»",
+      "url": "https://portal.yarregion.ru/upload/iblock/e2d/o1nvoiwlp10ydaadi1x59n1mtiglbafu/Pasport-000006536_%D0%AE4-057.pdf",
+      "urls": [
+        "https://portal.yarregion.ru/upload/iblock/e2d/o1nvoiwlp10ydaadi1x59n1mtiglbafu/Pasport-000006536_%D0%AE4-057.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "regional",
+      "sha256": "13f45985df3c63a7b28f6b6a5180d1612dd924444c7bd19adcdad0a20212da98",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T13:35:45+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/13/13f45985df3c63a7b28f6b6a5180d1612dd924444c7bd19adcdad0a20212da98.pdf"
+    },
+    {
+      "title": "Паспорт федерального проекта «Все лучшее детям»",
+      "url": "https://iro86.ru/images/2024/2025/FP_Vse_luchshee_detyam.pdf",
+      "urls": [
+        "https://iro86.ru/images/2024/2025/FP_Vse_luchshee_detyam.pdf",
+        "https://www.iro86.ru/images/2024/2025/%D0%9D%D0%90%D0%A6%D0%98%D0%9E%D0%9D%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9F%D0%A0%D0%9E%D0%95%D0%9A%D0%A2_%D0%9C%D0%9E%D0%9B%D0%9E%D0%94%D0%95%D0%96%D0%AC_%D0%98_%D0%94%D0%95%D0%A2%D0%98/FP_Vse_luchshee_detyam_1.pdf",
+        "https://www.laplandiya.org/uploads/pages/11510/files/1742906463-pasport-federalnogo-proekta-vse-luchshee-detyam.pdf",
+        "https://www.laplandiya.org/uploads/pages/4551/files/1742890942-fp-vse-luchshee-detyam.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "0289dad5436e86a8dd6d192ad36415f69ba45a6426c502ecb41a2bad9b118a8f",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:43:11Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/02/0289dad5436e86a8dd6d192ad36415f69ba45a6426c502ecb41a2bad9b118a8f.pdf"
+    },
+    {
+      "title": "Паспорт федерального проекта «Все лучшее детям»",
+      "url": "http://www.xn--80abbqipopbve.xn--p1ai/data/documents/FP-Vse-luchshee-detyam.pdf",
+      "urls": [
+        "http://www.xn--80abbqipopbve.xn--p1ai/data/documents/FP-Vse-luchshee-detyam.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "16f35545d41317beac384192d3eb8cfcded70e63c5ed5e07c4380ec3a6bb78f6",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T13:39:05+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/16/16f35545d41317beac384192d3eb8cfcded70e63c5ed5e07c4380ec3a6bb78f6.pdf"
+    },
+    {
+      "title": "Паспорт федерального проекта «Все лучшее детям»",
+      "url": "https://minobr.gov-murman.ru/files/news/2025/nats-proekty/2-fp-vse-luchshee-detyam.pdf",
+      "urls": [
+        "https://minobr.gov-murman.ru/files/news/2025/nats-proekty/2-fp-vse-luchshee-detyam.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "5290aa8c4fb6f1ff4bc90be1395e2bf86973757682f4bd781aa148bbcea1e55a",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T14:20:29+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/52/5290aa8c4fb6f1ff4bc90be1395e2bf86973757682f4bd781aa148bbcea1e55a.pdf"
+    },
+    {
+      "title": "Паспорт федерального проекта «Педагоги и наставники»",
+      "url": "https://mgppu.ru/files/galleries/documents/450e1097a619fd9ba1426d3f286e6bee.pdf",
+      "urls": [
+        "https://mgppu.ru/files/galleries/documents/450e1097a619fd9ba1426d3f286e6bee.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "671809414e6e0bbe341bc1e2e4dd6e479eeb54b6254729fd47411f811c21df2d",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:43:11Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/67/671809414e6e0bbe341bc1e2e4dd6e479eeb54b6254729fd47411f811c21df2d.pdf"
+    },
+    {
+      "title": "Паспорт федерального проекта «Педагоги и наставники»",
+      "url": "https://mgppu.ru/resources/NEW/project/634/info/7499/FP_Pedagogi_i_nastavniki.pdf",
+      "urls": [
+        "https://mgppu.ru/resources/NEW/project/634/info/7499/FP_Pedagogi_i_nastavniki.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "e74ff42182ad584f7d2b256f17e341fbbf6a711386d478ec29d6ce533e3f7a33",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:43:10Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/e7/e74ff42182ad584f7d2b256f17e341fbbf6a711386d478ec29d6ce533e3f7a33.pdf"
+    },
+    {
+      "title": "Паспорт федерального проекта «Профессионалитет»",
+      "url": "https://maystro.ru/download/pasport-federalnogo-proekta-professionalitet-do-2030-goda/?refresh=6ab04fe743cd91789939687&wpdmdl=13355",
+      "urls": [
+        "https://maystro.ru/download/pasport-federalnogo-proekta-professionalitet-do-2030-goda/?refresh=6ab04fe743cd91789939687&wpdmdl=13355",
+        "https://maystro.ru/wp-content/uploads/2025/04/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82-%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B5%D1%82-%D0%B4%D0%BE-2030-%D0%B3%D0%BE%D0%B4%D0%B0.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "cc11181444497c44e6459a061f61b467069193e0ef7f20e19cff10679bd86cd6",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:43:12.528906+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/cc/cc11181444497c44e6459a061f61b467069193e0ef7f20e19cff10679bd86cd6.pdf"
+    },
+    {
+      "title": "Паспорт федерального проекта «Россия - страна возможностей»",
+      "url": "https://maystro.ru/wp-content/uploads/2025/04/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82-%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B0-%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9-%D0%B4%D0%BE-2030-%D0%B3%D0%BE%D0%B4%D0%B0.pdf",
+      "urls": [
+        "https://maystro.ru/wp-content/uploads/2025/04/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82-%D1%84%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B0-%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9-%D0%B4%D0%BE-2030-%D0%B3%D0%BE%D0%B4%D0%B0.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "ba71641cff664196de391ff05b7a73f231c230744fc530f3e74ec15cb9f54925",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:43:12Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/ba/ba71641cff664196de391ff05b7a73f231c230744fc530f3e74ec15cb9f54925.pdf"
+    },
+    {
+      "title": "Паспорт федерального проекта «Создание сети современных кампусов»",
+      "url": "https://minobrnauki.gov.ru/upload/2026/06/FP_Sozdanie_seti_sovremennyx_kampusov_.pdf",
+      "urls": [
+        "https://minobrnauki.gov.ru/upload/2026/06/FP_Sozdanie_seti_sovremennyx_kampusov_.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "5fec7d240653235203d49971da713de624a335500cecbb0a3b649b46795198db",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T12:31:15+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/5f/5fec7d240653235203d49971da713de624a335500cecbb0a3b649b46795198db.pdf"
+    },
+    {
+      "title": "Паспорт федерального проекта «Университеты для поколения лидеров»",
+      "url": "https://minobrnauki.gov.ru/upload/2026/06/FP_Universitety_dlya_pokoleniya_liderov.pdf",
+      "urls": [
+        "https://minobrnauki.gov.ru/upload/2026/06/FP_Universitety_dlya_pokoleniya_liderov.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "federal",
+      "sha256": "c927e8cb6cac027eddd83b7712d709fbddbe7d7d9fb8c8259090ebaa2113042c",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T12:30:50+00:00",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/c9/c927e8cb6cac027eddd83b7712d709fbddbe7d7d9fb8c8259090ebaa2113042c.pdf"
+    },
+    {
+      "title": "Презентация национального проекта «Молодёжь и дети»",
+      "url": "https://storage.strategy24.ru/files/project/202506/7c791fa638fd58a59d8391c27aafcc69.pdf",
+      "urls": [
+        "https://storage.strategy24.ru/files/project/202506/7c791fa638fd58a59d8391c27aafcc69.pdf",
+        "https://www.laplandiya.org/uploads/pages/4551/files/1742890671-pr-md.pdf"
+      ],
+      "format": "PDF",
+      "document_level": "presentation",
+      "sha256": "554b4d5ecab4378e9fbb4202c2d07307b96638c9a5bdd9778f9cfe05f6de9ad4",
+      "qualification": "Копия опубликованного PDF; содержание классифицировано. Дата получения не подтверждает актуальность редакции.",
+      "retrieved_at": "2026-10-19T11:42:19Z",
+      "publisher_version_label": "",
+      "publisher_updated_label": "",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "public_pdf_copy",
+      "source_file_in_research_package": "corpus/data/pdfs/55/554b4d5ecab4378e9fbb4202c2d07307b96638c9a5bdd9778f9cfe05f6de9ad4.pdf"
+    },
+    {
+      "title": "[Ю1] Россия - страна возможностей",
+      "url": "https://databudget.ru/projects/fp/257",
+      "urls": [
+        "https://databudget.ru/projects/fp/257"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "a0f299e3a049cc43572e685bbbbe121b6d81da63ef95bab9a95aefc5b81820ec",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:39:03.252706+00:00",
+      "publisher_version_label": "Версия 26.41",
+      "publisher_updated_label": "18.06.2026 в 08:41",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/a0/a0f299e3a049cc43572e685bbbbe121b6d81da63ef95bab9a95aefc5b81820ec.html"
+    },
+    {
+      "title": "[Ю2] Мы вместе (Воспитание гармонично развитой личности)",
+      "url": "https://databudget.ru/projects/fp/258",
+      "urls": [
+        "https://databudget.ru/projects/fp/258"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "33b488c62f2e3dd2bad347b81ccb297f256ae5558d89b9a89340cbedf052bc68",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:39:00.712518+00:00",
+      "publisher_version_label": "Версия 26.50",
+      "publisher_updated_label": "18.06.2026 в 08:41",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/33/33b488c62f2e3dd2bad347b81ccb297f256ae5558d89b9a89340cbedf052bc68.html"
+    },
+    {
+      "title": "[Ю3] Россия в мире",
+      "url": "https://databudget.ru/projects/fp/261",
+      "urls": [
+        "https://databudget.ru/projects/fp/261"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "50438aa954e304c0a82e2e00f2c4a3717a2b97d8ff0714529984a0f2179c8ddb",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:39:03.294098+00:00",
+      "publisher_version_label": "Версия 26.29",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/50/50438aa954e304c0a82e2e00f2c4a3717a2b97d8ff0714529984a0f2179c8ddb.html"
+    },
+    {
+      "title": "[Ю4] Все лучшее детям",
+      "url": "https://databudget.ru/projects/fp/286",
+      "urls": [
+        "https://databudget.ru/projects/fp/286"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "ecda51440729900f503e3f249de17eb64775827d59360c526f36eb61fa9a929d",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:39:00.490073+00:00",
+      "publisher_version_label": "Версия 26.31",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/ec/ecda51440729900f503e3f249de17eb64775827d59360c526f36eb61fa9a929d.html"
+    },
+    {
+      "title": "[Ю5] Передовые общеобразовательные организации",
+      "url": "https://databudget.ru/projects/fp/287",
+      "urls": [
+        "https://databudget.ru/projects/fp/287"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "9cb3bb0606f60740a74cb20efd9e835d352768bfe5be0d6b6eef1fe35b041d25",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:39:02.515776+00:00",
+      "publisher_version_label": "Версия 26.5",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/9c/9cb3bb0606f60740a74cb20efd9e835d352768bfe5be0d6b6eef1fe35b041d25.html"
+    },
+    {
+      "title": "[Ю6] Педагоги и наставники",
+      "url": "https://databudget.ru/projects/fp/289",
+      "urls": [
+        "https://databudget.ru/projects/fp/289"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "f58f42a924daab0debc74d071fe19b3d6a11e08884a5ff0ace4d08f458ac76f8",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:39:02.513776+00:00",
+      "publisher_version_label": "Версия 26.17",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/f5/f58f42a924daab0debc74d071fe19b3d6a11e08884a5ff0ace4d08f458ac76f8.html"
+    },
+    {
+      "title": "[Ю7] Создание сети современных кампусов",
+      "url": "https://databudget.ru/projects/fp/277",
+      "urls": [
+        "https://databudget.ru/projects/fp/277"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "100846c810580b82d8c09e7993953c146bc3b400de58c93c367d28385a9a3588",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:39:03.350101+00:00",
+      "publisher_version_label": "Версия 26.54",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/10/100846c810580b82d8c09e7993953c146bc3b400de58c93c367d28385a9a3588.html"
+    },
+    {
+      "title": "[Ю8] Университеты для поколения лидеров",
+      "url": "https://databudget.ru/projects/fp/278",
+      "urls": [
+        "https://databudget.ru/projects/fp/278"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "d597b5422ce0ffb3e05896585422e61503342fbd0fcf708b50ad9209765b9090",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:39:04.173524+00:00",
+      "publisher_version_label": "Версия 26.27",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/d5/d597b5422ce0ffb3e05896585422e61503342fbd0fcf708b50ad9209765b9090.html"
+    },
+    {
+      "title": "[Ю9] Профессионалитет",
+      "url": "https://databudget.ru/projects/fp/291",
+      "urls": [
+        "https://databudget.ru/projects/fp/291"
+      ],
+      "format": "HTML",
+      "document_level": "federal",
+      "sha256": "3b46b6afb409bfcac9aab5abca5187c4ea1e81858639f89a6c5289ac5132cb49",
+      "qualification": "Вторичное HTML-представление данных. Версия и дата обновления сайта не являются датой утверждения оригинала.",
+      "retrieved_at": "2026-10-19T14:39:02.765233+00:00",
+      "publisher_version_label": "Версия 26.34",
+      "publisher_updated_label": "16.10.2026 в 16:35",
+      "approval_date": "",
+      "edition_date": "",
+      "source_type": "secondary_epbs_rendering",
+      "source_file_in_research_package": "corpus/data/web/3b/3b46b6afb409bfcac9aab5abca5187c4ea1e81858639f89a6c5289ac5132cb49.html"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Аудит 339 показателей",
+      "url": "downloads/projects/shared/indicator_audit.csv",
+      "sha256": "b98c78cfe2bf6f30d88f8954c885ca4e65131165cf85593dfc6e2ce143f94cdb",
+      "bytes": 166183
+    },
+    {
+      "title": "Сводный аудит 11 нацпроектов",
+      "url": "downloads/projects/shared/project_audit.csv",
+      "sha256": "a9e19d30e4a7b1485302aef1410618229b8069debdd47e93b4bf350c759955a2",
+      "bytes": 1810
+    },
+    {
+      "title": "Матрица методов по нацпроектам",
+      "url": "downloads/projects/shared/project_method_matrix.csv",
+      "sha256": "fc5241cd84541835d910ed86dd19ac23fd642b850eddd54aa151030b390fda45",
+      "bytes": 283115
+    },
+    {
+      "title": "Применимость методов и доступность данных",
+      "url": "downloads/projects/shared/project_method_eligibility.csv",
+      "sha256": "20f716be08abe139cac3814a4a243af0430364c34058f6c8a4c509adb8a51d32",
+      "bytes": 2507
+    }
+  ],
+  "registry_source_url": "https://www.fedstat.ru/organizations/#group1854220",
+  "interpretation": "Актуальный доступный статистический срез на указанную дату. Дата сборки сайта не означает обновление первичных данных. Новые авторские страницы экспертизы добавляются после отдельной проверки."
+}

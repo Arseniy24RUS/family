@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "project_id": "environment",
+  "corpus_documents": 98,
+  "corpus_projects": 12,
+  "corpus_tokens": 75367,
+  "environment_tokens": 6085,
+  "source_passports": 7,
+  "target_cards": 25,
+  "target_cells": 108,
+  "numeric_targets": 100,
+  "missing_targets": 8,
+  "finance_national_total_thousand_rub": "1519365026.42",
+  "finance_federal_total_thousand_rub": "1519117214.38",
+  "finance_federal_minus_national_thousand_rub": -247812.04,
+  "budget_source_cells": 288,
+  "unique_nodes": 149,
+  "results": 89,
+  "indicators": 25,
+  "tasks": 28,
+  "goals": 7,
+  "standalone_tasks": 17,
+  "repeated_structure_tasks": 11,
+  "unresolved_weight_claims": 151,
+  "reviewed_direct_links": 0,
+  "shared_task_pairs": 157,
+  "same_project_pairs": 287,
+  "semantic_candidates": 287,
+  "thematic_cells": 56,
+  "context_count": 690,
+  "features": 45885,
+  "replication_audit": [
+    {
+      "metric": "corpus_documents",
+      "author_report": 98,
+      "platform_recomputed": 98,
+      "difference": 0,
+      "equal": true
+    },
+    {
+      "metric": "corpus_tokens",
+      "author_report": 75539,
+      "platform_recomputed": 75367,
+      "difference": -172,
+      "equal": false
+    },
+    {
+      "metric": "environment_tokens",
+      "author_report": 6110,
+      "platform_recomputed": 6085,
+      "difference": -25,
+      "equal": false
+    },
+    {
+      "metric": "features",
+      "author_report": 46519,
+      "platform_recomputed": 45885,
+      "difference": -634,
+      "equal": false
+    },
+    {
+      "metric": "stemming_features",
+      "author_report": 35510,
+      "platform_recomputed": 35048,
+      "difference": -462,
+      "equal": false
+    },
+    {
+      "metric": "unigram_features",
+      "author_report": 10329,
+      "platform_recomputed": 10471,
+      "difference": 142,
+      "equal": false
+    }
+  ]
+}

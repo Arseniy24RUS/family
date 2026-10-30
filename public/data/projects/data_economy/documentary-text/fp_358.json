@@ -1,0 +1,2540 @@
+{
+  "document": {
+    "project_id": "data_economy",
+    "kind": "fp",
+    "id": "fp_358",
+    "url": "https://databudget.ru/projects/fp/358",
+    "sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+    "retrieved_at": "2026-10-19T14:38:51.800138+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/af/af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824.html",
+    "document_id": "fp_358",
+    "code": "Ц9",
+    "title": "[Ц9] Государственная статистика",
+    "publisher_version": "26.17",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 417,
+    "n_tokens": 417,
+    "source_url": "https://databudget.ru/projects/fp/358",
+    "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+    "profile_text_sha256": "b0cb990456a79c36412e25e378029208b6682fba201d7b0249cf7b63d63d5ce6",
+    "archive_entry": "data_economy/fp_358.html",
+    "bytes": 1259289,
+    "archive_profile_token_count": 412,
+    "archive_profile_text_sha256": "c14b98e2e21808d742b1f81b58f65a47fd0d9126544ce4eb68a71bc11973fb7b",
+    "download_path": "downloads/projects/data_economy/documentary/sources/fp_358.html",
+    "profile_original_document_id": "html:af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_358:profile1",
+      "document_id": "fp_358",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечено повышение удовлетворенности респондентов и пользователей официальной статистической информацией",
+      "node_id": "fp_358:passport-task-12:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_358:profile2",
+      "document_id": "fp_358",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы",
+      "node_id": "fp_358:passport-task-11:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "n_tokens": 14,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_358:profile3",
+      "document_id": "fp_358",
+      "project_id": "data_economy",
+      "kind": "goal",
+      "text": "повышение уровня удовлетворенности пользователей и респондентов официальной статистической информацией за счет стандартизации качества данных и создания платформы по сбору, анализу и предоставлению статистических данных госорганам, организациям и гражданам российской федерации",
+      "node_id": "fp_358:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "n_tokens": 26,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_358:profile4",
+      "document_id": "fp_358",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "проведены работы по информационно-аналитической и экспертной поддержке мероприятий по развитию и внедрению государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\". предоставление субсидии подведомственному учреждению на выполнение работ по: 1. обеспечению информационно-аналитической и экспертной поддержки выполнения федеральной службой государственной статистики мероприятий по развитию и внедрению информационной системы 2. подготовке предложений по формированию требований к информационной системе, технических заданий и частных технических заданий по развитию и эксплуатации информационной системы 3. участию в подготовке и проведении приемки результатов при развитии информационной системы. а именно, управление требованиями (перечнем функций и реализуемых процессов) к новой технологической основе статистического производства исследование, формализация и планирование моделей пользовательского опыта подготовка сценариев тестирования рассмотрение артефактов, создаваемых при развитии гис цап и подготовка аналитических записок, заключений, рекомендаций",
+      "node_id": "fp_358:passport-result-1:afaf57dfc746f9f4",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "n_tokens": 101,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_358:profile5",
+      "document_id": "fp_358",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "созданы (подготовлены) эталонные справочники нси и паспорта качества официальной статистической информации в рамках проведенной экспертизы государственных данных на соответствие стандарту качества в рамках реализации мероприятия запланировано осуществление гармонизации и создания эталонных справочников нормативно-справочной информации и подготовка паспортов качества официальной статистической информации",
+      "node_id": "fp_358:passport-result-32:ab4839ae6f87cf77",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "n_tokens": 36,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_358:profile6",
+      "document_id": "fp_358",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "разработаны статистические методологии расчета показателей, в том числе с использованием административных и больших данных, и паспорта производственных процессов в рамках реализации мероприятия запланирована подготовка методов и алгоритмов расчета ключевых статистических показателей и разработка паспортов производственных процессов статистического производства",
+      "node_id": "fp_358:passport-result-39:3f0fefc72237025b",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "n_tokens": 31,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_358:profile7",
+      "document_id": "fp_358",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "обеспечен переход информационных систем (сервисов) и информационно-телекоммуникационной инфраструктуры росстата к новой технологической основе для производства официальной статистической информации и ее бесперебойной работы в целях перехода к новой технологической основе для производства официальной статистической информации запланированы следующие мероприятия: сопровождение действующей инфраструктуры и систем на период замещения гис цап на платформе гостех мероприятия, связанные с информационной безопасностью и направленные на защиту конфиденциальности, целостности и доступности информации появление новых/замена аппаратных и программных компонентов итки росстата и тогс для обеспечения отказоустойчивости и, в том числе независимости от компонентов импортного производства",
+      "node_id": "fp_358:passport-result-39:215fd1b309336df8",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "n_tokens": 74,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_358:profile8",
+      "document_id": "fp_358",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "обеспечено развитие государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" обеспечение развития государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" (гис цап) с учетом создания платформы централизованного сбора, хранения, обработки и предоставления информации системы для органов государственной власти федерального и регионального уровней, формированию и ведению единой нормативно-справочной информации, защиты информации системы, обеспечению целостности и доступности обрабатываемой в ней информации. использование фоивами единого централизованного сервиса сбора отчетности с применением единого каталога показателей, единой модели данных и требований к качеству данных, включающих единые правила сбора и обработки данных. настройка интеграции с системами других фоив в части собираемых данных. создание механизмов сбора и обработки административных и больших данных для формирования статистических показателей по отраслям экономики.",
+      "node_id": "fp_358:passport-result-37:15afe96c437323a1",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "n_tokens": 100,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_358:profile9",
+      "document_id": "fp_358",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля снижения отчетной нагрузки по предоставлению статистической отчетности",
+      "node_id": "fp_358:passport-purpose-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_358:profile10",
+      "document_id": "fp_358",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля показателей, соответствующих стандарту качества",
+      "node_id": "fp_358:passport-purpose-2:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "n_tokens": 5,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_358:profile11",
+      "document_id": "fp_358",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля официальных данных (включая обезличенные данные), предоставляемых посредством гис цап в автоматизированном режиме в машиночитаемом формате",
+      "node_id": "fp_358:passport-purpose-3:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "n_tokens": 14,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_358:kwic1",
+      "document_id": "fp_358",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "оприятия, связанные с информационной безопасностью и направленные на защиту конфиденциальности, целостности и доступности информации появление новых/замена аппаратных и программных компонентов итки росстата и тогс для обеспечения о",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic2",
+      "document_id": "fp_358",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "ванию и ведению единой нормативно-справочной информации, защиты информации системы, обеспечению целостности и доступности обрабатываемой в ней информации. использование фоивами единого централизованного сервиса сбора отчетности с п",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic3",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "оренности пользователей и респондентов официальной статистической информацией за счет стандартизации качества данных и создания платформы по сбору, анализу и предоставлению статистических данных госорганам, организациям и граж",
+      "unit_id": "fp_358:profile3",
+      "unit_ids": [
+        "fp_358:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic4",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "за счет стандартизации качества данных и создания платформы по сбору, анализу и предоставлению статистических данных госорганам, организациям и гражданам российской федерации проведены работы по информационно-аналитической и э",
+      "unit_id": "fp_358:profile3",
+      "unit_ids": [
+        "fp_358:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic5",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "оты по информационно-аналитической и экспертной поддержке мероприятий по развитию и внедрению государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\". предоставление субсидии подведомстве",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic6",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": "литической и экспертной поддержке мероприятий по развитию и внедрению государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\". предоставление субсидии подведомственному учре",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic7",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "дрению государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\". предоставление субсидии подведомственному учреждению на выполнение работ по: 1. обеспечению информационно-а",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic8",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "ртной поддержки выполнения федеральной службой государственной статистики мероприятий по развитию и внедрению информационной системы 2. подготовке предложений по формированию требований к информационной системе, технических заданий и частных ",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic9",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системе",
+      "context": "приятий по развитию и внедрению информационной системы 2. подготовке предложений по формированию требований к информационной системе, технических заданий и частных технических заданий по развитию и эксплуатации информационной системы 3. участ",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic10",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "ований к информационной системе, технических заданий и частных технических заданий по развитию и эксплуатации информационной системы 3. участию в подготовке и проведении приемки результатов при развитии информационной системы. а именно, управ",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic11",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "ю и эксплуатации информационной системы 3. участию в подготовке и проведении приемки результатов при развитии информационной системы. а именно, управление требованиями (перечнем функций и реализуемых процессов) к новой технологической основе ",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic12",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "нси и паспорта качества официальной статистической информации в рамках проведенной экспертизы государственных данных на соответствие стандарту качества в рамках реализации мероприятия запланировано осуществление гармонизации и",
+      "unit_id": "fp_358:profile5",
+      "unit_ids": [
+        "fp_358:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic13",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "отаны статистические методологии расчета показателей, в том числе с использованием административных и больших данных, и паспорта производственных процессов в рамках реализации мероприятия запланирована подготовка методов и алг",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic14",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": " показателей и разработка паспортов производственных процессов статистического производства обеспечен переход информационных систем (сервисов) и информационно-телекоммуникационной инфраструктуры росстата к новой технологической основе для пр",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic15",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной безопасностью",
+      "context": " действующей инфраструктуры и систем на период замещения гис цап на платформе гостех мероприятия, связанные с информационной безопасностью и направленные на защиту конфиденциальности, целостности и доступности информации появление новых/замена аппа",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic16",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "вости и, в том числе независимости от компонентов импортного производства обеспечено развитие государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" обеспечение развития государственной ",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic17",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": "ависимости от компонентов импортного производства обеспечено развитие государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" обеспечение развития государственной информацио",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic18",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "звитие государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" обеспечение развития государственной информационной системы \"цифровая аналитическая платформа предоставления",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic19",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": " \"цифровая аналитическая платформа предоставления статистических данных\" обеспечение развития государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" (гис цап) с учетом создания платформы",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic20",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": " платформа предоставления статистических данных\" обеспечение развития государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" (гис цап) с учетом создания платформы централиз",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic21",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "звития государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" (гис цап) с учетом создания платформы централизованного сбора, хранения, обработки и предоставления информац",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic22",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " единого централизованного сервиса сбора отчетности с применением единого каталога показателей, единой модели данных и требований к качеству данных, включающих единые правила сбора и обработки данных. настройка интеграции с си",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic23",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "иса сбора отчетности с применением единого каталога показателей, единой модели данных и требований к качеству данных, включающих единые правила сбора и обработки данных. настройка интеграции с системами других фоив в части соб",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic24",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "показателей, единой модели данных и требований к качеству данных, включающих единые правила сбора и обработки данных. настройка интеграции с системами других фоив в части собираемых данных. создание механизмов сбора и обработк",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic25",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "ющих единые правила сбора и обработки данных. настройка интеграции с системами других фоив в части собираемых данных. создание механизмов сбора и обработки административных и больших данных для формирования статистических пока",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic26",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "емами других фоив в части собираемых данных. создание механизмов сбора и обработки административных и больших данных для формирования статистических показателей по отраслям экономики. доля снижения отчетной нагрузки по предост",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic27",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "редоставлению статистической отчетности доля показателей, соответствующих стандарту качества доля официальных данных (включая обезличенные данные), предоставляемых посредством гис цап в автоматизированном режиме в машиночитаем",
+      "unit_id": "fp_358:profile11",
+      "unit_ids": [
+        "fp_358:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic28",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данные",
+      "context": "отчетности доля показателей, соответствующих стандарту качества доля официальных данных (включая обезличенные данные), предоставляемых посредством гис цап в автоматизированном режиме в машиночитаемом формате",
+      "unit_id": "fp_358:profile11",
+      "unit_ids": [
+        "fp_358:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic29",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "в и пользователей официальной статистической информацией обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы повышение уровня удовлетворенност",
+      "unit_id": "fp_358:profile2",
+      "unit_ids": [
+        "fp_358:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic30",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "вление требованиями (перечнем функций и реализуемых процессов) к новой технологической основе статистического производства исследование, формализация и планирование моделей пользовательского опыта подготовка сценариев тестирования р",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic31",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производственных",
+      "context": "е методологии расчета показателей, в том числе с использованием административных и больших данных, и паспорта производственных процессов в рамках реализации мероприятия запланирована подготовка методов и алгоритмов расчета ключевых стат",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic32",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производственных",
+      "context": "ланирована подготовка методов и алгоритмов расчета ключевых статистических показателей и разработка паспортов производственных процессов статистического производства обеспечен переход информационных систем (сервисов) и информационно-тел",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic33",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "расчета ключевых статистических показателей и разработка паспортов производственных процессов статистического производства обеспечен переход информационных систем (сервисов) и информационно-телекоммуникационной инфраструктуры росста",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic34",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "ем (сервисов) и информационно-телекоммуникационной инфраструктуры росстата к новой технологической основе для производства официальной статистической информации и ее бесперебойной работы в целях перехода к новой технологической осно",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic35",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "льной статистической информации и ее бесперебойной работы в целях перехода к новой технологической основе для производства официальной статистической информации запланированы следующие мероприятия: сопровождение действующей инфрастр",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic36",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "тки росстата и тогс для обеспечения отказоустойчивости и, в том числе независимости от компонентов импортного производства обеспечено развитие государственной информационной системы \"цифровая аналитическая платформа предоставления с",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic37",
+      "document_id": "fp_358",
+      "frame": "export_trade",
+      "matched": "импортного",
+      "context": "мпонентов итки росстата и тогс для обеспечения отказоустойчивости и, в том числе независимости от компонентов импортного производства обеспечено развитие государственной информационной системы \"цифровая аналитическая платформа пре",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic38",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "обеспечено повышение удовлетворенности респондентов и пользователей официальной статистической информацией обеспечен переход к новой технологической основе для производства официальной статистической инфо",
+      "unit_id": "fp_358:profile1",
+      "unit_ids": [
+        "fp_358:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic39",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "ьной статистической информацией обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы повышение уровня удовлетворенности пользователей и респонден",
+      "unit_id": "fp_358:profile2",
+      "unit_ids": [
+        "fp_358:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic40",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "еспечение ее бесперебойной работы повышение уровня удовлетворенности пользователей и респондентов официальной статистической информацией за счет стандартизации качества данных и создания платформы по сбору, анализу и предоставлению ст",
+      "unit_id": "fp_358:profile3",
+      "unit_ids": [
+        "fp_358:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic41",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": "ой информацией за счет стандартизации качества данных и создания платформы по сбору, анализу и предоставлению статистических данных госорганам, организациям и гражданам российской федерации проведены работы по информационно-аналитичес",
+      "unit_id": "fp_358:profile3",
+      "unit_ids": [
+        "fp_358:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic42",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": " развитию и внедрению государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\". предоставление субсидии подведомственному учреждению на выполнение работ по: 1. обеспечению информац",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic43",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистики",
+      "context": "обеспечению информационно-аналитической и экспертной поддержки выполнения федеральной службой государственной статистики мероприятий по развитию и внедрению информационной системы 2. подготовке предложений по формированию требован",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic44",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "управление",
+      "context": "стемы 3. участию в подготовке и проведении приемки результатов при развитии информационной системы. а именно, управление требованиями (перечнем функций и реализуемых процессов) к новой технологической основе статистического произв",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic45",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистического",
+      "context": ". а именно, управление требованиями (перечнем функций и реализуемых процессов) к новой технологической основе статистического производства исследование, формализация и планирование моделей пользовательского опыта подготовка сценариев т",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic46",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "ок, заключений, рекомендаций созданы (подготовлены) эталонные справочники нси и паспорта качества официальной статистической информации в рамках проведенной экспертизы государственных данных на соответствие стандарту качества в рамках",
+      "unit_id": "fp_358:profile5",
+      "unit_ids": [
+        "fp_358:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic47",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": " создания эталонных справочников нормативно-справочной информации и подготовка паспортов качества официальной статистической информации разработаны статистические методологии расчета показателей, в том числе с использованием администр",
+      "unit_id": "fp_358:profile5",
+      "unit_ids": [
+        "fp_358:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic48",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистические",
+      "context": "тивно-справочной информации и подготовка паспортов качества официальной статистической информации разработаны статистические методологии расчета показателей, в том числе с использованием административных и больших данных, и паспорта п",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic49",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": "нных процессов в рамках реализации мероприятия запланирована подготовка методов и алгоритмов расчета ключевых статистических показателей и разработка паспортов производственных процессов статистического производства обеспечен переход ",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic50",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистического",
+      "context": "ов и алгоритмов расчета ключевых статистических показателей и разработка паспортов производственных процессов статистического производства обеспечен переход информационных систем (сервисов) и информационно-телекоммуникационной инфрастр",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic51",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "онно-телекоммуникационной инфраструктуры росстата к новой технологической основе для производства официальной статистической информации и ее бесперебойной работы в целях перехода к новой технологической основе для производства официал",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic52",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "рмации и ее бесперебойной работы в целях перехода к новой технологической основе для производства официальной статистической информации запланированы следующие мероприятия: сопровождение действующей инфраструктуры и систем на период з",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic53",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": "а обеспечено развитие государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" обеспечение развития государственной информационной системы \"цифровая аналитическая платформа предост",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic54",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": " обеспечение развития государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" (гис цап) с учетом создания платформы централизованного сбора, хранения, обработки и предоставления и",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic55",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": "и собираемых данных. создание механизмов сбора и обработки административных и больших данных для формирования статистических показателей по отраслям экономики. доля снижения отчетной нагрузки по предоставлению статистической отчетност",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic56",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "мирования статистических показателей по отраслям экономики. доля снижения отчетной нагрузки по предоставлению статистической отчетности доля показателей, соответствующих стандарту качества доля официальных данных (включая обезличенные",
+      "unit_id": "fp_358:profile9",
+      "unit_ids": [
+        "fp_358:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic57",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": "овлетворенности респондентов и пользователей официальной статистической информацией обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы повышение",
+      "unit_id": "fp_358:profile2",
+      "unit_ids": [
+        "fp_358:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic58",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": " информационной системы. а именно, управление требованиями (перечнем функций и реализуемых процессов) к новой технологической основе статистического производства исследование, формализация и планирование моделей пользовательского опыта",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic59",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "исследование",
+      "context": "аниями (перечнем функций и реализуемых процессов) к новой технологической основе статистического производства исследование, формализация и планирование моделей пользовательского опыта подготовка сценариев тестирования рассмотрение а",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic60",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "разработка",
+      "context": "зации мероприятия запланирована подготовка методов и алгоритмов расчета ключевых статистических показателей и разработка паспортов производственных процессов статистического производства обеспечен переход информационных систем (се",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic61",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": "переход информационных систем (сервисов) и информационно-телекоммуникационной инфраструктуры росстата к новой технологической основе для производства официальной статистической информации и ее бесперебойной работы в целях перехода к но",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic62",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": "ове для производства официальной статистической информации и ее бесперебойной работы в целях перехода к новой технологической основе для производства официальной статистической информации запланированы следующие мероприятия: сопровожде",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_358:kwic1",
+      "document_id": "fp_358",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "оприятия, связанные с информационной безопасностью и направленные на защиту конфиденциальности, целостности и доступности информации появление новых/замена аппаратных и программных компонентов итки росстата и тогс для обеспечения о",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic2",
+      "document_id": "fp_358",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "ванию и ведению единой нормативно-справочной информации, защиты информации системы, обеспечению целостности и доступности обрабатываемой в ней информации. использование фоивами единого централизованного сервиса сбора отчетности с п",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic3",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "оренности пользователей и респондентов официальной статистической информацией за счет стандартизации качества данных и создания платформы по сбору, анализу и предоставлению статистических данных госорганам, организациям и граж",
+      "unit_id": "fp_358:profile3",
+      "unit_ids": [
+        "fp_358:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic4",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "за счет стандартизации качества данных и создания платформы по сбору, анализу и предоставлению статистических данных госорганам, организациям и гражданам российской федерации проведены работы по информационно-аналитической и э",
+      "unit_id": "fp_358:profile3",
+      "unit_ids": [
+        "fp_358:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic5",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "оты по информационно-аналитической и экспертной поддержке мероприятий по развитию и внедрению государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\". предоставление субсидии подведомстве",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic6",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": "литической и экспертной поддержке мероприятий по развитию и внедрению государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\". предоставление субсидии подведомственному учре",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic7",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "дрению государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\". предоставление субсидии подведомственному учреждению на выполнение работ по: 1. обеспечению информационно-а",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic8",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "ртной поддержки выполнения федеральной службой государственной статистики мероприятий по развитию и внедрению информационной системы 2. подготовке предложений по формированию требований к информационной системе, технических заданий и частных ",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic9",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системе",
+      "context": "приятий по развитию и внедрению информационной системы 2. подготовке предложений по формированию требований к информационной системе, технических заданий и частных технических заданий по развитию и эксплуатации информационной системы 3. участ",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic10",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "ований к информационной системе, технических заданий и частных технических заданий по развитию и эксплуатации информационной системы 3. участию в подготовке и проведении приемки результатов при развитии информационной системы. а именно, управ",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic11",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "ю и эксплуатации информационной системы 3. участию в подготовке и проведении приемки результатов при развитии информационной системы. а именно, управление требованиями (перечнем функций и реализуемых процессов) к новой технологической основе ",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic12",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "нси и паспорта качества официальной статистической информации в рамках проведенной экспертизы государственных данных на соответствие стандарту качества в рамках реализации мероприятия запланировано осуществление гармонизации и",
+      "unit_id": "fp_358:profile5",
+      "unit_ids": [
+        "fp_358:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic13",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "отаны статистические методологии расчета показателей, в том числе с использованием административных и больших данных, и паспорта производственных процессов в рамках реализации мероприятия запланирована подготовка методов и алг",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic14",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационных систем",
+      "context": " показателей и разработка паспортов производственных процессов статистического производства обеспечен переход информационных систем (сервисов) и информационно-телекоммуникационной инфраструктуры росстата к новой технологической основе для пр",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic15",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной безопасностью",
+      "context": " действующей инфраструктуры и систем на период замещения гис цап на платформе гостех мероприятия, связанные с информационной безопасностью и направленные на защиту конфиденциальности, целостности и доступности информации появление новых/замена аппа",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic16",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "вости и, в том числе независимости от компонентов импортного производства обеспечено развитие государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" обеспечение развития государственной ",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic17",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": "ависимости от компонентов импортного производства обеспечено развитие государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" обеспечение развития государственной информацио",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic18",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "звитие государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" обеспечение развития государственной информационной системы \"цифровая аналитическая платформа предоставления",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic19",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": " \"цифровая аналитическая платформа предоставления статистических данных\" обеспечение развития государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" (гис цап) с учетом создания платформы",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic20",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": " платформа предоставления статистических данных\" обеспечение развития государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" (гис цап) с учетом создания платформы централиз",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic21",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "звития государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" (гис цап) с учетом создания платформы централизованного сбора, хранения, обработки и предоставления информац",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic22",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": " единого централизованного сервиса сбора отчетности с применением единого каталога показателей, единой модели данных и требований к качеству данных, включающих единые правила сбора и обработки данных. настройка интеграции с си",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic23",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "иса сбора отчетности с применением единого каталога показателей, единой модели данных и требований к качеству данных, включающих единые правила сбора и обработки данных. настройка интеграции с системами других фоив в части соб",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic24",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "показателей, единой модели данных и требований к качеству данных, включающих единые правила сбора и обработки данных. настройка интеграции с системами других фоив в части собираемых данных. создание механизмов сбора и обработк",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic25",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "ющих единые правила сбора и обработки данных. настройка интеграции с системами других фоив в части собираемых данных. создание механизмов сбора и обработки административных и больших данных для формирования статистических пока",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic26",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "емами других фоив в части собираемых данных. создание механизмов сбора и обработки административных и больших данных для формирования статистических показателей по отраслям экономики. доля снижения отчетной нагрузки по предост",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic27",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "редоставлению статистической отчетности доля показателей, соответствующих стандарту качества доля официальных данных (включая обезличенные данные), предоставляемых посредством гис цап в автоматизированном режиме в машиночитаем",
+      "unit_id": "fp_358:profile11",
+      "unit_ids": [
+        "fp_358:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic28",
+      "document_id": "fp_358",
+      "frame": "digital_data",
+      "matched": "данные",
+      "context": "отчетности доля показателей, соответствующих стандарту качества доля официальных данных (включая обезличенные данные), предоставляемых посредством гис цап в автоматизированном режиме в машиночитаемом формате",
+      "unit_id": "fp_358:profile11",
+      "unit_ids": [
+        "fp_358:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic29",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "в и пользователей официальной статистической информацией обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы повышение уровня удовлетворенност",
+      "unit_id": "fp_358:profile2",
+      "unit_ids": [
+        "fp_358:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic30",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "вление требованиями (перечнем функций и реализуемых процессов) к новой технологической основе статистического производства исследование, формализация и планирование моделей пользовательского опыта подготовка сценариев тестирования р",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic31",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производственных",
+      "context": "е методологии расчета показателей, в том числе с использованием административных и больших данных, и паспорта производственных процессов в рамках реализации мероприятия запланирована подготовка методов и алгоритмов расчета ключевых стат",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic32",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производственных",
+      "context": "ланирована подготовка методов и алгоритмов расчета ключевых статистических показателей и разработка паспортов производственных процессов статистического производства обеспечен переход информационных систем (сервисов) и информационно-тел",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic33",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "расчета ключевых статистических показателей и разработка паспортов производственных процессов статистического производства обеспечен переход информационных систем (сервисов) и информационно-телекоммуникационной инфраструктуры росста",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic34",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "ем (сервисов) и информационно-телекоммуникационной инфраструктуры росстата к новой технологической основе для производства официальной статистической информации и ее бесперебойной работы в целях перехода к новой технологической осно",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic35",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "льной статистической информации и ее бесперебойной работы в целях перехода к новой технологической основе для производства официальной статистической информации запланированы следующие мероприятия: сопровождение действующей инфрастр",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic36",
+      "document_id": "fp_358",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "тки росстата и тогс для обеспечения отказоустойчивости и, в том числе независимости от компонентов импортного производства обеспечено развитие государственной информационной системы \"цифровая аналитическая платформа предоставления с",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic37",
+      "document_id": "fp_358",
+      "frame": "export_trade",
+      "matched": "импортного",
+      "context": "мпонентов итки росстата и тогс для обеспечения отказоустойчивости и, в том числе независимости от компонентов импортного производства обеспечено развитие государственной информационной системы \"цифровая аналитическая платформа пре",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic38",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "обеспечено повышение удовлетворенности респондентов и пользователей официальной статистической информацией обеспечен переход к новой технологической основе для производства официальной статистической инфо",
+      "unit_id": "fp_358:profile1",
+      "unit_ids": [
+        "fp_358:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic39",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "ьной статистической информацией обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы повышение уровня удовлетворенности пользователей и респонден",
+      "unit_id": "fp_358:profile2",
+      "unit_ids": [
+        "fp_358:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic40",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "еспечение ее бесперебойной работы повышение уровня удовлетворенности пользователей и респондентов официальной статистической информацией за счет стандартизации качества данных и создания платформы по сбору, анализу и предоставлению ст",
+      "unit_id": "fp_358:profile3",
+      "unit_ids": [
+        "fp_358:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic41",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": "ой информацией за счет стандартизации качества данных и создания платформы по сбору, анализу и предоставлению статистических данных госорганам, организациям и гражданам российской федерации проведены работы по информационно-аналитичес",
+      "unit_id": "fp_358:profile3",
+      "unit_ids": [
+        "fp_358:profile3"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic42",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": " развитию и внедрению государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\". предоставление субсидии подведомственному учреждению на выполнение работ по: 1. обеспечению информац",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic43",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистики",
+      "context": "обеспечению информационно-аналитической и экспертной поддержки выполнения федеральной службой государственной статистики мероприятий по развитию и внедрению информационной системы 2. подготовке предложений по формированию требован",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic44",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "управление",
+      "context": "стемы 3. участию в подготовке и проведении приемки результатов при развитии информационной системы. а именно, управление требованиями (перечнем функций и реализуемых процессов) к новой технологической основе статистического произв",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic45",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистического",
+      "context": ". а именно, управление требованиями (перечнем функций и реализуемых процессов) к новой технологической основе статистического производства исследование, формализация и планирование моделей пользовательского опыта подготовка сценариев т",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic46",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "ок, заключений, рекомендаций созданы (подготовлены) эталонные справочники нси и паспорта качества официальной статистической информации в рамках проведенной экспертизы государственных данных на соответствие стандарту качества в рамках",
+      "unit_id": "fp_358:profile5",
+      "unit_ids": [
+        "fp_358:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic47",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": " создания эталонных справочников нормативно-справочной информации и подготовка паспортов качества официальной статистической информации разработаны статистические методологии расчета показателей, в том числе с использованием администр",
+      "unit_id": "fp_358:profile5",
+      "unit_ids": [
+        "fp_358:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic48",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистические",
+      "context": "тивно-справочной информации и подготовка паспортов качества официальной статистической информации разработаны статистические методологии расчета показателей, в том числе с использованием административных и больших данных, и паспорта п",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic49",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": "нных процессов в рамках реализации мероприятия запланирована подготовка методов и алгоритмов расчета ключевых статистических показателей и разработка паспортов производственных процессов статистического производства обеспечен переход ",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic50",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистического",
+      "context": "ов и алгоритмов расчета ключевых статистических показателей и разработка паспортов производственных процессов статистического производства обеспечен переход информационных систем (сервисов) и информационно-телекоммуникационной инфрастр",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic51",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "онно-телекоммуникационной инфраструктуры росстата к новой технологической основе для производства официальной статистической информации и ее бесперебойной работы в целях перехода к новой технологической основе для производства официал",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic52",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "рмации и ее бесперебойной работы в целях перехода к новой технологической основе для производства официальной статистической информации запланированы следующие мероприятия: сопровождение действующей инфраструктуры и систем на период з",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic53",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": "а обеспечено развитие государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" обеспечение развития государственной информационной системы \"цифровая аналитическая платформа предост",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic54",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": " обеспечение развития государственной информационной системы \"цифровая аналитическая платформа предоставления статистических данных\" (гис цап) с учетом создания платформы централизованного сбора, хранения, обработки и предоставления и",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic55",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистических",
+      "context": "и собираемых данных. создание механизмов сбора и обработки административных и больших данных для формирования статистических показателей по отраслям экономики. доля снижения отчетной нагрузки по предоставлению статистической отчетност",
+      "unit_id": "fp_358:profile8",
+      "unit_ids": [
+        "fp_358:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic56",
+      "document_id": "fp_358",
+      "frame": "governance_evidence",
+      "matched": "статистической",
+      "context": "мирования статистических показателей по отраслям экономики. доля снижения отчетной нагрузки по предоставлению статистической отчетности доля показателей, соответствующих стандарту качества доля официальных данных (включая обезличенные",
+      "unit_id": "fp_358:profile9",
+      "unit_ids": [
+        "fp_358:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic57",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": "овлетворенности респондентов и пользователей официальной статистической информацией обеспечен переход к новой технологической основе для производства официальной статистической информации и обеспечение ее бесперебойной работы повышение",
+      "unit_id": "fp_358:profile2",
+      "unit_ids": [
+        "fp_358:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic58",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": " информационной системы. а именно, управление требованиями (перечнем функций и реализуемых процессов) к новой технологической основе статистического производства исследование, формализация и планирование моделей пользовательского опыта",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic59",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "исследование",
+      "context": "аниями (перечнем функций и реализуемых процессов) к новой технологической основе статистического производства исследование, формализация и планирование моделей пользовательского опыта подготовка сценариев тестирования рассмотрение а",
+      "unit_id": "fp_358:profile4",
+      "unit_ids": [
+        "fp_358:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic60",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "разработка",
+      "context": "зации мероприятия запланирована подготовка методов и алгоритмов расчета ключевых статистических показателей и разработка паспортов производственных процессов статистического производства обеспечен переход информационных систем (се",
+      "unit_id": "fp_358:profile6",
+      "unit_ids": [
+        "fp_358:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic61",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": "переход информационных систем (сервисов) и информационно-телекоммуникационной инфраструктуры росстата к новой технологической основе для производства официальной статистической информации и ее бесперебойной работы в целях перехода к но",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_358:kwic62",
+      "document_id": "fp_358",
+      "frame": "science_innovation",
+      "matched": "технологической",
+      "context": "ове для производства официальной статистической информации и ее бесперебойной работы в целях перехода к новой технологической основе для производства официальной статистической информации запланированы следующие мероприятия: сопровожде",
+      "unit_id": "fp_358:profile7",
+      "unit_ids": [
+        "fp_358:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824",
+      "source_url": "https://databudget.ru/projects/fp/358",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/358",
+  "source_sha256": "af07f602ff3748eccb9f702a6a9f0aa70973b3ac68b4703fd30b831e0d9bb824"
+}

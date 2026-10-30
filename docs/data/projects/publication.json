@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "research_release": "1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "documentary_as_of": "2026-10-19",
+  "projects": [
+    {
+      "project_id": "family",
+      "indicators": 23,
+      "methods": 39,
+      "latest_national": 35,
+      "sources": 0
+    },
+    {
+      "project_id": "long_active_life",
+      "indicators": 65,
+      "methods": 39,
+      "latest_national": 52,
+      "sources": 15
+    },
+    {
+      "project_id": "youth_children",
+      "indicators": 37,
+      "methods": 39,
+      "latest_national": 12,
+      "sources": 24
+    },
+    {
+      "project_id": "tourism",
+      "indicators": 10,
+      "methods": 39,
+      "latest_national": 7,
+      "sources": 9
+    },
+    {
+      "project_id": "personnel",
+      "indicators": 11,
+      "methods": 39,
+      "latest_national": 6,
+      "sources": 11
+    },
+    {
+      "project_id": "life_infrastructure",
+      "indicators": 32,
+      "methods": 39,
+      "latest_national": 64,
+      "sources": 19
+    },
+    {
+      "project_id": "efficient_transport",
+      "indicators": 24,
+      "methods": 39,
+      "latest_national": 29,
+      "sources": 11
+    },
+    {
+      "project_id": "environment",
+      "indicators": 18,
+      "methods": 39,
+      "latest_national": 34,
+      "sources": 12
+    },
+    {
+      "project_id": "international_export",
+      "indicators": 21,
+      "methods": 39,
+      "latest_national": 21,
+      "sources": 8
+    },
+    {
+      "project_id": "data_economy",
+      "indicators": 49,
+      "methods": 39,
+      "latest_national": 48,
+      "sources": 11
+    },
+    {
+      "project_id": "competitive_economy",
+      "indicators": 49,
+      "methods": 39,
+      "latest_national": 38,
+      "sources": 11
+    }
+  ],
+  "note": "Inventory of source data, not an approval registry for authorial expertise pages."
+}

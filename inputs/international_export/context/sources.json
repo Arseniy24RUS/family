@@ -1,0 +1,21 @@
+{
+  "retrieved_at": "2026-10-30",
+  "sources": [
+    {
+      "name": "cbr_services_regions_2024.xlsx",
+      "url": "https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_24.xlsx",
+      "bytes": 74220,
+      "sha256": "5ed31def076acd304e6d3cbf4d8201ef31cd7036f398ebb8f479a8392dee08a2",
+      "http_last_modified": null,
+      "status": "downloaded"
+    },
+    {
+      "name": "cbr_services_regions_2025.xlsx",
+      "url": "https://www.cbr.ru/vfs/statistics/credit_statistics/trade/exp_services_reg_25.xlsx",
+      "bytes": 74675,
+      "sha256": "e02d2dbf49817ac96a0758606e73ac95ceb98c0259e439ec0379c91a988162cb",
+      "http_last_modified": null,
+      "status": "downloaded"
+    }
+  ]
+}

@@ -1,0 +1,702 @@
+[
+  {
+    "source_id": "62713",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62713/metadata.html",
+    "relative_path": "originals/62713/acquisition_records/run_2026-10-15T124447_0000/metadata.html",
+    "bytes": 78680,
+    "sha256": "7ec679f8aef3bc88027b605c71edaf2511cfe2826ac8fc0e6cd171f0eeefcd53"
+  },
+  {
+    "source_id": "62713",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62713/metadata.json",
+    "relative_path": "originals/62713/acquisition_records/run_2026-10-15T124447_0000/metadata.json",
+    "bytes": 1757,
+    "sha256": "9a6a75ef4cd4de8293727e5e1eb16e1a3be271938674434f1a964e3b9605ae55"
+  },
+  {
+    "source_id": "62713",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62713/part_00001.query.json",
+    "relative_path": "originals/62713/acquisition_records/run_2026-10-15T124447_0000/part_00001.query.json",
+    "bytes": 2010,
+    "sha256": "5817b63d23a5092c273dfd99228212e9673439d2785512e1d95b56bf188aae67"
+  },
+  {
+    "source_id": "62713",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62713/part_00001.xml.gz",
+    "relative_path": "originals/62713/acquisition_records/run_2026-10-15T124447_0000/part_00001.xml.gz",
+    "bytes": 1933,
+    "sha256": "ee7a092570b12c5329ae7fea416b4370fb7a8cb7057035162e934ec945c40426"
+  },
+  {
+    "source_id": "62713",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62713/plan.json",
+    "relative_path": "originals/62713/acquisition_records/run_2026-10-15T124447_0000/plan.json",
+    "bytes": 151,
+    "sha256": "6ca1a90edac7c80f26318c3c546a9cc74d75525f463cbc6402cb7a4790a51441"
+  },
+  {
+    "source_id": "62715",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62715/metadata.html",
+    "relative_path": "originals/62715/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 83372,
+    "sha256": "421f826e501250dd23c80c34cb75aae2d8364843311bc7bdf21f5cc025cf8687"
+  },
+  {
+    "source_id": "62715",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62715/metadata.json",
+    "relative_path": "originals/62715/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 2640,
+    "sha256": "5fb803d25008a4cc87ff703ce546998922a4565adcc8d35c32be87a880483803"
+  },
+  {
+    "source_id": "62715",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62715/part_00001.query.json",
+    "relative_path": "originals/62715/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 3492,
+    "sha256": "125ca8451779f9dfa8314b75d007186c3b100578617f9a25f65741e824bfab40"
+  },
+  {
+    "source_id": "62715",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62715/part_00001.xls",
+    "relative_path": "originals/62715/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 11264,
+    "sha256": "4f4a0d07474826964cc332f5d6177eeebbbbc0c03db1f46d40c5ec7b7930a692"
+  },
+  {
+    "source_id": "62715",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62715/metadata.html",
+    "relative_path": "originals/62715/acquisition_records/run_2026-10-15T124447_0000/metadata.html",
+    "bytes": 83372,
+    "sha256": "740fba21ea4b42a773042bbd9fe76c0ccb3217acfe99ec9efa0a201ee669eb5c"
+  },
+  {
+    "source_id": "62715",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62715/metadata.json",
+    "relative_path": "originals/62715/acquisition_records/run_2026-10-15T124447_0000/metadata.json",
+    "bytes": 2640,
+    "sha256": "5fb803d25008a4cc87ff703ce546998922a4565adcc8d35c32be87a880483803"
+  },
+  {
+    "source_id": "62715",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62715/plan.json",
+    "relative_path": "originals/62715/acquisition_records/run_2026-10-15T124447_0000/plan.json",
+    "bytes": 152,
+    "sha256": "5ef18c490fe6edda08586444b537466c50ee2f50c11f0aa0ea53da494e86769b"
+  },
+  {
+    "source_id": "62716",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62716/metadata.html",
+    "relative_path": "originals/62716/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 84294,
+    "sha256": "ea15e930e6fe10e60ab99fd77d7135f9864f2fc16f34b2cfdcb341996d20432c"
+  },
+  {
+    "source_id": "62716",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62716/metadata.json",
+    "relative_path": "originals/62716/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 2849,
+    "sha256": "6757961ba678b34b5c1bc2cd4513960def071d49ea0dc99cddc9b30e677f232c"
+  },
+  {
+    "source_id": "62716",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62716/metadata.html",
+    "relative_path": "originals/62716/acquisition_records/run_2026-10-15T124447_0000/metadata.html",
+    "bytes": 84294,
+    "sha256": "94194da136c63af388508507609190dace62f22ee38d32654ad777161c4b61b3"
+  },
+  {
+    "source_id": "62716",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62716/metadata.json",
+    "relative_path": "originals/62716/acquisition_records/run_2026-10-15T124447_0000/metadata.json",
+    "bytes": 2849,
+    "sha256": "6757961ba678b34b5c1bc2cd4513960def071d49ea0dc99cddc9b30e677f232c"
+  },
+  {
+    "source_id": "62716",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62716/plan.json",
+    "relative_path": "originals/62716/acquisition_records/run_2026-10-15T124447_0000/plan.json",
+    "bytes": 152,
+    "sha256": "79ad5440fcc8c55abaeabbfa0d203c250640cc3f9b713840e38a789080cc21c1"
+  },
+  {
+    "source_id": "62716",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62716/metadata.html",
+    "relative_path": "originals/62716/acquisition_records/run_2026-10-15T193526_0000/metadata.html",
+    "bytes": 84287,
+    "sha256": "00b2c118671eb92f9d58a2794950e5d3e3141f78cd7c05af4ed84e6dde65ea72"
+  },
+  {
+    "source_id": "62716",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62716/metadata.json",
+    "relative_path": "originals/62716/acquisition_records/run_2026-10-15T193526_0000/metadata.json",
+    "bytes": 2849,
+    "sha256": "6757961ba678b34b5c1bc2cd4513960def071d49ea0dc99cddc9b30e677f232c"
+  },
+  {
+    "source_id": "62716",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62716/part_00001.query.json",
+    "relative_path": "originals/62716/acquisition_records/run_2026-10-15T193526_0000/part_00001.query.json",
+    "bytes": 3792,
+    "sha256": "f3fc8c0c930a46caaf16e163f142601628e37bf8a8fe984fe0c05b6da0cee981"
+  },
+  {
+    "source_id": "62716",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62716/part_00001.xml.gz",
+    "relative_path": "originals/62716/acquisition_records/run_2026-10-15T193526_0000/part_00001.xml.gz",
+    "bytes": 2344,
+    "sha256": "c31b8be7b515d0ecf2aa807edda982e4c61d9348a84ee564a18038aae1a512ca"
+  },
+  {
+    "source_id": "62716",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62716/plan.json",
+    "relative_path": "originals/62716/acquisition_records/run_2026-10-15T193526_0000/plan.json",
+    "bytes": 152,
+    "sha256": "79ad5440fcc8c55abaeabbfa0d203c250640cc3f9b713840e38a789080cc21c1"
+  },
+  {
+    "source_id": "62717",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62717/metadata.html",
+    "relative_path": "originals/62717/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 83512,
+    "sha256": "5d38df6976f1579965271abb0461ae4e4e55eb8eaedb525c308782e637988333"
+  },
+  {
+    "source_id": "62717",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62717/metadata.json",
+    "relative_path": "originals/62717/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 2636,
+    "sha256": "bc462f5496b2b60172c72d0bb4bfe9ea69162a965ce02572bbc3ed592f8859f5"
+  },
+  {
+    "source_id": "62717",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62717/part_00001.query.json",
+    "relative_path": "originals/62717/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 3488,
+    "sha256": "c447d5ce7df0942b56b8b77c8760f2d93fbb840c9ba64aa1cb4ae9e5855da8f0"
+  },
+  {
+    "source_id": "62717",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62717/part_00001.xls",
+    "relative_path": "originals/62717/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 12288,
+    "sha256": "02c94f9f6dc3b41f341fc8d749c6c2ee873df5f8a6e046c9b9372f6ab9c85df9"
+  },
+  {
+    "source_id": "62717",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62717/metadata.html",
+    "relative_path": "originals/62717/acquisition_records/run_2026-10-15T124447_0000/metadata.html",
+    "bytes": 83512,
+    "sha256": "814186d12481d6d3b825c471af1d6d79da47031eaa56ad4a71b18b5f284cb429"
+  },
+  {
+    "source_id": "62717",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62717/metadata.json",
+    "relative_path": "originals/62717/acquisition_records/run_2026-10-15T124447_0000/metadata.json",
+    "bytes": 2636,
+    "sha256": "bc462f5496b2b60172c72d0bb4bfe9ea69162a965ce02572bbc3ed592f8859f5"
+  },
+  {
+    "source_id": "62717",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62717/plan.json",
+    "relative_path": "originals/62717/acquisition_records/run_2026-10-15T124447_0000/plan.json",
+    "bytes": 152,
+    "sha256": "3442ed174a79a552cb4c5c0f92214ad116252e01e82d49b5e8387398325ba99d"
+  },
+  {
+    "source_id": "62718",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62718/metadata.html",
+    "relative_path": "originals/62718/acquisition_records/run_2026-10-15T124447_0000/metadata.html",
+    "bytes": 83959,
+    "sha256": "f6e2e7e00abc57bd6aef2cc6b0367cda87d2b5101982f7fefd7e1065ee5567d8"
+  },
+  {
+    "source_id": "62718",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62718/metadata.json",
+    "relative_path": "originals/62718/acquisition_records/run_2026-10-15T124447_0000/metadata.json",
+    "bytes": 2628,
+    "sha256": "6895ff95ae73f136e2e37489301c1479faab6b369a0fcf3297325d282413c81d"
+  },
+  {
+    "source_id": "62718",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62718/part_00001.query.json",
+    "relative_path": "originals/62718/acquisition_records/run_2026-10-15T124447_0000/part_00001.query.json",
+    "bytes": 3513,
+    "sha256": "7918b924488c2afe6a7183349150bf5284b8070f58ca6d85525ba6cb985cea44"
+  },
+  {
+    "source_id": "62718",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62718/part_00001.xml.gz",
+    "relative_path": "originals/62718/acquisition_records/run_2026-10-15T124447_0000/part_00001.xml.gz",
+    "bytes": 2297,
+    "sha256": "f56f515966054cc0116b0a090d98852d932396e4ad13ab701d7934b9e140f0c3"
+  },
+  {
+    "source_id": "62718",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62718/plan.json",
+    "relative_path": "originals/62718/acquisition_records/run_2026-10-15T124447_0000/plan.json",
+    "bytes": 152,
+    "sha256": "3b159eae17c95f119ea2df177e4d7ce5b9c32f346f295edfc608e2168bde7244"
+  },
+  {
+    "source_id": "62719",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62719/metadata.html",
+    "relative_path": "originals/62719/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 81748,
+    "sha256": "8d39048d60ae74c1b94d7dab9bf167dec130174f0e39de497b8404327c2d0d32"
+  },
+  {
+    "source_id": "62719",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62719/metadata.json",
+    "relative_path": "originals/62719/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 2029,
+    "sha256": "a14cd1e8381a0f32694b1c6124428104cae94fcc9c4381021e1d7b74cd5ec01a"
+  },
+  {
+    "source_id": "62719",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62719/part_00001.query.json",
+    "relative_path": "originals/62719/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 2252,
+    "sha256": "4015dd649304f96ae77df757e5da9b5d0c9b4b3f12020f4bf6124318571a98c1"
+  },
+  {
+    "source_id": "62719",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62719/part_00001.xls",
+    "relative_path": "originals/62719/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 11264,
+    "sha256": "49ca6dd8d698b587cb8bbdf85ac3e64438d5ee8b319e515f07347b5acc59ab73"
+  },
+  {
+    "source_id": "62719",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62719/metadata.html",
+    "relative_path": "originals/62719/acquisition_records/run_2026-10-15T124447_0000/metadata.html",
+    "bytes": 81748,
+    "sha256": "ce137021107ccfd94fc3b0caac8c178a36585fac7dc95e691dde67b3f997d9dc"
+  },
+  {
+    "source_id": "62719",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62719/metadata.json",
+    "relative_path": "originals/62719/acquisition_records/run_2026-10-15T124447_0000/metadata.json",
+    "bytes": 2029,
+    "sha256": "a14cd1e8381a0f32694b1c6124428104cae94fcc9c4381021e1d7b74cd5ec01a"
+  },
+  {
+    "source_id": "62719",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62719/plan.json",
+    "relative_path": "originals/62719/acquisition_records/run_2026-10-15T124447_0000/plan.json",
+    "bytes": 151,
+    "sha256": "b0b570214a37f1727f5e4f3d4b9f2d90df1c19ccf9036ce9a229e22fe3ef3b43"
+  },
+  {
+    "source_id": "62720",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62720/metadata.html",
+    "relative_path": "originals/62720/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 83969,
+    "sha256": "ed8209d7de6b61d3f60aa79ece9b49d7e9362395988e8af74506a5a303fd2d3d"
+  },
+  {
+    "source_id": "62720",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62720/metadata.json",
+    "relative_path": "originals/62720/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 2635,
+    "sha256": "a2e54576aeba8752327eeaa7e368968e3b98916a4ec331165e657ed2dd731d73"
+  },
+  {
+    "source_id": "62720",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62720/part_00001.query.json",
+    "relative_path": "originals/62720/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 3436,
+    "sha256": "09ac6d79305bbcc7d0a55a99bc53e8b1c3482987c6cc0a60c6830fa7c8dd4c6c"
+  },
+  {
+    "source_id": "62720",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62720/part_00001.xls",
+    "relative_path": "originals/62720/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 12288,
+    "sha256": "e263d7d7c36b58042229ea5b94d351a96c5b9e4af40261533a145326945fcb72"
+  },
+  {
+    "source_id": "62720",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62720/metadata.html",
+    "relative_path": "originals/62720/acquisition_records/run_2026-10-15T124447_0000/metadata.html",
+    "bytes": 83969,
+    "sha256": "d0f6b229541728b35764ff6968ca85ace9c7bc0b260be2d3acc2aa2082573e43"
+  },
+  {
+    "source_id": "62720",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62720/metadata.json",
+    "relative_path": "originals/62720/acquisition_records/run_2026-10-15T124447_0000/metadata.json",
+    "bytes": 2635,
+    "sha256": "a2e54576aeba8752327eeaa7e368968e3b98916a4ec331165e657ed2dd731d73"
+  },
+  {
+    "source_id": "62720",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T124447_0000/62720/plan.json",
+    "relative_path": "originals/62720/acquisition_records/run_2026-10-15T124447_0000/plan.json",
+    "bytes": 152,
+    "sha256": "669200630cada236fe88ff362c97f449283359d7e2b39a2f80d8326a162e0f7d"
+  },
+  {
+    "source_id": "62721",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62721/metadata.html",
+    "relative_path": "originals/62721/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 81317,
+    "sha256": "02c2a3388db34241b58499379cb28561a5f0b12c152ba4478d4e4466daba1a1b"
+  },
+  {
+    "source_id": "62721",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62721/metadata.json",
+    "relative_path": "originals/62721/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 2419,
+    "sha256": "f9965aac138a665cc81479cbdc3f8462829f6d426e6eb2654a786767b0497849"
+  },
+  {
+    "source_id": "62721",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62721/part_00001.query.json",
+    "relative_path": "originals/62721/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 3162,
+    "sha256": "00388e76a627d123a4e66bc7bdc964f408a690116dc0cd2aae822555fbbd65c7"
+  },
+  {
+    "source_id": "62721",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62721/part_00001.xls",
+    "relative_path": "originals/62721/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 9216,
+    "sha256": "abf0a0945f6c5e77b1ef7ffcb223472ce070ef2b93656d92d60eea0c3e274719"
+  },
+  {
+    "source_id": "62723",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62723/metadata.html",
+    "relative_path": "originals/62723/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 78929,
+    "sha256": "0a5fc03c45bc1bf5676c11e034f0c12012f11e51337f6f9889979be6033a4c32"
+  },
+  {
+    "source_id": "62723",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62723/metadata.json",
+    "relative_path": "originals/62723/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 1718,
+    "sha256": "403b67cea6092713ea1b7df7c63791996a6093242f77f85f2280508c38f0bf45"
+  },
+  {
+    "source_id": "62723",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62723/part_00001.query.json",
+    "relative_path": "originals/62723/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 1938,
+    "sha256": "8513a4ccdf455de330e0e78ed5696d5b8a02f436f8c07838589f3300d08e0887"
+  },
+  {
+    "source_id": "62723",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62723/part_00001.xls",
+    "relative_path": "originals/62723/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 8704,
+    "sha256": "b0dc81c0c3b011486efab96941032ee3667a4e39f4223230935f19601fff0519"
+  },
+  {
+    "source_id": "62724",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62724/metadata.html",
+    "relative_path": "originals/62724/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 82084,
+    "sha256": "b00860e91004d1aabfffa9c2f22490d81315b0c39e3d7be856924cdd0d97a828"
+  },
+  {
+    "source_id": "62724",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62724/metadata.json",
+    "relative_path": "originals/62724/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 2164,
+    "sha256": "09dc0fbdccbb20942deae971db159784b1d77490c16df5ed2cb8fa83cabedf33"
+  },
+  {
+    "source_id": "62724",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62724/part_00001.query.json",
+    "relative_path": "originals/62724/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 2384,
+    "sha256": "4cb13bfd969a0bc06b02388539650de29d3a722e69156d293bf65868bfbd98ab"
+  },
+  {
+    "source_id": "62724",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62724/part_00001.xls",
+    "relative_path": "originals/62724/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 10240,
+    "sha256": "d77b6c16c5e15ff5fc52a0e2250224f4c12ec0def76194ae6d0fcb2e58d36c20"
+  },
+  {
+    "source_id": "62728",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62728/metadata.html",
+    "relative_path": "originals/62728/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 82042,
+    "sha256": "e270d3556dd8d9d237efdb06bab410ad734b185f6add822b92882f3c152b898c"
+  },
+  {
+    "source_id": "62728",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62728/metadata.json",
+    "relative_path": "originals/62728/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 1963,
+    "sha256": "c126dfe3276bda222e46581fa77d606171ac95ad8f6a7d7b2d0cb4fb2c7791f8"
+  },
+  {
+    "source_id": "62728",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62728/metadata.html",
+    "relative_path": "originals/62728/acquisition_records/run_2026-10-15T193526_0000/metadata.html",
+    "bytes": 82042,
+    "sha256": "cc7ac4f682c2219aeb6efdc75a97d5f4a925d172449558bdf6f647fb0cf706fb"
+  },
+  {
+    "source_id": "62728",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62728/metadata.json",
+    "relative_path": "originals/62728/acquisition_records/run_2026-10-15T193526_0000/metadata.json",
+    "bytes": 1963,
+    "sha256": "c126dfe3276bda222e46581fa77d606171ac95ad8f6a7d7b2d0cb4fb2c7791f8"
+  },
+  {
+    "source_id": "62728",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62728/part_00001.query.json",
+    "relative_path": "originals/62728/acquisition_records/run_2026-10-15T193526_0000/part_00001.query.json",
+    "bytes": 2216,
+    "sha256": "09804644b4bdf2ce373e3795abdf8756258af91f640606a611b01d08a38684da"
+  },
+  {
+    "source_id": "62728",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62728/part_00001.xml.gz",
+    "relative_path": "originals/62728/acquisition_records/run_2026-10-15T193526_0000/part_00001.xml.gz",
+    "bytes": 2272,
+    "sha256": "68d3fca0179f342b7b9e334e1db95d0f3701b0249ca138bb0b51dd02422e9c3b"
+  },
+  {
+    "source_id": "62728",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62728/plan.json",
+    "relative_path": "originals/62728/acquisition_records/run_2026-10-15T193526_0000/plan.json",
+    "bytes": 151,
+    "sha256": "4c6de6704071035f44cbb5434f84606d5ce20d12378579eb89f5f4ca400b7e18"
+  },
+  {
+    "source_id": "62729",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62729/metadata.html",
+    "relative_path": "originals/62729/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 79169,
+    "sha256": "d843dc032195d3a664410d8aad765d6573e998f04965b7b40c85b74ec92d551b"
+  },
+  {
+    "source_id": "62729",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62729/metadata.json",
+    "relative_path": "originals/62729/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 1676,
+    "sha256": "15023cda198bcbce7ee27f68b15fa187fd6456081f5bdb43d8cb73b72bfa26bf"
+  },
+  {
+    "source_id": "62729",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62729/part_00001.query.json",
+    "relative_path": "originals/62729/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 1896,
+    "sha256": "c01596b6a74505ebb027a9135e6c60ef6514eceb28af9d131a7b157f7a6f6c77"
+  },
+  {
+    "source_id": "62729",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62729/part_00001.xls",
+    "relative_path": "originals/62729/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 9216,
+    "sha256": "2227e414f5a52900363616791135f9d2f4fafd2106eabe58882ea5282ffe6354"
+  },
+  {
+    "source_id": "62730",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62730/metadata.html",
+    "relative_path": "originals/62730/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 81166,
+    "sha256": "66057d5cc040581cc662ac6e13053979d221800c2435843923aecb0174ced4c7"
+  },
+  {
+    "source_id": "62730",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62730/metadata.json",
+    "relative_path": "originals/62730/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 1680,
+    "sha256": "37391af896247f3281c7abf76b3077641455ef0d0a2e2c69dcd78d021026f22b"
+  },
+  {
+    "source_id": "62730",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62730/part_00001.query.json",
+    "relative_path": "originals/62730/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 1900,
+    "sha256": "382730cc4850259037631965d71ff15474ea6f0e7289f3810426d735047becb5"
+  },
+  {
+    "source_id": "62730",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62730/part_00001.xls",
+    "relative_path": "originals/62730/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 11264,
+    "sha256": "adac0d8b06ed40028e98e3536d7e4452fb16ae755ec021df294229c9fce92c5d"
+  },
+  {
+    "source_id": "62731",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62731/metadata.html",
+    "relative_path": "originals/62731/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 79417,
+    "sha256": "78ff33d7c9e87cc02d9d6dba9b4d6c12f19bafa730ee6418a84e0a268ffd7842"
+  },
+  {
+    "source_id": "62731",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62731/metadata.json",
+    "relative_path": "originals/62731/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 1778,
+    "sha256": "f10a503d1cb6ebe5414e63b33bdad2acc928566d11c3afbf5f19eabc7c7f6a25"
+  },
+  {
+    "source_id": "62731",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/grid_2026-10-15T194327_0000/62731/metadata.html",
+    "relative_path": "originals/62731/acquisition_records/grid_2026-10-15T194327_0000/metadata.html",
+    "bytes": 79417,
+    "sha256": "b6758dd29d58a0afa0b9c6ec99a461b97e33fb7a3175911ba2fd8bda09a226e3"
+  },
+  {
+    "source_id": "62731",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/grid_2026-10-15T194327_0000/62731/metadata.json",
+    "relative_path": "originals/62731/acquisition_records/grid_2026-10-15T194327_0000/metadata.json",
+    "bytes": 1778,
+    "sha256": "f10a503d1cb6ebe5414e63b33bdad2acc928566d11c3afbf5f19eabc7c7f6a25"
+  },
+  {
+    "source_id": "62731",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/grid_2026-10-15T194327_0000/62731/part_00001.json.gz",
+    "relative_path": "originals/62731/acquisition_records/grid_2026-10-15T194327_0000/part_00001.json.gz",
+    "bytes": 272,
+    "sha256": "1da22e20cc1f5a3f0c6f4d55ac15e62e6802d7658ea7272d7f68b767277d6345"
+  },
+  {
+    "source_id": "62731",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/grid_2026-10-15T194327_0000/62731/part_00001.query.json",
+    "relative_path": "originals/62731/acquisition_records/grid_2026-10-15T194327_0000/part_00001.query.json",
+    "bytes": 1660,
+    "sha256": "08aed5b48a688478ec768d51064bf5bf182fbb92ebbda82a76bb20dbe31e9e04"
+  },
+  {
+    "source_id": "62731",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62731/metadata.html",
+    "relative_path": "originals/62731/acquisition_records/run_2026-10-15T193526_0000/metadata.html",
+    "bytes": 79417,
+    "sha256": "bbc2edef58f99868a7c9547ef382aade16753801908257f9ee52acfbd0534f73"
+  },
+  {
+    "source_id": "62731",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62731/metadata.json",
+    "relative_path": "originals/62731/acquisition_records/run_2026-10-15T193526_0000/metadata.json",
+    "bytes": 1778,
+    "sha256": "f10a503d1cb6ebe5414e63b33bdad2acc928566d11c3afbf5f19eabc7c7f6a25"
+  },
+  {
+    "source_id": "62731",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/run_2026-10-15T193526_0000/62731/plan.json",
+    "relative_path": "originals/62731/acquisition_records/run_2026-10-15T193526_0000/plan.json",
+    "bytes": 151,
+    "sha256": "f149e29d1062b34f9b438650c138bec56e49d76b2b9acb7df8e2c9386609bc90"
+  },
+  {
+    "source_id": "62736",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62736/metadata.html",
+    "relative_path": "originals/62736/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 82992,
+    "sha256": "7f2057fea60dab9fd30a76f5bfb813728877a1a1d9647a770e1fbe7f6daec5de"
+  },
+  {
+    "source_id": "62736",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62736/metadata.json",
+    "relative_path": "originals/62736/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 2734,
+    "sha256": "d8a7e2e6ee57b871633b5c3b7907f880917ab2b17a28098ca6c37fae1f1d2e8a"
+  },
+  {
+    "source_id": "62736",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62736/part_00001.query.json",
+    "relative_path": "originals/62736/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 3586,
+    "sha256": "bc2871958984337616a18d36bb1cec8dacde41ec1d4941f031637679d6a93138"
+  },
+  {
+    "source_id": "62736",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62736/part_00001.xls",
+    "relative_path": "originals/62736/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 10752,
+    "sha256": "24f838b270e53c17462ab5f7d022256a0916fe67ba7a37fb8a3a4c24070254f4"
+  },
+  {
+    "source_id": "62740",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62740/metadata.html",
+    "relative_path": "originals/62740/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 78972,
+    "sha256": "fbdd52f137a156899b7878858273f66fd3ab56ce577914d3b1e2e209708348ca"
+  },
+  {
+    "source_id": "62740",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62740/metadata.json",
+    "relative_path": "originals/62740/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 1757,
+    "sha256": "45a24cd76e0ed244a8b253ac628ca5f84b6275b1d5860fd27b56bdae6f927edd"
+  },
+  {
+    "source_id": "62740",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62740/part_00001.query.json",
+    "relative_path": "originals/62740/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 1919,
+    "sha256": "5957bc14d8d294b22702c90c03a6076306460bef836f79507a97bc7c81ca13ef"
+  },
+  {
+    "source_id": "62740",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62740/part_00001.xls",
+    "relative_path": "originals/62740/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 9216,
+    "sha256": "f8d0bcaf0e9114fb2ef6ad88c1e8eddaeecbe47fdb19e8b19b0e13e8e8502fd4"
+  },
+  {
+    "source_id": "62742",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62742/metadata.html",
+    "relative_path": "originals/62742/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 82731,
+    "sha256": "8ee1de8a0700ba620ffdd2ab32146937293f44d5c97aad487aac8ff11c027f61"
+  },
+  {
+    "source_id": "62742",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62742/metadata.json",
+    "relative_path": "originals/62742/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 2726,
+    "sha256": "3dc9627780efd25548dd9deecc5db9bf321768ac5861fe8f19482562d1e8d1f5"
+  },
+  {
+    "source_id": "62742",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62742/part_00001.query.json",
+    "relative_path": "originals/62742/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 3578,
+    "sha256": "89fc611af065d103ee57078c9f523da71e02103849fc3736a5b7fdc0df680d9d"
+  },
+  {
+    "source_id": "62742",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/62742/part_00001.xls",
+    "relative_path": "originals/62742/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 11264,
+    "sha256": "16797a51d97d8d2cb1c539fcef229181685c88c5c4a5df4a42d28677e58a13a9"
+  },
+  {
+    "source_id": "63154",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/63154/metadata.html",
+    "relative_path": "originals/63154/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+    "bytes": 85247,
+    "sha256": "b384a00300e4d9b1f63c045fe8c883dc40f9495f1cb20eb448428da0d2915012"
+  },
+  {
+    "source_id": "63154",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/63154/metadata.json",
+    "relative_path": "originals/63154/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+    "bytes": 3361,
+    "sha256": "5cf944301e7138672f21269c15dad758e65f13dc0f3118434e3ad9389f00a922"
+  },
+  {
+    "source_id": "63154",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/63154/part_00001.query.json",
+    "relative_path": "originals/63154/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+    "bytes": 4212,
+    "sha256": "eeafa642b0170494ca7ad7570d945a1a25e523daf4b0087e5aa9e73bf1863a4e"
+  },
+  {
+    "source_id": "63154",
+    "archive_entry": "NationalProjects_Analytics_1.2.0/source_statistics/raw/excel_2026-10-15T191223_0000/63154/part_00001.xls",
+    "relative_path": "originals/63154/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+    "bytes": 10752,
+    "sha256": "7913e036d19d5227da37a89faf155c7ce29890e63a1d32772c4a106e2ecdce83"
+  }
+]

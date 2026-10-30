@@ -1,0 +1,188 @@
+{
+  "selected": {
+    "0": [
+      {
+        "id": "62820",
+        "title": "Объем перевозок грузов в акватории Северного морского пути (Т2)"
+      }
+    ],
+    "3": [
+      {
+        "id": "2025",
+        "title": "2025"
+      },
+      {
+        "id": "2026",
+        "title": "2026"
+      }
+    ],
+    "3301": [
+      {
+        "id": "1678127",
+        "title": "Российская Федерация"
+      }
+    ],
+    "30611": [
+      {
+        "id": "950312",
+        "title": "миллион тонн"
+      }
+    ],
+    "33560": [
+      {
+        "id": "1540283",
+        "title": "январь"
+      },
+      {
+        "id": "1540294",
+        "title": "январь-февраль"
+      },
+      {
+        "id": "1540290",
+        "title": "январь-март"
+      },
+      {
+        "id": "1540285",
+        "title": "январь-апрель"
+      },
+      {
+        "id": "1540289",
+        "title": "январь-май"
+      },
+      {
+        "id": "1540288",
+        "title": "январь-июнь"
+      },
+      {
+        "id": "1540287",
+        "title": "январь-июль"
+      },
+      {
+        "id": "1540284",
+        "title": "январь-август"
+      },
+      {
+        "id": "1540293",
+        "title": "январь-сентябрь"
+      },
+      {
+        "id": "1540292",
+        "title": "январь-октябрь"
+      },
+      {
+        "id": "1540291",
+        "title": "январь-ноябрь"
+      },
+      {
+        "id": "1540286",
+        "title": "январь-декабрь"
+      }
+    ]
+  },
+  "form": [
+    [
+      "format",
+      "excel"
+    ],
+    [
+      "id",
+      "62820"
+    ],
+    [
+      "indicator_title",
+      "Объем перевозок грузов в акватории Северного морского пути (Т2)"
+    ],
+    [
+      "filterObjectIds",
+      "0"
+    ],
+    [
+      "selectedFilterIds",
+      "0_62820"
+    ],
+    [
+      "columnObjectIds",
+      "3"
+    ],
+    [
+      "selectedFilterIds",
+      "3_2025"
+    ],
+    [
+      "selectedFilterIds",
+      "3_2026"
+    ],
+    [
+      "lineObjectIds",
+      "3301"
+    ],
+    [
+      "selectedFilterIds",
+      "3301_1678127"
+    ],
+    [
+      "columnObjectIds",
+      "30611"
+    ],
+    [
+      "selectedFilterIds",
+      "30611_950312"
+    ],
+    [
+      "lineObjectIds",
+      "33560"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540283"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540294"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540290"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540285"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540289"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540288"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540287"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540284"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540293"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540292"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540291"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540286"
+    ]
+  ],
+  "download_url": "https://www.fedstat.ru/indicator/downloadData.do?format=excel",
+  "requested_at": "2026-10-15T19:13:44+00:00",
+  "received_at": "2026-10-15T19:13:46+00:00",
+  "csrf": "single-use session token; omitted"
+}

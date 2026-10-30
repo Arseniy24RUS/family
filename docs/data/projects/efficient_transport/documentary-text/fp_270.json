@@ -1,0 +1,1387 @@
+{
+  "document": {
+    "project_id": "efficient_transport",
+    "kind": "fp",
+    "id": "fp_270",
+    "url": "https://databudget.ru/projects/fp/270",
+    "sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+    "retrieved_at": "2026-10-19T14:22:49.705809+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/b6/b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5.html",
+    "document_id": "fp_270",
+    "code": "Т2",
+    "title": "[Т2] Большой СМП",
+    "publisher_version": "26.34",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 666,
+    "n_tokens": 666,
+    "source_url": "https://databudget.ru/projects/fp/270",
+    "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+    "profile_text_sha256": "7ab9cebc33c09b7a3dab3e752e095e1a6811b51c9f9cebe443ceae4ffd44481c",
+    "archive_entry": "efficient_transport/fp_270.html",
+    "bytes": 2201590,
+    "download_path": "downloads/projects/efficient_transport/documentary/sources/fp_270.html",
+    "profile_original_document_id": "html:b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_270:profile1",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "task",
+      "text": "созданы условия для увеличения грузопотока по северному морскому пути не менее чем в 3 раза к уровню 2023 года для удовлетворения потребностей крупного бизнеса (грузоотправители и грузополучатели)",
+      "node_id": "fp_270:passport-task-11:114dc2bd2242b439",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 22,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile2",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "goal",
+      "text": "развитие северного морского пути в качестве национальной транспортной коммуникации для удовлетворения потребностей бизнеса за счет строительства флота, портовой инфраструктуры, а также реализации мероприятий, направленных на увеличение грузопотока и развитие навигации",
+      "node_id": "fp_270:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 27,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile3",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "завершено строительство головного многофункционального судна атомно-технического обслуживания (мсато) в 2030 году введено в эксплуатацию головное многофункциональное судно атомно-технологического обслуживания (мсато), предназначенное для выполнения полного комплекса работ по перезарядке реакторных установок атомных ледоколов и плавучих сооружений с ядерной энергетической установкой.",
+      "node_id": "fp_270:passport-result-1:afaf57dfc746f9f4",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 34,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile4",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "осуществлена съемка рельефа дна в акватории северного морского пути и на лимитирующих участках енисейского залива, рек енисей и колыма в рамках навигационно-гидрографического обеспечения судоходства на трассах северного морского пути. до 31.12.2030 завершен второй этап работ по обследованию высокоширотной трассы северного морского пути и объявлены глубоководные пути по всей протяженности альтернативной трассы для транзитного прохода судов с осадкой до 15 метров. в целях достижения результата обеспечивается проведение следующих мероприятий: гидрографические исследования акватории северного морского пути в целях формирования навигационной информации сбор, подготовка и доведение до сведения мореплавателей оперативной информации об изменениях навигационной обстановки и режима плавания в акватории северного морского пути оснащение акватории северного морского пути средствами навигационного оборудования, включая выполнение мероприятий по развитию средств навигационного оборудования в соответствии с современными требованиями к обеспечению плавания судов, постановку и съемку плавучих предостерегательных знаков, обслуживание, ремонт и обеспечение бесперебойного действия береговых и плавучих средств навигационного оборудования в соответствии с установленными для этого оборудования режимами его работы.",
+      "node_id": "fp_270:passport-result-26:ab4839ae6f87cf77",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 132,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile5",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "реализовано строительство объектов портовой инфраструктуры северного морского пути обеспечена возможность перевалки грузов, в том числе полезных ископаемых, добываемых в арктической зоне российской федерации. в 2025 году введен в эксплуатацию морской нефтяной терминал порт бухта север мощностью 26,1 млн. тонн: объекты федеральной собственности 112,9 га, объекты инвестора 1244,3 метра. в 2028 году введены в эксплуатацию объекты федеральной собственности по строительству акватории грузового причала и канала морского угольного терминала на базе сырадасайского месторождения мощностью 7 млн. тонн: объекты федеральной собственности 67,19 га, морской терминал на мысе наглейнын в морском порту певек мощностью 1,8 млн. тонн: объекты федеральной собственности 1 703,3 метра и 873,45 метра, объекты инвестора 77 120 квадратных метров.",
+      "node_id": "fp_270:passport-result-38:3f0fefc72237025b",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 86,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile6",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "завершено строительство головного атомного ледокола проекта 10510 \"лидер\" в 2030 году введен в эксплуатацию головной атомный ледокол проекта 10510 лидер",
+      "node_id": "fp_270:passport-result-37:215fd1b309336df8",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 15,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile7",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "завершено строительство головного гидрографического лоцмейстерского судна ледового класса arc7 завершено строительство головного гидрографического лоцмейстерского судна ледового класса arc7.",
+      "node_id": "fp_270:passport-result-25:15afe96c437323a1",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 18,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile8",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "завершено строительство 5-го серийного универсального атомного ледокола проекта 22220. в 2028 году введен в эксплуатацию пятый серийный универсальный атомный ледокол проекта 22220.",
+      "node_id": "fp_270:passport-result-32:4f0b6b7180db15a0",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 17,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile9",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "осуществлены каботажные перевозки грузов по смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обратном направлении осуществлены каботажные кругорейсы по северному морскому пути с грузом между портами северо-запада, арктики и дальнего востока и в обратном направлении",
+      "node_id": "fp_270:passport-result-20:ffd4fbec20ef1ea8",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 52,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile10",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "завершено строительство 6-го серийного универсального атомного ледокола проекта 22220 в 2030 году введен в эксплуатацию шестой серийный универсальный атомный ледокол проекта 22220.",
+      "node_id": "fp_270:passport-result-40:6a47f814c17b9f63",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[8]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 17,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile11",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "создана цифровая экосистема северного морского пути создана цифровая экосистема северного морского пути, состоящая из четырех компонент: единой платформы цифровых сервисов, предоставляемых в акватории северного морского пути (расширенный функционал для повышения информационного обеспечения безопасности судоходства в акватории северного морского пути), бортовых автоматизированных информационно-измерительных комплексов, установленных на судах, осуществляющих плавание в акватории северного морского пути комплексов оперативного мониторинга ледовой обстановки на базе летательных аппаратов, осуществляющих мониторинг акватории северного морского пути с использованием радиолокационных, оптоэлектронных средств и (или) других технических средств ледовой разведки информационного фонда данных о состоянии акватории северного морского пути для обеспечения функционирования цифровых платформ северного морского пути.",
+      "node_id": "fp_270:passport-result-37:dd32e55a71fc26a7",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 91,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile12",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "осуществлены ледокольные проводки судов, не имеющих ледового класса, а также с ледовым классом ice 3, осуществивших в 2024 году транзитные рейсы по северному морскому пути федеральным государственным унитарным предприятием атомного флота осуществлено предоставление услуг по ледокольной проводке судов, не имеющих ледового класса, а также с ледовым классом ice 3, осуществивших в 2024 году, в период с июля по ноябрь, транзитные рейсы по северному морскому пути и ледокольная проводка которых потребовалась в связи с ухудшением погодных условий",
+      "node_id": "fp_270:passport-result-7:78bfc1ca94ccd7d4",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 61,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile13",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "созданы и реконструированы объекты транспортной инфраструктуры и аварийно-спасательного флота в целях развития северного морского пути строительство аварийно-спасательных судов и баз их размещения, необходимых для обеспечения безопасности мореплавания и соблюдения требований международной конвенции по поиску и спасанию на море с учетом растущего объема перевозок грузов по северному морскому пути.",
+      "node_id": "fp_270:passport-result-2:b75161c468313e30",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 41,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile14",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "завершено строительство четвертого серийного универсального атомного ледокола проекта 22220 в 2027 году введен в эксплуатацию четвертый серийный универсальный атомный ледокол проекта 22220.",
+      "node_id": "fp_270:passport-result-51:7a30646fb7ccde1c",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 17,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile15",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "result",
+      "text": "созданы модернизированные плавучие энергоблоки для энергоснабжения баимского горно-обогатительного комбината завершено строительство 2-х атомных плавучих энергоблоков для энергоснабжения баимского горно-обогатительного комбината мощностью 106 мвт каждый в 2028 г., еще одного - в 2029 году (за счет внебюджетных средств).",
+      "node_id": "fp_270:passport-result-17:32ff066a732b5af2",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[13]",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 29,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_270:profile16",
+      "document_id": "fp_270",
+      "project_id": "efficient_transport",
+      "kind": "indicator",
+      "text": "объем перевозок грузов в акватории северного морского пути",
+      "node_id": "fp_270:passport-purpose-1:8c12445f9799d75d",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_270:kwic1",
+      "document_id": "fp_270",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": " 22220 в 2030 году введен в эксплуатацию шестой серийный универсальный атомный ледокол проекта 22220. создана цифровая экосистема северного морского пути создана цифровая экосистема северного морского пути, состоящая из четырех ",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic2",
+      "document_id": "fp_270",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": "йный универсальный атомный ледокол проекта 22220. создана цифровая экосистема северного морского пути создана цифровая экосистема северного морского пути, состоящая из четырех компонент: единой платформы цифровых сервисов, предо",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic3",
+      "document_id": "fp_270",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "го пути создана цифровая экосистема северного морского пути, состоящая из четырех компонент: единой платформы цифровых сервисов, предоставляемых в акватории северного морского пути (расширенный функционал для повышения информаци",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic4",
+      "document_id": "fp_270",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "окационных, оптоэлектронных средств и (или) других технических средств ледовой разведки информационного фонда данных о состоянии акватории северного морского пути для обеспечения функционирования цифровых платформ северного мо",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic5",
+      "document_id": "fp_270",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "и информационного фонда данных о состоянии акватории северного морского пути для обеспечения функционирования цифровых платформ северного морского пути. осуществлены ледокольные проводки судов, не имеющих ледового класса, а такж",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic6",
+      "document_id": "fp_270",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": " по северному морскому пути не менее чем в 3 раза к уровню 2023 года для удовлетворения потребностей крупного бизнеса (грузоотправители и грузополучатели) развитие северного морского пути в качестве национальной транспортной ко",
+      "unit_id": "fp_270:profile1",
+      "unit_ids": [
+        "fp_270:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic7",
+      "document_id": "fp_270",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "тие северного морского пути в качестве национальной транспортной коммуникации для удовлетворения потребностей бизнеса за счет строительства флота, портовой инфраструктуры, а также реализации мероприятий, направленных на увеличе",
+      "unit_id": "fp_270:profile2",
+      "unit_ids": [
+        "fp_270:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic8",
+      "document_id": "fp_270",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": ", установленных на судах, осуществляющих плавание в акватории северного морского пути комплексов оперативного мониторинга ледовой обстановки на базе летательных аппаратов, осуществляющих мониторинг акватории северного морского пути",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic9",
+      "document_id": "fp_270",
+      "frame": "governance_evidence",
+      "matched": "мониторинг",
+      "context": "ого пути комплексов оперативного мониторинга ледовой обстановки на базе летательных аппаратов, осуществляющих мониторинг акватории северного морского пути с использованием радиолокационных, оптоэлектронных средств и (или) других т",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic10",
+      "document_id": "fp_270",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "ехнического обслуживания (мсато) в 2030 году введено в эксплуатацию головное многофункциональное судно атомно-технологического обслуживания (мсато), предназначенное для выполнения полного комплекса работ по перезарядке реакторных устано",
+      "unit_id": "fp_270:profile3",
+      "unit_ids": [
+        "fp_270:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic11",
+      "document_id": "fp_270",
+      "frame": "science_innovation",
+      "matched": "исследования",
+      "context": "до 15 метров. в целях достижения результата обеспечивается проведение следующих мероприятий: гидрографические исследования акватории северного морского пути в целях формирования навигационной информации сбор, подготовка и доведение ",
+      "unit_id": "fp_270:profile4",
+      "unit_ids": [
+        "fp_270:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic12",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "рупного бизнеса (грузоотправители и грузополучатели) развитие северного морского пути в качестве национальной транспортной коммуникации для удовлетворения потребностей бизнеса за счет строительства флота, портовой инфраструктуры, а ",
+      "unit_id": "fp_270:profile2",
+      "unit_ids": [
+        "fp_270:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic13",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "портовой",
+      "context": "е национальной транспортной коммуникации для удовлетворения потребностей бизнеса за счет строительства флота, портовой инфраструктуры, а также реализации мероприятий, направленных на увеличение грузопотока и развитие навигации з",
+      "unit_id": "fp_270:profile2",
+      "unit_ids": [
+        "fp_270:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic14",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "портовой",
+      "context": " соответствии с установленными для этого оборудования режимами его работы. реализовано строительство объектов портовой инфраструктуры северного морского пути обеспечена возможность перевалки грузов, в том числе полезных ископаем",
+      "unit_id": "fp_270:profile5",
+      "unit_ids": [
+        "fp_270:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic15",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "бываемых в арктической зоне российской федерации. в 2025 году введен в эксплуатацию морской нефтяной терминал порт бухта север мощностью 26,1 млн. тонн: объекты федеральной собственности 112,9 га, объекты инвестора 1244,3 ме",
+      "unit_id": "fp_270:profile5",
+      "unit_ids": [
+        "fp_270:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic16",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порту",
+      "context": "щностью 7 млн. тонн: объекты федеральной собственности 67,19 га, морской терминал на мысе наглейнын в морском порту певек мощностью 1,8 млн. тонн: объекты федеральной собственности 1 703,3 метра и 873,45 метра, объекты инвест",
+      "unit_id": "fp_270:profile5",
+      "unit_ids": [
+        "fp_270:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic17",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "перевозки",
+      "context": "оду введен в эксплуатацию пятый серийный универсальный атомный ледокол проекта 22220. осуществлены каботажные перевозки грузов по смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт ",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic18",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порта",
+      "context": " универсальный атомный ледокол проекта 22220. осуществлены каботажные перевозки грузов по смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт кор",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic19",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порта",
+      "context": "кол проекта 22220. осуществлены каботажные перевозки грузов по смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic20",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порта",
+      "context": "существлены каботажные перевозки грузов по смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic21",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "возки грузов по смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обр",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic22",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": " смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обратном направлен",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic23",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "го порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обратном направлении осуществлены ка",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic24",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "рбург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обратном направлении осуществлены каботажные кругорейсы",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic25",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "нск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обратном направлении осуществлены каботажные кругорейсы по северному морскому",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic26",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "гельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обратном направлении осуществлены каботажные кругорейсы по северному морскому пути с грузом между",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic27",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "портами",
+      "context": "находка и в обратном направлении осуществлены каботажные кругорейсы по северному морскому пути с грузом между портами северо-запада, арктики и дальнего востока и в обратном направлении завершено строительство 6-го серийного уни",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic28",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "льная проводка которых потребовалась в связи с ухудшением погодных условий созданы и реконструированы объекты транспортной инфраструктуры и аварийно-спасательного флота в целях развития северного морского пути строительство аварийно",
+      "unit_id": "fp_270:profile13",
+      "unit_ids": [
+        "fp_270:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic29",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": "авания и соблюдения требований международной конвенции по поиску и спасанию на море с учетом растущего объема перевозок грузов по северному морскому пути. завершено строительство четвертого серийного универсального атомного ледок",
+      "unit_id": "fp_270:profile13",
+      "unit_ids": [
+        "fp_270:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic30",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": " комбината мощностью 106 мвт каждый в 2028 г., еще одного - в 2029 году (за счет внебюджетных средств). объем перевозок грузов в акватории северного морского пути",
+      "unit_id": "fp_270:profile16",
+      "unit_ids": [
+        "fp_270:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_270:kwic1",
+      "document_id": "fp_270",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": " 22220 в 2030 году введен в эксплуатацию шестой серийный универсальный атомный ледокол проекта 22220. создана цифровая экосистема северного морского пути создана цифровая экосистема северного морского пути, состоящая из четырех ",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic2",
+      "document_id": "fp_270",
+      "frame": "digital_data",
+      "matched": "цифровая",
+      "context": "йный универсальный атомный ледокол проекта 22220. создана цифровая экосистема северного морского пути создана цифровая экосистема северного морского пути, состоящая из четырех компонент: единой платформы цифровых сервисов, предо",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic3",
+      "document_id": "fp_270",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "го пути создана цифровая экосистема северного морского пути, состоящая из четырех компонент: единой платформы цифровых сервисов, предоставляемых в акватории северного морского пути (расширенный функционал для повышения информаци",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic4",
+      "document_id": "fp_270",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "окационных, оптоэлектронных средств и (или) других технических средств ледовой разведки информационного фонда данных о состоянии акватории северного морского пути для обеспечения функционирования цифровых платформ северного мо",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic5",
+      "document_id": "fp_270",
+      "frame": "digital_data",
+      "matched": "цифровых",
+      "context": "и информационного фонда данных о состоянии акватории северного морского пути для обеспечения функционирования цифровых платформ северного морского пути. осуществлены ледокольные проводки судов, не имеющих ледового класса, а такж",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic6",
+      "document_id": "fp_270",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": " по северному морскому пути не менее чем в 3 раза к уровню 2023 года для удовлетворения потребностей крупного бизнеса (грузоотправители и грузополучатели) развитие северного морского пути в качестве национальной транспортной ко",
+      "unit_id": "fp_270:profile1",
+      "unit_ids": [
+        "fp_270:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic7",
+      "document_id": "fp_270",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "тие северного морского пути в качестве национальной транспортной коммуникации для удовлетворения потребностей бизнеса за счет строительства флота, портовой инфраструктуры, а также реализации мероприятий, направленных на увеличе",
+      "unit_id": "fp_270:profile2",
+      "unit_ids": [
+        "fp_270:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic8",
+      "document_id": "fp_270",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": ", установленных на судах, осуществляющих плавание в акватории северного морского пути комплексов оперативного мониторинга ледовой обстановки на базе летательных аппаратов, осуществляющих мониторинг акватории северного морского пути",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic9",
+      "document_id": "fp_270",
+      "frame": "governance_evidence",
+      "matched": "мониторинг",
+      "context": "ого пути комплексов оперативного мониторинга ледовой обстановки на базе летательных аппаратов, осуществляющих мониторинг акватории северного морского пути с использованием радиолокационных, оптоэлектронных средств и (или) других т",
+      "unit_id": "fp_270:profile11",
+      "unit_ids": [
+        "fp_270:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic10",
+      "document_id": "fp_270",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "ехнического обслуживания (мсато) в 2030 году введено в эксплуатацию головное многофункциональное судно атомно-технологического обслуживания (мсато), предназначенное для выполнения полного комплекса работ по перезарядке реакторных устано",
+      "unit_id": "fp_270:profile3",
+      "unit_ids": [
+        "fp_270:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic11",
+      "document_id": "fp_270",
+      "frame": "science_innovation",
+      "matched": "исследования",
+      "context": "до 15 метров. в целях достижения результата обеспечивается проведение следующих мероприятий: гидрографические исследования акватории северного морского пути в целях формирования навигационной информации сбор, подготовка и доведение ",
+      "unit_id": "fp_270:profile4",
+      "unit_ids": [
+        "fp_270:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic12",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "рупного бизнеса (грузоотправители и грузополучатели) развитие северного морского пути в качестве национальной транспортной коммуникации для удовлетворения потребностей бизнеса за счет строительства флота, портовой инфраструктуры, а ",
+      "unit_id": "fp_270:profile2",
+      "unit_ids": [
+        "fp_270:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic13",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "портовой",
+      "context": "е национальной транспортной коммуникации для удовлетворения потребностей бизнеса за счет строительства флота, портовой инфраструктуры, а также реализации мероприятий, направленных на увеличение грузопотока и развитие навигации з",
+      "unit_id": "fp_270:profile2",
+      "unit_ids": [
+        "fp_270:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic14",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "портовой",
+      "context": " соответствии с установленными для этого оборудования режимами его работы. реализовано строительство объектов портовой инфраструктуры северного морского пути обеспечена возможность перевалки грузов, в том числе полезных ископаем",
+      "unit_id": "fp_270:profile5",
+      "unit_ids": [
+        "fp_270:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic15",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "бываемых в арктической зоне российской федерации. в 2025 году введен в эксплуатацию морской нефтяной терминал порт бухта север мощностью 26,1 млн. тонн: объекты федеральной собственности 112,9 га, объекты инвестора 1244,3 ме",
+      "unit_id": "fp_270:profile5",
+      "unit_ids": [
+        "fp_270:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic16",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порту",
+      "context": "щностью 7 млн. тонн: объекты федеральной собственности 67,19 га, морской терминал на мысе наглейнын в морском порту певек мощностью 1,8 млн. тонн: объекты федеральной собственности 1 703,3 метра и 873,45 метра, объекты инвест",
+      "unit_id": "fp_270:profile5",
+      "unit_ids": [
+        "fp_270:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic17",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "перевозки",
+      "context": "оду введен в эксплуатацию пятый серийный универсальный атомный ледокол проекта 22220. осуществлены каботажные перевозки грузов по смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт ",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic18",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порта",
+      "context": " универсальный атомный ледокол проекта 22220. осуществлены каботажные перевозки грузов по смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт кор",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic19",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порта",
+      "context": "кол проекта 22220. осуществлены каботажные перевозки грузов по смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic20",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порта",
+      "context": "существлены каботажные перевозки грузов по смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic21",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "возки грузов по смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обр",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic22",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": " смп из (в) большого порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обратном направлен",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic23",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "го порта санкт-петербург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обратном направлении осуществлены ка",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic24",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "рбург, или порта мурманск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обратном направлении осуществлены каботажные кругорейсы",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic25",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "нск, или порта архангельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обратном направлении осуществлены каботажные кругорейсы по северному морскому",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic26",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "порт",
+      "context": "гельск - в (из) порт певек или порт анадырь, или порт корсаков, или порт владивосток, или порт восточный, или порт находка и в обратном направлении осуществлены каботажные кругорейсы по северному морскому пути с грузом между",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic27",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "портами",
+      "context": "находка и в обратном направлении осуществлены каботажные кругорейсы по северному морскому пути с грузом между портами северо-запада, арктики и дальнего востока и в обратном направлении завершено строительство 6-го серийного уни",
+      "unit_id": "fp_270:profile9",
+      "unit_ids": [
+        "fp_270:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic28",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "транспортной",
+      "context": "льная проводка которых потребовалась в связи с ухудшением погодных условий созданы и реконструированы объекты транспортной инфраструктуры и аварийно-спасательного флота в целях развития северного морского пути строительство аварийно",
+      "unit_id": "fp_270:profile13",
+      "unit_ids": [
+        "fp_270:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic29",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": "авания и соблюдения требований международной конвенции по поиску и спасанию на море с учетом растущего объема перевозок грузов по северному морскому пути. завершено строительство четвертого серийного универсального атомного ледок",
+      "unit_id": "fp_270:profile13",
+      "unit_ids": [
+        "fp_270:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_270:kwic30",
+      "document_id": "fp_270",
+      "frame": "transport_logistics",
+      "matched": "перевозок",
+      "context": " комбината мощностью 106 мвт каждый в 2028 г., еще одного - в 2029 году (за счет внебюджетных средств). объем перевозок грузов в акватории северного морского пути",
+      "unit_id": "fp_270:profile16",
+      "unit_ids": [
+        "fp_270:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details"
+      ],
+      "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5",
+      "source_url": "https://databudget.ru/projects/fp/270",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/270",
+  "source_sha256": "b6dd3186042d419845054d819b9dce1f4505992e1c6dd31fc4199dfcafea6ab5"
+}

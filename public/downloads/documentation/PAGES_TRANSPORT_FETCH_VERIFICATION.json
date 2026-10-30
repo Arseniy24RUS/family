@@ -1,0 +1,9 @@
+{
+  "schema": "national-projects.transport-fetch-verification/1",
+  "status": "passed",
+  "files": 243,
+  "uncompressed_bytes": 341468282,
+  "subpath": "/family/",
+  "implementation": "Actual browser API adapter executed with Node Web Streams and DecompressionStream",
+  "browser_visual_test": false
+}

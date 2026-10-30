@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "source_id": "62932",
+  "source_url": "https://www.fedstat.ru/indicator/62932",
+  "research_release": "NationalProjects_Analytics_1.2.0",
+  "statistical_as_of": "2026-10-15",
+  "snapshot_id": "b2c0e9fe8ac07c973222116a369d6724e633defc482c614daf4154d8f45324ba",
+  "acquired_at": "2026-10-15T19:14:56+00:00",
+  "origin_kind": "live_emiss",
+  "unit": "процент",
+  "observations": 15,
+  "numeric": 15,
+  "published_sha256": "0289527abc8c26d9436fe4f57cbabca8a8429413d243db2d6e6f6b9d601ba67b",
+  "input_sha256": "351209978c57e12b305b2d5e1c26fec89e9ca8ea193f82b60748eb1cf5f36b7d",
+  "input_bundle": "downloads/projects/youth_children/emiss_inputs/62932.zip",
+  "published_file": "data/projects/youth_children/series/62932.json",
+  "period_policy": "Annual facts, cumulative monthly measurements and stock observations remain separate.",
+  "missing_policy": "No imputation, no substitution by a report image or by another indicator."
+}

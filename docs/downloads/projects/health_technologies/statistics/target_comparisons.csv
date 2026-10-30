@@ -1,0 +1,2 @@
+﻿source_id,indicator_code,target_year,target_value,fact_value,fact_period,fact_frequency,difference,difference_unit,ratio_percent,comparison_kind,reference_observation_id
+62986,2.14.С.1,2025,1.5,4.55,2025,annual,3.05,п.п.,303.3333333333333,annual_fact_vs_annual_plan,62986:541bbd40ab6301d4a13a

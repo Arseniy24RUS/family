@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "project_id": "personnel",
+  "source_id": "62884",
+  "unit": "процент",
+  "source_url": "https://www.fedstat.ru/indicator/62884",
+  "published_at": "2026-10-15T12:44:50+00:00",
+  "snapshot_id": "51d8b1766bae6fe46c89c1bfc0f42d0d5c8573c1fadaad16dd3d2470c6bac7ab",
+  "origin_kind": "live_emiss",
+  "observations": [
+    {
+      "id": "774c2c9bd137b48e6e5f6461f150b74df8bba071fe75eb07d3b9598ef4c93ce3",
+      "source_id": "62884",
+      "source_observation_key": "4672c3f461f56751685ba45b4ae05ea482994690b72940a32dcd2131262c2f2e",
+      "name": "Российская Федерация",
+      "code": null,
+      "map_id": null,
+      "geo_level": "national",
+      "territory_code_source": null,
+      "territory_level_source": "national",
+      "period": "2025",
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "year": 2025,
+      "frequency": "annual",
+      "value": 101.7,
+      "raw": "101,7",
+      "unit": "процент",
+      "source_frequency": "annual",
+      "source_period_start": "2025-01-01",
+      "source_period_end": "2025-12-31",
+      "source_period_label": "значение показателя за год",
+      "period_transformations": [],
+      "original_analysis_status": null,
+      "original_quality_flags": null,
+      "category": {},
+      "quality_flags": [],
+      "excluded": false,
+      "analytical_value": 101.7,
+      "status": "valid"
+    }
+  ]
+}

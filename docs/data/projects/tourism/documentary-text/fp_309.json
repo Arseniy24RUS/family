@@ -1,0 +1,2968 @@
+{
+  "document": {
+    "project_id": "tourism",
+    "kind": "fp",
+    "id": "fp_309",
+    "url": "https://databudget.ru/projects/fp/309",
+    "sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+    "retrieved_at": "2026-10-19T14:38:49.887413+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/ac/ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456.html",
+    "document_id": "fp_309",
+    "code": "П4",
+    "title": "[П4] Кадры",
+    "publisher_version": "26.14",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 420,
+    "n_tokens": 420,
+    "source_url": "https://databudget.ru/projects/fp/309",
+    "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+    "profile_text_sha256": "a1f64e3f97216b8f1143d93a03d7a55f0ffc3d2e8df84befeba7b6533bd9bd99",
+    "archive_entry": "tourism/fp_309.html",
+    "bytes": 1112906,
+    "download_path": "downloads/projects/tourism/documentary/sources/fp_309.html",
+    "profile_original_document_id": "html:ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_309:profile1",
+      "document_id": "fp_309",
+      "project_id": "tourism",
+      "kind": "task",
+      "text": "созданы условия для подготовки и переподготовки специалистов всех уровней для туристической отрасли",
+      "node_id": "fp_309:passport-task-07:114dc2bd2242b439",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "n_tokens": 11,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_309:profile2",
+      "document_id": "fp_309",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "региональные команды успешно завершили обучение по программам формирования регионального продукта для внутреннего туризма в целях формирования взаимосвязанных региональных туристических продуктов для внутреннего туризма в центре развития кадрового потенциала туристской отрасли проведено обучение региональных команд по программам формирования регионального продукта",
+      "node_id": "fp_309:passport-result-1:afaf57dfc746f9f4",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "n_tokens": 37,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_309:profile3",
+      "document_id": "fp_309",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "реализованы проекты под управлением ано \"центр компетенций в сфере производительности труда краснодарского края\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ано \"центр компетенций в сфере производительности труда краснодарского края\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязанных мероприятий, направленных на повышение эффективности процессов на предприятиях с применением инструментов \"бережливого производства\", реализующиеся в соответствии с методическими рекомендациями, утвержденными ано \"федеральный центр компетенций в сфере производительности труда\".",
+      "node_id": "fp_309:passport-result-43:ab4839ae6f87cf77",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "n_tokens": 78,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_309:profile4",
+      "document_id": "fp_309",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "реализованы проекты под управлением ао \"кавказ.рф\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ао \"кавказ.рф\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязанных мероприятий, направленных на повышение эффективности процессов на предприятиях с применением инструментов \"бережливого производства\", реализующиеся в соответствии с методическими рекомендациями, утвержденными ано \"федеральный центр компетенций в сфере производительности труда\".",
+      "node_id": "fp_309:passport-result-8:3f0fefc72237025b",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "n_tokens": 68,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_309:profile5",
+      "document_id": "fp_309",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "слушатели успешно завершили обучение по практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства российской федерации разработаны учебно-методичекие комплексы и проведено обучение по разработанным и реализованным практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства.",
+      "node_id": "fp_309:passport-result-21:215fd1b309336df8",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "n_tokens": 56,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_309:profile6",
+      "document_id": "fp_309",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "региональные команды успешно завершили обучение по формированию и продвижению международного туристического продукта на зарубежные рынки в целях тиражирования лучших практик по проектированию, реализации и продвижению международных туристических продуктов проведено обучение региональных команд",
+      "node_id": "fp_309:passport-result-43:15afe96c437323a1",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "n_tokens": 29,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_309:profile7",
+      "document_id": "fp_309",
+      "project_id": "tourism",
+      "kind": "result",
+      "text": "присуждены премии правительства российской федерации в области туризма премии правительства российской федерации в области туризма присуждаются гражданам российской федерации на основании конкурса за достижение в области туризма по следующим направлениям: а) за лучший проект по развитию внутреннего и въездного туризма б) за лучший проект по развитию социального туризма в) за лучший инвестиционный проект по развитию объектов туристской индустрии г) за лучший инновационный проект в области туризма д) за лучший проект по развитию гостиничной индустрии е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских продуктов российской федерации, направленных на популяризацию внутреннего и международного туризма (пропаганда туристских ресурсов региона, путеводитель, интернет-сайт и другое)",
+      "node_id": "fp_309:passport-result-37:4f0b6b7180db15a0",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "n_tokens": 101,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_309:profile8",
+      "document_id": "fp_309",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "число специалистов, прошедших переподготовку и повышение квалификации по виду экономической деятельности \"деятельность гостиниц и предприятий общественного питания\" в центрах подготовки кадров для туристской индустрии",
+      "node_id": "fp_309:passport-purpose-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "n_tokens": 21,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_309:profile9",
+      "document_id": "fp_309",
+      "project_id": "tourism",
+      "kind": "indicator",
+      "text": "доля прошедших обучение по программам переподготовки и повышения квалификации по направлению \"деятельность гостиниц и предприятий общественного питания\" в численности занятых в отрасли туризма",
+      "node_id": "fp_309:passport-purpose-2:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "n_tokens": 19,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_309:kwic1",
+      "document_id": "fp_309",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": " на популяризацию внутреннего и международного туризма (пропаганда туристских ресурсов региона, путеводитель, интернет-сайт и другое) число специалистов, прошедших переподготовку и повышение квалификации по виду экономической де",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic2",
+      "document_id": "fp_309",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "туризма д) за лучший проект по развитию гостиничной индустрии е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвиж",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic3",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "кадрового",
+      "context": "х формирования взаимосвязанных региональных туристических продуктов для внутреннего туризма в центре развития кадрового потенциала туристской отрасли проведено обучение региональных команд по программам формирования регионального",
+      "unit_id": "fp_309:profile2",
+      "unit_ids": [
+        "fp_309:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic4",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "квалификации",
+      "context": "изводительности труда\". слушатели успешно завершили обучение по практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic5",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "профессиональной",
+      "context": "и труда\". слушатели успешно завершили обучение по практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии тур",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic6",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": "шили обучение по практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подг",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic7",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "икации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства росси",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic8",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "ия в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства российской федерации разработаны учебно-методичекие комплексы и провед",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic9",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "квалификации",
+      "context": "комплексы и проведено обучение по разработанным и реализованным практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic10",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "профессиональной",
+      "context": "оведено обучение по разработанным и реализованным практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии тур",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic11",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": " и реализованным практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства. региональны",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic12",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "икации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства. региональные команды успешно завершили обучение по формированию и про",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic13",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": " проект в области туризма д) за лучший проект по развитию гостиничной индустрии е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проек",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic14",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "квалификации",
+      "context": "урсов региона, путеводитель, интернет-сайт и другое) число специалистов, прошедших переподготовку и повышение квалификации по виду экономической деятельности \"деятельность гостиниц и предприятий общественного питания\" в центрах подг",
+      "unit_id": "fp_309:profile8",
+      "unit_ids": [
+        "fp_309:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic15",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "у экономической деятельности \"деятельность гостиниц и предприятий общественного питания\" в центрах подготовки кадров для туристской индустрии доля прошедших обучение по программам переподготовки и повышения квалификации по нап",
+      "unit_id": "fp_309:profile8",
+      "unit_ids": [
+        "fp_309:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic16",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "квалификации",
+      "context": "х подготовки кадров для туристской индустрии доля прошедших обучение по программам переподготовки и повышения квалификации по направлению \"деятельность гостиниц и предприятий общественного питания\" в численности занятых в отрасли ту",
+      "unit_id": "fp_309:profile9",
+      "unit_ids": [
+        "fp_309:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic17",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "раммам формирования регионального продукта реализованы проекты под управлением ано \"центр компетенций в сфере производительности труда краснодарского края\" по повышению производительности труда в организациях туризма по направлению \"береж",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic18",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "кты под управлением ано \"центр компетенций в сфере производительности труда краснодарского края\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ано \"центр комп",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic19",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производство",
+      "context": " краснодарского края\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ано \"центр компетенций в сфере производительности труда краснодарского края\" в целях",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic20",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "ациях туризма по направлению \"бережливое производство\" обеспечена деятельность ано \"центр компетенций в сфере производительности труда краснодарского края\" в целях реализации проектов по повышению производительности труда в рамках национа",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic21",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "тр компетенций в сфере производительности труда краснодарского края\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic22",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "шению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязанных мероприятий, направленных на повышение эффективности пр",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic23",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "ий, направленных на повышение эффективности процессов на предприятиях с применением инструментов \"бережливого производства\", реализующиеся в соответствии с методическими рекомендациями, утвержденными ано \"федеральный центр компетенц",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic24",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "щиеся в соответствии с методическими рекомендациями, утвержденными ано \"федеральный центр компетенций в сфере производительности труда\". реализованы проекты под управлением ао \"кавказ.рф\" по повышению производительности труда в организаци",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic25",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "омпетенций в сфере производительности труда\". реализованы проекты под управлением ао \"кавказ.рф\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ао \"кавказ.рф\" ",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic26",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производство",
+      "context": "лением ао \"кавказ.рф\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ао \"кавказ.рф\" в целях реализации проектов по повышению производительности труда в р",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic27",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "нию \"бережливое производство\" обеспечена деятельность ао \"кавказ.рф\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic28",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "шению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязанных мероприятий, направленных на повышение эффективности пр",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic29",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "ий, направленных на повышение эффективности процессов на предприятиях с применением инструментов \"бережливого производства\", реализующиеся в соответствии с методическими рекомендациями, утвержденными ано \"федеральный центр компетенц",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic30",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "щиеся в соответствии с методическими рекомендациями, утвержденными ано \"федеральный центр компетенций в сфере производительности труда\". слушатели успешно завершили обучение по практико-ориентированным программам повышения квалификации, п",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic31",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционный",
+      "context": " по развитию внутреннего и въездного туризма б) за лучший проект по развитию социального туризма в) за лучший инвестиционный проект по развитию объектов туристской индустрии г) за лучший инновационный проект в области туризма д) за лу",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic32",
+      "document_id": "fp_309",
+      "frame": "governance_evidence",
+      "matched": "управлением",
+      "context": "ведено обучение региональных команд по программам формирования регионального продукта реализованы проекты под управлением ано \"центр компетенций в сфере производительности труда краснодарского края\" по повышению производительности ",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic33",
+      "document_id": "fp_309",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "оизводительности труда предполагают под собой комплекс взаимосвязанных мероприятий, направленных на повышение эффективности процессов на предприятиях с применением инструментов \"бережливого производства\", реализующиеся в соответствии",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic34",
+      "document_id": "fp_309",
+      "frame": "governance_evidence",
+      "matched": "управлением",
+      "context": ", утвержденными ано \"федеральный центр компетенций в сфере производительности труда\". реализованы проекты под управлением ао \"кавказ.рф\" по повышению производительности труда в организациях туризма по направлению \"бережливое произв",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic35",
+      "document_id": "fp_309",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "оизводительности труда предполагают под собой комплекс взаимосвязанных мероприятий, направленных на повышение эффективности процессов на предприятиях с применением инструментов \"бережливого производства\", реализующиеся в соответствии",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic36",
+      "document_id": "fp_309",
+      "frame": "science_innovation",
+      "matched": "инновационный",
+      "context": "социального туризма в) за лучший инвестиционный проект по развитию объектов туристской индустрии г) за лучший инновационный проект в области туризма д) за лучший проект по развитию гостиничной индустрии е) за лучший проект в области ",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic37",
+      "document_id": "fp_309",
+      "frame": "science_innovation",
+      "matched": "научную",
+      "context": "остиничной индустрии е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских продуктов российской ",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic38",
+      "document_id": "fp_309",
+      "frame": "science_innovation",
+      "matched": "разработку",
+      "context": "ой индустрии е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских продуктов российской федерации, ",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic39",
+      "document_id": "fp_309",
+      "frame": "science_innovation",
+      "matched": "исследование",
+      "context": " е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских продуктов российской федерации, направленных н",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic40",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "созданы условия для подготовки и переподготовки специалистов всех уровней для туристической отрасли региональные команды успешно завершили обучение по программам формирования регионального продукта для",
+      "unit_id": "fp_309:profile1",
+      "unit_ids": [
+        "fp_309:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic41",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ональные команды успешно завершили обучение по программам формирования регионального продукта для внутреннего туризма в целях формирования взаимосвязанных региональных туристических продуктов для внутреннего туризма в центре ра",
+      "unit_id": "fp_309:profile2",
+      "unit_ids": [
+        "fp_309:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic42",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "формирования регионального продукта для внутреннего туризма в целях формирования взаимосвязанных региональных туристических продуктов для внутреннего туризма в центре развития кадрового потенциала туристской отрасли проведено обучени",
+      "unit_id": "fp_309:profile2",
+      "unit_ids": [
+        "fp_309:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic43",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "внутреннего туризма в целях формирования взаимосвязанных региональных туристических продуктов для внутреннего туризма в центре развития кадрового потенциала туристской отрасли проведено обучение региональных команд по программа",
+      "unit_id": "fp_309:profile2",
+      "unit_ids": [
+        "fp_309:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic44",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "связанных региональных туристических продуктов для внутреннего туризма в центре развития кадрового потенциала туристской отрасли проведено обучение региональных команд по программам формирования регионального продукта реализованы ",
+      "unit_id": "fp_309:profile2",
+      "unit_ids": [
+        "fp_309:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic45",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ий в сфере производительности труда краснодарского края\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ано \"центр компетенций в сфере производитель",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic46",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "ского края\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязан",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic47",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостеприимство",
+      "context": "я\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязанных мероприятий, ",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic48",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "уда\". реализованы проекты под управлением ао \"кавказ.рф\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ао \"кавказ.рф\" в целях реализации проектов п",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic49",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "\"кавказ.рф\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязан",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic50",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостеприимство",
+      "context": "ф\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязанных мероприятий, ",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic51",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства российской федерации разраб",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic52",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "дготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства российской федерации разработаны учебно-мето",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic53",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "рсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства российской федерации разработаны учебно-методичекие комплексы и проведено обучение по разраб",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic54",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "ре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства российской федерации разработаны учебно-методичекие комплексы и проведено обучение по разработанным и реализо",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic55",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства. региональные команды успешно завершили обучение по формированию и продвижению международног",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic56",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "дготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства. региональные команды успешно завершили обучение по формированию и продвижению международного туристического ",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic57",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": " гостеприимства. региональные команды успешно завершили обучение по формированию и продвижению международного туристического продукта на зарубежные рынки в целях тиражирования лучших практик по проектированию, реализации и продвижению",
+      "unit_id": "fp_309:profile6",
+      "unit_ids": [
+        "fp_309:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic58",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "рубежные рынки в целях тиражирования лучших практик по проектированию, реализации и продвижению международных туристических продуктов проведено обучение региональных команд присуждены премии правительства российской федерации в облас",
+      "unit_id": "fp_309:profile6",
+      "unit_ids": [
+        "fp_309:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic59",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "одуктов проведено обучение региональных команд присуждены премии правительства российской федерации в области туризма премии правительства российской федерации в области туризма присуждаются гражданам российской федерации на ос",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic60",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "емии правительства российской федерации в области туризма премии правительства российской федерации в области туризма присуждаются гражданам российской федерации на основании конкурса за достижение в области туризма по следующи",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic61",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "и в области туризма присуждаются гражданам российской федерации на основании конкурса за достижение в области туризма по следующим направлениям: а) за лучший проект по развитию внутреннего и въездного туризма б) за лучший проек",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic62",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "стижение в области туризма по следующим направлениям: а) за лучший проект по развитию внутреннего и въездного туризма б) за лучший проект по развитию социального туризма в) за лучший инвестиционный проект по развитию объектов т",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic63",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": ": а) за лучший проект по развитию внутреннего и въездного туризма б) за лучший проект по развитию социального туризма в) за лучший инвестиционный проект по развитию объектов туристской индустрии г) за лучший инновационный проек",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic64",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "а б) за лучший проект по развитию социального туризма в) за лучший инвестиционный проект по развитию объектов туристской индустрии г) за лучший инновационный проект в области туризма д) за лучший проект по развитию гостиничной инд",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic65",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "й инвестиционный проект по развитию объектов туристской индустрии г) за лучший инновационный проект в области туризма д) за лучший проект по развитию гостиничной индустрии е) за лучший проект в области профессионального образов",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic66",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": " проект по развитию гостиничной индустрии е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских ",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic67",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": " области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских продуктов российской федерации, направленных на популяризацию в",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic68",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских продуктов российской федерации, направленных на популяризацию внутреннего и международного туризма (пропаганд",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic69",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "вижению туристских продуктов российской федерации, направленных на популяризацию внутреннего и международного туризма (пропаганда туристских ресурсов региона, путеводитель, интернет-сайт и другое) число специалистов, прошедших ",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic70",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "родуктов российской федерации, направленных на популяризацию внутреннего и международного туризма (пропаганда туристских ресурсов региона, путеводитель, интернет-сайт и другое) число специалистов, прошедших переподготовку и повыше",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic71",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостиниц",
+      "context": "циалистов, прошедших переподготовку и повышение квалификации по виду экономической деятельности \"деятельность гостиниц и предприятий общественного питания\" в центрах подготовки кадров для туристской индустрии доля прошедших обуч",
+      "unit_id": "fp_309:profile8",
+      "unit_ids": [
+        "fp_309:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic72",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "ской деятельности \"деятельность гостиниц и предприятий общественного питания\" в центрах подготовки кадров для туристской индустрии доля прошедших обучение по программам переподготовки и повышения квалификации по направлению \"деяте",
+      "unit_id": "fp_309:profile8",
+      "unit_ids": [
+        "fp_309:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic73",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостиниц",
+      "context": "ии доля прошедших обучение по программам переподготовки и повышения квалификации по направлению \"деятельность гостиниц и предприятий общественного питания\" в численности занятых в отрасли туризма",
+      "unit_id": "fp_309:profile9",
+      "unit_ids": [
+        "fp_309:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic74",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ии по направлению \"деятельность гостиниц и предприятий общественного питания\" в численности занятых в отрасли туризма",
+      "unit_id": "fp_309:profile9",
+      "unit_ids": [
+        "fp_309:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_309:kwic1",
+      "document_id": "fp_309",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": " на популяризацию внутреннего и международного туризма (пропаганда туристских ресурсов региона, путеводитель, интернет-сайт и другое) число специалистов, прошедших переподготовку и повышение квалификации по виду экономической де",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic2",
+      "document_id": "fp_309",
+      "frame": "education_youth",
+      "matched": "образования",
+      "context": "туризма д) за лучший проект по развитию гостиничной индустрии е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвиж",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic3",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "кадрового",
+      "context": "х формирования взаимосвязанных региональных туристических продуктов для внутреннего туризма в центре развития кадрового потенциала туристской отрасли проведено обучение региональных команд по программам формирования регионального",
+      "unit_id": "fp_309:profile2",
+      "unit_ids": [
+        "fp_309:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic4",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "квалификации",
+      "context": "изводительности труда\". слушатели успешно завершили обучение по практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic5",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "профессиональной",
+      "context": "и труда\". слушатели успешно завершили обучение по практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии тур",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic6",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": "шили обучение по практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подг",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic7",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "икации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства росси",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic8",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "ия в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства российской федерации разработаны учебно-методичекие комплексы и провед",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic9",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "квалификации",
+      "context": "комплексы и проведено обучение по разработанным и реализованным практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic10",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "профессиональной",
+      "context": "оведено обучение по разработанным и реализованным практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии тур",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic11",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": " и реализованным практико-ориентированным программам повышения квалификации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства. региональны",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic12",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "икации, профессиональной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства. региональные команды успешно завершили обучение по формированию и про",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic13",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "профессионального",
+      "context": " проект в области туризма д) за лучший проект по развитию гостиничной индустрии е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проек",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic14",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "квалификации",
+      "context": "урсов региона, путеводитель, интернет-сайт и другое) число специалистов, прошедших переподготовку и повышение квалификации по виду экономической деятельности \"деятельность гостиниц и предприятий общественного питания\" в центрах подг",
+      "unit_id": "fp_309:profile8",
+      "unit_ids": [
+        "fp_309:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic15",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "кадров",
+      "context": "у экономической деятельности \"деятельность гостиниц и предприятий общественного питания\" в центрах подготовки кадров для туристской индустрии доля прошедших обучение по программам переподготовки и повышения квалификации по нап",
+      "unit_id": "fp_309:profile8",
+      "unit_ids": [
+        "fp_309:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic16",
+      "document_id": "fp_309",
+      "frame": "employment_skills",
+      "matched": "квалификации",
+      "context": "х подготовки кадров для туристской индустрии доля прошедших обучение по программам переподготовки и повышения квалификации по направлению \"деятельность гостиниц и предприятий общественного питания\" в численности занятых в отрасли ту",
+      "unit_id": "fp_309:profile9",
+      "unit_ids": [
+        "fp_309:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic17",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "раммам формирования регионального продукта реализованы проекты под управлением ано \"центр компетенций в сфере производительности труда краснодарского края\" по повышению производительности труда в организациях туризма по направлению \"береж",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic18",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "кты под управлением ано \"центр компетенций в сфере производительности труда краснодарского края\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ано \"центр комп",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic19",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производство",
+      "context": " краснодарского края\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ано \"центр компетенций в сфере производительности труда краснодарского края\" в целях",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic20",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "ациях туризма по направлению \"бережливое производство\" обеспечена деятельность ано \"центр компетенций в сфере производительности труда краснодарского края\" в целях реализации проектов по повышению производительности труда в рамках национа",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic21",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "тр компетенций в сфере производительности труда краснодарского края\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic22",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "шению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязанных мероприятий, направленных на повышение эффективности пр",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic23",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "ий, направленных на повышение эффективности процессов на предприятиях с применением инструментов \"бережливого производства\", реализующиеся в соответствии с методическими рекомендациями, утвержденными ано \"федеральный центр компетенц",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic24",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "щиеся в соответствии с методическими рекомендациями, утвержденными ано \"федеральный центр компетенций в сфере производительности труда\". реализованы проекты под управлением ао \"кавказ.рф\" по повышению производительности труда в организаци",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic25",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "омпетенций в сфере производительности труда\". реализованы проекты под управлением ао \"кавказ.рф\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ао \"кавказ.рф\" ",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic26",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производство",
+      "context": "лением ао \"кавказ.рф\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ао \"кавказ.рф\" в целях реализации проектов по повышению производительности труда в р",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic27",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "нию \"бережливое производство\" обеспечена деятельность ао \"кавказ.рф\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic28",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "шению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязанных мероприятий, направленных на повышение эффективности пр",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic29",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производства",
+      "context": "ий, направленных на повышение эффективности процессов на предприятиях с применением инструментов \"бережливого производства\", реализующиеся в соответствии с методическими рекомендациями, утвержденными ано \"федеральный центр компетенц",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic30",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "производительности",
+      "context": "щиеся в соответствии с методическими рекомендациями, утвержденными ано \"федеральный центр компетенций в сфере производительности труда\". слушатели успешно завершили обучение по практико-ориентированным программам повышения квалификации, п",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic31",
+      "document_id": "fp_309",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционный",
+      "context": " по развитию внутреннего и въездного туризма б) за лучший проект по развитию социального туризма в) за лучший инвестиционный проект по развитию объектов туристской индустрии г) за лучший инновационный проект в области туризма д) за лу",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic32",
+      "document_id": "fp_309",
+      "frame": "governance_evidence",
+      "matched": "управлением",
+      "context": "ведено обучение региональных команд по программам формирования регионального продукта реализованы проекты под управлением ано \"центр компетенций в сфере производительности труда краснодарского края\" по повышению производительности ",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic33",
+      "document_id": "fp_309",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "оизводительности труда предполагают под собой комплекс взаимосвязанных мероприятий, направленных на повышение эффективности процессов на предприятиях с применением инструментов \"бережливого производства\", реализующиеся в соответствии",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic34",
+      "document_id": "fp_309",
+      "frame": "governance_evidence",
+      "matched": "управлением",
+      "context": ", утвержденными ано \"федеральный центр компетенций в сфере производительности труда\". реализованы проекты под управлением ао \"кавказ.рф\" по повышению производительности труда в организациях туризма по направлению \"бережливое произв",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic35",
+      "document_id": "fp_309",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "оизводительности труда предполагают под собой комплекс взаимосвязанных мероприятий, направленных на повышение эффективности процессов на предприятиях с применением инструментов \"бережливого производства\", реализующиеся в соответствии",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic36",
+      "document_id": "fp_309",
+      "frame": "science_innovation",
+      "matched": "инновационный",
+      "context": "социального туризма в) за лучший инвестиционный проект по развитию объектов туристской индустрии г) за лучший инновационный проект в области туризма д) за лучший проект по развитию гостиничной индустрии е) за лучший проект в области ",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic37",
+      "document_id": "fp_309",
+      "frame": "science_innovation",
+      "matched": "научную",
+      "context": "остиничной индустрии е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских продуктов российской ",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic38",
+      "document_id": "fp_309",
+      "frame": "science_innovation",
+      "matched": "разработку",
+      "context": "ой индустрии е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских продуктов российской федерации, ",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic39",
+      "document_id": "fp_309",
+      "frame": "science_innovation",
+      "matched": "исследование",
+      "context": " е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских продуктов российской федерации, направленных н",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic40",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристической",
+      "context": "созданы условия для подготовки и переподготовки специалистов всех уровней для туристической отрасли региональные команды успешно завершили обучение по программам формирования регионального продукта для",
+      "unit_id": "fp_309:profile1",
+      "unit_ids": [
+        "fp_309:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic41",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ональные команды успешно завершили обучение по программам формирования регионального продукта для внутреннего туризма в целях формирования взаимосвязанных региональных туристических продуктов для внутреннего туризма в центре ра",
+      "unit_id": "fp_309:profile2",
+      "unit_ids": [
+        "fp_309:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic42",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "формирования регионального продукта для внутреннего туризма в целях формирования взаимосвязанных региональных туристических продуктов для внутреннего туризма в центре развития кадрового потенциала туристской отрасли проведено обучени",
+      "unit_id": "fp_309:profile2",
+      "unit_ids": [
+        "fp_309:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic43",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "внутреннего туризма в целях формирования взаимосвязанных региональных туристических продуктов для внутреннего туризма в центре развития кадрового потенциала туристской отрасли проведено обучение региональных команд по программа",
+      "unit_id": "fp_309:profile2",
+      "unit_ids": [
+        "fp_309:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic44",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "связанных региональных туристических продуктов для внутреннего туризма в центре развития кадрового потенциала туристской отрасли проведено обучение региональных команд по программам формирования регионального продукта реализованы ",
+      "unit_id": "fp_309:profile2",
+      "unit_ids": [
+        "fp_309:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic45",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ий в сфере производительности труда краснодарского края\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ано \"центр компетенций в сфере производитель",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic46",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "ского края\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязан",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic47",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостеприимство",
+      "context": "я\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязанных мероприятий, ",
+      "unit_id": "fp_309:profile3",
+      "unit_ids": [
+        "fp_309:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic48",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "уда\". реализованы проекты под управлением ао \"кавказ.рф\" по повышению производительности труда в организациях туризма по направлению \"бережливое производство\" обеспечена деятельность ао \"кавказ.рф\" в целях реализации проектов п",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic49",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризм",
+      "context": "\"кавказ.рф\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязан",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic50",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостеприимство",
+      "context": "ф\" в целях реализации проектов по повышению производительности труда в рамках национального проекта \"туризм и гостеприимство\". проекты по повышению производительности труда предполагают под собой комплекс взаимосвязанных мероприятий, ",
+      "unit_id": "fp_309:profile4",
+      "unit_ids": [
+        "fp_309:profile4"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[3]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic51",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства российской федерации разраб",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic52",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "дготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства российской федерации разработаны учебно-мето",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic53",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "рсном центре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства российской федерации разработаны учебно-методичекие комплексы и проведено обучение по разраб",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic54",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "ре подготовки кадров для индустрии туризма и гостеприимства в целях подготовки кадров для индустрии туризма и гостеприимства российской федерации разработаны учебно-методичекие комплексы и проведено обучение по разработанным и реализо",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic55",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ной переподготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства. региональные команды успешно завершили обучение по формированию и продвижению международног",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic56",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостеприимства",
+      "context": "дготовки, профессионального обучения в федеральном ресурсном центре подготовки кадров для индустрии туризма и гостеприимства. региональные команды успешно завершили обучение по формированию и продвижению международного туристического ",
+      "unit_id": "fp_309:profile5",
+      "unit_ids": [
+        "fp_309:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[4]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic57",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристического",
+      "context": " гостеприимства. региональные команды успешно завершили обучение по формированию и продвижению международного туристического продукта на зарубежные рынки в целях тиражирования лучших практик по проектированию, реализации и продвижению",
+      "unit_id": "fp_309:profile6",
+      "unit_ids": [
+        "fp_309:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic58",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристических",
+      "context": "рубежные рынки в целях тиражирования лучших практик по проектированию, реализации и продвижению международных туристических продуктов проведено обучение региональных команд присуждены премии правительства российской федерации в облас",
+      "unit_id": "fp_309:profile6",
+      "unit_ids": [
+        "fp_309:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[5]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic59",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "одуктов проведено обучение региональных команд присуждены премии правительства российской федерации в области туризма премии правительства российской федерации в области туризма присуждаются гражданам российской федерации на ос",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic60",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "емии правительства российской федерации в области туризма премии правительства российской федерации в области туризма присуждаются гражданам российской федерации на основании конкурса за достижение в области туризма по следующи",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic61",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "и в области туризма присуждаются гражданам российской федерации на основании конкурса за достижение в области туризма по следующим направлениям: а) за лучший проект по развитию внутреннего и въездного туризма б) за лучший проек",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic62",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "стижение в области туризма по следующим направлениям: а) за лучший проект по развитию внутреннего и въездного туризма б) за лучший проект по развитию социального туризма в) за лучший инвестиционный проект по развитию объектов т",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic63",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": ": а) за лучший проект по развитию внутреннего и въездного туризма б) за лучший проект по развитию социального туризма в) за лучший инвестиционный проект по развитию объектов туристской индустрии г) за лучший инновационный проек",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic64",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "а б) за лучший проект по развитию социального туризма в) за лучший инвестиционный проект по развитию объектов туристской индустрии г) за лучший инновационный проект в области туризма д) за лучший проект по развитию гостиничной инд",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic65",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "й инвестиционный проект по развитию объектов туристской индустрии г) за лучший инновационный проект в области туризма д) за лучший проект по развитию гостиничной индустрии е) за лучший проект в области профессионального образов",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic66",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": " проект по развитию гостиничной индустрии е) за лучший проект в области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских ",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic67",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": " области профессионального образования в сфере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских продуктов российской федерации, направленных на популяризацию в",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic68",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "ере туризма ж) за лучшую научную разработку (исследование) в сфере туризма з) за лучший проект по продвижению туристских продуктов российской федерации, направленных на популяризацию внутреннего и международного туризма (пропаганд",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic69",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "вижению туристских продуктов российской федерации, направленных на популяризацию внутреннего и международного туризма (пропаганда туристских ресурсов региона, путеводитель, интернет-сайт и другое) число специалистов, прошедших ",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic70",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристских",
+      "context": "родуктов российской федерации, направленных на популяризацию внутреннего и международного туризма (пропаганда туристских ресурсов региона, путеводитель, интернет-сайт и другое) число специалистов, прошедших переподготовку и повыше",
+      "unit_id": "fp_309:profile7",
+      "unit_ids": [
+        "fp_309:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[6]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic71",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостиниц",
+      "context": "циалистов, прошедших переподготовку и повышение квалификации по виду экономической деятельности \"деятельность гостиниц и предприятий общественного питания\" в центрах подготовки кадров для туристской индустрии доля прошедших обуч",
+      "unit_id": "fp_309:profile8",
+      "unit_ids": [
+        "fp_309:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic72",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туристской",
+      "context": "ской деятельности \"деятельность гостиниц и предприятий общественного питания\" в центрах подготовки кадров для туристской индустрии доля прошедших обучение по программам переподготовки и повышения квалификации по направлению \"деяте",
+      "unit_id": "fp_309:profile8",
+      "unit_ids": [
+        "fp_309:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic73",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "гостиниц",
+      "context": "ии доля прошедших обучение по программам переподготовки и повышения квалификации по направлению \"деятельность гостиниц и предприятий общественного питания\" в численности занятых в отрасли туризма",
+      "unit_id": "fp_309:profile9",
+      "unit_ids": [
+        "fp_309:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_309:kwic74",
+      "document_id": "fp_309",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "ии по направлению \"деятельность гостиниц и предприятий общественного питания\" в численности занятых в отрасли туризма",
+      "unit_id": "fp_309:profile9",
+      "unit_ids": [
+        "fp_309:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456",
+      "source_url": "https://databudget.ru/projects/fp/309",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/309",
+  "source_sha256": "ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456"
+}

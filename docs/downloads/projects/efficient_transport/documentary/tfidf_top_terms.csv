@@ -1,0 +1,551 @@
+﻿document_id,rank,term,weight,origin
+project,1,удовлетворения,0.20331033760287423,replayed_author_model
+project,2,опорной,0.18159729535226965,replayed_author_model
+project,3,транспортной,0.16669938320683347,replayed_author_model
+project,4,опорной транспортной,0.1577152497535646,replayed_author_model
+project,5,транспортной сети,0.1577152497535646,replayed_author_model
+project,6,единой опорной,0.1577152497535646,replayed_author_model
+project,7,сети удовлетворения,0.14940397666071778,replayed_author_model
+project,8,увеличена мощность,0.14618310665772677,replayed_author_model
+project,9,уровню,0.1299864686167174,replayed_author_model
+project,10,мощность,0.12773806875797206,replayed_author_model
+project,11,инфраструктуры единой,0.1247250823089799,replayed_author_model
+project,12,увеличена,0.11495007013050455,replayed_author_model
+project,13,мощность магистральной,0.11343710901017928,replayed_author_model
+project,14,экономики менее,0.11343710901017928,replayed_author_model
+project,15,удовлетворения спроса,0.11343710901017928,replayed_author_model
+project,16,спроса экономики,0.11343710901017928,replayed_author_model
+project,17,итогам уровню,0.11343710901017928,replayed_author_model
+project,18,раза итогам,0.11343710901017928,replayed_author_model
+project,19,чем раза,0.11324788432239179,replayed_author_model
+project,20,магистральной инфраструктуры,0.11022104653941257,replayed_author_model
+project,21,опорной сети,0.10689292431687855,replayed_author_model
+project,22,единой,0.10554535202990198,replayed_author_model
+project,23,магистральной,0.10528527188312489,replayed_author_model
+project,24,инфраструктуры,0.1043605498907583,replayed_author_model
+project,25,сети,0.10270224613612457,replayed_author_model
+project,26,бизнеса,0.09992790230280114,replayed_author_model
+project,27,спроса,0.09490513645935825,replayed_author_model
+project,28,строительство,0.09116272474007442,replayed_author_model
+project,29,государства,0.0902612123634695,replayed_author_model
+project,30,бизнеса государства,0.08966230396918645,replayed_author_model
+project,31,пути,0.08628417156945738,replayed_author_model
+project,32,населения счет,0.08389853870424323,replayed_author_model
+project,33,мощности,0.08174872012310115,replayed_author_model
+project,34,удовлетворения потребностей,0.07740819378788724,replayed_author_model
+project,35,менее чем,0.07685511092675515,replayed_author_model
+project,36,населения,0.07633256340954364,replayed_author_model
+project,37,судов,0.07579915107459673,replayed_author_model
+project,38,экономики,0.07541783249961378,replayed_author_model
+project,39,раза,0.07541087462783581,replayed_author_model
+project,40,транспортной отрасли,0.07530003947570738,replayed_author_model
+project,41,чем,0.0733438444651093,replayed_author_model
+project,42,железнодорожных,0.07329393164863038,replayed_author_model
+project,43,грузоперевозок,0.07099310579870831,replayed_author_model
+project,44,направлении,0.07081696391985139,replayed_author_model
+project,45,потребностей,0.0702729191184341,replayed_author_model
+project,46,перевозках,0.07025477269443281,replayed_author_model
+project,47,транспортных,0.06999456372493394,replayed_author_model
+project,48,мощности опорной,0.06871992990762857,replayed_author_model
+project,49,путей,0.06859167482909603,replayed_author_model
+project,50,счет,0.06754593638824796,replayed_author_model
+np_20,1,грузоперевозок,0.1760974713691743,replayed_author_model
+np_20,2,транспортной отрасли,0.1603736176256894,replayed_author_model
+np_20,3,населения экономики,0.1603736176256894,replayed_author_model
+np_20,4,удовлетворения,0.15562991329929352,replayed_author_model
+np_20,5,уровню,0.14631534207756844,replayed_author_model
+np_20,6,опорной,0.13910750264069272,replayed_author_model
+np_20,7,опорной транспортной,0.13686779546383074,replayed_author_model
+np_20,8,транспортной сети,0.13686779546383074,replayed_author_model
+np_20,9,инфраструктуры единой,0.13686779546383074,replayed_author_model
+np_20,10,единой опорной,0.13686779546383074,replayed_author_model
+np_20,11,перевозках,0.13509277312370477,replayed_author_model
+np_20,12,населения счет,0.13509277312370477,replayed_author_model
+np_20,13,транспортной,0.13399721458222627,replayed_author_model
+np_20,14,комфортных,0.1293884249059963,replayed_author_model
+np_20,15,транспортную,0.1293884249059963,replayed_author_model
+np_20,16,инфраструктуру,0.1293884249059963,replayed_author_model
+np_20,17,бюджетных инвестиций,0.1293884249059963,replayed_author_model
+np_20,18,бизнеса государства,0.1293884249059963,replayed_author_model
+np_20,19,документооборота,0.1293884249059963,replayed_author_model
+np_20,20,цифровой трансформации,0.1275155803557057,replayed_author_model
+np_20,21,трансформации,0.12484005094784731,replayed_author_model
+np_20,22,безопасных,0.12456546720865223,replayed_author_model
+np_20,23,перевозок,0.11042407559050034,replayed_author_model
+np_20,24,пути,0.11042407559050034,replayed_author_model
+np_20,25,магистральной инфраструктуры,0.10770172502494392,replayed_author_model
+np_20,26,бизнеса,0.10503033801349006,replayed_author_model
+np_20,27,чем раза,0.10287876732759982,replayed_author_model
+np_20,28,магистральной,0.10287876732759982,replayed_author_model
+np_20,29,обеспечено повышение,0.10287876732759982,replayed_author_model
+np_20,30,населения,0.09977775452852158,replayed_author_model
+np_20,31,повышение качества,0.09870093133870114,replayed_author_model
+np_20,32,счет развития,0.09501581883013432,replayed_author_model
+np_20,33,цифровой,0.09198201367786357,replayed_author_model
+np_20,34,государства,0.09019286113279021,replayed_author_model
+np_20,35,морскому пути,0.08922740239102323,replayed_author_model
+np_20,36,морскому,0.08922740239102323,replayed_author_model
+np_20,37,северному морскому,0.08922740239102323,replayed_author_model
+np_20,38,северному,0.08922740239102323,replayed_author_model
+np_20,39,отрасли,0.08879283709284522,replayed_author_model
+np_20,40,увеличена,0.08873737570944797,replayed_author_model
+np_20,41,инвестиций,0.08601502514389153,replayed_author_model
+np_20,42,менее чем,0.0854695671452824,replayed_author_model
+np_20,43,увеличении,0.08391138864479586,replayed_author_model
+np_20,44,численности занятых,0.08391138864479586,replayed_author_model
+np_20,45,возможности,0.08351070538660633,replayed_author_model
+np_20,46,единой,0.0831075844277383,replayed_author_model
+np_20,47,экономики,0.08156473347853217,replayed_author_model
+np_20,48,чем,0.08156473347853217,replayed_author_model
+np_20,49,роста,0.08119206744654743,replayed_author_model
+np_20,50,отрасли целях,0.07978796803655772,replayed_author_model
+fp_268,1,москва санкт-петербург,0.33094400896474024,replayed_author_model
+fp_268,2,станции,0.2602896256855945,replayed_author_model
+fp_268,3,москва,0.21874092019916883,replayed_author_model
+fp_268,4,пассажиров,0.2102929093528503,replayed_author_model
+fp_268,5,высокоскоростного,0.1956640652955869,replayed_author_model
+fp_268,6,санкт-петербург,0.19563111936740804,replayed_author_model
+fp_268,7,участка,0.17714292857716094,replayed_author_model
+fp_268,8,участке,0.1578605358793419,replayed_author_model
+fp_268,9,общего пользования,0.1530283630931182,replayed_author_model
+fp_268,10,пользования,0.1530283630931182,replayed_author_model
+fp_268,11,завершено строительство,0.1530283630931182,replayed_author_model
+fp_268,12,пути,0.14479563697767245,replayed_author_model
+fp_268,13,завершено,0.1412259038184104,replayed_author_model
+fp_268,14,эксплуатации,0.12237310719928943,replayed_author_model
+fp_268,15,транспорта,0.11826707815958037,replayed_author_model
+fp_268,16,комплексных объектов,0.11700110230474751,replayed_author_model
+fp_268,17,распоряжения правительства,0.1100303797295225,replayed_author_model
+fp_268,18,инфраструктуре,0.1100303797295225,replayed_author_model
+fp_268,19,строительство,0.1067159717181482,replayed_author_model
+fp_268,20,завершение строительства,0.10462346723961556,replayed_author_model
+fp_268,21,путей,0.10462346723961556,replayed_author_model
+fp_268,22,распоряжения,0.10462346723961556,replayed_author_model
+fp_268,23,результата отражает,0.10020569806455927,replayed_author_model
+fp_268,24,отражает количество,0.09647052744825936,replayed_author_model
+fp_268,25,июня,0.09647052744825936,replayed_author_model
+fp_268,26,времени,0.09647052744825936,replayed_author_model
+fp_268,27,перевозки,0.09647052744825936,replayed_author_model
+fp_268,28,общего,0.09393601586365014,replayed_author_model
+fp_268,29,удовлетворения спроса,0.09323497548933425,replayed_author_model
+fp_268,30,раза итогам,0.09323497548933425,replayed_author_model
+fp_268,31,отражает,0.09323497548933425,replayed_author_model
+fp_268,32,мощность магистральной,0.09323497548933425,replayed_author_model
+fp_268,33,экономики менее,0.09323497548933425,replayed_author_model
+fp_268,34,увеличена мощность,0.09323497548933425,replayed_author_model
+fp_268,35,сети удовлетворения,0.09323497548933425,replayed_author_model
+fp_268,36,спроса экономики,0.09323497548933425,replayed_author_model
+fp_268,37,итогам уровню,0.09323497548933425,replayed_author_model
+fp_268,38,строительства,0.09081861419549796,replayed_author_model
+fp_268,39,созданной,0.09038101639959605,replayed_author_model
+fp_268,40,счет строительства,0.08782806299942732,replayed_author_model
+fp_268,41,подвижного,0.08782806299942732,replayed_author_model
+fp_268,42,подвижного состава,0.08782806299942732,replayed_author_model
+fp_268,43,центрального,0.08782806299942732,replayed_author_model
+fp_268,44,транспортной сети,0.08551863573359683,replayed_author_model
+fp_268,45,удовлетворения,0.08551863573359683,replayed_author_model
+fp_268,46,единой опорной,0.08551863573359683,replayed_author_model
+fp_268,47,железнодорожной,0.08551863573359683,replayed_author_model
+fp_268,48,опорной транспортной,0.08551863573359683,replayed_author_model
+fp_268,49,инфраструктуры единой,0.08551863573359683,replayed_author_model
+fp_268,50,значение результата,0.08551863573359683,replayed_author_model
+fp_269,1,путей,0.24150805777279807,replayed_author_model
+fp_269,2,гидротехнических сооружений,0.24150805777279807,replayed_author_model
+fp_269,3,гидротехнических,0.24150805777279807,replayed_author_model
+fp_269,4,внутренних,0.2226881820212187,replayed_author_model
+fp_269,5,водных,0.20273830979391447,replayed_author_model
+fp_269,6,км,0.18661967757613174,replayed_author_model
+fp_269,7,сооружений,0.1839184340423351,replayed_author_model
+fp_269,8,опорной,0.17644963292113602,replayed_author_model
+fp_269,9,сети удовлетворения,0.17363764137871862,replayed_author_model
+fp_269,10,увеличена мощность,0.17363764137871862,replayed_author_model
+fp_269,11,транспортной сети,0.1592669931511513,replayed_author_model
+fp_269,12,единой опорной,0.1592669931511513,replayed_author_model
+fp_269,13,опорной транспортной,0.1592669931511513,replayed_author_model
+fp_269,14,судов,0.1592669931511513,replayed_author_model
+fp_269,15,удовлетворения,0.1592669931511513,replayed_author_model
+fp_269,16,мощность,0.15172845536344667,replayed_author_model
+fp_269,17,участков,0.1322888032423477,replayed_author_model
+fp_269,18,км км,0.12869458050259353,replayed_author_model
+fp_269,19,увеличена,0.12798780459597192,replayed_author_model
+fp_269,20,мероприятия направленные,0.12044926680826724,replayed_author_model
+fp_269,21,единой,0.11986783687415382,replayed_author_model
+fp_269,22,удовлетворения потребностей,0.11507988353869396,replayed_author_model
+fp_269,23,населения счет,0.11507988353869396,replayed_author_model
+fp_269,24,транспортной,0.11107926426835978,replayed_author_model
+fp_269,25,поддержание,0.11022058786077546,replayed_author_model
+fp_269,26,направленные обеспечение,0.10611211190540983,replayed_author_model
+fp_269,27,удовлетворения спроса,0.10255318815301954,replayed_author_model
+fp_269,28,экономики менее,0.10255318815301954,replayed_author_model
+fp_269,29,мощность магистральной,0.10255318815301954,replayed_author_model
+fp_269,30,итогам уровню,0.10255318815301954,replayed_author_model
+fp_269,31,спроса экономики,0.10255318815301954,replayed_author_model
+fp_269,32,раза итогам,0.10255318815301954,replayed_author_model
+fp_269,33,сети,0.09979098860333799,replayed_author_model
+fp_269,34,объекты инфраструктуры,0.09941399492671334,replayed_author_model
+fp_269,35,безопасности,0.09670861604079249,replayed_author_model
+fp_269,36,устранения,0.0966058908968759,replayed_author_model
+fp_269,37,опорной сети,0.0966058908968759,replayed_author_model
+fp_269,38,направленные,0.09569449852681505,replayed_author_model
+fp_269,39,инфраструктуры единой,0.09406565181089555,replayed_author_model
+fp_269,40,магистральной инфраструктуры,0.09174659521895741,replayed_author_model
+fp_269,41,реконструированы,0.08961326995404388,replayed_author_model
+fp_269,42,магистральной,0.08763811926359177,replayed_author_model
+fp_269,43,чем раза,0.08763811926359177,replayed_author_model
+fp_269,44,спроса,0.08579929796281377,replayed_author_model
+fp_269,45,потребностей,0.08407919551120148,replayed_author_model
+fp_269,46,системе,0.08094000228489528,replayed_author_model
+fp_269,47,эксплуатации,0.07949898445214043,replayed_author_model
+fp_269,48,составе,0.07813189825505784,replayed_author_model
+fp_269,49,государства,0.07683152632952964,replayed_author_model
+fp_269,50,обеспеченность,0.07683152632952964,replayed_author_model
+fp_270,1,северного морского,0.19660117288428594,replayed_author_model
+fp_270,2,морского пути,0.19660117288428594,replayed_author_model
+fp_270,3,морского,0.19190331532434002,replayed_author_model
+fp_270,4,северного,0.1892728578456105,replayed_author_model
+fp_270,5,порт,0.188421143437302,replayed_author_model
+fp_270,6,пути,0.18019277683644874,replayed_author_model
+fp_270,7,акватории северного,0.16689718701431047,replayed_author_model
+fp_270,8,акватории,0.16531308290455754,replayed_author_model
+fp_270,9,северному морскому,0.15397120340099058,replayed_author_model
+fp_270,10,атомного,0.15397120340099058,replayed_author_model
+fp_270,11,морскому,0.15397120340099058,replayed_author_model
+fp_270,12,морскому пути,0.15397120340099058,replayed_author_model
+fp_270,13,северному,0.15397120340099058,replayed_author_model
+fp_270,14,завершено строительство,0.14036271752279197,replayed_author_model
+fp_270,15,головного,0.13241561732278512,replayed_author_model
+fp_270,16,завершено,0.12953710831045265,replayed_author_model
+fp_270,17,введен эксплуатацию,0.1269533612191795,replayed_author_model
+fp_270,18,мощностью,0.1259086902639012,replayed_author_model
+fp_270,19,универсальный,0.12382967918823638,replayed_author_model
+fp_270,20,мощностью тонн,0.12382967918823638,replayed_author_model
+fp_270,21,класса,0.1160970677090963,replayed_author_model
+fp_270,22,введен,0.11558004399973178,replayed_author_model
+fp_270,23,судов,0.11254088207490819,replayed_author_model
+fp_270,24,грузов,0.1122032557357649,replayed_author_model
+fp_270,25,универсального,0.1107296438122264,replayed_author_model
+fp_270,26,судна,0.10605403880595883,replayed_author_model
+fp_270,27,тонн,0.09867648147361834,replayed_author_model
+fp_270,28,собственности,0.09588470612207606,replayed_author_model
+fp_270,29,эксплуатацию,0.09093479788259767,replayed_author_model
+fp_270,30,обстановки,0.08933597941717183,replayed_author_model
+fp_270,31,удовлетворения потребностей,0.08933597941717183,replayed_author_model
+fp_270,32,морской,0.08933597941717183,replayed_author_model
+fp_270,33,объекты,0.08750375324409589,replayed_author_model
+fp_270,34,трассы,0.08556373073811824,replayed_author_model
+fp_270,35,атомных,0.08556373073811824,replayed_author_model
+fp_270,36,перевозок грузов,0.08556373073811824,replayed_author_model
+fp_270,37,га,0.08556373073811824,replayed_author_model
+fp_270,38,направлении,0.08556373073811824,replayed_author_model
+fp_270,39,строительство,0.08469422741863951,replayed_author_model
+fp_270,40,удовлетворения,0.07302272887003294,replayed_author_model
+fp_270,41,перевозок,0.07302272887003294,replayed_author_model
+fp_270,42,обеспечения безопасности,0.07302272887003294,replayed_author_model
+fp_270,43,метров,0.07122245600222993,replayed_author_model
+fp_270,44,го,0.06956636550147471,replayed_author_model
+fp_270,45,информационного,0.06803306518866449,replayed_author_model
+fp_270,46,осуществлены,0.06564967946712445,replayed_author_model
+fp_270,47,потребностей,0.06527028919937597,replayed_author_model
+fp_270,48,обслуживания,0.06401596056382347,replayed_author_model
+fp_270,49,оборудования,0.0624923345613174,replayed_author_model
+fp_270,50,имеющих,0.06065342994539518,replayed_author_model
+fp_271,1,морских портов,0.2917561037422856,replayed_author_model
+fp_271,2,портов,0.2917561037422856,replayed_author_model
+fp_271,3,морских,0.2794365815953542,replayed_author_model
+fp_271,4,мощности опорной,0.25283246933955894,replayed_author_model
+fp_271,5,направлении,0.21653859309433837,replayed_author_model
+fp_271,6,опорной сети,0.20753872798501755,replayed_author_model
+fp_271,7,опорной,0.20391849489056135,replayed_author_model
+fp_271,8,мощности,0.19709948836375227,replayed_author_model
+fp_271,9,прирост,0.1620070316767705,replayed_author_model
+fp_271,10,северо-западном,0.16041415879352477,replayed_author_model
+fp_271,11,мтк,0.15364060459332252,replayed_author_model
+fp_271,12,юг,0.15364060459332252,replayed_author_model
+fp_271,13,азово-черноморском,0.15364060459332252,replayed_author_model
+fp_271,14,восточном,0.15364060459332252,replayed_author_model
+fp_271,15,сети удовлетворения,0.14295272903738462,replayed_author_model
+fp_271,16,увеличена мощность,0.14295272903738462,replayed_author_model
+fp_271,17,опорной транспортной,0.13112163431705065,replayed_author_model
+fp_271,18,единой опорной,0.13112163431705065,replayed_author_model
+fp_271,19,удовлетворения,0.13112163431705065,replayed_author_model
+fp_271,20,транспортной сети,0.13112163431705065,replayed_author_model
+fp_271,21,мощность,0.1249152925287896,replayed_author_model
+fp_271,22,сети,0.11532598772097706,replayed_author_model
+fp_271,23,увеличена,0.10537004422095382,replayed_author_model
+fp_271,24,восточном азово-черноморском,0.0947431863191443,replayed_author_model
+fp_271,25,транспортной,0.09144954884519094,replayed_author_model
+fp_271,26,создания объектов,0.09074261609230663,replayed_author_model
+fp_271,27,созданы объекты,0.09074261609230663,replayed_author_model
+fp_271,28,направленные обеспечение,0.08736018216069728,replayed_author_model
+fp_271,29,направлениях,0.08736018216069728,replayed_author_model
+fp_271,30,транспортным,0.08736018216069728,replayed_author_model
+fp_271,31,спроса экономики,0.08443018461638305,replayed_author_model
+fp_271,32,итогам уровню,0.08443018461638305,replayed_author_model
+fp_271,33,мощность магистральной,0.08443018461638305,replayed_author_model
+fp_271,34,экономики менее,0.08443018461638305,replayed_author_model
+fp_271,35,раза итогам,0.08443018461638305,replayed_author_model
+fp_271,36,экспортной,0.08443018461638305,replayed_author_model
+fp_271,37,удовлетворения спроса,0.08443018461638305,replayed_author_model
+fp_271,38,объекты инфраструктуры,0.08184574362125707,replayed_author_model
+fp_271,39,единой,0.07961845412485698,replayed_author_model
+fp_271,40,объектов инфраструктуры,0.07953388237217114,replayed_author_model
+fp_271,41,инфраструктуры единой,0.07744254948567854,replayed_author_model
+fp_271,42,магистральной инфраструктуры,0.07553331214533347,replayed_author_model
+fp_271,43,инфраструктуры,0.07291551837307969,replayed_author_model
+fp_271,44,чем раза,0.07215087821372412,replayed_author_model
+fp_271,45,магистральной,0.07215087821372412,replayed_author_model
+fp_271,46,спроса,0.07063700990112157,replayed_author_model
+fp_271,47,потребностей,0.06922088066940989,replayed_author_model
+fp_271,48,объемов,0.06922088066940989,replayed_author_model
+fp_271,49,счет создания,0.06432457842519798,replayed_author_model
+fp_271,50,составе,0.06432457842519798,replayed_author_model
+fp_272,1,комплексных объектов,0.2062863498148932,replayed_author_model
+fp_272,2,портам,0.1952508568736747,replayed_author_model
+fp_272,3,морским,0.18249960069170668,replayed_author_model
+fp_272,4,морским портам,0.18249960069170668,replayed_author_model
+fp_272,5,бассейна,0.18249960069170668,replayed_author_model
+fp_272,6,железнодорожных,0.16836209312300016,replayed_author_model
+fp_272,7,железных дорог,0.161069941680853,replayed_author_model
+fp_272,8,железных,0.161069941680853,replayed_author_model
+fp_272,9,способность,0.13767672244529292,replayed_author_model
+fp_272,10,железнодорожной инфраструктуры,0.13521307751023853,replayed_author_model
+fp_272,11,комплексных,0.13218175377650276,replayed_author_model
+fp_272,12,железнодорожной,0.13165766757365557,replayed_author_model
+fp_272,13,запланирован,0.12733629764010254,replayed_author_model
+fp_272,14,комплексные объекты,0.12733629764010254,replayed_author_model
+fp_272,15,целевого показателя,0.12733629764010254,replayed_author_model
+fp_272,16,осуществлено строительство,0.12638271119025435,replayed_author_model
+fp_272,17,узла,0.12269031204290191,replayed_author_model
+fp_272,18,транспортного узла,0.12269031204290191,replayed_author_model
+fp_272,19,совокупность,0.12107896925660297,replayed_author_model
+fp_272,20,дорог,0.1200877815841886,replayed_author_model
+fp_272,21,транспортного,0.11723475566832621,replayed_author_model
+fp_272,22,строительство реконструкция,0.11541874955564523,replayed_author_model
+fp_272,23,отражают,0.11164370991762773,replayed_author_model
+fp_272,24,значения результата,0.11164370991762773,replayed_author_model
+fp_272,25,отражает количество,0.11164370991762773,replayed_author_model
+fp_272,26,достижения целевого,0.10789926035483886,replayed_author_model
+fp_272,27,отражает,0.10789926035483886,replayed_author_model
+fp_272,28,часть,0.10789926035483886,replayed_author_model
+fp_272,29,реконструкция,0.10580080340304113,replayed_author_model
+fp_272,30,реконструкция модернизация,0.10459642176610615,replayed_author_model
+fp_272,31,целях достижения,0.10459642176610615,replayed_author_model
+fp_272,32,полигона,0.10273412316150698,replayed_author_model
+fp_272,33,участков,0.10221448236998394,replayed_author_model
+fp_272,34,участках,0.10164193197133928,replayed_author_model
+fp_272,35,типов,0.09896927085335665,replayed_author_model
+fp_272,36,характеристики,0.09896927085335665,replayed_author_model
+fp_272,37,детализация,0.09652932241784064,replayed_author_model
+fp_272,38,комплексные,0.09652932241784064,replayed_author_model
+fp_272,39,дорог обеспечено,0.09356092882488763,replayed_author_model
+fp_272,40,целевого,0.09220667263236404,replayed_author_model
+fp_272,41,осуществлено,0.09175062034504634,replayed_author_model
+fp_272,42,собой,0.09027199403434108,replayed_author_model
+fp_272,43,мероприятий строительству,0.09007344219558142,replayed_author_model
+fp_272,44,увеличена мощность,0.087052443865295,replayed_author_model
+fp_272,45,обеспечено проведение,0.0867622045631172,replayed_author_model
+fp_272,46,реализуемых,0.0867622045631172,replayed_author_model
+fp_272,47,строительство,0.08635282915681489,replayed_author_model
+fp_272,48,ввод,0.08515938448084244,replayed_author_model
+fp_272,49,различных,0.08220489468607559,replayed_author_model
+fp_272,50,модернизация,0.08220489468607559,replayed_author_model
+fp_273,1,аэропортовых,0.28429885828083895,replayed_author_model
+fp_273,2,аэропортовых комплексов,0.28429885828083895,replayed_author_model
+fp_273,3,аэродромов,0.19200210715830268,replayed_author_model
+fp_273,4,реконструкцию,0.17864564690993567,replayed_author_model
+fp_273,5,собственности,0.1786036392004449,replayed_author_model
+fp_273,6,авиационной,0.17629941948856132,replayed_author_model
+fp_273,7,опорной,0.17135066824265902,replayed_author_model
+fp_273,8,опорной сети,0.16828557147177206,replayed_author_model
+fp_273,9,реконструкция,0.16255960353714585,replayed_author_model
+fp_273,10,комплексов,0.15923026969600335,replayed_author_model
+fp_273,11,станций,0.14958804477972806,replayed_author_model
+fp_273,12,аварийно-спасательных,0.14223726157195862,replayed_author_model
+fp_273,13,транспортной связанности,0.13623123437465803,replayed_author_model
+fp_273,14,транспортной,0.1337012715632657,replayed_author_model
+fp_273,15,вспомогательных,0.131153210734419,replayed_author_model
+fp_273,16,строительство,0.13054490201267874,replayed_author_model
+fp_273,17,транспортной доступности,0.12675442657582023,replayed_author_model
+fp_273,18,сети удовлетворения,0.12675442657582023,replayed_author_model
+fp_273,19,строительство реконструкция,0.12633181791966075,replayed_author_model
+fp_273,20,единой опорной,0.1162639404050528,replayed_author_model
+fp_273,21,опорной транспортной,0.1162639404050528,replayed_author_model
+fp_273,22,удовлетворения,0.1162639404050528,replayed_author_model
+fp_273,23,транспортной сети,0.1162639404050528,replayed_author_model
+fp_273,24,находящихся,0.11398947979343614,replayed_author_model
+fp_273,25,дорог,0.10604683296298077,replayed_author_model
+fp_273,26,связанности,0.10604683296298077,replayed_author_model
+fp_273,27,др,0.10604683296298077,replayed_author_model
+fp_273,28,роста,0.10595766173809286,replayed_author_model
+fp_273,29,рост,0.10050548215416502,replayed_author_model
+fp_273,30,сети,0.09690727205661019,replayed_author_model
+fp_273,31,мощности опорной,0.09394626433241383,replayed_author_model
+fp_273,32,целях обеспечения,0.09348871670378946,replayed_author_model
+fp_273,33,уровню,0.09343032220114501,replayed_author_model
+fp_273,34,собственности целях,0.08834910898310529,replayed_author_model
+fp_273,35,развития туризма,0.08834910898310529,replayed_author_model
+fp_273,36,осуществляется,0.08750279494253432,replayed_author_model
+fp_273,37,осуществлены,0.08432999790296056,replayed_author_model
+fp_273,38,воздушных,0.08400761800572999,replayed_author_model
+fp_273,39,перевозках,0.08400761800572999,replayed_author_model
+fp_273,40,обеспечен рост,0.08046036159101339,replayed_author_model
+fp_273,41,авиационная подвижность,0.08046036159101339,replayed_author_model
+fp_273,42,подвижность населения,0.08046036159101339,replayed_author_model
+fp_273,43,авиационная,0.08046036159101339,replayed_author_model
+fp_273,44,подвижность,0.08046036159101339,replayed_author_model
+fp_273,45,инфраструктуры,0.08039062557515167,replayed_author_model
+fp_273,46,концессионных,0.07746119902644549,replayed_author_model
+fp_273,47,концессионных соглашений,0.07746119902644549,replayed_author_model
+fp_273,48,спроса экономики,0.07486320624170484,replayed_author_model
+fp_273,49,мощность магистральной,0.07486320624170484,replayed_author_model
+fp_273,50,увеличена мощность,0.07486320624170484,replayed_author_model
+fp_274,1,пунктов пропуска,0.2776915651836953,replayed_author_model
+fp_274,2,пропуска,0.2776915651836953,replayed_author_model
+fp_274,3,пропуска государственную,0.2233304453718064,replayed_author_model
+fp_274,4,границу,0.2139002249495035,replayed_author_model
+fp_274,5,государственную границу,0.2139002249495035,replayed_author_model
+fp_274,6,железнодорожных,0.20149824924225979,replayed_author_model
+fp_274,7,пунктов,0.18240517372817452,replayed_author_model
+fp_274,8,способность,0.18018159712314133,replayed_author_model
+fp_274,9,перевооружению,0.18018159712314133,replayed_author_model
+fp_274,10,техническому перевооружению,0.18018159712314133,replayed_author_model
+fp_274,11,государственную,0.1780485636719227,replayed_author_model
+fp_274,12,пропускной,0.1556533759982841,replayed_author_model
+fp_274,13,пропускной способности,0.1556533759982841,replayed_author_model
+fp_274,14,удовлетворения,0.1472794276161884,replayed_author_model
+fp_274,15,техническому,0.14364846008558724,replayed_author_model
+fp_274,16,автомобильных,0.14030829374551596,replayed_author_model
+fp_274,17,строительству,0.1291136907102025,replayed_author_model
+fp_274,18,способности,0.12672848141994783,replayed_author_model
+fp_274,19,реконструкции,0.11835453303785215,replayed_author_model
+fp_274,20,удовлетворения потребностей,0.10641815383323791,replayed_author_model
+fp_274,21,счет мероприятий,0.10192460327450759,replayed_author_model
+fp_274,22,бизнеса государства,0.10192460327450759,replayed_author_model
+fp_274,23,завершена,0.10192460327450759,replayed_author_model
+fp_274,24,целью увеличения,0.09812536041125555,replayed_author_model
+fp_274,25,мероприятий строительству,0.09812536041125555,replayed_author_model
+fp_274,26,удовлетворения спроса,0.09483430654748196,replayed_author_model
+fp_274,27,увеличена мощность,0.09483430654748196,replayed_author_model
+fp_274,28,строительству реконструкции,0.09483430654748196,replayed_author_model
+fp_274,29,раза итогам,0.09483430654748196,replayed_author_model
+fp_274,30,итогам уровню,0.09483430654748196,replayed_author_model
+fp_274,31,мощность магистральной,0.09483430654748196,replayed_author_model
+fp_274,32,экономики менее,0.09483430654748196,replayed_author_model
+fp_274,33,спроса экономики,0.09483430654748196,replayed_author_model
+fp_274,34,сети удовлетворения,0.09483430654748196,replayed_author_model
+fp_274,35,нарастающим итогом,0.0934069133881325,replayed_author_model
+fp_274,36,нарастающим,0.0934069133881325,replayed_author_model
+fp_274,37,участках,0.0893346451398174,replayed_author_model
+fp_274,38,итогом,0.08849185063518998,replayed_author_model
+fp_274,39,транспортной сети,0.08698560249645941,replayed_author_model
+fp_274,40,опорной транспортной,0.08698560249645941,replayed_author_model
+fp_274,41,инфраструктуры единой,0.08698560249645941,replayed_author_model
+fp_274,42,единой опорной,0.08698560249645941,replayed_author_model
+fp_274,43,магистральной инфраструктуры,0.08484109458108707,replayed_author_model
+fp_274,44,мощности,0.08484109458108707,replayed_author_model
+fp_274,45,мощность,0.08286833853340159,replayed_author_model
+fp_274,46,чем раза,0.08104185171783503,replayed_author_model
+fp_274,47,магистральной,0.08104185171783503,replayed_author_model
+fp_274,48,расположенных,0.0793414331734225,replayed_author_model
+fp_274,49,спроса,0.0793414331734225,replayed_author_model
+fp_274,50,опорной,0.07775079785406143,replayed_author_model
+fp_275,1,подготовки обучающихся,0.22929201971187413,replayed_author_model
+fp_275,2,специальностям,0.22657760516592773,replayed_author_model
+fp_275,3,практической подготовки,0.21961006934743463,replayed_author_model
+fp_275,4,транспортной отрасли,0.21961006934743463,replayed_author_model
+fp_275,5,приобретены,0.21142409695351305,replayed_author_model
+fp_275,6,транспортных,0.20365182347114605,replayed_author_model
+fp_275,7,учебных,0.19988961809502553,replayed_author_model
+fp_275,8,требованиями,0.18280138519925776,replayed_author_model
+fp_275,9,практической,0.17855082077693699,replayed_author_model
+fp_275,10,учебно-производственных,0.151445046502579,replayed_author_model
+fp_275,11,обучающихся,0.14899773781263442,replayed_author_model
+fp_275,12,устройства,0.14242221352266532,replayed_author_model
+fp_275,13,студентами,0.14242221352266532,replayed_author_model
+fp_275,14,численность обучающихся,0.13542356054128993,replayed_author_model
+fp_275,15,отрасли целях,0.13542356054128993,replayed_author_model
+fp_275,16,перевозках,0.13542356054128993,replayed_author_model
+fp_275,17,транспортной,0.13071571683047675,replayed_author_model
+fp_275,18,обучения кадров,0.1297052446880647,replayed_author_model
+fp_275,19,комфортных,0.1297052446880647,replayed_author_model
+fp_275,20,населения экономики,0.1297052446880647,replayed_author_model
+fp_275,21,специалистами,0.12487047752316038,replayed_author_model
+fp_275,22,квалифицированными,0.12487047752316038,replayed_author_model
+fp_275,23,безопасных,0.12487047752316038,replayed_author_model
+fp_275,24,отрасли,0.12158983129648895,replayed_author_model
+fp_275,25,отрасль,0.12068241170815104,replayed_author_model
+fp_275,26,образовательных организаций,0.11886596726734353,replayed_author_model
+fp_275,27,подготовки,0.11380464349237085,replayed_author_model
+fp_275,28,транспортная,0.11069445937165467,replayed_author_model
+fp_275,29,удовлетворения,0.11069445937165467,replayed_author_model
+fp_275,30,вузов,0.11069445937165467,replayed_author_model
+fp_275,31,судов,0.11069445937165467,replayed_author_model
+fp_275,32,транспортного,0.10545499105274944,replayed_author_model
+fp_275,33,учебного,0.10313067570864609,replayed_author_model
+fp_275,34,кадрового потенциала,0.10096678989217502,replayed_author_model
+fp_275,35,образовательных,0.10005813136891623,replayed_author_model
+fp_275,36,базы,0.09704118505872003,replayed_author_model
+fp_275,37,приобретения,0.09704118505872003,replayed_author_model
+fp_275,38,трудоустройства,0.09524847403894983,replayed_author_model
+fp_275,39,счет создания,0.09194395691226134,replayed_author_model
+fp_275,40,освоения,0.09194395691226134,replayed_author_model
+fp_275,41,кадрового,0.09194395691226134,replayed_author_model
+fp_275,42,подготовку,0.0889546575571404,replayed_author_model
+fp_275,43,необходимых,0.0889546575571404,replayed_author_model
+fp_275,44,обновление,0.08622564105903613,replayed_author_model
+fp_275,45,создания условий,0.08494530393088594,replayed_author_model
+fp_275,46,возможности,0.08371518923823515,replayed_author_model
+fp_275,47,прошедших,0.08371518923823515,replayed_author_model
+fp_275,48,получения,0.08371518923823515,replayed_author_model
+fp_275,49,численность,0.08029027309894357,replayed_author_model
+fp_275,50,созданы условия,0.07922698807766072,replayed_author_model
+fp_276,1,грузоперевозок,0.18215230218863487,replayed_author_model
+fp_276,2,эффективная транспортная,0.17320130556215704,replayed_author_model
+fp_276,3,населения счет,0.17320130556215704,replayed_author_model
+fp_276,4,транспортная система,0.17320130556215704,replayed_author_model
+fp_276,5,инфраструктуру,0.1658878088010568,replayed_author_model
+fp_276,6,бизнеса государства,0.1658878088010568,replayed_author_model
+fp_276,7,транспортную,0.1658878088010568,replayed_author_model
+fp_276,8,бюджетных инвестиций,0.1658878088010568,replayed_author_model
+fp_276,9,эффективная,0.14539697046798125,replayed_author_model
+fp_276,10,транспортная,0.1415737764170081,replayed_author_model
+fp_276,11,отраслевого,0.1415737764170081,replayed_author_model
+fp_276,12,цифровой трансформации,0.1319000003016373,replayed_author_model
+fp_276,13,трансформации,0.12913247708040318,replayed_author_model
+fp_276,14,нп,0.12654363200028332,replayed_author_model
+fp_276,15,повышение качества,0.12654363200028332,replayed_author_model
+fp_276,16,сообщества,0.12411178585387017,replayed_author_model
+fp_276,17,цифровой,0.1179293643091754,replayed_author_model
+fp_276,18,государства,0.11563550691405923,replayed_author_model
+fp_276,19,инвестиций,0.11027913861270525,replayed_author_model
+fp_276,20,бизнеса,0.10864163874732764,replayed_author_model
+fp_276,21,решений направленных,0.1075820839913012,replayed_author_model
+fp_276,22,медиа,0.1075820839913012,replayed_author_model
+fp_276,23,размещения,0.10706837136381835,replayed_author_model
+fp_276,24,индекс,0.10409566520746151,replayed_author_model
+fp_276,25,роста,0.10409566520746151,replayed_author_model
+fp_276,26,части проведения,0.1022954811907593,replayed_author_model
+fp_276,27,публикаций,0.1022954811907593,replayed_author_model
+fp_276,28,перевода,0.1022954811907593,replayed_author_model
+fp_276,29,эффективности,0.10120021767851517,replayed_author_model
+fp_276,30,результата предусмотрено,0.09797601218943977,replayed_author_model
+fp_276,31,подсистем,0.09797601218943977,replayed_author_model
+fp_276,32,счет внедрения,0.09797601218943977,replayed_author_model
+fp_276,33,эффекта,0.09797601218943977,replayed_author_model
+fp_276,34,документооборота,0.09797601218943977,replayed_author_model
+fp_276,35,комфорта безопасности,0.09797601218943977,replayed_author_model
+fp_276,36,информированию,0.09797601218943977,replayed_author_model
+fp_276,37,официальных,0.09797601218943977,replayed_author_model
+fp_276,38,положительного,0.09797601218943977,replayed_author_model
+fp_276,39,конференций,0.09432395318580446,replayed_author_model
+fp_276,40,комфорта,0.09432395318580446,replayed_author_model
+fp_276,41,бюджетных,0.09401464522512717,replayed_author_model
+fp_276,42,направлено,0.09116039578048628,replayed_author_model
+fp_276,43,освещение,0.09116039578048628,replayed_author_model
+fp_276,44,развитие эксплуатация,0.09116039578048628,replayed_author_model
+fp_276,45,выполнение мероприятий,0.08836994038757835,replayed_author_model
+fp_276,46,национальная цифровая,0.08836994038757835,replayed_author_model
+fp_276,47,безопасности,0.08596510622865655,replayed_author_model
+fp_276,48,ресурсах,0.08587379297994438,replayed_author_model
+fp_276,49,коммуникации,0.08361575298503456,replayed_author_model
+fp_276,50,эксплуатация,0.08361575298503456,replayed_author_model

@@ -1,11 +1,9 @@
 @echo off
 cd /d "%~dp0"
-echo Open http://localhost:8080/ in your browser.
-echo Press Ctrl+C to stop the local server.
 where py >nul 2>nul
-if %ERRORLEVEL% EQU 0 (
-  py -3 -m http.server 8080 --directory docs
+if %errorlevel%==0 (
+  py -3 scripts\preview_platform.py
 ) else (
-  python -m http.server 8080 --directory docs
+  python scripts\preview_platform.py
 )
 pause

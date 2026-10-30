@@ -1,0 +1,5 @@
+# Optional independent documentary research replication; normal build uses stdlib.
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+nltk==3.9.2

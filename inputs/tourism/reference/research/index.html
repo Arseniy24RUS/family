@@ -1,0 +1,147 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Туризм и гостеприимство: исследовательская карточка</title><style>
+:root{color-scheme:light;--ink:#192c34;--muted:#52636b;--line:#cdd6d9;--accent:#155d69;--soft:#f3f6f6}
+*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--ink);font:17px/1.55 'PT Serif','Times New Roman',serif}
+main{max-width:1220px;margin:auto;padding:42px 36px 70px}header{border-bottom:2px solid var(--accent);padding-bottom:24px;margin-bottom:28px}
+h1{font-size:2.1rem;line-height:1.18;margin:0 0 18px}h2{font-size:1.5rem;line-height:1.25;margin:38px 0 16px}h3{font-size:1.16rem;margin:24px 0 12px}
+p{margin:12px 0;max-width:105ch}a{color:#125c89;text-decoration:underline;text-underline-offset:2px}a:hover{color:#092b3e}
+nav{display:flex;gap:10px 22px;flex-wrap:wrap;margin:18px 0}nav a{font-size:1rem}.meta,.source{font-size:.88em;color:var(--muted)}
+.note{border-left:3px solid #97aeb4;padding:8px 18px;margin:18px 0;background:var(--soft)}.table-wrap{overflow-x:auto;margin:14px 0 24px}
+table{border-collapse:collapse;width:100%;font-size:.92rem}th,td{padding:10px 11px;border:1px solid var(--line);vertical-align:top;overflow-wrap:break-word;hyphens:auto}td a{overflow-wrap:anywhere}table.weighted{table-layout:fixed}
+th{background:white;color:var(--ink);font-weight:700;text-align:left}tbody tr:nth-child(even){background:#fafcfc}.n{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.compact{font-size:.86rem}.controls{display:flex;gap:16px;flex-wrap:wrap;align-items:end;margin:18px 0}label{display:flex;flex-direction:column;gap:6px;font-size:.9rem}
+input,select{font:inherit;padding:8px 10px;border:1px solid #8da0a8;border-radius:3px;background:#fff;color:var(--ink);min-width:245px}input:focus,select:focus{outline:3px solid #8ebfce;outline-offset:2px}
+figure{margin:26px 0;break-inside:avoid}figure img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:.94rem;margin:12px 0}.figure-links{font-size:.85rem}
+pre{overflow:auto;padding:16px;background:#f4f6f7;border:1px solid var(--line);font:13px/1.5 Consolas,monospace}code{font:90% Consolas,monospace;overflow-wrap:anywhere}
+details{margin:14px 0}summary{cursor:pointer;color:var(--accent);font-weight:700}.tag{font-size:.84rem;display:inline-block;padding:2px 6px;border:1px solid #a7bbc2;background:white}
+footer{border-top:1px solid var(--line);margin-top:40px;padding-top:16px;font-size:.86rem;color:var(--muted)}[hidden]{display:none!important}
+@media(max-width:760px){main{padding:24px 16px}h1{font-size:1.65rem}body{font-size:16px}th,td{padding:8px}input,select{min-width:210px}}
+@media print{@page{size:A4;margin:16mm}body{font-size:10.5pt;line-height:1.35}main{max-width:none;padding:0}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}h3{break-after:avoid}nav,.controls,.figure-links{display:none}a{color:#192c34;text-decoration:none}table{font-size:8pt}th,td{padding:7px 8px}.table-wrap{overflow:visible}thead{display:table-header-group}tr{break-inside:avoid}figure img{max-height:190mm}pre{white-space:pre-wrap;font-size:8pt}footer{font-size:8pt}}
+</style></head><body><main><header><p class='meta'>Исследовательский комплект 1.2.0</p><h1>Туризм и гостеприимство: исследовательская карточка</h1></header>
+<p><a href="../../index.html">Сводный отчёт</a> · <a href="../../../../START_HERE.html">Общий комплект</a></p>
+<p>В статистическом реестре проекта 10 показателей. Числовые наблюдения найдены для 5, региональные – для 1. Карточка объединяет сохранённую статистику 1.1.0 и дополнительные исследования 1.2.0.</p>
+<h2 id="coverage">Состав данных и расчётов</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">Характеристика</th><th scope="col">Значение</th><th scope="col">Основание</th></tr></thead><tbody>
+<tr><td>Показателей в реестре</td><td>10</td><td><a href="../../../tables/indicator_audit.csv">Аудит статистики</a></td></tr>
+<tr><td>Показателей с числовыми наблюдениями</td><td>5</td><td>Наличие хотя бы одного числового наблюдения</td></tr>
+<tr><td>Числовых записей наблюдений</td><td>1 924</td><td>Исходный статистический срез</td></tr>
+<tr><td>Основных документов текстового профиля</td><td>9</td><td><a href="../../text/tables/documents.csv">t_documents</a></td></tr>
+<tr><td>Связанных документов, включая общие материалы</td><td>9</td><td><a href="../../text/tables/document_projects.csv">t_document_projects</a></td></tr>
+<tr><td>Строк целевых значений</td><td>105</td><td>Редакции и источники сохранены отдельно</td></tr>
+<tr><td>Сопоставлений статистики с целями</td><td>86</td><td><a href="../../../index.html">Целевой отчёт 1.1</a></td></tr>
+<tr><td>Карточек результатов / мероприятий</td><td>31</td><td><a href="../../text/tables/nodes.csv">t_nodes</a></td></tr>
+<tr><td>Карточек показателей</td><td>14</td><td><a href="../../text/tables/nodes.csv">t_nodes</a></td></tr>
+<tr><td>Заявленных ссылок, для которых не восстановлен адресат</td><td>73</td><td><a href="../../text/tables/link_claims.csv">t_link_claims</a></td></tr>
+</tbody></table></div>
+<h2 id="sequence">Порядок исследования по эталону «Семьи»</h2>
+<div class="table-wrap"><table class="weighted"><colgroup><col style="width:8%"><col style="width:25%"><col style="width:47%"><col style="width:20%"></colgroup><thead><tr><th scope="col">Раздел</th><th scope="col">Задача исследования</th><th scope="col">Методы комплекта</th><th scope="col">Сверка</th></tr></thead><tbody>
+<tr><td>1</td><td>Методологическая рамка экспертизы</td><td>Теория изменений и критерии экспертизы</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+<tr><td>2</td><td>Нормативно-логическая модель</td><td>Иерархия национального и федеральных проектов; Реестр мероприятий и непосредственных результатов; Документальные связи мероприятий и показателей</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+<tr><td>3</td><td>Аудит данных и показателей</td><td>Нормализация, периоды, единицы и качество данных; Наблюдаемость и территориальное покрытие; Описательная статистика и изменения во времени</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+<tr><td>4</td><td>Целевые траектории и прогноз</td><td>Сопоставление наблюдений и прогнозов с целями; Ансамбль, временная проверка и диагностические сценарии</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+<tr><td>5</td><td>Территориальная экспертиза</td><td>Соединение статистики с территориальной геометрией; Картограммы, плиточные карты и картодиаграммы; Региональные распределения и производные показатели</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+<tr><td>6</td><td>Типология и пространственные связи</td><td>Pearson, Spearman и множественные проверки; Стандартизация и главные компоненты; Типология k-means и выбор числа кластеров; Устойчивость многомерных выводов; Диагностика нетипичных региональных профилей; Глобальная пространственная автокорреляция Moran I; Локальные пространственные ассоциации LISA; Сеть сходства региональных профилей; Относительные ориентированные профили</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+<tr><td>7</td><td>Финансовая экспертиза</td><td>Плановые бюджеты по федеральным проектам и годам; Доли финансирования и HHI; Связь бюджетной структуры с наблюдаемостью показателей</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+<tr><td>8</td><td>Мероприятия и показатели</td><td>Двудольный граф и центральности мероприятий и показателей</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+<tr><td>9</td><td>Лингвистическая и смысловая экспертиза</td><td>Частотные словари корпуса и отдельных документов; Словарные темы и частота на 1000 слов; TF-IDF и косинусная близость документов; Иерархия тематической близости документов; Совместное присутствие тематических категорий; Проверка словарных совпадений в контексте</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+<tr><td>10</td><td>Охват сфер жизнедеятельности</td><td>Матрица предметных сфер, мер и измерений; Авторская шкала проработанности предметных сфер 0–4</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+<tr><td>11</td><td>Сценарии и причинная оценка</td><td>Инерционный, проектный и стрессовый сценарные контуры; Протоколы причинной оценки и аудит готовности; Неоднородность эффектов: causal forests и double machine learning</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+<tr><td>12</td><td>Предложения по корректировке</td><td>Авторский синтез и предложения по корректировке</td><td><a href="../../index.html">Статусы и ограничения методов</a></td></tr>
+</tbody></table></div>
+<p>Статус метода в общей матрице относится к комплекту в целом. Применимость к данному проекту определяется приведёнными ниже наблюдениями, сопоставимостью периода и документальными ограничениями.</p>
+<h2 id="links">Цели, мероприятия и измеримость</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">Вид сопоставления</th><th scope="col">Число записей</th></tr></thead><tbody>
+<tr><td>Последнее наблюдение и будущая цель</td><td>14</td></tr>
+<tr><td>Оперативное значение</td><td>12</td></tr>
+<tr><td>Модельное значение / сценарий</td><td>60</td></tr>
+</tbody></table></div>
+<p>Факт, оперативная величина, модельная траектория и будущий ориентир имеют разные основания. Наличие числового сравнения само по себе не присваивает формальный статус достижения цели.</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">Тип свидетельства</th><th scope="col">Количество</th><th scope="col">Интерпретация</th></tr></thead><tbody>
+<tr><td>Разрешённые документальные связи результата с показателем</td><td>0</td><td>Адресат должен быть установлен в источнике</td></tr>
+<tr><td>Цепочки результата и показателя через общую задачу</td><td>49</td><td>Обе исходные ссылки на одну задачу сохранены, прямое воздействие не заявлено</td></tr>
+<tr><td>Результаты с цепочкой через документированную задачу</td><td>31</td><td>Число результатов, а не число рёбер</td></tr>
+<tr><td>Неразрешённые исходные ссылки</td><td>73</td><td>Сохраняется исходная строка и указатель на документ</td></tr>
+<tr><td>Результаты хотя бы с одним лексическим кандидатом</td><td>13</td><td>Кандидаты требуют содержательной проверки</td></tr>
+<tr><td>Результаты без кандидата при принятом пороге</td><td>18</td><td>Отсутствие кандидата не доказывает отсутствие содержательной связи</td></tr>
+</tbody></table></div>
+<p class="note">Явная документальная связь, цепочка через общую задачу, принадлежность паспорту и лексическое сходство разделены в данных. Цепочка «результат → задача ← показатель» опирается на две исходные ссылки. Она не превращается в утверждение о прямом воздействии результата на показатель.</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">Слой сети</th><th scope="col">Результаты</th><th scope="col">Узлы второй доли</th><th scope="col">Рёбра</th><th scope="col">Плотность</th></tr></thead><tbody>
+<tr><td>Результат – заявленная задача</td><td>31</td><td>20</td><td>31</td><td>0,0500</td></tr>
+<tr><td>Результат и показатель через общую задачу</td><td>31</td><td>14</td><td>49</td><td>0,1129</td></tr>
+<tr><td>Результат – показатель, лексические кандидаты</td><td>31</td><td>14</td><td>26</td><td>0,0599</td></tr>
+</tbody></table></div>
+<p>Таблицы: <a href="../../text/tables/result_indicator_shared_task.csv">t_result_indicator_shared_task</a> · <a href="../../text/tables/link_claims.csv">t_link_claims</a> · <a href="../../text/tables/semantic_candidates.csv">t_semantic_candidates</a> · <a href="../../text/tables/indicator_registry_links.csv">t_indicator_registry_links</a></p>
+<h3>Федеральные проекты: документы, статистика и финансирование</h3>
+<div class="table-wrap"><table class="weighted"><colgroup><col style="width:25%"><col style="width:12%"><col style="width:18%"><col style="width:10%"><col style="width:18%"><col style="width:17%"></colgroup><thead><tr><th scope="col">Федеральный проект</th><th scope="col">Показатели в документе</th><th scope="col">Подтверждено соответствие числовому ряду</th><th scope="col">Результаты</th><th scope="col">Результаты с числовым финансированием</th><th scope="col">Финансирование 2025–2030, млрд руб.</th></tr></thead><tbody>
+<tr><td><a href="../../../../corpus/data/web/fe/fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4.html">[П3] Туристическая привлекательность страны</a></td><td>4</td><td>1</td><td>8</td><td>8</td><td>20,913</td></tr>
+<tr><td><a href="../../../../corpus/data/web/22/221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538.html">[П2] Морские курорты</a></td><td>1</td><td>0</td><td>5</td><td>5</td><td>1 177,363</td></tr>
+<tr><td><a href="../../../../corpus/data/web/a1/a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a.html">[П1] Создание номерного фонда</a></td><td>3</td><td>3</td><td>9</td><td>9</td><td>581,378</td></tr>
+<tr><td><a href="../../../../corpus/data/web/ac/ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456.html">[П4] Кадры</a></td><td>2</td><td>0</td><td>6</td><td>6</td><td>4,272</td></tr>
+<tr><td><a href="../../../../corpus/data/web/18/18ba9cada1e6e3eb650d0bd8b2be06c971433f4bc1f034f7832f32d6b53d38f7.html">[П5] Промышленное обеспечение туризма</a></td><td>1</td><td>1</td><td>3</td><td>1</td><td>4,038</td></tr>
+</tbody></table></div>
+<p class="note">Числовая обеспеченность карточки учитывается только после одобренного соответствия статистическому коду. Ноль означает отсутствие подтверждённого соответствия в текущей разметке и не доказывает отсутствие статистики по теме. Показатели считаются по карточкам документа. Финансирование результата соединено по документу и DOM-пути и не является стоимостью дополнительного эффекта.</p>
+<h2 id="text">Лингвистические результаты</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">Словарная тема</th><th scope="col">Совпадений на 1 000 токенов</th><th scope="col">Документов в профиле</th></tr></thead><tbody>
+<tr><td>Туризм и гостеприимство</td><td>61,700</td><td>6</td></tr>
+<tr><td>Предпринимательство и производство</td><td>25,137</td><td>6</td></tr>
+<tr><td>Цифровая среда и данные</td><td>8,227</td><td>6</td></tr>
+<tr><td>Занятость и квалификация</td><td>6,399</td><td>6</td></tr>
+<tr><td>Наука и инновации</td><td>5,027</td><td>6</td></tr>
+<tr><td>Управление и оценка</td><td>3,199</td><td>6</td></tr>
+<tr><td>Транспорт и логистика</td><td>2,742</td><td>6</td></tr>
+<tr><td>Экспорт и международная торговля</td><td>2,285</td><td>6</td></tr>
+</tbody></table></div>
+<p>Таблица показывает частоты совпадений словаря. Нулевое значение не подтверждает отсутствие деятельности. Для десяти новых проектов используется сопоставимый профиль структурированных HTML-паспортов. Архивный профиль «Семьи» имеет иной состав жанров.</p>
+<p>TF-IDF для документа <a href="../../../../corpus/data/web/7b/7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57.html">[П] Туризм и гостеприимство</a>.</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">Позиция</th><th scope="col">Термин</th><th scope="col">Вес TF-IDF</th></tr></thead><tbody>
+<tr><td>1</td><td>поездок</td><td>0,20598</td></tr>
+<tr><td>2</td><td>поездок россии</td><td>0,18366</td></tr>
+<tr><td>3</td><td>новых поездок</td><td>0,18366</td></tr>
+<tr><td>4</td><td>круглогодичных курортов</td><td>0,15471</td></tr>
+<tr><td>5</td><td>россии создание</td><td>0,15471</td></tr>
+<tr><td>6</td><td>туристической</td><td>0,14932</td></tr>
+<tr><td>7</td><td>создание круглогодичных</td><td>0,14818</td></tr>
+<tr><td>8</td><td>внутреннем продукте</td><td>0,14818</td></tr>
+<tr><td>9</td><td>экспорта туристских</td><td>0,14818</td></tr>
+<tr><td>10</td><td>отрасли валовом</td><td>0,14818</td></tr>
+</tbody></table></div>
+<p>TF-IDF отражает отличительность слов в данном корпусе. Косинусная близость и её проверка русским стеммингом описаны в методике. Оценки релевантности, достижимости и качества государственной политики из этих весов не выводятся.</p>
+<p>Детальные результаты: <a href="../../text/tables/kwic.csv.gz">t_kwic</a> · <a href="../../text/tables/domain_evidence.csv">t_domain_evidence</a> · <a href="../../text/tables/formal_text_features.csv">t_formal_text_features</a> · <a href="../../text/tables/stemming_project_sensitivity.csv">t_stemming_project_sensitivity</a></p>
+<h2 id="finance">Финансовая структура</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">Год</th><th scope="col">Паспортная сумма, тыс. руб.</th><th scope="col">HHI</th><th scope="col">Сверка / редакция</th></tr></thead><tbody>
+<tr><td>2025</td><td>258 181 738,19</td><td>нет данных</td><td>Нет данных</td></tr>
+<tr><td>2026</td><td>192 866 755,92</td><td>0,4850</td><td>Арифметически согласовано</td></tr>
+<tr><td>2027</td><td>227 859 475,10</td><td>0,5040</td><td>Арифметически согласовано</td></tr>
+<tr><td>2028</td><td>343 909 429,70</td><td>0,6069</td><td>Арифметически согласовано</td></tr>
+<tr><td>2029</td><td>357 191 096,33</td><td>0,6584</td><td>Арифметически согласовано</td></tr>
+<tr><td>2030</td><td>407 955 515,35</td><td>0,7151</td><td>Арифметически согласовано</td></tr>
+</tbody></table></div>
+<p>HHI – сумма квадратов долей федеральных проектов, от 0 до 1. Он описывает концентрацию планового распределения. Пропущенные суммы не заменены нулями. Различия редакций и несогласованные суммы раскрыты. Кассовое исполнение и причинно установленный эффект в этот расчёт не входят.</p>
+<p>Исходные финансовые таблицы: <a href="../../finance/f_project_year.csv">f_project_year</a> · <a href="../../finance/f_concentration.csv">f_concentration</a> · <a href="../../finance/f_source_reconciliation.csv">f_source_reconciliation</a> · <a href="../../finance/f_family_reference.csv">f_family_reference</a></p>
+<h2 id="quant">Региональная типология и её устойчивость</h2>
+<p class="note">Менее двух сопоставимых региональных признаков. Кластеризация и PCA не рассчитаны на искусственно дополненной панели.</p>
+<p>Расчётные таблицы: <a href="../../quantitative/tables/q_cluster_seed_runs.csv">q_cluster_seed_runs</a> · <a href="../../quantitative/tables/q_feature_sensitivity.csv">q_feature_sensitivity</a> · <a href="../../quantitative/tables/q_outlier_stability.csv">q_outlier_stability</a> · <a href="../../quantitative/tables/q_temporal_comparison.csv">q_temporal_comparison</a></p>
+<h2 id="sources">Источники и редакции</h2>
+<div class="table-wrap"><table class="weighted"><colgroup><col style="width:40%"><col style="width:18%"><col style="width:28%"><col style="width:14%"></colgroup><thead><tr><th scope="col">Документ</th><th scope="col">Тип</th><th scope="col">Редакция / дата</th><th scope="col">Оригинальный адрес</th></tr></thead><tbody>
+<tr><td><a href="../../../../corpus/data/web/18/18ba9cada1e6e3eb650d0bd8b2be06c971433f4bc1f034f7832f32d6b53d38f7.html">[П5] Промышленное обеспечение туризма</a></td><td>Вторичная HTML-публикация паспорта</td><td>Версия 26.5 | 16.10.2026 в 16:35 | 01.01.2025-31.12.2030 | 2026-10-19T14:38:51.415446+00:00</td><td><a href="https://databudget.ru/projects/fp/310">Источник</a></td></tr>
+<tr><td><a href="../../../../corpus/data/web/22/221a9c7142bdf2b4bf8346d127728a2b7a242c9b8de7ba95212d15dfcc6fd538.html">[П2] Морские курорты</a></td><td>Вторичная HTML-публикация паспорта</td><td>Версия 26.20 | 16.10.2026 в 16:35 | 01.01.2025-31.12.2030 | 2026-10-19T14:38:51.430901+00:00</td><td><a href="https://databudget.ru/projects/fp/303">Источник</a></td></tr>
+<tr><td><a href="../../../../corpus/data/web/7b/7b6169934e6db5e71996038fc319843d7a78a46822a7fac913bc231364ecaf57.html">[П] Туризм и гостеприимство</a></td><td>Вторичная HTML-публикация паспорта</td><td>Версия 26.23 | 16.10.2026 в 16:35 | 01.01.2025-31.12.2030 | 2026-10-19T14:37:17.966663+00:00</td><td><a href="https://databudget.ru/projects/np/26">Источник</a></td></tr>
+<tr><td><a href="../../../../corpus/data/web/a1/a195eac4f7dc24c1724fe52b454dd60f37649e23ba143c4e9e857873c2fbfe1a.html">[П1] Создание номерного фонда</a></td><td>Вторичная HTML-публикация паспорта</td><td>Версия 26.28 | 16.10.2026 в 16:35 | 01.01.2025-31.12.2030 | 2026-10-19T14:38:51.582437+00:00</td><td><a href="https://databudget.ru/projects/fp/308">Источник</a></td></tr>
+<tr><td><a href="../../../../corpus/data/web/ac/ac7415c4a65919485f5aa8d070b02e387a9afb4956e0e06ae4341f901ee66456.html">[П4] Кадры</a></td><td>Вторичная HTML-публикация паспорта</td><td>Версия 26.14 | 16.10.2026 в 16:35 | 01.01.2025-31.12.2030 | 2026-10-19T14:38:49.887413+00:00</td><td><a href="https://databudget.ru/projects/fp/309">Источник</a></td></tr>
+<tr><td><a href="../../../../corpus/data/web/fe/fe0eca99e240068e1dd88d2ac543a7c8e791bd10f090d1b1cd44a172ead0d0a4.html">[П3] Туристическая привлекательность страны</a></td><td>Вторичная HTML-публикация паспорта</td><td>Версия 26.20 | 16.10.2026 в 16:35 | 01.01.2025-31.12.2030 | 2026-10-19T14:38:51.878244+00:00</td><td><a href="https://databudget.ru/projects/fp/301">Источник</a></td></tr>
+<tr><td><a href="../../../../corpus/data/pdfs/c8/c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f.pdf">Туризм и гостеприимство | national_passport | c88499da</a></td><td>PDF из собранного корпуса</td><td>sha256:c88499da9d2c6ceae5f57b2ba3367112c3a588233b0fb7240839bfae165c8f3f | retrieved:2026-10-19T11:43:09Z</td><td><a href="https://unifirst-files.storage.yandexcloud.net/media/files/2025-03/fayl-no1_0.pdf">Источник</a></td></tr>
+<tr><td><a href="../../../../corpus/data/pdfs/ce/ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c.pdf">Туризм и гостеприимство | federal_passport | ce9ad904</a></td><td>PDF из собранного корпуса</td><td>sha256:ce9ad904e9936a6f0411515b3cdf76396f55768f63cd53572f80ca2c2710b25c | retrieved:2026-10-19T12:53:22+00:00</td><td><a href="https://dlk.tomsk.gov.ru/files/front/download?id=652452">Источник</a></td></tr>
+<tr><td><a href="../../../../corpus/data/pdfs/f5/f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b.pdf">Туризм и гостеприимство | federal_passport | f57eeb24</a></td><td>PDF из собранного корпуса</td><td>sha256:f57eeb24a25e4516a469ae99986886fbac09d02342f74d6698ae6e4efc506a0b | retrieved:2026-10-19T14:20:17+00:00</td><td><a href="https://tourism.gov-murman.ru/documents/fp_sozdanie_nomernogo_fonda._infrastruktury_i_novyx_tochek_prityazheniya_turizm.pdf">Источник</a></td></tr>
+</tbody></table></div>
+<h2 id="boundary">Граница исследовательского результата</h2>
+<p>Карточка фиксирует найденные документы, рассчитанные связи и ограничения измерения. Полная авторская экспертиза проекта, содержательная проверка механизмов, экспертные шкалы и рекомендации составляются на следующем этапе. Причинный эффект мер на данном массиве не идентифицирован.</p>
+<p><a href="../../text/METHODS_RU.md">Методика текстового анализа</a> · <a href="../../finance/METHODS_RU.md">Методика финансового анализа</a> · <a href="../../quantitative/METHODS_AND_RESULTS_RU.md">Методика проверки устойчивости</a> · <a href="../../audit/CAUSAL_DESIGNS_RU.md">Дизайны причинной оценки</a></p><footer>Числа воспроизводятся из включённых расчётных таблиц. Пропуск не заменяется нулём. Авторские тексты экспертиз и рекомендации готовятся отдельным этапом.</footer></main><script>
+(()=>{'use strict';
+const project=document.getElementById('project-filter');
+const projectRows=[...document.querySelectorAll('[data-project-row]')];
+const search=document.getElementById('method-search');
+const methodRows=[...document.querySelectorAll('[data-method-row]')];
+function filterProjects(){let visible=0;for(const row of projectRows){row.hidden=!!project.value&&row.dataset.projectRow!==project.value;if(!row.hidden)visible++;}const status=document.getElementById('project-status');if(status)status.textContent='Показано проектов: '+visible;}
+function filterMethods(){const term=search.value.trim().toLocaleLowerCase('ru');let visible=0;for(const row of methodRows){row.hidden=!!term&&!row.textContent.toLocaleLowerCase('ru').includes(term);if(!row.hidden)visible++;}const status=document.getElementById('method-status');if(status)status.textContent='Показано методов: '+visible;}
+if(project){project.addEventListener('change',filterProjects);filterProjects();}if(search){search.addEventListener('input',filterMethods);filterMethods();}
+window.NPResearchFilters={filterProjects,filterMethods};})();
+</script></body></html>

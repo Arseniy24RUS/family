@@ -1,5 +1,5 @@
 name: Deploy research platform
-on:
+"on":
   push:
     branches: [main, master]
   workflow_dispatch:
@@ -47,12 +47,14 @@ jobs:
         run: npm test
       - name: Build self-contained site
         run: npm run build && npm run validate
+      - name: Build compact Pages publication from validated docs
+        run: python scripts/build_pages.py
       - name: Install browser QA dependencies
         run: |
           python -m pip install -r scripts/requirements-browser.txt
           python -m playwright install --with-deps chromium
       - name: Validate real HTTP pages, downloads and workers before publication
-        run: python tests/run_browser.py --output "$RUNNER_TEMP/semya-qa"
+        run: python tests/run_browser.py --directory .pages --output "$RUNNER_TEMP/semya-qa"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -80,7 +82,7 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: docs
+          path: .pages
   deploy:
     needs: build
     runs-on: ubuntu-latest

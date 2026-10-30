@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "source_documents": 15,
+  "finance_total_thousand_rub": "4066231073.60",
+  "national_total_thousand_rub": "4136479588.77",
+  "national_minus_federal_thousand_rub": "70248515.17",
+  "finance_common_cells": 66,
+  "finance_full_cells": 120,
+  "finance_horizons_without_later_years": [
+    "Д9",
+    "ДА"
+  ],
+  "source_reconciliation_cells": 72,
+  "hhi": 0.3161542555161044,
+  "target_cells": 390,
+  "numeric_targets": 378,
+  "target_records_all_editions": 961,
+  "same_genre_cosine_pairs": 66,
+  "same_genre_profile_tokens": 9094,
+  "thematic_cells": 270,
+  "comparable_projects": 9,
+  "direct_reviewed_edges": 24,
+  "direct_reviewed_results": 4,
+  "direct_reviewed_indicators": 6,
+  "shared_task_pairs": 282,
+  "semantic_candidates": 160,
+  "node_types": {
+    "task": 41,
+    "goal": 12,
+    "indicator": 53,
+    "result": 78
+  },
+  "demographic_ages": 17,
+  "runtime_json_bytes": 4837904,
+  "lazy_document_files": 15,
+  "all_text_units": 4339,
+  "all_kwic_contexts": 1565
+}

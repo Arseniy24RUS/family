@@ -1,0 +1,3074 @@
+{
+  "document": {
+    "project_id": "competitive_economy",
+    "kind": "fp",
+    "id": "fp_313",
+    "url": "https://databudget.ru/projects/fp/313",
+    "sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+    "retrieved_at": "2026-10-19T14:38:59.004101+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/03/0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582.html",
+    "document_id": "fp_313",
+    "code": "Э3",
+    "title": "[Э3] Повышение инвестиционной активности",
+    "publisher_version": "26.18",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 815,
+    "n_tokens": 815,
+    "source_url": "https://databudget.ru/projects/fp/313",
+    "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+    "profile_text_sha256": "de995b7711e0ae0d5bfd721cde4de5de9ea222066086147176c915ef1b7dc380",
+    "archive_entry": "competitive_economy/fp_313.html",
+    "bytes": 2579937,
+    "download_path": "downloads/projects/competitive_economy/documentary/sources/fp_313.html",
+    "profile_original_document_id": "html:0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_313:profile1",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "улучшен инвестиционный климат в российской федерации за счет оптимизации процедур.",
+      "node_id": "fp_313:passport-task-35:83875dcde77ed500",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile2",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов.",
+      "node_id": "fp_313:passport-task-36:4dbf9c23492a0959",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 12,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile3",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов",
+      "node_id": "fp_313:passport-task-34:afc03bf5727c94d0",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile4",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "goal",
+      "text": "увеличение объема инвестиций в основной капитал в российской федерации не менее чем на 60 % по сравнению с уровнем 2020 года, в том числе за счет реализации федеральных и региональных механизмов поддержки инвестиционных проектов, а также оптимизации административных процедур.",
+      "node_id": "fp_313:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 30,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile5",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "проведена оценка эффектов от принятых нормативных правовых актов, направленных на улучшение регулирования в сфере промышленного строительства, и качества процедур промышленного строительства в субъектах российской федерации фондом \"центр стратегических разработок\" выполнены следующие работы: - оценка эффектов от принятых в рамках инициативы социально-экономического развития российской федерации \"реинжиниринг правил промышленного строительства\" нормативных правовых актов с точки зрения промышленного инвестора, в том числе их влияния на показатели инициативы - сбор и анализ обратной связи от представителей бизнес-сообщества в части достаточности реализованных регуляторных изменений в рамках инициативы - оценка качества процедур промышленного строительства в субъектах российской федерации, формирование аналитического отчета по результатам - подготовка аналитической и презентационной информации и соответствующих предложений по улучшению нормативного правового регулирования в сфере промышленного строительства как на федеральном уровне, так и в субъектах российской федерации.",
+      "node_id": "fp_313:passport-result-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 106,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile6",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "подтверждено качество реализации регионального инвестиционного стандарта с учетом заключения совета деловых объединений в субъектах российской федерации в целях ежегодного мониторинга реализации стандарта субъекты российской федерации принимают участие в процедуре подтверждения качества реализации/высокого качества реализации регионального инвестиционного стандарта",
+      "node_id": "fp_313:passport-result-23:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 34,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile7",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено внесение изменений в регуляторную и нормативную базу, направленных на сокращение административных барьеров на всех стадиях строительства промышленного объекта, в соответствии с планом мероприятий (\"дорожной картой\") механизма \"трансформация делового климата\" \"реинжиниринг правил промышленного строительства\" обеспечено внесение изменений в план мероприятий (\"дорожную карту\") механизма \"трансформация делового климата\" \"реинжиниринг правил промышленного строительства\", утвержденный распоряжением правительства российской федерации от 27 сентября 2021 г. № 2692-р, в целях дополнения его новыми инициативами бизнеса по сокращению административных барьеров, а также обеспечению соответствия регуляторики лучшим международным стандартам в части сроков прохождения процедур (от оформления земельного участка, сбора исходно-разрешительной документации, прохождения экспертиз до ввода объекта в эксплуатацию) и требований к промышленному строительству. принято до 90 регуляторных изменений, влияющих на сроки и издержки строительства промышленных объектов (накопленным итогом).",
+      "node_id": "fp_313:passport-result-37:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 102,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile8",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "реализован механизм специальных административных районов произведен мониторинг регистрации участников специальных административных районов",
+      "node_id": "fp_313:passport-result-44:72821f34f9410810",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 12,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile9",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено дополнение планов мероприятий (\"дорожных карт\") реализации механизма управления системными изменениями нормативно-правового регулирования предпринимательской деятельности \"трансформация делового климата\" новыми инициативами в целях снижения административной нагрузки при ведении бизнеса внесены изменения в распоряжение правительства российской федерации в части дополнения \"дорожных карт\" механизма \"трансформация делового климата\" новыми мероприятиями в целях снижения административной нагрузки при ведении бизнеса и обеспечен мониторинг исполнения мероприятий 7 \"дорожных карт\" механизма \"трансформация делового климата\" в сферах корпоративного управления, экспорта товаров и услуг, интеллектуальной собственности, новых видов предпринимательской деятельности, реинжиниринга правил промышленного строительства, туризма и иных направлениях. к концу 2030 года планируется сократить более 450 барьеров (накопленным итогом).",
+      "node_id": "fp_313:passport-result-49:40e4a8a3cec0d7be",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 87,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile10",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "созданы, модернизированы и (или) реконструированы объекты инфраструктуры оэз количество созданных, модернизированных и (или) реконструированных объектов инфраструктуры оэз в целях обеспечения деятельности резидентов на территории оэз субъектов рф, отобранных для поучения государственной поддержки в форме возмещения региональных затрат в рамках постановления правительства российской федерации от 30.10.2014 № 1119",
+      "node_id": "fp_313:passport-result-37:5f9e06f4f59d539a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 39,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile11",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечена реализация проектов государственно-частного партнерства реализована возможность заключения концессионных соглашений между фоив, роив, органами местного самоуправления и юридическим лицом, либо индивидуальным предпринимателем, а также соглашения о гчп, мчп, заключаемые между фоив, роив, органами местного самоуправления и юридическим лицом. количество заключенных концессионных соглашений или соглашений о государственно-частном (муниципально-частном) партнерстве составит к 2030 г. не менее 1 500 ед.",
+      "node_id": "fp_313:passport-result-43:5f3b1b5d4a254584",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 47,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile12",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "проведена оценка результатов привлечения инвестиций через механизм защиты и поощрения капиталовложений обобщена информация о привлечении инвестиций через механизм защиты и поощрения капиталовложений. подготовлен доклад, включающий информационно-аналитические материалы о количестве заключенных соглашений о защите и поощрении капиталовложений и объеме привлеченных инвестиций. государственной корпорацией развития \"вэб.рф\" осуществлены функции по обеспечению сопровождения процессов заключения соглашений о защите и поощрении капиталовложений, изменения, прекращения действия и мониторинга данных соглашений, а также обеспечение механизма возмещения затрат, предусмотренного соглашения о защите и поощрении капиталовложений",
+      "node_id": "fp_313:passport-result-47:491f51d9b75788bb",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 65,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile13",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "реализован механизм предоставления федерального инвестиционного налогового вычета внесены изменения в нормативно-правовое законодательство российской федерации в целях реализации механизма предоставления федерального инвестиционного налогового вычета",
+      "node_id": "fp_313:passport-result-37:757cd51d4a9a22b3",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 21,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile14",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "реализована программа \"фабрика проектного финансирования\" привлечены инвестиции в крупные проекты в приоритетных секторах экономики. реализованы инвестиционные проекты фабрики, по которым завершена инвестиционная стадия реализации проекта. осуществляется долгосрочное кредитование инвестиционных проектов с участием коммерческих банков и вэб.рф с возможностью хеджирования процентных рисков по таким кредитам.",
+      "node_id": "fp_313:passport-result-47:f95a216c55de018e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 40,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile15",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "выполнены работы по развитию и эксплуатации государственной информационной системы \"капиталовложения\" гис \"капиталовложения\" создается в целях цифровизации и информационного обеспечения процессов в рамках защиты и поощрения капиталовложений. гис позволяет обеспечивать формирование, обработку и хранение информации, относящейся к соглашениям о защите и поощрении капиталовложений (сзпк), обмен этой информацией между пользователями, мониторинг исполнения условий сзпк, возможность получения государственными органами информации, необходимой для осуществления контрольных и надзорных функций. в первой очереди гис обеспечена возможность подачи в электронной форме заявок на заключение сзпк, возможность заключать и расторгать сзпк и дополнительные соглашения к ним. в гис зарегистрировано более 170 организаций, органы исполнительной власти 85 субъектов рф, минэкономразвития россии, федеральное казначейство, уполномоченная организация (вэб.рф). в гис содержится информация о 74 заключенных сзпк.",
+      "node_id": "fp_313:passport-result-37:1b706bcb7b75903c",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 95,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile16",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено финансирование проектов технологического суверенитета и структурной адаптации экономики российской федерации (общая стоимость проектов) созданы условия для реализации проектов технологического суверенитета и структурной адаптации экономики российской федерации путем внесения изменений в нормативно-правовую базу стимулирующих финансирование проектов технологического суверенитета и структурной адаптации экономики.",
+      "node_id": "fp_313:passport-result-19:74eb166f087eaa50",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[12]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 38,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile17",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "сокращение удельных издержек строительства групп промышленных объектов по отношению к 2020 году",
+      "node_id": "fp_313:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile18",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "сокращение сроков строительства групп промышленных объектов по отношению к 2020 году",
+      "node_id": "fp_313:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile19",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "объем привлеченных инвестиций за счет реализации федеральных инвестиционных механизмов",
+      "node_id": "fp_313:passport-purpose-3:e38d134fee47886c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile20",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "количество участников специальных административных районов",
+      "node_id": "fp_313:passport-purpose-4:6037cf73209c66ef",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[4]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 5,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile21",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "сокращение административных барьеров ведения бизнеса за счет реализации механизма \"трансформация делового климата\"",
+      "node_id": "fp_313:passport-purpose-5:dc38845c3885b87f",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 12,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile22",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "рост среднего значения интегрального индекса субъектов российской федерации в национальном рейтинге состояния инвестиционного климата в субъектах российской федерации",
+      "node_id": "fp_313:passport-purpose-6:323800554f41c925",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[6]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 16,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_313:profile23",
+      "document_id": "fp_313",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "объем инвестиций, осуществленных резидентами особых экономических зон",
+      "node_id": "fp_313:passport-purpose-7:1f4fdfdc21df0c7a",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_313:kwic1",
+      "document_id": "fp_313",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "ов заключения соглашений о защите и поощрении капиталовложений, изменения, прекращения действия и мониторинга данных соглашений, а также обеспечение механизма возмещения затрат, предусмотренного соглашения о защите и поощрении",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic2",
+      "document_id": "fp_313",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "хеджирования процентных рисков по таким кредитам. выполнены работы по развитию и эксплуатации государственной информационной системы \"капиталовложения\" гис \"капиталовложения\" создается в целях цифровизации и информационного обеспечения процес",
+      "unit_id": "fp_313:profile15",
+      "unit_ids": [
+        "fp_313:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic3",
+      "document_id": "fp_313",
+      "frame": "digital_data",
+      "matched": "цифровизации",
+      "context": "сплуатации государственной информационной системы \"капиталовложения\" гис \"капиталовложения\" создается в целях цифровизации и информационного обеспечения процессов в рамках защиты и поощрения капиталовложений. гис позволяет обеспечив",
+      "unit_id": "fp_313:profile15",
+      "unit_ids": [
+        "fp_313:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic4",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционный",
+      "context": "улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. улучшен инвестиционный климат в российской федера",
+      "unit_id": "fp_313:profile1",
+      "unit_ids": [
+        "fp_313:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic5",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционный",
+      "context": "улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. повышена инвестицио",
+      "unit_id": "fp_313:profile2",
+      "unit_ids": [
+        "fp_313:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic6",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "оптимизации процедур. улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных",
+      "unit_id": "fp_313:profile2",
+      "unit_ids": [
+        "fp_313:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic7",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционная",
+      "context": "стиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов увеличение объема инвест",
+      "unit_id": "fp_313:profile3",
+      "unit_ids": [
+        "fp_313:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic8",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "инвестиционных проектов. повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов увеличение объема инвестиций в основной капитал в российской федерации не менее чем на 60 % по сравн",
+      "unit_id": "fp_313:profile3",
+      "unit_ids": [
+        "fp_313:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic9",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ионная активность путем реализации федеральных механизмов поддержки инвестиционных проектов увеличение объема инвестиций в основной капитал в российской федерации не менее чем на 60 % по сравнению с уровнем 2020 года, в том числе ",
+      "unit_id": "fp_313:profile4",
+      "unit_ids": [
+        "fp_313:profile4"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic10",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "сравнению с уровнем 2020 года, в том числе за счет реализации федеральных и региональных механизмов поддержки инвестиционных проектов, а также оптимизации административных процедур. проведена оценка эффектов от принятых нормативных пр",
+      "unit_id": "fp_313:profile4",
+      "unit_ids": [
+        "fp_313:profile4"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic11",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "едена оценка эффектов от принятых нормативных правовых актов, направленных на улучшение регулирования в сфере промышленного строительства, и качества процедур промышленного строительства в субъектах российской федерации фондом \"центр",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic12",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "вовых актов, направленных на улучшение регулирования в сфере промышленного строительства, и качества процедур промышленного строительства в субъектах российской федерации фондом \"центр стратегических разработок\" выполнены следующие р",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic13",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "в от принятых в рамках инициативы социально-экономического развития российской федерации \"реинжиниринг правил промышленного строительства\" нормативных правовых актов с точки зрения промышленного инвестора, в том числе их влияния на п",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic14",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "сийской федерации \"реинжиниринг правил промышленного строительства\" нормативных правовых актов с точки зрения промышленного инвестора, в том числе их влияния на показатели инициативы - сбор и анализ обратной связи от представителей б",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic15",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "о инвестора, в том числе их влияния на показатели инициативы - сбор и анализ обратной связи от представителей бизнес-сообщества в части достаточности реализованных регуляторных изменений в рамках инициативы - оценка качества п",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic16",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "тва в части достаточности реализованных регуляторных изменений в рамках инициативы - оценка качества процедур промышленного строительства в субъектах российской федерации, формирование аналитического отчета по результатам - подготовк",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic17",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "нтационной информации и соответствующих предложений по улучшению нормативного правового регулирования в сфере промышленного строительства как на федеральном уровне, так и в субъектах российской федерации. подтверждено качество реализ",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic18",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционного",
+      "context": "на федеральном уровне, так и в субъектах российской федерации. подтверждено качество реализации регионального инвестиционного стандарта с учетом заключения совета деловых объединений в субъектах российской федерации в целях ежегодного ",
+      "unit_id": "fp_313:profile6",
+      "unit_ids": [
+        "fp_313:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic19",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционного",
+      "context": "ии принимают участие в процедуре подтверждения качества реализации/высокого качества реализации регионального инвестиционного стандарта обеспечено внесение изменений в регуляторную и нормативную базу, направленных на сокращение админис",
+      "unit_id": "fp_313:profile6",
+      "unit_ids": [
+        "fp_313:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic20",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "торную и нормативную базу, направленных на сокращение административных барьеров на всех стадиях строительства промышленного объекта, в соответствии с планом мероприятий (\"дорожной картой\") механизма \"трансформация делового климата\" \"",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic21",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "твии с планом мероприятий (\"дорожной картой\") механизма \"трансформация делового климата\" \"реинжиниринг правил промышленного строительства\" обеспечено внесение изменений в план мероприятий (\"дорожную карту\") механизма \"трансформация д",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic22",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "менений в план мероприятий (\"дорожную карту\") механизма \"трансформация делового климата\" \"реинжиниринг правил промышленного строительства\", утвержденный распоряжением правительства российской федерации от 27 сентября 2021 г. № 2692-р",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic23",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "равительства российской федерации от 27 сентября 2021 г. № 2692-р, в целях дополнения его новыми инициативами бизнеса по сокращению административных барьеров, а также обеспечению соответствия регуляторики лучшим международным с",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic24",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленному",
+      "context": "ра исходно-разрешительной документации, прохождения экспертиз до ввода объекта в эксплуатацию) и требований к промышленному строительству. принято до 90 регуляторных изменений, влияющих на сроки и издержки строительства промышленных ",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic25",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "промышленному строительству. принято до 90 регуляторных изменений, влияющих на сроки и издержки строительства промышленных объектов (накопленным итогом). реализован механизм специальных административных районов произведен мониторинг",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic26",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательской",
+      "context": "й (\"дорожных карт\") реализации механизма управления системными изменениями нормативно-правового регулирования предпринимательской деятельности \"трансформация делового климата\" новыми инициативами в целях снижения административной нагрузки ",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic27",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "и \"трансформация делового климата\" новыми инициативами в целях снижения административной нагрузки при ведении бизнеса внесены изменения в распоряжение правительства российской федерации в части дополнения \"дорожных карт\" механи",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic28",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": " \"трансформация делового климата\" новыми мероприятиями в целях снижения административной нагрузки при ведении бизнеса и обеспечен мониторинг исполнения мероприятий 7 \"дорожных карт\" механизма \"трансформация делового климата\" в ",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic29",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательской",
+      "context": "та\" в сферах корпоративного управления, экспорта товаров и услуг, интеллектуальной собственности, новых видов предпринимательской деятельности, реинжиниринга правил промышленного строительства, туризма и иных направлениях. к концу 2030 год",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic30",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "в и услуг, интеллектуальной собственности, новых видов предпринимательской деятельности, реинжиниринга правил промышленного строительства, туризма и иных направлениях. к концу 2030 года планируется сократить более 450 барьеров (накоп",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic31",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателем",
+      "context": "ионных соглашений между фоив, роив, органами местного самоуправления и юридическим лицом, либо индивидуальным предпринимателем, а также соглашения о гчп, мчп, заключаемые между фоив, роив, органами местного самоуправления и юридическим ",
+      "unit_id": "fp_313:profile11",
+      "unit_ids": [
+        "fp_313:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic32",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "иципально-частном) партнерстве составит к 2030 г. не менее 1 500 ед. проведена оценка результатов привлечения инвестиций через механизм защиты и поощрения капиталовложений обобщена информация о привлечении инвестиций через механиз",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic33",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "в привлечения инвестиций через механизм защиты и поощрения капиталовложений обобщена информация о привлечении инвестиций через механизм защиты и поощрения капиталовложений. подготовлен доклад, включающий информационно-аналитически",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic34",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "кие материалы о количестве заключенных соглашений о защите и поощрении капиталовложений и объеме привлеченных инвестиций. государственной корпорацией развития \"вэб.рф\" осуществлены функции по обеспечению сопровождения процессов за",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic35",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционного",
+      "context": "усмотренного соглашения о защите и поощрении капиталовложений реализован механизм предоставления федерального инвестиционного налогового вычета внесены изменения в нормативно-правовое законодательство российской федерации в целях реали",
+      "unit_id": "fp_313:profile13",
+      "unit_ids": [
+        "fp_313:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic36",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционного",
+      "context": "тивно-правовое законодательство российской федерации в целях реализации механизма предоставления федерального инвестиционного налогового вычета реализована программа \"фабрика проектного финансирования\" привлечены инвестиции в крупные п",
+      "unit_id": "fp_313:profile13",
+      "unit_ids": [
+        "fp_313:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic37",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиции",
+      "context": "льного инвестиционного налогового вычета реализована программа \"фабрика проектного финансирования\" привлечены инвестиции в крупные проекты в приоритетных секторах экономики. реализованы инвестиционные проекты фабрики, по которым з",
+      "unit_id": "fp_313:profile14",
+      "unit_ids": [
+        "fp_313:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic38",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционные",
+      "context": "ктного финансирования\" привлечены инвестиции в крупные проекты в приоритетных секторах экономики. реализованы инвестиционные проекты фабрики, по которым завершена инвестиционная стадия реализации проекта. осуществляется долгосрочное к",
+      "unit_id": "fp_313:profile14",
+      "unit_ids": [
+        "fp_313:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic39",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционная",
+      "context": "е проекты в приоритетных секторах экономики. реализованы инвестиционные проекты фабрики, по которым завершена инвестиционная стадия реализации проекта. осуществляется долгосрочное кредитование инвестиционных проектов с участием коммер",
+      "unit_id": "fp_313:profile14",
+      "unit_ids": [
+        "fp_313:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic40",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "рики, по которым завершена инвестиционная стадия реализации проекта. осуществляется долгосрочное кредитование инвестиционных проектов с участием коммерческих банков и вэб.рф с возможностью хеджирования процентных рисков по таким креди",
+      "unit_id": "fp_313:profile14",
+      "unit_ids": [
+        "fp_313:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic41",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "ологического суверенитета и структурной адаптации экономики. сокращение удельных издержек строительства групп промышленных объектов по отношению к 2020 году сокращение сроков строительства групп промышленных объектов по отношению к ",
+      "unit_id": "fp_313:profile17",
+      "unit_ids": [
+        "fp_313:profile17"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic42",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "ржек строительства групп промышленных объектов по отношению к 2020 году сокращение сроков строительства групп промышленных объектов по отношению к 2020 году объем привлеченных инвестиций за счет реализации федеральных инвестиционных",
+      "unit_id": "fp_313:profile18",
+      "unit_ids": [
+        "fp_313:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic43",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": " году сокращение сроков строительства групп промышленных объектов по отношению к 2020 году объем привлеченных инвестиций за счет реализации федеральных инвестиционных механизмов количество участников специальных административных р",
+      "unit_id": "fp_313:profile19",
+      "unit_ids": [
+        "fp_313:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic44",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "п промышленных объектов по отношению к 2020 году объем привлеченных инвестиций за счет реализации федеральных инвестиционных механизмов количество участников специальных административных районов сокращение административных барьеров ве",
+      "unit_id": "fp_313:profile19",
+      "unit_ids": [
+        "fp_313:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic45",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "измов количество участников специальных административных районов сокращение административных барьеров ведения бизнеса за счет реализации механизма \"трансформация делового климата\" рост среднего значения интегрального индекса су",
+      "unit_id": "fp_313:profile21",
+      "unit_ids": [
+        "fp_313:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic46",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционного",
+      "context": "рост среднего значения интегрального индекса субъектов российской федерации в национальном рейтинге состояния инвестиционного климата в субъектах российской федерации объем инвестиций, осуществленных резидентами особых экономических зо",
+      "unit_id": "fp_313:profile22",
+      "unit_ids": [
+        "fp_313:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[6]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic47",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ой федерации в национальном рейтинге состояния инвестиционного климата в субъектах российской федерации объем инвестиций, осуществленных резидентами особых экономических зон",
+      "unit_id": "fp_313:profile23",
+      "unit_ids": [
+        "fp_313:profile23"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic48",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климат",
+      "context": "улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. улучшен инвестиционный климат в российской федерации за ",
+      "unit_id": "fp_313:profile1",
+      "unit_ids": [
+        "fp_313:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic49",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климат",
+      "context": "улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. повышена инвестиционная ак",
+      "unit_id": "fp_313:profile2",
+      "unit_ids": [
+        "fp_313:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic50",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "мышленного объекта, в соответствии с планом мероприятий (\"дорожной картой\") механизма \"трансформация делового климата\" \"реинжиниринг правил промышленного строительства\" обеспечено внесение изменений в план мероприятий (\"дорожну",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic51",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "льства\" обеспечено внесение изменений в план мероприятий (\"дорожную карту\") механизма \"трансформация делового климата\" \"реинжиниринг правил промышленного строительства\", утвержденный распоряжением правительства российской федер",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic52",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "мными изменениями нормативно-правового регулирования предпринимательской деятельности \"трансформация делового климата\" новыми инициативами в целях снижения административной нагрузки при ведении бизнеса внесены изменения в распо",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic53",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "жение правительства российской федерации в части дополнения \"дорожных карт\" механизма \"трансформация делового климата\" новыми мероприятиями в целях снижения административной нагрузки при ведении бизнеса и обеспечен мониторинг и",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic54",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "нии бизнеса и обеспечен мониторинг исполнения мероприятий 7 \"дорожных карт\" механизма \"трансформация делового климата\" в сферах корпоративного управления, экспорта товаров и услуг, интеллектуальной собственности, новых видов пр",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic55",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "нов сокращение административных барьеров ведения бизнеса за счет реализации механизма \"трансформация делового климата\" рост среднего значения интегрального индекса субъектов российской федерации в национальном рейтинге состояни",
+      "unit_id": "fp_313:profile21",
+      "unit_ids": [
+        "fp_313:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic56",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "ачения интегрального индекса субъектов российской федерации в национальном рейтинге состояния инвестиционного климата в субъектах российской федерации объем инвестиций, осуществленных резидентами особых экономических зон",
+      "unit_id": "fp_313:profile22",
+      "unit_ids": [
+        "fp_313:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[6]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic57",
+      "document_id": "fp_313",
+      "frame": "export_trade",
+      "matched": "экспорта",
+      "context": " мероприятий 7 \"дорожных карт\" механизма \"трансформация делового климата\" в сферах корпоративного управления, экспорта товаров и услуг, интеллектуальной собственности, новых видов предпринимательской деятельности, реинжиниринга ",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic58",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "альных механизмов поддержки инвестиционных проектов, а также оптимизации административных процедур. проведена оценка эффектов от принятых нормативных правовых актов, направленных на улучшение регулирования в сфере промышленног",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic59",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "ьства в субъектах российской федерации фондом \"центр стратегических разработок\" выполнены следующие работы: - оценка эффектов от принятых в рамках инициативы социально-экономического развития российской федерации \"реинжиниринг",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic60",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "ставителей бизнес-сообщества в части достаточности реализованных регуляторных изменений в рамках инициативы - оценка качества процедур промышленного строительства в субъектах российской федерации, формирование аналитического о",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic61",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": " стандарта с учетом заключения совета деловых объединений в субъектах российской федерации в целях ежегодного мониторинга реализации стандарта субъекты российской федерации принимают участие в процедуре подтверждения качества реали",
+      "unit_id": "fp_313:profile6",
+      "unit_ids": [
+        "fp_313:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic62",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "мониторинг",
+      "context": "омышленных объектов (накопленным итогом). реализован механизм специальных административных районов произведен мониторинг регистрации участников специальных административных районов обеспечено дополнение планов мероприятий (\"дорожн",
+      "unit_id": "fp_313:profile8",
+      "unit_ids": [
+        "fp_313:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic63",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": "ьных административных районов обеспечено дополнение планов мероприятий (\"дорожных карт\") реализации механизма управления системными изменениями нормативно-правового регулирования предпринимательской деятельности \"трансформация дел",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic64",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "мониторинг",
+      "context": "вого климата\" новыми мероприятиями в целях снижения административной нагрузки при ведении бизнеса и обеспечен мониторинг исполнения мероприятий 7 \"дорожных карт\" механизма \"трансформация делового климата\" в сферах корпоративного у",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic65",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": "г исполнения мероприятий 7 \"дорожных карт\" механизма \"трансформация делового климата\" в сферах корпоративного управления, экспорта товаров и услуг, интеллектуальной собственности, новых видов предпринимательской деятельности, реин",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic66",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "й о государственно-частном (муниципально-частном) партнерстве составит к 2030 г. не менее 1 500 ед. проведена оценка результатов привлечения инвестиций через механизм защиты и поощрения капиталовложений обобщена информация о п",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic67",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ения процессов заключения соглашений о защите и поощрении капиталовложений, изменения, прекращения действия и мониторинга данных соглашений, а также обеспечение механизма возмещения затрат, предусмотренного соглашения о защите и по",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic68",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "мониторинг",
+      "context": "ейся к соглашениям о защите и поощрении капиталовложений (сзпк), обмен этой информацией между пользователями, мониторинг исполнения условий сзпк, возможность получения государственными органами информации, необходимой для осуществ",
+      "unit_id": "fp_313:profile15",
+      "unit_ids": [
+        "fp_313:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic69",
+      "document_id": "fp_313",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "я организация (вэб.рф). в гис содержится информация о 74 заключенных сзпк. обеспечено финансирование проектов технологического суверенитета и структурной адаптации экономики российской федерации (общая стоимость проектов) созданы услови",
+      "unit_id": "fp_313:profile16",
+      "unit_ids": [
+        "fp_313:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[12]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic70",
+      "document_id": "fp_313",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "й адаптации экономики российской федерации (общая стоимость проектов) созданы условия для реализации проектов технологического суверенитета и структурной адаптации экономики российской федерации путем внесения изменений в нормативно-пра",
+      "unit_id": "fp_313:profile16",
+      "unit_ids": [
+        "fp_313:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[12]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic71",
+      "document_id": "fp_313",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "оссийской федерации путем внесения изменений в нормативно-правовую базу стимулирующих финансирование проектов технологического суверенитета и структурной адаптации экономики. сокращение удельных издержек строительства групп промышленных",
+      "unit_id": "fp_313:profile16",
+      "unit_ids": [
+        "fp_313:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[12]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic72",
+      "document_id": "fp_313",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "обственности, новых видов предпринимательской деятельности, реинжиниринга правил промышленного строительства, туризма и иных направлениях. к концу 2030 года планируется сократить более 450 барьеров (накопленным итогом). созданы",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_313:kwic1",
+      "document_id": "fp_313",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "ов заключения соглашений о защите и поощрении капиталовложений, изменения, прекращения действия и мониторинга данных соглашений, а также обеспечение механизма возмещения затрат, предусмотренного соглашения о защите и поощрении",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic2",
+      "document_id": "fp_313",
+      "frame": "digital_data",
+      "matched": "информационной системы",
+      "context": "хеджирования процентных рисков по таким кредитам. выполнены работы по развитию и эксплуатации государственной информационной системы \"капиталовложения\" гис \"капиталовложения\" создается в целях цифровизации и информационного обеспечения процес",
+      "unit_id": "fp_313:profile15",
+      "unit_ids": [
+        "fp_313:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic3",
+      "document_id": "fp_313",
+      "frame": "digital_data",
+      "matched": "цифровизации",
+      "context": "сплуатации государственной информационной системы \"капиталовложения\" гис \"капиталовложения\" создается в целях цифровизации и информационного обеспечения процессов в рамках защиты и поощрения капиталовложений. гис позволяет обеспечив",
+      "unit_id": "fp_313:profile15",
+      "unit_ids": [
+        "fp_313:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic4",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционный",
+      "context": "улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. улучшен инвестиционный климат в российской федера",
+      "unit_id": "fp_313:profile1",
+      "unit_ids": [
+        "fp_313:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic5",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционный",
+      "context": "улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. повышена инвестицио",
+      "unit_id": "fp_313:profile2",
+      "unit_ids": [
+        "fp_313:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic6",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "оптимизации процедур. улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных",
+      "unit_id": "fp_313:profile2",
+      "unit_ids": [
+        "fp_313:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic7",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционная",
+      "context": "стиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов увеличение объема инвест",
+      "unit_id": "fp_313:profile3",
+      "unit_ids": [
+        "fp_313:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic8",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "инвестиционных проектов. повышена инвестиционная активность путем реализации федеральных механизмов поддержки инвестиционных проектов увеличение объема инвестиций в основной капитал в российской федерации не менее чем на 60 % по сравн",
+      "unit_id": "fp_313:profile3",
+      "unit_ids": [
+        "fp_313:profile3"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic9",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ионная активность путем реализации федеральных механизмов поддержки инвестиционных проектов увеличение объема инвестиций в основной капитал в российской федерации не менее чем на 60 % по сравнению с уровнем 2020 года, в том числе ",
+      "unit_id": "fp_313:profile4",
+      "unit_ids": [
+        "fp_313:profile4"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic10",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "сравнению с уровнем 2020 года, в том числе за счет реализации федеральных и региональных механизмов поддержки инвестиционных проектов, а также оптимизации административных процедур. проведена оценка эффектов от принятых нормативных пр",
+      "unit_id": "fp_313:profile4",
+      "unit_ids": [
+        "fp_313:profile4"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic11",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "едена оценка эффектов от принятых нормативных правовых актов, направленных на улучшение регулирования в сфере промышленного строительства, и качества процедур промышленного строительства в субъектах российской федерации фондом \"центр",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic12",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "вовых актов, направленных на улучшение регулирования в сфере промышленного строительства, и качества процедур промышленного строительства в субъектах российской федерации фондом \"центр стратегических разработок\" выполнены следующие р",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic13",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "в от принятых в рамках инициативы социально-экономического развития российской федерации \"реинжиниринг правил промышленного строительства\" нормативных правовых актов с точки зрения промышленного инвестора, в том числе их влияния на п",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic14",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "сийской федерации \"реинжиниринг правил промышленного строительства\" нормативных правовых актов с точки зрения промышленного инвестора, в том числе их влияния на показатели инициативы - сбор и анализ обратной связи от представителей б",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic15",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "о инвестора, в том числе их влияния на показатели инициативы - сбор и анализ обратной связи от представителей бизнес-сообщества в части достаточности реализованных регуляторных изменений в рамках инициативы - оценка качества п",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic16",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "тва в части достаточности реализованных регуляторных изменений в рамках инициативы - оценка качества процедур промышленного строительства в субъектах российской федерации, формирование аналитического отчета по результатам - подготовк",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic17",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "нтационной информации и соответствующих предложений по улучшению нормативного правового регулирования в сфере промышленного строительства как на федеральном уровне, так и в субъектах российской федерации. подтверждено качество реализ",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic18",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционного",
+      "context": "на федеральном уровне, так и в субъектах российской федерации. подтверждено качество реализации регионального инвестиционного стандарта с учетом заключения совета деловых объединений в субъектах российской федерации в целях ежегодного ",
+      "unit_id": "fp_313:profile6",
+      "unit_ids": [
+        "fp_313:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic19",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционного",
+      "context": "ии принимают участие в процедуре подтверждения качества реализации/высокого качества реализации регионального инвестиционного стандарта обеспечено внесение изменений в регуляторную и нормативную базу, направленных на сокращение админис",
+      "unit_id": "fp_313:profile6",
+      "unit_ids": [
+        "fp_313:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic20",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "торную и нормативную базу, направленных на сокращение административных барьеров на всех стадиях строительства промышленного объекта, в соответствии с планом мероприятий (\"дорожной картой\") механизма \"трансформация делового климата\" \"",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic21",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "твии с планом мероприятий (\"дорожной картой\") механизма \"трансформация делового климата\" \"реинжиниринг правил промышленного строительства\" обеспечено внесение изменений в план мероприятий (\"дорожную карту\") механизма \"трансформация д",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic22",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "менений в план мероприятий (\"дорожную карту\") механизма \"трансформация делового климата\" \"реинжиниринг правил промышленного строительства\", утвержденный распоряжением правительства российской федерации от 27 сентября 2021 г. № 2692-р",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic23",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "равительства российской федерации от 27 сентября 2021 г. № 2692-р, в целях дополнения его новыми инициативами бизнеса по сокращению административных барьеров, а также обеспечению соответствия регуляторики лучшим международным с",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic24",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленному",
+      "context": "ра исходно-разрешительной документации, прохождения экспертиз до ввода объекта в эксплуатацию) и требований к промышленному строительству. принято до 90 регуляторных изменений, влияющих на сроки и издержки строительства промышленных ",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic25",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "промышленному строительству. принято до 90 регуляторных изменений, влияющих на сроки и издержки строительства промышленных объектов (накопленным итогом). реализован механизм специальных административных районов произведен мониторинг",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic26",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательской",
+      "context": "й (\"дорожных карт\") реализации механизма управления системными изменениями нормативно-правового регулирования предпринимательской деятельности \"трансформация делового климата\" новыми инициативами в целях снижения административной нагрузки ",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic27",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "и \"трансформация делового климата\" новыми инициативами в целях снижения административной нагрузки при ведении бизнеса внесены изменения в распоряжение правительства российской федерации в части дополнения \"дорожных карт\" механи",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic28",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": " \"трансформация делового климата\" новыми мероприятиями в целях снижения административной нагрузки при ведении бизнеса и обеспечен мониторинг исполнения мероприятий 7 \"дорожных карт\" механизма \"трансформация делового климата\" в ",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic29",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "предпринимательской",
+      "context": "та\" в сферах корпоративного управления, экспорта товаров и услуг, интеллектуальной собственности, новых видов предпринимательской деятельности, реинжиниринга правил промышленного строительства, туризма и иных направлениях. к концу 2030 год",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic30",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленного",
+      "context": "в и услуг, интеллектуальной собственности, новых видов предпринимательской деятельности, реинжиниринга правил промышленного строительства, туризма и иных направлениях. к концу 2030 года планируется сократить более 450 барьеров (накоп",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic31",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "предпринимателем",
+      "context": "ионных соглашений между фоив, роив, органами местного самоуправления и юридическим лицом, либо индивидуальным предпринимателем, а также соглашения о гчп, мчп, заключаемые между фоив, роив, органами местного самоуправления и юридическим ",
+      "unit_id": "fp_313:profile11",
+      "unit_ids": [
+        "fp_313:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[7]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic32",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "иципально-частном) партнерстве составит к 2030 г. не менее 1 500 ед. проведена оценка результатов привлечения инвестиций через механизм защиты и поощрения капиталовложений обобщена информация о привлечении инвестиций через механиз",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic33",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "в привлечения инвестиций через механизм защиты и поощрения капиталовложений обобщена информация о привлечении инвестиций через механизм защиты и поощрения капиталовложений. подготовлен доклад, включающий информационно-аналитически",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic34",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "кие материалы о количестве заключенных соглашений о защите и поощрении капиталовложений и объеме привлеченных инвестиций. государственной корпорацией развития \"вэб.рф\" осуществлены функции по обеспечению сопровождения процессов за",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic35",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционного",
+      "context": "усмотренного соглашения о защите и поощрении капиталовложений реализован механизм предоставления федерального инвестиционного налогового вычета внесены изменения в нормативно-правовое законодательство российской федерации в целях реали",
+      "unit_id": "fp_313:profile13",
+      "unit_ids": [
+        "fp_313:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic36",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционного",
+      "context": "тивно-правовое законодательство российской федерации в целях реализации механизма предоставления федерального инвестиционного налогового вычета реализована программа \"фабрика проектного финансирования\" привлечены инвестиции в крупные п",
+      "unit_id": "fp_313:profile13",
+      "unit_ids": [
+        "fp_313:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[9]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic37",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиции",
+      "context": "льного инвестиционного налогового вычета реализована программа \"фабрика проектного финансирования\" привлечены инвестиции в крупные проекты в приоритетных секторах экономики. реализованы инвестиционные проекты фабрики, по которым з",
+      "unit_id": "fp_313:profile14",
+      "unit_ids": [
+        "fp_313:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic38",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционные",
+      "context": "ктного финансирования\" привлечены инвестиции в крупные проекты в приоритетных секторах экономики. реализованы инвестиционные проекты фабрики, по которым завершена инвестиционная стадия реализации проекта. осуществляется долгосрочное к",
+      "unit_id": "fp_313:profile14",
+      "unit_ids": [
+        "fp_313:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic39",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционная",
+      "context": "е проекты в приоритетных секторах экономики. реализованы инвестиционные проекты фабрики, по которым завершена инвестиционная стадия реализации проекта. осуществляется долгосрочное кредитование инвестиционных проектов с участием коммер",
+      "unit_id": "fp_313:profile14",
+      "unit_ids": [
+        "fp_313:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic40",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "рики, по которым завершена инвестиционная стадия реализации проекта. осуществляется долгосрочное кредитование инвестиционных проектов с участием коммерческих банков и вэб.рф с возможностью хеджирования процентных рисков по таким креди",
+      "unit_id": "fp_313:profile14",
+      "unit_ids": [
+        "fp_313:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[10]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic41",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "ологического суверенитета и структурной адаптации экономики. сокращение удельных издержек строительства групп промышленных объектов по отношению к 2020 году сокращение сроков строительства групп промышленных объектов по отношению к ",
+      "unit_id": "fp_313:profile17",
+      "unit_ids": [
+        "fp_313:profile17"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic42",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "промышленных",
+      "context": "ржек строительства групп промышленных объектов по отношению к 2020 году сокращение сроков строительства групп промышленных объектов по отношению к 2020 году объем привлеченных инвестиций за счет реализации федеральных инвестиционных",
+      "unit_id": "fp_313:profile18",
+      "unit_ids": [
+        "fp_313:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic43",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": " году сокращение сроков строительства групп промышленных объектов по отношению к 2020 году объем привлеченных инвестиций за счет реализации федеральных инвестиционных механизмов количество участников специальных административных р",
+      "unit_id": "fp_313:profile19",
+      "unit_ids": [
+        "fp_313:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic44",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "п промышленных объектов по отношению к 2020 году объем привлеченных инвестиций за счет реализации федеральных инвестиционных механизмов количество участников специальных административных районов сокращение административных барьеров ве",
+      "unit_id": "fp_313:profile19",
+      "unit_ids": [
+        "fp_313:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic45",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "бизнеса",
+      "context": "измов количество участников специальных административных районов сокращение административных барьеров ведения бизнеса за счет реализации механизма \"трансформация делового климата\" рост среднего значения интегрального индекса су",
+      "unit_id": "fp_313:profile21",
+      "unit_ids": [
+        "fp_313:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic46",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционного",
+      "context": "рост среднего значения интегрального индекса субъектов российской федерации в национальном рейтинге состояния инвестиционного климата в субъектах российской федерации объем инвестиций, осуществленных резидентами особых экономических зо",
+      "unit_id": "fp_313:profile22",
+      "unit_ids": [
+        "fp_313:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[6]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic47",
+      "document_id": "fp_313",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ой федерации в национальном рейтинге состояния инвестиционного климата в субъектах российской федерации объем инвестиций, осуществленных резидентами особых экономических зон",
+      "unit_id": "fp_313:profile23",
+      "unit_ids": [
+        "fp_313:profile23"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[7]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic48",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климат",
+      "context": "улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. улучшен инвестиционный климат в российской федерации за ",
+      "unit_id": "fp_313:profile1",
+      "unit_ids": [
+        "fp_313:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic49",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климат",
+      "context": "улучшен инвестиционный климат в российской федерации за счет оптимизации процедур. улучшен инвестиционный климат в российской федерации за счет региональных мер поддержки инвестиционных проектов. повышена инвестиционная ак",
+      "unit_id": "fp_313:profile2",
+      "unit_ids": [
+        "fp_313:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic50",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "мышленного объекта, в соответствии с планом мероприятий (\"дорожной картой\") механизма \"трансформация делового климата\" \"реинжиниринг правил промышленного строительства\" обеспечено внесение изменений в план мероприятий (\"дорожну",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic51",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "льства\" обеспечено внесение изменений в план мероприятий (\"дорожную карту\") механизма \"трансформация делового климата\" \"реинжиниринг правил промышленного строительства\", утвержденный распоряжением правительства российской федер",
+      "unit_id": "fp_313:profile7",
+      "unit_ids": [
+        "fp_313:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic52",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "мными изменениями нормативно-правового регулирования предпринимательской деятельности \"трансформация делового климата\" новыми инициативами в целях снижения административной нагрузки при ведении бизнеса внесены изменения в распо",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic53",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "жение правительства российской федерации в части дополнения \"дорожных карт\" механизма \"трансформация делового климата\" новыми мероприятиями в целях снижения административной нагрузки при ведении бизнеса и обеспечен мониторинг и",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic54",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "нии бизнеса и обеспечен мониторинг исполнения мероприятий 7 \"дорожных карт\" механизма \"трансформация делового климата\" в сферах корпоративного управления, экспорта товаров и услуг, интеллектуальной собственности, новых видов пр",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic55",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "нов сокращение административных барьеров ведения бизнеса за счет реализации механизма \"трансформация делового климата\" рост среднего значения интегрального индекса субъектов российской федерации в национальном рейтинге состояни",
+      "unit_id": "fp_313:profile21",
+      "unit_ids": [
+        "fp_313:profile21"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic56",
+      "document_id": "fp_313",
+      "frame": "environment_climate",
+      "matched": "климата",
+      "context": "ачения интегрального индекса субъектов российской федерации в национальном рейтинге состояния инвестиционного климата в субъектах российской федерации объем инвестиций, осуществленных резидентами особых экономических зон",
+      "unit_id": "fp_313:profile22",
+      "unit_ids": [
+        "fp_313:profile22"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[6]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[6]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic57",
+      "document_id": "fp_313",
+      "frame": "export_trade",
+      "matched": "экспорта",
+      "context": " мероприятий 7 \"дорожных карт\" механизма \"трансформация делового климата\" в сферах корпоративного управления, экспорта товаров и услуг, интеллектуальной собственности, новых видов предпринимательской деятельности, реинжиниринга ",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic58",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "альных механизмов поддержки инвестиционных проектов, а также оптимизации административных процедур. проведена оценка эффектов от принятых нормативных правовых актов, направленных на улучшение регулирования в сфере промышленног",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic59",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "ьства в субъектах российской федерации фондом \"центр стратегических разработок\" выполнены следующие работы: - оценка эффектов от принятых в рамках инициативы социально-экономического развития российской федерации \"реинжиниринг",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic60",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "ставителей бизнес-сообщества в части достаточности реализованных регуляторных изменений в рамках инициативы - оценка качества процедур промышленного строительства в субъектах российской федерации, формирование аналитического о",
+      "unit_id": "fp_313:profile5",
+      "unit_ids": [
+        "fp_313:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[1]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic61",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": " стандарта с учетом заключения совета деловых объединений в субъектах российской федерации в целях ежегодного мониторинга реализации стандарта субъекты российской федерации принимают участие в процедуре подтверждения качества реали",
+      "unit_id": "fp_313:profile6",
+      "unit_ids": [
+        "fp_313:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic62",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "мониторинг",
+      "context": "омышленных объектов (накопленным итогом). реализован механизм специальных административных районов произведен мониторинг регистрации участников специальных административных районов обеспечено дополнение планов мероприятий (\"дорожн",
+      "unit_id": "fp_313:profile8",
+      "unit_ids": [
+        "fp_313:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic63",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": "ьных административных районов обеспечено дополнение планов мероприятий (\"дорожных карт\") реализации механизма управления системными изменениями нормативно-правового регулирования предпринимательской деятельности \"трансформация дел",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic64",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "мониторинг",
+      "context": "вого климата\" новыми мероприятиями в целях снижения административной нагрузки при ведении бизнеса и обеспечен мониторинг исполнения мероприятий 7 \"дорожных карт\" механизма \"трансформация делового климата\" в сферах корпоративного у",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic65",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "управления",
+      "context": "г исполнения мероприятий 7 \"дорожных карт\" механизма \"трансформация делового климата\" в сферах корпоративного управления, экспорта товаров и услуг, интеллектуальной собственности, новых видов предпринимательской деятельности, реин",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic66",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "оценка",
+      "context": "й о государственно-частном (муниципально-частном) партнерстве составит к 2030 г. не менее 1 500 ед. проведена оценка результатов привлечения инвестиций через механизм защиты и поощрения капиталовложений обобщена информация о п",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic67",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "мониторинга",
+      "context": "ения процессов заключения соглашений о защите и поощрении капиталовложений, изменения, прекращения действия и мониторинга данных соглашений, а также обеспечение механизма возмещения затрат, предусмотренного соглашения о защите и по",
+      "unit_id": "fp_313:profile12",
+      "unit_ids": [
+        "fp_313:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[8]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic68",
+      "document_id": "fp_313",
+      "frame": "governance_evidence",
+      "matched": "мониторинг",
+      "context": "ейся к соглашениям о защите и поощрении капиталовложений (сзпк), обмен этой информацией между пользователями, мониторинг исполнения условий сзпк, возможность получения государственными органами информации, необходимой для осуществ",
+      "unit_id": "fp_313:profile15",
+      "unit_ids": [
+        "fp_313:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[11]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic69",
+      "document_id": "fp_313",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "я организация (вэб.рф). в гис содержится информация о 74 заключенных сзпк. обеспечено финансирование проектов технологического суверенитета и структурной адаптации экономики российской федерации (общая стоимость проектов) созданы услови",
+      "unit_id": "fp_313:profile16",
+      "unit_ids": [
+        "fp_313:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[12]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic70",
+      "document_id": "fp_313",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "й адаптации экономики российской федерации (общая стоимость проектов) созданы условия для реализации проектов технологического суверенитета и структурной адаптации экономики российской федерации путем внесения изменений в нормативно-пра",
+      "unit_id": "fp_313:profile16",
+      "unit_ids": [
+        "fp_313:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[12]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic71",
+      "document_id": "fp_313",
+      "frame": "science_innovation",
+      "matched": "технологического",
+      "context": "оссийской федерации путем внесения изменений в нормативно-правовую базу стимулирующих финансирование проектов технологического суверенитета и структурной адаптации экономики. сокращение удельных издержек строительства групп промышленных",
+      "unit_id": "fp_313:profile16",
+      "unit_ids": [
+        "fp_313:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[12]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_313:kwic72",
+      "document_id": "fp_313",
+      "frame": "tourism",
+      "matched": "туризма",
+      "context": "обственности, новых видов предпринимательской деятельности, реинжиниринга правил промышленного строительства, туризма и иных направлениях. к концу 2030 года планируется сократить более 450 барьеров (накопленным итогом). созданы",
+      "unit_id": "fp_313:profile9",
+      "unit_ids": [
+        "fp_313:profile9"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[5]"
+      ],
+      "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582",
+      "source_url": "https://databudget.ru/projects/fp/313",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/313",
+  "source_sha256": "0303a11c40098bc5818017e05990226156c76d35d6204ef28cdc3de7970c8582"
+}

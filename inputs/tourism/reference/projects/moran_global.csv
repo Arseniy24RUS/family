@@ -1,0 +1,2 @@
+﻿slice_id,source_id,period_end,frequency,moran_I,expected_I,p_permutation,z_permutation,n_regions,n_islands,permutations,test,q_bh
+bb4b22749074c4955bd6,62900,2026-09-30,monthly,0.1489289089282624,-0.011904761904761904,0.028,2.3600518081975035,85,0,999,two-sided centred at randomisation expectation,0.06569230769230769

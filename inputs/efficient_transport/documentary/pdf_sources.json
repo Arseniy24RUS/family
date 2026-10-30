@@ -1,0 +1,28 @@
+[
+  {
+    "document_id": "pdf:1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c",
+    "project_id": "efficient_transport",
+    "source_sha256": "1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c",
+    "source_kind": "pdf_archive",
+    "document_level": "other",
+    "title": "Эффективная транспортная система | presentation | 1375cb1c",
+    "source_url": "https://admkogalym.ru/upload/medialibrary/c46/d949n1dqnmuxytcqwr9351v7l6xfwnn8/34_vn_248_25_11.pdf",
+    "local_file": "corpus/data/pdfs/13/1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c.pdf",
+    "source_version": "sha256:1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c | retrieved:2026-10-19T11:42:20Z",
+    "genre": "presentation",
+    "input_token_count": 219,
+    "profile_status": "included_separate_pdf_genre",
+    "source_period": "",
+    "publisher_version": "",
+    "snapshot_at": "2026-10-19T11:42:20Z",
+    "page_count": 4,
+    "hash_kind": "source_file_bytes",
+    "local_file_sha256": "1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c",
+    "profile_token_count": 210,
+    "profile_text_sha256": "a25e5e2332226b0d19ddd373886c764af1fe76bcd3a6c58bd6ed7f7389ab37ef",
+    "download_url": "downloads/projects/efficient_transport/documentary/sources/1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c.pdf",
+    "sha256": "1375cb1c25d8bd104945d55d63816569afee90345140f52f278f6d8a6cb9667c",
+    "qualification": "Архивная презентация, 4 страницы. Используется как историческое свидетельство. Не заменяет паспортную редакцию 16.10.2026 и не входит в однотипный межпроектный набор HTML.",
+    "used_for_same_genre_tfidf": false
+  }
+]

@@ -1,0 +1,1149 @@
+{
+  "document": {
+    "project_id": "competitive_economy",
+    "kind": "fp",
+    "id": "fp_324",
+    "url": "https://databudget.ru/projects/fp/324",
+    "sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+    "retrieved_at": "2026-10-19T14:39:00.410527+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/c2/c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5.html",
+    "document_id": "fp_324",
+    "code": "Э5",
+    "title": "[Э5] Развитие финансового рынка",
+    "publisher_version": "26.8",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 646,
+    "n_tokens": 646,
+    "source_url": "https://databudget.ru/projects/fp/324",
+    "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+    "profile_text_sha256": "f8792c7fe9220e0eb6b652dbdd1fdba4ac7c4667a6c469af6261c916f6555978",
+    "archive_entry": "competitive_economy/fp_324.html",
+    "bytes": 839908,
+    "download_path": "downloads/projects/competitive_economy/documentary/sources/fp_324.html",
+    "profile_original_document_id": "html:c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_324:profile1",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "увеличено отношение капитализации российского рынка акций к ввп",
+      "node_id": "fp_324:passport-task-32:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 7,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile2",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "task",
+      "text": "увеличена доля инвестиционных продуктов в сбережениях граждан путем привлечения граждан на финансовый рынок",
+      "node_id": "fp_324:passport-task-34:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 12,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile3",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "goal",
+      "text": "обеспечение роста капитализации фондового рынка не менее чем до 66 процентов валового внутреннего продукта к 2030 году и до 75 процентов валового внутреннего продукта к 2036 году, доля долгосрочных сбережений граждан в общем объеме их сбережений не менее чем до 40 процентов к 2030 году и до 45 процентов к 2036 году, в том числе за счет создания условий, стимулирующих компании (в том числе с государственным участием) к публичному размещению, и обеспечения системы гарантирования по инструментам долгосрочного инвестирования (сбережения), а также за счет информационно-просветительской работы по популяризации российского фондового рынка.",
+      "node_id": "fp_324:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 69,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile4",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечен первоначальный этап проработки вопроса о публичном размещении акций компаний с государственным участием на фондовом рынке первоначальный этап проработки вопроса о публичном размещении акций компаний с государственным участием на фондовом рынке запущен",
+      "node_id": "fp_324:passport-result-1:afaf57dfc746f9f4",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[1]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 28,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile5",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "созданы условия для привлечения новых иностранных инвестиций предоставление нерезидентам и подконтрольным им лицам возможности без дополнительных разрешений использовать денежные средства со счетов, открытых в российских кредитных организациях (кроме специальных счетов, например, типа \"с\"), и (или) денежные средства, поступившие из-за рубежа после определенного момента времени, в целях обеспечения возможности осуществления нерезидентами инвестиций в российскую экономику, в том числе на фондовом рынке",
+      "node_id": "fp_324:passport-result-7:ab4839ae6f87cf77",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 53,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile6",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечен первоначальный этап проработки вопроса о проведении процедуры приватизации компаний с государственным участием посредством публичного размещения акций на организованных торгах первоначальный этап проработки вопроса о проведении процедуры приватизации компаний с государственным участием посредством публичного размещения акций на организованных торгах запущен",
+      "node_id": "fp_324:passport-result-13:3f0fefc72237025b",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[3]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 36,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile7",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечен первоначальный этап проработки вопроса о расширении практики обращения на организованных торгах акций дочерних и зависимых обществ организаций с государственным участием первоначальный этап проработки вопроса о расширении практики обращения на организованных торгах акций дочерних и зависимых обществ организаций с государственным участием запущен",
+      "node_id": "fp_324:passport-result-7:215fd1b309336df8",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[4]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 36,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile8",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "установлено правовое регулирование программ долгосрочной мотивации в публичных акционерных обществах разработан и утвержден федеральный закон, устанавливающий правовое регулирование программ долгосрочной мотивации в публичных акционерных обществах",
+      "node_id": "fp_324:passport-result-7:15afe96c437323a1",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[5]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 22,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile9",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено публичное размещение акций компаний с государственным участием и (или) их дочерних и зависимых обществ на фондовом рынке, в том числе путем приватизации посредством публичного размещения акций на организованных торгах обеспечено утверждение (согласование) плана по размещению акций компаний с государственным участием и (или) их дочерних и зависимых обществ на фондовом рынке, в том числе путем приватизации посредством публичного размещения акций на организованных торгах, на общую сумму не менее 30 млрд рублей.",
+      "node_id": "fp_324:passport-result-13:4f0b6b7180db15a0",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[6]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 62,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile10",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "проведена информационно-просветительская работа для компаний о преимуществах и доступности фондового рынка проведен цикл мероприятий (не менее 2), направленных на вовлечение компаний реального сектора в использование инструментов фондового рынка. дополнительно проведена работа по снижению неопределенности среди потенциальных эмитентов (размещены видео-семинары на платформе консультантплюс).",
+      "node_id": "fp_324:passport-result-8:ffd4fbec20ef1ea8",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 38,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile11",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "усовершенствованы системы мотивации должностных лиц руководящего состава организаций с государственным участием, акции которых обращаются на организованных торгах внедрена система показателей эффективности деятельности организаций с государственным участием, которая используются в целях определения размера вознаграждения руководящего состава таких организаций, показателей, направленных на увеличение их капитализации",
+      "node_id": "fp_324:passport-result-7:6a47f814c17b9f63",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[8]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 40,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile12",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "созданы дополнительные стимулы для компаний, осуществляющих публичное размещение акций проведено мероприятие (не менее 1) с участием представителей бизнес-сообществ для сбора предложений в отношении новых стимулов для компаний, осуществляющих публичное размещение акций на российском фондовом рынке.",
+      "node_id": "fp_324:passport-result-8:dd32e55a71fc26a7",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 32,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile13",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "привлечены работодатели к участию в программе долгосрочных сбережений софинансирование пдс от работодателя. предоставление налоговых преференций работодателям в целях их стимулирования к участию в формировании средств по программе долгосрочных сбережений в пользу своих сотрудников, а также предусмотрены условия участия работодателей в программе долгосрочных сбережений",
+      "node_id": "fp_324:passport-result-7:78bfc1ca94ccd7d4",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 35,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile14",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "проведена информационно-просветительская работа для граждан по вопросу способов и преимуществ инвестирования на российском фондовом рынке организация государственной информационной кампании по популяризации инвестиций в фондовый рынок. информационная кампания, направленная на повышение осведомленности населения о возможностях инвестирования в долгосрочные инструменты.",
+      "node_id": "fp_324:passport-result-7:b75161c468313e30",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 34,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile15",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "обеспечено формирование системы гарантирования прав по договорам страхования жизни формирование системы гарантирования по договорам добровольного страхования жизни (дсж) в целях защиты прав и законных интересов страхователей - физических лиц в случае отзыва лицензии у страховщика",
+      "node_id": "fp_324:passport-result-24:7a30646fb7ccde1c",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 30,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile16",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "result",
+      "text": "усовершенствована система защиты прав граждан при осуществлении долгосрочных инвестиций на фондовом рынке создание механизма компенсирования стоимости имущества, учитываемого на иис третьего типа, с установлением максимальной суммы компенсационной выплаты в размере до 1,4 миллиона рублей",
+      "node_id": "fp_324:passport-result-7:32ff066a732b5af2",
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[13]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 31,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile17",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "количество публичных размещений компаний на российском фондовом рынке",
+      "node_id": "fp_324:passport-purpose-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile18",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "доля средств физических лиц в паевых инвестиционных фондах и доверительном управлении в суммарном объеме средств в паевых инвестиционных фондах, доверительном управлении и на брокерском обслуживании",
+      "node_id": "fp_324:passport-purpose-2:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 20,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile19",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "совокупный объем средств в программе долгосрочных сбережений, на индивидуальных инвестиционных счетах и в долевом страховании жизни",
+      "node_id": "fp_324:passport-purpose-3:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 13,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile20",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "объем капитализации фондового рынка относительно ввп",
+      "node_id": "fp_324:passport-purpose-4:72821f34f9410810",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 6,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile21",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "доля активов небанковских финансовых организаций к валовому внутреннему продукту",
+      "node_id": "fp_324:passport-purpose-5:40e4a8a3cec0d7be",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[5]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile22",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "объем публичных размещений акций компаний на российском фондовом рынке",
+      "node_id": "fp_324:passport-purpose-6:5f9e06f4f59d539a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[6]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile23",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "доля долгосрочных сбережений граждан в общем объеме их сбережений",
+      "node_id": "fp_324:passport-purpose-7:5f3b1b5d4a254584",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[7]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 8,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_324:profile24",
+      "document_id": "fp_324",
+      "project_id": "competitive_economy",
+      "kind": "indicator",
+      "text": "объем публичных размещений государственных компаний на российском фондовом рынке",
+      "node_id": "fp_324:passport-purpose-8:491f51d9b75788bb",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[8]",
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "n_tokens": 9,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_324:kwic1",
+      "document_id": "fp_324",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "сумму не менее 30 млрд рублей. проведена информационно-просветительская работа для компаний о преимуществах и доступности фондового рынка проведен цикл мероприятий (не менее 2), направленных на вовлечение компаний реального сектора",
+      "unit_id": "fp_324:profile10",
+      "unit_ids": [
+        "fp_324:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic2",
+      "document_id": "fp_324",
+      "frame": "access_rights",
+      "matched": "прав",
+      "context": "ения о возможностях инвестирования в долгосрочные инструменты. обеспечено формирование системы гарантирования прав по договорам страхования жизни формирование системы гарантирования по договорам добровольного страхования жиз",
+      "unit_id": "fp_324:profile15",
+      "unit_ids": [
+        "fp_324:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic3",
+      "document_id": "fp_324",
+      "frame": "access_rights",
+      "matched": "прав",
+      "context": "я жизни формирование системы гарантирования по договорам добровольного страхования жизни (дсж) в целях защиты прав и законных интересов страхователей - физических лиц в случае отзыва лицензии у страховщика усовершенствована ",
+      "unit_id": "fp_324:profile15",
+      "unit_ids": [
+        "fp_324:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic4",
+      "document_id": "fp_324",
+      "frame": "access_rights",
+      "matched": "прав",
+      "context": "ересов страхователей - физических лиц в случае отзыва лицензии у страховщика усовершенствована система защиты прав граждан при осуществлении долгосрочных инвестиций на фондовом рынке создание механизма компенсирования стоимо",
+      "unit_id": "fp_324:profile16",
+      "unit_ids": [
+        "fp_324:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[13]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic5",
+      "document_id": "fp_324",
+      "frame": "employment_skills",
+      "matched": "работодатели",
+      "context": "вых стимулов для компаний, осуществляющих публичное размещение акций на российском фондовом рынке. привлечены работодатели к участию в программе долгосрочных сбережений софинансирование пдс от работодателя. предоставление налоговых ",
+      "unit_id": "fp_324:profile13",
+      "unit_ids": [
+        "fp_324:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic6",
+      "document_id": "fp_324",
+      "frame": "employment_skills",
+      "matched": "работодателя",
+      "context": "фондовом рынке. привлечены работодатели к участию в программе долгосрочных сбережений софинансирование пдс от работодателя. предоставление налоговых преференций работодателям в целях их стимулирования к участию в формировании средст",
+      "unit_id": "fp_324:profile13",
+      "unit_ids": [
+        "fp_324:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic7",
+      "document_id": "fp_324",
+      "frame": "employment_skills",
+      "matched": "работодателям",
+      "context": " программе долгосрочных сбережений софинансирование пдс от работодателя. предоставление налоговых преференций работодателям в целях их стимулирования к участию в формировании средств по программе долгосрочных сбережений в пользу свои",
+      "unit_id": "fp_324:profile13",
+      "unit_ids": [
+        "fp_324:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic8",
+      "document_id": "fp_324",
+      "frame": "employment_skills",
+      "matched": "работодателей",
+      "context": "редств по программе долгосрочных сбережений в пользу своих сотрудников, а также предусмотрены условия участия работодателей в программе долгосрочных сбережений проведена информационно-просветительская работа для граждан по вопросу сп",
+      "unit_id": "fp_324:profile13",
+      "unit_ids": [
+        "fp_324:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic9",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "увеличено отношение капитализации российского рынка акций к ввп увеличена доля инвестиционных продуктов в сбережениях граждан путем привлечения граждан на финансовый рынок обеспечение роста капитализации",
+      "unit_id": "fp_324:profile2",
+      "unit_ids": [
+        "fp_324:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic10",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "мпаний с государственным участием на фондовом рынке запущен созданы условия для привлечения новых иностранных инвестиций предоставление нерезидентам и подконтрольным им лицам возможности без дополнительных разрешений использовать ",
+      "unit_id": "fp_324:profile5",
+      "unit_ids": [
+        "fp_324:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic11",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "из-за рубежа после определенного момента времени, в целях обеспечения возможности осуществления нерезидентами инвестиций в российскую экономику, в том числе на фондовом рынке обеспечен первоначальный этап проработки вопроса о пров",
+      "unit_id": "fp_324:profile5",
+      "unit_ids": [
+        "fp_324:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic12",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "паний, осуществляющих публичное размещение акций проведено мероприятие (не менее 1) с участием представителей бизнес-сообществ для сбора предложений в отношении новых стимулов для компаний, осуществляющих публичное размещение ",
+      "unit_id": "fp_324:profile12",
+      "unit_ids": [
+        "fp_324:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic13",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "естирования на российском фондовом рынке организация государственной информационной кампании по популяризации инвестиций в фондовый рынок. информационная кампания, направленная на повышение осведомленности населения о возможностях",
+      "unit_id": "fp_324:profile14",
+      "unit_ids": [
+        "fp_324:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic14",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ае отзыва лицензии у страховщика усовершенствована система защиты прав граждан при осуществлении долгосрочных инвестиций на фондовом рынке создание механизма компенсирования стоимости имущества, учитываемого на иис третьего типа, ",
+      "unit_id": "fp_324:profile16",
+      "unit_ids": [
+        "fp_324:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[13]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic15",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "ей количество публичных размещений компаний на российском фондовом рынке доля средств физических лиц в паевых инвестиционных фондах и доверительном управлении в суммарном объеме средств в паевых инвестиционных фондах, доверительном уп",
+      "unit_id": "fp_324:profile18",
+      "unit_ids": [
+        "fp_324:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic16",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": " физических лиц в паевых инвестиционных фондах и доверительном управлении в суммарном объеме средств в паевых инвестиционных фондах, доверительном управлении и на брокерском обслуживании совокупный объем средств в программе долгосрочн",
+      "unit_id": "fp_324:profile18",
+      "unit_ids": [
+        "fp_324:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic17",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": " и на брокерском обслуживании совокупный объем средств в программе долгосрочных сбережений, на индивидуальных инвестиционных счетах и в долевом страховании жизни объем капитализации фондового рынка относительно ввп доля активов небанк",
+      "unit_id": "fp_324:profile19",
+      "unit_ids": [
+        "fp_324:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic18",
+      "document_id": "fp_324",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "ий с государственным участием, акции которых обращаются на организованных торгах внедрена система показателей эффективности деятельности организаций с государственным участием, которая используются в целях определения размера вознагр",
+      "unit_id": "fp_324:profile11",
+      "unit_ids": [
+        "fp_324:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[8]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic19",
+      "document_id": "fp_324",
+      "frame": "governance_evidence",
+      "matched": "управлении",
+      "context": "паний на российском фондовом рынке доля средств физических лиц в паевых инвестиционных фондах и доверительном управлении в суммарном объеме средств в паевых инвестиционных фондах, доверительном управлении и на брокерском обслужива",
+      "unit_id": "fp_324:profile18",
+      "unit_ids": [
+        "fp_324:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic20",
+      "document_id": "fp_324",
+      "frame": "governance_evidence",
+      "matched": "управлении",
+      "context": "ых фондах и доверительном управлении в суммарном объеме средств в паевых инвестиционных фондах, доверительном управлении и на брокерском обслуживании совокупный объем средств в программе долгосрочных сбережений, на индивидуальных ",
+      "unit_id": "fp_324:profile18",
+      "unit_ids": [
+        "fp_324:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic21",
+      "document_id": "fp_324",
+      "frame": "income_support",
+      "matched": "выплаты",
+      "context": "ия стоимости имущества, учитываемого на иис третьего типа, с установлением максимальной суммы компенсационной выплаты в размере до 1,4 миллиона рублей количество публичных размещений компаний на российском фондовом рынке доля с",
+      "unit_id": "fp_324:profile16",
+      "unit_ids": [
+        "fp_324:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[13]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_324:kwic1",
+      "document_id": "fp_324",
+      "frame": "access_rights",
+      "matched": "доступности",
+      "context": "сумму не менее 30 млрд рублей. проведена информационно-просветительская работа для компаний о преимуществах и доступности фондового рынка проведен цикл мероприятий (не менее 2), направленных на вовлечение компаний реального сектора",
+      "unit_id": "fp_324:profile10",
+      "unit_ids": [
+        "fp_324:profile10"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[7]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[7]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic2",
+      "document_id": "fp_324",
+      "frame": "access_rights",
+      "matched": "прав",
+      "context": "ения о возможностях инвестирования в долгосрочные инструменты. обеспечено формирование системы гарантирования прав по договорам страхования жизни формирование системы гарантирования по договорам добровольного страхования жиз",
+      "unit_id": "fp_324:profile15",
+      "unit_ids": [
+        "fp_324:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic3",
+      "document_id": "fp_324",
+      "frame": "access_rights",
+      "matched": "прав",
+      "context": "я жизни формирование системы гарантирования по договорам добровольного страхования жизни (дсж) в целях защиты прав и законных интересов страхователей - физических лиц в случае отзыва лицензии у страховщика усовершенствована ",
+      "unit_id": "fp_324:profile15",
+      "unit_ids": [
+        "fp_324:profile15"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[12]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[12]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic4",
+      "document_id": "fp_324",
+      "frame": "access_rights",
+      "matched": "прав",
+      "context": "ересов страхователей - физических лиц в случае отзыва лицензии у страховщика усовершенствована система защиты прав граждан при осуществлении долгосрочных инвестиций на фондовом рынке создание механизма компенсирования стоимо",
+      "unit_id": "fp_324:profile16",
+      "unit_ids": [
+        "fp_324:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[13]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic5",
+      "document_id": "fp_324",
+      "frame": "employment_skills",
+      "matched": "работодатели",
+      "context": "вых стимулов для компаний, осуществляющих публичное размещение акций на российском фондовом рынке. привлечены работодатели к участию в программе долгосрочных сбережений софинансирование пдс от работодателя. предоставление налоговых ",
+      "unit_id": "fp_324:profile13",
+      "unit_ids": [
+        "fp_324:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic6",
+      "document_id": "fp_324",
+      "frame": "employment_skills",
+      "matched": "работодателя",
+      "context": "фондовом рынке. привлечены работодатели к участию в программе долгосрочных сбережений софинансирование пдс от работодателя. предоставление налоговых преференций работодателям в целях их стимулирования к участию в формировании средст",
+      "unit_id": "fp_324:profile13",
+      "unit_ids": [
+        "fp_324:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic7",
+      "document_id": "fp_324",
+      "frame": "employment_skills",
+      "matched": "работодателям",
+      "context": " программе долгосрочных сбережений софинансирование пдс от работодателя. предоставление налоговых преференций работодателям в целях их стимулирования к участию в формировании средств по программе долгосрочных сбережений в пользу свои",
+      "unit_id": "fp_324:profile13",
+      "unit_ids": [
+        "fp_324:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic8",
+      "document_id": "fp_324",
+      "frame": "employment_skills",
+      "matched": "работодателей",
+      "context": "редств по программе долгосрочных сбережений в пользу своих сотрудников, а также предусмотрены условия участия работодателей в программе долгосрочных сбережений проведена информационно-просветительская работа для граждан по вопросу сп",
+      "unit_id": "fp_324:profile13",
+      "unit_ids": [
+        "fp_324:profile13"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[10]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[10]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic9",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "увеличено отношение капитализации российского рынка акций к ввп увеличена доля инвестиционных продуктов в сбережениях граждан путем привлечения граждан на финансовый рынок обеспечение роста капитализации",
+      "unit_id": "fp_324:profile2",
+      "unit_ids": [
+        "fp_324:profile2"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic10",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "мпаний с государственным участием на фондовом рынке запущен созданы условия для привлечения новых иностранных инвестиций предоставление нерезидентам и подконтрольным им лицам возможности без дополнительных разрешений использовать ",
+      "unit_id": "fp_324:profile5",
+      "unit_ids": [
+        "fp_324:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic11",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "из-за рубежа после определенного момента времени, в целях обеспечения возможности осуществления нерезидентами инвестиций в российскую экономику, в том числе на фондовом рынке обеспечен первоначальный этап проработки вопроса о пров",
+      "unit_id": "fp_324:profile5",
+      "unit_ids": [
+        "fp_324:profile5"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic12",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "бизнес",
+      "context": "паний, осуществляющих публичное размещение акций проведено мероприятие (не менее 1) с участием представителей бизнес-сообществ для сбора предложений в отношении новых стимулов для компаний, осуществляющих публичное размещение ",
+      "unit_id": "fp_324:profile12",
+      "unit_ids": [
+        "fp_324:profile12"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[9]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[9]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic13",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "естирования на российском фондовом рынке организация государственной информационной кампании по популяризации инвестиций в фондовый рынок. информационная кампания, направленная на повышение осведомленности населения о возможностях",
+      "unit_id": "fp_324:profile14",
+      "unit_ids": [
+        "fp_324:profile14"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[11]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[11]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic14",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиций",
+      "context": "ае отзыва лицензии у страховщика усовершенствована система защиты прав граждан при осуществлении долгосрочных инвестиций на фондовом рынке создание механизма компенсирования стоимости имущества, учитываемого на иис третьего типа, ",
+      "unit_id": "fp_324:profile16",
+      "unit_ids": [
+        "fp_324:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[13]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic15",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": "ей количество публичных размещений компаний на российском фондовом рынке доля средств физических лиц в паевых инвестиционных фондах и доверительном управлении в суммарном объеме средств в паевых инвестиционных фондах, доверительном уп",
+      "unit_id": "fp_324:profile18",
+      "unit_ids": [
+        "fp_324:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic16",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": " физических лиц в паевых инвестиционных фондах и доверительном управлении в суммарном объеме средств в паевых инвестиционных фондах, доверительном управлении и на брокерском обслуживании совокупный объем средств в программе долгосрочн",
+      "unit_id": "fp_324:profile18",
+      "unit_ids": [
+        "fp_324:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic17",
+      "document_id": "fp_324",
+      "frame": "enterprise_industry",
+      "matched": "инвестиционных",
+      "context": " и на брокерском обслуживании совокупный объем средств в программе долгосрочных сбережений, на индивидуальных инвестиционных счетах и в долевом страховании жизни объем капитализации фондового рынка относительно ввп доля активов небанк",
+      "unit_id": "fp_324:profile19",
+      "unit_ids": [
+        "fp_324:profile19"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[3]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic18",
+      "document_id": "fp_324",
+      "frame": "governance_evidence",
+      "matched": "эффективности",
+      "context": "ий с государственным участием, акции которых обращаются на организованных торгах внедрена система показателей эффективности деятельности организаций с государственным участием, которая используются в целях определения размера вознагр",
+      "unit_id": "fp_324:profile11",
+      "unit_ids": [
+        "fp_324:profile11"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[8]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[8]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic19",
+      "document_id": "fp_324",
+      "frame": "governance_evidence",
+      "matched": "управлении",
+      "context": "паний на российском фондовом рынке доля средств физических лиц в паевых инвестиционных фондах и доверительном управлении в суммарном объеме средств в паевых инвестиционных фондах, доверительном управлении и на брокерском обслужива",
+      "unit_id": "fp_324:profile18",
+      "unit_ids": [
+        "fp_324:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic20",
+      "document_id": "fp_324",
+      "frame": "governance_evidence",
+      "matched": "управлении",
+      "context": "ых фондах и доверительном управлении в суммарном объеме средств в паевых инвестиционных фондах, доверительном управлении и на брокерском обслуживании совокупный объем средств в программе долгосрочных сбережений, на индивидуальных ",
+      "unit_id": "fp_324:profile18",
+      "unit_ids": [
+        "fp_324:profile18"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[2]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_324:kwic21",
+      "document_id": "fp_324",
+      "frame": "income_support",
+      "matched": "выплаты",
+      "context": "ия стоимости имущества, учитываемого на иис третьего типа, с установлением максимальной суммы компенсационной выплаты в размере до 1,4 миллиона рублей количество публичных размещений компаний на российском фондовом рынке доля с",
+      "unit_id": "fp_324:profile16",
+      "unit_ids": [
+        "fp_324:profile16"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[1]/div/div/details[13]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[1]/div/div/details[13]"
+      ],
+      "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5",
+      "source_url": "https://databudget.ru/projects/fp/324",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/324",
+  "source_sha256": "c249f7e009dc19ad2cee7e574139643f56668f96cc859e64ca6ca385694efce5"
+}

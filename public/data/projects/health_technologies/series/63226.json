@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "health_technologies",
+  "source_id": "63226",
+  "title": "Доля граждан, получивших доступ к новым технологиям регенеративной биомедицины, превентивной медицины и обеспечения активного и здорового долголетия, из числа обратившихся в организации-участники федерального проекта",
+  "unit": "процент",
+  "origin_kind": "no_numeric_publication_recovered",
+  "direct_emiss_verified": false,
+  "published_at": null,
+  "acquired_at": null,
+  "snapshot_id": null,
+  "observations": []
+}

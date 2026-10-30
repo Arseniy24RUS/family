@@ -1,0 +1,205 @@
+{
+  "reviewer": "independent dataeconomy semantic reviewer",
+  "timestamp_utc": "2026-10-29T18:00:03.107011+00:00",
+  "release": "2.8.0-dataeconomy.1",
+  "scope": "Semantic consistency of source, derived data and UI; no duplicated raw finance/source audit",
+  "production_files_modified_by_reviewer": false,
+  "external_fetches": 0,
+  "findings": [
+    {
+      "id": "SEM-01",
+      "severity": "medium",
+      "status": "resolved_verified",
+      "path": "src/pages/dataeconomy.js",
+      "symbol": "differenceUnit",
+      "location": "line 245 at review",
+      "problem": "Процентная единица индексов 62751, 62857 и 62811 ошибочно превращалась в процентные пункты при выводе изменений.",
+      "remedy": "Явная единица разности имеет приоритет; подтверждённые индексы получают п. индекса, доли — п.п.",
+      "verification": "Импорт реального UI-модуля и фактических source records: 62751/62857/62811 -> п. индекса; 62815 -> п.п."
+    },
+    {
+      "id": "SEM-02",
+      "severity": "low",
+      "status": "resolved_verified",
+      "path": "src/pages/dataeconomy.js",
+      "symbols": [
+        "seriesGroups",
+        "matchedPeriodChanges"
+      ],
+      "problem": "Литерал rf_without_new_subjects_from_2023 не совпадал с реальным контрактом rf_excluding_new_subjects_since_2023.",
+      "impact": "Исходное название территории сохранялось, рядов до 2023 года в текущем наборе нет; нынешние числовые выводы не изменялись.",
+      "remedy": "Поддержать канонический литерал, сохранив совместимость со старым.",
+      "verification": "Реальные ряды 63143/63144/63145 теперь получают явную легенду РФ без новых субъектов; 63144 отдельно отображает методические режимы."
+    },
+    {
+      "id": "SEM-03",
+      "severity": "medium",
+      "status": "resolved_verified",
+      "path": "src/pages/dataeconomy.js",
+      "symbol": "finance",
+      "problem": "В бюджетном срезе 2028/2029 по всем ФП счётчик показывал 0 нераскрытых ячеек, хотя целая строка Ц1 отсутствует.",
+      "remedy": "Учитывать budgetBill.missingProjectRows по выбранным году и ФП; отдельно показывать отсутствующие строки с null и пояснением.",
+      "verification": "Код учитывает отсутствующие строки в счётчике и выводит отдельную таблицу; фактический budgetBill.missingProjectRows содержит Ц1 за 2026,2027,2028,2029 с amount_million_rub=null."
+    },
+    {
+      "id": "SEM-04",
+      "severity": "high",
+      "status": "resolved_verified",
+      "paths": [
+        "scripts/dataeconomy_multivariate.py",
+        "scripts/validate_dataeconomy.mjs"
+      ],
+      "symbols": [
+        "_build",
+        "validateDataeconomyMultivariate"
+      ],
+      "problem": "Идентичность эталонных входов проверялась только для текущей матрицы, но тот же условный блок включал проверку временных метрик. Легитимная ревизия предыдущего месяца ошибочно становилась дефектом численной среды и блокировала обновление.",
+      "reproduction_file": "semantic-previous-period-revision.json",
+      "reproduction": "Изменена только августовская ячейка 62766, регион22, 55.66 -> 55.76 в изолированной копии. Сентябрь сохранён. reference_input_identical=true, passed=false, status=numerical_environment_or_method_difference; упали обе временные PCA-метрики.",
+      "remedy": "Проверять идентичность baseline и temporal отдельно; применять эталонные проверки только к идентичным входам. Внешний статус изменения истории должен отличаться от численного расхождения на одинаковых данных.",
+      "verification": "Reviewed exact keyed baseline and temporal identity implementation; revised August fixture now has baseline=true, temporal=false, joint=false, 159/159 baseline checks passed, status=current_input_differs_from_reference. Independently ran final JS arithmetic validator on fixture: passed."
+    },
+    {
+      "id": "SEM-05",
+      "severity": "medium",
+      "status": "resolved_verified",
+      "path": "scripts/validate_dataeconomy.mjs",
+      "symbol": "validateDataeconomyMultivariate",
+      "problem": "Валидатор безусловно вычисляет silhouette и требует rows.cluster===labels даже когда допустимого базового разбиения нет. Python контракт k=0 содержит labels=0, rows.cluster=null, silhouette=null. При существующем разбиении seed-run и отсутствующем baseline ARI также должен быть null.",
+      "remedy": "Проверять численный silhouette только для k>=2; для k=0 проверять нулевые служебные labels, null display cluster/silhouette; ARI вычислять только при наличии обоих разбиений.",
+      "impact": "Текущий baseline k=2 корректен; дефект касался допустимого будущего состояния обновлённых данных.",
+      "verification": "Independently ran final JS arithmetic validator on real August fixture: baseline_k=0, silhouette=null, all display clusters null, two eligible feature omissions with null ARI against absent baseline. Passed without weakening checks for computed values."
+    },
+    {
+      "id": "SEM-06",
+      "severity": "low",
+      "status": "resolved_verified",
+      "path": "scripts/build_dataeconomy_analytics.py",
+      "location": "module docstring, lines 5-7",
+      "problem": "Описание утверждало отсутствие кластеризации и импутации, хотя они выполняются в отдельной многомерной матрице.",
+      "remedy": "Уточнить, что исходные ряды не заполняются; модельные PCA/кластеры и матричное заполнение отдельны; прогноз и причинный эффект не оцениваются.",
+      "verification": "Read updated module docstring: raw series/maps not imputed; separate matrix/PCA/clustering with sensitivity explicitly described; no forecast or causal effect claim."
+    },
+    {
+      "id": "SEM-07",
+      "severity": "medium",
+      "status": "resolved_verified",
+      "path": "src/pages/dataeconomy.js",
+      "symbol": "multivariateView",
+      "problem": "При no_earlier_complete_panel интерфейс показывал отсутствие допустимого разбиения обоих месяцев, хотя временная проверка вовсе не проводилась. Верхнеуровневые no_common_publication_period / insufficient_observed_matrix / constant_feature имели только общее сообщение без причины.",
+      "remedy": "Отдельные причины отсутствия расчёта; временные метрики показывать только для temporal.status=computed. При отсутствии общей панели сохранить действительные baseline, seed и feature результаты.",
+      "verification": "multivariateUnavailable maps all three unavailable statuses; temporalComparisonPanel returns reasoned empty unless temporal.status is computed; baseline views remain available."
+    },
+    {
+      "id": "SEM-08",
+      "severity": "high",
+      "status": "resolved_verified",
+      "paths": [
+        "scripts/dataeconomy_multivariate.py",
+        "scripts/build_dataeconomy_analytics.py"
+      ],
+      "problem": "Early return при недоступности метода не перезаписывал public multivariate.json и CSV предыдущего расчёта. Текущие ссылки и methodology-статусы продолжали предлагать прежний computed результат.",
+      "remedy": "Единая финализация всех предусмотренных статусов: status JSON, очищенные CSV с причиной отсутствия, применимые ссылки и реальные method statuses. Исходные ряды не меняются.",
+      "impact": "Обнаружено при согласовании поддержки root-валидатором предусмотренных состояний невозможности расчёта; текущий релизный computed набор согласован.",
+      "verification": "Independently seeded obsolete computed JSON and all six CSV files in isolated root, removed one feature source, rebuilt no_common_publication_period: status JSON and all six CSV files replaced correctly. analytics builder includes status JSON and suppresses matrix links unless computed; method statuses conditional."
+    },
+    {
+      "id": "SEM-09",
+      "severity": "medium",
+      "status": "resolved_verified",
+      "path": "src/pages/dataeconomy.js",
+      "symbol": "scenario",
+      "problem": "Ограничение сценария 0–100 определялось по доменному имени, поэтому игнорировало явный upper_bound=100 для 62814, 62816, 62761, 62815 (composite_index) и 63145 (reduction_percent). Ввод цели150 для62815 создавал путь за пределами области источника.",
+      "remedy": "Использовать явную верхнюю границу источника при проверке/полях сценария. Не ограничивать индексы62751/62857/62811 с upper_bound=null.",
+      "impact": "Фактические ряды и паспортные числа верны; проблема касалась ручной условной модели.",
+      "verification": "Imported real scenarioDomain/buildPlanScenario and all eight actual source records. Goal150 rejected for62814/62816/62761/62815/63145, accepted as conditional input for62751/62857/62811."
+    }
+  ],
+  "verified_contracts": {
+    "original_docx_sha256": "9327e9be19dc565d1175da75d14b2c7b657b52e985fc814ea1a0463faa8a801f",
+    "confirmed_sources": 48,
+    "independent_annual_records": 0,
+    "conditional_plan_comparisons": 44,
+    "formal_attainment_eligible": 0,
+    "annual_equivalent_sources": [
+      "62765",
+      "62767",
+      "62815"
+    ],
+    "blocked_unit_sources": {
+      "62868": {
+        "target_comparison_allowed": false,
+        "scenario_allowed": false,
+        "unit": "условная единица"
+      },
+      "62809": {
+        "target_comparison_allowed": false,
+        "scenario_allowed": false,
+        "unit": "в соответствии с ОКЕИ"
+      }
+    },
+    "quantum_latest": {
+      "62889": {
+        "published": 0.0,
+        "analytical": null,
+        "excluded_count": 4
+      },
+      "62830": {
+        "published": 0.0,
+        "analytical": null,
+        "excluded_count": 4
+      }
+    },
+    "regional_profiles": 7,
+    "comparable_national_benchmarks": 0,
+    "model_imputed_cells": 1,
+    "model_seed_eligible": 1,
+    "model_seed_total": 7,
+    "model_ranking_validated": false,
+    "finance_missing_budget_project_years": [
+      [
+        "Ц1",
+        2026
+      ],
+      [
+        "Ц1",
+        2027
+      ],
+      [
+        "Ц1",
+        2028
+      ],
+      [
+        "Ц1",
+        2029
+      ]
+    ],
+    "ui_raw_zero_table": "observationRows preserves source_value and analytical_value separately",
+    "ui_national_benchmark": "nationalBenchmarkAllowed strictly requires true; all current profile contracts false",
+    "ui_finance_orphans": "financeResults exposes orphan transfer cells; known parent sums qualified, no complete result-cost claim",
+    "ui_2031_2036_horizon": "excluded from common 2025-2030 sums and disclosed separately",
+    "ui_49th_registry_target": "targetSources constructs registry-only card with own indicator code and targetRows; no invented EMISS URL",
+    "ui_instability": "selected_k=0 displayed as no admissible grouping; outlier fractions described as algorithm run frequencies"
+  },
+  "limitations": [
+    "Original report is preserved as author evidence; primary method text remains incomplete and formal plan attainment remains uncertified.",
+    "Browser full suite belongs to UI agent; review verified code paths, actual JSON contracts and targeted pure-function/isolated model behavior.",
+    "Statistical and financial raw-cell audits were already performed independently by root and other agents and were not duplicated."
+  ],
+  "completed_utc": "2026-10-29T18:04:56.036653+00:00",
+  "review_status": "passed_after_fixes",
+  "unresolved_findings": [],
+  "regression_evidence": {
+    "before_temporal_identity_fix": "semantic-previous-period-revision.json",
+    "after_temporal_identity_fix": "previous_period_revision/multivariate.json",
+    "real_baseline_without_admissible_clusters": "august_baseline/multivariate.json",
+    "unavailable_replaces_stale_downloads": "semantic-unavailable-export-check.json"
+  },
+  "reviewed_file_hashes": {
+    "src/pages/dataeconomy.js": "97b0bee7778883f4bb728ff5f466b7d95c549a1cc449a27b4d532813c97c8f04",
+    "scripts/dataeconomy_multivariate.py": "185458638672ac3f3bd530bce4561f23be009d9d0cf34b0a9868eae485166d0e",
+    "scripts/build_dataeconomy_analytics.py": "1f0edd16289607e4c8a3049cae6fc23abd2926a4a4c08375cc22911d86041731",
+    "scripts/validate_dataeconomy.mjs": "aebd42e6eb53c88999440fbd43ca05d81309c19e4067dfaa94814e43f9f6f5f8"
+  },
+  "release_integration_note": "Root must include these final owner changes in rebuilt public/docs/package and complete assigned browser/release gates. This review did not run servers, restorers, or modify production repository files."
+}

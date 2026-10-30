@@ -1,0 +1,373 @@
+{
+  "document": {
+    "project_id": "data_economy",
+    "kind": "fp",
+    "id": "fp_337",
+    "url": "https://databudget.ru/projects/fp/337",
+    "sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+    "retrieved_at": "2026-10-19T14:38:52.829887+00:00",
+    "import_basis": "NationalProjects_Analytics_1.2.0",
+    "import_path": "corpus/data/web/55/55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091.html",
+    "document_id": "fp_337",
+    "code": "Ц1",
+    "title": "[Ц1] Инфраструктура доступа к информационно-телекоммуникационной сети \"Интернет\"",
+    "publisher_version": "26.11",
+    "publication_date": "16.10.2026",
+    "source_kind": "secondary_epbs_rendering",
+    "genre": "html_passport",
+    "document_level": "federal",
+    "profile_token_count": 294,
+    "n_tokens": 294,
+    "source_url": "https://databudget.ru/projects/fp/337",
+    "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+    "profile_text_sha256": "ac295e4407f4ec2b57d1365b8789ed9d78b3608d7768025f71bb15d4ee9a1ef9",
+    "archive_entry": "data_economy/fp_337.html",
+    "bytes": 1076264,
+    "archive_profile_token_count": 294,
+    "archive_profile_text_sha256": "87770443534905835cda22665bfea6565ff5721fb8eaf7ddfaaae93010c50b9f",
+    "download_path": "downloads/projects/data_economy/documentary/sources/fp_337.html",
+    "profile_original_document_id": "html:55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+    "profile_fields": "normalized unique node title plus result description in source extraction order",
+    "profile_independently_verified": true
+  },
+  "units": [
+    {
+      "unit_id": "fp_337:profile1",
+      "document_id": "fp_337",
+      "project_id": "data_economy",
+      "kind": "task",
+      "text": "создана и функционирует низкоорбитальная спутниковая группировка для обеспечения высокоскоростного доступа к сети интернет на всей территории российской федерации, в том числе на подвижных объектах",
+      "node_id": "fp_337:passport-task-02:3ae369840cddd816",
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "n_tokens": 21,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_337:profile2",
+      "document_id": "fp_337",
+      "project_id": "data_economy",
+      "kind": "goal",
+      "text": "на всей территории российской федерации обеспечена возможность высокоскоростного широкополосного доступа к информационно-телекоммуникационной сети «интернет» с использованием создаваемых спутниковых группировок",
+      "node_id": "fp_337:goal:9ebc2b14f9fa84fe",
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "n_tokens": 17,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_337:profile3",
+      "document_id": "fp_337",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "обеспечено наличие (передача и (или) создание) средств выведения для запусков космических аппаратов на низкую околоземную орбиту предоставление средств выведения для запусков космических аппаратов ооо \"бюро 1440\"",
+      "node_id": "fp_337:passport-result-1:5d43e330f599733a",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[1]",
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "n_tokens": 24,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_337:profile4",
+      "document_id": "fp_337",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "обществом с ограниченной ответственностью \"бюро 1440\" обеспечены запуски космических аппаратов на низкую околоземную орбиту в рамках мероприятия обществом с ограниченной ответственностью \"бюро 1440\" путем закупки соответствующих услуг у федерального автономного учреждения \"центр развития и обеспечения космической деятельности\" министерства обороны российской федерации обеспечены запуски космических аппаратов на низкую околоземную орбиту.",
+      "node_id": "fp_337:passport-result-37:7db11fa62f3aa2ea",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[2]",
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "n_tokens": 42,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_337:profile5",
+      "document_id": "fp_337",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "федеральным государственным унитарным предприятием \"космическая связь\" обеспечено создание спутников связи и вещания государственной орбитальной группировки гражданского назначения на геостационарной орбите с учетом требуемого страхования в периоде 2025 - 2026 гг. - заключены договоры на выполнение работ по проектированию, изготовлению и сдаче в эксплуатацию на орбите спутников связи и вещания государственной орбитальной группировки гражданского назначения на геостационарной орбите, обеспечена оплата авансовых платежей и начаты работы по договорам в периоде 2025 - 2030 гг. - проведены работы по созданию, обеспечению запуска, проведению испытаний и сдаче в эксплуатацию спутников связи и вещания на геостационарной орбите в периоде 2029 - 2030 гг. - заключены договоры страхования запуска космических аппаратов и последующего года их нахождения на орбите, обеспечена оплата страховых премий. значение результата отражает количество введенных в эксплуатацию космических аппаратов (ка) на геостационарной орбите (гсо), имея ввиду, что космический аппарат (ка) выведен на гсо и находится в заданной орбитально-частотной позиции, проведены испытания ка на орбите и ка принят в эксплуатацию гп кс.",
+      "node_id": "fp_337:passport-result-31:edb49f96fc62191e",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[3]",
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "n_tokens": 127,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_337:profile6",
+      "document_id": "fp_337",
+      "project_id": "data_economy",
+      "kind": "result",
+      "text": "обществом с ограниченной ответственностью \"бюро 1440\" обеспечено создание низкоорбитальной спутниковой группировки широкополосной передачи данных обществом с ограниченной ответственностью \"бюро 1440\" в период 2025-2030 гг. созданы космические аппараты, с учетом замены космических аппаратов с истекшим сроком активного существования, с целью создания и обеспечения функционирования в плановом составе низкоорбитальной спутниковой группировки широкополосной передачи данных.",
+      "node_id": "fp_337:passport-result-58:72821f34f9410810",
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "n_tokens": 41,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_337:profile7",
+      "document_id": "fp_337",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "количество функционирующих космических аппаратов низкоорбитальной спутниковой группировки широкополосной передачи данных",
+      "node_id": "fp_337:passport-purpose-1:58dcc71943f04ac2",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "n_tokens": 10,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    },
+    {
+      "unit_id": "fp_337:profile8",
+      "document_id": "fp_337",
+      "project_id": "data_economy",
+      "kind": "indicator",
+      "text": "доля домохозяйств, которым обеспечена возможность качественного высокоскоростного широкополосного доступа к информационно-телекоммуникационной сети \"интернет\"",
+      "node_id": "fp_337:passport-purpose-2:405ef88aa567ca0c",
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "n_tokens": 12,
+      "origin": "independent_source_node_matching_of_pinned_author_profile"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "fp_337:kwic1",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "ана и функционирует низкоорбитальная спутниковая группировка для обеспечения высокоскоростного доступа к сети интернет на всей территории российской федерации, в том числе на подвижных объектах на всей территории российской феде",
+      "unit_id": "fp_337:profile1",
+      "unit_ids": [
+        "fp_337:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_337:kwic2",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "и обеспечена возможность высокоскоростного широкополосного доступа к информационно-телекоммуникационной сети «интернет» с использованием создаваемых спутниковых группировок обеспечено наличие (передача и (или) создание) средств ",
+      "unit_id": "fp_337:profile2",
+      "unit_ids": [
+        "fp_337:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_337:kwic3",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "тственностью \"бюро 1440\" обеспечено создание низкоорбитальной спутниковой группировки широкополосной передачи данных обществом с ограниченной ответственностью \"бюро 1440\" в период 2025-2030 гг. созданы космические аппараты, с ",
+      "unit_id": "fp_337:profile6",
+      "unit_ids": [
+        "fp_337:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_337:kwic4",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "спечения функционирования в плановом составе низкоорбитальной спутниковой группировки широкополосной передачи данных. количество функционирующих космических аппаратов низкоорбитальной спутниковой группировки широкополосной пер",
+      "unit_id": "fp_337:profile6",
+      "unit_ids": [
+        "fp_337:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_337:kwic5",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "чество функционирующих космических аппаратов низкоорбитальной спутниковой группировки широкополосной передачи данных доля домохозяйств, которым обеспечена возможность качественного высокоскоростного широкополосного доступа к и",
+      "unit_id": "fp_337:profile7",
+      "unit_ids": [
+        "fp_337:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_337:kwic6",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "озможность качественного высокоскоростного широкополосного доступа к информационно-телекоммуникационной сети \"интернет\"",
+      "unit_id": "fp_337:profile8",
+      "unit_ids": [
+        "fp_337:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "kwic": [
+    {
+      "id": "fp_337:kwic1",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "ана и функционирует низкоорбитальная спутниковая группировка для обеспечения высокоскоростного доступа к сети интернет на всей территории российской федерации, в том числе на подвижных объектах на всей территории российской феде",
+      "unit_id": "fp_337:profile1",
+      "unit_ids": [
+        "fp_337:profile1"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[4]/div/div/details",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[4]/div/div/details"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_337:kwic2",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "и обеспечена возможность высокоскоростного широкополосного доступа к информационно-телекоммуникационной сети «интернет» с использованием создаваемых спутниковых группировок обеспечено наличие (передача и (или) создание) средств ",
+      "unit_id": "fp_337:profile2",
+      "unit_ids": [
+        "fp_337:profile2"
+      ],
+      "source_locator": "/html/body/main/div/header/dl/dt[3]",
+      "source_locators": [
+        "/html/body/main/div/header/dl/dt[3]"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_337:kwic3",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "тственностью \"бюро 1440\" обеспечено создание низкоорбитальной спутниковой группировки широкополосной передачи данных обществом с ограниченной ответственностью \"бюро 1440\" в период 2025-2030 гг. созданы космические аппараты, с ",
+      "unit_id": "fp_337:profile6",
+      "unit_ids": [
+        "fp_337:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_337:kwic4",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "спечения функционирования в плановом составе низкоорбитальной спутниковой группировки широкополосной передачи данных. количество функционирующих космических аппаратов низкоорбитальной спутниковой группировки широкополосной пер",
+      "unit_id": "fp_337:profile6",
+      "unit_ids": [
+        "fp_337:profile6"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[2]/div/div/details[4]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[2]/div/div/details[4]"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_337:kwic5",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "данных",
+      "context": "чество функционирующих космических аппаратов низкоорбитальной спутниковой группировки широкополосной передачи данных доля домохозяйств, которым обеспечена возможность качественного высокоскоростного широкополосного доступа к и",
+      "unit_id": "fp_337:profile7",
+      "unit_ids": [
+        "fp_337:profile7"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[1]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[1]"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    },
+    {
+      "id": "fp_337:kwic6",
+      "document_id": "fp_337",
+      "frame": "digital_data",
+      "matched": "интернет",
+      "context": "озможность качественного высокоскоростного широкополосного доступа к информационно-телекоммуникационной сети \"интернет\"",
+      "unit_id": "fp_337:profile8",
+      "unit_ids": [
+        "fp_337:profile8"
+      ],
+      "source_locator": "/html/body/main/div/section/div/details[3]/div/div/details[2]",
+      "source_locators": [
+        "/html/body/main/div/section/div/details[3]/div/div/details[2]"
+      ],
+      "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091",
+      "source_url": "https://databudget.ru/projects/fp/337",
+      "cross_field_match": false,
+      "origin": "source_located_author_profile_dictionary_match"
+    }
+  ],
+  "source_url": "https://databudget.ru/projects/fp/337",
+  "source_sha256": "55fc827f708aa0b31973645d025ce0c837041961e9eff4eab5f2d8d14483c091"
+}

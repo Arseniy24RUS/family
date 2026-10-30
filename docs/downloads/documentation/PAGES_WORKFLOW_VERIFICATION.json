@@ -1,0 +1,23 @@
+{
+  "workflows": [
+    {
+      "workflow": ".github/workflows/deploy.yml",
+      "yaml": "passed",
+      "configuration_actions_unchanged_except_publication_path": true,
+      "publication_after_every_build": true,
+      "qa_directory": ".pages",
+      "upload_directory": ".pages"
+    },
+    {
+      "workflow": ".github/workflows/refresh-emiss.yml",
+      "yaml": "passed",
+      "configuration_actions_unchanged_except_publication_path": true,
+      "publication_after_every_build": true,
+      "qa_directory": ".pages",
+      "upload_directory": ".pages"
+    }
+  ],
+  "bash_blocks_checked": 30,
+  "browser_runner_python_syntax": "passed",
+  "browser_or_network_started": false
+}

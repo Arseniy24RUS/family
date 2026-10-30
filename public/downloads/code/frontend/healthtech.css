@@ -1,0 +1,129 @@
+/* Health technologies project uses the shared project theme; no independent colour palette. */
+.healthtech-page { min-width: 0; }
+.healthtech-page .page-heading { align-items: flex-start; }
+.healthtech-page .page-heading h1 { max-width: 100%; overflow-wrap: anywhere; }
+.healthtech-findings { border-left: 4px solid var(--blue); padding: 2px 0 2px 20px; margin: 0 0 28px; max-width: 1040px; }
+.healthtech-findings p { font-size: 17px; line-height: 1.75; margin: 7px 0; }
+.healthtech-dates { display: flex; flex-wrap: wrap; gap: 12px 32px; color: var(--muted); font-size: 13px; margin: 0 0 22px; }
+.healthtech-dates strong { color: var(--ink); }
+.healthtech-card-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; margin: 24px 0; }
+.healthtech-card-grid .project-card { margin: 0; }
+.healthtech-step-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(175px,1fr)); gap: 18px; }
+.healthtech-step-grid article { border-top: 2px solid var(--border); padding-top: 16px; min-width: 0; }
+.healthtech-step-grid h3 { margin: 6px 0 10px; font-size: 17px; line-height: 1.4; }
+.healthtech-step-grid p { color: var(--muted); font-size: 14px; line-height: 1.7; }
+.healthtech-step { color: var(--blue); font-family: Roboto,'Segoe UI',sans-serif; font-size: 28px; line-height: 1; }
+.healthtech-page .source-foot { flex-wrap: wrap; align-items: flex-start; gap: 10px 20px; }
+.healthtech-page .source-foot > span { flex: 1 1 280px; overflow-wrap: anywhere; }
+.healthtech-page .source-foot a { flex-shrink: 0; }
+.healthtech-references { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 12px; line-height: 1.6; margin-top: 9px; color: var(--muted); }
+.healthtech-references a { overflow-wrap: anywhere; max-width: 100%; }
+.healthtech-report { border: 1px solid var(--border); border-radius: 12px; margin: 28px 0; background: #fff; }
+.healthtech-report > summary { display: flex; align-items: center; gap: 12px; padding: 20px; cursor: pointer; font-weight: 600; line-height: 1.5; }
+.healthtech-report > summary > span { margin-left: auto; white-space: nowrap; }
+.healthtech-report > summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.healthtech-report[open] > summary { border-bottom: 1px solid var(--border); }
+.healthtech-report-body { padding: 24px; }
+.healthtech-report-body > div { margin: 18px 0; }
+.healthtech-report-block { line-height: 1.85; }
+.healthtech-report-body h2 { font-size: 23px; margin-top: 34px; }
+.healthtech-report-body h3 { font-size: 19px; margin-top: 26px; }
+.healthtech-report-body .formula { overflow-x: auto; white-space: normal; overflow-wrap: anywhere; }
+.healthtech-figure-reference { padding: 16px 18px; border-left: 3px solid var(--blue); background: var(--blue-light, #fff0f5); border-radius: 0 8px 8px 0; }
+.healthtech-figure-reference strong { display: block; }
+.healthtech-figure-reference p { margin: 8px 0; }
+.healthtech-search { display: flex; gap: 8px; align-items: center; flex: 1 1 320px; }
+.healthtech-search input { min-width: 100px; width: 100%; }
+.healthtech-page .toolbar .field { min-width: 190px; flex: 1 1 230px; }
+.healthtech-page .toolbar select { width: 100%; max-width: 100%; }
+.healthtech-page .field input { padding: 10px 12px; border: 1px solid var(--border); border-radius: 7px; font: inherit; width: 100%; background: #fff; }
+.healthtech-page .field input:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.healthtech-page .atlas-layout { grid-template-columns: minmax(0,1fr) 240px; }
+.healthtech-page .atlas-aside .field { max-width: 100%; }
+.healthtech-page .atlas-aside select { max-width: 100%; width: 100%; }
+.healthtech-page .region-reading h3 { margin-bottom: 14px; }
+.healthtech-page .figure { min-width: 0; }
+.healthtech-page .map-surface { min-width: 0; }
+.healthtech-reading { margin: 20px 0; }
+.healthtech-reading h3 { margin-bottom: 8px; }
+.healthtech-mechanism > p { line-height: 1.85; }
+.healthtech-proposal-reading { max-width: 1040px; }
+.healthtech-proposal-reading h2,.healthtech-proposal-reading h3 { margin-top: 34px; }
+.healthtech-proposal-reading p { line-height: 1.85; }
+.healthtech-download-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+.healthtech-download { display: flex; gap: 13px; align-items: flex-start; padding: 15px; border: 1px solid var(--border); border-radius: 9px; text-decoration: none; color: var(--ink); }
+.healthtech-download:hover,.healthtech-download:focus-visible { border-color: var(--blue); background: var(--blue-light, #fff0f5); }
+.healthtech-download > svg { color: var(--blue); flex-shrink: 0; margin-top: 2px; }
+.healthtech-download strong { display: block; font-size: 14px; line-height: 1.5; }
+.healthtech-download small { color: var(--muted); display: block; margin-top: 4px; }
+.healthtech-inline-links { display: flex; gap: 9px 18px; flex-wrap: wrap; }
+.healthtech-inline-links a { white-space: normal; }
+.healthtech-page .data-table td { vertical-align: top; }
+.healthtech-page .data-table td:first-child { max-width: 370px; }
+.healthtech-page .data-table .text-link { white-space: normal; }
+.healthtech-page .stats { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.healthtech-page .stat { min-width: 0; }
+.healthtech-page .stat strong { overflow-wrap: anywhere; font-size: clamp(23px,2.7vw,36px); }
+.healthtech-network-card { border-left: 4px solid var(--blue); padding-left: 18px; margin: 20px 0; }
+.healthtech-network-card p { line-height: 1.75; }
+.healthtech-context { font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.healthtech-page mark { background: #ffe0eb; color: #891037; padding: 1px 2px; }
+.healthtech-page .healthtech-wide-chart { overflow-x: auto; padding-bottom: 8px; }
+.healthtech-page .healthtech-wide-chart > .chart-svg { min-width: 660px; }
+.healthtech-page .healthtech-wide-chart:focus-visible { outline: 2px solid var(--blue); }
+@media (max-width:1100px) {
+ .healthtech-page .stats { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .healthtech-page .atlas-layout { grid-template-columns: minmax(0,1fr); }
+ .healthtech-page .atlas-aside { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+ .healthtech-page .atlas-aside .region-reading { margin: 0; }
+}
+@media (max-width:600px) {
+ .healthtech-findings { padding-left: 14px; margin-bottom: 22px; }
+ .healthtech-findings p { font-size: 15px; line-height: 1.75; }
+ .healthtech-page .page-heading h1 { font-size: 29px; }
+ .healthtech-card-grid,.healthtech-download-grid { grid-template-columns: 1fr; gap: 12px; }
+ .healthtech-step-grid { grid-template-columns: 1fr; gap: 12px; }
+ .healthtech-step-grid article { padding-top: 12px; }
+ .healthtech-step-grid p { margin-bottom: 4px; }
+ .healthtech-report > summary { padding: 16px 12px; align-items: flex-start; }
+ .healthtech-report > summary > span { display: none; }
+ .healthtech-report-body { padding: 14px; }
+ .healthtech-report-body h2 { font-size: 21px; }
+ .healthtech-report-block { font-size: 14px; line-height: 1.85; }
+ .healthtech-search { flex-wrap: wrap; }
+ .healthtech-search input { flex: 1 1 100%; }
+ .healthtech-page .toolbar .field { min-width: 0; flex: 1 1 100%; }
+ .healthtech-page .atlas-aside { display: block; }
+ .healthtech-page .stat { padding: 14px 12px; }
+ .healthtech-page .stat strong { font-size: 26px; }
+ .healthtech-page .stat small { font-size: 11px; }
+ .healthtech-dates { flex-direction: column; gap: 8px; font-size: 12px; }
+ .healthtech-page .map-hint { position: static; padding: 8px 4px; font-size: 11px; }
+ .healthtech-page .source-foot a { flex-shrink: 1; }
+ .healthtech-page .legend { font-size: 11px; }
+}
+@media (prefers-reduced-motion:reduce) { .healthtech-page * { scroll-behavior: auto; } }
+
+/* Table headers stay neutral; the project colour is reserved for evidence and controls. */
+.healthtech-page .data-table th { background: #fff; }
+
+.healthtech-load-error { overflow-wrap: anywhere; }
+.healthtech-page .three-col { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; }
+@media(max-width:760px) { .healthtech-page .three-col { grid-template-columns: 1fr; gap: 12px; } }
+
+.healthtech-page .healthtech-controls input[type="number"]{width:100%;min-width:100px;}
+.healthtech-page .healthtech-controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin:18px 0;}
+.healthtech-page .healthtech-stage-card{padding:18px;border:1px solid var(--border);border-top:3px solid var(--blue);border-radius:10px;background:var(--project-tint);min-width:0;}
+.healthtech-page .healthtech-status{display:inline-block;padding:4px 8px;border-radius:4px;background:var(--project-soft);font-size:12px;line-height:1.4;}
+.healthtech-page .healthtech-note{font-size:14px;line-height:1.7;color:var(--muted);}
+.healthtech-page .healthtech-chart-detail{font-size:13px;color:var(--muted);margin:10px 0;}
+.healthtech-page .healthtech-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;}
+.healthtech-page .healthtech-reproduction{overflow-wrap:anywhere;}
+.healthtech-page .healthtech-stage-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;}
+@media(max-width:760px){.healthtech-page .healthtech-split{grid-template-columns:1fr;}.healthtech-page .healthtech-controls{grid-template-columns:1fr;}}
+.healthtech-report-figure {margin:20px 0;}
+.healthtech-report-figure img {display:block;max-width:100%;width:auto;height:auto;max-height:680px;object-fit:contain;}
+.healthtech-report-figure figcaption {font-size:14px;line-height:1.6;margin-top:8px;}
+.healthtech-page .healthtech-report-body .healthtech-report-block {overflow-wrap:anywhere;}
+.healthtech-page .data-table td {max-width:560px;overflow-wrap:anywhere;}
+.healthtech-page .data-table td a.text-link {white-space:nowrap;}

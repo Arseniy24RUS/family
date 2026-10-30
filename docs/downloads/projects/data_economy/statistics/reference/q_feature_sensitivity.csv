@@ -1,0 +1,6 @@
+﻿project_id,panel_id,omitted_slice_id,omitted_source_id,omitted_indicator_codes,status,n_regions,n_features_remaining,baseline_k,selected_k,silhouette,ari_selected_vs_baseline,ari_fixed_k_vs_baseline,fixed_k_min_cluster_size,fixed_k_eligible,pc12_variance,pc12_max_principal_angle_degrees,pc12_subspace_overlap
+data_economy,data_economy_monthly_2026-09-30,4033c18f902d63c4d878,62760,2.14.Ц4.3,computed,85,4,2,0,,,-0.006239001759718445,1.0,False,0.5888395945719762,30.610567862618336,0.8703003079651612
+data_economy,data_economy_monthly_2026-09-30,6231fd6ff52488b913a4,62767,2.14.Ц.7,computed,85,4,2,2,0.257152655262692,1.0,1.0,36.0,True,0.6019688542348205,29.29658753751769,0.8801821401777628
+data_economy,data_economy_monthly_2026-09-30,967986e165f4292a0b65,62766,2.14.Ц.6,computed,85,4,2,0,,,-0.006239001759718445,1.0,False,0.6015352180954656,39.55396146676216,0.7972011722291984
+data_economy,data_economy_monthly_2026-09-30,e6f31cf859b99b19ddd7,62815,2.14.Ц5.2,computed,85,4,2,0,,,0.00849197461739455,1.0,False,0.6082645729079946,35.83945842178964,0.8285389141419597
+data_economy,data_economy_monthly_2026-09-30,fad845a45c92e1d3f64a,62763,2.14.Ц4.4,computed,85,4,2,0,,,-0.006239001759718445,1.0,False,0.5788999709170252,34.3760913945712,0.8402767064771441

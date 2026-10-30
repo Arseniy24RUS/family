@@ -1,0 +1,100 @@
+{
+  "selected": {
+    "0": [
+      {
+        "id": "62729",
+        "title": "Число активных «личных кабинетов» информационной системы «Одно окно»"
+      }
+    ],
+    "3": [
+      {
+        "id": "2025",
+        "title": "2025"
+      }
+    ],
+    "3301": [
+      {
+        "id": "1678127",
+        "title": "Российская Федерация"
+      }
+    ],
+    "30611": [
+      {
+        "id": "950475",
+        "title": "единица"
+      }
+    ],
+    "33560": [
+      {
+        "id": "1540283",
+        "title": "январь"
+      },
+      {
+        "id": "1540282",
+        "title": "февраль"
+      }
+    ]
+  },
+  "form": [
+    [
+      "format",
+      "excel"
+    ],
+    [
+      "id",
+      "62729"
+    ],
+    [
+      "indicator_title",
+      "Число активных «личных кабинетов» информационной системы «Одно окно»"
+    ],
+    [
+      "filterObjectIds",
+      "0"
+    ],
+    [
+      "selectedFilterIds",
+      "0_62729"
+    ],
+    [
+      "columnObjectIds",
+      "3"
+    ],
+    [
+      "selectedFilterIds",
+      "3_2025"
+    ],
+    [
+      "lineObjectIds",
+      "3301"
+    ],
+    [
+      "selectedFilterIds",
+      "3301_1678127"
+    ],
+    [
+      "lineObjectIds",
+      "30611"
+    ],
+    [
+      "selectedFilterIds",
+      "30611_950475"
+    ],
+    [
+      "columnObjectIds",
+      "33560"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540283"
+    ],
+    [
+      "selectedFilterIds",
+      "33560_1540282"
+    ]
+  ],
+  "download_url": "https://www.fedstat.ru/indicator/downloadData.do?format=excel",
+  "requested_at": "2026-10-15T19:21:26+00:00",
+  "received_at": "2026-10-15T19:21:28+00:00",
+  "csrf": "single-use session token; omitted"
+}

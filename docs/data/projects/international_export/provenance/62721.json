@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "source_id": "62721",
+  "source_url": "https://www.fedstat.ru/indicator/62721",
+  "snapshot_id": "9572efff07102362b084f7311a3228e88db127fab9bac5f92383c6246383c30d",
+  "acquired_at": "2026-10-15T19:18:12+00:00",
+  "statistical_as_of": "2026-10-15",
+  "origin_kind": "live_emiss",
+  "observations": 11,
+  "numeric": 11,
+  "published_file": "data/projects/international_export/series/62721.json",
+  "published_sha256": "a4ead54c8e3289446a8f6ca2c65e8522e548eb5ddda8fe15b01a2f7b63edc717",
+  "input_bundle": "downloads/projects/international_export/statistics/emiss_inputs/62721.zip",
+  "input_sha256": "bd54a81bc879d88c31b119688c40a71d6963421b8633d0ca745e6f30295923a9",
+  "evidence_files": [
+    {
+      "path": "source/acquisition_records/excel_2026-10-15T191223_0000/metadata.html",
+      "bytes": 81317,
+      "sha256": "02c2a3388db34241b58499379cb28561a5f0b12c152ba4478d4e4466daba1a1b"
+    },
+    {
+      "path": "source/acquisition_records/excel_2026-10-15T191223_0000/metadata.json",
+      "bytes": 2419,
+      "sha256": "f9965aac138a665cc81479cbdc3f8462829f6d426e6eb2654a786767b0497849"
+    },
+    {
+      "path": "source/acquisition_records/excel_2026-10-15T191223_0000/part_00001.query.json",
+      "bytes": 3162,
+      "sha256": "00388e76a627d123a4e66bc7bdc964f408a690116dc0cd2aae822555fbbd65c7"
+    },
+    {
+      "path": "source/acquisition_records/excel_2026-10-15T191223_0000/part_00001.xls",
+      "bytes": 9216,
+      "sha256": "abf0a0945f6c5e77b1ef7ffcb223472ce070ef2b93656d92d60eea0c3e274719"
+    },
+    {
+      "path": "source/metadata.html",
+      "bytes": 81317,
+      "sha256": "02c2a3388db34241b58499379cb28561a5f0b12c152ba4478d4e4466daba1a1b"
+    },
+    {
+      "path": "source/metadata.json",
+      "bytes": 2419,
+      "sha256": "f9965aac138a665cc81479cbdc3f8462829f6d426e6eb2654a786767b0497849"
+    },
+    {
+      "path": "source/part_00001.query.json",
+      "bytes": 3162,
+      "sha256": "00388e76a627d123a4e66bc7bdc964f408a690116dc0cd2aae822555fbbd65c7"
+    },
+    {
+      "path": "source/part_00001.xls",
+      "bytes": 9216,
+      "sha256": "abf0a0945f6c5e77b1ef7ffcb223472ce070ef2b93656d92d60eea0c3e274719"
+    }
+  ],
+  "period_policy": "Original source periods, frequencies and numerical cells are retained. Annual and December observations are separate. Monetary exports are calendar YTD in nominal USD. A new annual infrastructure programme resets independently of existing assets. The 2.0 standard series is not the 3.0 passport indicator. Missing is not zero."
+}
