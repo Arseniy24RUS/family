@@ -11,6 +11,7 @@ import hashlib
 import json
 from pathlib import Path
 from playwright.async_api import async_playwright
+from browser_json import get_json
 
 ROOT=Path(__file__).resolve().parents[1]
 PAGES=['overview','framework','logic','audit','targets','map','regions','finance','network','texts','domains','causal','proposals','lab','explorer','library','updates','projections','population','structure','methods']
@@ -144,6 +145,7 @@ async def run(args):
             step=page.get_by_label('Ежегодное абсолютное изменение',exact=True)
             await step.fill('2');await step.press('Tab');await ready()
             await page.wait_for_function("new URLSearchParams(location.hash.split('?')[1]).get('step')==='2'")
+            await page.wait_for_function("() => { const main=document.querySelector('#main'); return main?.dataset.ready==='true' && !main.hasAttribute('aria-busy') && main.textContent.includes('91,3'); }")
             check('scenario_parameter_changes_result','91,3' in await page.locator('#main').inner_text() and 'step=2' in page.url)
             await page.reload();await ready();check('scenario_parameter_bookmark',await step.input_value()=='2')
             await route('projections','?source=63038&step=0')
@@ -217,7 +219,7 @@ async def run(args):
         for project in ['long_active_life','tourism','youth_children','life_infrastructure','efficient_transport','environment','international_export','data_economy','competitive_economy']:
             await route('overview',project=project);check('other_project_'+project,await page.locator('#main h1').count()==1)
         # Sources offered by the Personnel library must exist under a project subpath.
-        manifest=json.loads((ROOT/'docs/downloads/index.json').read_text(encoding='utf-8'))
+        manifest=await get_json(context,args.base,'downloads/index.json')
         for item in manifest['files']:
             if not item['path'].startswith('projects/personnel/'):continue
             response=await context.request.get(args.base+'downloads/'+item['path'])

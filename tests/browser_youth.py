@@ -9,6 +9,7 @@ import hashlib
 import json
 from pathlib import Path
 from playwright.async_api import async_playwright
+from browser_json import get_json
 
 ROOT=Path(__file__).resolve().parents[1]
 PAGES=['overview','framework','logic','audit','targets','map','regions','finance','network','texts','domains','causal','proposals','lab','explorer','library','updates','projections','population','structure','methods']
@@ -152,7 +153,7 @@ async def run(args):
         for project in ['long_active_life','tourism','personnel','life_infrastructure','efficient_transport','environment','international_export','data_economy','competitive_economy']:
             await route('overview',project=project);check('other_project_'+project,await page.locator('#main h1').count()==1)
         # Sources offered by the Youth library must exist under a project subpath.
-        manifest=json.loads((ROOT/'docs/downloads/index.json').read_text(encoding='utf-8'))
+        manifest=await get_json(context,args.base,'downloads/index.json')
         for item in manifest['files']:
             if not item['path'].startswith('projects/youth_children/'):continue
             response=await context.request.get(args.base+'downloads/'+item['path'])

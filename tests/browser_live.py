@@ -1,22 +1,82 @@
 """HTTP integrity, published data, and complete interactive calculation checks."""
 import argparse
 import asyncio
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 import hashlib
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 from urllib.parse import quote, urljoin, urlparse
-from playwright.async_api import async_playwright
+from playwright.async_api import async_playwright, Error as PlaywrightError
 from browser_json import get_json as published_json
 
 ROOT = Path(__file__).resolve().parents[1]
+TRANSIENT_DOWNLOAD_STATUSES = {429, 502, 503, 504}
+CONNECTION_ERROR = re.compile(
+    r'ECONNRESET|ECONNREFUSED|ECONNABORTED|ETIMEDOUT|EAI_AGAIN|ENOTFOUND|'
+    r'socket hang up|connection[^\n]*(?:closed|reset|aborted)|'
+    r'(?:request|connect)[^\n]*timed out|timeout[^\n]*exceeded|'
+    r'net::ERR_(?:CONNECTION|TIMED_OUT|NAME_NOT_RESOLVED|NETWORK|HTTP2_PROTOCOL_ERROR)', re.I)
+
+
+def download_retry_delay(headers, attempt):
+    delay = 2 ** (attempt - 1)
+    raw = headers.get('retry-after')
+    if raw:
+        try:
+            instructed = float(raw)
+        except ValueError:
+            try:
+                date = parsedate_to_datetime(raw)
+                if date.tzinfo is None:
+                    date = date.replace(tzinfo=timezone.utc)
+                instructed = (date - datetime.now(timezone.utc)).total_seconds()
+            except (TypeError, ValueError, OverflowError):
+                instructed = 0
+        delay = max(delay, instructed)
+    # Do not retry earlier than a long server instruction or wait unboundedly.
+    if delay > 30:
+        raise AssertionError('Retry-After exceeds the bounded 30-second QA retry wait: ' + str(raw))
+    return delay
+
+
+async def verified_download(request, url, file, recovered, *, attempts=4, sleep=asyncio.sleep):
+    failures = []
+    for attempt in range(1, attempts + 1):
+        headers = {}
+        try:
+            response = await request.get(url, timeout=60000)
+            if response.status not in TRANSIENT_DOWNLOAD_STATUSES:
+                assert response.ok, (file['path'], response.status)
+                body = await response.body()
+                # Integrity failures are never transient and must not be hidden.
+                assert len(body) == file['bytes'], (file['path'], 'size mismatch')
+                assert hashlib.sha256(body).hexdigest() == file['sha256'], (file['path'], 'SHA256 mismatch')
+                await response.dispose()
+                if failures:
+                    event = {'file': file['path'], 'url': url, 'attempts': attempt, 'failures': failures}
+                    recovered.append(event)
+                    print('Recovered transient download: ' + json.dumps(event, ensure_ascii=False), flush=True)
+                return
+            headers = response.headers
+            failures.append({'attempt': attempt, 'status': response.status})
+            await response.dispose()
+        except PlaywrightError as error:
+            if not CONNECTION_ERROR.search(str(error)):
+                raise
+            failures.append({'attempt': attempt, 'connection_error': str(error)})
+        if attempt == attempts:
+            raise AssertionError({'file': file['path'], 'download_attempts_exhausted': failures})
+        await sleep(download_retry_delay(headers, attempt))
 
 
 async def execute(args):
     out = Path(args.output)
     out.mkdir(parents=True, exist_ok=True)
-    checks, errors, failed_assets, external_errors = [], [], [], []
+    checks, errors, failed_assets, external_errors, recovered_downloads = [], [], [], [], []
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, executable_path=args.browser)
         context = await browser.new_context(viewport={'width': 1440, 'height': 1000}, accept_downloads=True)
@@ -46,11 +106,7 @@ async def execute(args):
 
         async def verify_file(f):
             async with semaphore:
-                response = await context.request.get(urljoin(args.base, 'downloads/'+quote(f['path'])), timeout=60000)
-                assert response.ok, (f['path'], response.status)
-                body = await response.body()
-                assert len(body) == f['bytes'], f['path']
-                assert hashlib.sha256(body).hexdigest() == f['sha256'], f['path']
+                await verified_download(context.request, urljoin(args.base, 'downloads/'+quote(f['path'])), f, recovered_downloads)
                 checks.append({'check': 'http_download_hash', 'file': f['path']})
 
         await asyncio.gather(*(verify_file(f) for f in index['files']))
@@ -151,7 +207,7 @@ async def execute(args):
         assert not failed_assets, failed_assets
         checks.append({'check': 'no_runtime_errors_or_failed_local_assets'})
         await browser.close()
-    (out/'live_checks.json').write_text(json.dumps({'url': args.base, 'mode': 'http', 'checks': checks, 'page_errors': errors, 'failed_local_assets': failed_assets, 'console_errors': external_errors}, ensure_ascii=False, indent=2), encoding='utf-8')
+    (out/'live_checks.json').write_text(json.dumps({'url': args.base, 'mode': 'http', 'checks': checks, 'page_errors': errors, 'failed_local_assets': failed_assets, 'console_errors': external_errors, 'recovered_transient_downloads': recovered_downloads}, ensure_ascii=False, indent=2), encoding='utf-8')
     print('PASS live:', len(checks), 'checks; console errors:', len(external_errors))
 
 
