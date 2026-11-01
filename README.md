@@ -113,11 +113,13 @@
 ```bash
 python -m pip install -r scripts/requirements-analytics.txt
 npm test
-npm run build
-npm run validate
 python -m unittest discover -s tests -p "test_*.py"
+npm run sync:release
+npm run validate
 python scripts/build_pages.py --report PAGES_BUILD_VERIFICATION.json
 ```
+
+Полный аналитический пересчёт `npm run build` выполняйте в отдельном checkout. Перед переносом его выходов требуется сверить исторические редакции прогнозов и принять изменения результатов; готовый накопительный `docs/` сохраняет прежний набор данных. Порядок работы описан в разделе «Полная сборка» [инструкции передачи](documentation/CODEX_HANDOFF_RU.md).
 
 В CI браузерные проверки используют Playwright и Chromium. В управляемой среде разработки применяется предусмотренный этой средой инструмент просмотра. Для обычной локальной среды команды проверки опубликованной копии следующие:
 

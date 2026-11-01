@@ -1,7 +1,7 @@
 {
   "schema": "national-projects.v3-preservation/1",
   "release_version": "3.0.0-stage.2",
-  "checked_at_utc": "2026-11-01T18:35:24.151888+00:00",
+  "checked_at_utc": "2026-11-01T18:45:44.091673+00:00",
   "comparisons": [
     {
       "base_commit": "45b6e7e055c2d9a4dc604d674273c0b20187ca36",
@@ -133,18 +133,18 @@
       "files": 1971,
       "checked": 1971,
       "issues": [],
-      "index_sha256": "2f23100d3103ddc7e59ecddb92e1897c306d03b7202466618ab86371e1466697",
+      "index_sha256": "6c459d2cf39bdacb42e7adb0caa57e0ed761936d16ec1d64f29127fc4af702cf",
       "status": "PASS"
     },
     "docs": {
       "files": 1971,
       "checked": 1971,
       "issues": [],
-      "index_sha256": "80ea8df89068305676db8fbe585b9c8ed331cb106454ff889fb39a53b1735982",
+      "index_sha256": "cada7be1cc30dcf9535a1daf8c13752fcd2c5db696e61173660d5520bc2579eb",
       "status": "PASS"
     }
   },
   "method": "Git blob hash for each retained research payload; independent SHA-256 and size for each entry of each download tree. No analytical output was copied from isolated full builds.",
-  "elapsed_seconds": 7.86,
+  "elapsed_seconds": 10.78,
   "status": "PASS"
 }
