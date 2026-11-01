@@ -1,9 +1,9 @@
 {
   "schema": "national-projects.release/1",
-  "version": "3.0.0-stage.1",
-  "base_release": "2.12.0-platform.1",
-  "source_commit": "52b4b5293bfce886a0f32813f0ce3807ed23f29a",
-  "created_date": "2026-10-31",
+  "version": "3.0.0-stage.2",
+  "base_release": "3.0.0-stage.1",
+  "source_commit": "2f7a8b18f03f4bcd1b96afad3a4b0c3d152edbd5",
+  "created_date": "2026-11-01",
   "files": [
     {
       "path": ".gitattributes",
@@ -12,8 +12,8 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "bytes": 1194,
-      "sha256": "e570c674dff9cbbd4a3f9967abf17753bbdf84a60a07a807cf835eb7bb4df57a"
+      "bytes": 2313,
+      "sha256": "14d6370ff6e94a671409477eecfe75364e8f14e3276d40b8969156c1244845da"
     },
     {
       "path": ".github/workflows/deploy.yml",
@@ -32,8 +32,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 51529,
-      "sha256": "39efa4754d9414b106b5769546b02299a5d711e62df60bb7797507784cbe1791"
+      "bytes": 54902,
+      "sha256": "a910833a9f6671bccd5289748bcf816ec128dccde9cb7c955663efccd8d93614"
     },
     {
       "path": "NOTICE.md",
@@ -42,13 +42,13 @@
     },
     {
       "path": "PAGES_BUILD_VERIFICATION.json",
-      "bytes": 1631,
-      "sha256": "9fd737d223aa5e509677d0610aba1d9ab6c193f19a67ef474262b579ff0dd2c6"
+      "bytes": 1638,
+      "sha256": "23d8e5afd362d9bcba376af5238b26bf0fdc6298fad1b41de3a02dcf75e85e5c"
     },
     {
       "path": "README.md",
-      "bytes": 48743,
-      "sha256": "99e736baad5157d4082aed511eeda20402db2d692805d8c0dc89c2bc763a87cb"
+      "bytes": 50670,
+      "sha256": "ef87fa0fff90932fdfce270ed8bb6902a0419f9a8717db453f800141fedfa02b"
     },
     {
       "path": "START_HERE.html",
@@ -56,9 +56,34 @@
       "sha256": "8f5e905fbe2ce7c300df53d7c5d0ccf02cf95f2b2499755ecfc8b207d67c32d7"
     },
     {
+      "path": "V3_STAGE1_PACKAGE_VERIFICATION.json",
+      "bytes": 1203,
+      "sha256": "7366565b53249a278e0f93467289b546d3d2c2349c2cf28f70ce39427d3c207a"
+    },
+    {
       "path": "V3_STAGE1_VERIFICATION.json",
       "bytes": 26495,
       "sha256": "17030a380cf6a21bc464bf4e80f348fc750d968e3c07b06f7a25a5183e169fb8"
+    },
+    {
+      "path": "V3_STAGE2_BROWSER_VERIFICATION.json",
+      "bytes": 131724,
+      "sha256": "7eb0a39f33d28764a2a21c3f6b3ce81ae3ca7ad0da63c69983bb013e65b6096c"
+    },
+    {
+      "path": "V3_STAGE2_BUILD_VERIFICATION.json",
+      "bytes": 13385,
+      "sha256": "07f925e76af655828102ea2da913e4786a6f14bb5cdeb069ed7460467b872c54"
+    },
+    {
+      "path": "V3_STAGE2_PRESERVATION_VERIFICATION.json",
+      "bytes": 4134,
+      "sha256": "2b44a2ffb79b6a88c17ca243243e438b038b14ff27e32b8f13afcd079828ada1"
+    },
+    {
+      "path": "V3_STAGE2_VERIFICATION.json",
+      "bytes": 6627,
+      "sha256": "1c621d15ee7f8e7f762252526c2ccb6814db58dbd70dfd0e83a6b7ed67d8bb34"
     },
     {
       "path": "assets/visuals/readme/architecture-en.svg",
@@ -6977,8 +7002,8 @@
     },
     {
       "path": "docs/downloads/code/frontend/app.js",
-      "bytes": 15165,
-      "sha256": "f0eea25090a8d0b697667166e92a2b14d77fa906aec9daab14330e9fec39323f"
+      "bytes": 18955,
+      "sha256": "65fec07f3882375b7a424d81cc1bb7bc8e037ee3e9a50184977705f27d8ffaf9"
     },
     {
       "path": "docs/downloads/code/frontend/competitive.css",
@@ -6997,8 +7022,8 @@
     },
     {
       "path": "docs/downloads/code/frontend/components/institutions.js",
-      "bytes": 913,
-      "sha256": "0d6f7387ad9e3d90a8a19af14cc48769454bfcc5605a8ed8838e1cd4a1b50c08"
+      "bytes": 897,
+      "sha256": "313fe0fb1616db5e489efb0bfbc4dc5de69ebdf9b5b4b3d1a52499ca7fb7fc2a"
     },
     {
       "path": "docs/downloads/code/frontend/components/map.js",
@@ -7014,6 +7039,11 @@
       "path": "docs/downloads/code/frontend/components/pyramid.js",
       "bytes": 2961,
       "sha256": "112ba38d396e5eba16ee1a333bfb691c9aedd392d583466665c03ebeffa9f36c"
+    },
+    {
+      "path": "docs/downloads/code/frontend/components/research-context.js",
+      "bytes": 6887,
+      "sha256": "f62c8768e55d68585ad02e87555551e40e838bfc39e9d46247f08a7de4d0ffaf"
     },
     {
       "path": "docs/downloads/code/frontend/components/ui.js",
@@ -7056,6 +7086,11 @@
       "sha256": "4eb02e07b81b0628102a4c11050f834f75110bc65c3cd4ed7a9560a47b34bea1"
     },
     {
+      "path": "docs/downloads/code/frontend/core/research-context.js",
+      "bytes": 9149,
+      "sha256": "00e24a6e2f949f80121ee24680698be2bcdc875c23856cc84df96c35c40a4ca7"
+    },
+    {
       "path": "docs/downloads/code/frontend/core/series-transport.js",
       "bytes": 6321,
       "sha256": "b4a4afc1c019c41ad3618f97f399fc96b1480bf48b3f4d6521717f5d64e30554"
@@ -7068,7 +7103,7 @@
     {
       "path": "docs/downloads/code/frontend/core/tourism-research.js",
       "bytes": 17670,
-      "sha256": "cc7049e1a60f6250c71e6d39f7f4bcc9e83adf80db271ed195711d6d46d6d895"
+      "sha256": "6b8f64f54345f92abe9b8cd2c35ff2cab30508e129a9b440110296e6fa51c115"
     },
     {
       "path": "docs/downloads/code/frontend/core/worker.js",
@@ -7162,8 +7197,8 @@
     },
     {
       "path": "docs/downloads/code/frontend/pages/longlife.js",
-      "bytes": 170293,
-      "sha256": "e64143427eb1f33a67c8d3dd8d16a9d5ba044b13369cd530ed4a25a0c585295b"
+      "bytes": 170622,
+      "sha256": "3dcdb6829b85237d765b1e7976b3a38f03990303fd270a32ab885216abf845b0"
     },
     {
       "path": "docs/downloads/code/frontend/pages/personnel.js",
@@ -7237,13 +7272,18 @@
     },
     {
       "path": "docs/downloads/code/frontend/platform/projects.js",
-      "bytes": 14033,
-      "sha256": "a7be0df425093e3ca994c5a8287e4106abe44bde2ae9e9c93f583c5a2d2a3e4d"
+      "bytes": 14150,
+      "sha256": "824d6c45143e4fa4b534e98351e1fa43775cd9f38cc55b16c2a92a8cfe657fb2"
+    },
+    {
+      "path": "docs/downloads/code/frontend/platform/research-context-data.js",
+      "bytes": 12578,
+      "sha256": "e635b0e8d364a4429a4274a197941be1d197e5d92bf557b87bcf4add8d5fe466"
     },
     {
       "path": "docs/downloads/code/frontend/platform/routes.js",
-      "bytes": 1617,
-      "sha256": "1a2ada0b7638d0861dde5c750edeed07b6f367faddee61935922e6e2be176a66"
+      "bytes": 1696,
+      "sha256": "dedaa78edc8e556fd0c936b208502c383ba53bd11a96569bc7a36833f0064e64"
     },
     {
       "path": "docs/downloads/code/frontend/platform/runtime.js",
@@ -7261,9 +7301,14 @@
       "sha256": "530537144d3258b3fef34b9c2b40e5ef5cf575de4aec0f9ff4665eb2d9ade748"
     },
     {
+      "path": "docs/downloads/code/frontend/research-context.css",
+      "bytes": 2166,
+      "sha256": "340bd7a078f363fb30b5920ae7a1c44cf59eb5969737b51141506679a2edf850"
+    },
+    {
       "path": "docs/downloads/code/frontend/styles.css",
-      "bytes": 58253,
-      "sha256": "a7754d026701b38cea0ebf771112208ba40111cc35f22462cf33c33a9cb2f064"
+      "bytes": 58292,
+      "sha256": "001a10c98499e3bcd7588ca71e75d9ec1bb9cf3c2e219fec148c1dcc0f14e815"
     },
     {
       "path": "docs/downloads/code/frontend/tourism.css",
@@ -7357,18 +7402,18 @@
     },
     {
       "path": "docs/downloads/code/platform/build_competitive_documentary.py",
-      "bytes": 41517,
-      "sha256": "205bdaa3362f7de9a1279a53b372af120d508f99ba61a8cf2acb897701b3530d"
+      "bytes": 41563,
+      "sha256": "3ef659faea20404d0b4374b9e20a84e3a33e112ec44972e61ddab704e0942927"
     },
     {
       "path": "docs/downloads/code/platform/build_competitive_expertise.py",
-      "bytes": 15216,
-      "sha256": "65d90cb6e74b524072b024a935ae0c1034e38e3a0d1fcf6f91cca8cc7229c229"
+      "bytes": 15244,
+      "sha256": "2c7a66b29bd51a3760691c97f5c3424cd20ed764df7a20f1140dad9c8ace3dda"
     },
     {
       "path": "docs/downloads/code/platform/build_current_analytics.py",
-      "bytes": 12659,
-      "sha256": "2a2675bcfbaf8382dde0e133271ade3af84316f29d9f53b31603e4aebef60706"
+      "bytes": 12673,
+      "sha256": "bdf2ff0d34daa8cee857f5ea1996f21d72acd7dd53ff2fac8fe793771808a475"
     },
     {
       "path": "docs/downloads/code/platform/build_current_reports.py",
@@ -7392,13 +7437,13 @@
     },
     {
       "path": "docs/downloads/code/platform/build_dataeconomy_documentary.py",
-      "bytes": 35706,
-      "sha256": "01d97380672be84186f8ff84ba754290975f28ac6d7a37b8733873ded6568506"
+      "bytes": 35752,
+      "sha256": "ac26ff15c817f96afba27413a6b8057ab598f28cc7276e21efe1122ffa839b31"
     },
     {
       "path": "docs/downloads/code/platform/build_dataeconomy_expertise.py",
-      "bytes": 15827,
-      "sha256": "226ef3400e55d83568d1790e0b7ab287c7195905dc01b35718b138b1c6a585cf"
+      "bytes": 15855,
+      "sha256": "6a9c9bbfe48559f181177a900446894ed76dce53ba773a0631813ebf7b1ec457"
     },
     {
       "path": "docs/downloads/code/platform/build_environment.mjs",
@@ -7412,8 +7457,8 @@
     },
     {
       "path": "docs/downloads/code/platform/build_environment_documentary.py",
-      "bytes": 47895,
-      "sha256": "d4100e327be4f562118f437fcba27f5459e52b636f4a7eae9760a45acc70b1b2"
+      "bytes": 47984,
+      "sha256": "85c4f840fde52da0203a3563df88d6cb1990812bc84e31d2c1fa3592df1b77e9"
     },
     {
       "path": "docs/downloads/code/platform/build_environment_expertise.py",
@@ -7432,18 +7477,18 @@
     },
     {
       "path": "docs/downloads/code/platform/build_export_documentary.py",
-      "bytes": 21978,
-      "sha256": "8159123eee36c7d5444099b20c95e5f3fe025bde473db7f29107a2ce2b6a9398"
+      "bytes": 22049,
+      "sha256": "4e51474bef8c3e3d6919f6a21fdd2d1965462f7f357d01376ead64c92aa0f216"
     },
     {
       "path": "docs/downloads/code/platform/build_export_expertise.py",
-      "bytes": 26867,
-      "sha256": "31a018c6a39fcf4b477a3eeba55d161f9319bbd996383319fa1f94e585c21f61"
+      "bytes": 26909,
+      "sha256": "4c6499e9a7ac690dbe2d909feca4a0a522c627f2f67bab26023a893c1ee9fe2e"
     },
     {
       "path": "docs/downloads/code/platform/build_export_regional_context.py",
-      "bytes": 11121,
-      "sha256": "d27497c6fea80ab37c94b1ed20993f4fecfd2334618b10a4a081b1df79159990"
+      "bytes": 11149,
+      "sha256": "460fd3e0c430a469259e948cadb181af14cb516bbbedb7308a157af4155fa60e"
     },
     {
       "path": "docs/downloads/code/platform/build_healthtech.mjs",
@@ -7457,8 +7502,8 @@
     },
     {
       "path": "docs/downloads/code/platform/build_healthtech_documentary.py",
-      "bytes": 31439,
-      "sha256": "78fe056847c541a3388e5515c92a423ff789c40391b5751936fa73021598cafd"
+      "bytes": 31528,
+      "sha256": "d0c4c8761fa339a6ffabf513605c55c4517bd3204610f8e622217f13eb47c625"
     },
     {
       "path": "docs/downloads/code/platform/build_healthtech_expertise.py",
@@ -7472,18 +7517,18 @@
     },
     {
       "path": "docs/downloads/code/platform/build_infrastructure.mjs",
-      "bytes": 16400,
-      "sha256": "34d89c7961e78c5c472305397338ce4cbc9dbd4be7ada5ce0c65af125abe1010"
+      "bytes": 5200,
+      "sha256": "10f4fb01131dfc8cf25951c039818bae14449d021f303f680982d9db71b508a4"
     },
     {
       "path": "docs/downloads/code/platform/build_infrastructure_analytics.py",
-      "bytes": 41573,
-      "sha256": "9644c044090fdc561e2d185058bb9ab2e952c404cf83f57eaf8c8a7aa9b2738f"
+      "bytes": 35255,
+      "sha256": "1f5ace357bba4ef96da4eb41373e1908bf09fe080e915072bed1a65ac614f50e"
     },
     {
       "path": "docs/downloads/code/platform/build_infrastructure_documentary.py",
-      "bytes": 40774,
-      "sha256": "0f40201330ef0f1685503a148024170009a292947da60e41c074d6d9ba17aa70"
+      "bytes": 40863,
+      "sha256": "a10a2e97653eea59180bb0c569025fd2d94b68633567844ad52572abdbd2864f"
     },
     {
       "path": "docs/downloads/code/platform/build_infrastructure_expertise.py",
@@ -7502,8 +7547,8 @@
     },
     {
       "path": "docs/downloads/code/platform/build_longlife_documentary.py",
-      "bytes": 34951,
-      "sha256": "8a7c43b2bae3d01bcb7d21e0cbf307a7f1714f6cc0a74e0e1734948f4f779108"
+      "bytes": 34965,
+      "sha256": "4ca6d47d881ad0fac2506bcde5c1b63ec66434f8cd01043247474c5d43a5f29c"
     },
     {
       "path": "docs/downloads/code/platform/build_longlife_expertise.py",
@@ -7527,8 +7572,8 @@
     },
     {
       "path": "docs/downloads/code/platform/build_personnel_documentary.py",
-      "bytes": 20554,
-      "sha256": "f13b9697b06bc9fc565ca078ff88466aa37725beed98f0fd80a74c204a7b7276"
+      "bytes": 20568,
+      "sha256": "ee2ac0b4e53c4c10644bfc44737b78e2343fefbfc723d2f7e63de3981c909788"
     },
     {
       "path": "docs/downloads/code/platform/build_personnel_expertise.py",
@@ -7537,8 +7582,8 @@
     },
     {
       "path": "docs/downloads/code/platform/build_projection_downloads.py",
-      "bytes": 7472,
-      "sha256": "67f0671eba84bad027955b3d01ee0c8caea5e6fbc88a9c204c6fac1398bbde74"
+      "bytes": 7594,
+      "sha256": "eec250ce3c0051107adae20dc71019d3a3c5577d32526f5759254ee6661e4a27"
     },
     {
       "path": "docs/downloads/code/platform/build_projects.mjs",
@@ -7572,18 +7617,18 @@
     },
     {
       "path": "docs/downloads/code/platform/build_tourism_documentary.py",
-      "bytes": 17121,
-      "sha256": "3fcce08df0a7115a2f7b8ef8e1e3c80894b7d23b13f2ff5e3fce5bded6144399"
+      "bytes": 17192,
+      "sha256": "5069ab8a6d01061319b8386367fcf42677bee331e4255bc604a27c22d13ee07f"
     },
     {
       "path": "docs/downloads/code/platform/build_tourism_expertise.py",
-      "bytes": 22904,
-      "sha256": "b2fb58495ff7c67425ed3663a24eefcd98302a850637f7f38db59c81dd742628"
+      "bytes": 22946,
+      "sha256": "0208aa0b316674842e2da6395e53acb2770a8fcdc321be8b12da62b5e9d0f044"
     },
     {
       "path": "docs/downloads/code/platform/build_tourism_research.py",
-      "bytes": 2838,
-      "sha256": "ec1ee0d82b3587509c3e4a207b497d387da767e8269b835a8ce7f22351c58960"
+      "bytes": 2852,
+      "sha256": "f8ccfefda6444439e6c38f7e277837b2adea170407b55bf24e01869c83f37c9b"
     },
     {
       "path": "docs/downloads/code/platform/build_transport.mjs",
@@ -7597,13 +7642,13 @@
     },
     {
       "path": "docs/downloads/code/platform/build_transport_documentary.py",
-      "bytes": 17056,
-      "sha256": "555e59c82a090b8e2d8bd04dc0675fbb5b9de5f80eb1f586440fea1585c26706"
+      "bytes": 17127,
+      "sha256": "8902f363af34cea64c4979979f660736f131dc01a2d2dc290dac0935ed48d0ee"
     },
     {
       "path": "docs/downloads/code/platform/build_transport_expertise.py",
-      "bytes": 23162,
-      "sha256": "ca8062664922807f6907a750d47e40a024b4f206a04553f0c900d711cf1fae3d"
+      "bytes": 23204,
+      "sha256": "744fe103dc97369721b248473bd50bd1f72e897b60e9cd2410d624706a917944"
     },
     {
       "path": "docs/downloads/code/platform/build_youth.mjs",
@@ -7617,8 +7662,8 @@
     },
     {
       "path": "docs/downloads/code/platform/build_youth_documentary.py",
-      "bytes": 26101,
-      "sha256": "88554030dfd51976b33af4fe3323481a759865457c70eec97d26bb21d9c7e1a1"
+      "bytes": 26129,
+      "sha256": "f0f372bd6a1489f046fdae56ce435eaede975fce85992aaaebf9c5fe090cc02b"
     },
     {
       "path": "docs/downloads/code/platform/build_youth_expertise.py",
@@ -7632,8 +7677,8 @@
     },
     {
       "path": "docs/downloads/code/platform/competitive_data.py",
-      "bytes": 39505,
-      "sha256": "809d836bc5bafe299c3bb60fc062ef3ccbcb19d086cc25ec6440d202ce3fe689"
+      "bytes": 39537,
+      "sha256": "10ad558180b467bfbc08e77bbde937b28a1d810b1ff8a06722c34be8a44802fd"
     },
     {
       "path": "docs/downloads/code/platform/competitive_emiss_sources.json",
@@ -7647,8 +7692,8 @@
     },
     {
       "path": "docs/downloads/code/platform/competitive_text.py",
-      "bytes": 17617,
-      "sha256": "be429ed2b195a2383829fc24729220a7cad4b5d7f9e0fa354acdabd7150b60c2"
+      "bytes": 17705,
+      "sha256": "d867a53b735ed99a78fd52c21f7d215958e62bd67035033790624cfb5c08f332"
     },
     {
       "path": "docs/downloads/code/platform/competitive_update_summary.py",
@@ -7672,8 +7717,8 @@
     },
     {
       "path": "docs/downloads/code/platform/dataeconomy_data.py",
-      "bytes": 22163,
-      "sha256": "0bcb46703749f8a1ea281e358e0ae157a12c4d2c979a8599add6f040f63e8969"
+      "bytes": 22195,
+      "sha256": "070085267ae0617636b363008795a3eec3aeee496f5a9022d057bdc366a6cebc"
     },
     {
       "path": "docs/downloads/code/platform/dataeconomy_emiss_sources.json",
@@ -7697,8 +7742,8 @@
     },
     {
       "path": "docs/downloads/code/platform/dataeconomy_text.py",
-      "bytes": 18083,
-      "sha256": "44db1257ec1eb4331bc6cccbd5e1689e75e14dceadc41b79963dff907dde4314"
+      "bytes": 18171,
+      "sha256": "a362e4524b279bbcd7b3b9f0503aeb1526ac0fa23abeab6de43692bc2ab921df"
     },
     {
       "path": "docs/downloads/code/platform/dataeconomy_update_summary.py",
@@ -7777,8 +7822,8 @@
     },
     {
       "path": "docs/downloads/code/platform/environment_data.py",
-      "bytes": 31807,
-      "sha256": "7ddfac10eb60a434d869ad878aa49c3c95d0aa7d085aa2275fa91f3a963d2edb"
+      "bytes": 31839,
+      "sha256": "399b13567f07898cd3179f15d19de44e389eec7e2799edd3087ff270a0a0f99f"
     },
     {
       "path": "docs/downloads/code/platform/environment_emiss_sources.json",
@@ -7797,8 +7842,8 @@
     },
     {
       "path": "docs/downloads/code/platform/export_data.py",
-      "bytes": 14785,
-      "sha256": "7ed99f7de300ac32a1a60800642f0192b2c8fd88a9d75f551ab62260e550c007"
+      "bytes": 14799,
+      "sha256": "50084eff38b2a246ab536f2ccec2dfe8b82d605add9d65e231816bfff64cc7d2"
     },
     {
       "path": "docs/downloads/code/platform/export_emiss_sources.json",
@@ -8002,8 +8047,8 @@
     },
     {
       "path": "docs/downloads/code/platform/infrastructure_data.py",
-      "bytes": 32586,
-      "sha256": "6883732ac6ab880d2a941d0ca09e40b501d44e4b64844766a5baa0cefced156e"
+      "bytes": 32618,
+      "sha256": "78b0e369362309bf5c67fa330f8bc91afabfedaef7049bfb0548aea62716cc36"
     },
     {
       "path": "docs/downloads/code/platform/infrastructure_emiss_sources.json",
@@ -8014,6 +8059,16 @@
       "path": "docs/downloads/code/platform/infrastructure_formats.py",
       "bytes": 9172,
       "sha256": "614cc0f889c94ed43e83e711350685476b748e9d40a1424780a13a9a4053ff42"
+    },
+    {
+      "path": "docs/downloads/code/platform/infrastructure_method_review.json",
+      "bytes": 17442,
+      "sha256": "7ef80cc41d8d90fbb252a79dd622dc320cc82fc88b9f2a68705bd67ba615fad1"
+    },
+    {
+      "path": "docs/downloads/code/platform/infrastructure_method_review.py",
+      "bytes": 2376,
+      "sha256": "beaa310be7dd919e6a7a982123bb15d7aa4e198019fc6c8c228e9277322df50b"
     },
     {
       "path": "docs/downloads/code/platform/infrastructure_update_summary.py",
@@ -8186,6 +8241,11 @@
       "sha256": "a5ba227db45f6e4f4b090d3aac70a4632d237c0d19d513a75230ed4dd7a834d1"
     },
     {
+      "path": "docs/downloads/code/platform/reproducible_output.py",
+      "bytes": 1536,
+      "sha256": "06b36e6ed38c9cc92111a8dcbdc6c4d315f036cd0b36c4c391753a20ce164b14"
+    },
+    {
       "path": "docs/downloads/code/platform/requirements-analytics.txt",
       "bytes": 90,
       "sha256": "acb7056a6a6c1363b02db34f14d3d46f5a6ca1ae91f40a3fec40f5685627f2f4"
@@ -8216,9 +8276,14 @@
       "sha256": "01401b57d1eab14b367dd86db066d5c18ad4411dc2c01f080c3f6d2dfc264432"
     },
     {
+      "path": "docs/downloads/code/platform/sync_release_sources.mjs",
+      "bytes": 6509,
+      "sha256": "0d1f1f0d782006f4b5021df36632846d9c61ac9c385810e968f841c12b25b7df"
+    },
+    {
       "path": "docs/downloads/code/platform/tourism_data.py",
-      "bytes": 7965,
-      "sha256": "1a44b6825dae90077b2cba801ce26e780974ed662e5bd3c1efe651410b579289"
+      "bytes": 7979,
+      "sha256": "0a078e139bfb9130c96bde0cf689f4844030329ce5310cd2afa0f3522e544436"
     },
     {
       "path": "docs/downloads/code/platform/tourism_emiss_sources.json",
@@ -8227,8 +8292,8 @@
     },
     {
       "path": "docs/downloads/code/platform/tourism_text.py",
-      "bytes": 17927,
-      "sha256": "7e3689f80c5b733513b691ceeab9f4d7db5338216a25c2863072182b67595aa5"
+      "bytes": 18015,
+      "sha256": "fe91f3a9067fdc220f105fdd5fb5a1948340f01d5ed637d76494263ea079de8e"
     },
     {
       "path": "docs/downloads/code/platform/tourism_update_summary.py",
@@ -8237,8 +8302,8 @@
     },
     {
       "path": "docs/downloads/code/platform/transport_data.py",
-      "bytes": 16377,
-      "sha256": "92ec085ac8330c9d9295f7b2e2ca00b4380b4291f352377c53f545d21063077b"
+      "bytes": 16391,
+      "sha256": "1a29c0a74238ec4fad4c7aed50b1b9579cf55ad27ca307a564b039678dfe4511"
     },
     {
       "path": "docs/downloads/code/platform/transport_emiss_sources.json",
@@ -8247,8 +8312,8 @@
     },
     {
       "path": "docs/downloads/code/platform/transport_text.py",
-      "bytes": 20990,
-      "sha256": "4b0d28c49e1447e183788f036eaf1cd959f0ac3d31c99d37574cff8b6a9bd09f"
+      "bytes": 21078,
+      "sha256": "2369360fdc2998346fb9517873ccbaf5bc9f35ef6b159270011a273241c5cada"
     },
     {
       "path": "docs/downloads/code/platform/transport_update_summary.py",
@@ -8667,13 +8732,13 @@
     },
     {
       "path": "docs/downloads/documentation/CHANGELOG.md",
-      "bytes": 51529,
-      "sha256": "39efa4754d9414b106b5769546b02299a5d711e62df60bb7797507784cbe1791"
+      "bytes": 54902,
+      "sha256": "a910833a9f6671bccd5289748bcf816ec128dccde9cb7c955663efccd8d93614"
     },
     {
       "path": "docs/downloads/documentation/CODEX_HANDOFF_RU.md",
-      "bytes": 17697,
-      "sha256": "d9ae4e3c3dafe5a0270ef68d3148375c1cace6b6dea90f757da5da1d069a5786"
+      "bytes": 12551,
+      "sha256": "d01a431d730071abaa0a58d1b85b6e42bc09c17c8d197c669443020f34eec34f"
     },
     {
       "path": "docs/downloads/documentation/COHORT_INPUTS.md",
@@ -8732,8 +8797,8 @@
     },
     {
       "path": "docs/downloads/documentation/CUMULATIVE_PACKAGE_FORMAT_RU.md",
-      "bytes": 5509,
-      "sha256": "dd935b06a724c389d6a070557655c7a119f36cd7293cea570dac399a0ce34ef7"
+      "bytes": 7035,
+      "sha256": "06758f33dd3b620051425c2df36411d18212d0a56644d59885d2889f50b8a2fe"
     },
     {
       "path": "docs/downloads/documentation/CURRENT_DATA.md",
@@ -8847,8 +8912,8 @@
     },
     {
       "path": "docs/downloads/documentation/EXPORT_DOCUMENTARY_AUDIT.json",
-      "bytes": 3916,
-      "sha256": "1319475ea7f4b558ad635bf72f12e3ec5c8d1dfdfbaffc1d4fa6b3c59ef8433f"
+      "bytes": 3783,
+      "sha256": "d4bfdeb4fa2a0068fd9e3c9f5c2f0bf96a76eca70af2f856e25f719df39688f2"
     },
     {
       "path": "docs/downloads/documentation/EXPORT_PRESERVATION_AUDIT.json",
@@ -8857,8 +8922,8 @@
     },
     {
       "path": "docs/downloads/documentation/EXPORT_REGIONAL_CONTEXT_AUDIT.json",
-      "bytes": 3172,
-      "sha256": "c23ef584f5e2308cff650f6362fa16db461455115558fddf09920457680764ee"
+      "bytes": 3097,
+      "sha256": "7926498569de3f868d448e4c3ef740aa193cca4b5009da6912a5584616c258a4"
     },
     {
       "path": "docs/downloads/documentation/EXPORT_RELEASE_RU.md",
@@ -8872,8 +8937,8 @@
     },
     {
       "path": "docs/downloads/documentation/EXPORT_STATISTICAL_AUDIT.json",
-      "bytes": 23788,
-      "sha256": "29c17e1853ee34c9d6c1a103d8cb99fa87fd65fd750379fffb90e27c9608a7ff"
+      "bytes": 23407,
+      "sha256": "6d22b3e3908954474f00118a1269f81f56554769b87b43fd0a521cb3fa682aa5"
     },
     {
       "path": "docs/downloads/documentation/EXPORT_VALIDATION_RU.md",
@@ -9047,8 +9112,8 @@
     },
     {
       "path": "docs/downloads/documentation/README.md",
-      "bytes": 48743,
-      "sha256": "99e736baad5157d4082aed511eeda20402db2d692805d8c0dc89c2bc763a87cb"
+      "bytes": 50670,
+      "sha256": "ef87fa0fff90932fdfce270ed8bb6902a0419f9a8717db453f800141fedfa02b"
     },
     {
       "path": "docs/downloads/documentation/README_FAMILY_1_2_1.md",
@@ -9082,8 +9147,8 @@
     },
     {
       "path": "docs/downloads/documentation/TOURISM_DOCUMENTARY_AUDIT.json",
-      "bytes": 11215,
-      "sha256": "458435938db78b5d425b706f7f8ba1090b8061acfe51da1e1dde3568488c8175"
+      "bytes": 10817,
+      "sha256": "cc5eb14982ff30adfd83011206460c412a68a604119559ffcd9feeca68487f89"
     },
     {
       "path": "docs/downloads/documentation/TOURISM_DOM_VERIFICATION.json",
@@ -9112,8 +9177,8 @@
     },
     {
       "path": "docs/downloads/documentation/TOURISM_STATISTICAL_AUDIT.json",
-      "bytes": 14225,
-      "sha256": "86584a306cd567921de9c4b09aeb1f73c043d1ead95e1bb212176b6f0ce2cfd4"
+      "bytes": 13857,
+      "sha256": "f0e66e2ec7c12e6a858b183610de1842607c60a7bd4c076fa16522933a7f02ef"
     },
     {
       "path": "docs/downloads/documentation/TOURISM_VALIDATION_RU.md",
@@ -9152,8 +9217,8 @@
     },
     {
       "path": "docs/downloads/documentation/TRANSPORT_DOCUMENTARY_AUDIT.json",
-      "bytes": 18120,
-      "sha256": "c811ce4c76ba47bb1757a3f0891b2612df21239e3d777d1b0ac222c2b189d1ad"
+      "bytes": 17499,
+      "sha256": "991c3a534506f65a4d95d5e1dede4b6e4bbd778a5c1ea9c8208224dab06ae7cd"
     },
     {
       "path": "docs/downloads/documentation/TRANSPORT_DOM_VERIFICATION.json",
@@ -9197,8 +9262,8 @@
     },
     {
       "path": "docs/downloads/documentation/TRANSPORT_STATISTICAL_AUDIT.json",
-      "bytes": 16116,
-      "sha256": "ed6ac3997cc04a24f5bdb9a4219003738a3fb3c6ff450980db84ac4d257a3ab5"
+      "bytes": 15824,
+      "sha256": "82e351245d0a9f1d13e2bd0362edcd34e9d91f3f8e2858e2fb1aaa10cd658328"
     },
     {
       "path": "docs/downloads/documentation/TRANSPORT_VALIDATION_RU.md",
@@ -9209,6 +9274,11 @@
       "path": "docs/downloads/documentation/V3_STAGE1_RU.md",
       "bytes": 24299,
       "sha256": "4aa3f60dcd1abeafe9923c33c74f7b6bf2d195b0d7a9d486cecc9c82722cc8c0"
+    },
+    {
+      "path": "docs/downloads/documentation/V3_STAGE2_RU.md",
+      "bytes": 15511,
+      "sha256": "c198baad556ebb29a510570b2911e87c066fbf82ba1f1e9b29daee04d381d84f"
     },
     {
       "path": "docs/downloads/documentation/VALIDATION.md",
@@ -9266,6 +9336,21 @@
       "sha256": "12e306d8f9d779d7868ca0db26f026d5c2b3b85a058dc3d06392a9e68c20482a"
     },
     {
+      "path": "docs/downloads/documentation/v3-stage2-context-desktop.png",
+      "bytes": 171488,
+      "sha256": "4425d9f27e9c4628f34ca625dde7252069f6c48a6396288ad6e2b851ff47ed7c"
+    },
+    {
+      "path": "docs/downloads/documentation/v3-stage2-context-mobile.png",
+      "bytes": 69576,
+      "sha256": "c05f63b7908f8c17f2c10b05cabe35a6c8d5dbcf5dfc9eab79a6ff3b0ac4c3c1"
+    },
+    {
+      "path": "docs/downloads/documentation/v3-stage2-tourism-export.png",
+      "bytes": 160044,
+      "sha256": "7e439139e81d1f66974201cdcf490d4aa91ab7236b1bc7845bc190ea7cb91da5"
+    },
+    {
       "path": "docs/downloads/documents/Паспорт-национального-проекта-Семья.pdf",
       "bytes": 162285,
       "sha256": "ce794b9712f177c185f4a1d89c0c70c48a0a7ccd28e433a9bfe668d435d6be0e"
@@ -9297,8 +9382,8 @@
     },
     {
       "path": "docs/downloads/index.json",
-      "bytes": 498212,
-      "sha256": "383260fb175e24b03885464a07de423f96edb50f403d07a7059ba472aee4a03f"
+      "bytes": 501264,
+      "sha256": "cada7be1cc30dcf9535a1daf8c13752fcd2c5db696e61173660d5520bc2579eb"
     },
     {
       "path": "docs/downloads/metadata/indicators_coverage.csv",
@@ -18102,8 +18187,8 @@
     },
     {
       "path": "docs/src/app.js",
-      "bytes": 15165,
-      "sha256": "f0eea25090a8d0b697667166e92a2b14d77fa906aec9daab14330e9fec39323f"
+      "bytes": 18955,
+      "sha256": "65fec07f3882375b7a424d81cc1bb7bc8e037ee3e9a50184977705f27d8ffaf9"
     },
     {
       "path": "docs/src/competitive.css",
@@ -18139,6 +18224,11 @@
       "path": "docs/src/components/pyramid.js",
       "bytes": 2961,
       "sha256": "112ba38d396e5eba16ee1a333bfb691c9aedd392d583466665c03ebeffa9f36c"
+    },
+    {
+      "path": "docs/src/components/research-context.js",
+      "bytes": 6887,
+      "sha256": "f62c8768e55d68585ad02e87555551e40e838bfc39e9d46247f08a7de4d0ffaf"
     },
     {
       "path": "docs/src/components/ui.js",
@@ -18181,6 +18271,11 @@
       "sha256": "4eb02e07b81b0628102a4c11050f834f75110bc65c3cd4ed7a9560a47b34bea1"
     },
     {
+      "path": "docs/src/core/research-context.js",
+      "bytes": 9149,
+      "sha256": "00e24a6e2f949f80121ee24680698be2bcdc875c23856cc84df96c35c40a4ca7"
+    },
+    {
       "path": "docs/src/core/series-transport.js",
       "bytes": 6321,
       "sha256": "b4a4afc1c019c41ad3618f97f399fc96b1480bf48b3f4d6521717f5d64e30554"
@@ -18193,7 +18288,7 @@
     {
       "path": "docs/src/core/tourism-research.js",
       "bytes": 17670,
-      "sha256": "cc7049e1a60f6250c71e6d39f7f4bcc9e83adf80db271ed195711d6d46d6d895"
+      "sha256": "6b8f64f54345f92abe9b8cd2c35ff2cab30508e129a9b440110296e6fa51c115"
     },
     {
       "path": "docs/src/core/worker.js",
@@ -18287,8 +18382,8 @@
     },
     {
       "path": "docs/src/pages/longlife.js",
-      "bytes": 170293,
-      "sha256": "e64143427eb1f33a67c8d3dd8d16a9d5ba044b13369cd530ed4a25a0c585295b"
+      "bytes": 170622,
+      "sha256": "3dcdb6829b85237d765b1e7976b3a38f03990303fd270a32ab885216abf845b0"
     },
     {
       "path": "docs/src/pages/personnel.js",
@@ -18362,13 +18457,18 @@
     },
     {
       "path": "docs/src/platform/projects.js",
-      "bytes": 14033,
-      "sha256": "a7be0df425093e3ca994c5a8287e4106abe44bde2ae9e9c93f583c5a2d2a3e4d"
+      "bytes": 14150,
+      "sha256": "824d6c45143e4fa4b534e98351e1fa43775cd9f38cc55b16c2a92a8cfe657fb2"
+    },
+    {
+      "path": "docs/src/platform/research-context-data.js",
+      "bytes": 12578,
+      "sha256": "e635b0e8d364a4429a4274a197941be1d197e5d92bf557b87bcf4add8d5fe466"
     },
     {
       "path": "docs/src/platform/routes.js",
-      "bytes": 1617,
-      "sha256": "1a2ada0b7638d0861dde5c750edeed07b6f367faddee61935922e6e2be176a66"
+      "bytes": 1696,
+      "sha256": "dedaa78edc8e556fd0c936b208502c383ba53bd11a96569bc7a36833f0064e64"
     },
     {
       "path": "docs/src/platform/runtime.js",
@@ -18386,9 +18486,14 @@
       "sha256": "530537144d3258b3fef34b9c2b40e5ef5cf575de4aec0f9ff4665eb2d9ade748"
     },
     {
+      "path": "docs/src/research-context.css",
+      "bytes": 2166,
+      "sha256": "340bd7a078f363fb30b5920ae7a1c44cf59eb5969737b51141506679a2edf850"
+    },
+    {
       "path": "docs/src/styles.css",
-      "bytes": 58253,
-      "sha256": "a7754d026701b38cea0ebf771112208ba40111cc35f22462cf33c33a9cb2f064"
+      "bytes": 58292,
+      "sha256": "001a10c98499e3bcd7588ca71e75d9ec1bb9cf3c2e219fec148c1dcc0f14e815"
     },
     {
       "path": "docs/src/tourism.css",
@@ -18442,8 +18547,8 @@
     },
     {
       "path": "documentation/CODEX_HANDOFF_RU.md",
-      "bytes": 17697,
-      "sha256": "d9ae4e3c3dafe5a0270ef68d3148375c1cace6b6dea90f757da5da1d069a5786"
+      "bytes": 12551,
+      "sha256": "d01a431d730071abaa0a58d1b85b6e42bc09c17c8d197c669443020f34eec34f"
     },
     {
       "path": "documentation/COHORT_INPUTS.md",
@@ -18502,8 +18607,8 @@
     },
     {
       "path": "documentation/CUMULATIVE_PACKAGE_FORMAT_RU.md",
-      "bytes": 5509,
-      "sha256": "dd935b06a724c389d6a070557655c7a119f36cd7293cea570dac399a0ce34ef7"
+      "bytes": 7035,
+      "sha256": "06758f33dd3b620051425c2df36411d18212d0a56644d59885d2889f50b8a2fe"
     },
     {
       "path": "documentation/CURRENT_DATA.md",
@@ -18966,6 +19071,11 @@
       "sha256": "4aa3f60dcd1abeafe9923c33c74f7b6bf2d195b0d7a9d486cecc9c82722cc8c0"
     },
     {
+      "path": "documentation/V3_STAGE2_RU.md",
+      "bytes": 15511,
+      "sha256": "c198baad556ebb29a510570b2911e87c066fbf82ba1f1e9b29daee04d381d84f"
+    },
+    {
       "path": "documentation/VALIDATION.md",
       "bytes": 8426,
       "sha256": "60b3e1408ce095891c3f084993c3d949aea2acd422caed3e2148bf6bc69768d4"
@@ -19019,6 +19129,21 @@
       "path": "documentation/history/README_FAMILY_1_2_1.md",
       "bytes": 15119,
       "sha256": "fed7f1316d68d6682d24d3810985caffc505dda0da082185f2fb9a6300d52323"
+    },
+    {
+      "path": "documentation/qa-v3-stage2/v3-stage2-context-desktop.png",
+      "bytes": 171488,
+      "sha256": "4425d9f27e9c4628f34ca625dde7252069f6c48a6396288ad6e2b851ff47ed7c"
+    },
+    {
+      "path": "documentation/qa-v3-stage2/v3-stage2-context-mobile.png",
+      "bytes": 69576,
+      "sha256": "c05f63b7908f8c17f2c10b05cabe35a6c8d5dbcf5dfc9eab79a6ff3b0ac4c3c1"
+    },
+    {
+      "path": "documentation/qa-v3-stage2/v3-stage2-tourism-export.png",
+      "bytes": 160044,
+      "sha256": "7e439139e81d1f66974201cdcf490d4aa91ab7236b1bc7845bc190ea7cb91da5"
     },
     {
       "path": "documentation/templates/expertise-page.json",
@@ -21617,8 +21742,8 @@
     },
     {
       "path": "package.json",
-      "bytes": 2770,
-      "sha256": "1f423764112c0a7f1067891dd806c2a8dd63a8b440f4b0b9d2a0790d64225095"
+      "bytes": 2831,
+      "sha256": "5808eee12cfccac97b76e5a1de3534fd76a9003bfbbad4e79462d98caf169c24"
     },
     {
       "path": "preview/desktop_authors.webp",
@@ -28567,8 +28692,8 @@
     },
     {
       "path": "public/downloads/code/frontend/app.js",
-      "bytes": 15165,
-      "sha256": "f0eea25090a8d0b697667166e92a2b14d77fa906aec9daab14330e9fec39323f"
+      "bytes": 18955,
+      "sha256": "65fec07f3882375b7a424d81cc1bb7bc8e037ee3e9a50184977705f27d8ffaf9"
     },
     {
       "path": "public/downloads/code/frontend/competitive.css",
@@ -28587,8 +28712,8 @@
     },
     {
       "path": "public/downloads/code/frontend/components/institutions.js",
-      "bytes": 913,
-      "sha256": "0d6f7387ad9e3d90a8a19af14cc48769454bfcc5605a8ed8838e1cd4a1b50c08"
+      "bytes": 897,
+      "sha256": "313fe0fb1616db5e489efb0bfbc4dc5de69ebdf9b5b4b3d1a52499ca7fb7fc2a"
     },
     {
       "path": "public/downloads/code/frontend/components/map.js",
@@ -28604,6 +28729,11 @@
       "path": "public/downloads/code/frontend/components/pyramid.js",
       "bytes": 2961,
       "sha256": "112ba38d396e5eba16ee1a333bfb691c9aedd392d583466665c03ebeffa9f36c"
+    },
+    {
+      "path": "public/downloads/code/frontend/components/research-context.js",
+      "bytes": 6887,
+      "sha256": "f62c8768e55d68585ad02e87555551e40e838bfc39e9d46247f08a7de4d0ffaf"
     },
     {
       "path": "public/downloads/code/frontend/components/ui.js",
@@ -28646,6 +28776,11 @@
       "sha256": "4eb02e07b81b0628102a4c11050f834f75110bc65c3cd4ed7a9560a47b34bea1"
     },
     {
+      "path": "public/downloads/code/frontend/core/research-context.js",
+      "bytes": 9149,
+      "sha256": "00e24a6e2f949f80121ee24680698be2bcdc875c23856cc84df96c35c40a4ca7"
+    },
+    {
       "path": "public/downloads/code/frontend/core/series-transport.js",
       "bytes": 6321,
       "sha256": "b4a4afc1c019c41ad3618f97f399fc96b1480bf48b3f4d6521717f5d64e30554"
@@ -28658,7 +28793,7 @@
     {
       "path": "public/downloads/code/frontend/core/tourism-research.js",
       "bytes": 17670,
-      "sha256": "cc7049e1a60f6250c71e6d39f7f4bcc9e83adf80db271ed195711d6d46d6d895"
+      "sha256": "6b8f64f54345f92abe9b8cd2c35ff2cab30508e129a9b440110296e6fa51c115"
     },
     {
       "path": "public/downloads/code/frontend/core/worker.js",
@@ -28752,8 +28887,8 @@
     },
     {
       "path": "public/downloads/code/frontend/pages/longlife.js",
-      "bytes": 170293,
-      "sha256": "e64143427eb1f33a67c8d3dd8d16a9d5ba044b13369cd530ed4a25a0c585295b"
+      "bytes": 170622,
+      "sha256": "3dcdb6829b85237d765b1e7976b3a38f03990303fd270a32ab885216abf845b0"
     },
     {
       "path": "public/downloads/code/frontend/pages/personnel.js",
@@ -28827,13 +28962,18 @@
     },
     {
       "path": "public/downloads/code/frontend/platform/projects.js",
-      "bytes": 14033,
-      "sha256": "a7be0df425093e3ca994c5a8287e4106abe44bde2ae9e9c93f583c5a2d2a3e4d"
+      "bytes": 14150,
+      "sha256": "824d6c45143e4fa4b534e98351e1fa43775cd9f38cc55b16c2a92a8cfe657fb2"
+    },
+    {
+      "path": "public/downloads/code/frontend/platform/research-context-data.js",
+      "bytes": 12578,
+      "sha256": "e635b0e8d364a4429a4274a197941be1d197e5d92bf557b87bcf4add8d5fe466"
     },
     {
       "path": "public/downloads/code/frontend/platform/routes.js",
-      "bytes": 1617,
-      "sha256": "1a2ada0b7638d0861dde5c750edeed07b6f367faddee61935922e6e2be176a66"
+      "bytes": 1696,
+      "sha256": "dedaa78edc8e556fd0c936b208502c383ba53bd11a96569bc7a36833f0064e64"
     },
     {
       "path": "public/downloads/code/frontend/platform/runtime.js",
@@ -28851,9 +28991,14 @@
       "sha256": "530537144d3258b3fef34b9c2b40e5ef5cf575de4aec0f9ff4665eb2d9ade748"
     },
     {
+      "path": "public/downloads/code/frontend/research-context.css",
+      "bytes": 2166,
+      "sha256": "340bd7a078f363fb30b5920ae7a1c44cf59eb5969737b51141506679a2edf850"
+    },
+    {
       "path": "public/downloads/code/frontend/styles.css",
-      "bytes": 58253,
-      "sha256": "a7754d026701b38cea0ebf771112208ba40111cc35f22462cf33c33a9cb2f064"
+      "bytes": 58292,
+      "sha256": "001a10c98499e3bcd7588ca71e75d9ec1bb9cf3c2e219fec148c1dcc0f14e815"
     },
     {
       "path": "public/downloads/code/frontend/tourism.css",
@@ -28947,18 +29092,18 @@
     },
     {
       "path": "public/downloads/code/platform/build_competitive_documentary.py",
-      "bytes": 41517,
-      "sha256": "205bdaa3362f7de9a1279a53b372af120d508f99ba61a8cf2acb897701b3530d"
+      "bytes": 41563,
+      "sha256": "3ef659faea20404d0b4374b9e20a84e3a33e112ec44972e61ddab704e0942927"
     },
     {
       "path": "public/downloads/code/platform/build_competitive_expertise.py",
-      "bytes": 15216,
-      "sha256": "65d90cb6e74b524072b024a935ae0c1034e38e3a0d1fcf6f91cca8cc7229c229"
+      "bytes": 15244,
+      "sha256": "2c7a66b29bd51a3760691c97f5c3424cd20ed764df7a20f1140dad9c8ace3dda"
     },
     {
       "path": "public/downloads/code/platform/build_current_analytics.py",
-      "bytes": 12659,
-      "sha256": "2a2675bcfbaf8382dde0e133271ade3af84316f29d9f53b31603e4aebef60706"
+      "bytes": 12673,
+      "sha256": "bdf2ff0d34daa8cee857f5ea1996f21d72acd7dd53ff2fac8fe793771808a475"
     },
     {
       "path": "public/downloads/code/platform/build_current_reports.py",
@@ -28982,13 +29127,13 @@
     },
     {
       "path": "public/downloads/code/platform/build_dataeconomy_documentary.py",
-      "bytes": 35706,
-      "sha256": "01d97380672be84186f8ff84ba754290975f28ac6d7a37b8733873ded6568506"
+      "bytes": 35752,
+      "sha256": "ac26ff15c817f96afba27413a6b8057ab598f28cc7276e21efe1122ffa839b31"
     },
     {
       "path": "public/downloads/code/platform/build_dataeconomy_expertise.py",
-      "bytes": 15827,
-      "sha256": "226ef3400e55d83568d1790e0b7ab287c7195905dc01b35718b138b1c6a585cf"
+      "bytes": 15855,
+      "sha256": "6a9c9bbfe48559f181177a900446894ed76dce53ba773a0631813ebf7b1ec457"
     },
     {
       "path": "public/downloads/code/platform/build_environment.mjs",
@@ -29002,8 +29147,8 @@
     },
     {
       "path": "public/downloads/code/platform/build_environment_documentary.py",
-      "bytes": 47895,
-      "sha256": "d4100e327be4f562118f437fcba27f5459e52b636f4a7eae9760a45acc70b1b2"
+      "bytes": 47984,
+      "sha256": "85c4f840fde52da0203a3563df88d6cb1990812bc84e31d2c1fa3592df1b77e9"
     },
     {
       "path": "public/downloads/code/platform/build_environment_expertise.py",
@@ -29022,18 +29167,18 @@
     },
     {
       "path": "public/downloads/code/platform/build_export_documentary.py",
-      "bytes": 21978,
-      "sha256": "8159123eee36c7d5444099b20c95e5f3fe025bde473db7f29107a2ce2b6a9398"
+      "bytes": 22049,
+      "sha256": "4e51474bef8c3e3d6919f6a21fdd2d1965462f7f357d01376ead64c92aa0f216"
     },
     {
       "path": "public/downloads/code/platform/build_export_expertise.py",
-      "bytes": 26867,
-      "sha256": "31a018c6a39fcf4b477a3eeba55d161f9319bbd996383319fa1f94e585c21f61"
+      "bytes": 26909,
+      "sha256": "4c6499e9a7ac690dbe2d909feca4a0a522c627f2f67bab26023a893c1ee9fe2e"
     },
     {
       "path": "public/downloads/code/platform/build_export_regional_context.py",
-      "bytes": 11121,
-      "sha256": "d27497c6fea80ab37c94b1ed20993f4fecfd2334618b10a4a081b1df79159990"
+      "bytes": 11149,
+      "sha256": "460fd3e0c430a469259e948cadb181af14cb516bbbedb7308a157af4155fa60e"
     },
     {
       "path": "public/downloads/code/platform/build_healthtech.mjs",
@@ -29047,8 +29192,8 @@
     },
     {
       "path": "public/downloads/code/platform/build_healthtech_documentary.py",
-      "bytes": 31439,
-      "sha256": "78fe056847c541a3388e5515c92a423ff789c40391b5751936fa73021598cafd"
+      "bytes": 31528,
+      "sha256": "d0c4c8761fa339a6ffabf513605c55c4517bd3204610f8e622217f13eb47c625"
     },
     {
       "path": "public/downloads/code/platform/build_healthtech_expertise.py",
@@ -29062,18 +29207,18 @@
     },
     {
       "path": "public/downloads/code/platform/build_infrastructure.mjs",
-      "bytes": 16400,
-      "sha256": "34d89c7961e78c5c472305397338ce4cbc9dbd4be7ada5ce0c65af125abe1010"
+      "bytes": 5200,
+      "sha256": "10f4fb01131dfc8cf25951c039818bae14449d021f303f680982d9db71b508a4"
     },
     {
       "path": "public/downloads/code/platform/build_infrastructure_analytics.py",
-      "bytes": 41573,
-      "sha256": "9644c044090fdc561e2d185058bb9ab2e952c404cf83f57eaf8c8a7aa9b2738f"
+      "bytes": 35255,
+      "sha256": "1f5ace357bba4ef96da4eb41373e1908bf09fe080e915072bed1a65ac614f50e"
     },
     {
       "path": "public/downloads/code/platform/build_infrastructure_documentary.py",
-      "bytes": 40774,
-      "sha256": "0f40201330ef0f1685503a148024170009a292947da60e41c074d6d9ba17aa70"
+      "bytes": 40863,
+      "sha256": "a10a2e97653eea59180bb0c569025fd2d94b68633567844ad52572abdbd2864f"
     },
     {
       "path": "public/downloads/code/platform/build_infrastructure_expertise.py",
@@ -29092,8 +29237,8 @@
     },
     {
       "path": "public/downloads/code/platform/build_longlife_documentary.py",
-      "bytes": 34951,
-      "sha256": "8a7c43b2bae3d01bcb7d21e0cbf307a7f1714f6cc0a74e0e1734948f4f779108"
+      "bytes": 34965,
+      "sha256": "4ca6d47d881ad0fac2506bcde5c1b63ec66434f8cd01043247474c5d43a5f29c"
     },
     {
       "path": "public/downloads/code/platform/build_longlife_expertise.py",
@@ -29117,8 +29262,8 @@
     },
     {
       "path": "public/downloads/code/platform/build_personnel_documentary.py",
-      "bytes": 20554,
-      "sha256": "f13b9697b06bc9fc565ca078ff88466aa37725beed98f0fd80a74c204a7b7276"
+      "bytes": 20568,
+      "sha256": "ee2ac0b4e53c4c10644bfc44737b78e2343fefbfc723d2f7e63de3981c909788"
     },
     {
       "path": "public/downloads/code/platform/build_personnel_expertise.py",
@@ -29127,8 +29272,8 @@
     },
     {
       "path": "public/downloads/code/platform/build_projection_downloads.py",
-      "bytes": 7472,
-      "sha256": "67f0671eba84bad027955b3d01ee0c8caea5e6fbc88a9c204c6fac1398bbde74"
+      "bytes": 7594,
+      "sha256": "eec250ce3c0051107adae20dc71019d3a3c5577d32526f5759254ee6661e4a27"
     },
     {
       "path": "public/downloads/code/platform/build_projects.mjs",
@@ -29162,18 +29307,18 @@
     },
     {
       "path": "public/downloads/code/platform/build_tourism_documentary.py",
-      "bytes": 17121,
-      "sha256": "3fcce08df0a7115a2f7b8ef8e1e3c80894b7d23b13f2ff5e3fce5bded6144399"
+      "bytes": 17192,
+      "sha256": "5069ab8a6d01061319b8386367fcf42677bee331e4255bc604a27c22d13ee07f"
     },
     {
       "path": "public/downloads/code/platform/build_tourism_expertise.py",
-      "bytes": 22904,
-      "sha256": "b2fb58495ff7c67425ed3663a24eefcd98302a850637f7f38db59c81dd742628"
+      "bytes": 22946,
+      "sha256": "0208aa0b316674842e2da6395e53acb2770a8fcdc321be8b12da62b5e9d0f044"
     },
     {
       "path": "public/downloads/code/platform/build_tourism_research.py",
-      "bytes": 2838,
-      "sha256": "ec1ee0d82b3587509c3e4a207b497d387da767e8269b835a8ce7f22351c58960"
+      "bytes": 2852,
+      "sha256": "f8ccfefda6444439e6c38f7e277837b2adea170407b55bf24e01869c83f37c9b"
     },
     {
       "path": "public/downloads/code/platform/build_transport.mjs",
@@ -29187,13 +29332,13 @@
     },
     {
       "path": "public/downloads/code/platform/build_transport_documentary.py",
-      "bytes": 17056,
-      "sha256": "555e59c82a090b8e2d8bd04dc0675fbb5b9de5f80eb1f586440fea1585c26706"
+      "bytes": 17127,
+      "sha256": "8902f363af34cea64c4979979f660736f131dc01a2d2dc290dac0935ed48d0ee"
     },
     {
       "path": "public/downloads/code/platform/build_transport_expertise.py",
-      "bytes": 23162,
-      "sha256": "ca8062664922807f6907a750d47e40a024b4f206a04553f0c900d711cf1fae3d"
+      "bytes": 23204,
+      "sha256": "744fe103dc97369721b248473bd50bd1f72e897b60e9cd2410d624706a917944"
     },
     {
       "path": "public/downloads/code/platform/build_youth.mjs",
@@ -29207,8 +29352,8 @@
     },
     {
       "path": "public/downloads/code/platform/build_youth_documentary.py",
-      "bytes": 26101,
-      "sha256": "88554030dfd51976b33af4fe3323481a759865457c70eec97d26bb21d9c7e1a1"
+      "bytes": 26129,
+      "sha256": "f0f372bd6a1489f046fdae56ce435eaede975fce85992aaaebf9c5fe090cc02b"
     },
     {
       "path": "public/downloads/code/platform/build_youth_expertise.py",
@@ -29222,8 +29367,8 @@
     },
     {
       "path": "public/downloads/code/platform/competitive_data.py",
-      "bytes": 39505,
-      "sha256": "809d836bc5bafe299c3bb60fc062ef3ccbcb19d086cc25ec6440d202ce3fe689"
+      "bytes": 39537,
+      "sha256": "10ad558180b467bfbc08e77bbde937b28a1d810b1ff8a06722c34be8a44802fd"
     },
     {
       "path": "public/downloads/code/platform/competitive_emiss_sources.json",
@@ -29237,8 +29382,8 @@
     },
     {
       "path": "public/downloads/code/platform/competitive_text.py",
-      "bytes": 17617,
-      "sha256": "be429ed2b195a2383829fc24729220a7cad4b5d7f9e0fa354acdabd7150b60c2"
+      "bytes": 17705,
+      "sha256": "d867a53b735ed99a78fd52c21f7d215958e62bd67035033790624cfb5c08f332"
     },
     {
       "path": "public/downloads/code/platform/competitive_update_summary.py",
@@ -29262,8 +29407,8 @@
     },
     {
       "path": "public/downloads/code/platform/dataeconomy_data.py",
-      "bytes": 22163,
-      "sha256": "0bcb46703749f8a1ea281e358e0ae157a12c4d2c979a8599add6f040f63e8969"
+      "bytes": 22195,
+      "sha256": "070085267ae0617636b363008795a3eec3aeee496f5a9022d057bdc366a6cebc"
     },
     {
       "path": "public/downloads/code/platform/dataeconomy_emiss_sources.json",
@@ -29287,8 +29432,8 @@
     },
     {
       "path": "public/downloads/code/platform/dataeconomy_text.py",
-      "bytes": 18083,
-      "sha256": "44db1257ec1eb4331bc6cccbd5e1689e75e14dceadc41b79963dff907dde4314"
+      "bytes": 18171,
+      "sha256": "a362e4524b279bbcd7b3b9f0503aeb1526ac0fa23abeab6de43692bc2ab921df"
     },
     {
       "path": "public/downloads/code/platform/dataeconomy_update_summary.py",
@@ -29367,8 +29512,8 @@
     },
     {
       "path": "public/downloads/code/platform/environment_data.py",
-      "bytes": 31807,
-      "sha256": "7ddfac10eb60a434d869ad878aa49c3c95d0aa7d085aa2275fa91f3a963d2edb"
+      "bytes": 31839,
+      "sha256": "399b13567f07898cd3179f15d19de44e389eec7e2799edd3087ff270a0a0f99f"
     },
     {
       "path": "public/downloads/code/platform/environment_emiss_sources.json",
@@ -29387,8 +29532,8 @@
     },
     {
       "path": "public/downloads/code/platform/export_data.py",
-      "bytes": 14785,
-      "sha256": "7ed99f7de300ac32a1a60800642f0192b2c8fd88a9d75f551ab62260e550c007"
+      "bytes": 14799,
+      "sha256": "50084eff38b2a246ab536f2ccec2dfe8b82d605add9d65e231816bfff64cc7d2"
     },
     {
       "path": "public/downloads/code/platform/export_emiss_sources.json",
@@ -29592,8 +29737,8 @@
     },
     {
       "path": "public/downloads/code/platform/infrastructure_data.py",
-      "bytes": 32586,
-      "sha256": "6883732ac6ab880d2a941d0ca09e40b501d44e4b64844766a5baa0cefced156e"
+      "bytes": 32618,
+      "sha256": "78b0e369362309bf5c67fa330f8bc91afabfedaef7049bfb0548aea62716cc36"
     },
     {
       "path": "public/downloads/code/platform/infrastructure_emiss_sources.json",
@@ -29604,6 +29749,16 @@
       "path": "public/downloads/code/platform/infrastructure_formats.py",
       "bytes": 9172,
       "sha256": "614cc0f889c94ed43e83e711350685476b748e9d40a1424780a13a9a4053ff42"
+    },
+    {
+      "path": "public/downloads/code/platform/infrastructure_method_review.json",
+      "bytes": 17442,
+      "sha256": "7ef80cc41d8d90fbb252a79dd622dc320cc82fc88b9f2a68705bd67ba615fad1"
+    },
+    {
+      "path": "public/downloads/code/platform/infrastructure_method_review.py",
+      "bytes": 2376,
+      "sha256": "beaa310be7dd919e6a7a982123bb15d7aa4e198019fc6c8c228e9277322df50b"
     },
     {
       "path": "public/downloads/code/platform/infrastructure_update_summary.py",
@@ -29776,6 +29931,11 @@
       "sha256": "a5ba227db45f6e4f4b090d3aac70a4632d237c0d19d513a75230ed4dd7a834d1"
     },
     {
+      "path": "public/downloads/code/platform/reproducible_output.py",
+      "bytes": 1536,
+      "sha256": "06b36e6ed38c9cc92111a8dcbdc6c4d315f036cd0b36c4c391753a20ce164b14"
+    },
+    {
       "path": "public/downloads/code/platform/requirements-analytics.txt",
       "bytes": 90,
       "sha256": "acb7056a6a6c1363b02db34f14d3d46f5a6ca1ae91f40a3fec40f5685627f2f4"
@@ -29806,9 +29966,14 @@
       "sha256": "01401b57d1eab14b367dd86db066d5c18ad4411dc2c01f080c3f6d2dfc264432"
     },
     {
+      "path": "public/downloads/code/platform/sync_release_sources.mjs",
+      "bytes": 6509,
+      "sha256": "0d1f1f0d782006f4b5021df36632846d9c61ac9c385810e968f841c12b25b7df"
+    },
+    {
       "path": "public/downloads/code/platform/tourism_data.py",
-      "bytes": 7965,
-      "sha256": "1a44b6825dae90077b2cba801ce26e780974ed662e5bd3c1efe651410b579289"
+      "bytes": 7979,
+      "sha256": "0a078e139bfb9130c96bde0cf689f4844030329ce5310cd2afa0f3522e544436"
     },
     {
       "path": "public/downloads/code/platform/tourism_emiss_sources.json",
@@ -29817,8 +29982,8 @@
     },
     {
       "path": "public/downloads/code/platform/tourism_text.py",
-      "bytes": 17927,
-      "sha256": "7e3689f80c5b733513b691ceeab9f4d7db5338216a25c2863072182b67595aa5"
+      "bytes": 18015,
+      "sha256": "fe91f3a9067fdc220f105fdd5fb5a1948340f01d5ed637d76494263ea079de8e"
     },
     {
       "path": "public/downloads/code/platform/tourism_update_summary.py",
@@ -29827,8 +29992,8 @@
     },
     {
       "path": "public/downloads/code/platform/transport_data.py",
-      "bytes": 16377,
-      "sha256": "92ec085ac8330c9d9295f7b2e2ca00b4380b4291f352377c53f545d21063077b"
+      "bytes": 16391,
+      "sha256": "1a29c0a74238ec4fad4c7aed50b1b9579cf55ad27ca307a564b039678dfe4511"
     },
     {
       "path": "public/downloads/code/platform/transport_emiss_sources.json",
@@ -29837,8 +30002,8 @@
     },
     {
       "path": "public/downloads/code/platform/transport_text.py",
-      "bytes": 20990,
-      "sha256": "4b0d28c49e1447e183788f036eaf1cd959f0ac3d31c99d37574cff8b6a9bd09f"
+      "bytes": 21078,
+      "sha256": "2369360fdc2998346fb9517873ccbaf5bc9f35ef6b159270011a273241c5cada"
     },
     {
       "path": "public/downloads/code/platform/transport_update_summary.py",
@@ -30257,13 +30422,13 @@
     },
     {
       "path": "public/downloads/documentation/CHANGELOG.md",
-      "bytes": 51529,
-      "sha256": "39efa4754d9414b106b5769546b02299a5d711e62df60bb7797507784cbe1791"
+      "bytes": 54902,
+      "sha256": "a910833a9f6671bccd5289748bcf816ec128dccde9cb7c955663efccd8d93614"
     },
     {
       "path": "public/downloads/documentation/CODEX_HANDOFF_RU.md",
-      "bytes": 17697,
-      "sha256": "d9ae4e3c3dafe5a0270ef68d3148375c1cace6b6dea90f757da5da1d069a5786"
+      "bytes": 12551,
+      "sha256": "d01a431d730071abaa0a58d1b85b6e42bc09c17c8d197c669443020f34eec34f"
     },
     {
       "path": "public/downloads/documentation/COHORT_INPUTS.md",
@@ -30322,8 +30487,8 @@
     },
     {
       "path": "public/downloads/documentation/CUMULATIVE_PACKAGE_FORMAT_RU.md",
-      "bytes": 5509,
-      "sha256": "dd935b06a724c389d6a070557655c7a119f36cd7293cea570dac399a0ce34ef7"
+      "bytes": 7035,
+      "sha256": "06758f33dd3b620051425c2df36411d18212d0a56644d59885d2889f50b8a2fe"
     },
     {
       "path": "public/downloads/documentation/CURRENT_DATA.md",
@@ -30437,8 +30602,8 @@
     },
     {
       "path": "public/downloads/documentation/EXPORT_DOCUMENTARY_AUDIT.json",
-      "bytes": 3916,
-      "sha256": "1319475ea7f4b558ad635bf72f12e3ec5c8d1dfdfbaffc1d4fa6b3c59ef8433f"
+      "bytes": 3783,
+      "sha256": "d4bfdeb4fa2a0068fd9e3c9f5c2f0bf96a76eca70af2f856e25f719df39688f2"
     },
     {
       "path": "public/downloads/documentation/EXPORT_PRESERVATION_AUDIT.json",
@@ -30447,8 +30612,8 @@
     },
     {
       "path": "public/downloads/documentation/EXPORT_REGIONAL_CONTEXT_AUDIT.json",
-      "bytes": 3172,
-      "sha256": "c23ef584f5e2308cff650f6362fa16db461455115558fddf09920457680764ee"
+      "bytes": 3097,
+      "sha256": "7926498569de3f868d448e4c3ef740aa193cca4b5009da6912a5584616c258a4"
     },
     {
       "path": "public/downloads/documentation/EXPORT_RELEASE_RU.md",
@@ -30462,8 +30627,8 @@
     },
     {
       "path": "public/downloads/documentation/EXPORT_STATISTICAL_AUDIT.json",
-      "bytes": 23788,
-      "sha256": "29c17e1853ee34c9d6c1a103d8cb99fa87fd65fd750379fffb90e27c9608a7ff"
+      "bytes": 23407,
+      "sha256": "6d22b3e3908954474f00118a1269f81f56554769b87b43fd0a521cb3fa682aa5"
     },
     {
       "path": "public/downloads/documentation/EXPORT_VALIDATION_RU.md",
@@ -30637,8 +30802,8 @@
     },
     {
       "path": "public/downloads/documentation/README.md",
-      "bytes": 48743,
-      "sha256": "99e736baad5157d4082aed511eeda20402db2d692805d8c0dc89c2bc763a87cb"
+      "bytes": 50670,
+      "sha256": "ef87fa0fff90932fdfce270ed8bb6902a0419f9a8717db453f800141fedfa02b"
     },
     {
       "path": "public/downloads/documentation/README_FAMILY_1_2_1.md",
@@ -30672,8 +30837,8 @@
     },
     {
       "path": "public/downloads/documentation/TOURISM_DOCUMENTARY_AUDIT.json",
-      "bytes": 11215,
-      "sha256": "458435938db78b5d425b706f7f8ba1090b8061acfe51da1e1dde3568488c8175"
+      "bytes": 10817,
+      "sha256": "cc5eb14982ff30adfd83011206460c412a68a604119559ffcd9feeca68487f89"
     },
     {
       "path": "public/downloads/documentation/TOURISM_DOM_VERIFICATION.json",
@@ -30702,8 +30867,8 @@
     },
     {
       "path": "public/downloads/documentation/TOURISM_STATISTICAL_AUDIT.json",
-      "bytes": 14225,
-      "sha256": "86584a306cd567921de9c4b09aeb1f73c043d1ead95e1bb212176b6f0ce2cfd4"
+      "bytes": 13857,
+      "sha256": "f0e66e2ec7c12e6a858b183610de1842607c60a7bd4c076fa16522933a7f02ef"
     },
     {
       "path": "public/downloads/documentation/TOURISM_VALIDATION_RU.md",
@@ -30742,8 +30907,8 @@
     },
     {
       "path": "public/downloads/documentation/TRANSPORT_DOCUMENTARY_AUDIT.json",
-      "bytes": 18120,
-      "sha256": "c811ce4c76ba47bb1757a3f0891b2612df21239e3d777d1b0ac222c2b189d1ad"
+      "bytes": 17499,
+      "sha256": "991c3a534506f65a4d95d5e1dede4b6e4bbd778a5c1ea9c8208224dab06ae7cd"
     },
     {
       "path": "public/downloads/documentation/TRANSPORT_DOM_VERIFICATION.json",
@@ -30787,8 +30952,8 @@
     },
     {
       "path": "public/downloads/documentation/TRANSPORT_STATISTICAL_AUDIT.json",
-      "bytes": 16116,
-      "sha256": "ed6ac3997cc04a24f5bdb9a4219003738a3fb3c6ff450980db84ac4d257a3ab5"
+      "bytes": 15824,
+      "sha256": "82e351245d0a9f1d13e2bd0362edcd34e9d91f3f8e2858e2fb1aaa10cd658328"
     },
     {
       "path": "public/downloads/documentation/TRANSPORT_VALIDATION_RU.md",
@@ -30799,6 +30964,11 @@
       "path": "public/downloads/documentation/V3_STAGE1_RU.md",
       "bytes": 24299,
       "sha256": "4aa3f60dcd1abeafe9923c33c74f7b6bf2d195b0d7a9d486cecc9c82722cc8c0"
+    },
+    {
+      "path": "public/downloads/documentation/V3_STAGE2_RU.md",
+      "bytes": 15511,
+      "sha256": "c198baad556ebb29a510570b2911e87c066fbf82ba1f1e9b29daee04d381d84f"
     },
     {
       "path": "public/downloads/documentation/VALIDATION.md",
@@ -30856,6 +31026,21 @@
       "sha256": "12e306d8f9d779d7868ca0db26f026d5c2b3b85a058dc3d06392a9e68c20482a"
     },
     {
+      "path": "public/downloads/documentation/v3-stage2-context-desktop.png",
+      "bytes": 171488,
+      "sha256": "4425d9f27e9c4628f34ca625dde7252069f6c48a6396288ad6e2b851ff47ed7c"
+    },
+    {
+      "path": "public/downloads/documentation/v3-stage2-context-mobile.png",
+      "bytes": 69576,
+      "sha256": "c05f63b7908f8c17f2c10b05cabe35a6c8d5dbcf5dfc9eab79a6ff3b0ac4c3c1"
+    },
+    {
+      "path": "public/downloads/documentation/v3-stage2-tourism-export.png",
+      "bytes": 160044,
+      "sha256": "7e439139e81d1f66974201cdcf490d4aa91ab7236b1bc7845bc190ea7cb91da5"
+    },
+    {
       "path": "public/downloads/documents/Паспорт-национального-проекта-Семья.pdf",
       "bytes": 162285,
       "sha256": "ce794b9712f177c185f4a1d89c0c70c48a0a7ccd28e433a9bfe668d435d6be0e"
@@ -30887,8 +31072,8 @@
     },
     {
       "path": "public/downloads/index.json",
-      "bytes": 498212,
-      "sha256": "ea093964998cbba8d4a72edc78f368b68a560f687bf685e4383e7dcd245175d6"
+      "bytes": 501264,
+      "sha256": "6c459d2cf39bdacb42e7adb0caa57e0ed761936d16ec1d64f29127fc4af702cf"
     },
     {
       "path": "public/downloads/metadata/indicators_coverage.csv",
@@ -39752,18 +39937,18 @@
     },
     {
       "path": "scripts/build_competitive_documentary.py",
-      "bytes": 41517,
-      "sha256": "205bdaa3362f7de9a1279a53b372af120d508f99ba61a8cf2acb897701b3530d"
+      "bytes": 41563,
+      "sha256": "3ef659faea20404d0b4374b9e20a84e3a33e112ec44972e61ddab704e0942927"
     },
     {
       "path": "scripts/build_competitive_expertise.py",
-      "bytes": 15216,
-      "sha256": "65d90cb6e74b524072b024a935ae0c1034e38e3a0d1fcf6f91cca8cc7229c229"
+      "bytes": 15244,
+      "sha256": "2c7a66b29bd51a3760691c97f5c3424cd20ed764df7a20f1140dad9c8ace3dda"
     },
     {
       "path": "scripts/build_current_analytics.py",
-      "bytes": 12659,
-      "sha256": "2a2675bcfbaf8382dde0e133271ade3af84316f29d9f53b31603e4aebef60706"
+      "bytes": 12673,
+      "sha256": "bdf2ff0d34daa8cee857f5ea1996f21d72acd7dd53ff2fac8fe793771808a475"
     },
     {
       "path": "scripts/build_current_reports.py",
@@ -39787,13 +39972,13 @@
     },
     {
       "path": "scripts/build_dataeconomy_documentary.py",
-      "bytes": 35706,
-      "sha256": "01d97380672be84186f8ff84ba754290975f28ac6d7a37b8733873ded6568506"
+      "bytes": 35752,
+      "sha256": "ac26ff15c817f96afba27413a6b8057ab598f28cc7276e21efe1122ffa839b31"
     },
     {
       "path": "scripts/build_dataeconomy_expertise.py",
-      "bytes": 15827,
-      "sha256": "226ef3400e55d83568d1790e0b7ab287c7195905dc01b35718b138b1c6a585cf"
+      "bytes": 15855,
+      "sha256": "6a9c9bbfe48559f181177a900446894ed76dce53ba773a0631813ebf7b1ec457"
     },
     {
       "path": "scripts/build_environment.mjs",
@@ -39807,8 +39992,8 @@
     },
     {
       "path": "scripts/build_environment_documentary.py",
-      "bytes": 47895,
-      "sha256": "d4100e327be4f562118f437fcba27f5459e52b636f4a7eae9760a45acc70b1b2"
+      "bytes": 47984,
+      "sha256": "85c4f840fde52da0203a3563df88d6cb1990812bc84e31d2c1fa3592df1b77e9"
     },
     {
       "path": "scripts/build_environment_expertise.py",
@@ -39827,18 +40012,18 @@
     },
     {
       "path": "scripts/build_export_documentary.py",
-      "bytes": 21978,
-      "sha256": "8159123eee36c7d5444099b20c95e5f3fe025bde473db7f29107a2ce2b6a9398"
+      "bytes": 22049,
+      "sha256": "4e51474bef8c3e3d6919f6a21fdd2d1965462f7f357d01376ead64c92aa0f216"
     },
     {
       "path": "scripts/build_export_expertise.py",
-      "bytes": 26867,
-      "sha256": "31a018c6a39fcf4b477a3eeba55d161f9319bbd996383319fa1f94e585c21f61"
+      "bytes": 26909,
+      "sha256": "4c6499e9a7ac690dbe2d909feca4a0a522c627f2f67bab26023a893c1ee9fe2e"
     },
     {
       "path": "scripts/build_export_regional_context.py",
-      "bytes": 11121,
-      "sha256": "d27497c6fea80ab37c94b1ed20993f4fecfd2334618b10a4a081b1df79159990"
+      "bytes": 11149,
+      "sha256": "460fd3e0c430a469259e948cadb181af14cb516bbbedb7308a157af4155fa60e"
     },
     {
       "path": "scripts/build_healthtech.mjs",
@@ -39852,8 +40037,8 @@
     },
     {
       "path": "scripts/build_healthtech_documentary.py",
-      "bytes": 31439,
-      "sha256": "78fe056847c541a3388e5515c92a423ff789c40391b5751936fa73021598cafd"
+      "bytes": 31528,
+      "sha256": "d0c4c8761fa339a6ffabf513605c55c4517bd3204610f8e622217f13eb47c625"
     },
     {
       "path": "scripts/build_healthtech_expertise.py",
@@ -39867,18 +40052,18 @@
     },
     {
       "path": "scripts/build_infrastructure.mjs",
-      "bytes": 16400,
-      "sha256": "34d89c7961e78c5c472305397338ce4cbc9dbd4be7ada5ce0c65af125abe1010"
+      "bytes": 5200,
+      "sha256": "10f4fb01131dfc8cf25951c039818bae14449d021f303f680982d9db71b508a4"
     },
     {
       "path": "scripts/build_infrastructure_analytics.py",
-      "bytes": 41573,
-      "sha256": "9644c044090fdc561e2d185058bb9ab2e952c404cf83f57eaf8c8a7aa9b2738f"
+      "bytes": 35255,
+      "sha256": "1f5ace357bba4ef96da4eb41373e1908bf09fe080e915072bed1a65ac614f50e"
     },
     {
       "path": "scripts/build_infrastructure_documentary.py",
-      "bytes": 40774,
-      "sha256": "0f40201330ef0f1685503a148024170009a292947da60e41c074d6d9ba17aa70"
+      "bytes": 40863,
+      "sha256": "a10a2e97653eea59180bb0c569025fd2d94b68633567844ad52572abdbd2864f"
     },
     {
       "path": "scripts/build_infrastructure_expertise.py",
@@ -39897,8 +40082,8 @@
     },
     {
       "path": "scripts/build_longlife_documentary.py",
-      "bytes": 34951,
-      "sha256": "8a7c43b2bae3d01bcb7d21e0cbf307a7f1714f6cc0a74e0e1734948f4f779108"
+      "bytes": 34965,
+      "sha256": "4ca6d47d881ad0fac2506bcde5c1b63ec66434f8cd01043247474c5d43a5f29c"
     },
     {
       "path": "scripts/build_longlife_expertise.py",
@@ -39922,8 +40107,8 @@
     },
     {
       "path": "scripts/build_personnel_documentary.py",
-      "bytes": 20554,
-      "sha256": "f13b9697b06bc9fc565ca078ff88466aa37725beed98f0fd80a74c204a7b7276"
+      "bytes": 20568,
+      "sha256": "ee2ac0b4e53c4c10644bfc44737b78e2343fefbfc723d2f7e63de3981c909788"
     },
     {
       "path": "scripts/build_personnel_expertise.py",
@@ -39932,8 +40117,8 @@
     },
     {
       "path": "scripts/build_projection_downloads.py",
-      "bytes": 7472,
-      "sha256": "67f0671eba84bad027955b3d01ee0c8caea5e6fbc88a9c204c6fac1398bbde74"
+      "bytes": 7594,
+      "sha256": "eec250ce3c0051107adae20dc71019d3a3c5577d32526f5759254ee6661e4a27"
     },
     {
       "path": "scripts/build_projects.mjs",
@@ -39967,18 +40152,18 @@
     },
     {
       "path": "scripts/build_tourism_documentary.py",
-      "bytes": 17121,
-      "sha256": "3fcce08df0a7115a2f7b8ef8e1e3c80894b7d23b13f2ff5e3fce5bded6144399"
+      "bytes": 17192,
+      "sha256": "5069ab8a6d01061319b8386367fcf42677bee331e4255bc604a27c22d13ee07f"
     },
     {
       "path": "scripts/build_tourism_expertise.py",
-      "bytes": 22904,
-      "sha256": "b2fb58495ff7c67425ed3663a24eefcd98302a850637f7f38db59c81dd742628"
+      "bytes": 22946,
+      "sha256": "0208aa0b316674842e2da6395e53acb2770a8fcdc321be8b12da62b5e9d0f044"
     },
     {
       "path": "scripts/build_tourism_research.py",
-      "bytes": 2838,
-      "sha256": "ec1ee0d82b3587509c3e4a207b497d387da767e8269b835a8ce7f22351c58960"
+      "bytes": 2852,
+      "sha256": "f8ccfefda6444439e6c38f7e277837b2adea170407b55bf24e01869c83f37c9b"
     },
     {
       "path": "scripts/build_transport.mjs",
@@ -39992,13 +40177,13 @@
     },
     {
       "path": "scripts/build_transport_documentary.py",
-      "bytes": 17056,
-      "sha256": "555e59c82a090b8e2d8bd04dc0675fbb5b9de5f80eb1f586440fea1585c26706"
+      "bytes": 17127,
+      "sha256": "8902f363af34cea64c4979979f660736f131dc01a2d2dc290dac0935ed48d0ee"
     },
     {
       "path": "scripts/build_transport_expertise.py",
-      "bytes": 23162,
-      "sha256": "ca8062664922807f6907a750d47e40a024b4f206a04553f0c900d711cf1fae3d"
+      "bytes": 23204,
+      "sha256": "744fe103dc97369721b248473bd50bd1f72e897b60e9cd2410d624706a917944"
     },
     {
       "path": "scripts/build_youth.mjs",
@@ -40012,8 +40197,8 @@
     },
     {
       "path": "scripts/build_youth_documentary.py",
-      "bytes": 26101,
-      "sha256": "88554030dfd51976b33af4fe3323481a759865457c70eec97d26bb21d9c7e1a1"
+      "bytes": 26129,
+      "sha256": "f0f372bd6a1489f046fdae56ce435eaede975fce85992aaaebf9c5fe090cc02b"
     },
     {
       "path": "scripts/build_youth_expertise.py",
@@ -40027,8 +40212,8 @@
     },
     {
       "path": "scripts/competitive_data.py",
-      "bytes": 39505,
-      "sha256": "809d836bc5bafe299c3bb60fc062ef3ccbcb19d086cc25ec6440d202ce3fe689"
+      "bytes": 39537,
+      "sha256": "10ad558180b467bfbc08e77bbde937b28a1d810b1ff8a06722c34be8a44802fd"
     },
     {
       "path": "scripts/competitive_emiss_sources.json",
@@ -40042,8 +40227,8 @@
     },
     {
       "path": "scripts/competitive_text.py",
-      "bytes": 17617,
-      "sha256": "be429ed2b195a2383829fc24729220a7cad4b5d7f9e0fa354acdabd7150b60c2"
+      "bytes": 17705,
+      "sha256": "d867a53b735ed99a78fd52c21f7d215958e62bd67035033790624cfb5c08f332"
     },
     {
       "path": "scripts/competitive_update_summary.py",
@@ -40067,8 +40252,8 @@
     },
     {
       "path": "scripts/dataeconomy_data.py",
-      "bytes": 22163,
-      "sha256": "0bcb46703749f8a1ea281e358e0ae157a12c4d2c979a8599add6f040f63e8969"
+      "bytes": 22195,
+      "sha256": "070085267ae0617636b363008795a3eec3aeee496f5a9022d057bdc366a6cebc"
     },
     {
       "path": "scripts/dataeconomy_emiss_sources.json",
@@ -40092,8 +40277,8 @@
     },
     {
       "path": "scripts/dataeconomy_text.py",
-      "bytes": 18083,
-      "sha256": "44db1257ec1eb4331bc6cccbd5e1689e75e14dceadc41b79963dff907dde4314"
+      "bytes": 18171,
+      "sha256": "a362e4524b279bbcd7b3b9f0503aeb1526ac0fa23abeab6de43692bc2ab921df"
     },
     {
       "path": "scripts/dataeconomy_update_summary.py",
@@ -40172,8 +40357,8 @@
     },
     {
       "path": "scripts/environment_data.py",
-      "bytes": 31807,
-      "sha256": "7ddfac10eb60a434d869ad878aa49c3c95d0aa7d085aa2275fa91f3a963d2edb"
+      "bytes": 31839,
+      "sha256": "399b13567f07898cd3179f15d19de44e389eec7e2799edd3087ff270a0a0f99f"
     },
     {
       "path": "scripts/environment_emiss_sources.json",
@@ -40192,8 +40377,8 @@
     },
     {
       "path": "scripts/export_data.py",
-      "bytes": 14785,
-      "sha256": "7ed99f7de300ac32a1a60800642f0192b2c8fd88a9d75f551ab62260e550c007"
+      "bytes": 14799,
+      "sha256": "50084eff38b2a246ab536f2ccec2dfe8b82d605add9d65e231816bfff64cc7d2"
     },
     {
       "path": "scripts/export_emiss_sources.json",
@@ -40407,8 +40592,8 @@
     },
     {
       "path": "scripts/infrastructure_data.py",
-      "bytes": 32586,
-      "sha256": "6883732ac6ab880d2a941d0ca09e40b501d44e4b64844766a5baa0cefced156e"
+      "bytes": 32618,
+      "sha256": "78b0e369362309bf5c67fa330f8bc91afabfedaef7049bfb0548aea62716cc36"
     },
     {
       "path": "scripts/infrastructure_emiss_sources.json",
@@ -40419,6 +40604,16 @@
       "path": "scripts/infrastructure_formats.py",
       "bytes": 9172,
       "sha256": "614cc0f889c94ed43e83e711350685476b748e9d40a1424780a13a9a4053ff42"
+    },
+    {
+      "path": "scripts/infrastructure_method_review.json",
+      "bytes": 17442,
+      "sha256": "7ef80cc41d8d90fbb252a79dd622dc320cc82fc88b9f2a68705bd67ba615fad1"
+    },
+    {
+      "path": "scripts/infrastructure_method_review.py",
+      "bytes": 2376,
+      "sha256": "beaa310be7dd919e6a7a982123bb15d7aa4e198019fc6c8c228e9277322df50b"
     },
     {
       "path": "scripts/infrastructure_update_summary.py",
@@ -40591,6 +40786,11 @@
       "sha256": "a5ba227db45f6e4f4b090d3aac70a4632d237c0d19d513a75230ed4dd7a834d1"
     },
     {
+      "path": "scripts/reproducible_output.py",
+      "bytes": 1536,
+      "sha256": "06b36e6ed38c9cc92111a8dcbdc6c4d315f036cd0b36c4c391753a20ce164b14"
+    },
+    {
       "path": "scripts/requirements-analytics.txt",
       "bytes": 90,
       "sha256": "acb7056a6a6c1363b02db34f14d3d46f5a6ca1ae91f40a3fec40f5685627f2f4"
@@ -40616,9 +40816,14 @@
       "sha256": "01401b57d1eab14b367dd86db066d5c18ad4411dc2c01f080c3f6d2dfc264432"
     },
     {
+      "path": "scripts/sync_release_sources.mjs",
+      "bytes": 6509,
+      "sha256": "0d1f1f0d782006f4b5021df36632846d9c61ac9c385810e968f841c12b25b7df"
+    },
+    {
       "path": "scripts/tourism_data.py",
-      "bytes": 7965,
-      "sha256": "1a44b6825dae90077b2cba801ce26e780974ed662e5bd3c1efe651410b579289"
+      "bytes": 7979,
+      "sha256": "0a078e139bfb9130c96bde0cf689f4844030329ce5310cd2afa0f3522e544436"
     },
     {
       "path": "scripts/tourism_emiss_sources.json",
@@ -40627,8 +40832,8 @@
     },
     {
       "path": "scripts/tourism_text.py",
-      "bytes": 17927,
-      "sha256": "7e3689f80c5b733513b691ceeab9f4d7db5338216a25c2863072182b67595aa5"
+      "bytes": 18015,
+      "sha256": "fe91f3a9067fdc220f105fdd5fb5a1948340f01d5ed637d76494263ea079de8e"
     },
     {
       "path": "scripts/tourism_update_summary.py",
@@ -40637,8 +40842,8 @@
     },
     {
       "path": "scripts/transport_data.py",
-      "bytes": 16377,
-      "sha256": "92ec085ac8330c9d9295f7b2e2ca00b4380b4291f352377c53f545d21063077b"
+      "bytes": 16391,
+      "sha256": "1a29c0a74238ec4fad4c7aed50b1b9579cf55ad27ca307a564b039678dfe4511"
     },
     {
       "path": "scripts/transport_emiss_sources.json",
@@ -40647,8 +40852,8 @@
     },
     {
       "path": "scripts/transport_text.py",
-      "bytes": 20990,
-      "sha256": "4b0d28c49e1447e183788f036eaf1cd959f0ac3d31c99d37574cff8b6a9bd09f"
+      "bytes": 21078,
+      "sha256": "2369360fdc2998346fb9517873ccbaf5bc9f35ef6b159270011a273241c5cada"
     },
     {
       "path": "scripts/transport_update_summary.py",
@@ -40732,8 +40937,8 @@
     },
     {
       "path": "src/app.js",
-      "bytes": 15165,
-      "sha256": "f0eea25090a8d0b697667166e92a2b14d77fa906aec9daab14330e9fec39323f"
+      "bytes": 18955,
+      "sha256": "65fec07f3882375b7a424d81cc1bb7bc8e037ee3e9a50184977705f27d8ffaf9"
     },
     {
       "path": "src/competitive.css",
@@ -40769,6 +40974,11 @@
       "path": "src/components/pyramid.js",
       "bytes": 2961,
       "sha256": "112ba38d396e5eba16ee1a333bfb691c9aedd392d583466665c03ebeffa9f36c"
+    },
+    {
+      "path": "src/components/research-context.js",
+      "bytes": 6887,
+      "sha256": "f62c8768e55d68585ad02e87555551e40e838bfc39e9d46247f08a7de4d0ffaf"
     },
     {
       "path": "src/components/ui.js",
@@ -40811,6 +41021,11 @@
       "sha256": "4eb02e07b81b0628102a4c11050f834f75110bc65c3cd4ed7a9560a47b34bea1"
     },
     {
+      "path": "src/core/research-context.js",
+      "bytes": 9149,
+      "sha256": "00e24a6e2f949f80121ee24680698be2bcdc875c23856cc84df96c35c40a4ca7"
+    },
+    {
       "path": "src/core/series-transport.js",
       "bytes": 6321,
       "sha256": "b4a4afc1c019c41ad3618f97f399fc96b1480bf48b3f4d6521717f5d64e30554"
@@ -40823,7 +41038,7 @@
     {
       "path": "src/core/tourism-research.js",
       "bytes": 17670,
-      "sha256": "cc7049e1a60f6250c71e6d39f7f4bcc9e83adf80db271ed195711d6d46d6d895"
+      "sha256": "6b8f64f54345f92abe9b8cd2c35ff2cab30508e129a9b440110296e6fa51c115"
     },
     {
       "path": "src/core/worker.js",
@@ -40917,8 +41132,8 @@
     },
     {
       "path": "src/pages/longlife.js",
-      "bytes": 170293,
-      "sha256": "e64143427eb1f33a67c8d3dd8d16a9d5ba044b13369cd530ed4a25a0c585295b"
+      "bytes": 170622,
+      "sha256": "3dcdb6829b85237d765b1e7976b3a38f03990303fd270a32ab885216abf845b0"
     },
     {
       "path": "src/pages/personnel.js",
@@ -40992,13 +41207,18 @@
     },
     {
       "path": "src/platform/projects.js",
-      "bytes": 14033,
-      "sha256": "a7be0df425093e3ca994c5a8287e4106abe44bde2ae9e9c93f583c5a2d2a3e4d"
+      "bytes": 14150,
+      "sha256": "824d6c45143e4fa4b534e98351e1fa43775cd9f38cc55b16c2a92a8cfe657fb2"
+    },
+    {
+      "path": "src/platform/research-context-data.js",
+      "bytes": 12578,
+      "sha256": "e635b0e8d364a4429a4274a197941be1d197e5d92bf557b87bcf4add8d5fe466"
     },
     {
       "path": "src/platform/routes.js",
-      "bytes": 1617,
-      "sha256": "1a2ada0b7638d0861dde5c750edeed07b6f367faddee61935922e6e2be176a66"
+      "bytes": 1696,
+      "sha256": "dedaa78edc8e556fd0c936b208502c383ba53bd11a96569bc7a36833f0064e64"
     },
     {
       "path": "src/platform/runtime.js",
@@ -41016,9 +41236,14 @@
       "sha256": "530537144d3258b3fef34b9c2b40e5ef5cf575de4aec0f9ff4665eb2d9ade748"
     },
     {
+      "path": "src/research-context.css",
+      "bytes": 2166,
+      "sha256": "340bd7a078f363fb30b5920ae7a1c44cf59eb5969737b51141506679a2edf850"
+    },
+    {
       "path": "src/styles.css",
-      "bytes": 58253,
-      "sha256": "a7754d026701b38cea0ebf771112208ba40111cc35f22462cf33c33a9cb2f064"
+      "bytes": 58292,
+      "sha256": "001a10c98499e3bcd7588ca71e75d9ec1bb9cf3c2e219fec148c1dcc0f14e815"
     },
     {
       "path": "src/tourism.css",
@@ -41092,13 +41317,13 @@
     },
     {
       "path": "tests/browser_longlife.py",
-      "bytes": 26176,
-      "sha256": "a4053281129aec339be4a6e33d67f1f79ec3bd5c3298cf754043a10f5de1c5cb"
+      "bytes": 28681,
+      "sha256": "12b40b4451d541420347f42ac7470ba218ae467dde487d5c5dc50ad979a69e50"
     },
     {
       "path": "tests/browser_personnel.py",
-      "bytes": 19027,
-      "sha256": "a63f7100ff8d044a8327b932f2b8a1574bd3567f03103eb8edd211ea08f86682"
+      "bytes": 19900,
+      "sha256": "ef96d0f2814f8dc54dfe2ca4c00527196dbe60e2c7050d23f5d0f0004bc114a7"
     },
     {
       "path": "tests/browser_platform_system.py",
@@ -41111,9 +41336,14 @@
       "sha256": "3bcfa6262a7a3afcf3504d029cbe718a51ed9540e5472c872967b648e125f00a"
     },
     {
+      "path": "tests/browser_research_context.py",
+      "bytes": 23084,
+      "sha256": "93d08653a9b1dee0a8aa427578ff867e42962e011178525193c5b252a860ff99"
+    },
+    {
       "path": "tests/browser_tourism.py",
-      "bytes": 13057,
-      "sha256": "840d1d7f1baea1846b26191d3349e7c3b4efb9bd180b9e8b3c2acce6d3636a91"
+      "bytes": 26865,
+      "sha256": "d1049aa3c082b271199060043d4f1d344566a0bd7be0dade20755885a11d4b25"
     },
     {
       "path": "tests/browser_transport.py",
@@ -41211,6 +41441,11 @@
       "sha256": "baf29187cdcd8e4d17d11f71670b1df97c7105e432d952be16f7bf0e1a348b8b"
     },
     {
+      "path": "tests/infrastructure-method-review.test.mjs",
+      "bytes": 3676,
+      "sha256": "fe3aba5fdb7fa4a9e87694e4f21308ed9622b1d88c12643d971e3bbe472ddd9e"
+    },
+    {
       "path": "tests/infrastructure-routes.test.mjs",
       "bytes": 1546,
       "sha256": "bd80b4f196dd109f5a35911f6bb856eb58f8d4deab7e7fadeca8736d37062765"
@@ -41246,9 +41481,19 @@
       "sha256": "9987f8ae470e9a698aab9a0947d291c1982a7d4951de173b4cd0151e1332a183"
     },
     {
+      "path": "tests/research-context-adapters.test.mjs",
+      "bytes": 12628,
+      "sha256": "f2d4ab15613738920bae9d420d25198ba95fdefb3a4088ce23924b461d498367"
+    },
+    {
+      "path": "tests/research-context.test.mjs",
+      "bytes": 3398,
+      "sha256": "d3f6a82eb564e71daa30d28dbd5927423971bc4d98c2e81c54347396cedfba85"
+    },
+    {
       "path": "tests/run_browser.py",
-      "bytes": 3211,
-      "sha256": "d25e702db60c6475f5cb1d57907a276feaeaeac932df74cdcac6fa39ae937182"
+      "bytes": 3239,
+      "sha256": "8a671ea096df31ece04fcc4fa26af54a69e2a01f1f145ef1ad5a8f23a57d167c"
     },
     {
       "path": "tests/series-transport.test.mjs",
@@ -41259,6 +41504,11 @@
       "path": "tests/shared-project-cache.test.mjs",
       "bytes": 3158,
       "sha256": "50754f5f3475dff3c43496f5cf2d0f6b38f325a6620b1520c600c6f179175648"
+    },
+    {
+      "path": "tests/source-sync.test.mjs",
+      "bytes": 3256,
+      "sha256": "90838e9f1780a9b0949bd14fcb1e01efdea2cf1f0733cd73e00d5629422f5ac7"
     },
     {
       "path": "tests/test_author_tfidf.py",
@@ -41401,6 +41651,11 @@
       "sha256": "e6e056dfa86df0c6db5acdaafd4d50a2b6f8d803e9ec615820235dedf90d09fe"
     },
     {
+      "path": "tests/test_reproducible_build.py",
+      "bytes": 5967,
+      "sha256": "5335b9cb69420f22fc6b4569a00042fb642eb31d47050228e77a0ad7f11b7ab4"
+    },
+    {
       "path": "tests/test_tourism_data.py",
       "bytes": 6900,
       "sha256": "5bd828c95ffda69adfb1b43cca5bd1d9daddf62dd7001f6781ad18b4e6520fc1"
@@ -41443,7 +41698,7 @@
     {
       "path": "tests/tourism-research.test.mjs",
       "bytes": 9613,
-      "sha256": "9121567e087301d025f03b738073b4196d34161399756498fe2069988266851e"
+      "sha256": "a6f471aa73cd5de1165cb962941fe1114aa795fc18f136cbe92f889b53f358a8"
     },
     {
       "path": "tests/tourism.test.mjs",
