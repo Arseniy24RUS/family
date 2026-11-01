@@ -12,8 +12,8 @@
       "path": "code/frontend/app.js",
       "title": "app.js",
       "category": "frontend_code",
-      "bytes": 18470,
-      "sha256": "120510174f8986af081ff5296483afb04b6693a798ca6c80549a4924b07c73bb"
+      "bytes": 18955,
+      "sha256": "65fec07f3882375b7a424d81cc1bb7bc8e037ee3e9a50184977705f27d8ffaf9"
     },
     {
       "path": "code/frontend/competitive.css",
@@ -285,8 +285,8 @@
       "path": "code/frontend/pages/longlife.js",
       "title": "longlife.js",
       "category": "frontend_code",
-      "bytes": 170293,
-      "sha256": "e64143427eb1f33a67c8d3dd8d16a9d5ba044b13369cd530ed4a25a0c585295b"
+      "bytes": 170622,
+      "sha256": "3dcdb6829b85237d765b1e7976b3a38f03990303fd270a32ab885216abf845b0"
     },
     {
       "path": "code/frontend/pages/personnel.js",
@@ -2448,8 +2448,8 @@
       "path": "documentation/CODEX_HANDOFF_RU.md",
       "title": "CODEX_HANDOFF_RU.md",
       "category": "platform_code",
-      "bytes": 11998,
-      "sha256": "26099c356148d79e56022ecc595678db92e33b797592a03ea0bb58132c321ceb"
+      "bytes": 12551,
+      "sha256": "d01a431d730071abaa0a58d1b85b6e42bc09c17c8d197c669443020f34eec34f"
     },
     {
       "path": "documentation/COHORT_INPUTS.md",
@@ -3001,8 +3001,8 @@
       "path": "documentation/README.md",
       "title": "README.md",
       "category": "platform_code",
-      "bytes": 50419,
-      "sha256": "df237bddb6454b57629aab875202a004d8a670e92e663614b408fcc0bfc25cb8"
+      "bytes": 50054,
+      "sha256": "70d5605f108e8f1d4f78e3b2cc52c93d877c011a06341ffda0fcb01863c1bbef"
     },
     {
       "path": "documentation/RESEARCH_PLATFORM_MAP_RU.md",
@@ -3225,8 +3225,29 @@
       "path": "documentation/V3_STAGE2_RU.md",
       "title": "V3_STAGE2_RU.md",
       "category": "platform_code",
-      "bytes": 14436,
-      "sha256": "a303099226efd7d286044c31a9ba954d09f861f0dc193d8e4849ddc7345e50e3"
+      "bytes": 15511,
+      "sha256": "c198baad556ebb29a510570b2911e87c066fbf82ba1f1e9b29daee04d381d84f"
+    },
+    {
+      "path": "documentation/v3-stage2-context-desktop.png",
+      "title": "v3-stage2-context-desktop.png",
+      "category": "platform_code",
+      "bytes": 171488,
+      "sha256": "4425d9f27e9c4628f34ca625dde7252069f6c48a6396288ad6e2b851ff47ed7c"
+    },
+    {
+      "path": "documentation/v3-stage2-context-mobile.png",
+      "title": "v3-stage2-context-mobile.png",
+      "category": "platform_code",
+      "bytes": 69576,
+      "sha256": "c05f63b7908f8c17f2c10b05cabe35a6c8d5dbcf5dfc9eab79a6ff3b0ac4c3c1"
+    },
+    {
+      "path": "documentation/v3-stage2-tourism-export.png",
+      "title": "v3-stage2-tourism-export.png",
+      "category": "platform_code",
+      "bytes": 160044,
+      "sha256": "7e439139e81d1f66974201cdcf490d4aa91ab7236b1bc7845bc190ea7cb91da5"
     },
     {
       "path": "documentation/VALIDATION_1_1.md",

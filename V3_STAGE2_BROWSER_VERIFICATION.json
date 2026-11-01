@@ -1,0 +1,1841 @@
+{
+  "schema": "national-projects.v3-browser-verification/1",
+  "release_version": "3.0.0-stage.2",
+  "checked_at_utc": "2026-11-01T18:32:44.357074+00:00",
+  "assembled_release": {
+    "status": "PASS",
+    "commit": "0504afd0d7372c7dc94686fae581ea723433940e",
+    "workflow_run_id": 41336023670,
+    "job_id": 124935909741,
+    "artifact_id": 13094994294,
+    "artifact_sha256": "0ec46b8108d1999c8b61d32f895468a8e270dcaf065e3e7b9224ba7cde84760b",
+    "artifact_bytes": 3076006,
+    "artifact_crc_checked": true,
+    "passed_checks": 249,
+    "failed_checks": 0,
+    "suites": {
+      "browser_research_context": {
+        "passed": 61,
+        "failed": 0,
+        "runner": "Playwright Chromium",
+        "checks": [
+          {
+            "name": "tourism_original_cumulative_value",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "family_carried_window_unchanged",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=77&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "family_local_parameters_do_not_cross",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "family_no_silent_period_substitution",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "family_explicit_period_applies",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&period=%D0%BC%D0%B5%D1%81%D1%8F%D1%86%7C2026-09-30"
+            }
+          },
+          {
+            "name": "family_source_value_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.39,
+              "shown": 1.39
+            }
+          },
+          {
+            "name": "family_source_value_table",
+            "passed": true,
+            "detail": {
+              "expected": 1.39,
+              "shown": 1.39
+            }
+          },
+          {
+            "name": "long_active_life_carried_window_unchanged",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/projects/long_active_life/map?ctx_region=77&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "long_active_life_local_parameters_do_not_cross",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "long_active_life_no_silent_period_substitution",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "long_active_life_explicit_period_applies",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-07-31",
+                "ctx_end": "2026-07-31",
+                "ctx_kind": "stock_at_period_end",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-07-31",
+                "ctx_end": "2026-07-31",
+                "ctx_kind": "stock_at_period_end",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/projects/long_active_life/map?ctx_region=77&ctx_start=2026-07-31&ctx_end=2026-07-31&ctx_kind=stock_at_period_end&ctx_frequency=monthly&period=monthly%7C2026-07-31%7C"
+            }
+          },
+          {
+            "name": "long_active_life_source_value_map",
+            "passed": true,
+            "detail": {
+              "expected": 56.66,
+              "shown": 56.66
+            }
+          },
+          {
+            "name": "long_active_life_source_value_table",
+            "passed": true,
+            "detail": {
+              "expected": 56.66,
+              "shown": 56.66
+            }
+          },
+          {
+            "name": "personnel_carried_window_unchanged",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/projects/personnel/map?ctx_region=77&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "personnel_local_parameters_do_not_cross",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "personnel_no_silent_period_substitution",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "personnel_explicit_period_applies",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2024-01-01",
+                "ctx_end": "2024-12-31",
+                "ctx_kind": "annual",
+                "ctx_frequency": "annual"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2024-01-01",
+                "ctx_end": "2024-12-31",
+                "ctx_kind": "annual",
+                "ctx_frequency": "annual"
+              },
+              "url": "http://127.0.0.1:40065/family/#/projects/personnel/map?ctx_region=77&ctx_start=2024-01-01&ctx_end=2024-12-31&ctx_kind=annual&ctx_frequency=annual&period=annual%7C2024-12-31"
+            }
+          },
+          {
+            "name": "personnel_source_value_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.0,
+              "shown": 1.0
+            }
+          },
+          {
+            "name": "personnel_source_value_table",
+            "passed": true,
+            "detail": {
+              "expected": 1.0,
+              "shown": 1.0
+            }
+          },
+          {
+            "name": "compatible_source_has_cumulative_semantics",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_change_keeps_the_requested_window",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/projects/long_active_life/map?ctx_region=77&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly&source=62930"
+            }
+          },
+          {
+            "name": "source_change_selects_requested_indicator",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "same_window_in_health_map",
+            "passed": true,
+            "detail": {
+              "expected": 15.6,
+              "shown": 15.6
+            }
+          },
+          {
+            "name": "same_window_in_health_table",
+            "passed": true,
+            "detail": {
+              "expected": 15.6,
+              "shown": 15.6
+            }
+          },
+          {
+            "name": "regional_analysis_preserves_context",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/regions?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "multiperiod_analysis_discloses_scope",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "sidebar_returns_to_exact_map_window",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "back_and_refresh_restore_window_and_region",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&source=data_21"
+            }
+          },
+          {
+            "name": "restored_family_value_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.39,
+              "shown": 1.39
+            }
+          },
+          {
+            "name": "unsupported_project_keeps_request",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/projects/youth_children/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "unsupported_project_scope_is_explicit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "supported_project_reapplies_request",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "clearing_region_removes_profile_and_selection",
+            "passed": true,
+            "detail": {
+              "context": {
+                "ctx_region": "all",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=all&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&source=data_21"
+            }
+          },
+          {
+            "name": "all_regions_survives_sidebar",
+            "passed": true,
+            "detail": {
+              "context": {
+                "ctx_region": "all",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/regions?ctx_region=all&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "all_regions_does_not_restore_tourism_defaults",
+            "passed": true,
+            "detail": {
+              "context": {
+                "ctx_region": "all",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/projects/tourism/regions?ctx_region=all&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "all_regions_survives_back_and_return_to_map",
+            "passed": true,
+            "detail": {
+              "context": {
+                "ctx_region": "all",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=all&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "december_cumulative_is_not_annual",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "annual_record_is_offered_as_distinct_choice",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "annual_choice_changes_semantics",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2025-01-01",
+                "ctx_end": "2025-12-31",
+                "ctx_kind": "annual",
+                "ctx_frequency": "annual"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2025-01-01",
+                "ctx_end": "2025-12-31",
+                "ctx_kind": "annual",
+                "ctx_frequency": "annual"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=77&ctx_start=2025-01-01&ctx_end=2025-12-31&ctx_kind=annual&ctx_frequency=annual&period=%D0%B3%D0%BE%D0%B4%7C2025-12-31"
+            }
+          },
+          {
+            "name": "annual_family_value_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.434,
+              "shown": 1.434
+            }
+          },
+          {
+            "name": "annual_is_not_tourism_december_cumulative",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "explicit_cumulative_choice_restores_tourism",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2025-01-01",
+                "ctx_end": "2025-12-31",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2025-01-01",
+                "ctx_end": "2025-12-31",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/projects/tourism/map?ctx_region=77&ctx_start=2025-01-01&ctx_end=2025-12-31&ctx_kind=cumulative_ytd&ctx_frequency=monthly&period=2025-12-31"
+            }
+          },
+          {
+            "name": "invalid_date_kept_in_request",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-02-30",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-02-30",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=77&ctx_start=2026-02-30&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&source=data_21"
+            }
+          },
+          {
+            "name": "invalid_date_does_not_render_default_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "invalid_request_survives_refresh_without_fallback",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "explicit_period_repairs_invalid_request",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&source=data_21&period=%D0%BC%D0%B5%D1%81%D1%8F%D1%86%7C2026-09-30"
+            }
+          },
+          {
+            "name": "invalid_native_period_remains_requested",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "invalid_native_period_has_no_latest_fallback",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "context_controls_fit_390",
+            "passed": true,
+            "detail": [
+              {
+                "left": 32,
+                "right": 358
+              },
+              {
+                "left": 32,
+                "right": 358
+              }
+            ]
+          },
+          {
+            "name": "mobile_region_focus_and_context_390",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "23",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "23",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=23&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly&r=23"
+            }
+          },
+          {
+            "name": "mobile_period_focus_and_context_390",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "23",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "23",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=23&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&r=23&period=%D0%BC%D0%B5%D1%81%D1%8F%D1%86%7C2026-09-30"
+            }
+          },
+          {
+            "name": "mobile_selected_value_390_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.457,
+              "shown": 1.457
+            }
+          },
+          {
+            "name": "context_page_width_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "context_controls_fit_320",
+            "passed": true,
+            "detail": [
+              {
+                "left": 32,
+                "right": 288
+              },
+              {
+                "left": 32,
+                "right": 288
+              }
+            ]
+          },
+          {
+            "name": "mobile_region_focus_and_context_320",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "23",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "23",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=23&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly&r=23"
+            }
+          },
+          {
+            "name": "mobile_period_focus_and_context_320",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "23",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "23",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:40065/family/#/map?ctx_region=23&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&r=23&period=%D0%BC%D0%B5%D1%81%D1%8F%D1%86%7C2026-09-30"
+            }
+          },
+          {
+            "name": "mobile_selected_value_320_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.457,
+              "shown": 1.457
+            }
+          },
+          {
+            "name": "context_page_width_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_page_errors",
+            "passed": true,
+            "detail": []
+          },
+          {
+            "name": "no_console_errors",
+            "passed": true,
+            "detail": []
+          },
+          {
+            "name": "no_http_errors",
+            "passed": true,
+            "detail": []
+          }
+        ],
+        "page_errors": [],
+        "console_errors": [],
+        "http_errors": []
+      },
+      "browser_tourism": {
+        "passed": 188,
+        "failed": 0,
+        "runner": "Playwright Chromium",
+        "checks": [
+          {
+            "name": "route_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "six_source_contract",
+            "passed": true,
+            "detail": [
+              "62159",
+              "62780",
+              "62900",
+              "62902",
+              "62903",
+              "63347"
+            ]
+          },
+          {
+            "name": "source_selected_62159",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_62159",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_62159",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_62159",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_62159",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_selected_62780",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_62780",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_62780",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_62780",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_62780",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_selected_62900",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_62900",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_62900",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_62900",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_62900",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_selected_62902",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_62902",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_62902",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_62902",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_62902",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_selected_62903",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_62903",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_62903",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_62903",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_62903",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_selected_63347",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_63347",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_63347",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_63347",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_63347",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_click_updates_profile",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_profile_visible",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_profile_explorer_link",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "calculator_valid_value",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "calculator_zero_denominator",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "calculator_blank_denominator",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "csv_file_downloaded",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "csv_observations_nonempty",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "csv_source_fields",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "csv_period_and_unit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "download_name_tourism-research-2026-09-30.json",
+            "passed": true,
+            "detail": "tourism-research-2026-09-30.json"
+          },
+          {
+            "name": "research_json_selected_context",
+            "passed": true,
+            "detail": {
+              "requestedPeriod": "2026-09-30",
+              "appliedPeriod": "2026-09-30",
+              "regions": [
+                "77",
+                "23",
+                "24"
+              ],
+              "view": "regions/table",
+              "version": "3.0.0-stage.2",
+              "missingRegions": [],
+              "comparisonStatus": "requires_edition_review"
+            }
+          },
+          {
+            "name": "research_json_complete_source_rows",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_json_provenance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_json_independent_python_replay",
+            "passed": true,
+            "detail": {
+              "returncode": 0,
+              "receipt": {
+                "status": "PASS",
+                "period": "2026-09-30",
+                "observations": 1806,
+                "regions": 85,
+                "periods_checked": 21,
+                "trajectory_points_checked": 84,
+                "regional_sum": 74.4464,
+                "national_value": 74.4464,
+                "residual": 0.0,
+                "top5_share_pct": 42.169265404371465,
+                "top10_share_pct": 52.32099873197361,
+                "mismatches": 8,
+                "tolerance": 1e-08,
+                "errors": []
+              },
+              "stderr": ""
+            }
+          },
+          {
+            "name": "research_json_replay_scope",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_csv_table_is_paginated",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_csv_table_is_filtered",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "download_name_tourism-regions-2026-09-30.csv",
+            "passed": true,
+            "detail": "tourism-regions-2026-09-30.csv"
+          },
+          {
+            "name": "research_csv_whole_slice_after_filter",
+            "passed": true,
+            "detail": {
+              "rows": 85
+            }
+          },
+          {
+            "name": "research_csv_period_units_provenance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_csv_exact_source_values_and_cells",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_csv_independent_shares_and_reconciliation",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_csv_ranked_rows",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "download_name_tourism-rank-2026-09-30.svg",
+            "passed": true,
+            "detail": "tourism-rank-2026-09-30.svg"
+          },
+          {
+            "name": "research_svg_document",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_svg_title_period_source",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_svg_visible_annotations",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_svg_embedded_fonts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_svg_chart_and_bounds",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "download_name_tourism-rank-2026-09-30.png",
+            "passed": true,
+            "detail": "tourism-rank-2026-09-30.png"
+          },
+          {
+            "name": "research_png_signature",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_png_dimensions",
+            "passed": true,
+            "detail": {
+              "width": 1240,
+              "height": 1268
+            }
+          },
+          {
+            "name": "research_png_decodes_with_visible_annotations",
+            "passed": true,
+            "detail": {
+              "width": 1240,
+              "height": 1268,
+              "differentPixels": 0,
+              "headerInk": 7527,
+              "chartInk": 154029,
+              "sourceInk": 15390
+            }
+          },
+          {
+            "name": "research_png_matches_annotated_svg",
+            "passed": true,
+            "detail": {
+              "width": 1240,
+              "height": 1268,
+              "differentPixels": 0,
+              "headerInk": 7527,
+              "chartInk": 154029,
+              "sourceInk": 15390
+            }
+          },
+          {
+            "name": "mobile_rail_overflows_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_rail_scrolls_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_active_project_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_page_width_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_opens_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_navigates_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_closes_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_rail_overflows_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_rail_scrolls_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_active_project_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_page_width_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_opens_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_navigates_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_closes_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_page_errors",
+            "passed": true,
+            "detail": []
+          },
+          {
+            "name": "no_console_errors",
+            "passed": true,
+            "detail": []
+          },
+          {
+            "name": "no_http_errors",
+            "passed": true,
+            "detail": []
+          }
+        ],
+        "page_errors": [],
+        "console_errors": [],
+        "http_errors": []
+      }
+    },
+    "downloads": [
+      {
+        "name": "tourism-source-62900.csv",
+        "bytes": 9826,
+        "sha256": "40ab602d9d70d332d0a566311140c2233f277d0149982782eac3985b8a86b65a",
+        "rows": 21
+      },
+      {
+        "name": "tourism-research-2026-09-30.json",
+        "bytes": 4963205,
+        "sha256": "54bbe65319fd333968393d65739e2c0b3335867a1cb7d9ffcc10e5593fcaef03"
+      },
+      {
+        "name": "tourism-regions-2026-09-30.csv",
+        "bytes": 37717,
+        "sha256": "f2b63c46734c9b4c1b646968782a81818dc9ed4136e5941dc03f35e296f52253",
+        "rows": 85
+      },
+      {
+        "name": "tourism-rank-2026-09-30.svg",
+        "bytes": 355615,
+        "sha256": "07ced5c056d81491c052a634a497da4d8abccf593af38cfd9fafef356ba24f2e"
+      },
+      {
+        "name": "tourism-rank-2026-09-30.png",
+        "bytes": 160044,
+        "sha256": "7e439139e81d1f66974201cdcf490d4aa91ab7236b1bc7845bc190ea7cb91da5"
+      }
+    ],
+    "independent_json_replay": {
+      "status": "PASS",
+      "period": "2026-09-30",
+      "observations": 1806,
+      "regions": 85,
+      "periods_checked": 21,
+      "trajectory_points_checked": 84,
+      "regional_sum": 74.4464,
+      "national_value": 74.4464,
+      "residual": 0.0,
+      "top5_share_pct": 42.169265404371465,
+      "top10_share_pct": 52.32099873197361,
+      "mismatches": 8,
+      "tolerance": 1e-08,
+      "errors": []
+    }
+  },
+  "manual_visual_review": {
+    "status": "PASS_FOR_RECORDED_SCOPE",
+    "screenshots": [
+      {
+        "path": "documentation/qa-v3-stage2/v3-stage2-context-desktop.png",
+        "source": "browser_research_context/context-family-available.png",
+        "bytes": 171488,
+        "sha256": "4425d9f27e9c4628f34ca625dde7252069f6c48a6396288ad6e2b851ff47ed7c",
+        "visually_inspected": true
+      },
+      {
+        "path": "documentation/qa-v3-stage2/v3-stage2-context-mobile.png",
+        "source": "browser_research_context/context-selected-mobile-390.png",
+        "bytes": 69576,
+        "sha256": "c05f63b7908f8c17f2c10b05cabe35a6c8d5dbcf5dfc9eab79a6ff3b0ac4c3c1",
+        "visually_inspected": true
+      },
+      {
+        "path": "documentation/qa-v3-stage2/v3-stage2-tourism-export.png",
+        "source": "browser_tourism/tourism-rank-2026-09-30.png",
+        "bytes": 160044,
+        "sha256": "7e439139e81d1f66974201cdcf490d4aa91ab7236b1bc7845bc190ea7cb91da5",
+        "visually_inspected": true
+      }
+    ],
+    "observations": [
+      "Desktop period and region panel, indicator label and selected source value remain legible.",
+      "390 px mobile panel fits; focused period control is visibly outlined.",
+      "Downloaded PNG contains title, period, unit, source, acquisition date, data/code identifiers and complete chart labels.",
+      "Managed browser additionally checked exact cumulative request across tourism and health, an explicit compatible source, keyboard period change and all-regions persistence."
+    ],
+    "limits": [
+      "No complete WCAG conformance or assistive technology audit.",
+      "No cross-browser certification."
+    ]
+  },
+  "full_rebuild_browser": {
+    "status": "CORRECTION_PENDING_CI",
+    "run_id": 41336023670,
+    "job_id": 124935909534,
+    "failed_suite": "browser_longlife",
+    "failed_check": "interactive_flow",
+    "cause": "S01 preliminary source loading intercepted the existing local load-error/retry UI; correction under verification.",
+    "correction": "A shared Health source-error renderer handles the preliminary load; manual retry re-runs application rendering and exact context preparation. Existing HTTP503 test now verifies one request before the click, two afterward, exact context and the source value."
+  }
+}

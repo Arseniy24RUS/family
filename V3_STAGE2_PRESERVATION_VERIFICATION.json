@@ -1,7 +1,7 @@
 {
   "schema": "national-projects.v3-preservation/1",
   "release_version": "3.0.0-stage.2",
-  "checked_at_utc": "2026-11-01T13:25:08.478875+00:00",
+  "checked_at_utc": "2026-11-01T18:35:24.151888+00:00",
   "comparisons": [
     {
       "base_commit": "45b6e7e055c2d9a4dc604d674273c0b20187ca36",
@@ -130,21 +130,21 @@
   ],
   "download_indexes": {
     "public": {
-      "files": 1968,
-      "checked": 1968,
+      "files": 1971,
+      "checked": 1971,
       "issues": [],
-      "index_sha256": "9d2f3e1785f0ee469aaf6407e9410f2b3f21ceee6adbd6c9d0b7a4acd513400e",
+      "index_sha256": "2f23100d3103ddc7e59ecddb92e1897c306d03b7202466618ab86371e1466697",
       "status": "PASS"
     },
     "docs": {
-      "files": 1968,
-      "checked": 1968,
+      "files": 1971,
+      "checked": 1971,
       "issues": [],
-      "index_sha256": "30c40c4869fd8bb27c1cc1473caf4321ef70f129bd03cbfe39efcce2bdb47496",
+      "index_sha256": "80ea8df89068305676db8fbe585b9c8ed331cb106454ff889fb39a53b1735982",
       "status": "PASS"
     }
   },
   "method": "Git blob hash for each retained research payload; independent SHA-256 and size for each entry of each download tree. No analytical output was copied from isolated full builds.",
-  "elapsed_seconds": 5.48,
+  "elapsed_seconds": 7.86,
   "status": "PASS"
 }

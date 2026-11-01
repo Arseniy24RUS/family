@@ -115,7 +115,7 @@ async function render(){
   const report=reportIndex.reports?.find(item=>item.project_id===p.id);
   if(!report?.pdf?.url||!report?.docx?.url)throw Error('Не найдены актуальные файлы экспертизы проекта «'+p.name+'».');
   top.querySelector('.topbar-controls').prepend(currentReportButton(report));
-  let content,researchContext=null;
+  let content,researchContext=null,contextLoadFailed=false;
   if(p.id==='family'){
    const [data,pageRenderer]=await Promise.all([bootstrap(),runtime.family(state.page)]);
    if(token!==sequence)return;
@@ -131,9 +131,17 @@ async function render(){
     json('data/regions.json')
    ]);
    if(token!==sequence)return;
-   researchContext=await prepareResearchContext({projectId:p.id,page:state.page,state,catalog,research});
+   const rendererContext={...bundle,project:p,[study.key]:research,geo,catalog,state,go:route,set,retry:render};
+   try{researchContext=await prepareResearchContext({projectId:p.id,page:state.page,state,catalog,research});}
+   catch(error){
+    if(token!==sequence)return;
+    if(p.id!=='long_active_life')throw error;
+    const {renderLonglifeLoadError}=await import('./pages/longlife.js');
+    if(token!==sequence)return;
+    content=renderLonglifeLoadError(rendererContext,error);contextLoadFailed=true;
+   }
    if(token!==sequence)return;
-   applyTheme(p.id);content=researchContext?.blocked?researchContextEmpty(researchContext,set):await study.render({...bundle,project:p,[study.key]:research,geo,catalog,state:researchContext?.state||state,go:route,set});
+   applyTheme(p.id);if(!contextLoadFailed)content=researchContext?.blocked?researchContextEmpty(researchContext,set):await study.render({...rendererContext,state:researchContext?.state||state});
   }
   else if(foundationPages.some(x=>x.id===state.page)){
    const [bundle,{projectPage}]=await Promise.all([projectData(p.id),runtime.foundation()]);
@@ -144,7 +152,7 @@ async function render(){
    if(token!==sequence)return;content=renderReviewedPage(p,reviewed);
   }
   if(token!==sequence)return;
-  if(!researchContext&&Object.keys(contextParams(state)).length){
+  if(!researchContext&&!contextLoadFailed&&Object.keys(contextParams(state)).length){
    researchContext=await prepareResearchContext({projectId:p.id,page:state.page,state,catalog:await json('data/regions.json')});
    if(token!==sequence)return;
   }
@@ -161,6 +169,7 @@ async function render(){
    if(location.hash!==canonicalHash)history.replaceState(history.state,'',canonicalHash);
    preserveContextLinks(content,canonicalState,researchContext);
   }
+  if(contextLoadFailed)preserveContextLinks(content,state);
   updateContextNavigation(canonicalState);
   main.replaceChildren(content);document.title=name+' · Экспертиза национального проекта «'+p.name+'»';main.dataset.page=state.page;main.dataset.project=p.id;main.dataset.ready='true';
   if(!same){window.scrollTo(0,0);main.focus({preventScroll:true});}else if(preserveScroll!==null)window.scrollTo(0,preserveScroll);

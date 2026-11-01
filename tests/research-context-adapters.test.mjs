@@ -5,6 +5,7 @@ import {prepareResearchContext} from '../src/platform/research-context-data.js';
 import {ALL_RESEARCH_REGIONS,contextParams,periodContextParams,updateContextFromLocalControl,researchNavigationContext} from '../src/core/research-context.js';
 import {parseRoute,switchProject} from '../src/platform/routes.js';
 import {projectHref} from '../src/platform/projects.js';
+import {loadSourceObservations} from '../src/pages/longlife.js';
 
 const read = path => JSON.parse(fs.readFileSync(new URL('../public/'+path,import.meta.url),'utf8'));
 const catalog = read('data/regions.json');
@@ -162,4 +163,23 @@ test('source-control resets cannot silently clear the common territory or time',
   assert.equal(next.ctx_region,'77');assert.equal(next.ctx_kind,'stock_at_period_end');
   const changed = await prepare('long_active_life',next);
   assert.equal(changed.blocked,true);assert.equal(changed.region,'77');
+});
+
+test('a failed Health preload requires another explicit preparation and restores the exact requested observation',async()=>{
+  const source = health.statistics.sources.find(source=>String(source.id) === '62926');
+  const packet = read(source.downloads.observations);
+  const state = {nationalProject:'long_active_life',page:'map',source:'62926',ctx_region:'77',ctx_start:'2026-09-01',ctx_end:'2026-09-30',ctx_kind:'operational_monitoring',ctx_frequency:'monthly'};
+  const original = {...state};
+  let requests = 0;
+  const fetcher = async()=>++requests === 1 ? {ok:false,status:503} : {ok:true,json:async()=>packet};
+  const prepare = ()=>prepareResearchContext({projectId:'long_active_life',page:'map',state,catalog,research:health,
+    loadHealthObservations:source=>loadSourceObservations({...source,downloads:{...source.downloads,observations:'qa/context-retry-62926.json'}},fetcher)});
+  await assert.rejects(prepare(),/HTTP 503/);
+  assert.equal(requests,1);
+  assert.deepEqual(state,original);
+  const restored = await prepare();
+  assert.equal(requests,2);
+  assert.equal(restored.status,'available');assert.equal(restored.regionValue,203.9);
+  assert.equal(restored.state.period,'monthly|2026-09-30|');
+  assert.deepEqual(contextParams(restored.state),contextParams(original));
 });
