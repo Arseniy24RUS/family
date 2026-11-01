@@ -38,7 +38,7 @@ FORMATS={sid:('sdmx' if sid in {'62713','62716','62718','62728'} else 'grid' if 
 def load(path):return json.loads(Path(path).read_text(encoding='utf-8'))
 def sha256(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 def atomic(path,data):
- path=Path(path);path.parent.mkdir(parents=True,exist_ok=True);tmp=path.with_name(path.name+'.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8');tmp.replace(path)
+ path=Path(path);path.parent.mkdir(parents=True,exist_ok=True);tmp=path.with_name(path.name+'.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8', newline='\n');tmp.replace(path)
 def csv_write(path,rows,columns=None):
  path=Path(path);path.parent.mkdir(parents=True,exist_ok=True);keys=columns or list(dict.fromkeys(k for r in rows for k in r))
  with path.open('w',encoding='utf-8-sig',newline='') as f:

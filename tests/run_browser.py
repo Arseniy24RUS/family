@@ -16,7 +16,7 @@ import threading
 
 ROOT = Path(__file__).resolve().parents[1]
 SUITES = ['browser_check', 'browser_upgrade', 'browser_redesign', 'browser_live',
-          'browser_youth', 'browser_personnel', 'browser_longlife', 'browser_healthtech', 'browser_infrastructure', 'browser_environment', 'browser_competitive', 'browser_dataeconomy', 'browser_tourism', 'browser_transport', 'browser_export', 'browser_platform_system']
+          'browser_youth', 'browser_personnel', 'browser_longlife', 'browser_healthtech', 'browser_infrastructure', 'browser_environment', 'browser_competitive', 'browser_dataeconomy', 'browser_tourism', 'browser_transport', 'browser_export', 'browser_platform_system', 'browser_research_context']
 
 
 class PagesHandler(http.server.SimpleHTTPRequestHandler):

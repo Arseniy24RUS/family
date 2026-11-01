@@ -1,0 +1,17 @@
+.research-context{margin:20px 0 28px;padding:20px 22px;border:1px solid var(--line,#d9dee8);border-radius:8px;background:var(--surface,#fff);color:var(--ink,#0a132d);font-family:inherit;min-width:0;}
+.research-context-heading h2{margin:0;font-size:17px;line-height:1.4;font-weight:650;letter-spacing:0;}
+.research-context-source{margin:5px 0 0;color:var(--muted,#647087);font-size:13px;line-height:1.5;}
+.research-context-fields{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:14px;margin:16px 0 12px;}
+.research-context .field{display:flex;flex-direction:column;min-width:0;gap:5px;margin:0;}
+.research-context .field>span{font-size:12px;color:var(--muted,#647087);}
+.research-context select{display:block;width:100%;min-width:0;max-width:100%;height:42px;padding:8px 30px 8px 10px;border:1px solid var(--line,#d9dee8);border-radius:5px;background:var(--surface,#fff);color:var(--ink,#0a132d);font:inherit;font-size:13px;text-overflow:ellipsis;}
+.research-context select:focus-visible,.research-context-empty select:focus-visible{outline:2px solid var(--green,#2947a0);outline-offset:3px;}
+.research-context select:disabled{opacity:1;background:var(--soft,#f4f6fa);color:var(--muted,#647087);}
+.research-context-request{margin:0 0 7px;font-size:13px;line-height:1.6;overflow-wrap:anywhere;}
+.research-context-status{margin:0;font-size:13px;line-height:1.6;font-weight:500;}
+.research-context-scope{margin:8px 0 0;font-size:12px;line-height:1.6;color:var(--muted,#647087);}
+.research-context-empty>.field{display:flex;flex-direction:column;gap:6px;max-width:680px;min-width:0;margin:18px 0;}
+.research-context-empty>.field select{max-width:100%;min-width:0;width:100%;height:44px;font:inherit;}
+.research-context-empty>p{max-width:850px;line-height:1.7;}
+@media(max-width:600px){.research-context{padding:16px 14px;margin:16px 0 22px;}.research-context-fields{grid-template-columns:minmax(0,1fr);gap:12px;}.research-context-heading h2{font-size:16px;}.research-context select{font-size:13px;}}
+@media print{.research-context{break-inside:avoid;}.research-context select{border:0;padding:0;height:auto;}.research-context-scope a{display:none;}}

@@ -9,6 +9,30 @@ env:
   OPENBLAS_NUM_THREADS: '1'
   OMP_NUM_THREADS: '1'
 jobs:
+  assembled-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Validate the retained cumulative release
+        run: npm run validate
+      - name: Build Pages from the retained docs without recalculating data
+        run: python scripts/build_pages.py --report "$RUNNER_TEMP/assembled-v3-qa/pages-build.json"
+      - run: python -m pip install -r scripts/requirements-browser.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Check shared context and real exports in the cumulative release
+        run: python tests/run_browser.py --directory .pages --suite browser_research_context --suite browser_tourism --output "$RUNNER_TEMP/assembled-v3-qa"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: assembled-release-qa
+          path: ${{ runner.temp }}/assembled-v3-qa
+          retention-days: 14
   validate:
     runs-on: ubuntu-latest
     steps:

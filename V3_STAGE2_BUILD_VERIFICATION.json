@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "verification_date": "2026-11-01",
+  "scope": {
+    "base_commit": "2789bfb5340c3a9a937a40527b444efd18f65a81",
+    "package_version_in_isolated_builds": "3.0.0-stage.1",
+    "source_patch": {
+      "existing_build_scripts_modified": 33,
+      "new_source_helpers": [
+        "scripts/infrastructure_method_review.json",
+        "scripts/infrastructure_method_review.py",
+        "scripts/reproducible_output.py"
+      ],
+      "new_test_files": [
+        "tests/infrastructure-method-review.test.mjs",
+        "tests/test_reproducible_build.py"
+      ]
+    },
+    "isolation": "Two complete offline builds in one isolated /tmp checkout exported from the base commit, with only the build-stability source patch overlaid.",
+    "stage2_ui_release_changes_included": false,
+    "generated_outputs_copied_to_main": false,
+    "cross_platform_execution": "NOT_PERFORMED"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "node": "v24.22.1",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "zlib": "1.3.2",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "networkx": "3.6.1",
+      "nltk": "3.9.2",
+      "pandas": "2.2.3",
+      "lxml": "6.1.1"
+    },
+    "blas": {
+      "name": "scipy-openblas",
+      "version": "0.3.30",
+      "openblas configuration": "OpenBLAS 0.3.30  USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=64"
+    },
+    "threads": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "build_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 node scripts/build.mjs",
+  "python_dependency_scope": "requirements-analytics packages loaded from the session Python environment and local dependency directory; exact versions above.",
+  "build_runs": [
+    {
+      "run": 1,
+      "status": "PASS",
+      "exit_code": 0,
+      "downloadable_files": 1962,
+      "observations": 25627,
+      "statistical_sources": 16,
+      "log_sha256": "27386006d0dad624557ccf59877650d55559c716ce2d312b15981a7f374e047b",
+      "inventory_sha256": "48296d2460e27ebfcfad90fc659c61de8b1360b3bdc8f76468127e424da17c8d"
+    },
+    {
+      "run": 2,
+      "status": "PASS",
+      "exit_code": 0,
+      "downloadable_files": 1962,
+      "observations": 25627,
+      "statistical_sources": 16,
+      "log_sha256": "27386006d0dad624557ccf59877650d55559c716ce2d312b15981a7f374e047b",
+      "inventory_sha256": "48296d2460e27ebfcfad90fc659c61de8b1360b3bdc8f76468127e424da17c8d"
+    }
+  ],
+  "run1_to_run2": {
+    "status": "BYTE_IDENTICAL",
+    "compared_files": 8381,
+    "changed_files": 0,
+    "added_files": 0,
+    "removed_files": 0,
+    "inventory_scope": "All files including generated extraction caches; __pycache__ excluded.",
+    "interpretation": "Demonstrated repeated-build byte identity in this recorded environment and checkout. This does not establish identity with the published baseline or across other Python/BLAS/zlib/OS environments."
+  },
+  "baseline_drift": {
+    "full_tree_vs_base_git_commit": {
+      "changed": 740,
+      "added": 84,
+      "removed": 0,
+      "compared_files": 8297
+    },
+    "build_effects_vs_patched_prebuild_checkout": {
+      "changed": 707,
+      "added": 79,
+      "removed": 0,
+      "compared_files": 8302
+    },
+    "added_generated_files": {
+      "extraction_cache_files": 73,
+      "download_copies_of_three_new_helpers": 6
+    },
+    "artifact_subset_classification": {
+      "classified_files": 622,
+      "counts": {
+        "json_content_changed": 336,
+        "numeric_values_only": 187,
+        "other_bytes_changed": 28,
+        "line_endings_only": 63,
+        "zip_metadata_or_encoding_only": 8
+      },
+      "note": "Categories describe exact file differences, not a claim that every JSON content change is a new scientific result. Public and docs copies are counted separately."
+    },
+    "release_version_only_artifacts": 30,
+    "projection_edition_mismatch": {
+      "status": "OPEN_EXISTING_BASELINE_DIVERGENCE",
+      "path": "public/downloads/projections/population_manifest.json",
+      "largest_numeric_change": [
+        4985.402755709365,
+        "$.regions[50].population_end",
+        9147590.69685293,
+        9142605.29409722
+      ],
+      "changed_numeric_values": 146,
+      "public_runtime_projection_files_changed": 0,
+      "explanation": "The existing downloadable projection manifests and docs projection copies differ from the existing public runtime projection edition. The full builder republishes the latter; the population_end difference is substantive and is not floating-point rounding. No forecasting code was changed and no network refresh ran.",
+      "release_action": "Do not import these rebuilt projections into the cumulative release without a separate edition reconciliation."
+    }
+  },
+  "editorial_methods": {
+    "source": "scripts/infrastructure_method_review.json",
+    "methods": 39,
+    "editorial_fields": 117,
+    "old_python_conflicts_with_published_review": {
+      "current_limitations": 20,
+      "current_review_basis": 1,
+      "total": 21
+    },
+    "old_js_editorial_conflicts_with_current_baseline": 0,
+    "preserved_fields": [
+      "method_id",
+      "current_status",
+      "current_status_label",
+      "current_limitations",
+      "current_review_basis"
+    ],
+    "after_python_run1": {
+      "published_editorial_review_preserved": true,
+      "entire_file_matches_baseline": true,
+      "sha256": "fdac133ea30102655ff688f711a1e466133beef8797990634fdee9c678f6bbab"
+    },
+    "after_python_run2": {
+      "published_editorial_review_preserved": true,
+      "matches_previous_complete_build": true,
+      "sha256": "da96a5b5a5cf53abb63c322b84a0d62fde0f62e9dc5027db5284dc5b874a72bf"
+    },
+    "after_complete_runs": {
+      "published_editorial_review_preserved": true,
+      "run1_sha256": "da96a5b5a5cf53abb63c322b84a0d62fde0f62e9dc5027db5284dc5b874a72bf",
+      "run2_sha256": "da96a5b5a5cf53abb63c322b84a0d62fde0f62e9dc5027db5284dc5b874a72bf",
+      "docs_matches_public": true
+    },
+    "only_complete_file_change_vs_baseline": {
+      "field": "release_version",
+      "before": "2.12.0-platform.1",
+      "after": "3.0.0-stage.1"
+    },
+    "invalid_review_behavior": "Missing, extra or duplicate method entries and empty or noneditorial fields fail validation before editorial mutation; numeric and historical method fields are preserved.",
+    "future_editorial_revision_test": "PASS: a changed source review is applied on both successive publication builds without restoring an embedded legacy string."
+  },
+  "deterministic_serialization_and_packaging": {
+    "explicit_lf": {
+      "writer_sites": 35,
+      "ordinary_build_modules": 24,
+      "baseline_files_with_only_crlf_lf_differences": 63,
+      "windows_execution": "NOT_PERFORMED"
+    },
+    "csv_double_cr": {
+      "path": "public/downloads/projects/international_export/context/cbr_services_regions_2024_2025.csv",
+      "before_crcrlf_sequences": 171,
+      "after_crcrlf_sequences": 0,
+      "parsed_data_rows_before": 170,
+      "parsed_data_rows_after": 170,
+      "all_parsed_rows_identical": true
+    },
+    "gzip": {
+      "updated_writer_sites": 9,
+      "policy": "mtime=0; no filename; OS byte 255; compression level 9",
+      "observed_runtime_legacy_os_byte": 3,
+      "helper_os_byte": 255,
+      "probe_decoded_bytes_identical": true,
+      "public_gzip_files_compared": 148,
+      "public_gzip_files_changed_vs_baseline": 0,
+      "cross_zlib_compressed_stream_identity": "NOT_ESTABLISHED"
+    },
+    "zip": {
+      "updated_builders": 4,
+      "policy": "1980-01-01 container timestamp, fixed creator OS and permissions, deflate level 9; source content bytes unchanged",
+      "unique_public_archives_with_packaging_only_diff": [
+        "public/downloads/projections/projections_python.zip",
+        "public/downloads/projects/efficient_transport/documentary/documentary_sources.zip",
+        "public/downloads/projects/international_export/documentary/documentary_sources.zip",
+        "public/downloads/projects/tourism/documentary/documentary_sources.zip"
+      ],
+      "including_docs_copies": 8,
+      "all_entry_bytes_identical_to_baseline": true
+    }
+  },
+  "exact_tie_order": {
+    "policy": "Descending unrounded TF-IDF weight, then Unicode term order only for exact numeric equality.",
+    "rankings_updated": 7,
+    "term_positions_changed": 1224,
+    "changed_term_positions_with_exact_equal_weights": 1224,
+    "terms_replaced_at_equal_weight_top_k_boundary": 66,
+    "numerical_weights_modified_by_sorting": false,
+    "per_project": {
+      "health_technologies": {
+        "term_positions_changed": 102,
+        "changed_term_positions_with_exact_equal_weights": 102,
+        "changed_term_position_max_weight_delta": 0,
+        "removed_at_cutoff": 9,
+        "added_at_cutoff": 9
+      },
+      "life_infrastructure": {
+        "term_positions_changed": 217,
+        "changed_term_positions_with_exact_equal_weights": 217,
+        "changed_term_position_max_weight_delta": 0,
+        "removed_at_cutoff": 21,
+        "added_at_cutoff": 21
+      },
+      "environment": {
+        "term_positions_changed": 128,
+        "changed_term_positions_with_exact_equal_weights": 128,
+        "changed_term_position_max_weight_delta": 0,
+        "removed_at_cutoff": 10,
+        "added_at_cutoff": 10
+      },
+      "competitive_economy": {
+        "term_positions_changed": 164,
+        "changed_term_positions_with_exact_equal_weights": 164,
+        "changed_term_position_max_weight_delta": 0,
+        "removed_at_cutoff": 7,
+        "added_at_cutoff": 7
+      },
+      "data_economy": {
+        "term_positions_changed": 231,
+        "changed_term_positions_with_exact_equal_weights": 231,
+        "changed_term_position_max_weight_delta": 0,
+        "removed_at_cutoff": 12,
+        "added_at_cutoff": 12
+      },
+      "tourism": {
+        "term_positions_changed": 168,
+        "changed_term_positions_with_exact_equal_weights": 168,
+        "changed_term_position_max_weight_delta": 0,
+        "removed_at_cutoff": 3,
+        "added_at_cutoff": 3
+      },
+      "efficient_transport": {
+        "term_positions_changed": 214,
+        "changed_term_positions_with_exact_equal_weights": 214,
+        "changed_term_position_max_weight_delta": 0,
+        "removed_at_cutoff": 4,
+        "added_at_cutoff": 4
+      }
+    },
+    "interpretation": "The lexical secondary key also selects deterministically among equal terms at the top-30/top-50 cutoff. The 66 replacements are explicitly disclosed; the weights at all 1224 changed positions are exactly equal to baseline."
+  },
+  "remaining_numerical_drift": {
+    "data_economy": {
+      "path": "public/data/projects/data_economy/analytics.json",
+      "changed_values": 623,
+      "max_abs_delta": 1.2079226507921703e-13
+    },
+    "long_active_life": {
+      "path": "public/data/projects/long_active_life/analytics.json",
+      "changed_values": 232,
+      "max_abs_delta": 7.993605777301127e-15
+    },
+    "current_research": {
+      "path": "public/data/current/research.json",
+      "non_layout_max_abs_delta": 8.881784197001252e-16,
+      "network_layout_changed_coordinates": 169,
+      "network_layout_max_abs_delta": 0.09933461874983707,
+      "network_layout_field": "region_network_layout",
+      "note": "The coordinate difference is a numerical layout change, not an observed regional indicator change. It is not classified as a 1e-13 rounding difference."
+    },
+    "status": "OPEN_ACROSS_COMPUTING_ENVIRONMENTS",
+    "rounding_or_output_canonicalization_applied": false
+  },
+  "remaining_platform_metadata_drift": {
+    "report_extraction_figure_paths": "Five report extraction JSON files use platform-native path separators; baseline media\\imageN.png becomes media/imageN.png on Linux. Corresponding docs copies are affected too.",
+    "status": "OPEN_ACROSS_OPERATING_SYSTEMS"
+  },
+  "verification": {
+    "postbuild_platform_validator": {
+      "command": "node scripts/validate.mjs",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    "postbuild_documentary_tests": {
+      "command": "python3 -m unittest discover -s tests -p 'test_*documentary.py' -v",
+      "status": "PASS",
+      "tests": 149,
+      "seconds": 10.973
+    },
+    "editorial_javascript_tests": {
+      "command": "node tests/infrastructure-method-review.test.mjs",
+      "status": "PASS",
+      "tests": 4
+    },
+    "editorial_and_packaging_python_tests": {
+      "command": "python3 -m unittest discover -s tests -p 'test_reproducible_build.py' -v",
+      "status": "PASS",
+      "tests": 7
+    },
+    "diff_whitespace_check": "PASS",
+    "original_input_archives_rewritten": false,
+    "derived_inputs_with_line_endings_only_changes": [
+      "inputs/efficient_transport/documentary/parsed_transport_passports.json",
+      "inputs/international_export/documentary/parsed_export_passports.json",
+      "inputs/tourism/documentary/parsed_tourism_passports.json"
+    ]
+  },
+  "release_boundary": "The cumulative release should include the reviewed source changes and controlled source/download synchronization. The complete isolated generated output is retained for verification only; existing projection edition conflicts, cross-environment numeric differences and layout changes remain explicit follow-up work."
+}

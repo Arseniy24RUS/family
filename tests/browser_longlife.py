@@ -13,7 +13,7 @@ import hashlib
 import io
 import json
 from pathlib import Path
-from urllib.parse import urlencode, urljoin
+from urllib.parse import parse_qs, urlencode, urljoin, urlsplit
 
 from playwright.async_api import async_playwright
 from browser_json import get_json as published_json
@@ -283,8 +283,13 @@ async def run(args):
                 await retry_page.close()
 
                 await route('map',{'source':sid,'r':first['map_id']})
+                carried={key:values[-1] for key,values in parse_qs(urlsplit(page.url).fragment.partition('?')[2]).items() if key.startswith('ctx_')}
                 await page.locator('.project-tab[data-project="personnel"]').click();await ready('personnel','map')
-                check('switch_project_preserves_route_clears_filters',page.url.endswith('#/projects/personnel/map'))
+                fragment=urlsplit(page.url).fragment;query=parse_qs(fragment.partition('?')[2])
+                check('switch_project_preserves_context_clears_local_filters',
+                      fragment.partition('?')[0]=='/projects/personnel/map' and bool(carried) and
+                      all(query.get(key)==[value] for key,value in carried.items()) and
+                      not {'source','period','edition'}.intersection(query),{'context':carried,'url':page.url})
                 await page.go_back();await ready(PROJECT,'map')
                 check('back_restores_longlife_filters','source='+sid in page.url)
             except Exception as error:check('interactive_flow',False,str(error))

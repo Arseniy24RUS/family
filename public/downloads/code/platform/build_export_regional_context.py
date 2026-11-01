@@ -43,7 +43,7 @@ def published_number(raw):
 def write_json(path,data):
  path.parent.mkdir(parents=True,exist_ok=True)
  temp=path.with_name(path.name+'.tmp')
- temp.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8');os.replace(temp,path)
+ temp.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8', newline='\n');os.replace(temp,path)
 
 def build(root=ROOT):
  root=Path(root);inp=root/'inputs/international_export/context';out=root/'public/data/projects/international_export'
@@ -104,7 +104,7 @@ def build(root=ROOT):
  download=root/'public/downloads/projects/international_export/context/cbr_services_regions_2024_2025.csv'
  stream=io.StringIO(newline='');writer=csv.writer(stream);writer.writerow(['region_id','region_name','source_name','year','million_usd','source_cell','source_url'])
  for r in records:writer.writerow([r['map_id'],r['name'],r['source_name'],r['year'],r['value'],r['source_cell'],r['source_url']])
- temp=download.with_name(download.name+'.tmp');temp.write_text('\ufeff'+stream.getvalue(),encoding='utf-8');os.replace(temp,download)
+ temp=download.with_name(download.name+'.tmp');temp.write_text('\ufeff'+stream.getvalue(),encoding='utf-8', newline='\n');os.replace(temp,download)
  result['services']['download_csv']='downloads/projects/international_export/context/'+download.name
  write_json(out/'regional-context.json',result)
  audit={'project_id':'international_export','sources':sources,'regional_rows':len(records),'regions':85,'excluded_aggregate_rows':len(excluded),'reconciliation':reconciliation,'concentration':concentration,'growth_summary':growth,'status':'passed'}

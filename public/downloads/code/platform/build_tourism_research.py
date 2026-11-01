@@ -44,7 +44,7 @@ def build(root=ROOT):
         }
     })
     output=directory/'research.json'
-    output.write_text(json.dumps(packet,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+    output.write_text(json.dumps(packet,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8', newline='\n')
     print(f'Tourism v3: {len(observations)} observations, {len(exclusions)} exclusions; {output.stat().st_size:,} bytes; lossless expansion verified.')
     return packet
 

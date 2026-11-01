@@ -10,6 +10,7 @@ import asyncio
 import hashlib
 import json
 from pathlib import Path
+from urllib.parse import parse_qs, urlsplit
 from playwright.async_api import async_playwright
 from browser_json import get_json
 
@@ -181,11 +182,20 @@ async def run(args):
                 response=await context.request.get(url)
                 check('library_link_'+url.split('/')[-1],response.status==200)
             await route('map','?r=77')
+            carried={key:values[-1] for key,values in parse_qs(urlsplit(page.url).fragment.partition('?')[2]).items() if key.startswith('ctx_')}
             await page.locator('.project-tab[data-project="youth_children"]').click();await ready()
-            check('switch_to_youth_preserves_map_clears_filters',page.url.endswith('#/projects/youth_children/map'))
+            fragment=urlsplit(page.url).fragment;query=parse_qs(fragment.partition('?')[2])
+            check('switch_to_youth_preserves_context_clears_local_filters',
+                  fragment.partition('?')[0]=='/projects/youth_children/map' and bool(carried) and
+                  all(query.get(key)==[value] for key,value in carried.items()) and
+                  not {'source','period','edition'}.intersection(query),{'context':carried,'url':page.url})
             await page.go_back();await ready();check('browser_back_restores_personnel','personnel/map' in page.url and 'r=77' in page.url)
             await page.locator('.project-tab[data-project="family"]').click();await ready()
-            check('switch_to_family_preserves_map_clears_filters',page.url.endswith('#/map'))
+            fragment=urlsplit(page.url).fragment;query=parse_qs(fragment.partition('?')[2])
+            check('switch_to_family_preserves_context_clears_local_filters',
+                  fragment.partition('?')[0]=='/map' and bool(carried) and
+                  all(query.get(key)==[value] for key,value in carried.items()) and
+                  not {'source','period','edition'}.intersection(query),{'context':carried,'url':page.url})
         await page.set_viewport_size({'width':390,'height':844})
         await closed_mobile_navigation(390)
         for name in PAGES:

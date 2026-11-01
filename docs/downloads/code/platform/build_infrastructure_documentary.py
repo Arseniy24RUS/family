@@ -8,13 +8,14 @@ from pathlib import Path
 from decimal import Decimal
 import argparse,collections,csv,gzip,hashlib,json,math,re,shutil,zipfile
 from extract_infrastructure_passports import parse_passport,decimal,norm,ws,TOKEN_RE
+from reproducible_output import gzip_bytes, descending_term_indices
 
 APP=Path(__file__).resolve().parents[1]
 PROJECT='life_infrastructure'
 REL=f'downloads/projects/{PROJECT}/documentary/'
 YEARS=list(range(2025,2031))
 NAMES={'family':'Семья','personnel':'Кадры','youth_children':'Молодёжь и дети','long_active_life':'Продолжительная и активная жизнь','health_technologies':'Новые технологии сбережения здоровья','life_infrastructure':'Инфраструктура для жизни','environment':'Экологическое благополучие','data_economy':'Экономика данных и цифровая трансформация государства','competitive_economy':'Эффективная и конкурентная экономика','efficient_transport':'Эффективная транспортная система','international_export':'Международная кооперация и экспорт','tourism':'Туризм и гостеприимство'}
-def dump(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+def dump(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8', newline='\n')
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def csv_write(p,rows,columns=None):
  p.parent.mkdir(parents=True,exist_ok=True)
@@ -68,7 +69,7 @@ def build_text(folder,all_docs,selected,output,data_dir):
    da,db=all_docs[a]['document'],all_docs[b]['document'];docsim.append({'document_a':da['document_id'],'document_b':db['document_id'],'title_a':da['title'],'title_b':db['title'],'code_a':da['code'],'code_b':db['code'],'cosine':float(health_docsim[i,j]),'origin':'independently_recomputed'})
  names=vec.get_feature_names_out();topterms=[]
  for code,values in [('project',variants['base'][project_index])]+[(all_docs[i]['document']['document_id'],matrix[i].toarray()[0]) for i in health_indices]:
-  for rank,i in enumerate(np.argsort(-values)[:30],1):topterms.append({'document_id':code,'rank':rank,'term':str(names[i]),'weight':float(values[i]),'origin':'independently_recomputed'})
+  for rank,i in enumerate(descending_term_indices(values,names)[:30],1):topterms.append({'document_id':code,'rank':rank,'term':str(names[i]),'weight':float(values[i]),'origin':'independently_recomputed'})
  dictionary=json.loads((folder/'theme_dictionary.json').read_text());frames=[{'id':k,'frame':k,'name':v['label'],'label':v['label'],'patterns':v['patterns']} for k,v in dictionary['frames'].items()];frame_scores=[];files={};contexts=[]
  for d in selected:
   doc=d['document'];docctx=[]
@@ -403,7 +404,7 @@ def build(root=APP, verify=False):
         shutil.copy2(folder/name,output/name)
     inp={'source_manifest':manifest,'selected_passports':selected,'text_parameters':text['method'],'theme_dictionary':text['dictionary'],
         'shared_corpus_archive':manifest['shared_archive_download'],'shared_corpus_sha256':manifest['archive_sha256']}
-    (output/'documentary_inputs.json.gz').write_bytes(gzip.compress((json.dumps(inp,ensure_ascii=False,allow_nan=False)+'\n').encode(),mtime=0))
+    (output/'documentary_inputs.json.gz').write_bytes(gzip_bytes((json.dumps(inp,ensure_ascii=False,allow_nan=False)+'\n').encode()))
     dump(data_dir/'targets.json',targets)
     dump(output/'documentary_full.json',documentary)
     runtime=json.loads(json.dumps(documentary,ensure_ascii=False))

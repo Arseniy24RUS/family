@@ -6,6 +6,7 @@ import argparse, collections, hashlib, json, shutil, zipfile
 from extract_tourism_passports import parse_passport, norm
 from tourism_data import ROOT, DATA, MAPPING, atomic, csv_write, sha256, load
 from tourism_text import build_text
+from reproducible_output import write_zip_entry
 
 PROJECT='tourism';YEARS=list(range(2025,2031))
 NAMES={'П':'Туризм и гостеприимство','П1':'Создание номерного фонда, инфраструктуры и новых точек притяжения','П2':'Пять морей и озеро Байкал','П3':'Туристическая привлекательность страны','П4':'Кадры для туризма','П5':'Производство отечественной продукции для туристской индустрии'}
@@ -121,7 +122,7 @@ def build(root=ROOT):
  csv_write(out/'targets.csv',[{**{k:v for k,v in t.items() if k not in ('years','raw_years','metadata')},'year':year,'target':value} for t in items for year,value in t['years'].items()])
  csv_write(out/'sources.csv',sources)
  with zipfile.ZipFile(out/'documentary_sources.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
-  for p in sorted((out/'sources').glob('*')):z.write(p,p.name)
+  for p in sorted((out/'sources').glob('*')):write_zip_entry(z,p.name,p.read_bytes())
  result={'meta':{'schema_version':1,'project_id':PROJECT,'documentary_snapshot':'2026-10-16','prepared_at':'2026-10-29','sources':len(sources),'structured_passports':6,'corpus_documents':137,'comparable_text_projects':10,'source_kind':'secondary_epbs_rendering','input_archive_sha256':manifest['archive_sha256'],'full_export_url':'downloads/projects/tourism/documentary/documentary_full.json'},
   'finance':finance,'network':network,'text':text,'targets':targets,'sources':sources,'downloads':{'full':'downloads/projects/tourism/documentary/documentary_full.json','source_archive':'downloads/projects/tourism/documentary/documentary_sources.zip','finance':'downloads/projects/tourism/documentary/finance_project_years.csv','targets':'downloads/projects/tourism/documentary/targets.csv','network':'downloads/projects/tourism/documentary/network_shared_tasks.csv','lexical':'downloads/projects/tourism/documentary/network_lexical_candidates.csv'}}
  atomic(out/'documentary_full.json',result);atomic(data/'documentary.json',result)

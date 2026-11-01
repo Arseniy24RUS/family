@@ -9,15 +9,34 @@ import { applyTheme } from './platform/theme.js';
 import { projectData, publications, reviewedPage, completeProjectData, currentReports, tourismResearchData, isTourismResearchPage } from './platform/data.js';
 import { runtime, projectRuntimes } from './platform/runtime.js';
 import { installSeriesTransport } from './core/series-transport.js';
+import { contextParams, updateContextFromLocalControl, researchNavigationContext } from './core/research-context.js';
+import { prepareResearchContext } from './platform/research-context-data.js';
+import { researchContextPanel, researchContextEmpty } from './components/research-context.js';
 let main, sidebar, top, masthead, footer, rail, publicationIndex={projects:{}}, sequence=0, currentKey='', sidebarProject='', preserveScroll=null;
+let activeResearchContext=null;
 const parse=()=>parseRoute(location.hash);
-function route(page,patch={},preserve=false){
- const old=parse();const params={...patch};delete params.nationalProject;
+const currentContext=state=>activeResearchContext?.projectId===state.nationalProject&&activeResearchContext?.page===state.page?activeResearchContext:null;
+function route(page,patch={},preserve=false,contextPrepared=false){
+ const old=parse(),context=currentContext(old),shared=researchNavigationContext({...old,...contextParams(context?.state||old)},{...patch,nationalProject:old.nationalProject,page},{periods:context?.periods||[],sourceId:context?.source?.id});
+ const params=contextPrepared?{...shared,...patch}:updateContextFromLocalControl(shared,patch,context?.periods||[]);delete params.nationalProject;
  const dest=projectHref(old.nationalProject,page,params);
  if(preserve)preserveScroll=scrollY;
  if(location.hash===dest)render();else location.hash=dest;
 }
-function set(patch){const state=parse();route(state.page,{...state,...patch},true);}
+function set(patch){const state=parse(),context=currentContext(state),next=updateContextFromLocalControl({...state,...contextParams(context?.state||state)},patch,context?.periods||[]);route(state.page,next,true,true);}
+function preserveContextLinks(container,state,context=null){
+ for(const link of container.querySelectorAll('a[href^="#/"]')){
+  const target=parseRoute(link.getAttribute('href'));
+  const shared=researchNavigationContext(state,target,{periods:context?.periods||[],sourceId:context?.source?.id});
+  link.setAttribute('href',projectHref(target.nationalProject,target.page,{...shared,...target}));
+ }
+}
+function updateContextNavigation(state){
+ for(const link of rail.querySelectorAll('[data-project]'))link.setAttribute('href',switchProject(state,link.dataset.project));
+ for(const link of sidebar.querySelectorAll('[data-route]'))link.setAttribute('href',projectHref(state.nationalProject,link.dataset.route,{},state));
+ masthead.querySelector('.site-brand').setAttribute('href',projectHref('family','overview',{},state));
+ preserveContextLinks(top,state);preserveContextLinks(footer,state);
+}
 const mobileViewport=matchMedia('(max-width:760px)');
 function syncNavigation(){
  if(!sidebar)return;
@@ -72,7 +91,7 @@ function shell(){
 async function render(){
  if(!main)return;
  const token=++sequence,state=parse(),p=getProject(state.nationalProject),key=p.id+'/'+state.page,same=currentKey===key;
- const focused=document.activeElement,focusSelector=same&&isTourismResearchPage(p.id,state.page)&&main.contains(focused)?(focused.getAttribute('aria-label')?'[aria-label="'+CSS.escape(focused.getAttribute('aria-label'))+'"]':focused.dataset.focusKey?'[data-focus-key="'+CSS.escape(focused.dataset.focusKey)+'"]':focused.classList.contains('v3-chip')?'[aria-label="Территория"]':null):null;
+ const focused=document.activeElement,focusSelector=same&&main.contains(focused)?(focused.dataset.focusKey?'[data-focus-key="'+CSS.escape(focused.dataset.focusKey)+'"]':focused.getAttribute('aria-label')?'[aria-label="'+CSS.escape(focused.getAttribute('aria-label'))+'"]':focused.classList.contains('v3-chip')?'[aria-label="Территория"]':null):null;
  if(p.id!=='family'&&!completeProjectPages[p.id]){publicationIndex=await publications();if(token!==sequence)return;}
  const reviewed=publicationIndex.projects[p.id]||[];
  if(p.id!=='family'&&!completeProjectPages[p.id]&&!foundationPages.some(x=>x.id===state.page)&&!reviewed.some(x=>x.id===state.page)){location.replace(projectHref(p.id));return;}
@@ -96,11 +115,13 @@ async function render(){
   const report=reportIndex.reports?.find(item=>item.project_id===p.id);
   if(!report?.pdf?.url||!report?.docx?.url)throw Error('Не найдены актуальные файлы экспертизы проекта «'+p.name+'».');
   top.querySelector('.topbar-controls').prepend(currentReportButton(report));
-  let content;
+  let content,researchContext=null;
   if(p.id==='family'){
    const [data,pageRenderer]=await Promise.all([bootstrap(),runtime.family(state.page)]);
    if(token!==sequence)return;
-   content=await pageRenderer({...data,state,go:route,set});
+   researchContext=await prepareResearchContext({projectId:p.id,page:state.page,state,catalog:data.catalog,familyData:data});
+   if(token!==sequence)return;
+   content=researchContext?.blocked?researchContextEmpty(researchContext,set):await pageRenderer({...data,state:researchContext?.state||state,go:route,set});
   }
   else if(projectRuntimes[p.id]){
    const regional=['map','regions'].includes(state.page),tourismPilot=isTourismResearchPage(p.id,state.page);
@@ -110,7 +131,9 @@ async function render(){
     json('data/regions.json')
    ]);
    if(token!==sequence)return;
-   applyTheme(p.id);content=await study.render({...bundle,project:p,[study.key]:research,geo,catalog,state,go:route,set});
+   researchContext=await prepareResearchContext({projectId:p.id,page:state.page,state,catalog,research});
+   if(token!==sequence)return;
+   applyTheme(p.id);content=researchContext?.blocked?researchContextEmpty(researchContext,set):await study.render({...bundle,project:p,[study.key]:research,geo,catalog,state:researchContext?.state||state,go:route,set});
   }
   else if(foundationPages.some(x=>x.id===state.page)){
    const [bundle,{projectPage}]=await Promise.all([projectData(p.id),runtime.foundation()]);
@@ -121,12 +144,27 @@ async function render(){
    if(token!==sequence)return;content=renderReviewedPage(p,reviewed);
   }
   if(token!==sequence)return;
+  if(!researchContext&&Object.keys(contextParams(state)).length){
+   researchContext=await prepareResearchContext({projectId:p.id,page:state.page,state,catalog:await json('data/regions.json')});
+   if(token!==sequence)return;
+  }
   if(p.id==='family'&&['logic','finance','network','texts','domains','causal','proposals'].includes(state.page))content.insertBefore(h('div',{class:'note'},'Документальная часть экспертизы от 14.05.2026. Статистические ряды, документы и авторские выводы имеют собственные даты источников.'),content.children[1]||null);
   if(p.id==='family'&&state.page==='overview')content.querySelector('.page-heading')?.append(h('img',{src:p.logo,alt:'Логотип национального проекта «Семья»',class:'family-project-logo',width:112,height:98}));
   if(['overview','library'].includes(state.page)){const card=currentReportCard(report),heading=content.querySelector('.page-heading,.project-hero');const slot=content.querySelector('[data-report-slot]');if(slot)slot.append(card);else if(heading)heading.after(card);else content.prepend(card);}
+  activeResearchContext=researchContext;
+  let canonicalState=state;
+  if(researchContext){
+   const panel=researchContextPanel(researchContext,set),heading=content.querySelector('.page-heading,.project-hero');
+   if(heading)heading.after(panel);else content.prepend(panel);
+   canonicalState={...state,...contextParams(researchContext.state)};
+   const canonicalHash=projectHref(p.id,state.page,canonicalState);
+   if(location.hash!==canonicalHash)history.replaceState(history.state,'',canonicalHash);
+   preserveContextLinks(content,canonicalState,researchContext);
+  }
+  updateContextNavigation(canonicalState);
   main.replaceChildren(content);document.title=name+' · Экспертиза национального проекта «'+p.name+'»';main.dataset.page=state.page;main.dataset.project=p.id;main.dataset.ready='true';
   if(!same){window.scrollTo(0,0);main.focus({preventScroll:true});}else if(preserveScroll!==null)window.scrollTo(0,preserveScroll);
-  if(focusSelector)main.querySelector(focusSelector)?.focus({preventScroll:true});
+  if(focusSelector){const restore=main.querySelector(focusSelector)||(focused?.dataset.focusKey==='research-context-source'?main.querySelector('select[aria-label="Показатель"]'):null);restore?.focus({preventScroll:true});}
   preserveScroll=null;currentKey=key;document.getElementById('announcer').textContent='Открыто: '+p.name+', '+name;syncNavigation();
  }catch(error){
   if(token!==sequence)return;console.error(error);main.replaceChildren(h('div',{class:'error-view'},h('h1',{},'Не удалось открыть данные'),h('p',{},error.message),h('p',{},'Откройте сайт через HTTP. Каталоги data и downloads должны быть опубликованы вместе с приложением.'),button('Повторить',render,'button primary')));

@@ -10,7 +10,7 @@ import argparse,collections,csv,gzip,hashlib,json,re
 from build_youth_documentary import numrows,verify_text
 
 PROJECT='personnel';REL='downloads/projects/personnel/documentary/'
-def dump(p,data):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+def dump(p,data):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8', newline='\n')
 def csv_rows(p,rows):
     if not rows:return
     fields=list(dict.fromkeys(k for r in rows for k in r))

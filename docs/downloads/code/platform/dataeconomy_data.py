@@ -16,6 +16,7 @@ import re
 import tempfile
 from datetime import date
 from pathlib import Path
+from reproducible_output import gzip_bytes
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT = 'data_economy'
@@ -218,7 +219,7 @@ def csv_write(path,rows,fields=None):
     # Verify row integrity before replacing any published download.
     decoded=list(csv.DictReader(io.StringIO(content.decode('utf-8-sig'))))
     if len(decoded)!=len(rows):raise ValueError('CSV roundtrip row count mismatch')
-    atomic(path,gzip.compress(content,compresslevel=9,mtime=0) if str(path).endswith('.gz') else content)
+    atomic(path,gzip_bytes(content,compresslevel=9) if str(path).endswith('.gz') else content)
 
 def merge_observations(previous,incoming):
     out={r['id']:dict(r) for r in previous}

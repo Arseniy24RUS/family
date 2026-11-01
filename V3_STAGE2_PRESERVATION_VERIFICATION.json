@@ -1,0 +1,150 @@
+{
+  "schema": "national-projects.v3-preservation/1",
+  "release_version": "3.0.0-stage.2",
+  "checked_at_utc": "2026-11-01T13:25:08.478875+00:00",
+  "comparisons": [
+    {
+      "base_commit": "45b6e7e055c2d9a4dc604d674273c0b20187ca36",
+      "files": 6842,
+      "byte_identical": 6842,
+      "status": "PASS",
+      "scopes": {
+        "docs_all_data": {
+          "baseline_files": 1343,
+          "byte_identical": 1343,
+          "modified": [],
+          "missing": []
+        },
+        "docs_other_downloadable_payload": {
+          "baseline_files": 88,
+          "byte_identical": 88,
+          "modified": [],
+          "missing": []
+        },
+        "docs_all_project_materials": {
+          "baseline_files": 1475,
+          "byte_identical": 1475,
+          "modified": [],
+          "missing": []
+        },
+        "docs_static_research": {
+          "baseline_files": 261,
+          "byte_identical": 261,
+          "modified": [],
+          "missing": []
+        },
+        "all_inputs": {
+          "baseline_files": 508,
+          "byte_identical": 508,
+          "modified": [],
+          "missing": []
+        },
+        "public_all_data": {
+          "baseline_files": 1343,
+          "byte_identical": 1343,
+          "modified": [],
+          "missing": []
+        },
+        "public_other_downloadable_payload": {
+          "baseline_files": 88,
+          "byte_identical": 88,
+          "modified": [],
+          "missing": []
+        },
+        "public_all_project_materials": {
+          "baseline_files": 1475,
+          "byte_identical": 1475,
+          "modified": [],
+          "missing": []
+        },
+        "public_static_research": {
+          "baseline_files": 261,
+          "byte_identical": 261,
+          "modified": [],
+          "missing": []
+        }
+      }
+    },
+    {
+      "base_commit": "2789bfb5340c3a9a937a40527b444efd18f65a81",
+      "files": 6844,
+      "byte_identical": 6844,
+      "status": "PASS",
+      "scopes": {
+        "docs_all_data": {
+          "baseline_files": 1344,
+          "byte_identical": 1344,
+          "modified": [],
+          "missing": []
+        },
+        "docs_other_downloadable_payload": {
+          "baseline_files": 88,
+          "byte_identical": 88,
+          "modified": [],
+          "missing": []
+        },
+        "docs_all_project_materials": {
+          "baseline_files": 1475,
+          "byte_identical": 1475,
+          "modified": [],
+          "missing": []
+        },
+        "docs_static_research": {
+          "baseline_files": 261,
+          "byte_identical": 261,
+          "modified": [],
+          "missing": []
+        },
+        "all_inputs": {
+          "baseline_files": 508,
+          "byte_identical": 508,
+          "modified": [],
+          "missing": []
+        },
+        "public_all_data": {
+          "baseline_files": 1344,
+          "byte_identical": 1344,
+          "modified": [],
+          "missing": []
+        },
+        "public_other_downloadable_payload": {
+          "baseline_files": 88,
+          "byte_identical": 88,
+          "modified": [],
+          "missing": []
+        },
+        "public_all_project_materials": {
+          "baseline_files": 1475,
+          "byte_identical": 1475,
+          "modified": [],
+          "missing": []
+        },
+        "public_static_research": {
+          "baseline_files": 261,
+          "byte_identical": 261,
+          "modified": [],
+          "missing": []
+        }
+      }
+    }
+  ],
+  "download_indexes": {
+    "public": {
+      "files": 1968,
+      "checked": 1968,
+      "issues": [],
+      "index_sha256": "9d2f3e1785f0ee469aaf6407e9410f2b3f21ceee6adbd6c9d0b7a4acd513400e",
+      "status": "PASS"
+    },
+    "docs": {
+      "files": 1968,
+      "checked": 1968,
+      "issues": [],
+      "index_sha256": "30c40c4869fd8bb27c1cc1473caf4321ef70f129bd03cbfe39efcce2bdb47496",
+      "status": "PASS"
+    }
+  },
+  "method": "Git blob hash for each retained research payload; independent SHA-256 and size for each entry of each download tree. No analytical output was copied from isolated full builds.",
+  "elapsed_seconds": 5.48,
+  "status": "PASS"
+}

@@ -3,7 +3,7 @@
  * No operation in this module infers monthly flows or a causal effect.
  * All shares use the sum of eligible regional rows, never the national total.
  */
-export const TOURISM_RESEARCH_VERSION = '3.0.0-stage.1';
+export const TOURISM_RESEARCH_VERSION = '3.0.0-stage.2';
 export const TOURISM_RECONCILIATION_TOLERANCE = 1e-6;
 export const TOURISM_COMPARISON_STATUS = 'requires_edition_review';
 

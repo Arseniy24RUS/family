@@ -105,7 +105,7 @@ test('missing, excluded, duplicate, and geographically ineligible rows are not z
 test('export includes the displayed full slice, selected and national histories, input edition, and exact source records', () => {
   const exported = buildTourismExport(rows, {period: '2025-12-31', regions: ['77', '24'], view: 'territories', sourceHash: 'verified-byte-hash'});
   assert.equal(exported.valid, true);
-  assert.equal(exported.settings.version, '3.0.0-stage.1');
+  assert.equal(exported.settings.version, '3.0.0-stage.2');
   assert.equal(exported.settings.appliedPeriod, '2025-12-31');
   assert.equal(exported.slice.regions.length, 85);
   assert.deepEqual([...new Set(exported.trajectories.map(line => line.regionId))], ['RU', '77', '24']);
