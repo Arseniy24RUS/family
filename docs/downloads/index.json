@@ -2385,15 +2385,15 @@
       "path": "documentation/CHANGELOG.md",
       "title": "CHANGELOG.md",
       "category": "platform_code",
-      "bytes": 50169,
-      "sha256": "8e13791bf07b53b53f27fc6d4302a0bd6c8820eb7dcd33d42dd6f283badb48ed"
+      "bytes": 51529,
+      "sha256": "39efa4754d9414b106b5769546b02299a5d711e62df60bb7797507784cbe1791"
     },
     {
       "path": "documentation/CODEX_HANDOFF_RU.md",
       "title": "CODEX_HANDOFF_RU.md",
       "category": "platform_code",
-      "bytes": 15378,
-      "sha256": "5670dd8617e63451b3b8cf158794225bb7d10692b34540cbe9ad52d06edfbc0a"
+      "bytes": 17697,
+      "sha256": "d9ae4e3c3dafe5a0270ef68d3148375c1cace6b6dea90f757da5da1d069a5786"
     },
     {
       "path": "documentation/COHORT_INPUTS.md",
@@ -2945,8 +2945,8 @@
       "path": "documentation/README.md",
       "title": "README.md",
       "category": "platform_code",
-      "bytes": 46635,
-      "sha256": "a4329bdc326d6375602e6127b58468eaff5aa6cd70ced23dcee251e2aaa266ba"
+      "bytes": 48743,
+      "sha256": "99e736baad5157d4082aed511eeda20402db2d692805d8c0dc89c2bc763a87cb"
     },
     {
       "path": "documentation/RESEARCH_PLATFORM_MAP_RU.md",
@@ -3162,8 +3162,8 @@
       "path": "documentation/V3_STAGE1_RU.md",
       "title": "V3_STAGE1_RU.md",
       "category": "platform_code",
-      "bytes": 20944,
-      "sha256": "119d88dcb7f91405d341f137145ac4de33d0793157cf4f09baffac2cc57658ba"
+      "bytes": 24299,
+      "sha256": "4aa3f60dcd1abeafe9923c33c74f7b6bf2d195b0d7a9d486cecc9c82722cc8c0"
     },
     {
       "path": "documentation/VALIDATION_1_1.md",

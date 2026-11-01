@@ -1,0 +1,536 @@
+{
+  "schema": "national-projects.v3-stage-verification/1",
+  "release_version": "3.0.0-stage.1",
+  "release_date": "2026-10-31",
+  "recovery_record_date": "2026-11-01",
+  "base_release": {
+    "version": "2.12.0-platform.1",
+    "commit": "45b6e7e055c2d9a4dc604d674273c0b20187ca36",
+    "repository": "Arseniy24RUS/family"
+  },
+  "verification_status": "VERIFIED_WITH_LIMITATIONS",
+  "recovery": {
+    "reason": "Рабочая среда сброшена 1 ноября 2026 года. Основание клонировано заново, изменения восстановлены по истории работы.",
+    "prior_evidence": "Результаты ниже действительно наблюдались в прежней среде и сохранены в истории инструментальных вызовов. Прежние журналы и выгрузки не считаются автоматически присутствующими в восстановленной файловой системе.",
+    "restored_release_verification": "VERIFIED_WITH_LIMITATIONS",
+    "requirement": "Текущие автоматические проверки, сохранность и перечисленные сценарии интерфейса подтверждены повторно. Ручная приёмка скачивания остаётся незавершённой; прежние выгрузки сохранены только в истории."
+  },
+  "scope": {
+    "projects_preserved": [
+      "family",
+      "youth_children",
+      "personnel",
+      "long_active_life",
+      "health_technologies",
+      "life_infrastructure",
+      "environment",
+      "competitive_economy",
+      "data_economy",
+      "tourism",
+      "efficient_transport",
+      "international_export"
+    ],
+    "project_count": 12,
+    "redesigned_routes": [
+      "#/projects/tourism/overview",
+      "#/projects/tourism/map",
+      "#/projects/tourism/regions",
+      "#/projects/tourism/causal"
+    ],
+    "other_project_interfaces": "Сохраняются; новый интерфейс версии 3 на остальные одиннадцать проектов в этом этапе не распространён.",
+    "next_stage": "3.0.0-stage.2: общие компоненты для «Семьи», «Продолжительной и активной жизни» и «Кадров», включая S01 — перенос территории и запрошенного периода между проектами.",
+    "not_completed": [
+      "Общий межпроектный выбор S01",
+      "Новая портфельная главная платформы",
+      "Переработка остальных одиннадцати проектных интерфейсов"
+    ]
+  },
+  "automated_checks": {
+    "node_tests": {
+      "status": "PASS",
+      "command": "npm test",
+      "checked_environment": "restored",
+      "test_files": 31,
+      "passed": 31,
+      "failed": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "duration_ms": 1392.207561,
+      "evidence": "qa-v3/npm-test-restored.log рабочей сессии; результат также включён в release-preservation-restored.json."
+    },
+    "python_tests": {
+      "status": "PASS",
+      "command": "python3 -m unittest discover -s tests -p 'test_*.py' -v",
+      "checked_environment": "restored",
+      "tests": 569,
+      "duration_seconds": 90.398,
+      "evidence": "Непосредственно прочитан qa-v3/python-all-restored.log: Ran 569 tests in 90.398s, OK."
+    },
+    "assembled_release_validation": {
+      "status": "PASS",
+      "command": "npm run validate",
+      "checked_environment": "restored",
+      "download_hashes_checked": 1959,
+      "current_pdf_docx_pairs_checked": 12,
+      "baseline_sources_checked": 16,
+      "published_updates_checked": 16,
+      "projects_with_successful_validation": [
+        "family",
+        "youth_children",
+        "personnel",
+        "long_active_life",
+        "health_technologies",
+        "life_infrastructure",
+        "environment",
+        "competitive_economy",
+        "data_economy",
+        "tourism",
+        "efficient_transport",
+        "international_export"
+      ],
+      "exit_code": 0,
+      "evidence": "qa-v3/npm-validate-restored.log и release-preservation-restored.json рабочей сессии."
+    },
+    "offline_build": {
+      "status": "NOT_REPEATED_AFTER_RESTORATION",
+      "command": "npm run build",
+      "prior_process_result": "PASS",
+      "prior_exit_code": 0,
+      "byte_identical_full_rebuild_established": false,
+      "limitation": "Проверялся собранный восстановленный комплект. Полная offline-пересборка после восстановления не выполнялась; долг воспроизводимости остаётся OPEN."
+    },
+    "recovered_preview_launcher": {
+      "status": "PASS",
+      "checked_on": "2026-11-01",
+      "commands": [
+        "node --check scripts/preview-dev.mjs",
+        "node scripts/preview-dev.mjs --help"
+      ],
+      "scope": "Синтаксис, передача параметров и фактический запуск управляемого HTTP-предпросмотра проверены. После браузерной проверки сервер остановлен."
+    },
+    "ci_browser_contract_update": {
+      "status": "STATIC_CHECK_PASS_RUNTIME_NOT_RUN",
+      "files": [
+        "tests/browser_platform_system.py"
+      ],
+      "changes": [
+        "Три модуля нового туристического интерфейса вместо прежнего единственного; другие проектные модули не допускаются.",
+        "Отсутствие дополнительного логотипа внутри нового туристического обзора; декодирование логотипов остальных проектов сохранено."
+      ],
+      "verification": "AST-разбор изменённого файла и browser_tourism.py; git diff --check. Штатный браузерный CI-набор локально не запускался."
+    }
+  },
+  "release_assembly": {
+    "status": "PASS",
+    "checked_environment": "restored",
+    "base_commit": "45b6e7e055c2d9a4dc604d674273c0b20187ca36",
+    "checked_code_commit": "0f3f065ac62b6d91685bbc908c937f10da0de079",
+    "baseline_blob_files": 8267,
+    "byte_identical_baseline_files": 8225,
+    "expected_modified_baseline_files": 42,
+    "missing_baseline_files": 0,
+    "unexpected_modified_baseline_files": 0,
+    "preserved_data_and_material_files": 6842,
+    "preserved_input_files": 508,
+    "preserved_other_11_project_files": 5478,
+    "scopes": {
+      "all_inputs": {
+        "baseline_files": 508,
+        "byte_identical": 508,
+        "modified": [],
+        "missing": [],
+        "status": "PASS"
+      },
+      "public_all_data": {
+        "baseline_files": 1343,
+        "byte_identical": 1343,
+        "modified": [],
+        "missing": [],
+        "status": "PASS"
+      },
+      "docs_all_data": {
+        "baseline_files": 1343,
+        "byte_identical": 1343,
+        "modified": [],
+        "missing": [],
+        "status": "PASS"
+      },
+      "public_all_project_materials": {
+        "baseline_files": 1475,
+        "byte_identical": 1475,
+        "modified": [],
+        "missing": [],
+        "status": "PASS"
+      },
+      "docs_all_project_materials": {
+        "baseline_files": 1475,
+        "byte_identical": 1475,
+        "modified": [],
+        "missing": [],
+        "status": "PASS"
+      },
+      "public_other_downloadable_payload": {
+        "baseline_files": 88,
+        "byte_identical": 88,
+        "modified": [],
+        "missing": [],
+        "status": "PASS"
+      },
+      "docs_other_downloadable_payload": {
+        "baseline_files": 88,
+        "byte_identical": 88,
+        "modified": [],
+        "missing": [],
+        "status": "PASS"
+      },
+      "public_static_research": {
+        "baseline_files": 261,
+        "byte_identical": 261,
+        "modified": [],
+        "missing": [],
+        "status": "PASS"
+      },
+      "docs_static_research": {
+        "baseline_files": 261,
+        "byte_identical": 261,
+        "modified": [],
+        "missing": [],
+        "status": "PASS"
+      }
+    },
+    "download_indexes": {
+      "public": {
+        "status": "PASS",
+        "index": "public/downloads/index.json",
+        "entries": 1959,
+        "unique_paths": 1959,
+        "physical_publishable_files": 1959,
+        "verified_bytes": 791214492,
+        "errors": [],
+        "unindexed_files": [],
+        "index_paths_without_publishable_file": [],
+        "index_sha256": "ea093964998cbba8d4a72edc78f368b68a560f687bf685e4383e7dcd245175d6"
+      },
+      "docs": {
+        "status": "PASS",
+        "index": "docs/downloads/index.json",
+        "entries": 1959,
+        "unique_paths": 1959,
+        "physical_publishable_files": 1959,
+        "verified_bytes": 791214492,
+        "errors": [],
+        "unindexed_files": [],
+        "index_paths_without_publishable_file": [],
+        "index_sha256": "383260fb175e24b03885464a07de423f96edb50f403d07a7059ba472aee4a03f"
+      }
+    },
+    "corrected_findings": [
+      {
+        "path": "public/downloads/index.json",
+        "entry": "demography/upstream/manifest.json",
+        "initial_result": "FAIL",
+        "problem": "Индекс public содержал SHA-256 соответствующей копии docs, хотя базовые public и docs содержат разные байты этого файла.",
+        "initial_expected_sha256": "7be0997afcca9e41768691201c4e64fdc490c8658ac72ef948e46cc4b1e90aee",
+        "actual_public_sha256": "2823595625b73990f6aa74cb0d51adac5499bc75e3e182416fe585618174596f",
+        "action": "Ответственный за выпуск исправил только запись public по фактическому public-файлу; docs не менялся.",
+        "fresh_recheck": "PASS",
+        "meaning": "Отдельная сверка каждого дерева обязательна; совпадение двух индексов не является критерием корректности."
+      }
+    ],
+    "evidence": "Повторная побайтовая сверка всех базовых Git blobs и независимая проверка двух индексов записаны в qa-v3/release-preservation-restored.json рабочей сессии. Сравнение выполнено с явным baseline, а не с текущим HEAD.",
+    "qualification": "Индексы повторно сверены после окончательной синхронизации документации: каждый размер и SHA-256 совпал с фактическим файлом собственного дерева. Базовые данные и материалы после проверки не изменялись. После предметной сверки адаптированы два устаревших ожидания браузерного CI в одном тестовом файле; исходные данные при этом не затронуты.",
+    "prior_assembly": "До сброса среды базовые выходы восстановлены отдельно для public/ и docs/, затем синхронизированы 43 относящиеся к v3 копии. Их число относится к прежней процедуре и не выдаётся за новую проверку."
+  },
+  "browser_checks": {
+    "status": "VERIFIED_WITH_LIMITATIONS",
+    "checked_environment": "restored",
+    "evidence": "Сценарии и визуальный осмотр выполнены ответственным за непосредственную браузерную проверку 1 ноября 2026 года.",
+    "tourism_routes": {
+      "status": "PASS",
+      "routes": [
+        "overview",
+        "map",
+        "regions",
+        "causal"
+      ],
+      "visually_reviewed_routes": [
+        "overview",
+        "causal"
+      ],
+      "scope": "Открытие четырёх страниц и перечисленные действия; все сочетания настроек не сертифицированы."
+    },
+    "period_and_focus": {
+      "status": "PASS",
+      "selected_period": "2026-09-30",
+      "exact_period_preserved": true,
+      "focus_preserved": true
+    },
+    "linked_selection": {
+      "status": "PASS",
+      "region_ids": [
+        "77",
+        "23",
+        "24"
+      ],
+      "views": [
+        "map",
+        "table",
+        "profile"
+      ],
+      "table_rows_per_page": 15
+    },
+    "invalid_states": {
+      "status": "PASS",
+      "unavailable_period": {
+        "requested": "2027-01-31",
+        "warning": true,
+        "charts": 0
+      },
+      "unavailable_region": {
+        "requested": "99",
+        "warning": true,
+        "profiles": 0,
+        "selection_empty": true,
+        "fallback_region_substitution": false
+      },
+      "stale_edition": {
+        "requested": "old",
+        "warning": true
+      }
+    },
+    "other_project_readiness": {
+      "status": "PASS",
+      "routes": [
+        "#/overview",
+        "#/projects/long_active_life/overview",
+        "#/projects/personnel/overview"
+      ],
+      "current_pdf_edition": "2026-10-30",
+      "observed_application_errors": [],
+      "scope": "Обзоры и актуальные PDF проверены; все маршруты других проектов повторно не проверялись."
+    },
+    "console_observation": {
+      "observed_application_errors": [],
+      "other_events": "Наблюдались сообщения metadata с адресами chrome-extension://; они записаны отдельно от сообщений приложения.",
+      "scope": "Проверенные маршруты и текущая браузерная сессия."
+    },
+    "mobile_layout": {
+      "status": "PASS",
+      "container_width_px": 390,
+      "inner_viewport_width_px": 375,
+      "vertical_scrollbar_width_px": 15,
+      "document_scroll_width_px": 375,
+      "body_scroll_width_px": 375,
+      "page_horizontal_overflow_observed": false,
+      "routes": [
+        "overview",
+        "causal"
+      ]
+    },
+    "fresh_screenshot_artifact": {
+      "status": "NOT_SAVED_TO_SHARED_FILESYSTEM",
+      "historical_screenshot_is_fresh_evidence": false,
+      "qualification": "Свежий визуальный осмотр выполнен, но новый файл снимка в общей рабочей папке не сохранён. Существующий контрольный снимок относится к 31 октября."
+    },
+    "saved_json_download": {
+      "status": "NOT_CONFIRMED",
+      "download_event_returned_path": true,
+      "file_found_in_browser_filesystem": false,
+      "file_found_in_shared_filesystem": false,
+      "fresh_download_replay_completed": false,
+      "cause": "NOT_ESTABLISHED",
+      "follow_up": "Повторить ручное скачивание, получить фактический файл и запустить reproduce_tourism_research.py."
+    },
+    "png_download": {
+      "status": "NOT_CONFIRMED",
+      "download_api_result": "FAILED",
+      "browser_control_session_reset_after_attempt": true,
+      "cause": "NOT_ESTABLISHED",
+      "follow_up": "Повторить ручное скачивание и визуальную проверку фактического PNG."
+    },
+    "svg_download": {
+      "status": "NOT_REPEATED_AFTER_RESTORATION",
+      "success_confirmed": false,
+      "follow_up": "Повторить ручное скачивание и проверить фактический SVG."
+    },
+    "download_acceptance": {
+      "status": "MANUAL_REACCEPTANCE_REQUIRED",
+      "formats": [
+        "JSON",
+        "PNG",
+        "SVG"
+      ],
+      "qualification": "Исторические JSON replay PASS и PNG PASS не подтверждают скачивание после восстановления. Причина наблюдаемых затруднений не установлена."
+    }
+  },
+  "pages_publication": {
+    "status": "PASS",
+    "checked_environment": "restored",
+    "passed_checks": 6,
+    "total_checks": 6,
+    "report_file": "PAGES_BUILD_VERIFICATION.json",
+    "observed_report": {
+      "schema": "national-projects.pages-build/1",
+      "copy_mode": "independent_copies",
+      "input_files": 3667,
+      "output_files": 4484,
+      "input_bytes": 1407883964,
+      "output_bytes": 885631681,
+      "limit_bytes": 1000000000,
+      "headroom_bytes": 114368319,
+      "transport_count": 816,
+      "gzip_roundtrips_verified": 816,
+      "checks": {
+        "every_source_unchanged": true,
+        "every_unmodified_output_byte_identical": true,
+        "every_transport_hash_and_roundtrip": true,
+        "every_forwarding_envelope": true,
+        "exact_output_inventory": true,
+        "publication_within_size_limit": true
+      }
+    },
+    "qualification": "Окончательная публикационная сборка после синхронизации документации прошла все шесть проверок. Размеры и хэши соответствуют PAGES_BUILD_VERIFICATION.json; исходники сохранены, транспорт проверен обратной распаковкой.",
+    "command": "python3 scripts/build_pages.py --source docs --output /tmp/nationalprojects-pages-v3-final --report PAGES_BUILD_VERIFICATION.json"
+  },
+  "packaging": {
+    "mode": "full",
+    "physical_docs_planned": true,
+    "deduplicate_docs": false,
+    "package_copies_manifest": "PACKAGE_COPIES.json восстановлен с прежней schema, release_version 3.0.0-stage.1 и пустым copies. В полном ZIP этот вспомогательный файл не требуется.",
+    "verification_receipts": [
+      "RELEASE_MANIFEST.json",
+      "DOWNLOAD_MANIFEST.json",
+      "SHA256SUMS.txt"
+    ],
+    "qualification": "Окончательная проверка CRC и SHA-256 выполняется после создания ZIP. Её результат комплектуется отдельно в DOWNLOAD_MANIFEST.json и SHA256SUMS.txt рядом с архивом. Настоящий отчёт не объявляет упаковку завершённой и не содержит хэша ZIP, собственного хэша или хэша дерева, включающего этот отчёт.",
+    "restored_archive_verification": "SEE_DOWNLOAD_MANIFEST",
+    "status": "SEE_DOWNLOAD_MANIFEST"
+  },
+  "reproducibility_debt": {
+    "status": "OPEN",
+    "items": [
+      {
+        "id": "line_endings",
+        "issue": "Различия переводов строк CRLF/LF при генерации и копировании.",
+        "impact": "Байтовые изменения возможны без изменения содержательного текста или чисел.",
+        "follow_up": "Явно задать канонические переводы строк для генерируемых артефактов и проверить перенос между средами."
+      },
+      {
+        "id": "gzip_platform_metadata",
+        "issue": "Межплатформенные различия служебных полей gzip, включая признак ОС.",
+        "impact": "Хэш сжатого файла может отличаться при одинаковых распакованных байтах.",
+        "follow_up": "Унифицировать параметры и заголовок gzip; раздельно проверять транспортный файл и восстановленные данные."
+      },
+      {
+        "id": "pca_numerical_rounding",
+        "issue": "Различия округления результатов PCA между вычислительными средами.",
+        "impact": "Полная пересборка может давать небольшие численные различия в результатах других исследований.",
+        "follow_up": "Зафиксировать вычислительную среду и политику точности; проверять численные допуски и устойчивость содержательных выводов."
+      },
+      {
+        "id": "unstable_equal_value_order",
+        "issue": "Недетерминированный порядок объектов с равными значениями.",
+        "impact": "При пересборке может меняться порядок равных записей и зависящие от него представления.",
+        "follow_up": "Определить устойчивый дополнительный ключ сортировки и правила обработки равенств в соответствующих расчётах."
+      },
+      {
+        "id": "infrastructure_editorial_methods",
+        "issue": "Сборщик «Инфраструктуры для жизни» переустанавливает редакторские поля methods.json по прежнему встроенному набору currentMethods.",
+        "paths": [
+          "scripts/build_infrastructure.mjs",
+          "public/data/projects/life_infrastructure/methods.json",
+          "docs/data/projects/life_infrastructure/methods.json"
+        ],
+        "impact": "Сохранённые редакторские формулировки могут заменяться при общей сборке.",
+        "follow_up": "Согласовать единый версионируемый источник редакторских статусов и ограничений методов, затем проверить его точное воспроизведение."
+      }
+    ],
+    "release_handling": "Сохранность восстановленного комплекта подтверждена побайтово. Полная offline-пересборка не повторялась. Устранение долга требует отдельного изменения сборки и предметной проверки."
+  },
+  "scientific_and_quality_limits": {
+    "statistical_edition_comparability": "NOT_CONFIRMED",
+    "reconciliation": {
+      "periods": 21,
+      "matched_periods": 13,
+      "mismatched_periods": 8,
+      "unexplained_residuals_preserved": true
+    },
+    "other_indicator_exclusions": 14,
+    "causal_effect": "NOT_ESTIMATED; опубликован протокол, численный эффект не установлен.",
+    "external_scientific_acceptance": "NOT_PERFORMED",
+    "full_wcag_2_2_aa_audit": "NOT_PERFORMED",
+    "field_core_web_vitals": "NOT_MEASURED",
+    "interpretation": "Технические и арифметические проверки не удостоверяют причинную идентификацию, сопоставимость всех редакций статистики или соответствие всей платформы стандарту доступности."
+  },
+  "verification_completed_date": "2026-11-01",
+  "prior_verification_history": {
+    "scope": "Фактические результаты прежней рабочей среды до сброса; текущими результатами не считаются.",
+    "node_tests": {
+      "status": "PASS",
+      "test_files": 31,
+      "duration_ms": 4287.826069
+    },
+    "python_tests": {
+      "status": "PASS",
+      "tests": 569,
+      "duration_seconds": 149.327
+    },
+    "offline_build": {
+      "process_status": "PASS",
+      "exit_code": 0,
+      "byte_identical_full_rebuild_established": false
+    },
+    "saved_browser_json_replay": {
+      "status": "PASS",
+      "period": "2026-09-30",
+      "observations": 1806,
+      "regions": 85,
+      "periods_checked": 21,
+      "trajectory_points_checked": 84,
+      "regional_sum": 74.4464,
+      "national_value": 74.4464,
+      "residual": 0.0,
+      "top5_share_pct": 42.169265404371465,
+      "top10_share_pct": 52.32099873197361,
+      "mismatches": 8,
+      "tolerance": 1e-08,
+      "errors": []
+    },
+    "png_export": {
+      "status": "PASS",
+      "width_px": 1560,
+      "height_px": 968,
+      "downloaded": true,
+      "visually_checked": true
+    },
+    "svg_export": {
+      "status": "NOT_VERIFIED",
+      "serialization_observed": true,
+      "download_event_observed": false
+    },
+    "pages_report": {
+      "schema": "national-projects.pages-build/1",
+      "copy_mode": "independent_copies",
+      "input_files": 3667,
+      "output_files": 4484,
+      "input_bytes": 1407871822,
+      "output_bytes": 885620179,
+      "limit_bytes": 1000000000,
+      "headroom_bytes": 114379821,
+      "checks": {
+        "every_source_unchanged": true,
+        "every_unmodified_output_byte_identical": true,
+        "every_transport_hash_and_roundtrip": true,
+        "every_forwarding_envelope": true,
+        "exact_output_inventory": true,
+        "publication_within_size_limit": true
+      }
+    }
+  },
+  "remaining_limitations": [
+    "Ручная повторная приёмка скачивания JSON, PNG и SVG не завершена; причина наблюдаемых затруднений не установлена.",
+    "Полная offline-сборка после восстановления не повторялась; reproducibility_debt остаётся OPEN.",
+    "Свежий файл скриншота не сохранён в общей рабочей папке.",
+    "Границы научной интерпретации, проверки доступности и Core Web Vitals перечислены отдельно."
+  ]
+}
