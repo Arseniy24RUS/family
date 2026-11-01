@@ -11,6 +11,7 @@ import json
 from decimal import Decimal
 from pathlib import Path
 from download_manifest import download_records
+from infrastructure_method_review import apply_method_review
 from infrastructure_data import ROOT,PROJECT,DATA,DOWNLOADS,load,atomic,sha256,csv_write,quantile
 
 def latest(rows,usable=True):
@@ -213,19 +214,9 @@ def build(root=ROOT):
     methods_path=root/DATA/'methods.json'
     if methods_path.exists():
         methods=load(methods_path)
-        overrides={'source_quality':('source_specific_contracts_verified','Исходные93631ячейки сохранены. Риски единиц, периодов, будущих дат и синхронных нулей явно маркированы.'),'observability':('computed_from_source_packets','Карточки каталога и независимые источники различаются. Числа, пропуски и исключения считаются отдельно.'),'time_dynamics':('computed_matching_frequency_category','Сравниваются одинаковые категории, частоты и календарные горизонты. Для индекса среды62872 временное сравнение заблокировано.'),'target_comparison':('documented_annual_comparisons','Годовые факты и явно обозначенное полное ипотечное накопление сравниваются с датированной редакцией цели. Промежуточный месяц не заменяет год.'),'forecasting':('model_not_validated','Условные траектории до цели доступны как сценарии. Вероятностная прогнозная модель не подтверждена.'),'geographical_join':('explicit_scope_mapping','Исходные названия сохранены. Явные строки без автономных округов отделены от агрегатов. Неуточнённые областные строки отмечены.'),'regional_maps':('matched_source_slices','Каждая карта относится к одному источнику, периоду, частоте и категории.'),'regional_descriptive':('unweighted_regions','Квантили type7 и невзвешенное среднее относятся к сопоставимым территориям. РФ взята из источника.'),'correlations':('author_82_strict_80_recomputed','Шесть характеристик: авторская выборка82 и строгая80, без импутации. Корреляция не устанавливает эффект.'),'pca':('not_claimed_in_author_analysis','В новой экспертизе используются ранговые корреляции шести признаков. PCA не добавляется как неподтверждённый результат.'),'kmeans':('not_claimed_in_author_analysis','Кластерная типология и интегральный рейтинг не установлены.'),'multivariate_stability':('explicit_geographic_sensitivity','Сопоставлены82и80территорий. Смысл и частоты каждого признака сохранены.'),'regional_similarity':('descriptive_profiles','Профили конкретных жилищных и транспортных условий не заменяются единым рейтингом.'),'relative_profiles':('descriptive_source_values','Региональные профили сохраняют исходные единицы и годы.'),'interactive_lab':('source_backed_reproducible_calculations','Изменения, распределения, корреляции и условные траектории вычисляются по проверенным источникам.')}
-        overrides.update({
-            'isolation_forest':('not_claimed_in_author_analysis','Модель поиска аномалий в текущей авторской экспертизе не заявлена. Экстремальное региональное значение само по себе не доказывает ошибку данных.'),
-            'moran_global':('not_claimed_in_author_analysis','Пространственная автокорреляция для нового набора не рассчитывалась. Необходимы самостоятельный выбор матрицы пространственных весов, проверка охвата и перестановочный тест.'),
-            'moran_local':('not_claimed_in_author_analysis','Локальные пространственные тесты и их множественные проверки не выполнены. Карта описывает значения, без заявления статистически подтверждённых пространственных групп.'),
-            'cohort_projection':('not_implemented_without_population_inputs','Когортная проекция требует отдельных данных о населении и переходах. Объёмы строительства, число объектов и административные доли не используются как демографическая модель.'),
-            'causal_designs':('design_proposed_effect_not_identified','Предложены способы последующей оценки дополнительного эффекта. Для идентификации нужны конкретные объекты и территории, сроки вмешательства, доистория и обоснованная контрольная траектория.'),
-            'heterogeneous_causal_effects':('effect_not_identified','Различия региональных значений показаны описательно. Неоднородность причинного эффекта не оценена без идентифицированного общего дизайна и состава получателей.'),
-            'policy_scenario_framework':('conditional_arithmetic_no_causal_effect','Траектории и расчёты пользовательских параметров условны. Они не дают вероятностный прогноз, установленную эффективность финансирования или оценку вклада проекта.'),
-        })
-        for m in methods['items']:
-            if m['method_id'] in overrides:m['current_status'],m['current_limitations']=overrides[m['method_id']]
-        methods['current_review_basis']='verified_infrastructure_source_contracts_and_author_report';atomic(methods_path,methods)
+        review=load(root/'scripts/infrastructure_method_review.json')
+        apply_method_review(methods,review)
+        atomic(methods_path,methods)
     d=root/DOWNLOADS
     csv_write(d/'source_registry.csv',[{k:s.get(k) for k in ['id','title','short_title','unit','display_unit','source_url','available','published_at','last_checked_at','observation_count','numeric_count','missing_count','usable_count','period_semantics','note']} for s in sources])
     csv_write(d/'target_comparisons.csv',comparisons,['source_id','indicator_code','title','target_year','target_value','fact_value','fact_period','fact_frequency','difference','difference_unit','ratio_percent','annual_basis','reference_observation_ids','target_source','interpretation'])

@@ -30,7 +30,7 @@ FORMULAS = {
 
 def dump(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + '\n', encoding='utf-8')
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + '\n', encoding='utf-8', newline='\n')
 
 
 def esc(value):
@@ -118,7 +118,7 @@ def render_complete_html(report, config, result, destination):
     nav = ''.join(f'<a href="#b{b["index"]}">{esc(b["text"])}</a>' for b in report['blocks'] if b.get('style') == 'Heading1' and b['index'] >= config['first_substantive_block'])
     css = """@font-face{font-family:Roboto;src:url('../../../../assets/fonts/Roboto-Regular.woff') format('woff');font-weight:400;font-display:swap}@font-face{font-family:Roboto;src:url('../../../../assets/fonts/Roboto-Bold.woff') format('woff');font-weight:700;font-display:swap}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#faf7f0;color:#2b291f;font:17px/1.7 Roboto,Arial,sans-serif}main{max-width:1080px;margin:32px auto;padding:48px 60px;background:#fff;border-top:5px solid #DCAA44}h1{font-size:38px;line-height:1.2;margin:0 0 22px}h2{font-size:28px;line-height:1.3;margin-top:48px}h3{font-size:22px;line-height:1.4;margin-top:32px}p{text-align:justify}a{color:#76520f;text-underline-offset:3px;overflow-wrap:anywhere}nav{display:flex;gap:12px 24px;flex-wrap:wrap;margin:24px 0;padding:18px 0;border-block:1px solid #e5dbc6}nav a{font-size:14px}figure{margin:34px 0 16px}img{display:block;width:auto;height:auto;max-width:100%;margin:auto}.caption{font-weight:700;text-align:left;margin:22px 0 12px}.source-note{font-size:14px;color:#615b4b}.table-scroll{overflow:auto;max-width:100%;border:1px solid #e1dbce}.table-scroll:focus{outline:2px solid #76520f}table{border-collapse:collapse;width:100%;min-width:660px;font-size:14px;line-height:1.55}th,td{padding:10px 12px;border:1px solid #e1dbce;text-align:left;vertical-align:top}th{background:#fff;font-weight:700}.formula{display:flex;align-items:center;justify-content:center;margin:24px 0;padding:18px 0;overflow:auto}.formula math{font-size:19px}math[display=inline]{font-size:1em}.source-front{font-size:14px;color:#6b6455;white-space:pre-line}.source-front#b8{font-size:24px;color:#2b291f;font-weight:700}.sources,.bibliography{font-size:14px}.sources p{padding:10px 0;border-bottom:1px solid #ece7dc;text-align:left}.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:10px;background:white;padding:8px}*[id]{scroll-margin-top:20px}@media(max-width:680px){main{margin:0;padding:26px 20px}h1{font-size:29px}h2{font-size:24px}p{text-align:left}.formula math{font-size:15px}.formula{justify-content:flex-start}.sources{font-size:13px}}@media print{body{background:white}main{margin:0;border:0;padding:0;max-width:none}nav,.skip,.report-links{display:none}h2,h3,.caption{break-after:avoid}figure,.formula{break-inside:avoid}.table-scroll{overflow:visible}table{min-width:0}a{color:inherit;text-decoration:none}.sources{font-size:10pt}img{max-height:650px;object-fit:contain}}"""
     output = f'<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(config["title"])}</title><meta name="description" content="Полный текст авторской экспертизы национального проекта Эффективная транспортная система по состоянию на 29 октября 2026 года"><style>{css}</style></head><body><a class="skip" href="#b58">К тексту исследования</a><main><h1>{esc(config["title"])}</h1><p class="report-links"><a href="../../../../#/projects/efficient_transport/overview">Интерактивная экспертиза</a> · <a href="{REPORT_NAME}.docx">Отчёт DOCX</a> · <a href="{REPORT_NAME}.md">Текст Markdown</a></p><nav aria-label="Разделы полного отчёта">{nav}<a href="#footnotes">Сноски и источники</a></nav><article>' + '\n'.join(rendered) + '</article><section class="sources" id="footnotes"><h2>Сноски и источники</h2>' + '\n'.join(notes) + '</section></main></body></html>\n'
-    (destination / (REPORT_NAME + '.html')).write_text(output, encoding='utf-8')
+    (destination / (REPORT_NAME + '.html')).write_text(output, encoding='utf-8', newline='\n')
     return output
 
 
@@ -220,7 +220,7 @@ def build(app, source):
             notes=' '.join(f'[{n}]'for n in raw['footnotes'])
             markdown.append(f'[B{i}; {raw["style"]}] '+raw['text']+(' '+notes if notes else''))
     markdown.append('# Сноски и источники\n\n'+'\n\n'.join(f'[{n["id"]}] {n["text"]}'for n in report['footnotes']))
-    (destination/(REPORT_NAME+'.md')).write_text('\n\n'.join(markdown)+'\n',encoding='utf-8')
+    (destination/(REPORT_NAME+'.md')).write_text('\n\n'.join(markdown)+'\n',encoding='utf-8', newline='\n')
     for table in tables:
         with(destination/(table['id']+'.csv')).open('w',encoding='utf-8-sig',newline='')as f:
             writer=csv.writer(f);writer.writerow([c['label']for c in table['columns']]);writer.writerows([[row[c['key']]for c in table['columns']]for row in table['rows']])

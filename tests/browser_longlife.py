@@ -13,7 +13,7 @@ import hashlib
 import io
 import json
 from pathlib import Path
-from urllib.parse import urlencode, urljoin
+from urllib.parse import parse_qs, urlencode, urljoin, urlsplit
 
 from playwright.async_api import async_playwright
 from browser_json import get_json as published_json
@@ -267,24 +267,41 @@ async def run(args):
 
                 # A controlled 503 must remain local to the chosen data source and retry.
                 retry_page=await context.new_page();retry_requests=[];fault_path=source_lookup['62926']['downloads']['observations'];fault_url=urljoin(args.base,fault_path)
+                fault_packet=await get_json(fault_path)
+                fault_row=sorted([row for row in fault_packet['observations'] if str(row.get('map_id'))=='77' and row.get('frequency')=='monthly' and analytical(row) is not None],key=lambda row:row['period_end'])[-1]
+                fault_context={'ctx_region':'77','ctx_start':fault_row['period_end'][:7]+'-01','ctx_end':fault_row['period_end'],'ctx_kind':source_lookup['62926']['period_semantics'],'ctx_frequency':'monthly'}
+                fault_state={'source':'62926','period':slice_key(fault_row),'r':'77',**fault_context}
                 async def serve_fault(route):
                     retry_requests.append(route.request.url)
                     if len(retry_requests)==1:await route.fulfill(status=503,content_type='application/json',body='{"error":"QA simulated outage"}')
                     else:await route.continue_()
                 await retry_page.route('**/'+fault_path+'*',serve_fault)
                 retry_page.on('pageerror',lambda error:errors.append('retry: '+str(error)))
-                await retry_page.goto(args.base+'#/projects/'+PROJECT+'/map?source=62926',wait_until='domcontentloaded')
+                await retry_page.goto(args.base+'#/projects/'+PROJECT+'/map?'+urlencode(fault_state),wait_until='domcontentloaded')
                 await retry_page.locator('.longlife-load-error').wait_for()
                 check('lazy_503_has_retry','HTTP 503' in await retry_page.locator('.longlife-load-error').inner_text())
+                check('lazy_503_waits_for_explicit_retry',len(retry_requests)==1 and await retry_page.locator('.error-view').count()==0)
+                failed_query=parse_qs(urlsplit(retry_page.url).fragment.partition('?')[2])
+                check('lazy_503_preserves_requested_context',all(failed_query.get(key)==[value] for key,value in fault_context.items()),failed_query)
                 await retry_page.get_by_role('button',name='Повторить загрузку',exact=True).click()
                 await retry_page.locator('.longlife-load-error').wait_for(state='detached')
+                await retry_page.locator('.research-context[data-context-status="available"]').wait_for()
                 check('lazy_retry_success',len(retry_requests)==2 and await retry_page.get_by_label('Показатель',exact=True).input_value()=='62926')
+                recovered_query=parse_qs(urlsplit(retry_page.url).fragment.partition('?')[2])
+                check('lazy_retry_restores_context_and_period',all(recovered_query.get(key)==[value] for key,value in fault_context.items()) and await retry_page.get_by_label('Доступный период исследования',exact=True).input_value()==slice_key(fault_row) and await retry_page.get_by_label('Территория исследования',exact=True).input_value()=='77',recovered_query)
+                recovered_value=number((await retry_page.locator('.atlas-aside .region-reading>strong').inner_text()).replace('\u00a0','').replace('\u202f','').replace(' ','').replace(',','.'))
+                check('lazy_retry_restores_published_regional_value',recovered_value==analytical(fault_row),{'actual':recovered_value,'expected':analytical(fault_row),'period':slice_key(fault_row)})
                 expected_faults.append({'url':fault_url,'status':503,'retry_requests':len(retry_requests)})
                 await retry_page.close()
 
                 await route('map',{'source':sid,'r':first['map_id']})
+                carried={key:values[-1] for key,values in parse_qs(urlsplit(page.url).fragment.partition('?')[2]).items() if key.startswith('ctx_')}
                 await page.locator('.project-tab[data-project="personnel"]').click();await ready('personnel','map')
-                check('switch_project_preserves_route_clears_filters',page.url.endswith('#/projects/personnel/map'))
+                fragment=urlsplit(page.url).fragment;query=parse_qs(fragment.partition('?')[2])
+                check('switch_project_preserves_context_clears_local_filters',
+                      fragment.partition('?')[0]=='/projects/personnel/map' and bool(carried) and
+                      all(query.get(key)==[value] for key,value in carried.items()) and
+                      not {'source','period','edition'}.intersection(query),{'context':carried,'url':page.url})
                 await page.go_back();await ready(PROJECT,'map')
                 check('back_restores_longlife_filters','source='+sid in page.url)
             except Exception as error:check('interactive_flow',False,str(error))

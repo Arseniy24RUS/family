@@ -544,15 +544,25 @@ function domainsPage(ctx){
  return end(ctx,root);
 }
 
+/** Preloaded and page-local source failures share one explicit retry action. */
+export function renderLonglifeLoadError(ctx,error){
+ if(!(error instanceof DataLoadError))throw error;
+ const root=start(ctx),retry=button('Повторить загрузку',async()=>{
+  retry.disabled=true;retry.textContent='Загрузка…';
+  try{
+   // The application must resolve the common request again before drawing data.
+   if(typeof ctx.retry==='function')await ctx.retry();
+   else{const replacement=await longlifePage(ctx);if(root.isConnected)root.replaceWith(replacement);}
+  }finally{retry.disabled=false;retry.textContent='Повторить загрузку';}
+ },'button primary','reset');
+ append(root,panel('Источник временно не загрузился',null,h('div',{class:'longlife-load-error',role:'alert'},para(error.message),para('Выбранные фильтры сохранены. Повторная попытка заново обращается к файлу источника.'),retry)),a('Открыть библиотеку источников',href('library')));
+ return end(ctx,root);
+}
+
 export async function longlifePage(ctx){
  const renderers={overview,framework,structure:architecture,logic,audit,targets,map:mapPage,regions:regionsPage,finance,population,causal,proposals,methods,explorer,network:networkPage,texts:textsPage,domains:domainsPage,projections:scenarios,lab,library,updates};
  try{return await(renderers[ctx.state.page]||overview)(ctx);}
- catch(error){
-  if(!(error instanceof DataLoadError))throw error;
-  const root=start(ctx),retry=button('Повторить загрузку',async()=>{retry.disabled=true;retry.textContent='Загрузка…';try{const replacement=await longlifePage(ctx);if(root.isConnected)root.replaceWith(replacement);}finally{retry.disabled=false;retry.textContent='Повторить загрузку';}},'button primary','reset');
-  append(root,panel('Источник временно не загрузился',null,h('div',{class:'longlife-load-error',role:'alert'},para(error.message),para('Выбранные фильтры сохранены. Повторная попытка заново обращается к файлу источника.'),retry)),a('Открыть библиотеку источников',href('library')));
-  return end(ctx,root);
- }
+ catch(error){return renderLonglifeLoadError(ctx,error);}
 }
 
 

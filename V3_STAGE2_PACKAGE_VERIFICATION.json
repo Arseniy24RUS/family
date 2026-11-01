@@ -1,0 +1,38 @@
+{
+  "schema": "national-projects.package-verification/2",
+  "version": "3.0.0-stage.2",
+  "release_date": "2026-11-01",
+  "verified_at_utc": "2026-11-01T18:57:41.024577+00:00",
+  "source_commit": "2f7a8b18f03f4bcd1b96afad3a4b0c3d152edbd5",
+  "tested_implementation_commit": "af40247ad2fb2f5e85c703d8778e15ee0ec577cc",
+  "post_test_changes": [
+    "PAGES_BUILD_VERIFICATION.json",
+    "README.md",
+    "V3_STAGE2_BROWSER_VERIFICATION.json",
+    "V3_STAGE2_PRESERVATION_VERIFICATION.json",
+    "V3_STAGE2_VERIFICATION.json",
+    "docs/downloads/documentation/README.md",
+    "docs/downloads/index.json",
+    "public/downloads/documentation/README.md",
+    "public/downloads/index.json"
+  ],
+  "post_test_change_scope": "Publication instructions, their download indexes and verification metadata. Executable code, tests and scientific data are identical to the tested implementation commit.",
+  "full": {
+    "name": "NationalProjects_Platform_3.0.0-stage.2_FULL.zip",
+    "bytes": 822188849,
+    "sha256": "5b805f2cf2087648f25f58e66d6490d23067d6188f159912d6e67711ab5ff463",
+    "files": 8344
+  },
+  "logical_files": 8344,
+  "uncompressed_bytes": 2933125092,
+  "packaging_mode": "full",
+  "deduplicated_copies": 0,
+  "physical_docs_files": 3683,
+  "crc_entries_verified": 8344,
+  "manifest_file_sha256_checks": 8343,
+  "release_manifest_sha256": "3b51abb06982bfc526745cd299ab0885fc995ea4d42d1dd7fd90c1f456ff780c",
+  "archive_manifest_matches_repository": true,
+  "status": "PASS",
+  "scope": "Integrity and inventory of the cumulative ZIP; UI, data and scientific limitations are recorded in V3_STAGE2_VERIFICATION.json.",
+  "metadata_note": "Created after the ZIP and retained outside it to avoid cyclic checksums."
+}

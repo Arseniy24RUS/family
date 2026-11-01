@@ -1,4 +1,5 @@
 import {getProject,foundationPages,expertiseBlueprint,projectHref,completeProjectPages} from './projects.js';
+import {contextParams} from '../core/research-context.js';
 export const familyPages=['overview','framework','logic','audit','targets','map','regions','finance','network','texts','domains','causal','proposals','lab','explorer','library','updates','projections','population','authors'];
 const plannedPages=new Set([...foundationPages,...expertiseBlueprint].map(p=>p.id));
 export function parseRoute(hash='') {
@@ -16,5 +17,5 @@ export function switchProject(state,projectId){
   const completedPages=id=>id==='family'?familyPages:completeProjectPages[id]?.map(x=>x.id);
   const equivalent=completedPages(state.nationalProject)?.includes(state.page)&&completedPages(p.id)?.includes(state.page);
   const page=equivalent?state.page:state.nationalProject!=='family'&&p.id!=='family'&&foundationPages.some(x=>x.id===state.page)?state.page:shared.includes(state.page)?state.page:'overview';
-  return projectHref(p.id,page);
+ return projectHref(p.id,page,contextParams(state));
 }
