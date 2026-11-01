@@ -6,7 +6,7 @@ import { currentReportButton, currentReportCard } from './components/current-rep
 import { projects, getProject, foundationPages, projectHref, completeProjectPages } from './platform/projects.js';
 import { parseRoute, switchProject } from './platform/routes.js';
 import { applyTheme } from './platform/theme.js';
-import { projectData, publications, reviewedPage, completeProjectData, currentReports } from './platform/data.js';
+import { projectData, publications, reviewedPage, completeProjectData, currentReports, tourismResearchData, isTourismResearchPage } from './platform/data.js';
 import { runtime, projectRuntimes } from './platform/runtime.js';
 import { installSeriesTransport } from './core/series-transport.js';
 let main, sidebar, top, masthead, footer, rail, publicationIndex={projects:{}}, sequence=0, currentKey='', sidebarProject='', preserveScroll=null;
@@ -72,6 +72,7 @@ function shell(){
 async function render(){
  if(!main)return;
  const token=++sequence,state=parse(),p=getProject(state.nationalProject),key=p.id+'/'+state.page,same=currentKey===key;
+ const focused=document.activeElement,focusSelector=same&&isTourismResearchPage(p.id,state.page)&&main.contains(focused)?(focused.getAttribute('aria-label')?'[aria-label="'+CSS.escape(focused.getAttribute('aria-label'))+'"]':focused.dataset.focusKey?'[data-focus-key="'+CSS.escape(focused.dataset.focusKey)+'"]':focused.classList.contains('v3-chip')?'[aria-label="Территория"]':null):null;
  if(p.id!=='family'&&!completeProjectPages[p.id]){publicationIndex=await publications();if(token!==sequence)return;}
  const reviewed=publicationIndex.projects[p.id]||[];
  if(p.id!=='family'&&!completeProjectPages[p.id]&&!foundationPages.some(x=>x.id===state.page)&&!reviewed.some(x=>x.id===state.page)){location.replace(projectHref(p.id));return;}
@@ -102,9 +103,9 @@ async function render(){
    content=await pageRenderer({...data,state,go:route,set});
   }
   else if(projectRuntimes[p.id]){
-   const regional=['map','regions'].includes(state.page);
+   const regional=['map','regions'].includes(state.page),tourismPilot=isTourismResearchPage(p.id,state.page);
    const [study,bundle,research,geo,catalog]=await Promise.all([
-    runtime.study(p.id),projectData(p.id),completeProjectData(p.id),
+    runtime.study(p.id),tourismPilot?{}:projectData(p.id),tourismPilot?tourismResearchData():completeProjectData(p.id),
     regional?json('data/map.json'):null,
     json('data/regions.json')
    ]);
@@ -122,9 +123,10 @@ async function render(){
   if(token!==sequence)return;
   if(p.id==='family'&&['logic','finance','network','texts','domains','causal','proposals'].includes(state.page))content.insertBefore(h('div',{class:'note'},'Документальная часть экспертизы от 14.05.2026. Статистические ряды, документы и авторские выводы имеют собственные даты источников.'),content.children[1]||null);
   if(p.id==='family'&&state.page==='overview')content.querySelector('.page-heading')?.append(h('img',{src:p.logo,alt:'Логотип национального проекта «Семья»',class:'family-project-logo',width:112,height:98}));
-  if(['overview','library'].includes(state.page)){const card=currentReportCard(report),heading=content.querySelector('.page-heading,.project-hero');if(heading)heading.after(card);else content.prepend(card);}
+  if(['overview','library'].includes(state.page)){const card=currentReportCard(report),heading=content.querySelector('.page-heading,.project-hero');const slot=content.querySelector('[data-report-slot]');if(slot)slot.append(card);else if(heading)heading.after(card);else content.prepend(card);}
   main.replaceChildren(content);document.title=name+' · Экспертиза национального проекта «'+p.name+'»';main.dataset.page=state.page;main.dataset.project=p.id;main.dataset.ready='true';
   if(!same){window.scrollTo(0,0);main.focus({preventScroll:true});}else if(preserveScroll!==null)window.scrollTo(0,preserveScroll);
+  if(focusSelector)main.querySelector(focusSelector)?.focus({preventScroll:true});
   preserveScroll=null;currentKey=key;document.getElementById('announcer').textContent='Открыто: '+p.name+', '+name;syncNavigation();
  }catch(error){
   if(token!==sequence)return;console.error(error);main.replaceChildren(h('div',{class:'error-view'},h('h1',{},'Не удалось открыть данные'),h('p',{},error.message),h('p',{},'Откройте сайт через HTTP. Каталоги data и downloads должны быть опубликованы вместе с приложением.'),button('Повторить',render,'button primary')));

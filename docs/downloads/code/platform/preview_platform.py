@@ -10,7 +10,9 @@ from restore_package_copies import restore
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--host',default='127.0.0.1')
     parser.add_argument('--port',type=int,default=8080)
+    parser.add_argument('--strictPort',action='store_true',help='Compatibility option: binding already fails if the port is unavailable.')
     parser.add_argument('--no-open',action='store_true')
     args=parser.parse_args()
     restored=restore()
@@ -21,10 +23,10 @@ def main():
         parser.error('Missing docs/index.html. Run npm run build first.')
     handler=functools.partial(http.server.SimpleHTTPRequestHandler,directory=str(directory))
     try:
-        server=http.server.ThreadingHTTPServer(('127.0.0.1',args.port),handler)
+        server=http.server.ThreadingHTTPServer((args.host,args.port),handler)
     except OSError as error:
         parser.error(f'Cannot open port {args.port}: {error}. Try --port 8081.')
-    url=f'http://127.0.0.1:{server.server_port}/'
+    url=f'http://{args.host}:{server.server_port}/'
     print('National Projects platform:',url,'\nPress Ctrl+C to stop.',flush=True)
     if not args.no_open:
         threading.Timer(.4,lambda:webbrowser.open(url)).start()
