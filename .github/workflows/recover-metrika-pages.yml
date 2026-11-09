@@ -1,0 +1,57 @@
+name: Publish validated Metrika release
+on:
+  workflow_dispatch:
+
+permissions: {}
+concurrency:
+  group: semya-pages
+  cancel-in-progress: false
+
+jobs:
+  validated-artifact:
+    if: github.repository == 'Arseniy24RUS/family' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      actions: read
+      contents: read
+    steps:
+      - name: Verify and copy the tested Pages package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          validated_main=4b8b9334a147d0ef122b745fcacfe30184d0d3db
+          current_main=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq '.object.sha')
+          test "$GITHUB_SHA" = "$current_main"
+          changes=$(gh api "repos/$GITHUB_REPOSITORY/compare/$validated_main...$GITHUB_SHA" --jq '.files[].filename')
+          test "$changes" = ".github/workflows/recover-metrika-pages.yml"
+          bundle="$RUNNER_TEMP/validated-pages.zip"
+          archive="$RUNNER_TEMP/artifact.tar"
+          gh api "repos/$GITHUB_REPOSITORY/actions/artifacts/13663058413/zip" > "$bundle"
+          printf '%s  %s\n' '97c732c8046b9725100fae32f376d19a5fa4077f90388df84c3927368a3fd6ba' "$bundle" | sha256sum -c -
+          test "$(unzip -Z1 "$bundle")" = 'artifact.tar'
+          unzip -p "$bundle" artifact.tar > "$archive"
+          tar -xOf "$archive" ./index.html > "$RUNNER_TEMP/metrika-index.html"
+          grep -Fq 'data-counter="114141850"' "$RUNNER_TEMP/metrika-index.html"
+          tar -tf "$archive" ./metrika.js ./metrika-frame.html
+      - uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          if-no-files-found: error
+          retention-days: 1
+
+  deploy:
+    needs: validated-artifact
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - name: Publish the validated Pages package
+        id: publish
+        uses: actions/deploy-pages@v4
