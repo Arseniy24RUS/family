@@ -14,7 +14,11 @@ env:
   OMP_NUM_THREADS: '1'
 jobs:
   build:
-    if: github.ref_name == github.event.repository.default_branch
+    if: >-
+      github.ref_name == github.event.repository.default_branch &&
+      !(github.event_name == 'push' &&
+        github.event.before == 'b9b12a370789d52574ecad8384ecf69260994e16' &&
+        github.event.head_commit.message == 'Fix analytics frame URL and publish targeted Pages update')
     runs-on: ubuntu-latest
     timeout-minutes: 35
     permissions:
