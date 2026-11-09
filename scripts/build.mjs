@@ -75,5 +75,20 @@ const downloadRoot=path.join(root,'public/downloads'),files=[];
 for(const p of await walk(downloadRoot)){const rel=path.relative(downloadRoot,p).replaceAll('\\','/');if(rel==='index.json')continue;const bytes=await fs.readFile(p);let category=rel.startsWith('code/original/')?'original_code':rel.startsWith('code/platform/')?'platform_code':rel.startsWith('code/frontend/')?'frontend_code':rel.startsWith('documents/')||rel.endsWith('.docx')||rel.endsWith('.pdf')?'document':rel.startsWith('documentation/')?'platform_code':rel.startsWith('metadata/')?'metadata':rel.endsWith('.geojson')?'geometry':rel.includes('colab')?'notebook':rel.endsWith('.zip')?'raw':'data';files.push({path:rel,title:path.basename(p),category,bytes:bytes.length,sha256:crypto.createHash('sha256').update(bytes).digest('hex')});if(bytes.length>95*1024*1024)throw Error('File too large for GitHub: '+rel);}
 files.sort((a,b)=>a.path.localeCompare(b.path));await fs.writeFile(path.join(downloadRoot,'index.json'),JSON.stringify({schema:'semya.files/1',files},null,2));
 const docs=path.join(root,'docs');await fs.rm(docs,{recursive:true,force:true});await copy(path.join(root,'public'),docs);await copy(path.join(root,'src'),path.join(docs,'src'));await copy(path.join(root,'index.html'),path.join(docs,'index.html'));await fs.writeFile(path.join(docs,'.nojekyll'),'');
+// Reuse the counter ID from the application shell on all generated research pages.
+const shellHtml=await fs.readFile(path.join(docs,'index.html'),'utf8');
+const metrikaCounter=shellHtml.match(/\bsrc="\.\/metrika\.js" data-counter="(\d*)"/)?.[1];
+if(metrikaCounter===undefined)throw Error('Missing Metrika counter configuration in index.html');
+for(const file of await walk(path.join(docs,'research'))){
+  if(!file.endsWith('.html'))continue;
+  const relative=target=>path.relative(path.dirname(file),path.join(docs,target)).split(path.sep).join('/');
+  const html=await fs.readFile(file,'utf8');
+  const published=html.replace('</head>',`<script defer src="${relative('metrika.js')}" data-counter="${metrikaCounter}"></script>\n</head>`)
+    .replace('</footer>',` · <a href="${relative('research/index.html')}#privacy">Конфиденциальность</a></footer>`);
+  // Atomically replace the output even when local builds use hardlinks.
+  const temporary=file+'.metrika.tmp';
+  await fs.writeFile(temporary,published);
+  await fs.rename(temporary,file);
+}
 const catalog=JSON.parse(await fs.readFile(path.join(docs,'data/current/catalog.json'),'utf8'));for(const source of catalog.datasets){await fs.access(path.join(docs,'data/baseline',source.id+'.json'));}for(const f of files)await fs.access(path.join(docs,'downloads',f.path));
 console.log(`Built docs/: ${files.length} downloadable files, ${catalog.n_observations} observations, ${catalog.datasets.length} statistical sources.`);
