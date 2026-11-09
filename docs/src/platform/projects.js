@@ -1,3 +1,4 @@
+import {contextParams} from '../core/research-context.js';
 /** Shared project registry. Family retains its existing research and palette. */
 export const projects = [
   ['family','Семья','Семья','#2947A0'],
@@ -171,10 +172,10 @@ export const expertiseBlueprint = [
   ['proposals','Предложения авторов','Какие изменения следуют из проверенных результатов и как оценить их последствия?']
 ].map(([id,title,question],i)=>({id,title,question,order:i+1}));
 export const getProject = id => projects.find(p=>p.id===id) || projects[0];
-export function projectHref(projectId, page='overview', params={}) {
+export function projectHref(projectId, page='overview', params={},researchContext={}) {
   const project=getProject(projectId);
   const route=project.id==='family' ? `#/${page}` : `#/projects/${project.id}/${page}`;
-  const clean=Object.entries(params).filter(([key,value])=>!['mode','page','nationalProject'].includes(key)&&value!==null&&value!==undefined&&value!=='');
+  const clean=Object.entries({...contextParams(researchContext),...params}).filter(([key,value])=>!['mode','page','nationalProject'].includes(key)&&value!==null&&value!==undefined&&value!=='');
   const query=new URLSearchParams(clean);
   return route+(query.size?'?'+query:'');
 }

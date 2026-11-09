@@ -48,7 +48,9 @@ async def execute(args):
         loaded_project_css = await page.locator('link[data-project-style]').evaluate_all('(links)=>links.map(link=>link.getAttribute("href"))')
         assert loaded_project_css == ['./src/tourism.css'], loaded_project_css
         loaded_page_modules = [path.rsplit('/', 1)[-1] for path in requests if '/src/pages/' in path]
-        assert loaded_page_modules == ['tourism.js'], loaded_page_modules
+        assert sorted(loaded_page_modules) == [
+            'tourism-causal-v3.js', 'tourism-v3.js', 'tourism.js'
+        ], loaded_page_modules
         checks.append({'check': 'direct_tourism_loads_only_its_renderer_and_css_without_family_data'})
 
         for report in reports:
@@ -57,9 +59,11 @@ async def execute(args):
             assert await page.locator('.site-brand strong').inner_text() == 'Национальные проекты России'
             assert not await page.locator('.site-header .project-brand-link,.site-header .project-brand-logo').count()
             logo = page.locator('#main img[src$="/'+project+'.svg"]')
-            assert await logo.count() == 1
-            await logo.evaluate('(image)=>image.decode()')
-            assert await logo.evaluate('(image)=>image.complete&&image.naturalWidth>0')
+            expected_logo_count = 0 if project == 'tourism' else 1
+            assert await logo.count() == expected_logo_count, project
+            if expected_logo_count:
+                await logo.evaluate('(image)=>image.decode()')
+                assert await logo.evaluate('(image)=>image.complete&&image.naturalWidth>0')
             assert await page.locator('.institution-link').count() == 3
             assert await page.locator('.sidebar [data-route="authors"]').count() == (1 if project == 'family' else 0)
             assert (await page.locator('.current-report-button').get_attribute('href')).endswith(report['pdf']['url'])

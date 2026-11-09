@@ -8,13 +8,14 @@ from pathlib import Path
 from decimal import Decimal
 import argparse,collections,csv,gzip,hashlib,json,math,re,shutil,zipfile
 from extract_healthtech_passports import parse_passport,decimal,norm,ws,TOKEN_RE
+from reproducible_output import gzip_bytes, descending_term_indices
 
 APP=Path(__file__).resolve().parents[1]
 PROJECT='health_technologies'
 REL=f'downloads/projects/{PROJECT}/documentary/'
 YEARS=list(range(2025,2031))
 NAMES={'family':'Семья','personnel':'Кадры','youth_children':'Молодёжь и дети','long_active_life':'Продолжительная и активная жизнь','health_technologies':'Новые технологии сбережения здоровья','life_infrastructure':'Инфраструктура для жизни','environment':'Экологическое благополучие','data_economy':'Экономика данных и цифровая трансформация государства','competitive_economy':'Эффективная и конкурентная экономика','efficient_transport':'Эффективная транспортная система','international_export':'Международная кооперация и экспорт','tourism':'Туризм и гостеприимство'}
-def dump(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+def dump(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8', newline='\n')
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def csv_write(p,rows,columns=None):
  p.parent.mkdir(parents=True,exist_ok=True)
@@ -146,7 +147,7 @@ def build_text(folder,all_docs,selected,output,data_dir):
    da,db=all_docs[a]['document'],all_docs[b]['document'];docsim.append({'document_a':da['document_id'],'document_b':db['document_id'],'title_a':da['title'],'title_b':db['title'],'code_a':da['code'],'code_b':db['code'],'cosine':float(health_docsim[i,j]),'origin':'independently_recomputed'})
  names=vec.get_feature_names_out();topterms=[]
  for code,values in [('project',variants['base'][project_index])]+[(all_docs[i]['document']['document_id'],matrix[i].toarray()[0]) for i in health_indices]:
-  for rank,i in enumerate(np.argsort(-values)[:30],1):topterms.append({'document_id':code,'rank':rank,'term':str(names[i]),'weight':float(values[i]),'origin':'independently_recomputed'})
+  for rank,i in enumerate(descending_term_indices(values,names)[:30],1):topterms.append({'document_id':code,'rank':rank,'term':str(names[i]),'weight':float(values[i]),'origin':'independently_recomputed'})
  dictionary=json.loads((folder/'theme_dictionary.json').read_text());frames=[{'id':k,'frame':k,'name':v['label'],'label':v['label'],'patterns':v['patterns']} for k,v in dictionary['frames'].items()];frame_scores=[];files={};contexts=[]
  for d in selected:
   doc=d['document'];docctx=[]
@@ -203,7 +204,7 @@ def build(root=APP,verify=False):
  for name,rows in [('finance_fp_years',finance['fpYears']),('finance_source_rows',finance['sourceRows']),('finance_reconciliation',finance['reconciliation']),('finance_result_years',finance['resultYears']),('finance_result_sums',finance['resultSums']),('finance_budget_reserves',finance['reserveYears']),('targets_all_years',targetrecords),('network_nodes',nodes),('network_unresolved_weights',claims),('network_shared_task',shared),('network_semantic_candidates',candidates)]:csv_write(output/(name+'.csv'),rows)
  for name in ['text_parameters.json','theme_dictionary.json','target_mapping.json','budget_bill_author_transcription.json','budget_source_verification.json','budget_2027_2029.html','text_methods.md','finance_methods.md']:
   shutil.copy2(folder/name,output/name)
- inp={'source_manifest':manifest,'profiles':[{'document':d['document'],'units':d['units']} for d in all_docs],'selected_passports':selected,'text_parameters':text['method'],'theme_dictionary':text['dictionary']};z=gzip.compress((json.dumps(inp,ensure_ascii=False,allow_nan=False)+'\n').encode(),mtime=0);(output/'documentary_inputs.json.gz').write_bytes(z)
+ inp={'source_manifest':manifest,'profiles':[{'document':d['document'],'units':d['units']} for d in all_docs],'selected_passports':selected,'text_parameters':text['method'],'theme_dictionary':text['dictionary']};z=gzip_bytes((json.dumps(inp,ensure_ascii=False,allow_nan=False)+'\n').encode());(output/'documentary_inputs.json.gz').write_bytes(z)
  dump(data_dir/'targets.json',targets);dump(data_dir/'documentary.json',documentary);dump(output/'documentary_full.json',documentary)
  validation={'passed':True,'project_id':PROJECT,'corpus_documents':len(all_docs),'corpus_projects':12,'corpus_tokens':text['corpusTokenCount'],'healthtech_tokens':text['sameGenreTokenCount'],'source_passports':len(selected),'target_cells':targets['target_cells'],'numeric_targets':targets['numeric_targets'],'missing_targets':targets['missing_targets'],'finance_total_thousand_rub':finance['totalDecimal'],'finance_visible_federal_cells':sum(r['amount_decimal'] is not None for r in finance['fpYears']),'finance_missing_federal_cells':sum(r['amount_decimal'] is None for r in finance['fpYears']),'finance_difference_thousand_rub':0,'unique_nodes':len({n['node_id'] for n in nodes}),'result_cards':sum(n['kind']=='result' for n in nodes),'weight_claims':69,'verified_direct_edges':0,'candidate_pairs':83,'thematic_cells':len(text['frameScores']),'context_count':text['contextCount'],'features':text['features'],'replication_audit':text['replicationAudit'],'official_news_documents':len(updates)}
  dump(output/'documentary_validation.json',validation);print(json.dumps(validation,ensure_ascii=False,indent=2));return documentary

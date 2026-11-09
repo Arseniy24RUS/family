@@ -1,0 +1,4646 @@
+{
+  "schema": "national-projects.v3-browser-verification/1",
+  "release_version": "3.0.0-stage.2",
+  "checked_at_utc": "2026-11-01T18:54:51.247700+00:00",
+  "assembled_release": {
+    "status": "PASS",
+    "commit": "af40247ad2fb2f5e85c703d8778e15ee0ec577cc",
+    "workflow_run_id": 41337507436,
+    "job_id": 124940331526,
+    "artifact_id": 13096240832,
+    "artifact_sha256": "79d45450cd855c66dfe4c571d4460ee5bdc1117f89f50b7fc80aa5b44914179c",
+    "artifact_bytes": 5268329,
+    "artifact_crc_checked": true,
+    "passed_checks": 652,
+    "failed_checks": 0,
+    "suites": {
+      "browser_research_context": {
+        "passed": 61,
+        "failed": 0,
+        "results_sha256": "c1671a302dffb5706812b90c99dca22b1eea27c4afdbeb2ddd37d753b7613a4a",
+        "checks": [
+          {
+            "name": "tourism_original_cumulative_value",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "family_carried_window_unchanged",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=77&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "family_local_parameters_do_not_cross",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "family_no_silent_period_substitution",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "family_explicit_period_applies",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&period=%D0%BC%D0%B5%D1%81%D1%8F%D1%86%7C2026-09-30"
+            }
+          },
+          {
+            "name": "family_source_value_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.39,
+              "shown": 1.39
+            }
+          },
+          {
+            "name": "family_source_value_table",
+            "passed": true,
+            "detail": {
+              "expected": 1.39,
+              "shown": 1.39
+            }
+          },
+          {
+            "name": "long_active_life_carried_window_unchanged",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/projects/long_active_life/map?ctx_region=77&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "long_active_life_local_parameters_do_not_cross",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "long_active_life_no_silent_period_substitution",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "long_active_life_explicit_period_applies",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-07-31",
+                "ctx_end": "2026-07-31",
+                "ctx_kind": "stock_at_period_end",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-07-31",
+                "ctx_end": "2026-07-31",
+                "ctx_kind": "stock_at_period_end",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/projects/long_active_life/map?ctx_region=77&ctx_start=2026-07-31&ctx_end=2026-07-31&ctx_kind=stock_at_period_end&ctx_frequency=monthly&period=monthly%7C2026-07-31%7C"
+            }
+          },
+          {
+            "name": "long_active_life_source_value_map",
+            "passed": true,
+            "detail": {
+              "expected": 56.66,
+              "shown": 56.66
+            }
+          },
+          {
+            "name": "long_active_life_source_value_table",
+            "passed": true,
+            "detail": {
+              "expected": 56.66,
+              "shown": 56.66
+            }
+          },
+          {
+            "name": "personnel_carried_window_unchanged",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/projects/personnel/map?ctx_region=77&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "personnel_local_parameters_do_not_cross",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "personnel_no_silent_period_substitution",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "personnel_explicit_period_applies",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2024-01-01",
+                "ctx_end": "2024-12-31",
+                "ctx_kind": "annual",
+                "ctx_frequency": "annual"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2024-01-01",
+                "ctx_end": "2024-12-31",
+                "ctx_kind": "annual",
+                "ctx_frequency": "annual"
+              },
+              "url": "http://127.0.0.1:44921/family/#/projects/personnel/map?ctx_region=77&ctx_start=2024-01-01&ctx_end=2024-12-31&ctx_kind=annual&ctx_frequency=annual&period=annual%7C2024-12-31"
+            }
+          },
+          {
+            "name": "personnel_source_value_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.0,
+              "shown": 1.0
+            }
+          },
+          {
+            "name": "personnel_source_value_table",
+            "passed": true,
+            "detail": {
+              "expected": 1.0,
+              "shown": 1.0
+            }
+          },
+          {
+            "name": "compatible_source_has_cumulative_semantics",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_change_keeps_the_requested_window",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/projects/long_active_life/map?ctx_region=77&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly&source=62930"
+            }
+          },
+          {
+            "name": "source_change_selects_requested_indicator",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "same_window_in_health_map",
+            "passed": true,
+            "detail": {
+              "expected": 15.6,
+              "shown": 15.6
+            }
+          },
+          {
+            "name": "same_window_in_health_table",
+            "passed": true,
+            "detail": {
+              "expected": 15.6,
+              "shown": 15.6
+            }
+          },
+          {
+            "name": "regional_analysis_preserves_context",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/regions?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "multiperiod_analysis_discloses_scope",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "sidebar_returns_to_exact_map_window",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "back_and_refresh_restore_window_and_region",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&source=data_21"
+            }
+          },
+          {
+            "name": "restored_family_value_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.39,
+              "shown": 1.39
+            }
+          },
+          {
+            "name": "unsupported_project_keeps_request",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/projects/youth_children/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "unsupported_project_scope_is_explicit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "supported_project_reapplies_request",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "clearing_region_removes_profile_and_selection",
+            "passed": true,
+            "detail": {
+              "context": {
+                "ctx_region": "all",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=all&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&source=data_21"
+            }
+          },
+          {
+            "name": "all_regions_survives_sidebar",
+            "passed": true,
+            "detail": {
+              "context": {
+                "ctx_region": "all",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/regions?ctx_region=all&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "all_regions_does_not_restore_tourism_defaults",
+            "passed": true,
+            "detail": {
+              "context": {
+                "ctx_region": "all",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/projects/tourism/regions?ctx_region=all&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "all_regions_survives_back_and_return_to_map",
+            "passed": true,
+            "detail": {
+              "context": {
+                "ctx_region": "all",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=all&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "december_cumulative_is_not_annual",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "annual_record_is_offered_as_distinct_choice",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "annual_choice_changes_semantics",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2025-01-01",
+                "ctx_end": "2025-12-31",
+                "ctx_kind": "annual",
+                "ctx_frequency": "annual"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2025-01-01",
+                "ctx_end": "2025-12-31",
+                "ctx_kind": "annual",
+                "ctx_frequency": "annual"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=77&ctx_start=2025-01-01&ctx_end=2025-12-31&ctx_kind=annual&ctx_frequency=annual&period=%D0%B3%D0%BE%D0%B4%7C2025-12-31"
+            }
+          },
+          {
+            "name": "annual_family_value_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.434,
+              "shown": 1.434
+            }
+          },
+          {
+            "name": "annual_is_not_tourism_december_cumulative",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "explicit_cumulative_choice_restores_tourism",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2025-01-01",
+                "ctx_end": "2025-12-31",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2025-01-01",
+                "ctx_end": "2025-12-31",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/projects/tourism/map?ctx_region=77&ctx_start=2025-01-01&ctx_end=2025-12-31&ctx_kind=cumulative_ytd&ctx_frequency=monthly&period=2025-12-31"
+            }
+          },
+          {
+            "name": "invalid_date_kept_in_request",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-02-30",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-02-30",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=77&ctx_start=2026-02-30&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&source=data_21"
+            }
+          },
+          {
+            "name": "invalid_date_does_not_render_default_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "invalid_request_survives_refresh_without_fallback",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "explicit_period_repairs_invalid_request",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "77",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=77&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&source=data_21&period=%D0%BC%D0%B5%D1%81%D1%8F%D1%86%7C2026-09-30"
+            }
+          },
+          {
+            "name": "invalid_native_period_remains_requested",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "invalid_native_period_has_no_latest_fallback",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "context_controls_fit_390",
+            "passed": true,
+            "detail": [
+              {
+                "left": 32,
+                "right": 358
+              },
+              {
+                "left": 32,
+                "right": 358
+              }
+            ]
+          },
+          {
+            "name": "mobile_region_focus_and_context_390",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "23",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "23",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=23&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly&r=23"
+            }
+          },
+          {
+            "name": "mobile_period_focus_and_context_390",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "23",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "23",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=23&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&r=23&period=%D0%BC%D0%B5%D1%81%D1%8F%D1%86%7C2026-09-30"
+            }
+          },
+          {
+            "name": "mobile_selected_value_390_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.457,
+              "shown": 1.457
+            }
+          },
+          {
+            "name": "context_page_width_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "context_controls_fit_320",
+            "passed": true,
+            "detail": [
+              {
+                "left": 32,
+                "right": 288
+              },
+              {
+                "left": 32,
+                "right": 288
+              }
+            ]
+          },
+          {
+            "name": "mobile_region_focus_and_context_320",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "23",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "23",
+                "ctx_start": "2026-01-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "cumulative_ytd",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=23&ctx_start=2026-01-01&ctx_end=2026-09-30&ctx_kind=cumulative_ytd&ctx_frequency=monthly&r=23"
+            }
+          },
+          {
+            "name": "mobile_period_focus_and_context_320",
+            "passed": true,
+            "detail": {
+              "expected": {
+                "ctx_region": "23",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "actual": {
+                "ctx_region": "23",
+                "ctx_start": "2026-09-01",
+                "ctx_end": "2026-09-30",
+                "ctx_kind": "monthly",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/map?ctx_region=23&ctx_start=2026-09-01&ctx_end=2026-09-30&ctx_kind=monthly&ctx_frequency=monthly&r=23&period=%D0%BC%D0%B5%D1%81%D1%8F%D1%86%7C2026-09-30"
+            }
+          },
+          {
+            "name": "mobile_selected_value_320_map",
+            "passed": true,
+            "detail": {
+              "expected": 1.457,
+              "shown": 1.457
+            }
+          },
+          {
+            "name": "context_page_width_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_page_errors",
+            "passed": true,
+            "detail": []
+          },
+          {
+            "name": "no_console_errors",
+            "passed": true,
+            "detail": []
+          },
+          {
+            "name": "no_http_errors",
+            "passed": true,
+            "detail": []
+          }
+        ],
+        "page_errors": [],
+        "console_errors": [],
+        "http_errors": [],
+        "expected_faults": []
+      },
+      "browser_longlife": {
+        "passed": 403,
+        "failed": 0,
+        "results_sha256": "e33ffd81609119b56200a7a1dfea19c08321f7edbd42838cc139495abf3ee893",
+        "checks": [
+          {
+            "name": "desktop_route_overview",
+            "passed": true,
+            "detail": {
+              "characters": 4420,
+              "title": "Обзор исследования · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_framework",
+            "passed": true,
+            "detail": {
+              "characters": 3741,
+              "title": "Методология · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_logic",
+            "passed": true,
+            "detail": {
+              "characters": 7802,
+              "title": "Логика проекта · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_audit",
+            "passed": true,
+            "detail": {
+              "characters": 8590,
+              "title": "Аудит показателей · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_targets",
+            "passed": true,
+            "detail": {
+              "characters": 20103,
+              "title": "Цели и динамика · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_map",
+            "passed": true,
+            "detail": {
+              "characters": 12493,
+              "title": "Территориальные различия · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_regions",
+            "passed": true,
+            "detail": {
+              "characters": 13948,
+              "title": "Региональные профили здравоохранения · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_finance",
+            "passed": true,
+            "detail": {
+              "characters": 12895,
+              "title": "Финансовая экспертиза · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_network",
+            "passed": true,
+            "detail": {
+              "characters": 10100,
+              "title": "Сеть мер и результатов · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_texts",
+            "passed": true,
+            "detail": {
+              "characters": 5290,
+              "title": "Документы и смыслы · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_domains",
+            "passed": true,
+            "detail": {
+              "characters": 7252,
+              "title": "Предметные направления · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_causal",
+            "passed": true,
+            "detail": {
+              "characters": 5573,
+              "title": "Причинная оценка · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_proposals",
+            "passed": true,
+            "detail": {
+              "characters": 15063,
+              "title": "Предложения авторов · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_lab",
+            "passed": true,
+            "detail": {
+              "characters": 4298,
+              "title": "Вычислительная лаборатория · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_explorer",
+            "passed": true,
+            "detail": {
+              "characters": 7706,
+              "title": "Исследователь данных · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_library",
+            "passed": true,
+            "detail": {
+              "characters": 16828,
+              "title": "Данные, документы и код · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_updates",
+            "passed": true,
+            "detail": {
+              "characters": 7489,
+              "title": "Обновление ЕМИСС · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_projections",
+            "passed": true,
+            "detail": {
+              "characters": 5314,
+              "title": "Сценарии и расстояние до цели · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_population",
+            "passed": true,
+            "detail": {
+              "characters": 8717,
+              "title": "Продолжительность жизни, здоровье и активность · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_structure",
+            "passed": true,
+            "detail": {
+              "characters": 6518,
+              "title": "Архитектура и непрерывность помощи · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "desktop_route_methods",
+            "passed": true,
+            "detail": {
+              "characters": 6683,
+              "title": "Методы и ограничения · Экспертиза национального проекта «Продолжительная и активная жизнь»"
+            }
+          },
+          {
+            "name": "desktop_width_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_lazy_error_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "full_corpus_not_preloaded",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_63006",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 84,
+              "shown": "84"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_63006",
+            "passed": true,
+            "detail": {
+              "expected": 82,
+              "shown": "82"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_63006",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_63006",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_63006",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62926",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62926",
+            "passed": true,
+            "detail": {
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62926",
+            "passed": true,
+            "detail": {
+              "codes": []
+            }
+          },
+          {
+            "name": "map_lazy_request_62926",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62926",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_63039",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 84,
+              "shown": "84"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_63039",
+            "passed": true,
+            "detail": {
+              "expected": 82,
+              "shown": "82"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_63039",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_63039",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_63039",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62927",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2025-12-31|",
+              "expected": 89,
+              "shown": "89"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62927",
+            "passed": true,
+            "detail": {
+              "expected": 89,
+              "shown": "89"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62927",
+            "passed": true,
+            "detail": {
+              "codes": []
+            }
+          },
+          {
+            "name": "map_lazy_request_62927",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62927",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62930",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62930",
+            "passed": true,
+            "detail": {
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62930",
+            "passed": true,
+            "detail": {
+              "codes": []
+            }
+          },
+          {
+            "name": "map_lazy_request_62930",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62930",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62914",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62914",
+            "passed": true,
+            "detail": {
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62914",
+            "passed": true,
+            "detail": {
+              "codes": []
+            }
+          },
+          {
+            "name": "map_lazy_request_62914",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62914",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62956",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62956",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62956",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62956",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62956",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62954",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62954",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62954",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62954",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62954",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62953",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62953",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62953",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62953",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62953",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62952",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62952",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62952",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62952",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62952",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62951",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62951",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62951",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62951",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62951",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62950",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-03-31|",
+              "expected": 89,
+              "shown": "89"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62950",
+            "passed": true,
+            "detail": {
+              "expected": 87,
+              "shown": "87"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62950",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62950",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62950",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62948",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62948",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62948",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62948",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62948",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62947",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62947",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62947",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62947",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62947",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62946",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62946",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62946",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62946",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62946",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62945",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-03-31|",
+              "expected": 89,
+              "shown": "89"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62945",
+            "passed": true,
+            "detail": {
+              "expected": 87,
+              "shown": "87"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62945",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62945",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62945",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62959",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62959",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62959",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62959",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62959",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62958",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62958",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62958",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62958",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62958",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62957",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62957",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62957",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62957",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62957",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62941",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62941",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62941",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62941",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62941",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62939",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62939",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62939",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62939",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62939",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62942",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62942",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62942",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62942",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62942",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62938",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62938",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62938",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62938",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62938",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62940",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62940",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62940",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62940",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62940",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62955",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 89,
+              "shown": "89"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62955",
+            "passed": true,
+            "detail": {
+              "expected": 87,
+              "shown": "87"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62955",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62955",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62955",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62965",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 84,
+              "shown": "84"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62965",
+            "passed": true,
+            "detail": {
+              "expected": 82,
+              "shown": "82"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62965",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62965",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62965",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62964",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 84,
+              "shown": "84"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62964",
+            "passed": true,
+            "detail": {
+              "expected": 82,
+              "shown": "82"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62964",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62964",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62964",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62963",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 84,
+              "shown": "84"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62963",
+            "passed": true,
+            "detail": {
+              "expected": 82,
+              "shown": "82"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62963",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62963",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62963",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_63005",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_63005",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_63005",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_63005",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_63005",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_63348",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_63348",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_63348",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_63348",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_63348",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62943",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62943",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62943",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62943",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62943",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62970",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-07-31|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62970",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62970",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62970",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62970",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62972",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-09-30|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62972",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62972",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62972",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62972",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_62971",
+            "passed": true,
+            "detail": {
+              "slice": "monthly|2026-07-31|",
+              "expected": 85,
+              "shown": "85"
+            }
+          },
+          {
+            "name": "map_comparable_coverage_62971",
+            "passed": true,
+            "detail": {
+              "expected": 83,
+              "shown": "83"
+            }
+          },
+          {
+            "name": "map_ambiguous_not_filled_62971",
+            "passed": true,
+            "detail": {
+              "codes": [
+                "29",
+                "72"
+              ]
+            }
+          },
+          {
+            "name": "map_lazy_request_62971",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_source_unit_62971",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_explicit_exclusive_29",
+            "passed": true,
+            "detail": {
+              "period": "2026-09",
+              "expected": 49.0,
+              "shown": 49.0,
+              "fill": "#E87092"
+            }
+          },
+          {
+            "name": "map_retains_original_geographic_variants",
+            "passed": true,
+            "detail": {
+              "source_rows": 90,
+              "exported_rows": 90
+            }
+          },
+          {
+            "name": "map_fd_csv",
+            "passed": true,
+            "detail": {
+              "expected": 10,
+              "actual": 10
+            }
+          },
+          {
+            "name": "map_region_reading",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_tile_and_region_retained",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_url_filters_restore",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "explorer_filter_export",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "explorer_denominator_export",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "lab_pair_calculated",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "lab_correlation_not_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "lab_quantiles_available",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "finance_sign_and_unit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "finance_bar_labels_fit",
+            "passed": true,
+            "detail": [
+              {
+                "label": "Д3 · Борьба с онкологическими заболева…",
+                "x": 66.44538116455078
+              },
+              {
+                "label": "Д1 · Модернизация первичного звена здр…",
+                "x": 66.44538116455078
+              },
+              {
+                "label": "Д6 · Совершенствование экстренной меди…",
+                "x": 60.90005111694336
+              },
+              {
+                "label": "Д7 · Оптимальная для восстановления зд…",
+                "x": 64.59693908691406
+              },
+              {
+                "label": "Д9 · Развитие федеральных медицинских …",
+                "x": 63.67271423339844
+              },
+              {
+                "label": "Д2 · Борьба с сердечно-сосудистыми заб…",
+                "x": 70.14226531982422
+              },
+              {
+                "label": "Д4 · Борьба с сахарным диабетом",
+                "x": 120.05020904541016
+              },
+              {
+                "label": "Д5 · Борьба с гепатитом С и минимизаци…",
+                "x": 71.06648254394531
+              },
+              {
+                "label": "Д8 · Национальная цифровая платформа «…",
+                "x": 58.12738800048828
+              },
+              {
+                "label": "ДБ · Медицинские кадры",
+                "x": 175.50347900390625
+              },
+              {
+                "label": "ДА · Здоровье для каждого",
+                "x": 161.64016723632812
+              }
+            ]
+          },
+          {
+            "name": "finance_export_SVG",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "finance_export_PNG",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "finance_export_CSV",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "finance_missing_future_not_null",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "network_reviewed_count",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "network_letter_project_filter",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "text_same_genre_pairs",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "text_context_lazy_loaded",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "text_contexts_nonempty",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "full_corpus_still_not_requested",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "demography_age_changes",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "demography_full_age_grid",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "scenario_not_proxy",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "scenario_changed_in_url",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "scenario_bounds_explained",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "audit_unmapped_filter",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_expertise_long_active_life_2026-10-30.docx",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_expertise_longlife_2026.docx",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_expertise_longlife_2026.md",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_report_extraction.json",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_observations.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_source_registry.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_target_comparisons.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_annual_december_comparisons.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_same_month_changes.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_quality_flags.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_availability.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_regional_latest.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_regional_summaries.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_author_staffing_2026_07.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_multivariate_observed_2026_09.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_multivariate_diagnostic_imputed_2026_09.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_multivariate_scores_2026_09.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_multivariate_loadings_2026_09.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_multivariate_imputed_cells.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_multivariate_seed_audit_2026_09.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_documentary_sources.zip",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_documentary_inputs.json.gz",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_source_manifest.json",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_text_methods.md",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_finance_methods.md",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_documentary_full.json",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_manual_direct_links.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_finance_fp_years.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_finance_source_years.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_targets_all_editions.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_rosstat_life_expectancy_2023.csv",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_build_longlife_documentary.py",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_statistics.json",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_analytics.json",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_documentary.json",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "library_refresh-status.json",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "lazy_503_has_retry",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "lazy_503_waits_for_explicit_retry",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "lazy_503_preserves_requested_context",
+            "passed": true,
+            "detail": {
+              "source": [
+                "62926"
+              ],
+              "period": [
+                "monthly|2026-09-30|"
+              ],
+              "r": [
+                "77"
+              ],
+              "ctx_region": [
+                "77"
+              ],
+              "ctx_start": [
+                "2026-09-01"
+              ],
+              "ctx_end": [
+                "2026-09-30"
+              ],
+              "ctx_kind": [
+                "operational_monitoring"
+              ],
+              "ctx_frequency": [
+                "monthly"
+              ]
+            }
+          },
+          {
+            "name": "lazy_retry_success",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "lazy_retry_restores_context_and_period",
+            "passed": true,
+            "detail": {
+              "source": [
+                "62926"
+              ],
+              "period": [
+                "monthly|2026-09-30|"
+              ],
+              "r": [
+                "77"
+              ],
+              "ctx_region": [
+                "77"
+              ],
+              "ctx_start": [
+                "2026-09-01"
+              ],
+              "ctx_end": [
+                "2026-09-30"
+              ],
+              "ctx_kind": [
+                "operational_monitoring"
+              ],
+              "ctx_frequency": [
+                "monthly"
+              ]
+            }
+          },
+          {
+            "name": "lazy_retry_restores_published_regional_value",
+            "passed": true,
+            "detail": {
+              "actual": 203.9,
+              "expected": 203.9,
+              "period": "monthly|2026-09-30|"
+            }
+          },
+          {
+            "name": "switch_project_preserves_context_clears_local_filters",
+            "passed": true,
+            "detail": {
+              "context": {
+                "ctx_region": "22",
+                "ctx_start": "2026-07-31",
+                "ctx_end": "2026-07-31",
+                "ctx_kind": "stock_at_period_end",
+                "ctx_frequency": "monthly"
+              },
+              "url": "http://127.0.0.1:44921/family/#/projects/personnel/map?ctx_region=22&ctx_start=2026-07-31&ctx_end=2026-07-31&ctx_kind=stock_at_period_end&ctx_frequency=monthly"
+            }
+          },
+          {
+            "name": "back_restores_longlife_filters",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_navigation_closed_390",
+            "passed": true,
+            "detail": {
+              "right": 0,
+              "inert": true
+            }
+          },
+          {
+            "name": "mobile_route_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_route_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_width_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_focus_trapped",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_escape_restores_focus",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_project_rail_scroll",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_navigation_closed_320",
+            "passed": true,
+            "detail": {
+              "right": 0,
+              "inert": true
+            }
+          },
+          {
+            "name": "small_mobile_width_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "small_mobile_width_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "small_mobile_width_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "small_mobile_width_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "small_mobile_width_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "static_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_javascript_errors",
+            "passed": true,
+            "detail": []
+          },
+          {
+            "name": "no_unexpected_http_errors",
+            "passed": true,
+            "detail": []
+          }
+        ],
+        "page_errors": [],
+        "console_errors": [],
+        "http_errors": [],
+        "expected_faults": [
+          {
+            "url": "http://127.0.0.1:44921/family/data/projects/long_active_life/series/62926.json",
+            "status": 503,
+            "retry_requests": 2
+          }
+        ]
+      },
+      "browser_tourism": {
+        "passed": 188,
+        "failed": 0,
+        "results_sha256": "c66dd8e19ad5ba10896479c0b35945419fb83e3c5e2a95e66d48c14a81a72035",
+        "checks": [
+          {
+            "name": "route_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_overview",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_framework",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_logic",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_audit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_targets",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_map",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_regions",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_finance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_network",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_texts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_domains",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_causal",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_proposals",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_projections",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_population",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_structure",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_methods",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_lab",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_explorer",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_library",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "route_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "heading_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "content_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "title_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_authors_updates",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "six_source_contract",
+            "passed": true,
+            "detail": [
+              "62159",
+              "62780",
+              "62900",
+              "62902",
+              "62903",
+              "63347"
+            ]
+          },
+          {
+            "name": "source_selected_62159",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_62159",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_62159",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_62159",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_62159",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_selected_62780",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_62780",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_62780",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_62780",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_62780",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_selected_62900",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_62900",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_62900",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_62900",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_62900",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_selected_62902",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_62902",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_62902",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_62902",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_62902",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_selected_62903",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_62903",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_62903",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_62903",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_62903",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_selected_63347",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_options_63347",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_chart_63347",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_history_63347",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "source_link_63347",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_click_updates_profile",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_profile_visible",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "map_profile_explorer_link",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "calculator_valid_value",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "calculator_zero_denominator",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "calculator_blank_denominator",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "csv_file_downloaded",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "csv_observations_nonempty",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "csv_source_fields",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "csv_period_and_unit",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "download_name_tourism-research-2026-09-30.json",
+            "passed": true,
+            "detail": "tourism-research-2026-09-30.json"
+          },
+          {
+            "name": "research_json_selected_context",
+            "passed": true,
+            "detail": {
+              "requestedPeriod": "2026-09-30",
+              "appliedPeriod": "2026-09-30",
+              "regions": [
+                "77",
+                "23",
+                "24"
+              ],
+              "view": "regions/table",
+              "version": "3.0.0-stage.2",
+              "missingRegions": [],
+              "comparisonStatus": "requires_edition_review"
+            }
+          },
+          {
+            "name": "research_json_complete_source_rows",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_json_provenance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_json_independent_python_replay",
+            "passed": true,
+            "detail": {
+              "returncode": 0,
+              "receipt": {
+                "status": "PASS",
+                "period": "2026-09-30",
+                "observations": 1806,
+                "regions": 85,
+                "periods_checked": 21,
+                "trajectory_points_checked": 84,
+                "regional_sum": 74.4464,
+                "national_value": 74.4464,
+                "residual": 0.0,
+                "top5_share_pct": 42.169265404371465,
+                "top10_share_pct": 52.32099873197361,
+                "mismatches": 8,
+                "tolerance": 1e-08,
+                "errors": []
+              },
+              "stderr": ""
+            }
+          },
+          {
+            "name": "research_json_replay_scope",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_csv_table_is_paginated",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_csv_table_is_filtered",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "download_name_tourism-regions-2026-09-30.csv",
+            "passed": true,
+            "detail": "tourism-regions-2026-09-30.csv"
+          },
+          {
+            "name": "research_csv_whole_slice_after_filter",
+            "passed": true,
+            "detail": {
+              "rows": 85
+            }
+          },
+          {
+            "name": "research_csv_period_units_provenance",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_csv_exact_source_values_and_cells",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_csv_independent_shares_and_reconciliation",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_csv_ranked_rows",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "download_name_tourism-rank-2026-09-30.svg",
+            "passed": true,
+            "detail": "tourism-rank-2026-09-30.svg"
+          },
+          {
+            "name": "research_svg_document",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_svg_title_period_source",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_svg_visible_annotations",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_svg_embedded_fonts",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_svg_chart_and_bounds",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "download_name_tourism-rank-2026-09-30.png",
+            "passed": true,
+            "detail": "tourism-rank-2026-09-30.png"
+          },
+          {
+            "name": "research_png_signature",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "research_png_dimensions",
+            "passed": true,
+            "detail": {
+              "width": 1240,
+              "height": 1268
+            }
+          },
+          {
+            "name": "research_png_decodes_with_visible_annotations",
+            "passed": true,
+            "detail": {
+              "width": 1240,
+              "height": 1268,
+              "differentPixels": 0,
+              "headerInk": 7527,
+              "chartInk": 154029,
+              "sourceInk": 15390
+            }
+          },
+          {
+            "name": "research_png_matches_annotated_svg",
+            "passed": true,
+            "detail": {
+              "width": 1240,
+              "height": 1268,
+              "differentPixels": 0,
+              "headerInk": 7527,
+              "chartInk": 154029,
+              "sourceInk": 15390
+            }
+          },
+          {
+            "name": "mobile_rail_overflows_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_rail_scrolls_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_active_project_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_page_width_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_opens_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_navigates_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_closes_390",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_rail_overflows_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_rail_scrolls_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_active_project_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_page_width_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_opens_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_navigates_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "mobile_menu_closes_320",
+            "passed": true,
+            "detail": null
+          },
+          {
+            "name": "no_page_errors",
+            "passed": true,
+            "detail": []
+          },
+          {
+            "name": "no_console_errors",
+            "passed": true,
+            "detail": []
+          },
+          {
+            "name": "no_http_errors",
+            "passed": true,
+            "detail": []
+          }
+        ],
+        "page_errors": [],
+        "console_errors": [],
+        "http_errors": [],
+        "expected_faults": []
+      }
+    },
+    "downloads": [
+      {
+        "name": "tourism-source-62900.csv",
+        "bytes": 9826,
+        "sha256": "40ab602d9d70d332d0a566311140c2233f277d0149982782eac3985b8a86b65a",
+        "rows": 21
+      },
+      {
+        "name": "tourism-research-2026-09-30.json",
+        "bytes": 4963205,
+        "sha256": "54bbe65319fd333968393d65739e2c0b3335867a1cb7d9ffcc10e5593fcaef03"
+      },
+      {
+        "name": "tourism-regions-2026-09-30.csv",
+        "bytes": 37717,
+        "sha256": "f2b63c46734c9b4c1b646968782a81818dc9ed4136e5941dc03f35e296f52253",
+        "rows": 85
+      },
+      {
+        "name": "tourism-rank-2026-09-30.svg",
+        "bytes": 355615,
+        "sha256": "07ced5c056d81491c052a634a497da4d8abccf593af38cfd9fafef356ba24f2e"
+      },
+      {
+        "name": "tourism-rank-2026-09-30.png",
+        "bytes": 160044,
+        "sha256": "7e439139e81d1f66974201cdcf490d4aa91ab7236b1bc7845bc190ea7cb91da5"
+      }
+    ],
+    "download_bytes_rehashed_locally": true,
+    "independent_json_replay": {
+      "status": "PASS",
+      "period": "2026-09-30",
+      "observations": 1806,
+      "regions": 85,
+      "periods_checked": 21,
+      "trajectory_points_checked": 84,
+      "regional_sum": 74.4464,
+      "national_value": 74.4464,
+      "residual": 0.0,
+      "top5_share_pct": 42.169265404371465,
+      "top10_share_pct": 52.32099873197361,
+      "mismatches": 8,
+      "tolerance": 1e-08,
+      "errors": []
+    }
+  },
+  "manual_visual_review": {
+    "status": "PASS_FOR_RECORDED_SCOPE",
+    "screenshots": [
+      {
+        "path": "documentation/qa-v3-stage2/v3-stage2-context-desktop.png",
+        "source": "browser_research_context/context-family-available.png",
+        "bytes": 171488,
+        "sha256": "4425d9f27e9c4628f34ca625dde7252069f6c48a6396288ad6e2b851ff47ed7c",
+        "visually_inspected": true,
+        "identical_in_final_tested_commit": true
+      },
+      {
+        "path": "documentation/qa-v3-stage2/v3-stage2-context-mobile.png",
+        "source": "browser_research_context/context-selected-mobile-390.png",
+        "bytes": 69576,
+        "sha256": "c05f63b7908f8c17f2c10b05cabe35a6c8d5dbcf5dfc9eab79a6ff3b0ac4c3c1",
+        "visually_inspected": true,
+        "identical_in_final_tested_commit": true
+      },
+      {
+        "path": "documentation/qa-v3-stage2/v3-stage2-tourism-export.png",
+        "source": "browser_tourism/tourism-rank-2026-09-30.png",
+        "bytes": 160044,
+        "sha256": "7e439139e81d1f66974201cdcf490d4aa91ab7236b1bc7845bc190ea7cb91da5",
+        "visually_inspected": true,
+        "identical_in_final_tested_commit": true
+      }
+    ],
+    "observations": [
+      "Desktop period and region panel, indicator label and selected source value remain legible.",
+      "390 px mobile panel fits; focused period control is visibly outlined.",
+      "Downloaded PNG contains title, period, unit, source, acquisition date, data/code identifiers and complete chart labels.",
+      "Managed browser additionally checked exact cumulative request across tourism and health, an explicit compatible source, keyboard period change and all-regions persistence."
+    ],
+    "limits": [
+      "No complete WCAG conformance or assistive technology audit.",
+      "No cross-browser certification."
+    ],
+    "tested_implementation_commit": "af40247ad2fb2f5e85c703d8778e15ee0ec577cc"
+  },
+  "full_rebuild_browser": {
+    "status": "PASS",
+    "commit": "af40247ad2fb2f5e85c703d8778e15ee0ec577cc",
+    "workflow_run_id": 41337507436,
+    "job_id": 124940331839,
+    "artifact_id": 13096128446,
+    "artifact_sha256": "b83972eb6228e25b0937b00cc7930472787d333a115d610271591636cf2b975e",
+    "artifact_bytes": 34483120,
+    "artifact_crc_checked": true,
+    "suites": [
+      {
+        "suite": "browser_check",
+        "results_path": "browser_check/browser_checks.json",
+        "checks": 89,
+        "failed": 0,
+        "sha256": "6f0caa9564be2486e210460ff7f8e5cfb2f50d38b49650075c3ae6bc5b718fb0",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_competitive",
+        "results_path": "browser_competitive/results.json",
+        "checks": 526,
+        "failed": 0,
+        "sha256": "2b61c553d86472b7769f206e7d3a9370a5440d25cacf7046d499f373ef72a11f",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_dataeconomy",
+        "results_path": "browser_dataeconomy/results.json",
+        "checks": 652,
+        "failed": 0,
+        "sha256": "bb16389a552f8a962f7f95bd5f9b8d09e2ab6fec8f7476817cbfff1ecd2a0eb6",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_environment",
+        "results_path": "browser_environment/results.json",
+        "checks": 454,
+        "failed": 0,
+        "sha256": "052dfae5c34ddc615fb395d19fdfa73eba5ada45e300020ead41a585a42dd7b8",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_export",
+        "results_path": "browser_export/results.json",
+        "checks": 238,
+        "failed": 0,
+        "sha256": "09b650b1586b18a4fd9fc2575201137bdcb929428135cf3c227ade36e4512810",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_healthtech",
+        "results_path": "browser_healthtech/results.json",
+        "checks": 391,
+        "failed": 0,
+        "sha256": "0e0dbc400ee0d35bc7b59106674e5a18afb7b74dba09e8527bc2c74d73680e7d",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_infrastructure",
+        "results_path": "browser_infrastructure/results.json",
+        "checks": 417,
+        "failed": 0,
+        "sha256": "e5facdab5add70685bd1834173ecee73aad52f9ccc463fab4a50f1188262ea35",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_live",
+        "results_path": "browser_live/live_checks.json",
+        "checks": 2079,
+        "failed": 0,
+        "sha256": "5f9667e5c48092f1b56bf4ebd75f667562aab967e8c9aa61342c18ad5d73a3df",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_longlife",
+        "results_path": "browser_longlife/results.json",
+        "checks": 403,
+        "failed": 0,
+        "sha256": "d384e6ac747ac1ce68dcabfcaff9e9cacd6af02ca62dd0f6f0aef92d7fd8e400",
+        "expected_faults": [
+          {
+            "url": "http://127.0.0.1:36021/family/data/projects/long_active_life/series/62926.json",
+            "status": 503,
+            "retry_requests": 2
+          }
+        ],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_personnel",
+        "results_path": "browser_personnel/results.json",
+        "checks": 327,
+        "failed": 0,
+        "sha256": "44b1667b4801aeee1b81a55bc5873385b6ef88031de0de0b52b86ff7f494f74f",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_platform_system",
+        "results_path": "browser_platform_system/platform-system.json",
+        "checks": 33,
+        "failed": 0,
+        "sha256": "e1a49f9f4e60e5273b93aeaf42ee15e0d68220bbb9201e6fa98216ddf8506476",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_redesign",
+        "results_path": "browser_redesign/redesign_checks.json",
+        "checks": 29,
+        "failed": 0,
+        "sha256": "a89def85a1188816831864f52843cf9381d688bcbc3da627adace61eec0d6cf8",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_research_context",
+        "results_path": "browser_research_context/results.json",
+        "checks": 61,
+        "failed": 0,
+        "sha256": "cb7f5e5107abb0e4bf8ceb7a5eb7c22fc17486bec5190c3a6a90290020006896",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_tourism",
+        "results_path": "browser_tourism/results.json",
+        "checks": 188,
+        "failed": 0,
+        "sha256": "a83f38f108a5878e4ce67ab848fc77a5cc168153ecd60e18f351be9be8b36845",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_transport",
+        "results_path": "browser_transport/results.json",
+        "checks": 246,
+        "failed": 0,
+        "sha256": "8a0daff7fc607193b5b9047f7b7ad3ce28bc2d4eca6da717e7ca5bdf3c5e9ff2",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_upgrade",
+        "results_path": "browser_upgrade/checks.json",
+        "checks": 42,
+        "failed": 0,
+        "sha256": "a1aefa0d0068196d4ce332b5cf5608392347dd985b01b026ea6b85675f8fa855",
+        "expected_faults": [],
+        "status": "PASS"
+      },
+      {
+        "suite": "browser_youth",
+        "results_path": "browser_youth/results.json",
+        "checks": 282,
+        "failed": 0,
+        "sha256": "322c479f71d33aec31e6c4ca58b8d56ca4897aef7950a272c7312bc7dbbe6ef6",
+        "expected_faults": [],
+        "status": "PASS"
+      }
+    ],
+    "suite_count": 17,
+    "passed_checks": 6457,
+    "failed_checks": 0,
+    "interpretation": "All suite processes completed successfully. Check records are appended after assertions or carry explicit passed/pass flags. Fault-injection responses are recorded separately from unexpected errors.",
+    "data_scope": "Full analytical rebuild in CI. Its generated scientific outputs are not copied into the cumulative archive."
+  },
+  "previous_run": {
+    "commit": "0504afd0d7372c7dc94686fae581ea723433940e",
+    "workflow_run_id": 41336023670,
+    "assembled_release_checks": 249,
+    "assembled_release_status": "PASS",
+    "full_browser_status": "FAILED_AND_CORRECTED",
+    "failure": "Health source503 bypassed local retry during preliminary context loading",
+    "correction": "Shared local error rendering; explicit retry re-runs the entire context resolution; no automatic second request."
+  },
+  "post_test_changes": {
+    "scope": "README validation instructions, synchronized README copies, own-tree download indexes and verification metadata only.",
+    "executable_code_changed": false,
+    "scientific_payload_changed": false,
+    "final_indexes_and_pages_verified_locally": true
+  }
+}

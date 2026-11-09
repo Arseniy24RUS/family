@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "project_id": "life_infrastructure",
+  "current_review_basis": "published_infrastructure_sources_report_and_independent_recalculation",
+  "items": [
+    {
+      "method_id": "theory_of_change",
+      "current_status": "author_framework_published",
+      "current_status_label": "Опубликована авторская рамка",
+      "current_limitations": "Критерии экспертизы и предполагаемые механизмы перенесены из отчёта. Теория изменений сама по себе не подтверждает причинный эффект."
+    },
+    {
+      "method_id": "project_hierarchy",
+      "current_status": "source_structure_extracted",
+      "current_status_label": "Структура извлечена из паспортов",
+      "current_limitations": "Национальный проект и федеральные проекты сохраняют собственные документы, редакции и адреса карточек."
+    },
+    {
+      "method_id": "activity_inventory",
+      "current_status": "source_inventory_extracted",
+      "current_status_label": "Реестр извлечён из источников",
+      "current_limitations": "Цели, задачи, результаты и показатели различаются. Повтор задачи в структуре национального проекта маркируется отдельно."
+    },
+    {
+      "method_id": "activity_indicator_links",
+      "current_status": "source_relationships_audited",
+      "current_status_label": "Документальные связи проверены",
+      "current_limitations": "Общая задача, принадлежность проекту и текстовое сходство показаны раздельно. Неразрешённые ссылки и веса не назначаются произвольной паре."
+    },
+    {
+      "method_id": "source_quality",
+      "current_status": "source_specific_contracts_verified",
+      "current_status_label": "Контракты источников проверены",
+      "current_limitations": "Исходные ячейки и подписи сохранены. Единицы, периоды, пропуски, будущие даты и синхронные нули проверяются по контракту каждого источника."
+    },
+    {
+      "method_id": "observability",
+      "current_status": "computed_from_source_packets",
+      "current_status_label": "Покрытие рассчитано по выгрузкам",
+      "current_limitations": "Карточки каталога и независимые источники различаются. Числа, пропуски и исключения считаются отдельно."
+    },
+    {
+      "method_id": "time_dynamics",
+      "current_status": "computed_matching_frequency_category",
+      "current_status_label": "Рассчитана сопоставимая динамика",
+      "current_limitations": "Сравниваются одинаковые категории, частоты и календарные горизонты. Для индекса 62872 временное сравнение заблокировано из-за изменения методики."
+    },
+    {
+      "method_id": "target_comparison",
+      "current_status": "documented_annual_comparisons",
+      "current_status_label": "Выполнены годовые сопоставления",
+      "current_limitations": "Годовые факты и явно обозначенное полное ипотечное накопление сравниваются с датированной редакцией цели. Это не подтверждает выполнение первоначального задания."
+    },
+    {
+      "method_id": "forecasting",
+      "current_status": "model_not_validated",
+      "current_status_label": "Прогнозная модель не подтверждена",
+      "current_limitations": "Доступны условные траектории при заданных предпосылках. Вероятности достижения целей и качество прогнозной модели не установлены."
+    },
+    {
+      "method_id": "geographical_join",
+      "current_status": "explicit_scope_mapping",
+      "current_status_label": "Территории сопоставлены явно",
+      "current_limitations": "Исходные названия сохранены. Строки без автономных округов отделены от агрегатов; неуточнённый территориальный охват отмечен."
+    },
+    {
+      "method_id": "regional_maps",
+      "current_status": "matched_source_slices",
+      "current_status_label": "Показаны сопоставимые срезы",
+      "current_limitations": "Каждая карта относится к одному источнику, периоду, частоте и категории. Отсутствующие значения не заменяются нулём."
+    },
+    {
+      "method_id": "regional_descriptive",
+      "current_status": "unweighted_regions",
+      "current_status_label": "Рассчитаны региональные распределения",
+      "current_limitations": "Квантили type 7 и невзвешенное среднее относятся к сопоставимым территориям. Показатель России берётся из источника."
+    },
+    {
+      "method_id": "correlations",
+      "current_status": "author_82_strict_80_recomputed",
+      "current_status_label": "Корреляции пересчитаны",
+      "current_limitations": "Шесть характеристик сопоставлены на авторской выборке из 82 территорий и строгой выборке из 80. Импутация не применяется; корреляция не устанавливает эффект."
+    },
+    {
+      "method_id": "pca",
+      "current_status": "not_claimed_in_author_analysis",
+      "current_status_label": "В этой экспертизе не рассчитывается",
+      "current_limitations": "Анализ главных компонент не включён в подтверждённые результаты данной экспертизы."
+    },
+    {
+      "method_id": "kmeans",
+      "current_status": "not_claimed_in_author_analysis",
+      "current_status_label": "В этой экспертизе не рассчитывается",
+      "current_limitations": "Кластерная типология и интегральный рейтинг не установлены."
+    },
+    {
+      "method_id": "multivariate_stability",
+      "current_status": "explicit_geographic_sensitivity",
+      "current_status_label": "Проверена чувствительность к составу территорий",
+      "current_limitations": "Корреляции на 82 и 80 территориях сопоставляются при сохранении исходных единиц, частот и периодов каждого признака."
+    },
+    {
+      "method_id": "isolation_forest",
+      "current_status": "not_claimed_in_author_analysis",
+      "current_status_label": "В этой экспертизе не рассчитывается",
+      "current_limitations": "Модель Isolation Forest не обучалась. Контроль исходных значений не обозначается машинным поиском аномалий."
+    },
+    {
+      "method_id": "moran_global",
+      "current_status": "not_claimed_in_author_analysis",
+      "current_status_label": "В этой экспертизе не рассчитывается",
+      "current_limitations": "Глобальный индекс Moran I и пространственная значимость не оценивались."
+    },
+    {
+      "method_id": "moran_local",
+      "current_status": "not_claimed_in_author_analysis",
+      "current_status_label": "В этой экспертизе не рассчитывается",
+      "current_limitations": "Локальные пространственные ассоциации LISA не оценивались."
+    },
+    {
+      "method_id": "regional_similarity",
+      "current_status": "descriptive_profiles",
+      "current_status_label": "Доступно сопоставление профилей",
+      "current_limitations": "Профили жилищных и транспортных условий сопоставляются описательно. Сеть сходства не выдаётся за выявленную типологию."
+    },
+    {
+      "method_id": "relative_profiles",
+      "current_status": "descriptive_source_values",
+      "current_status_label": "Показаны исходные региональные значения",
+      "current_limitations": "Профили сохраняют единицы, частоты, годы и территориальный охват источников. Сводный рейтинг не строится."
+    },
+    {
+      "method_id": "budget_registry",
+      "current_status": "plans_reconciled",
+      "current_status_label": "Планы извлечены и сверены",
+      "current_limitations": "Паспортный план 2025–2030 годов отделён от ассигнований и бюджетных предложений 2026–2029 годов. Разница сумм НП и ФП раскрыта; кассовое исполнение не установлено."
+    },
+    {
+      "method_id": "budget_hhi",
+      "current_status": "computed_source_scope",
+      "current_status_label": "Доли и HHI рассчитаны",
+      "current_limitations": "Индекс концентрации относится к выбранной сопоставимой финансовой рамке и не измеряет эффективность расходов."
+    },
+    {
+      "method_id": "budget_observability",
+      "current_status": "descriptive_documentary_audit",
+      "current_status_label": "Выполнен документальный анализ",
+      "current_limitations": "Показаны структура ресурсов, результатов и измерений. Стоимость причинного эффекта и бюджетная результативность не оценены."
+    },
+    {
+      "method_id": "activity_network",
+      "current_status": "evidence_classes_separated",
+      "current_status_label": "Классы связей разделены",
+      "current_limitations": "Документальная принадлежность и кандидаты по смысловому сходству доступны раздельно. Центральность и причинная сила связи не заявляются."
+    },
+    {
+      "method_id": "lexical_frequencies",
+      "current_status": "fixed_corpus_recomputed",
+      "current_status_label": "Частоты корпуса пересчитаны",
+      "current_limitations": "Независимая обработка фиксированного корпуса воспроизводима. Отличия от чисел отчёта раскрыты; исходный авторский код отсутствует."
+    },
+    {
+      "method_id": "dictionary_frames",
+      "current_status": "dictionary_frames_recomputed",
+      "current_status_label": "Словарные рамки рассчитаны",
+      "current_limitations": "Совпадения проверяются в контексте. Частота слов не измеряет результативность политики."
+    },
+    {
+      "method_id": "tfidf_cosine",
+      "current_status": "independent_sensitivity_recomputed",
+      "current_status_label": "Сходство пересчитано в шести спецификациях",
+      "current_limitations": "Представления текста и способ объединения документов заданы явно. Лексическое сходство не подтверждает содержательное или причинное тождество."
+    },
+    {
+      "method_id": "text_clustering",
+      "current_status": "not_computed",
+      "current_status_label": "Кластеризация не выполнялась",
+      "current_limitations": "Матрица близости и ранжирование соседей не обозначаются иерархической кластеризацией."
+    },
+    {
+      "method_id": "concept_cooccurrence",
+      "current_status": "not_computed",
+      "current_status_label": "Отдельная модель не рассчитывалась",
+      "current_limitations": "Опубликованы словарные частоты и контексты. Отдельная сеть совместного присутствия понятий не оценена."
+    },
+    {
+      "method_id": "context_search",
+      "current_status": "source_contexts_published",
+      "current_status_label": "Контексты доступны для проверки",
+      "current_limitations": "Совпадение связано с документом и исходным фрагментом. Тексты загружаются по запросу."
+    },
+    {
+      "method_id": "domain_evidence",
+      "current_status": "author_qualitative_analysis_published",
+      "current_status_label": "Опубликован предметный анализ",
+      "current_limitations": "Авторские выводы о жилищных, коммунальных, транспортных и пространственных условиях связаны с исходными разделами отчёта."
+    },
+    {
+      "method_id": "expert_domain_scale",
+      "current_status": "not_computed",
+      "current_status_label": "Шкала 0–4 не рассчитывалась",
+      "current_limitations": "Числовые экспертные оценки не добавлены без исходного протокола и выставленных автором баллов."
+    },
+    {
+      "method_id": "policy_scenario_framework",
+      "current_status": "conditional_arithmetic_no_causal_effect",
+      "current_status_label": "Условный расчёт",
+      "current_limitations": "Сценарии зависят от задаваемых предпосылок. Расчёт не оценивает причинный вклад национального проекта."
+    },
+    {
+      "method_id": "causal_designs",
+      "current_status": "design_proposed_effect_not_identified",
+      "current_status_label": "Предложен дизайн оценки",
+      "current_limitations": "Авторские предложения по идентификации эффекта опубликованы. Контрфактическая оценка по доступным данным не выполнена."
+    },
+    {
+      "method_id": "heterogeneous_causal_effects",
+      "current_status": "effect_not_identified",
+      "current_status_label": "Причинный эффект не установлен",
+      "current_limitations": "Causal forests и double machine learning не обучались; неоднородность причинного эффекта не оценена."
+    },
+    {
+      "method_id": "recommendations",
+      "current_status": "author_synthesis_published",
+      "current_status_label": "Опубликованы авторские предложения",
+      "current_limitations": "Выводы и рекомендации сохраняют статус авторской экспертизы и собственные основания."
+    },
+    {
+      "method_id": "cohort_projection",
+      "current_status": "not_implemented_without_population_inputs",
+      "current_status_label": "Нет данных для когортной проекции",
+      "current_limitations": "Для этой экспертизы нет согласованного комплекта половозрастных входов. Жилищная декомпозиция H/N не заменяет когортную передвижку."
+    },
+    {
+      "method_id": "interactive_lab",
+      "current_status": "source_backed_reproducible_calculations",
+      "current_status_label": "Доступны воспроизводимые расчёты",
+      "current_limitations": "Динамика, распределения и корреляции используют проверенные наблюдения. Дополнительные калькуляторы и сценарии обозначают пользовательские предпосылки."
+    }
+  ]
+}

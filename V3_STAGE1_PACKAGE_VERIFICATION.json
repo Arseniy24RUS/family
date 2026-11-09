@@ -1,0 +1,24 @@
+{
+  "schema": "national-projects.package-verification/1",
+  "version": "3.0.0-stage.1",
+  "release_date": "2026-10-31",
+  "verified_date": "2026-11-01",
+  "code_commit": "52b4b5293bfce886a0f32813f0ce3807ed23f29a",
+  "full": {
+    "name": "NationalProjects_Platform_3.0.0-stage.1_FULL.zip",
+    "bytes": 820941290,
+    "sha256": "ab47b23d191bb0e12d4ba00f39799daa4701f855db60dd98a29b94d250b72bce",
+    "files": 8293
+  },
+  "logical_files": 8293,
+  "uncompressed_bytes": 2931455835,
+  "packaging_mode": "full",
+  "deduplicated_copies": 0,
+  "crc_entries_verified": 8293,
+  "manifest_file_sha256_checks": 8292,
+  "release_manifest_sha256": "d40ad6c59f0b96d8c9854b9e2d91211d101668229764b8d0468d66222e48cc1b",
+  "archive_manifest_matches_repository": true,
+  "status": "PASS",
+  "scope": "Целостность и состав ZIP. Приёмка интерфейсных выгрузок и ограничения научной интерпретации описаны в V3_STAGE1_VERIFICATION.json.",
+  "metadata_note": "Эта запись создаётся после ZIP и хранится вне архива, чтобы избежать циклических контрольных сумм."
+}

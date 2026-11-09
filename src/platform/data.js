@@ -19,5 +19,8 @@ export const environmentData=()=>completeProjectData('environment');
 export const competitiveData=()=>completeProjectData('competitive_economy');
 export const dataeconomyData=()=>completeProjectData('data_economy');
 export const tourismData=()=>completeProjectData('tourism');
+/** The v3 pilot needs the observation packet, not the complete report corpus. */
+export const tourismResearchData=()=>json('./data/projects/tourism/research.json');
+export const isTourismResearchPage=(project,page)=>project==='tourism'&&['overview','map','regions','causal'].includes(page);
 export const efficientTransportData=()=>completeProjectData('efficient_transport');
 export const internationalExportData=()=>completeProjectData('international_export');

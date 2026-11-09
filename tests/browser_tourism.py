@@ -1,24 +1,33 @@
 """HTTP smoke acceptance for Tourism, including the /family/ Pages subpath.
 
 Run by tests/run_browser.py in CI with Playwright / Chromium. This suite covers
-all research routes and a small set of real user interactions. Series are read
-through the application, so both the full site and the gzip publication view
-exercise the same UI contract.
+all research routes, real user interactions and downloaded research artifacts.
+Series are read through the application, so both the full site and the gzip
+publication view exercise the same UI contract. The UI JSON download is replayed
+by the independent Python verifier; CSV, SVG and PNG bytes are checked as well.
 """
 import argparse
 import asyncio
+import base64
 import csv
+from decimal import Decimal
 import hashlib
 import io
 import json
 from pathlib import Path
+import re
+import struct
+import subprocess
+import sys
 from urllib.parse import urlencode, urljoin
+import xml.etree.ElementTree as ET
 
 from playwright.async_api import async_playwright
 from browser_json import get_json as published_json
 
 
 PROJECT = 'tourism'
+ROOT = Path(__file__).resolve().parents[1]
 PAGES = ['overview', 'framework', 'logic', 'audit', 'targets', 'map', 'regions',
          'finance', 'network', 'texts', 'domains', 'causal', 'proposals',
          'projections', 'population', 'structure', 'methods', 'lab',
@@ -80,6 +89,25 @@ async def run(args):
                 await action()
             except Exception as error:
                 check(name, False, str(error))
+
+        async def save_download(control, filename):
+            # Exercise the user action and browser download, never the serializer directly.
+            async with page.expect_download(timeout=45000) as event:
+                await control.click()
+            artifact = await event.value
+            failure = await artifact.failure()
+            if failure:
+                raise AssertionError('Download failed: ' + failure)
+            check('download_name_' + filename, artifact.suggested_filename == filename,
+                  artifact.suggested_filename)
+            destination = output / filename
+            await artifact.save_as(destination)
+            payload = destination.read_bytes()
+            if not payload:
+                raise AssertionError('Empty downloaded file: ' + filename)
+            downloads.append({'name': filename, 'bytes': len(payload),
+                              'sha256': hashlib.sha256(payload).hexdigest()})
+            return destination, payload
 
         for name in PAGES:
             async def route_check(name=name):
@@ -164,6 +192,188 @@ async def run(args):
             downloads.append({'name': destination.name, 'bytes': len(payload),
                               'sha256': hashlib.sha256(payload).hexdigest(), 'rows': len(rows)})
         await group('csv_download', csv_download)
+
+        research_period = '2026-09-30'
+        research_label = 'Январь–сентябрь 2026'
+        research_regions = ['77', '23', '24']
+        research_state = {'period': research_period, 'regions': ','.join(research_regions),
+                          'region': '24'}
+        research_inputs = {}
+        figure_export = {}
+
+        async def research_data():
+            if not research_inputs:
+                source, packet = await asyncio.gather(
+                    published_json(context, base, 'data/projects/tourism/series/62900.json'),
+                    published_json(context, base, 'data/projects/tourism/research.json'))
+                research_inputs.update(source=source, packet=packet)
+            return research_inputs['source'], research_inputs['packet']
+
+        async def research_json_download():
+            source, packet = await research_data()
+            await route('regions', {**research_state, 'view': 'table'})
+            destination, payload = await save_download(
+                page.get_by_role('button', name='Скачать исследование', exact=True),
+                'tourism-research-' + research_period + '.json')
+            bundle = json.loads(payload)
+            settings = bundle['settings']
+            check('research_json_selected_context',
+                  settings['requestedPeriod'] == research_period == settings['appliedPeriod'] and
+                  settings['regions'] == research_regions and settings['view'] == 'regions/table', settings)
+            check('research_json_complete_source_rows',
+                  bundle['source_observations'] == source['observations'] and
+                  len(bundle['source_observations']) == 1806)
+            provenance = bundle['provenance']
+            check('research_json_provenance',
+                  provenance['source_sha256'] == packet['source_sha256'] and
+                  provenance['snapshot_ids'] == [source['snapshot_id']] and
+                  provenance['source_url'] == 'https://www.fedstat.ru/indicator/62900' and
+                  provenance['statistical_as_of'] == packet['statistical_as_of'] and
+                  provenance['code_version'] == settings['version'])
+            replay_path = output / 'tourism-research-replay.json'
+            replay = subprocess.run(
+                [sys.executable, str(ROOT / 'scripts/reproduce_tourism_research.py'),
+                 str(destination), '--output', str(replay_path)],
+                cwd=ROOT, capture_output=True, text=True, timeout=30)
+            receipt = json.loads(replay_path.read_text(encoding='utf-8'))
+            check('research_json_independent_python_replay',
+                  replay.returncode == 0 and receipt['status'] == 'PASS',
+                  {'returncode': replay.returncode, 'receipt': receipt, 'stderr': replay.stderr})
+            check('research_json_replay_scope',
+                  (receipt.get('observations'), receipt.get('regions'), receipt.get('periods_checked'),
+                   receipt.get('trajectory_points_checked'), receipt.get('mismatches')) ==
+                  (1806, 85, 21, 84, 8))
+        await group('research_json_download', research_json_download)
+
+        async def research_csv_download():
+            source, packet = await research_data()
+            await route('regions', {**research_state, 'view': 'table'})
+            table = panel('Все территории выбранного среза')
+            check('research_csv_table_is_paginated', await table.locator('tbody tr').count() == 15)
+            await table.get_by_label('Поиск по таблице', exact=True).fill('Красноярский')
+            check('research_csv_table_is_filtered', await table.locator('tbody tr').count() == 1)
+            _, payload = await save_download(
+                table.get_by_role('button', name='CSV всего среза', exact=True),
+                'tourism-regions-' + research_period + '.csv')
+            rows = list(csv.DictReader(io.StringIO(payload.decode('utf-8-sig')), delimiter=';'))
+            expected = {row['map_id']: row for row in source['observations']
+                        if row['period_end'] == research_period and row['geo_level'] == 'regional'}
+            check('research_csv_whole_slice_after_filter',
+                  len(rows) == len(expected) == 85 and
+                  {row['region_id'] for row in rows} == set(expected), {'rows': len(rows)})
+            check('research_csv_period_units_provenance', bool(rows) and all(
+                row['period_start'] == '2026-01-01' and row['period_end'] == research_period and
+                row['unit'] == 'млн поездок' and row['temporal_type'] == 'cumulative_ytd' and
+                row['source_id'] == '62900' and
+                row['source_url'] == 'https://www.fedstat.ru/indicator/62900' and
+                row['snapshot_id'] == source['snapshot_id'] and
+                row['source_sha256'] == packet['source_sha256'] and
+                row['comparison_status'] == 'requires_edition_review' and bool(row['code_version'])
+                for row in rows))
+            check('research_csv_exact_source_values_and_cells', all(
+                row['territory'] == expected[row['region_id']]['name'] and
+                Decimal(row['value']) == Decimal(str(expected[row['region_id']]['value'])) and
+                row['source_cell'] == expected[row['region_id']]['source_cell_attributes']['source_cell']
+                for row in rows))
+            total = sum(Decimal(str(row['value'])) for row in expected.values())
+            national = next(Decimal(str(row['value'])) for row in source['observations']
+                            if row['period_end'] == research_period and row['geo_level'] == 'national')
+            tolerance = Decimal('0.000000001')
+            check('research_csv_independent_shares_and_reconciliation', all(
+                abs(Decimal(row['share_of_observed_regions_pct']) - Decimal(row['value']) / total * 100) < tolerance and
+                abs(Decimal(row['regional_sum']) - total) < tolerance and
+                abs(Decimal(row['national_value']) - national) < tolerance and
+                abs(Decimal(row['national_minus_regions']) - (national - total)) < tolerance
+                for row in rows))
+            check('research_csv_ranked_rows',
+                  [int(row['rank']) for row in rows] == list(range(1, 86)) and
+                  [Decimal(row['value']) for row in rows] ==
+                  sorted((Decimal(row['value']) for row in rows), reverse=True))
+            downloads[-1]['rows'] = len(rows)
+        await group('research_csv_download', research_csv_download)
+
+        async def research_svg_download():
+            _, packet = await research_data()
+            await route('regions', {**research_state, 'view': 'ranking'})
+            _, payload = await save_download(
+                panel('Распределение поездок').get_by_role('button', name='SVG', exact=True),
+                'tourism-rank-' + research_period + '.svg')
+            svg = ET.fromstring(payload)
+            ns = '{http://www.w3.org/2000/svg}'
+            check('research_svg_document', svg.tag == ns + 'svg')
+            title = 'Территории по объёму поездок · ' + research_label
+            source = svg.findtext(ns + 'desc', '')
+            acquired_date = '.'.join(packet['statistical_as_of'][:10].split('-')[::-1])
+            source_terms = ['ЕМИСС 62900', research_label, 'млн поездок', 'накопленным итогом',
+                            packet['source_sha256'][:12], acquired_date]
+            check('research_svg_title_period_source',
+                  svg.findtext(ns + 'title') == title and all(term in source for term in source_terms))
+            # Direct text nodes are the visible annotation, distinct from accessibility metadata.
+            visible = ' '.join(''.join(node.itertext()) for node in svg.findall(ns + 'text'))
+            check('research_svg_visible_annotations', title in visible and source.strip() in visible)
+            fonts = re.findall(r'data:font/woff;base64,([A-Za-z0-9+/=]+)', payload.decode('utf-8'))
+            check('research_svg_embedded_fonts',
+                  len(fonts) == 3 and all(base64.b64decode(font).startswith(b'wOFF') for font in fonts))
+            chart = svg.find(ns + 'svg')
+            width, height = int(svg.attrib['width']), int(svg.attrib['height'])
+            top, chart_height = float(chart.attrib['y']), float(chart.attrib['height'])
+            check('research_svg_chart_and_bounds',
+                  width > 0 and height > top + chart_height and len(chart.findall('.//' + ns + 'rect')) >= 15)
+            figure_export.update(svg=payload, width=width, height=height,
+                                 top=top, chart_bottom=top + chart_height)
+        await group('research_svg_download', research_svg_download)
+
+        async def research_png_download():
+            await route('regions', {**research_state, 'view': 'ranking'})
+            _, payload = await save_download(
+                panel('Распределение поездок').get_by_role('button', name='PNG', exact=True),
+                'tourism-rank-' + research_period + '.png')
+            check('research_png_signature', payload[:8] == b'\x89PNG\r\n\x1a\n' and payload[12:16] == b'IHDR')
+            width, height = struct.unpack('>II', payload[16:24])
+            if not figure_export:
+                raise AssertionError('PNG downloaded; SVG acceptance failed, so image comparison is unavailable')
+            check('research_png_dimensions',
+                  (width, height) == (figure_export['width'] * 2, figure_export['height'] * 2),
+                  {'width': width, 'height': height})
+            # Decode the downloaded bytes and compare every pixel with the separately
+            # downloaded SVG whose visible title, period and provenance were checked above.
+            # Also require ink in all three bands, so two blank images cannot pass.
+            raster = await page.evaluate('''async ({png, svg, top, bottom}) => {
+                const load = (type, data) => new Promise((resolve, reject) => {
+                    const image = new Image();
+                    image.onload = () => resolve(image);
+                    image.onerror = () => reject(new Error('Downloaded image cannot be decoded'));
+                    image.src = 'data:' + type + ';base64,' + data;
+                });
+                const [actual, expected] = await Promise.all([load('image/png', png), load('image/svg+xml', svg)]);
+                const width = actual.naturalWidth, height = actual.naturalHeight;
+                const pixels = image => {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = width; canvas.height = height;
+                    const context = canvas.getContext('2d');
+                    context.drawImage(image, 0, 0, width, height);
+                    return context.getImageData(0, 0, width, height).data;
+                };
+                const a = pixels(actual), b = pixels(expected);
+                let different = 0, headerInk = 0, chartInk = 0, sourceInk = 0;
+                for (let i = 0; i < a.length; i += 4) {
+                    if ([0, 1, 2, 3].some(c => Math.abs(a[i + c] - b[i + c]) > 2)) different++;
+                    if (a[i + 3] > 0 && Math.min(a[i], a[i + 1], a[i + 2]) < 220) {
+                        const y = Math.floor(i / 4 / width);
+                        if (y < top * 2) headerInk++;
+                        else if (y >= bottom * 2) sourceInk++;
+                        else chartInk++;
+                    }
+                }
+                return {width, height, differentPixels: different, headerInk, chartInk, sourceInk};
+            }''', {'png': base64.b64encode(payload).decode('ascii'),
+                   'svg': base64.b64encode(figure_export['svg']).decode('ascii'),
+                   'top': figure_export['top'], 'bottom': figure_export['chart_bottom']})
+            check('research_png_decodes_with_visible_annotations',
+                  (raster['width'], raster['height']) == (width, height) and
+                  all(raster[key] > 100 for key in ['headerInk', 'chartInk', 'sourceInk']), raster)
+            check('research_png_matches_annotated_svg', raster['differentPixels'] == 0, raster)
+        await group('research_png_download', research_png_download)
 
         for width in [390, 320]:
             async def mobile_navigation(width=width):

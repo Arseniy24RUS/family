@@ -14,7 +14,7 @@ PROJECT='data_economy'
 REL=f'downloads/projects/{PROJECT}/documentary/'
 YEARS=list(range(2025,2031))
 NAMES={'family':'Семья','personnel':'Кадры','youth_children':'Молодёжь и дети','long_active_life':'Продолжительная и активная жизнь','health_technologies':'Новые технологии сбережения здоровья','life_infrastructure':'Инфраструктура для жизни','environment':'Экологическое благополучие','data_economy':'Экономика данных и цифровая трансформация государства','competitive_economy':'Эффективная и конкурентная экономика','efficient_transport':'Эффективная транспортная система','international_export':'Международная кооперация и экспорт','tourism':'Туризм и гостеприимство'}
-def dump(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+def dump(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8', newline='\n')
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def csv_write(p,rows,columns=None):
  p.parent.mkdir(parents=True,exist_ok=True)
@@ -132,6 +132,7 @@ def amounts(value):
 
 
 from dataeconomy_budget import build_budget
+from reproducible_output import gzip_bytes
 
 
 def build_finance(root, folder, docs):
@@ -364,7 +365,7 @@ def build(root=APP, verify=False):
         shutil.copy2(folder/name,output/name)
     inp={'source_manifest':manifest,'selected_passports':selected,'text_parameters':text['method'],'theme_dictionary':text['dictionary'],
         'shared_corpus_archive':manifest['shared_archive_download'],'shared_corpus_sha256':manifest['archive_sha256']}
-    (output/'documentary_inputs.json.gz').write_bytes(gzip.compress((json.dumps(inp,ensure_ascii=False,allow_nan=False)+'\n').encode(),mtime=0))
+    (output/'documentary_inputs.json.gz').write_bytes(gzip_bytes((json.dumps(inp,ensure_ascii=False,allow_nan=False)+'\n').encode()))
     result_file=f'data/projects/{PROJECT}/documentary-finance/results.json'
     finance['resultsFile']=result_file
     dump(root/'public'/result_file,{'project_id':PROJECT,'unit':'тыс. руб.','resultYears':finance['resultYears'],

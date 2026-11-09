@@ -11,7 +11,7 @@ REPORT_NAME = 'expertise_competitive_2026'
 
 def dump(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + '\n', encoding='utf-8')
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + '\n', encoding='utf-8', newline='\n')
 
 
 def norm(text):
@@ -132,7 +132,7 @@ def build(app, source, render=None):
     for raw, figure in zip(report['figures'], figures):
         original_image = blocks[raw['block']]['images'][0]
         markdown = markdown.replace('[IMAGE: ' + original_image + ']', '![' + figure['title'] + '](' + Path(figure['url']).name + ')')
-    (destination / (REPORT_NAME + '.md')).write_text(markdown + '\n# Сноски и источники\n\n' + '\n\n'.join(f"[{f['id']}] {f['text']}" for f in report['footnotes']) + '\n', encoding='utf-8')
+    (destination / (REPORT_NAME + '.md')).write_text(markdown + '\n# Сноски и источники\n\n' + '\n\n'.join(f"[{f['id']}] {f['text']}" for f in report['footnotes']) + '\n', encoding='utf-8', newline='\n')
     for table in tables:
         with (destination / (table['id'] + '.csv')).open('w', encoding='utf-8-sig', newline='') as stream:
             writer = csv.writer(stream)

@@ -21,7 +21,7 @@ def norm(text):return re.sub(r'\s+',' ',str(text or '')).strip().lower().replace
 def numrows(rows):
     return [{k:(float(v) if v not in ('',None) and k in NUMERIC else v) for k,v in r.items()} for r in rows]
 def dump(path,obj):
-    path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(obj,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+    path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(obj,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8', newline='\n')
 def rows_csv(path,rows):
     if not rows:return
     path=Path(path);fields=list(rows[0]);temporary=None
@@ -205,7 +205,7 @@ def build(root=Path(__file__).resolve().parents[1],verify=False):
              'text':compact_text,'network':compact_network,'sources':keep(sources,['document_id','title','source_url','source_version','source_kind','source_sha256','snapshot_at','archive_entry','download_archive'])}
     compact['downloads']['full_documentary']=REL+'documentary_full.json'
     # Compact JSON is intentionally minified; substantive data are retained.
-    (out/'documentary.json').write_text(json.dumps(compact,ensure_ascii=False,separators=(',',':'),allow_nan=False)+'\n',encoding='utf-8')
+    (out/'documentary.json').write_text(json.dumps(compact,ensure_ascii=False,separators=(',',':'),allow_nan=False)+'\n',encoding='utf-8', newline='\n')
     dump(out/'targets.json',targets)
     for name,rows in t.items():rows_csv(download/(name+'.csv'),rows)
     checks={'passed':True,'finance_total_thousand_rub':finance['totalThousandRub'],'national_total_thousand_rub':finance['nationalThousandRub'],'reconciliation_gap_thousand_rub':finance['differenceThousandRub'],'finance_project_year_cells':sum(len(p['years']) for p in finance['projects']),'hhi':finance['hhi'],'targets':len(targets['items'])*6,

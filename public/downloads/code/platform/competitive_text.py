@@ -9,12 +9,13 @@ from pathlib import Path
 import csv,gzip,hashlib,json,re
 from author_tfidf import fit_author_tfidf
 from extract_competitive_passports import norm,TOKEN_RE
+from reproducible_output import descending_term_indices
 
 PROJECT='competitive_economy'
 NAMES={'family':'Семья','personnel':'Кадры','youth_children':'Молодёжь и дети','long_active_life':'Продолжительная и активная жизнь','life_infrastructure':'Инфраструктура для жизни','environment':'Экологическое благополучие','data_economy':'Экономика данных и цифровая трансформация государства','competitive_economy':'Эффективная и конкурентная экономика','efficient_transport':'Эффективная транспортная система','international_export':'Международная кооперация и экспорт','tourism':'Туризм и гостеприимство'}
 
 def dump(p,data):
- p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+ p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8', newline='\n')
 def csv_write(p,rows):
  keys=list(dict.fromkeys(k for r in rows for k in r))
  with p.open('w',encoding='utf-8-sig',newline='') as f:
@@ -109,7 +110,7 @@ def build_text(folder,all_docs,selected,output,data_dir):
       'cosine':float((matrix[a]@matrix[b].T).toarray()[0,0]),'origin':'replayed_author_model'})
  terms=vectorizer.get_feature_names_out();top=[]
  for did,values in [('project',variants['base'][selected_index])]+[(short_id[docs[i]['document_id']],matrix[i].toarray()[0]) for i in ids]:
-  for rank,k in enumerate(np.argsort(-values)[:50],1):
+  for rank,k in enumerate(descending_term_indices(values,terms)[:50],1):
    top.append({'document_id':did,'rank':rank,'term':str(terms[k]),'weight':float(values[k]),'origin':'replayed_author_model'})
  dictionary=json.loads((folder/'theme_dictionary.json').read_text())
  frames=[{'id':key,'frame':key,'name':spec['label'],'label':spec['label'],'patterns':spec['patterns']} for key,spec in dictionary['frames'].items()]

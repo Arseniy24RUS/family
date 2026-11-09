@@ -2,6 +2,7 @@
 """Publish all current indicator results, input manifests, portable Python and Colab notebook."""
 import csv,json,zipfile
 from pathlib import Path
+from reproducible_output import write_zip_entry
 ROOT=Path(__file__).resolve().parents[1]
 def run(root=ROOT):
     out=root/'public/downloads/projections';out.mkdir(parents=True,exist_ok=True)
@@ -17,13 +18,13 @@ def run(root=ROOT):
         with (out/filename).open('w',encoding='utf-8-sig',newline='') as f:
             keys=list(dict.fromkeys(k for row in data for k in row))
             w=csv.DictWriter(f,fieldnames=keys,delimiter=';');w.writeheader();w.writerows(data)
-    (out/'indicator_manifest.json').write_text(json.dumps(index,ensure_ascii=False,indent=2), encoding='utf-8')
+    (out/'indicator_manifest.json').write_text(json.dumps(index,ensure_ascii=False,indent=2), encoding='utf-8', newline='\n')
     (out/'population_manifest.json').write_bytes((root/'public/data/projections/population/manifest.json').read_bytes())
     files={f'demography/{fn}':(root/f'scripts/demography/{fn}').read_text(encoding='utf-8') for fn in ['cohort.py','indicator.py','indicator_v11.py']};files['demography/__init__.py']='';files['reproduce_projection.py']=(root/'scripts/reproduce_projection.py').read_text(encoding='utf-8')
     readme='Новые алгоритмы платформы 1.2.1. Нужен Python 3.11+ и NumPy.\npython -m pip install -r requirements.txt\npython reproduce_projection.py indicator forecast.json\npython reproduce_projection.py cohort cohort_package.json\n\nПример example_synthetic.json полностью синтетический; к России и регионам не относится.\n'
     with zipfile.ZipFile(out/'projections_python.zip','w',zipfile.ZIP_DEFLATED) as z:
-        for name,text in files.items():z.writestr(name,text)
-        z.writestr('requirements.txt','numpy==2.3.5\n');z.writestr('README.txt',readme);z.write(root/'public/data/projections/demo_input.json','example_synthetic.json')
+        for name,text in files.items():write_zip_entry(z,name,text)
+        write_zip_entry(z,'requirements.txt','numpy==2.3.5\n');write_zip_entry(z,'README.txt',readme);write_zip_entry(z,'example_synthetic.json',(root/'public/data/projections/demo_input.json').read_bytes())
     cells=[]
     def md(s):cells.append({'cell_type':'markdown','metadata':{},'source':s.splitlines(keepends=True)})
     def code(s):cells.append({'cell_type':'code','execution_count':None,'metadata':{},'outputs':[],'source':s.splitlines(keepends=True)})
@@ -36,6 +37,6 @@ def run(root=ROOT):
     code('try:\n    from google.colab import files\n    files.download("reproduced.json")\nexcept ImportError:\n    print(Path("reproduced.json").resolve())\n')
     md('## Ограничения\n\nУсловные интервалы ансамбля не являются подтверждёнными частотными интервалами и не дают вероятности воздействия нацпроекта. Передвижка зависит от наблюдаемой базы и заданных возрастных/временных предпосылок. Модельная таблица смертности из ОПЖ не равна наблюдаемой возрастной таблице. Месячный шаг не означает ежемесячное наблюдение всех компонент.')
     notebook={'nbformat':4,'nbformat_minor':5,'metadata':{'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'},'language_info':{'name':'python','version':'3.11'}},'cells':cells}
-    (out/'projections_colab.ipynb').write_text(json.dumps(notebook,ensure_ascii=False,indent=2), encoding='utf-8')
+    (out/'projections_colab.ipynb').write_text(json.dumps(notebook,ensure_ascii=False,indent=2), encoding='utf-8', newline='\n')
     print(f'Выгрузки новых прогнозов: {len(rows)} значений, {len(models)} записей по моделям; Python ZIP и Colab.')
 if __name__=='__main__':run()

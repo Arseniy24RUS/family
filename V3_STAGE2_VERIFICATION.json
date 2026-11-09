@@ -1,0 +1,187 @@
+{
+  "schema": "national-projects.v3-stage-verification/2",
+  "release_version": "3.0.0-stage.2",
+  "release_date": "2026-11-01",
+  "verification_status": "VERIFIED_WITH_LIMITATIONS",
+  "updated_at_utc": "2026-11-01T18:54:51.250860+00:00",
+  "base_release": {
+    "version": "3.0.0-stage.1",
+    "commit": "2789bfb5340c3a9a937a40527b444efd18f65a81",
+    "repository": "https://github.com/Arseniy24RUS/family"
+  },
+  "original_v3_baseline": "45b6e7e055c2d9a4dc604d674273c0b20187ca36",
+  "scope": {
+    "project_count": 12,
+    "shared_context_projects": [
+      "family",
+      "long_active_life",
+      "personnel",
+      "tourism"
+    ],
+    "fields": [
+      "ctx_region",
+      "ctx_start",
+      "ctx_end",
+      "ctx_kind",
+      "ctx_frequency"
+    ],
+    "exact_period_rule": "Match start, end, observation semantics and publication frequency. No nearest date or December-to-annual substitution.",
+    "application": "Primary map and regional distribution; family multivariate analysis retains its own periods. Tourism overview applies the period to the regional slice and concentration. Other analyses state their own date scope.",
+    "source_data_refreshed": false,
+    "primary_observations_changed": false,
+    "causal_effect_estimated": false
+  },
+  "automated_checks": {
+    "node": {
+      "status": "PASS",
+      "files": 35,
+      "duration_ms": 1816.657475,
+      "ci_tests": 306,
+      "ci_duration_ms": 3002.195129,
+      "ci_status": "PASS"
+    },
+    "python": {
+      "status": "PASS",
+      "tests": 576,
+      "duration_seconds": 102.486,
+      "ci_tests": 576,
+      "ci_duration_seconds": 113.386,
+      "ci_status": "PASS"
+    },
+    "platform_validator": {
+      "status": "PASS",
+      "projects": 12
+    },
+    "preservation": {
+      "status": "PASS",
+      "report": "V3_STAGE2_PRESERVATION_VERIFICATION.json",
+      "original_baseline_payloads": 6842,
+      "stage1_payloads": 6844
+    },
+    "build_stability": {
+      "status": "PASS_WITH_EXPLICIT_LIMITS",
+      "report": "V3_STAGE2_BUILD_VERIFICATION.json",
+      "two_runs_compared_files": 8381,
+      "changed": 0,
+      "qualification": "Isolated HEAD2789bfb with the build stability patch. Final stage2 UI/version is checked by the separate CI run. Same-environment result; cross-platform numerical identity is not established."
+    }
+  },
+  "browser_checks": {
+    "manual_context": {
+      "status": "PASS_FOR_RECORDED_SCOPE",
+      "report": "V3_STAGE2_BROWSER_VERIFICATION.json"
+    },
+    "new_export_download_acceptance": {
+      "status": "PASS",
+      "formats": [
+        "JSON",
+        "CSV",
+        "SVG",
+        "PNG"
+      ],
+      "independent_json_verifier": "scripts/reproduce_tourism_research.py",
+      "report": "V3_STAGE2_BROWSER_VERIFICATION.json",
+      "commit": "af40247ad2fb2f5e85c703d8778e15ee0ec577cc",
+      "json_observations": 1806,
+      "json_periods": 21,
+      "json_trajectory_points": 84,
+      "csv_regions": 85,
+      "png_dimensions": [
+        1240,
+        1268
+      ],
+      "png_svg_differing_pixels": 0
+    },
+    "context_e2e": {
+      "status": "PASS",
+      "suite": "tests/browser_research_context.py",
+      "checks": 61,
+      "failed": 0,
+      "commit": "af40247ad2fb2f5e85c703d8778e15ee0ec577cc"
+    },
+    "health_source_retry": {
+      "status": "PASS",
+      "source_id": "62926",
+      "requests_before_explicit_retry": 1,
+      "requests_after_explicit_retry": 2,
+      "region": "77",
+      "period_end": "2026-09-30",
+      "value": 203.9,
+      "context_restored": true
+    },
+    "assembled_release": {
+      "status": "PASS",
+      "suites": 3,
+      "checks": 652,
+      "failed": 0,
+      "report": "V3_STAGE2_BROWSER_VERIFICATION.json"
+    },
+    "full_rebuild": {
+      "status": "PASS",
+      "suites": 17,
+      "checks": 6457,
+      "failed": 0,
+      "report": "V3_STAGE2_BROWSER_VERIFICATION.json"
+    }
+  },
+  "ci": {
+    "stage1": {
+      "status": "SUCCESS",
+      "commit": "2789bfb5340c3a9a937a40527b444efd18f65a81",
+      "run_id": 41307718329,
+      "url": "https://github.com/Arseniy24RUS/family/actions/runs/41307718329"
+    },
+    "stage2": {
+      "status": "SUCCESS",
+      "tested_commit": "af40247ad2fb2f5e85c703d8778e15ee0ec577cc",
+      "run_id": 41337507436,
+      "url": "https://github.com/Arseniy24RUS/family/actions/runs/41337507436",
+      "assembled_release_job": {
+        "id": 124940331526,
+        "status": "SUCCESS"
+      },
+      "full_build_job": {
+        "id": 124940331839,
+        "status": "SUCCESS"
+      },
+      "initial_run_id": 41336023670,
+      "initial_failure_and_correction": "Health preliminary loading bypassed the existing local source retry. Fixed without removing the error test; expanded regression verifies exact context and source value after explicit retry."
+    }
+  },
+  "pages_publication": {
+    "status": "PASS",
+    "report": "PAGES_BUILD_VERIFICATION.json",
+    "output_files": 4500,
+    "output_bytes": 886132871,
+    "headroom_bytes": 113867129,
+    "checks_passed": 6,
+    "gzip_roundtrips_verified": 816,
+    "scope": "Final retained docs after publication-instruction correction; no analytical recalculation."
+  },
+  "packaging": {
+    "status": "SEE_EXTERNAL_POST_PACKAGE_RECEIPT",
+    "mode": "full",
+    "physical_docs": true,
+    "deduplicate_docs": false,
+    "receipt": "V3_STAGE2_PACKAGE_VERIFICATION.json",
+    "note": "This content report is frozen before packaging. The archive CRC/SHA result is created afterward and is retained outside the ZIP to avoid a checksum cycle."
+  },
+  "remaining_limits": [
+    "Full rebuild has historical projection-edition differences and numerical/layout/platform-path drift. Its generated outputs are not imported into this cumulative release; published payloads remain byte identical.",
+    "Source statistical edition comparability and the eight tourism reconciliation differences remain unresolved.",
+    "No external scientific acceptance, complete WCAG2.2AA audit or field Core Web Vitals measurement is claimed."
+  ],
+  "publication": {
+    "draft_pr": "https://github.com/Arseniy24RUS/family/pull/2",
+    "branch": "codex/v3-01-tourism",
+    "main_changed": false,
+    "production_deployed": false
+  },
+  "tested_implementation_commit": "af40247ad2fb2f5e85c703d8778e15ee0ec577cc",
+  "post_test_changes": {
+    "scope": "Publication instructions, their download indexes and verification metadata only.",
+    "executable_code_changed": false,
+    "scientific_payload_changed": false,
+    "verification": "Final validator, both download indexes, retained payload comparison and Pages publication checks passed after the README correction."
+  }
+}

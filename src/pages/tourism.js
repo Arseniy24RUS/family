@@ -1,3 +1,5 @@
+import {tourismOverviewV3,tourismTerritoriesV3} from './tourism-v3.js';
+import {tourismCausalV3} from './tourism-causal-v3.js';
 import {observationCache, textPacketCache} from '../core/cache.js';
 import {h,svg,para,note,button,select,fmt,icon,csvDownload} from '../core/dom.js';
 import {heading,panel,toolbar,stats,table,figure,figureControls,empty} from '../components/ui.js';
@@ -324,4 +326,9 @@ function updates(ctx){
 function methods(ctx){return end(ctx,add(start(ctx),panel('Пригодность методов','Статус и доказательные основания',methodsTable(ctx.methods)),note('В наличии один региональный признак поездок. Многомерная типология, PCA и Isolation Forest не рассчитываются. Пространственная статистика одного признака, если представлена в исходном исследовании, сохраняет собственную спецификацию и не становится оценкой эффекта проекта.'),reportTable(ctx,1)));}
 
 const renderers={overview,framework,logic,audit,targets,map:ctx=>territorial(ctx,false),regions:ctx=>territorial(ctx,true),finance,network,texts,domains,causal,proposals,projections,population,structure,methods,lab,explorer,library,updates};
-export async function renderTourism(ctx){return(renderers[ctx.state.page]||overview)(ctx);}
+export async function renderTourism(ctx){
+ if(ctx.state.page==='overview')return tourismOverviewV3(ctx);
+ if(['map','regions'].includes(ctx.state.page))return tourismTerritoriesV3(ctx);
+ if(ctx.state.page==='causal')return tourismCausalV3(ctx);
+ return(renderers[ctx.state.page]||overview)(ctx);
+}
